@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ba27fae-16a9-4e6e-b11a-151940d326f2">
+  <producedTypes>
+    <objectType typeId="1edb7c37-a044-40a3-8a44-d1895f15ed1d" valueTypeId="e4259b94-8a9d-4b79-abf3-595d2e345f9e"/>
+    <managerType typeId="3f89db97-0434-429e-84ba-383ad0945602" valueTypeId="32b8caaa-70f4-478b-aa2f-7ce77708aadb"/>
+  </producedTypes>
+  <name>ЖурналДокументовПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="bf416052-06b1-49b0-93b0-c4428a407c93">
+    <name>КОформлениюНакладных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="8c4f1435-a98f-4be3-86ab-192cc751d63a">
+    <name>ПараметрыОформленияДокументовПродажи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="f04b7fda-c7f3-4a24-8585-b56cacfcb176">
+    <name>ФормаСозданныеДокументы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="8664fbe4-0fe1-41e3-a006-254d2737dae3">
+    <name>бг_ФормаЗаполненеияОтветственныхЛицВДокументе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполненеия ответственных лиц в документе</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Print details</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b0bba66b-5fc1-4316-b8a4-2c4ab81fa602">
+    <name>СписокДокументов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

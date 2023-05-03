@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f4b021b-1d2c-469a-9c53-5aa90f59b69d">
+  <producedTypes>
+    <objectType typeId="e8dfe692-7146-439d-be6d-3940ae1f676f" valueTypeId="f69bfc48-f249-46a0-8f53-62aee0386133"/>
+    <refType typeId="2e42c212-9ea2-428d-a1cd-1ebebf84dc2d" valueTypeId="60566b68-77ec-4b2d-9bb2-8771f16ac3bd"/>
+    <selectionType typeId="55ec22c1-a27c-4c56-8730-92b2fd4a0150" valueTypeId="43dd4e73-671b-49be-b722-e0f8f8300e6c"/>
+    <listType typeId="7096a468-6343-4d52-8139-e612e719ac45" valueTypeId="3c91c21b-2426-4c38-b936-617757edae0b"/>
+    <managerType typeId="f0c4de85-185b-4d02-ba52-393fda566749" valueTypeId="de250e2f-a51b-49ed-8167-f83d62b53fe0"/>
+  </producedTypes>
+  <name>СкидкиНаценки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <hierarchical>Checked</hierarchical>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="0c2bedc8-e7cd-40bd-988f-2a2ed0dacf8a">
+      <name>КорневаяГруппа</name>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <attributes uuid="ba807af8-415b-4c33-8b24-d5d4d874b8d8">
+    <name>бг_Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User who created the document</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3d135aa-8fd7-425e-a098-6cc6b0eb9642">
+    <name>бг_Акционная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акционная</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c938c91e-0eed-4e3d-bbc8-dc053eff90a1">
+    <name>бг_БезусловноеПрименениеПослеПервогоСрабатывания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безусловное применение после первого срабатывания</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb3cc078-c277-48e9-a011-1c3c1565d5dd">
+    <name>бг_БлокируетСуммовыеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокирует суммовые скидки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e669f2e1-29b1-4d53-9bc6-cc37db24c33c">
+    <name>бг_ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b66a3610-98fe-4664-88ff-f7899d3e6cd9">
+    <name>бг_ИсточникЦеновойГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник ценовой группы</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ИсточникиЦеновойГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad0286f8-46f6-4e98-a9d6-a2da2e02a39d">
+    <name>бг_КаналыПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы продаж</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5f3b8878-8df4-4439-8c96-4aefbcf9ad3a">
+    <name>бг_КодСтрокиБюджета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код строки бюджета</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <mask>XX/XX/XXXXXX</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>            </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ed2a28f7-3fa8-451f-8d79-416e1d7663e0">
+    <name>бг_Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e371d1d2-ec36-4c51-824c-513f650c8f8c">
+    <name>бг_Накопительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопительная</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5f0034b-5c2c-43cb-a859-18310f7dced1">
+    <name>бг_НеУчитыватьПороги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать пороги</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="beb0b025-e07e-4089-a2b8-34a3cef891b5">
+    <name>бг_НомерКонтракта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер контракта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Contract number</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c3fc227-2904-4bfa-ae3c-5245c5fd1c87">
+    <name>бг_ОграничениеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение скидки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Discount markup value</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальный процент скидки (наценки) с учётом уже рассчитанных скидок
+Если 0 -- нет ограничения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Discount (markup) upper boundary in percents, including all previous</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f99c766a-29d0-4724-a3d6-0baaceb50a61">
+    <name>бг_Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4911487c-967a-489e-9694-5b4a642ce5a3">
+    <name>бг_ТипСкидкиНаценкиCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип скидки (наценки) CRM</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ТипыСкидокНаценокCRM</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e752fbc-4627-4cbb-907d-1f398b8c1aed">
+    <name>бг_ТребуетсяПодтверждениеМТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется подтверждение МТ</value>
+    </synonym>
+    <comment>МТ - мобильная торговля</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69a1f405-25b3-45df-a49a-078810f1496f">
+    <name>бг_ШаблонСкидкиЧКН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон скидки ЧКН</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.СкидкиНаценки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c3498dfb-ecf4-43a1-bb75-5ac265b82495">
+    <name>ВариантСовместногоПрименения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыСовместногоПримененияСкидокНаценок</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2d0afe9b-ca68-474c-99fd-19a273a53dee">
+    <name>РеквизитДопУпорядочивания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="8e580b77-f771-4b59-b5a0-a0df93c89427">
+    <producedTypes>
+      <objectType typeId="ff778b22-b1db-45b6-bc41-e5df39c862a7" valueTypeId="9ab4ed8a-632e-4cf9-b339-8f6b3dcd9e9c"/>
+      <rowType typeId="4c15b6a4-2ad1-4e90-a1d6-20805009ca35" valueTypeId="bf01a6bd-122a-4f3f-b2bd-49b8c1e60664"/>
+    </producedTypes>
+    <name>бг_ЦеновыеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовые группы (БГ)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price groups</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cd8e0d72-9d65-4f8b-834b-ae4405260d6f">
+      <name>ЦеноваяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценовая группа</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Price group</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.ЦеновыеГруппы</types>
+        <types>CatalogRef.бг_ЕК_СКЮ_СкюМТ</types>
+        <types>CatalogRef.бг_ЕК_Бренды_БрендыТМ</types>
+        <types>CatalogRef.бг_ЕК_Бренды_БрендыМТ</types>
+        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.бг_ЕК_СКЮ_Вкусы</types>
+        <types>CatalogRef.бг_ЕК_СКЮ_Классы</types>
+        <types>CatalogRef.Проекты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ценовая группа, на номенклатурные позиции которой предоставляется указанное значение скидки (наценки). </value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Price group for product items of which a specified discount (markup) value is provided.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b34882bc-aad3-4729-b383-b9499f7cc759">
+      <name>ЗначениеСкидкиНаценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение скидки (наценки)</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Discount (markup) value</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение скидки (наценки), тип которого зависит от способа предоставления.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Discount (markup) value which type depends on provision method.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e8030be-b814-432a-892d-831b6adb2117">
+      <name>Бренд_МТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Бренд МТ</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.бг_ЕК_Бренды_БрендыМТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de756c92-3368-4058-83c2-554f87a5d97e">
+      <name>Вкус</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вкус</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.бг_ЕК_СКЮ_Вкусы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0c8a186-80f8-4fba-a243-6fce60e39bb0">
+      <name>СкюМТ</name>
+      <synonym>
+        <key>ru</key>
+        <value>СКЮ МТ</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.бг_ЕК_СКЮ_СкюМТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="29a31190-bbc8-4c0b-908a-a0e0eb89b044">
+    <producedTypes>
+      <objectType typeId="27946d10-342f-4509-8ed0-bd171397f2ab" valueTypeId="eb8e9c13-d4a0-4332-b656-973fcb56c2d4"/>
+      <rowType typeId="ea3aae34-cff9-42fd-af42-db012ff977e6" valueTypeId="14ff1418-9582-4567-9c8f-194c0c63cb33"/>
+    </producedTypes>
+    <name>бг_Исключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Exceptions</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cb969b25-5e47-43ff-bbb7-67e9bf55a7e5">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битПунктыНазначения</types>
+        <types>CatalogRef.битКаналыПродаж</types>
+        <types>CatalogRef.битТерриторииПунктовНазначения</types>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+        <types>CatalogRef.СегментыПартнеров</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ba927e2a-12a7-4633-b8f7-c67adfb86356">
+    <producedTypes>
+      <objectType typeId="60d6eb54-5287-45b5-8616-0bd0f46049d0" valueTypeId="e459e328-a059-4f0b-b244-739e4b727153"/>
+      <rowType typeId="4e27ab24-65da-4d82-8264-d4fda803ec2c" valueTypeId="60978418-2e3b-4942-9c15-45b847534b21"/>
+    </producedTypes>
+    <name>бг_Ограничения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Restrictions</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2445591f-f86b-4777-96a0-b9abd0649929">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битПунктыНазначения</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2fc6abe-6d77-4a7b-83ba-c45cb71e08c0">
+      <name>ПоСуммеСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>По сумме скидки</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7492234-7714-483e-be94-d0964454dcca">
+      <name>ПоОбъему</name>
+      <synonym>
+        <key>ru</key>
+        <value>По объему (дал)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cbab4f57-1908-461f-9b8e-e5b42683f5b6">
+      <name>ПоСуммеСкидкиНаПунктНазначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>По сумме скидки на пункт назначения</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7dc3444d-38cd-4569-abae-16379d922c1c">
+      <name>ПоОбъемуНаПунктНазначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>По объему на пункт назначения (дал)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="92ff876d-83bb-4442-9afe-d10b3ba31b06">
+    <name>бг_ВытеснениеПериодовДействияСкидокНаценок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вытеснение периодов действия скидок (наценок)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dicsounts (markups) displacement</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ecabbf2-10fd-469e-ab05-c57825658015">
+    <name>бг_УточнениеСкидкиНаценки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточнение размера скидки (наценки)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specify the amount of discount (markup)</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d305a7f7-6dfe-46dc-b6e0-0a9e32344405">
+    <name>ДействиеСкидкиНаценки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="955abe87-b7ce-4b0c-802f-8adeaa114f9f">
+    <name>ИсторияДействияСкидкиНаценки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="c7953178-7e6c-4941-86cc-0a53e2bd5d43">
+    <name>УстановкаСтатусаДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="68cdc576-a9eb-4ca9-9f34-f9a06f9ed038">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="065e38a9-ceb6-4ec5-812f-1273aa157182">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="db4a0322-3edd-4dd0-a68d-d9961508c95d">
+    <name>ФормаГруппы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

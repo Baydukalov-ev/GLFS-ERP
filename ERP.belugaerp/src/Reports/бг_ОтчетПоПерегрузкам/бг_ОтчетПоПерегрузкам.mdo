@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d82d97-84b7-4121-9da4-cfe898420c5e">
+  <producedTypes>
+    <objectType typeId="551b6a48-b5a3-4d85-b0b7-79b07afc2074" valueTypeId="1f12c8e5-a634-4b08-a9b7-d61eb7a24942"/>
+    <managerType typeId="ec04d45f-c65f-4b38-a1d9-b2dc460fb55b" valueTypeId="aeb312fc-b9c3-4c81-8bac-d1d0ee3b333a"/>
+  </producedTypes>
+  <name>бг_ОтчетПоПерегрузкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по перегрузкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОтчетПоПерегрузкам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="10e78dd0-3f9f-4cd8-b798-ddc0f95b25d4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

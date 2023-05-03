@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9614ae30-e445-4c30-8391-4da7a66fd5a4">
+  <name>бг_MobileSmarts</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile Smarts</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.бг_msАгрегацияЕГАИС3</content>
+  <content>Role.бг_msНастройки</content>
+  <content>Role.бг_msОпределениеПродукции</content>
+  <content>Role.бг_msОтгрузкаЕГАИС3</content>
+  <content>Role.бг_msПостановкаНаБалансЕГАИС3</content>
+  <content>Role.бг_msПоступлениеЕГАИС3</content>
+  <content>Role.бг_msПриемВозвратовЕГАИС3</content>
+  <content>Role.бг_msПроверкаСвязиС1С</content>
+  <content>Role.бг_msПроверкаСканирования</content>
+  <content>Role.бг_msПросмотрСправочников</content>
+  <content>Role.бг_msРазагрегация</content>
+  <content>Role.бг_msСортировка</content>
+  <content>Role.бг_msСписаниеЕГАИС3</content>
+  <content>Role.бг_msУпаковка</content>
+  <content>CommonModule.бг_WMS</content>
+  <parentSubsystem>Subsystem.бг_УчетМарокИнтеграцияWMS</parentSubsystem>
+</mdclass:Subsystem>

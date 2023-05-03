@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a3d5885-97ec-4470-bb0e-1aa8c182b5f3">
+  <producedTypes>
+    <refType typeId="562d1e78-a02f-475f-bd33-36e9ff8a1a18" valueTypeId="b13ce13e-6bd9-4aa5-8395-e03de77a6c78"/>
+    <listType typeId="19975f2c-c0f0-421f-a2b1-1c4f36230976" valueTypeId="ba7e78b0-bd7c-4b86-85bd-3e1516cde493"/>
+    <managerType typeId="df6cd70f-765a-4df9-b18f-8d89175b7f0f" valueTypeId="e3968742-ae87-4e5d-9e72-a52a2f0fb868"/>
+  </producedTypes>
+  <name>бг_ТипыВнешнихСкладскихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы внешних складских систем</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb321a3a-3bdc-4486-b6c1-0830d3f2f11d">
+    <name>MobileSmarts</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mobile smarts</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a22950b-44d0-48f6-982b-64538be29aba">
+    <name>Solvo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Solvo</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

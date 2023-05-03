@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cc51328-1458-4d96-87b5-35384e65cb9c">
+  <name>бг_битВыгрузкаИзмененийСвободныхОстатковДляИМИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка изменений свободных остатков для ИМ (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

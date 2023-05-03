@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd123c3b-5d6a-4ca2-9b39-71109cda5fca">
+  <producedTypes>
+    <objectType typeId="54e7c754-bf9d-4c63-b56e-e9d5a3a35a53" valueTypeId="d7073720-cfc9-4d59-bd4a-10c9fee2c6dc"/>
+    <refType typeId="0c0d1cc0-a145-4eee-adac-717b865c22a0" valueTypeId="c82cf29e-11ea-482e-b0ab-9e01a83d315b"/>
+    <selectionType typeId="1d8c1e18-f914-4369-9bd2-8d3c099106d6" valueTypeId="9e7deaf2-bc96-4557-bd9f-4fff253bf81c"/>
+    <listType typeId="db234013-0524-4b66-a30d-8bcdd5ecea19" valueTypeId="6379cbb8-5b73-4a5a-88da-4eb7a599bef2"/>
+    <managerType typeId="f4599c51-5394-498c-9516-ec84a75ad55d" valueTypeId="3db5e7ed-0c53-4a62-945b-dcbee0f793c4"/>
+  </producedTypes>
+  <name>НастройкиСчетовУчетаПрочихОпераций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="147e851c-f090-44a8-ad75-247ae0a0e229">
+    <name>СчетУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfAccountsRef.Хозрасчетный</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="bf926951-4f03-4c60-9407-409edcdb0a2c">
+    <name>Субконто1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ВидыСубконтоХозрасчетные</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="19a08bf3-00c2-4a29-94f8-bab4dd8cfc30">
+    <name>Субконто2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ВидыСубконтоХозрасчетные</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3ab1805c-092c-4e4f-a7b9-da61adf276ef">
+    <name>Субконто3</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ВидыСубконтоХозрасчетные</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b76cd9eb-cfbe-4cac-ac1c-bc0f7632c9d6">
+    <name>ВладелецНастройки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="643b15f1-76f9-40f0-ad49-2bb9d64cd3a3">
+  <producedTypes>
+    <refType typeId="bba84055-fae2-45f5-935b-65ca7dbd5d5d" valueTypeId="99e12097-96aa-4251-a842-c60a875c4b95"/>
+    <listType typeId="cf8ae31a-387c-4810-a0d4-f17371236443" valueTypeId="6de375b0-c63f-4f0c-a25f-469da573a4a4"/>
+    <managerType typeId="c331daec-194d-4d4f-a656-05951c07fff2" valueTypeId="7811d39c-64bd-4106-a88d-b3f33d97d5e1"/>
+  </producedTypes>
+  <name>СтатусыОбработкиАктаПостановкиНаБалансЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <enumValues uuid="4df1f41e-5fbd-44c1-b543-c176b5b13005">
+    <name>Черновик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="778b6b39-4cc6-4988-bebd-6b784cd59802">
+    <name>КПередаче</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="488ce96d-49d4-4a84-a94c-6abf56b9fe3d">
+    <name>ПереданВУТМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="597de095-5637-44e9-bd54-b7213a3a4f54">
+    <name>ОбрабатываетсяЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="efd05a04-52d8-41db-991a-449e15495b15">
+    <name>ПроведенЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bc9f92e2-fe62-4cba-9229-57283b41e642">
+    <name>ОшибкаПередачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="07914f7b-76fd-4b54-86d7-8b796356e2f2">
+    <name>ОшибкаПроведенияЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e6888254-59b2-48f3-9aab-83c827021d45">
+    <name>ЗапросНаОтменуПроведенияКПередаче</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="90d010da-2f37-46ed-bd97-4207cae92e40">
+    <name>ЗапросНаОтменуПроведенияПереданВУТМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="73acf6fe-6c4f-4384-b279-113efd723e9f">
+    <name>ЗапросНаОтменуПроведенияОбрабатываетсяЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="18b2c46f-4caa-4cf2-a57c-9d5fe8df458b">
+    <name>Отменен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9a233b30-4d83-4a86-a876-4db57acce526">
+    <name>ЗапросНаОтменуПроведенияОшибка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6c2341c0-1858-4d68-80ca-57b8519e351a">
+    <name>бг_Подтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

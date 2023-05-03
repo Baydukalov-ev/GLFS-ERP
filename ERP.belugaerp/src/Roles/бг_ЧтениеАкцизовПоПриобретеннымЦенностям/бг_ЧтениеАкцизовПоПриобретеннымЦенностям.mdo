@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34b7f8a6-9765-467b-a76f-7b1446ab0758">
+  <name>бг_ЧтениеАкцизовПоПриобретеннымЦенностям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение акцизов по приобретенным ценностям</value>
+  </synonym>
+</mdclass:Role>

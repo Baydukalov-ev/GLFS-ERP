@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b0c1dd8-0d53-41dc-b6c6-dd316092b18c">
+  <name>бг_битФакторингИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Факторинг (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

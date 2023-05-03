@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f64534-3c68-4386-af4e-4727fe82ebe6">
+  <name>бг_ИспользованиеОбработкиВыгрузкаДанныхДляЧикаго</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки выгрузка данных для Чикаго</value>
+  </synonym>
+</mdclass:Role>

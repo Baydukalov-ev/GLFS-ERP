@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65c77675-c4ed-40da-ab8e-98d308539ff8">
+  <name>бг_ДобавлениеИзменениеТранспортнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение транспортной информации</value>
+  </synonym>
+</mdclass:Role>

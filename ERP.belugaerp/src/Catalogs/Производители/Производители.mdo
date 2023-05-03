@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="68e96a32-ac14-470f-92a6-f56fb53238cc">
+  <producedTypes>
+    <objectType typeId="c7477001-d6d6-4b3d-b4cf-254405fc382e" valueTypeId="8e01dfb9-c948-42bd-bfbb-7ec75def4098"/>
+    <refType typeId="c882b478-6c77-40cd-8583-b22335c0988c" valueTypeId="7c9a542c-9913-44d5-a43c-f975588542d5"/>
+    <selectionType typeId="e9fa1294-bdc6-4f66-a1fc-b24fe381c134" valueTypeId="95b24ff6-8a66-4176-bd7d-966c572690ba"/>
+    <listType typeId="70a6575c-cb08-49d6-b090-7b2f681e3bea" valueTypeId="75c3985c-85ac-46f2-ac1a-4032fce2008e"/>
+    <managerType typeId="0500703b-d868-4ead-9910-327392d36693" valueTypeId="0185da76-6768-4d5b-8adf-a6047530e1ec"/>
+  </producedTypes>
+  <name>Производители</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="b8b48833-674c-48fc-96e7-29d6aa97d3d5">
+    <name>бг_КодНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код НСИ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

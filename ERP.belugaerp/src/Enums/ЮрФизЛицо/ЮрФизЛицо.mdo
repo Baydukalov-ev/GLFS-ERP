@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7d06eba9-3470-45c8-9ee5-444ca86d06d4">
+  <producedTypes>
+    <refType typeId="87f80cb5-7927-44fe-b6e0-72d9e55852b9" valueTypeId="c3e25650-884b-4696-b31b-7474c5989405"/>
+    <listType typeId="54d3d3a6-2a72-4841-8a11-ba54cdad759b" valueTypeId="917a7116-a3ec-4b2f-98b0-caec083f82d6"/>
+    <managerType typeId="36207a5f-c7b0-4bbc-99f2-34f8568b04cd" valueTypeId="eb708f18-2330-4fb5-b599-fd4726b97741"/>
+  </producedTypes>
+  <name>ЮрФизЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="888b3d77-1c8e-4c19-84cd-c0a007313a73">
+    <name>ЮрЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="14de33fb-500d-4fd5-a997-3912c6e22908">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3f9cdae4-c618-4bd1-8387-f19d9b157749">
+    <name>ЮрЛицоНеРезидент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6323dca0-c6ff-444d-a77c-c76acb5fd9d4">
+    <name>ИндивидуальныйПредприниматель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

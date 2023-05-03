@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0cb462d6-07f8-4b5f-9faf-d72c8260b6a3">
+  <producedTypes>
+    <refType typeId="b804b582-85ef-4041-8119-065b99d3047f" valueTypeId="ce327752-67b2-4c79-94d7-2f22c525919c"/>
+    <listType typeId="fe8a5532-a598-4f1d-beed-474de732e5fa" valueTypeId="40b90d7d-106e-454a-8ce0-3031baa96115"/>
+    <managerType typeId="2ce8fb2a-6ff3-4682-b629-f7d5469ad254" valueTypeId="4150a7f5-57d1-424a-95df-bea1e5956fb8"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="9a6dbec3-73e1-47d3-b1e5-61e877895665">
+    <name>Услуга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d8f94475-84f7-4d15-9b0c-4daca68cfaef">
+    <name>Работа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4256ef4-8a4f-42f2-9735-910f25cdda51">
+    <name>Товар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4f053a9a-46ed-46f3-98bd-5964100de2ef">
+    <name>МногооборотнаяТара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

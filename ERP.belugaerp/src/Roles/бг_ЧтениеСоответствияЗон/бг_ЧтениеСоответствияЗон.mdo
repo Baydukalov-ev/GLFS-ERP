@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd7e70c1-7892-4e54-9668-99bc392b6c4e">
+  <name>бг_ЧтениеСоответствияЗон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение соответствия зон</value>
+  </synonym>
+</mdclass:Role>

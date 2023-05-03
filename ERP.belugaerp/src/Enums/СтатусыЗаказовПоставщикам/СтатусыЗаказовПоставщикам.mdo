@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6caf54bb-8f1c-4e8f-906b-997344ff278b">
+  <producedTypes>
+    <refType typeId="91c2f33d-543b-44cf-947e-51fd628c9d20" valueTypeId="ef1b9045-5750-490d-9bb5-e7533abbbefe"/>
+    <listType typeId="3e00cbe2-61eb-4393-a68b-b7e6a469e2ce" valueTypeId="981e6150-7a91-4ee7-98fe-789bb06341e0"/>
+    <managerType typeId="54f9b1fa-c352-40bb-94b1-c697105b15d0" valueTypeId="db9bbbf1-be31-428a-9349-d2a7eea5e225"/>
+  </producedTypes>
+  <name>СтатусыЗаказовПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="79b6c4a8-6ba9-46e8-b74e-b9201192727f">
+    <name>Согласован</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4486061f-b6a3-4902-8b74-171a49c8614d">
+    <name>Подтвержден</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

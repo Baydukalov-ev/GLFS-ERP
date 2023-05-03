@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8b5567b-3a65-4160-bd20-7e51f6a1a77b">
+  <name>бг_ИспользованиеОтчетаСоответствиеРасходаМатериаловНормативам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета соответствие расхода материалов нормативам</value>
+  </synonym>
+</mdclass:Role>

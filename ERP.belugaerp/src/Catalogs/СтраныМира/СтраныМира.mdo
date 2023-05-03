@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e23166a4-e97a-4a35-9729-8a4ee16a2a9c">
+  <producedTypes>
+    <objectType typeId="395fcbdc-a7e4-4796-b54c-eee82f1ec8cf" valueTypeId="44eff668-f839-447f-a51b-95ca6b1a78d2"/>
+    <refType typeId="d5fadbce-e3e3-40cd-be5b-6cbd554c0c3e" valueTypeId="b519f637-2b0c-4aaa-9bd5-590e9e1baf04"/>
+    <selectionType typeId="2448a21e-5c7c-4d1f-86a7-66544e945899" valueTypeId="f65ad6ef-936a-4f6e-a7a4-994ad4ebda6a"/>
+    <listType typeId="24d546df-994e-443c-8575-782f69462171" valueTypeId="b07aa808-ce2a-4390-8ee5-6bfc2db64f98"/>
+    <managerType typeId="d69c152a-914d-4146-abda-8b075f3b1064" valueTypeId="d6113d09-cf2f-497c-b7da-1524abcd1263"/>
+  </producedTypes>
+  <name>СтраныМира</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <predefined>Checked</predefined>
+  </extension>
+  <codeLength>3</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <predefined>
+    <items id="6eee6b2c-a6dc-44eb-93bd-8d1eead57d30">
+      <name>Россия</name>
+      <description>РОССИЯ</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>643</value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="b6b6aa07-2cce-4ae2-86ff-eff18dce22b2">
+    <name>КодАльфа2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>2</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b623d1a4-d526-4388-9241-92c914b8f5c0">
+    <name>УчастникЕАЭС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="861b7c7e-c2dd-40fb-acd0-a3cd5fbff9cf">
+    <name>бг_КодСтраныЧислом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код страны (числом)</value>
+    </synonym>
+    <comment>// Служебный реквизит для связи в запросах с числовыми кодами стран</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

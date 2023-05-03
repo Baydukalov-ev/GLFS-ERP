@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b602752-c41e-4d18-85bb-d88a533bce81">
+  <producedTypes>
+    <objectType typeId="ad618a79-fa46-4ea4-9cb8-02219cc7350b" valueTypeId="bf81436f-a3d1-4672-afdb-0ab27083dd8d"/>
+    <managerType typeId="ca24d2e4-0ce0-4300-b125-738573c53f9a" valueTypeId="797001f4-b59f-4890-a589-6244e7577b12"/>
+  </producedTypes>
+  <name>бг_ОперационныйКонтрольДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операционный контроль доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОперационныйКонтрольДоставки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="cc11d243-70d9-4563-b8a4-3c4d700e6baa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

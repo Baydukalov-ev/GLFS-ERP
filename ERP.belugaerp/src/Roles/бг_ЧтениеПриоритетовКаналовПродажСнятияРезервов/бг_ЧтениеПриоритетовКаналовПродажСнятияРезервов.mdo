@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73a9a280-9dd8-402f-8de7-9a8a00a067bd">
+  <name>бг_ЧтениеПриоритетовКаналовПродажСнятияРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение  приоритетов каналов продаж снятия резервов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eab60d18-8f89-48e4-be14-39ed45aeb4c9">
+  <name>бг_ВидыВинаИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды вина (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

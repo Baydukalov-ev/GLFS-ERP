@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f7ac4cfd-15a3-4123-b2e6-010d7b8ec510">
+  <name>egais_QueryParameters</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:XDTOPackageExtension"/>
+  <namespace>http://fsrar.ru/WEGAIS/QueryParameters</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c42caa2f-7558-42c8-bc7e-a6aefcb972f6">
+  <producedTypes>
+    <objectType typeId="71d53093-3f5a-48fc-ab08-3c821c0c6707" valueTypeId="75a9505d-3f9a-43dd-913f-e6e7aacbf136"/>
+    <managerType typeId="64ab8041-1f9a-4843-8035-ca30d203eee0" valueTypeId="befdee76-be8f-4efe-8d61-6f7f627e2502"/>
+  </producedTypes>
+  <name>бг_ФормированиеМаршрутныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование маршрутных листов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ФормированиеМаршрутныхЛистов.Form.Форма</defaultForm>
+  <forms uuid="5d194df3-cc8c-4433-abbb-b9482bb94e72">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="afed01de-ace4-4bda-936f-9ee263dca07c">
+    <name>НераспределенныеЗаказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нераспределенные заказы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="16cf8d1b-7b4e-4f81-aa62-d3648c530a58">
+    <name>ФормированиеМаршрутныхЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование маршрутных листов</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

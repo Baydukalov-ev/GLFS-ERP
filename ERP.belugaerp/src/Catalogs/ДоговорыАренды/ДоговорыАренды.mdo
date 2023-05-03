@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d58d7377-e399-4c11-9ef4-a55629a2eb4c">
+  <producedTypes>
+    <objectType typeId="74b52ffb-77c7-4139-94a4-4ca6f4f77e2d" valueTypeId="341d1206-777f-40c5-97b9-b51f254a3adf"/>
+    <refType typeId="2610ba11-9fee-49d0-b0c9-99e00edb4b5d" valueTypeId="9b1c8cd8-eb09-4752-bbee-a52ff1b0a299"/>
+    <selectionType typeId="5b5c0ea0-6210-41f5-a819-403630990d67" valueTypeId="97f9b972-4e57-408b-aa7c-2be7ec4438ad"/>
+    <listType typeId="e45c1d86-53a3-4c20-84b2-472a2a93ec7f" valueTypeId="9d275760-4761-4909-8057-a63b6d4e68df"/>
+    <managerType typeId="e2ad3655-3703-4d8d-9457-fd994fdfd63e" valueTypeId="3d6c7190-811b-42ae-8132-539bf28d8f3a"/>
+  </producedTypes>
+  <name>ДоговорыАренды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="5ea44c40-75c1-4ae8-b925-a98c431f9ed8">
+    <name>бг_ВидВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид взаиморасчетов</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ВидыВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="24ac8f8e-45f6-44fd-b926-945b098536c2">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

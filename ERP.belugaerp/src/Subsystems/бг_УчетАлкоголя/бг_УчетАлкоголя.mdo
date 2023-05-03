@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88806ba2-d3c3-42a7-9afa-be6c1463ec67">
+  <name>бг_УчетАлкоголя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет алкоголя</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.бг_алкоголь</picture>
+  </picture>
+  <content>Document.битСписаниеПотерь</content>
+  <content>DataProcessor.ПанельОбменЕГАИС</content>
+  <content>DataProcessor.бг_ПечатьНарядЗаданий</content>
+  <content>DataProcessor.бг_ЗагрузкаПроводокИзБК</content>
+  <content>Document.битПланируемыйВвозЕГАИС</content>
+  <content>Report.бг_ДиапазоныМарок</content>
+  <content>Enum.бг_ВариантыВыгрузкиАкцизныхМарок</content>
+  <content>Enum.бг_ТипыЕдиницИзмерения</content>
+  <content>InformationRegister.бг_НастройкиОтправкиПечатныхФорм</content>
+  <content>Enum.бг_СтатусыАкцизныхМарок</content>
+  <content>Report.бг_СписанияНаРасходы</content>
+  <content>InformationRegister.бг_ВходящиеДокументыУТМ</content>
+  <content>Report.бг_АнализОтгружаемыхМарок</content>
+  <content>Enum.бг_ВариантыОтложеннойОбработкиОбъектов</content>
+  <content>Report.бг_ОстаткиАкцизаВГотовойПродукции</content>
+  <content>DataProcessor.бг_АктуализацияДвиженийПоАкцизам</content>
+  <content>Report.бг_АнализПринимаемыхМарок</content>
+  <content>Enum.бг_РасширенныеСтатусыОбработкиТТНВходящейЕГАИС</content>
+  <content>InformationRegister.бг_РасширенныеСтатусыДокументовЕГАИС</content>
+  <content>DataProcessor.бг_ЗаменаМенеджераВПунктахНазначения</content>
+  <content>Report.бг_СверкаЗаказаРозничногоПокупателя</content>
+  <content>Report.бг_ПроверочныйОтчетПоАкцизу</content>
+  <content>InformationRegister.бг_ОчередьСинхронизацииСвязанныхДокументов</content>
+  <subsystems>бг_Закупки</subsystems>
+  <subsystems>бг_Продажи</subsystems>
+  <subsystems>бг_УчетБанковскихГарантий</subsystems>
+  <subsystems>бг_УчетФСМ</subsystems>
+  <subsystems>бг_Администрирование</subsystems>
+  <subsystems>бг_Производство</subsystems>
+  <subsystems>бг_КонтрольКачества</subsystems>
+  <subsystems>бг_АСИиУ</subsystems>
+  <subsystems>бг_ТранспортнаяЛогистика</subsystems>
+  <subsystems>бг_ЕГАИС</subsystems>
+  <subsystems>бг_СогласованиеЗаказовКлиентов</subsystems>
+</mdclass:Subsystem>

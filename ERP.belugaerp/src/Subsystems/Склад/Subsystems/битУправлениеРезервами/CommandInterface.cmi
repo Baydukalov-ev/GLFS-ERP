@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:aafa3241-893f-46d7-93f2-61c4c9af27d1</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>0:34bbe894-a7e1-48e7-8ce7-5494ceb37358</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.бг_ИспользованиеРезервовТоваров.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Report.бг_РезервыТоваров.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.бг_ФормированиеДолгосрочныхРезервов.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

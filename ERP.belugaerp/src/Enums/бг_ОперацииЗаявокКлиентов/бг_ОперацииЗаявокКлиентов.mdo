@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecdab127-5128-4004-aa65-00830fe495c9">
+  <producedTypes>
+    <refType typeId="818c6a26-56d0-4ebb-84fa-ec75a1a83ac7" valueTypeId="4071bf01-78e6-42e4-aa27-17f86ba6c1ea"/>
+    <listType typeId="e54f4091-cb95-4ebe-936e-97f79c41666c" valueTypeId="cab2c302-0258-457f-bf4c-d04c951d0000"/>
+    <managerType typeId="7c81472f-36fd-433f-89c5-39d1af6bb5c3" valueTypeId="d17064be-59fd-4cc1-bbec-5ce61cce5a16"/>
+  </producedTypes>
+  <name>бг_ОперацииЗаявокКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции заявок клиентов (белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c76e5871-4b78-41e9-9168-b92e5c30dfbd">
+    <name>Резервирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="246ade8d-448b-4f44-9d43-1147a1f50dbd">
+    <name>ОтменаРезервирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена резервирования</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

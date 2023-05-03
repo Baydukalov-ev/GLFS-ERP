@@ -1,0 +1,482 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://BPMonline/sin/response">
+	<objectType name="TCreatePartnerBankAccount">
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="BankAccountID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreatePartnerCommercialTerms">
+		<property name="IDCRM" type="xs:ID"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableGroup" type="d3p1:TCreatePartnerTableGroup"/>
+	</objectType>
+	<objectType name="TCreatePartnerContract">
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="ContractID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreatePartnerGroup">
+		<property name="GroupID" type="xs:ID"/>
+		<property name="DocumentID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreatePartnerLicense">
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="LicenseID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="DateIssue" type="xs:dateTime"/>
+		<property name="ValidFrom" type="xs:dateTime"/>
+		<property name="ValidTo" type="xs:dateTime"/>
+		<property name="ExpirationDate" type="xs:dateTime"/>
+		<property name="TypeID" type="xs:ID"/>
+		<property name="RegionID" type="xs:ID"/>
+		<property name="UntilByID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableBankAccount">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="BankAccount" type="d3p1:TCreatePartnerBankAccount" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableCommercialTerms">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="CommercialTerms" type="d3p1:TCreatePartnerCommercialTerms" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableContract">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Contract" type="d3p1:TCreatePartnerContract" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableGroup">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Group" type="d3p1:TCreatePartnerGroup" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableLicense">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="License" type="d3p1:TCreatePartnerLicense" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerTableUnloadingPoint">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="UnloadingPoint" type="d3p1:TCreatePartnerUnloadingPoint" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreatePartnerUnloadingPoint">
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="UnloadingPointID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreateUpdateClientGroupInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="GroupID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="TCreateUpdateClientGroupInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TCreateUpdateClientGroupInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreateUpdateCommercialTermsIn1CCommercialTerms">
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="GroupID" type="xs:ID"/>
+		<property name="DocumentID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TCreateUpdateCommercialTermsIn1CTableCommercialTerms">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="CommercialTerms" type="d3p1:TCreateUpdateCommercialTermsIn1CCommercialTerms" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreateUpdateOKOPFInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="OKOPFID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="TCreateUpdateOKOPFInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TCreateUpdateOKOPFInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreateUpdateOrderInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="Order1CID" type="xs:ID"/>
+		<property name="Held" type="xs:boolean"/>
+		<property name="OrganizationID" type="xs:ID"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="RetailPartnerID" type="xs:ID"/>
+		<property name="Number" type="xs:string"/>
+		<property name="ShippingDate" type="xs:dateTime"/>
+		<property name="PaymentOption" type="xs:byte"/>
+		<property name="DeliveryTimeFrom" type="xs:dateTime"/>
+		<property name="DeliveryTimeTo" type="xs:dateTime"/>
+		<property name="ResponsibleID" type="xs:ID"/>
+		<property name="Comment" type="xs:string"/>
+		<property name="ContractID" type="xs:ID"/>
+		<property name="UnloadingPointID" type="xs:ID"/>
+		<property name="PriceTypeID" type="xs:ID"/>
+		<property name="StorageID" type="xs:ID"/>
+		<property name="StatusFinancialControlID" type="xs:ID"/>
+		<property name="StatusCreditControlID" type="xs:ID"/>
+		<property name="StatusPackage" type="xs:byte"/>
+		<property name="Closed" type="xs:boolean"/>
+		<property name="Completion" type="xs:decimal"/>
+		<property name="SalesAmount" type="xs:decimal"/>
+		<property name="SalesPayments" type="xs:decimal"/>
+		<property name="NDSAmount" type="xs:decimal"/>
+		<property name="TotalAmount" type="xs:decimal"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableProduct" type="d3p1:TCreateUpdateOrderInCRMTableProduct"/>
+	</objectType>
+	<objectType name="TCreateUpdateOrderInCRMProduct">
+		<property name="ProductID" type="xs:ID"/>
+		<property name="TypeSKU" type="xs:boolean"/>
+		<property name="Quntity" type="xs:int"/>
+		<property name="QuntitySales" type="xs:int"/>
+		<property name="ReturnQuntity" type="xs:int"/>
+		<property name="Total" type="xs:decimal"/>
+		<property name="TotalWithDiscount" type="xs:decimal"/>
+		<property name="Discount" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TCreateUpdateOrderInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TCreateUpdateOrderInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreateUpdateOrderInCRMTableProduct">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Product" type="d3p1:TCreateUpdateOrderInCRMProduct" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TCreateUpdateStorageInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="StorageID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+	</objectType>
+	<objectType name="TCreateUpdateStorageInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TCreateUpdateStorageInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetAllPricesPriceType">
+		<property name="PriceTypeID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="CurrencyID" type="xs:ID"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableProduct" type="d3p1:TGetAllPricesTableProduct"/>
+	</objectType>
+	<objectType name="TGetAllPricesProduct">
+		<property name="ProductID" type="xs:ID"/>
+		<property name="TypeSKU" type="xs:boolean"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="MinimumPriceRAR" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TGetAllPricesTablePriceType">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="PriceType" type="d3p1:TGetAllPricesPriceType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetAllPricesTableProduct">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Product" type="d3p1:TGetAllPricesProduct" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetDebtPartner">
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="Debt" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TGetDebtTablePartner">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Partner" type="d3p1:TGetDebtPartner" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetOrderPricesProduct">
+		<property name="ProductID" type="xs:ID"/>
+		<property name="TypeSKU" type="xs:boolean"/>
+		<property name="Total" type="xs:decimal"/>
+		<property name="TotalWithDiscount" type="xs:decimal"/>
+		<property name="Discount" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TGetOrderPricesTableProduct">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Product" type="d3p1:TGetOrderPricesProduct" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetOrderSKUBalanceManager">
+		<property name="ManagerName" type="xs:string"/>
+		<property name="Reserve" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TGetOrderSKUBalanceProduct">
+		<property name="Product" type="xs:string"/>
+		<property name="CommonTotal" type="xs:decimal"/>
+		<property name="CommonReserve" type="xs:decimal"/>
+		<property name="Balance" type="xs:decimal"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableManager" type="d3p1:TGetOrderSKUBalanceTableManager"/>
+	</objectType>
+	<objectType name="TGetOrderSKUBalanceTableManager">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Manager" type="d3p1:TGetOrderSKUBalanceManager" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetOrderSKUBalanceTableProduct">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Product" type="d3p1:TGetOrderSKUBalanceProduct" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetTotalSKUBalanceProduct">
+		<property name="ProductID" type="xs:ID"/>
+		<property name="TypeSKU" type="xs:boolean"/>
+		<property name="Total" type="xs:decimal"/>
+		<property name="Reserve" type="xs:decimal"/>
+		<property name="Balance" type="xs:decimal"/>
+	</objectType>
+	<objectType name="TGetTotalSKUBalanceStorage">
+		<property name="StorageID" type="xs:ID"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableProduct" type="d3p1:TGetTotalSKUBalanceTableProduct"/>
+	</objectType>
+	<objectType name="TGetTotalSKUBalanceTableProduct">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Product" type="d3p1:TGetTotalSKUBalanceProduct" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TGetTotalSKUBalanceTableStorage">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="Storage" type="d3p1:TGetTotalSKUBalanceStorage" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdateBankAccountsInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="BankAccountID" type="xs:ID"/>
+		<property name="BankID" type="xs:ID"/>
+		<property name="Number" type="xs:string"/>
+		<property name="IsMain" type="xs:boolean"/>
+	</objectType>
+	<objectType name="TUpdateBankAccountsInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdateBankAccountsInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdateBanksInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="BankID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="BIK" type="xs:string"/>
+		<property name="CorrNumber" type="xs:string"/>
+	</objectType>
+	<objectType name="TUpdateBanksInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdateBanksInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdateContractsInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="ContractID" type="xs:ID"/>
+		<property name="OrganizationID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="ExpirationDate" type="xs:dateTime"/>
+		<property name="PriceTypeID" type="xs:ID"/>
+		<property name="TypeID" type="xs:ID"/>
+		<property name="KeepOnDocuments" type="xs:boolean"/>
+		<property name="ProfitCFOID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TUpdateContractsInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdateContractsInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdateLicensesInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="LicenseID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="NumberRAR" type="xs:string"/>
+		<property name="DateIssue" type="xs:dateTime"/>
+		<property name="ValidFrom" type="xs:dateTime"/>
+		<property name="ValidTo" type="xs:dateTime"/>
+		<property name="ExpirationDate" type="xs:dateTime"/>
+		<property name="IssuingAuthority" type="xs:string"/>
+		<property name="TypeID" type="xs:ID"/>
+		<property name="RegionID" type="xs:ID"/>
+		<property name="UntilByID" type="xs:ID"/>
+	</objectType>
+	<objectType name="TUpdateLicensesInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdateLicensesInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdatePartnersAddressesInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="TypeID" type="xs:ID"/>
+		<property name="Region" type="xs:string"/>
+		<property name="Area" type="xs:string"/>
+		<property name="City" type="xs:string"/>
+		<property name="Locality" type="xs:string"/>
+		<property name="Street" type="xs:string"/>
+		<property name="HouseTypeID" type="xs:ID"/>
+		<property name="HouseNumber" type="xs:string"/>
+		<property name="BuildingTypeID" type="xs:ID"/>
+		<property name="BuildingNumber" type="xs:string"/>
+		<property name="ApartmentTypeID" type="xs:ID"/>
+		<property name="ApartmentNumber" type="xs:string"/>
+		<property name="Index" type="xs:string"/>
+		<property name="Represent" type="xs:string"/>
+	</objectType>
+	<objectType name="TUpdatePartnersAddressesInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdatePartnersAddressesInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdatePartnersInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="PartnerTypeID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="FullName" type="xs:string"/>
+		<property name="GroupID" type="xs:ID"/>
+		<property name="OKOPFID" type="xs:ID"/>
+		<property name="OKPO" type="xs:string"/>
+		<property name="INN" type="xs:string"/>
+		<property name="KPP" type="xs:string"/>
+		<property name="RegionID" type="xs:ID"/>
+		<property name="ResponsibleID" type="xs:ID"/>
+		<property name="MixedShipment" type="xs:boolean"/>
+		<property name="EMailReviseInDalls" type="xs:string"/>
+		<property name="EMailReviseInRubles" type="xs:string"/>
+	</objectType>
+	<objectType name="TUpdatePartnersInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdatePartnersInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="TUpdateUnloadingPointInCRMDataItem">
+		<property name="SerialNumber" type="xs:int"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property name="UnloadingPointID" type="xs:ID"/>
+		<property name="Name" type="xs:string"/>
+		<property name="SeparateDivision" type="xs:boolean"/>
+		<property name="KPP" type="xs:string"/>
+		<property name="EGAIS" type="xs:string"/>
+		<property name="MainLicenseID" type="xs:ID"/>
+		<property name="Region" type="xs:string"/>
+		<property name="Area" type="xs:string"/>
+		<property name="City" type="xs:string"/>
+		<property name="Locality" type="xs:string"/>
+		<property name="Street" type="xs:string"/>
+		<property name="HouseTypeID" type="xs:ID"/>
+		<property name="HouseNumber" type="xs:string"/>
+		<property name="BuildingTypeID" type="xs:ID"/>
+		<property name="BuildingNumber" type="xs:string"/>
+		<property name="ApartmentTypeID" type="xs:ID"/>
+		<property name="ApartmentNumber" type="xs:string"/>
+		<property name="Index" type="xs:string"/>
+		<property name="Represent" type="xs:string"/>
+		<property name="Comment" type="xs:string"/>
+	</objectType>
+	<objectType name="TUpdateUnloadingPointInCRMTableDataItem">
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="DataItem" type="d3p1:TUpdateUnloadingPointInCRMDataItem" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="_CreateOrder">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="OrderID" type="xs:ID"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Held" type="xs:boolean"/>
+		<property name="StatusFinancialControlID" type="xs:ID"/>
+		<property name="StatusCreditControlID" type="xs:ID"/>
+		<property name="StatusPackage" type="xs:byte"/>
+		<property name="Closed" type="xs:boolean"/>
+		<property name="Completion" type="xs:decimal"/>
+		<property name="SalesAmount" type="xs:decimal"/>
+		<property name="SalesPayments" type="xs:decimal"/>
+		<property name="NDSAmount" type="xs:decimal"/>
+	</objectType>
+	<objectType name="_CreatePartner">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="PartnerID" type="xs:ID"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableContract" type="d3p1:TCreatePartnerTableContract" nillable="true"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableBankAccount" type="d3p1:TCreatePartnerTableBankAccount" nillable="true"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableLicense" type="d3p1:TCreatePartnerTableLicense" nillable="true"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableUnloadingPoint" type="d3p1:TCreatePartnerTableUnloadingPoint" nillable="true"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableCommercialTerms" type="d3p1:TCreatePartnerTableCommercialTerms" nillable="true"/>
+	</objectType>
+	<objectType name="_CreateUpdateBankAccountIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="BankAccountID" type="xs:ID"/>
+	</objectType>
+	<objectType name="_CreateUpdateClientGroupInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TCreateUpdateClientGroupInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_CreateUpdateCommercialTermsIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableCommercialTerms" type="d3p1:TCreateUpdateCommercialTermsIn1CTableCommercialTerms"/>
+	</objectType>
+	<objectType name="_CreateUpdateContractIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="ContractID" type="xs:ID"/>
+	</objectType>
+	<objectType name="_CreateUpdateLicenseIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="LicenseID" type="xs:ID"/>
+	</objectType>
+	<objectType name="_CreateUpdateOKOPFInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TCreateUpdateOKOPFInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_CreateUpdateOrderInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TCreateUpdateOrderInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_CreateUpdateStorageInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TCreateUpdateStorageInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_CreateUpdateUnloadingPointIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="UnloadingPointID" type="xs:ID"/>
+	</objectType>
+	<objectType name="_GetAllPrices">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TablePriceType" type="d3p1:TGetAllPricesTablePriceType"/>
+	</objectType>
+	<objectType name="_GetDebt">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TablePartner" type="d3p1:TGetDebtTablePartner"/>
+	</objectType>
+	<objectType name="_GetOrderPrices">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property name="TotalByOrder" type="xs:decimal"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableProduct" type="d3p1:TGetOrderPricesTableProduct"/>
+	</objectType>
+	<objectType name="_GetOrderSKUBalance">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="IDCRM" type="xs:ID"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableProduct" type="d3p1:TGetOrderSKUBalanceTableProduct"/>
+	</objectType>
+	<objectType name="_GetTotalSKUBalance">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableStorage" type="d3p1:TGetTotalSKUBalanceTableStorage"/>
+	</objectType>
+	<objectType name="_UpdateAddressIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+	</objectType>
+	<objectType name="_UpdateBankAccountsInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdateBankAccountsInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdateBanksInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdateBanksInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdateContractsInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdateContractsInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdateExchangeResults">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+	</objectType>
+	<objectType name="_UpdateLicensesInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdateLicensesInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdatePartnerIn1C">
+		<property name="Error" type="xs:boolean"/>
+		<property name="TextError" type="xs:string"/>
+		<property name="ErrorStatus" type="xs:byte"/>
+	</objectType>
+	<objectType name="_UpdatePartnersAddressesInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdatePartnersAddressesInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdatePartnersInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdatePartnersInCRMTableDataItem"/>
+	</objectType>
+	<objectType name="_UpdateUnloadingPointInCRM">
+		<property name="DataPackID" type="xs:ID"/>
+		<property name="IsLastDataPack" type="xs:boolean"/>
+		<property xmlns:d3p1="http://BPMonline/sin/response" name="TableDataItem" type="d3p1:TUpdateUnloadingPointInCRMTableDataItem"/>
+	</objectType>
+</package>

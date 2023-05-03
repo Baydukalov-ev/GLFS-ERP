@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b82954b3-6858-44d3-9679-4363a0a4c29b">
+  <producedTypes>
+    <objectType typeId="e7eebf1e-8641-4d11-bc8e-4cc7cfb7e12b" valueTypeId="4a9174fd-d968-46fd-b046-7553329b7589"/>
+    <managerType typeId="ae5e0565-1a9f-4e05-ad91-69276d04cdbc" valueTypeId="de6dae4c-ebfb-47cf-8bd4-b4e89322b0f1"/>
+  </producedTypes>
+  <name>бг_ПоказателиРаботыОператоровWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели работы операторов WMS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.бг_ПоказателиРаботыОператоровWMS.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="4b9964bf-39c9-47f7-b56c-8cbb593ae5a0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

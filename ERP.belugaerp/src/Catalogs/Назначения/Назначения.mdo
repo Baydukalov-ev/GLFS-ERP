@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0affffff-cbce-4214-9a18-e7b7b307ffe3">
+  <producedTypes>
+    <objectType typeId="8f54fc75-2efd-4a8d-bb41-a628f62c15c0" valueTypeId="4a7ffe25-7018-47fb-b68c-8a25ad47a251"/>
+    <refType typeId="0924202c-41a3-4111-9cbc-a2ff4820e02e" valueTypeId="d5fc6153-04a2-4498-a42b-340a264593c1"/>
+    <selectionType typeId="eddcf4f1-1084-47c0-9f11-9e8330f79469" valueTypeId="9bad69cc-ab3f-4747-a7da-337e7b299823"/>
+    <listType typeId="bd031ac7-2f1a-443c-b63e-2f8f66cd6cc1" valueTypeId="bacad56b-4a8e-4c9f-a675-948461ae0861"/>
+    <managerType typeId="79abf8ab-ee9c-4192-a1d6-3efae6bddf1d" valueTypeId="79f6d2f1-7225-4016-9e49-92d16dca7aa0"/>
+  </producedTypes>
+  <name>Назначения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="b946df23-c01f-4959-b4d2-c069e8e35f13">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c42bcc58-1368-4a36-927c-adbcb21c67cb">
+    <name>ДвиженияПоСкладскимРегистрам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="d9384e36-4a7d-4136-a79a-89298100e42d">
+    <name>ФормаВыбораБезОтбораПоНоменклатуре</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

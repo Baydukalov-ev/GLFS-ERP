@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="785c4cd6-cc5f-4bd2-ae10-b8167ab5c0f6">
+  <name>бг_ДобавлениеИзменениеВидовЛицензируемойДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение видов лицензируемой деятельности</value>
+  </synonym>
+</mdclass:Role>

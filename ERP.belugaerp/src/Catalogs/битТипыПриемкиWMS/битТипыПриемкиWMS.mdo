@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="805f0845-ad66-425d-9bf8-3463d6ea52a4">
+  <producedTypes>
+    <objectType typeId="6d1077ef-1e7e-4028-a45c-1991046bcb64" valueTypeId="38a91c53-9fbb-478c-be14-bc69fa3dadd9"/>
+    <refType typeId="fdad96ff-2592-4cf2-a4ce-44fd641e1b29" valueTypeId="d55e1064-6c43-4622-9d1a-ede080633a4b"/>
+    <selectionType typeId="b48222ae-bbbe-4462-881c-5a40da4769da" valueTypeId="cb82e990-4b89-4db7-bf1e-0a6de9d8302b"/>
+    <listType typeId="3ac3e273-dae9-4d7b-b135-3d465e98e8f9" valueTypeId="ce37a834-adb1-4d16-abff-8caf94876b0a"/>
+    <managerType typeId="1ce81dd4-27db-452f-9f8c-cd5fd01aff58" valueTypeId="4a73052d-3025-4537-8f4c-5bcd73ad16b8"/>
+  </producedTypes>
+  <name>битТипыПриемкиWMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <defaultObjectForm>Catalog.битТипыПриемкиWMS.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8eb6b2b6-b136-466a-b130-7e30e1971dda">
+    <name>ПроверятьПаллеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять паллеты</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b3e4dc9-2e7e-43cf-8860-a0aa823f6cfb">
+    <name>ПроверятьКоробки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять коробки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c52898db-a4a4-4341-b993-c14cc49cf4c0">
+    <name>КоличествоПроверяемыхКоробокВПаллете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество проверяемых коробок в паллете</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="21b0f6df-344f-4afb-b316-3cca67505412">
+    <name>КоличествоПроверяемыхБутылокВКоробке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество проверяемых бутылок в коробке</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="530634cb-794a-40a6-b037-a174b3138c96">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

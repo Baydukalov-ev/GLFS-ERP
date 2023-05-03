@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22015e24-96ff-4f43-a19c-c1063d4d4778">
+  <producedTypes>
+    <refType typeId="aa43d005-173b-490b-98b9-18d09bcadd6e" valueTypeId="fde3844c-b998-4a3b-a391-111932eb89ae"/>
+    <listType typeId="e5678bb6-d0cd-4e81-9f4d-f49f843718c9" valueTypeId="94148645-9c71-402f-a7b4-c4a4accc1d2f"/>
+    <managerType typeId="244d2fed-3469-4d48-b6ca-3ce1ec2f6017" valueTypeId="0c95045a-5e70-44c1-97c8-8cc7e4ff4428"/>
+  </producedTypes>
+  <name>бг_ВидыОперацийФакторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций факторинга (Белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды операций факторинга</value>
+  </listPresentation>
+  <enumValues uuid="65495e10-f0c4-4002-acdc-a60832113594">
+    <name>ПродажаДебитору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа дебитору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90b15337-693e-40cb-b409-b6dfd8b4a5ca">
+    <name>ПередачаДокументовФакторуНаФинансирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача документов фактору на финансирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69ab9fb0-9544-4203-8f17-b2f4907e753f">
+    <name>ПередачаДокументовФакторуПодПлатеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача документов фактору под платеж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d3a8c20-0036-4dc0-9d5a-65612c6fa02b">
+    <name>ФинансированиеФактором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансирование фактором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27795e2a-7358-4a94-b0f2-3bde613aa20c">
+    <name>ОплатаДебиторомФактору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата дебитором фактору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ca2f3c9-c0fd-417f-861c-87c6a9cef21c">
+    <name>ПереводОстаткаФактором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод остатка фактором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4accbd68-304e-4c62-9f44-5ed93ccc801e">
+    <name>ВознаграждениеФактора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вознаграждение фактора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf68dfeb-27e6-4de4-aa61-a9214f3627f5">
+    <name>ОплатаНамиФактору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата нами фактору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62ac379c-5833-434e-981d-3739e9656b58">
+    <name>ПогашениеФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погашение финансирования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad893078-ae5f-436e-b7e8-d0522fddc598">
+    <name>ОплатаДебитораНам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата дебитора нам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

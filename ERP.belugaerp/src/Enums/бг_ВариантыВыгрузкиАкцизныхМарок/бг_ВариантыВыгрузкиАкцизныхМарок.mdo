@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2ad407b-97f9-4a8c-a411-d36d23cccb84">
+  <producedTypes>
+    <refType typeId="67864a8f-6800-4257-bbc4-600db5718827" valueTypeId="9f14b72c-9571-434b-ba5c-330640b94892"/>
+    <listType typeId="d0148754-26f8-4da4-9826-871d66f9e884" valueTypeId="882f1eb5-5d82-4299-a47a-c7d2507f7d35"/>
+    <managerType typeId="d9179014-ad04-40b9-ae0f-b50ace96aad1" valueTypeId="2f0fef2f-6e8c-4dea-9c90-5e2984bf97b1"/>
+  </producedTypes>
+  <name>бг_ВариантыВыгрузкиАкцизныхМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты выгрузки акцизных марок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77a28d98-9414-4651-a144-16125782c1bf">
+    <name>НеВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c7cff36-9faa-4b80-8bfc-9573537aee76">
+    <name>ВСообщении</name>
+    <synonym>
+      <key>ru</key>
+      <value>В сообщении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e7ae7d9-6c96-4719-81b2-559b9ff279e6">
+    <name>ЧерезФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Через файл</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

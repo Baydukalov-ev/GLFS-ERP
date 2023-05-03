@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e108a376-4098-4fca-b572-eea6c40b7916">
+  <producedTypes>
+    <objectType typeId="aee1cd08-b467-4271-b28f-72e17ba19e79" valueTypeId="fed3a17c-15d7-4d7d-9042-45316d88334b"/>
+    <refType typeId="f8605706-014f-4a76-989b-2f89d6f4dbc2" valueTypeId="9451d98d-4333-4ddc-a53b-44c72f6f2f60"/>
+    <selectionType typeId="7601eed0-646e-48f6-86bf-6e3ca53f4f9a" valueTypeId="b47c0e23-c1c1-4aea-9649-ff830907d446"/>
+    <listType typeId="3eec4ef6-da1e-410a-b88c-ea914dd94278" valueTypeId="50ac89d4-132b-4162-959f-7d69b495a90c"/>
+    <managerType typeId="1510cdfe-44e9-4b6e-b996-612d8ddf0f22" valueTypeId="d7745186-c66e-4c99-85b5-a732ae885fce"/>
+  </producedTypes>
+  <name>ОрдерНаОтражениеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="429e2c26-b497-4bf0-b7b8-407815a1f357">
+    <name>бг_ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бг документ основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.КорректировкаРеализации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7dbb97c4-71fd-4c8e-b6f0-8f76c1bc2485">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="d5c4ebb3-7a3e-42a1-9705-c31ac9b7f698">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="31642127-548b-4ca9-be39-03d99a7cd490">
+    <producedTypes>
+      <objectType typeId="3178635a-6327-417c-afd9-bbb0b9f5b9b6" valueTypeId="4bed9271-3bca-421f-8201-6c43cd9235ca"/>
+      <rowType typeId="54b885c5-d240-4011-b6ac-1b83b3efa79e" valueTypeId="13a7428a-cf9c-436e-843b-19ac27eb741a"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40ddd4f1-60e8-44d9-a3c1-e09d438d1560">
+  <producedTypes>
+    <refType typeId="a96980fb-3e02-4c03-b2ac-705e630e9a64" valueTypeId="ae55995b-21b8-4e51-bf93-294e19e38b67"/>
+    <listType typeId="4839d3ec-7770-4363-b09c-7c1e49f23314" valueTypeId="2e19c02d-da83-4c53-ab05-d7d9ef890ab4"/>
+    <managerType typeId="9605385d-9ee0-4a74-a23e-8601c3d22e9e" valueTypeId="70624ce0-bbab-458e-beb2-95243620cce7"/>
+  </producedTypes>
+  <name>бг_СостоянияПодакцизногоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния подакцизного сырья</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2be7b217-5c48-4094-a274-a6c73ce4ed37">
+    <name>ВМестахХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>В местах хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0e65750-a21b-4a64-94d3-a88dea01c6e6">
+    <name>ВГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>В готовой продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="938cff81-ec00-46f8-8bc3-ae827e704b94">
+    <name>ВСпиртосодержащейСмеси</name>
+    <synonym>
+      <key>ru</key>
+      <value>В спиртосодержащей смеси</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2d68e96-f87b-4284-bcf5-6863fca92a9f">
+    <name>ВПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В производстве</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="579749bf-808b-4f7d-88ea-157fe13dcf7b">
+    <name>ВозвращеноПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращено поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06afa374-0144-4d58-8d6e-7e5ce9d3503b">
+    <name>ВОжиданииПодтвержденияЭкспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании подтверждения экспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0cb24c7a-de74-4998-8392-1ab9b010074a">
+    <name>ВОжиданииПодтвержденияЭкспортаЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании подтверждения экспорта ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66b1c1d8-e52f-4b35-9d59-3074a5b5ea8c">
+    <name>ВОжиданииПодтвержденияЭкспортаГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании подтверждения экспорта (БГ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcf4014c-ba6c-40a4-95b3-8e115e99f87c">
+    <name>ВОжиданииПодтвержденияЭкспортаГарантииЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании подтверждения экспорта ЕАЭС (БГ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46fd903a-bfa0-4bf3-b18c-e5dccf584580">
+    <name>ВРеализованнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>В реализованной продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9796a10e-5137-4e37-8c5e-314aac66d2a9">
+    <name>ВРеализованнойПродукцииЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>В реализованной продукции ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f1c0d63-fdbd-4a9b-a064-865bc5c32b80">
+    <name>ВРеализованнойПродукцииЭкспортКромеЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>В реализованной продукции экспорт кроме ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bf06e62-3a66-416b-a78c-b985cf874ae3">
+    <name>ВСписанныхМПЗПоНорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>В списанных МПЗ по норме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9278fc12-256e-4d24-9574-7f74798a72d0">
+    <name>ВСписанныхМПЗСверхНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>В списанных МПЗ сверх нормы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a21a54c-b1bc-4c07-9274-82e88025a0ce">
+    <name>ПодтвержденЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден экспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d07d9a0-1340-4bbb-af6b-67f83e1e72e8">
+    <name>ПодтвержденЭкспортЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден экспорт ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff0ac84a-b78c-47ed-b156-900c4fbcc47f">
+    <name>ПодтвержденЭкспортГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден экспорт (БГ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4bcfe8a-3249-4ff5-8389-3c5cdfbb0580">
+    <name>ПодтвержденЭкспортЕАЭСГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден экспорт ЕАЭС (БГ)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

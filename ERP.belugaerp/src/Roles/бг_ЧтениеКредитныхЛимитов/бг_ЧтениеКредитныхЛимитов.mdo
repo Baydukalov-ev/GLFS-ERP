@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f8d6038-98c8-46a6-807e-1c22667640ca">
+  <name>бг_ЧтениеКредитныхЛимитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение кредитных лимитов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78c65fa9-c863-4455-92e6-92b39cc02ebb">
+  <name>бг_РезервыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервы товаров в пути (Белуга)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

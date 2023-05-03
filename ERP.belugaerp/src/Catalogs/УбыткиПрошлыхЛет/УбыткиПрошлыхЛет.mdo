@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f76a3f6e-bae6-4a55-9980-88f7ce10a2de">
+  <producedTypes>
+    <objectType typeId="df4d8935-4d79-403c-9080-fad00fc3dd49" valueTypeId="21a29bae-59ed-4437-9b25-625bceea9618"/>
+    <refType typeId="17e45590-a880-496f-985b-29f67fd48389" valueTypeId="4210ebb2-f87f-4f2c-9b24-6112ce4449cd"/>
+    <selectionType typeId="d26ed64b-113c-4166-90f7-94c5cb9674ec" valueTypeId="d48546f3-46b1-4117-9975-efac49db65fb"/>
+    <listType typeId="e4c66421-c87b-4e88-8dee-e09ea2a9f904" valueTypeId="228305fb-db7a-48ae-8159-7d6ab8f5c0d0"/>
+    <managerType typeId="9f081624-91ef-484b-b8b6-56fabc6048d0" valueTypeId="d08bf20a-602e-46cc-86c1-35202d48a083"/>
+  </producedTypes>
+  <name>УбыткиПрошлыхЛет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

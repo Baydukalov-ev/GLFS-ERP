@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47100b5d-9003-4e9e-b3a7-e242145bce7b">
+  <producedTypes>
+    <refType typeId="3aee09de-6074-4211-99a2-4bc0561d0dd3" valueTypeId="d3d5b17f-1776-4464-a035-f3d72e8dc353"/>
+    <listType typeId="25d89d63-8064-413b-813a-16df49ac57de" valueTypeId="1f6283ae-ba47-41f4-96d0-603f28b863b7"/>
+    <managerType typeId="54599758-b2ff-478b-84ba-68d1ea42c62d" valueTypeId="1d848533-9f05-42e9-8bbd-331e4ddb54f3"/>
+  </producedTypes>
+  <name>бг_СостоянияОплатыВходящегоАкциза</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния оплаты входящего акциза</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="abc0d22f-9026-4f30-b1c3-4628b9e4ab14">
+    <name>АкцизПоВозвращеннойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акциз по возвращенной продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9816611b-2cc1-486e-a65b-3b28fc358dc0">
+    <name>АвансовыйАкцизВСырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансовый акциз в сырье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9089adb0-7b02-48a4-a238-3db0667b9591">
+    <name>АвансовыйАкцизВСырьеВозвращенныйОтПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансовый акциз в сырье возвращенный от покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c341da0-a194-4505-b6e2-e85d72ef34e3">
+    <name>АвансовыйАкцизНаТоварыВПути</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансовый акциз на товары в пути</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f37719de-dd12-4430-b58b-442ef3552de6">
+    <name>АкцизПоНеОплаченнымМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акциз по неоплаченным МЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="228b6370-4a53-4429-a999-1023855b11f1">
+    <name>АкцизПоОплаченнымМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акциз по оплаченным МЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e5bdeb6-8638-4010-9fb3-8d6893a309a7">
+    <name>ЗарегистрированаБанковскаяГарантияЗаАкцизыВБюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирована банковская гарантия за акцизы в бюджет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cba3ab43-39c8-4cb1-a7bb-685ef75ce39c">
+    <name>ОплаченАвансЗаАкцизыВБюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен аванс за акцизы в бюджет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

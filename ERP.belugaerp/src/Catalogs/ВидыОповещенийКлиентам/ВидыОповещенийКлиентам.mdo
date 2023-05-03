@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="05d3fb5f-cfa2-4351-8f86-b2a941242ad9">
+  <producedTypes>
+    <objectType typeId="700cb2d8-6900-463e-9b17-be19484643b8" valueTypeId="84663f1b-0181-455f-9dee-3fd8c88565e4"/>
+    <refType typeId="577d68c6-83e1-432c-b3c1-c8fad0589cd9" valueTypeId="8b1246b5-09a7-443c-90db-495437d91da2"/>
+    <selectionType typeId="426cfb08-cc20-48ba-9920-9f9a7dbd027f" valueTypeId="0d7d4a03-8327-46c6-bc07-bc33a1a69ac5"/>
+    <listType typeId="4f4115f4-488b-444c-87ee-a6e66787e228" valueTypeId="8997ef6b-d778-4073-8d27-c8dffc9cf45d"/>
+    <managerType typeId="97a39978-8bfc-48e3-b63e-bfa75ed88418" valueTypeId="d8236d91-8b47-4fa4-9928-91fa100ee10e"/>
+  </producedTypes>
+  <name>ВидыОповещенийКлиентам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="3e1eaf77-a277-4de2-b1ba-44e349c5b080">
+    <name>бг_ФормируетсяВручную</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формируется вручную</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="79d340ef-bb96-4715-a76d-6d0e0576c328">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

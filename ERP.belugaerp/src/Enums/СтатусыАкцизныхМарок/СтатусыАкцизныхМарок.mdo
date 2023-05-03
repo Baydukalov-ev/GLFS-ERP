@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="109234ed-1c7f-4c25-9c8f-b31091a0bd11">
+  <producedTypes>
+    <refType typeId="7b2573f4-8bd8-4c8e-af9c-8133044b3c6d" valueTypeId="bf21c20e-2ac2-488b-82c4-77fd191cc4be"/>
+    <listType typeId="c83c95e1-7663-4be1-9b20-dd731a3a0540" valueTypeId="c6ba7d4c-1983-490f-a05b-93ef3d8ad63f"/>
+    <managerType typeId="8c0489f4-b365-4b15-8711-3c2182f0837b" valueTypeId="b594bad7-f24b-418d-b013-9f0723ae6911"/>
+  </producedTypes>
+  <name>СтатусыАкцизныхМарок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="64c4126f-4f96-407d-b9ff-95dd6f5fa1b1">
+    <name>ВНаличии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="45cab4a4-c903-4ef8-9350-9316c94f18be">
+    <name>ВНаличииКОтменеПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5fd7b6e4-7928-40ae-9ab5-8153113a73d9">
+    <name>ВРезерве</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="130f50a0-a879-4d18-ab8d-626328099c11">
+    <name>ВРезервеКОтменеПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4ee00ae8-a329-4af8-a6fd-a1b1d9633911">
+    <name>КОприходованию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3705ad88-eda2-47d9-a463-fef1273719e9">
+    <name>КПостановкеНаБаланс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="25463dda-c97a-49a2-aa57-fa9184bcdd04">
+    <name>КПостановкеНаБалансКОтменеПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5ce3c2fc-c4ed-4345-8fc7-10f938b45b38">
+    <name>КСписанию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7414a166-14a6-465e-8079-f1f1221309eb">
+    <name>НеПодтверждена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a93739f3-41ff-4639-a118-96297ea69758">
+    <name>Отсутствует</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a21f437f-486d-4810-a427-e5d7c685ee88">
+    <name>ОшибкаЧтенияСтатуса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a0a34f56-b676-4dfe-8f6e-25af7440f369">
+    <name>Реализована</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

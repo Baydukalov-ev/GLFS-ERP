@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="910dff4c-108d-41a6-98cd-9f800e8a0617">
+  <producedTypes>
+    <objectType typeId="db0282c3-5f17-4c3d-ae17-355be0114bb9" valueTypeId="3fe0936e-fd51-4f7b-8c07-aa89ef135e70"/>
+    <refType typeId="dc215f2f-4282-4b02-9f93-83b8a8313428" valueTypeId="6a757faf-b828-4ea3-9dd1-fd2a9917bbf8"/>
+    <selectionType typeId="13c1e3b9-b338-4dfb-b42a-f6af2597e954" valueTypeId="1924cbd5-c9a6-4ed6-902e-441089e45b6c"/>
+    <listType typeId="db24b02e-220e-44ed-ab1d-06952996005d" valueTypeId="b2efa8bf-50e6-4e5a-aea7-24f9a40be188"/>
+    <managerType typeId="788b2325-28a6-4cdf-a31a-a276ec825b70" valueTypeId="6e21af17-919c-49a4-b68c-e79c427e21bb"/>
+  </producedTypes>
+  <name>ПринятиеКУчетуОС2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="52d639da-73b1-439d-a244-c1adb4d7c956">
+    <name>бг_Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8a84b65-398b-4bd4-82f8-164d99cab7d1">
+    <name>бг_Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6c948fd4-ad44-4736-8c9b-715725cd0c27">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="49523855-2595-45e5-8b46-2d05a677198a">
+    <producedTypes>
+      <objectType typeId="9db38a4e-fd61-4aeb-aff3-a939097cda09" valueTypeId="62291181-513b-4928-be16-abe6b9d5f739"/>
+      <rowType typeId="06d689c6-8384-4cc8-b8d8-09d4c10e3753" valueTypeId="853582a7-58b6-438a-8215-a184f055c563"/>
+    </producedTypes>
+    <name>ОС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="910dcb60-345f-46bb-ac2e-30df8a33f13c">
+      <name>ОсновноеСредство</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыЭксплуатации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3f9186e-4154-4f13-a905-e42adf367192">
+  <producedTypes>
+    <refType typeId="e21c0106-b27d-454a-bc28-ece40583e43d" valueTypeId="8f531c3b-3ecd-400d-b7aa-f0a3de313ef0"/>
+    <listType typeId="bb212c5e-4a2b-47c8-bc56-95550612c29f" valueTypeId="5a81286b-32a9-4b81-8fbf-eaa850914999"/>
+    <managerType typeId="699241d8-5354-4359-8dfa-abfe5acceaee" valueTypeId="b9730b90-c4bc-42b6-829e-9604ee609d2b"/>
+  </producedTypes>
+  <name>бг_ОшибкиСканированияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки сканирования документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8482afde-41e9-4568-9291-ad0506455d76">
+    <name>ОтсутствиеДатыВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие даты времени</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11b81375-cdcc-40b4-8fa3-99f2bcdc27d1">
+    <name>ОтсутствиеПечатиКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие печати контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99408505-d7a6-4a89-9a95-13ecdc42752f">
+    <name>ОтсутствиеПечатиОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие печати организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4ca2b16-50aa-44e8-a365-f6638993d120">
+    <name>ОтсутствиеПодписиКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие подписи контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b90f70fb-76c1-4f65-91db-876def07bd1d">
+    <name>ОтсутствиеПодписиОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие подписи организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a16351d-6c53-4bca-89eb-769254a4e464">
+    <name>ОтсутствиеРасшифрокиПодписиКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие расшифроки подписи контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="777721b1-7470-42fc-bdd2-646ffc2d15fd">
+    <name>ОтсутствиеДоверенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие доверенности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba023268-83c7-4ea1-8974-f36c87d347c4">
+    <name>ОтсутствиеДолжности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие должности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6cd34b6-81ef-420f-a552-893ff40c9ac7">
+    <name>ОтсутствиеКоличества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие количества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b8fcbb4-fac5-49f4-bd4c-941df3d83f77">
+    <name>ОтсутствиеМЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие МЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7c17bb5-b8f8-4fb6-860b-2d14c6843bae">
+    <name>ОтсутствиеНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие наименования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5d5232d-aabb-4a14-9cd8-d69dfb904b69">
+    <name>ОтсутствиеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие номера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da76e2f8-dcd9-4fe6-b91b-3848ac01768f">
+    <name>ОтсутствиеОтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие ответственного</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b91e1677-1f02-453d-9bcf-c9e194d5a31f">
+    <name>ОтсутствиеПаспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие паспорта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05037275-633a-4916-a14a-2200857be06b">
+    <name>ОтсутствиеПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие печати</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a6b4734-c52a-4c79-89a1-b747ced222fb">
+    <name>ОтсутствиеПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие подписи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d16a41c1-85b9-465a-9278-9ed083a6d6ef">
+    <name>ОтсутствиеПометок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие пометок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee4d7319-9b83-4838-b5fe-1a0e3d642c7c">
+    <name>ОтсутствиеФамилии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие фамилии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c7e4c8ee-e486-4f5b-9c14-22e98d20ae3c">
+    <name>ОтсутствиеФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие ФИО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

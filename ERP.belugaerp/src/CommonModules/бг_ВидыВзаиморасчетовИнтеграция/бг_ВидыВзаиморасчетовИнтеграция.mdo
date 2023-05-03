@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b22c8c6f-573d-4aed-9423-69d6438a8f45">
+  <name>бг_ВидыВзаиморасчетовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды взаиморасчетов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

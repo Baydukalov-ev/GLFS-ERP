@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e13304f-267b-441c-a7cf-991fab82bed6">
+  <producedTypes>
+    <objectType typeId="69c662d3-e2dc-4b35-b602-dabadcb6d767" valueTypeId="92c41901-60ff-45ab-b1c3-d2e85ebd3400"/>
+    <managerType typeId="a13fc967-bcc5-4c25-be83-a694182aff02" valueTypeId="edb3bd2c-cf97-4eea-86b9-7a07d921f171"/>
+  </producedTypes>
+  <name>ЖурналДокументовБезналичныеПлатежи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="eb12359a-bf31-4582-8411-3115c0d6370c">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

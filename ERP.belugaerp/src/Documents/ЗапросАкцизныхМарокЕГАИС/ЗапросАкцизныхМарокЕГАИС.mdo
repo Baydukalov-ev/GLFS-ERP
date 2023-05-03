@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7859826c-eb7a-4f3e-8be7-8036f8bd8839">
+  <producedTypes>
+    <objectType typeId="68b03a21-2e93-4439-b973-06e3cee8640e" valueTypeId="9937468c-c873-4ebc-bf15-05c2e4b323e9"/>
+    <refType typeId="70b75a68-e401-41f5-9c4a-da160913248d" valueTypeId="11bd2f7c-97a4-40a1-b953-b91b3f61f696"/>
+    <selectionType typeId="17387e90-3f0c-4e01-ae75-a0ba05dc9444" valueTypeId="39ed9299-33c7-4b54-b801-7159826947e8"/>
+    <listType typeId="cc6912de-6f34-47ce-a52e-306251ad37ab" valueTypeId="5f932e12-7994-47dc-abc7-e8066b04702d"/>
+    <managerType typeId="39a463ee-57e4-4ad2-b04a-10208fe2a438" valueTypeId="4ad04042-9788-408e-a639-01638dc39519"/>
+  </producedTypes>
+  <name>ЗапросАкцизныхМарокЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

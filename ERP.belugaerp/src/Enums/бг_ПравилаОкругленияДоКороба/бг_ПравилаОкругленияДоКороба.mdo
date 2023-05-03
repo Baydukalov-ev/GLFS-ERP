@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31865b89-a1ff-4121-b784-b08ff8ba2a65">
+  <producedTypes>
+    <refType typeId="bc1d3593-2c23-44d2-b5e9-66a63574cf24" valueTypeId="13583a13-c642-4a0f-9614-55e4182e445a"/>
+    <listType typeId="0f1517d5-24ee-492c-8dd4-c833fcdafe8c" valueTypeId="812d3c7f-c2f6-405f-abea-9939b78dc081"/>
+    <managerType typeId="c61b31ad-5e8b-47f2-8671-7c0ca8344892" valueTypeId="e79e4486-d3e6-4902-b05d-63325543aeb3"/>
+  </producedTypes>
+  <name>бг_ПравилаОкругленияДоКороба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила округления до короба (Белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Правила округления до короба</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Правила округления до короба</value>
+  </extendedListPresentation>
+  <enumValues uuid="70fd3e14-8c86-47d3-b9cd-3af19e8d9adf">
+    <name>ОкруглятьВсегда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округлять всегда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4758db77-00f8-4ab2-8bd8-3d1f696d38e2">
+    <name>ОкруглятьЕслиНаОстаткеБольше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Округлять, если на остатке больше</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="304cc750-94c5-492b-9bb8-9bcfa7c87271">
+    <name>НеОкруглять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не округлять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef526af7-cb15-4bae-a9e9-e6db482f1ee8">
+    <name>бг_РаспределятьСерииКратноКоробам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределять серии кратно коробам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

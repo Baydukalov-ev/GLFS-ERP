@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2377f50d-9389-4ae9-9cb4-1a7ecb97b92d">
+  <producedTypes>
+    <selectionType typeId="09911516-4ff0-40e0-b638-8bb3f197aecf" valueTypeId="50d6e7b8-ff7b-4aad-a000-0a37044992db"/>
+    <listType typeId="c0d46550-704b-49b5-946e-875ee06cc413" valueTypeId="d240bf03-e057-46b5-b5bb-c921d7b3797b"/>
+    <managerType typeId="f3b7f688-ed35-4f33-a13f-7aa2dfa8b41b" valueTypeId="b0d7b536-276b-470f-a7f7-aaf77bd2d7b7"/>
+    <recordSetType typeId="272adcd0-e353-428c-999e-d060c32ed930" valueTypeId="1801b463-00d4-4e3c-b389-acc5b3519538"/>
+    <recordKeyType typeId="741c9e73-3e7b-434b-b0db-b8c9926ec7c1" valueTypeId="899fc308-94d1-4c72-9d27-9cf04967ca42"/>
+    <recordType typeId="29219f5e-6442-40a3-95c5-c07f011755a8" valueTypeId="2a50a30d-45b8-4268-a839-8341acde6a47"/>
+    <recordManagerType typeId="b18e1fcb-493d-4615-8ac2-4642f667a4db" valueTypeId="889a1da0-bdb0-4aa0-8cae-f8ca7da312e8"/>
+  </producedTypes>
+  <name>бг_СоставУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав упаковок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="e444c75b-4e16-46a1-b902-4ae10f6d0b22">
+    <name>КодВышестоящейУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код вышестоящей упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="57261e65-eec8-4440-9dda-df36beb557cb">
+    <name>КодУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

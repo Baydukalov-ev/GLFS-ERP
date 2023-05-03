@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce3efe55-1095-4b82-8755-e698b13d5090">
+  <producedTypes>
+    <refType typeId="2914e7fb-0396-4061-9a97-043ca58358a8" valueTypeId="a941a674-037d-45ab-baf7-5971a51042ae"/>
+    <listType typeId="1d4ddd9e-d856-41fb-8705-e30b5e301619" valueTypeId="bb0d5652-fa8a-4155-985c-dfb5941895cb"/>
+    <managerType typeId="a047493d-e3bf-47d3-9064-180eab12726f" valueTypeId="2ef4e98d-1062-4da4-adb4-e9e064fb4196"/>
+  </producedTypes>
+  <name>ФорматыОбменаЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="496ffed2-120b-4cb4-872b-ed072f0ba721">
+    <name>V1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5bb69f75-c7be-4575-ad03-75ca86ab82f0">
+    <name>V2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f60b526c-672b-4303-9a70-1c3491e6f13b">
+    <name>V3</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4ff83d33-7d64-4ec1-b018-486516209f28">
+    <name>V4</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5f0da8f1-b672-4c93-b009-40f079cf0555">
+    <name>V5</name>
+    <synonym>
+      <key>ru</key>
+      <value>V5</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

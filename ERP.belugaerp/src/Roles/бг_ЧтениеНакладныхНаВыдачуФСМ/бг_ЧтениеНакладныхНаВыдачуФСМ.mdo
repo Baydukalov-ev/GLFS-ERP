@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceaab7f3-6113-4b85-9de1-60078f14cfff">
+  <name>бг_ЧтениеНакладныхНаВыдачуФСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение накладных на выдачу ФСМ</value>
+  </synonym>
+</mdclass:Role>

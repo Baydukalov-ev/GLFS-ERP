@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8dd072fb-e28f-462b-89b8-c1d868d5339a">
+  <producedTypes>
+    <refType typeId="313150ac-2dea-498a-affe-282317b50371" valueTypeId="0f16404f-bdc0-481b-884c-2eb206d167e4"/>
+    <listType typeId="e7cc3f1d-1f4a-40ee-beb7-53f99443cdd1" valueTypeId="12ea0115-e150-472c-8ace-e89de80ae060"/>
+    <managerType typeId="308dee30-68ec-47a3-abe9-f447c5e16dbf" valueTypeId="85e9d5d0-a19f-406b-a00d-080af8600cca"/>
+  </producedTypes>
+  <name>ВариантыРаздельногоУчетаНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="31aa94d7-0e06-4272-9dc4-806c0e89314f">
+    <name>Распределение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8539354a-bf15-4ccc-b512-8e00c7b6f9ea">
+    <name>ИзДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

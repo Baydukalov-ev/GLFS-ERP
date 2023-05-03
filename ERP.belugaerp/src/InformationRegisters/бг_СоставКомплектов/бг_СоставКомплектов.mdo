@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="848b456c-d1f4-4ab1-8d07-401088109373">
+  <producedTypes>
+    <selectionType typeId="f19636f1-e02b-4377-a21f-2e32689afd07" valueTypeId="da042be0-02bb-4bef-868c-3f069f576c88"/>
+    <listType typeId="01f77178-9857-47e4-936b-0426e77fa37a" valueTypeId="93b3ad90-7e83-481f-99d1-c5a4ef35a471"/>
+    <managerType typeId="75edbcdd-59a9-4659-a551-ac8af07abb73" valueTypeId="6a783436-dc78-47e3-8735-fd3979cff2f3"/>
+    <recordSetType typeId="eb686e87-e669-45fa-8148-b9f8a7a8db95" valueTypeId="467c27d2-75b9-49ce-a9cd-181babb3f560"/>
+    <recordKeyType typeId="8f104a16-80d6-4407-9e2b-976ad8a15cbb" valueTypeId="229ccb1d-409a-4d06-b88b-51c10a29f9fe"/>
+    <recordType typeId="b287dd75-c636-44ac-9cff-f6a2c6320557" valueTypeId="e61d71a0-f69e-478c-8051-08aed1dfb1d5"/>
+    <recordManagerType typeId="adeb4e84-3fa5-4691-b6cb-a6dc1e3def1d" valueTypeId="8a5523ee-9ddd-4644-85a8-53c82f26a56e"/>
+  </producedTypes>
+  <name>бг_СоставКомплектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав комплектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="703ab41b-9fe1-42e1-9407-0264d0848166">
+    <name>Комплектующее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующее</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1b1dd948-ab1d-48fc-bc34-fbba17618128">
+    <name>СерияКомплектующего</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия комплектующего</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="172e7044-3b91-4939-8589-8f012e3162e5">
+    <name>Комплект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="69a24570-69df-4a8b-91cc-5cf4b95cdd3d">
+    <name>СерияКомплекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия комплекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

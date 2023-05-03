@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ab8ee7-b487-4389-9874-d44859aad969">
+  <name>бг_ЧтениеСоответствияОбъектовУПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение соответствия объектов УПП</value>
+  </synonym>
+</mdclass:Role>

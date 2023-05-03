@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ca094e0-9081-4602-be10-4bd43ea7c04b">
+  <name>бг_ДобавлениеИзменениеДопустимыеОтклоненияЦенEDI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение Допустимые отклонения цен EDI</value>
+  </synonym>
+</mdclass:Role>

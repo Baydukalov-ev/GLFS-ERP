@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d261fd4b-51a7-4036-8a65-8558742de2ec">
+  <name>бг_ОповещенияКлиентамПередЗаписьюДокументы</name>
+  <synonym>
+    <key>en</key>
+    <value>Customer notifications on saving documents</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещения клиентам перед записью документы</value>
+  </synonym>
+  <comment>Аналог типовой подписки ОповещенияКлиентамПередЗаписьюДокументы для расширения источников</comment>
+  <source>
+    <types>DocumentObject.битЗагрузкаПриостановленныхЛицензийКонтрагентов</types>
+    <types>DocumentObject.ТТНИсходящаяЕГАИС</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РассылкиИОповещенияКлиентам.ИсточникОповещенияПередЗаписьюДокументы</handler>
+</mdclass:EventSubscription>

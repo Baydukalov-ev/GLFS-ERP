@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6493eaae-fb52-46ba-b610-df36bebd92a3">
+  <producedTypes>
+    <selectionType typeId="bdc40c47-d895-49b0-b5d8-2f841c2da43e" valueTypeId="67d88ab6-13d8-46cf-b6db-f33884ae8a17"/>
+    <listType typeId="88da7e47-cdf2-4247-bfe1-7f100cc84f3c" valueTypeId="a1743229-0b19-4be3-9ba3-672c4e492f87"/>
+    <managerType typeId="c9f3c0b0-b3e8-49be-9d35-23bd0a324fed" valueTypeId="bcbe930c-4c3e-4f99-a91b-a452a30441c1"/>
+    <recordSetType typeId="da3f7b05-7ee8-462f-80e1-520536716905" valueTypeId="c9b782af-0c1f-4f02-b0be-921683574d3a"/>
+    <recordKeyType typeId="e11d4893-3772-45ec-ba3b-7a3fffceddbb" valueTypeId="52ae1d89-7349-473c-9643-7d52a5fc399e"/>
+    <recordType typeId="9e06e8b0-02a0-4dd2-92cd-a11d4d7e548e" valueTypeId="b41a5e2a-10ba-4bba-9a97-ab647ada6fdc"/>
+    <recordManagerType typeId="60eea46b-ddbe-4176-bc05-67d3451d7dd3" valueTypeId="57d719ac-c8ed-434f-9bf2-14b0c7c78511"/>
+  </producedTypes>
+  <name>бг_creatio_РегистрацияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений (Creatio)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fc24afbe-56b5-4d79-9802-461ca487278f">
+    <name>ИдентификаторПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пакета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ae22d627-8d79-44f2-8fd8-6c556edaf485">
+    <name>НомерЗаписиВПакете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер записи в пакете</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="e76be568-5097-41d5-b2f8-f560726c2409">
+    <name>ВидАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид адреса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4eb2f9e-8a6d-442b-a14e-a828f15383a1">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="22f681f2-0bf2-4337-b1bb-d5263735864e">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

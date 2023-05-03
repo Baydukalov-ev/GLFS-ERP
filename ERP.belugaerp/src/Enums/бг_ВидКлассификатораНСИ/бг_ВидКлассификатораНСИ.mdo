@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64d2d713-d59b-430d-90a5-a82922ec6809">
+  <producedTypes>
+    <refType typeId="d918b8a7-a558-46bf-af7b-99eb43f92efa" valueTypeId="ed42c5cc-d014-4340-acd0-25a633f8dd62"/>
+    <listType typeId="e8791968-26ae-434f-b6c8-fa87d884b570" valueTypeId="3e446fec-1919-47ca-adf0-05239f025637"/>
+    <managerType typeId="da174569-beee-4a73-be95-a524a63a299b" valueTypeId="444dca26-d224-45d1-87be-68b943fa5dbc"/>
+  </producedTypes>
+  <name>бг_ВидКлассификатораНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды классификаторов НСИ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>бг_ВидыКлассификаторовНоменклатуры
+бг_ВидКлассификатораНСИ</value>
+  </explanation>
+  <enumValues uuid="b5c62f26-0c65-4ef0-95e4-1803cd7d03e7">
+    <name>КодЕК_СУМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЕК СУМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5291c998-4d6e-40e4-900c-c3fae1760a2a">
+    <name>КодЕК_Номенклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЕК номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a73c32cf-ff53-46b7-ab01-ca4619e4695c">
+    <name>КодЕК_ПОСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЕК ПОСМ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

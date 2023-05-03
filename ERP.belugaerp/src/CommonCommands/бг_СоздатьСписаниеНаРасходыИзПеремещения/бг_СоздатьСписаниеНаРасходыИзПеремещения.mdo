@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c069758-4f0b-43d5-a544-cb5ee9e89791">
+  <name>бг_СоздатьСписаниеНаРасходыИзПеремещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание на расходы</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

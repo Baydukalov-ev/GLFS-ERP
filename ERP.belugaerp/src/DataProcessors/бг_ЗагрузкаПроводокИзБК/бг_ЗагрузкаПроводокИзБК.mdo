@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="917adc8b-8eac-449b-bf07-2c49563bf777">
+  <producedTypes>
+    <objectType typeId="7a63d682-66b3-48ac-bc42-e45a7f3b043d" valueTypeId="5c03284f-fdf2-4b04-9967-c93447b0b5c2"/>
+    <managerType typeId="7d3944f4-98d4-4452-b60b-88796e54bd9a" valueTypeId="551dbac0-e736-4525-b256-9c772be0e3f1"/>
+  </producedTypes>
+  <name>бг_ЗагрузкаПроводокИзБК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка проводок из БК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗагрузкаПроводокИзБК.Form.Форма</defaultForm>
+  <forms uuid="0d82c0be-98dc-4d2a-90f0-037696fa560b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f7b3bd28-d9c6-49fb-a1b8-9556784cd440">
+    <name>МакетТипыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет типы данных</value>
+    </synonym>
+  </templates>
+  <templates uuid="4ac99be5-5e62-4a55-b961-9341750f2966">
+    <name>МакетЗаменяемыеСтатьиЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заменяемые статьи затрат</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

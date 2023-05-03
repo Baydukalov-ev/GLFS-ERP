@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26838f99-0b48-49fc-a544-e9391b036e70">
+  <name>бг_ДобавлениеИзменениеТехническихРегламентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение технических регламентов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

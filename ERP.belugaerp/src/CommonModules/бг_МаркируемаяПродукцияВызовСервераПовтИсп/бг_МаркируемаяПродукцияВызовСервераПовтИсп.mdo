@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="153a8af7-6690-4b5d-93b5-5ee170e1a2f3">
+  <name>бг_МаркируемаяПродукцияВызовСервераПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркируемая продукция вызов сервера повторного использования</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

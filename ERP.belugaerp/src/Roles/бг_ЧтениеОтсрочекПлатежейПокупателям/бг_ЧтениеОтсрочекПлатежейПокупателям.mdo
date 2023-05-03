@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a305c5b-4c54-4198-ac58-319c6bebed2d">
+  <name>бг_ЧтениеОтсрочекПлатежейПокупателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение отсрочек платежей покупателям</value>
+  </synonym>
+</mdclass:Role>

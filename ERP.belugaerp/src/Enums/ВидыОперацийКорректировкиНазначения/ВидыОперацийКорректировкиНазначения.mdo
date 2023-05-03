@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c367a0dc-3bd6-429e-990b-97817facf456">
+  <producedTypes>
+    <refType typeId="f441fb69-683f-4979-9df9-ff2d67f5091e" valueTypeId="984b8b7b-c7ca-4efd-a542-d9a6cbf33b19"/>
+    <listType typeId="1e9c1107-87c6-477a-8b49-5d68dc3a2b97" valueTypeId="db05dd7b-8eca-4d71-a46f-567765228574"/>
+    <managerType typeId="ae5b29f0-5b78-4d46-99c5-79247e3baa4f" valueTypeId="92a26bf8-61c6-45b8-8833-6933ba6913a6"/>
+  </producedTypes>
+  <name>ВидыОперацийКорректировкиНазначения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4b34af2b-a7e2-49f5-8724-23edc1fbbee7">
+    <name>СнятьРезервПоМногимНазначениям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="89eceb29-6d0a-4f20-b55d-9a0a9a7eebf1">
+    <name>СнятьРезерв</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="becc8efb-c5b5-48d1-a846-717a653423d0">
+    <name>РезервироватьИКорректировать</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f917d4ef-8315-4939-acda-3bb177762d66">
+    <name>Резервировать</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cc7808aa-382f-42e7-b1a9-92fdfd3f3e1a">
+    <name>ПроизвольнаяКорректировкаНазначений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

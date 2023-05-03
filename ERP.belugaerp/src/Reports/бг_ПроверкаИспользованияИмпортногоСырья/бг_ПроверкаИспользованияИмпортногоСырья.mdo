@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523dd18a-3714-4e5f-9d3c-24c9f71982f3">
+  <producedTypes>
+    <objectType typeId="7f6d08e2-5049-4afd-8d41-e95523a50f0e" valueTypeId="5651576c-9202-46c6-ba30-97cd5d40c5f9"/>
+    <managerType typeId="ff6849ab-0f97-41af-9b49-64e1df75c809" valueTypeId="a38e9bb7-55f7-4b8b-8469-4d27b8250eeb"/>
+  </producedTypes>
+  <name>бг_ПроверкаИспользованияИмпортногоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка использования импортного сырья</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Item batch movement</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ПроверкаИспользованияИмпортногоСырья.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="15ada714-8fdd-4808-9c43-97510d6aecc5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

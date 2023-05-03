@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="469a38cd-6245-4cc0-bd01-1d684d8d8f6c">
+  <name>бг_ДобавлениеИзменениеСоответствийЦФОТранспортнымЗатратам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение соответствий ЦФО транспортным затратам</value>
+  </synonym>
+</mdclass:Role>

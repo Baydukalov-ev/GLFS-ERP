@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0588ed0d-0519-4083-8f9c-9047100b35ca">
+  <producedTypes>
+    <objectType typeId="065f5e36-9bfc-4607-8884-2e8b187fccd2" valueTypeId="ba841f1e-d48a-469c-aab9-14caf7b0853e"/>
+    <managerType typeId="b62386d7-89ba-4418-8e0c-030d913b4e11" valueTypeId="b9bd1444-292c-44e6-bef2-bd35f3cc0a28"/>
+  </producedTypes>
+  <name>ПодборСерийВДокументы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <tabularSections uuid="5ff6b4a0-7dd4-4c02-8c1d-eb55e55989d6">
+    <producedTypes>
+      <objectType typeId="fc3f750c-8d03-4508-afc9-936bbf4fb37a" valueTypeId="79d55fc6-6217-48cb-b31a-6b54b52d24d3"/>
+      <rowType typeId="6f471ee0-2e1d-463e-9332-ec760fd75d3a" valueTypeId="62b5b307-b268-47c0-8c57-63b5586bce07"/>
+    </producedTypes>
+    <name>Серии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="076ca156-a496-4608-b18b-5731b4d6e5ba">
+      <name>бг_СерияМарки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия марки</value>
+      </synonym>
+      <comment>Разряд</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f57e12bd-1327-47db-baae-be9c3da9462e">
+      <name>бг_НомерРулона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер рулона</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cefa8ac5-7bef-4a10-b0f5-ebbe33f10172">
+      <name>бг_НомерДиапазонаВРулоне</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер диапазона в рулоне</value>
+      </synonym>
+      <comment>RangeNumberInRoll</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ab922b8f-88e6-489f-b0a8-7855077c247a">
+      <name>бг_НачальныйНомерДиапазона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начальный номер диапазона</value>
+      </synonym>
+      <comment>Start</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="12ac894b-0563-4e16-9dd4-75ca1165b1c8">
+      <name>бг_КонечныйНомерДиапазона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конечный номер диапазона</value>
+      </synonym>
+      <comment>Last</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>9</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="48cec639-4fd9-4992-9b3e-ee08ae7c963b">
+    <name>РегистрацияИПодборСерийПоОднойСтрокеТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="e056ceff-8307-48f9-b232-ea35eeec79db">
+    <name>УказаниеСерииВСтрокеТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a93dec-5d06-401a-9553-3ec6e2875001">
+  <name>бг_ЧтениеКлассовГрузоподъемности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение тоннаж а/м</value>
+  </synonym>
+</mdclass:Role>

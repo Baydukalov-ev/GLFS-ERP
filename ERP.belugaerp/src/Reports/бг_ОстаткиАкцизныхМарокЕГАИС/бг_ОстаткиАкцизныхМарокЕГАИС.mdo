@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a684907-0e0d-4523-98a7-0319ecc117e4">
+  <producedTypes>
+    <objectType typeId="3bc464e1-0d76-454e-afb8-5b8320d225f0" valueTypeId="b5c38535-a5e4-4e03-b962-c174909a35ec"/>
+    <managerType typeId="4be81ac9-7bc0-4c34-833c-2e36f570792a" valueTypeId="adfe919a-d540-41ca-87c8-cd391145d88b"/>
+  </producedTypes>
+  <name>бг_ОстаткиАкцизныхМарокЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки акцизных марок ЕГАИС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Бг остатки акцизных марок ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОстаткиАкцизныхМарокЕГАИС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8af9de4d-45dc-4922-ae5a-22b7e71aeb96">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

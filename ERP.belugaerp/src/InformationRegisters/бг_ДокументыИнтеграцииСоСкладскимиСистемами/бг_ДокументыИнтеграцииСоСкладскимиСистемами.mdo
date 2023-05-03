@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f4d0aac-4d31-4df3-b191-c68913d28140">
+  <producedTypes>
+    <selectionType typeId="04b8b784-1667-45da-ad20-ea00636d9965" valueTypeId="9594f1cd-9169-4ef3-9189-71ec3c537326"/>
+    <listType typeId="e2445ef1-b1f2-4291-b37d-1d4db885452b" valueTypeId="60929c6c-052e-4925-9bcc-ba2888967604"/>
+    <managerType typeId="935bc992-9789-4d04-95d9-56037c3a6a3d" valueTypeId="9303d2f8-9226-4bb4-9f38-611657069abe"/>
+    <recordSetType typeId="8d8c9026-2a98-4b8c-b8ae-d2ca9b6ae1bb" valueTypeId="1cc1d00a-6a24-4ee5-9d34-51b2958863b6"/>
+    <recordKeyType typeId="28880029-bafd-48c0-a3da-beb265c126c2" valueTypeId="e10e9a02-5cbb-4636-9c15-c7cff064cd80"/>
+    <recordType typeId="779c2575-f53b-4910-989a-de510f3b6651" valueTypeId="d89bd8f6-f1fa-452d-ad69-17836dd952d0"/>
+    <recordManagerType typeId="05843232-26f1-43b6-b7d9-bf15c2540a05" valueTypeId="3d1bfa33-a908-4786-8674-a35d944ac6f5"/>
+  </producedTypes>
+  <name>бг_ДокументыИнтеграцииСоСкладскимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы интеграции со складскими системами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_ДокументыИнтеграцииСоСкладскимиСистемами.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бг_ДокументыИнтеграцииСоСкладскимиСистемами.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d30877b2-2907-4573-8cd8-9bb7f992acfc">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обработки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="16457615-bffc-430b-b012-1c2080a7f342">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СтатусыДокументовИнтеграцииСоСкладскимиСистемами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6ebecf52-126d-4ba7-bf15-67eba995c1f7">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5766b88f-dcb6-462e-8126-c016af5c863f">
+    <name>ВремяОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время обработки (сек)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e7b0a3c6-0115-49e2-b656-e0759d57a584">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.битОтражениеФактаПоПриходномуОрдеру</types>
+      <types>DocumentRef.битПереупаковка</types>
+      <types>DocumentRef.битИнвентаризацияПродукцииЕГАИС</types>
+      <types>DocumentRef.битОтражениеФактаПоРасходномуОрдеру</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e0154940-79f9-4c5a-9eb8-98c826fd39ac">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9fcf93ef-9b0b-4102-a26e-94420c48a4f8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

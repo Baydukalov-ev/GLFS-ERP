@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="66811c61-cc61-4834-bb16-7790bb3c52fb">
+  <producedTypes>
+    <objectType typeId="e7399e22-8125-4197-a24c-0ac9738f9ee9" valueTypeId="d1c34be4-4221-41d0-99f3-725b05be7719"/>
+    <refType typeId="753c5a7b-ed47-44f8-8625-883b5c5a7459" valueTypeId="d7aad806-c2b8-4a58-8d5f-0eba4cdf5981"/>
+    <selectionType typeId="817e791f-b1a6-46df-b488-7c38ccd1825b" valueTypeId="c2231d58-044e-4ad2-9f65-6849bc1fe570"/>
+    <listType typeId="2fc8a41d-783a-477d-b157-acc03914459d" valueTypeId="2cb0ebb8-5e7b-40d4-88d9-451531e74f13"/>
+    <managerType typeId="736cc7b0-24d6-4df4-b61b-bf146f388a6d" valueTypeId="119567a0-e798-4224-8c90-3b042588bd4d"/>
+    <containerType typeId="8fc0487e-4078-4149-9067-141dd9ca941c" valueTypeId="8570e287-58a2-4ad2-833a-55f6f64a1582"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <predefined>Checked</predefined>
+  </extension>
+  <type/>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <predefined>
+    <items id="cbf0e495-8de3-4837-a5be-15572f78b916">
+      <name>ПрочиеДоходыИРасходы</name>
+      <description>Прочие доходы и расходы</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code>00013</code>
+      <type/>
+    </items>
+    <items id="3658f2fc-f988-42c4-9060-c0706de833a2">
+      <name>РасходыБудущихПериодов</name>
+      <description>Расходы будущих периодов</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code>00017</code>
+      <type/>
+    </items>
+    <items id="95a547d7-5aef-40cd-84ef-e028a745b2b4">
+      <name>СтатьиЗатрат</name>
+      <description>Статьи затрат</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code>00007</code>
+      <type/>
+    </items>
+  </predefined>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56188bd2-ec64-4090-8e75-0080bb0d3cb7">
+  <name>бг_ЕК_Бренды_ПроектыПЭОИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты ПЭО (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

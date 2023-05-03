@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a23918e-1a89-4b2d-ae8d-41c1fabf7206">
+  <producedTypes>
+    <refType typeId="f1948447-6bb1-40ce-8fe4-d4d9e7e67db9" valueTypeId="23b421d9-ae3d-4d24-bf30-00c852c5f0b9"/>
+    <listType typeId="249f4bb6-6177-42dc-8bb8-f32dfafc1593" valueTypeId="2ce6b794-fedf-40aa-8db5-f8674b540240"/>
+    <managerType typeId="5d18ce66-32e9-4ed8-9a79-ebe01ae3fc24" valueTypeId="77919cae-34cc-4fa9-99e8-9654cac21068"/>
+  </producedTypes>
+  <name>ПорядокОформленияСписанияТоваровПринятыхНаХранение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="951c728b-b330-4251-b380-afecfcb1cfa9">
+    <name>ОформлятьСписание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1ba6cb2b-1c81-4e5f-a03f-9865e443b3b1">
+    <name>ОформлятьВыкуп</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78d8907d-3662-4c7c-9986-e37d65250fd8">
+  <producedTypes>
+    <selectionType typeId="f91c8461-e6f8-4485-8cd3-c1f9a701a250" valueTypeId="2b360d6b-f666-4154-a891-37ccb7746a10"/>
+    <listType typeId="9c124395-c1db-4992-b975-caaea63b0493" valueTypeId="c479f42e-a21f-45e5-995d-4722c44d1d95"/>
+    <managerType typeId="7295245f-b8f5-4470-9c93-171ab82a8547" valueTypeId="b56cec73-e145-4fd2-a458-c78e2c85e390"/>
+    <recordSetType typeId="0b7d6fcb-beda-4a12-bfb0-068e442763cc" valueTypeId="db794ed7-3c31-4eef-a997-639ed13d917d"/>
+    <recordKeyType typeId="88c4533e-1fe1-4e0e-b2c5-2458d981784c" valueTypeId="f634181a-e269-4644-8e81-29d29113a170"/>
+    <recordType typeId="f050585b-66da-4a8c-a2cb-152fd9a87926" valueTypeId="3c2f8cd7-c7b8-438b-b1f0-ce8a8ecbe08a"/>
+    <recordManagerType typeId="950dd783-79ef-441e-a3e8-7afcd46a1fbf" valueTypeId="d16c61fc-74c4-4023-9af9-2ef7d98a3a7b"/>
+  </producedTypes>
+  <name>бг_ЭкипажТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экипаж ТС</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <defaultRecordForm>InformationRegister.бг_ЭкипажТС.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бг_ЭкипажТС.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="2aa47b7d-7ab3-492a-976a-3cedee604d56">
+    <name>ЧленЭкипажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член экипажа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ЧленыЭкипажа</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7a7a45dc-7ae5-4d68-b17c-8fe5d1452a8c">
+    <name>ТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТС</value>
+    </synonym>
+    <comment>Транспортное средство</comment>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c2a180db-f8c1-4938-b609-96dc558edcc7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="71c85a67-5f73-4248-8707-449dddbe708e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ab8f7667-2345-4415-bd46-8f8324a63eee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

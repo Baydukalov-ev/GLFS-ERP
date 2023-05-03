@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63c5d341-2332-409c-bb58-7869462e1c8d">
+  <producedTypes>
+    <selectionType typeId="a829b1b4-3ff5-4ca3-9699-c6a235684712" valueTypeId="2c7ec687-33e5-4554-9efd-9660ea0311ac"/>
+    <listType typeId="41930233-1cd3-478d-8d37-8148a1011f20" valueTypeId="1c9a5007-5340-4529-85e9-ceb3cf7d6904"/>
+    <managerType typeId="2f7c52b1-b2a0-4dda-9ea7-3d5dd3a6a5ef" valueTypeId="83a40c9d-6296-4959-a22c-b6f1852447c6"/>
+    <recordSetType typeId="fe59cd7a-6689-4059-a4d8-f6378bdb4d89" valueTypeId="9c3341df-2511-4f99-a59a-8a51e4471d61"/>
+    <recordKeyType typeId="c359878c-3d58-4d2d-aed4-1f520b7def2c" valueTypeId="a2c8bd35-5efe-45d9-804c-f64e9e89b4ea"/>
+    <recordType typeId="df72803f-fd5e-4432-b962-322febc68da5" valueTypeId="7433be1b-d5e3-4721-9903-c63032e85a20"/>
+    <recordManagerType typeId="3562a15a-868d-4772-b34a-6fe29ea7e18f" valueTypeId="443277b9-6ce0-4cdb-a0bc-3f418f717d07"/>
+  </producedTypes>
+  <name>бг_НалогообложениеАкцизомОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налогообложение акцизом организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="62efd88b-2d38-4901-a7f5-873d1eab598a">
+    <name>ВидОперацииНалогообложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции налогообложения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ВидыОперацийНалогообложенияАкцизом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b94dc0b3-6eca-48ea-99a0-62b3f51dbb8f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="43841b3d-fc90-4026-b66c-c9a542e5147e">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="98c4b0ab-f396-4d99-8d9c-787fa1bc7d8b">
+    <name>СтатусАкциза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус акциза</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СостоянияОплатыВходящегоАкциза</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="da671cf9-f317-4a3c-9d50-325d8a0cb0e2">
+    <name>СостояниеСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние сырья</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СостоянияПодакцизногоСырья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cc525fc7-ed85-4711-b83b-ededc45cf595">
+    <name>СтатусНачисленияАванса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус начисления аванса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СтатусыНачисленияАвансов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d1d89295-3033-4403-ac7a-e904263ce45d">
+    <name>ПродажаНаЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа на экспорт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

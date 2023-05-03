@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e2f01f4-d6dd-472d-8465-69c8fb0b5e78">
+  <producedTypes>
+    <selectionType typeId="d2d9fad5-c3e2-449f-91e3-4c95a699cbd2" valueTypeId="dad79ace-a8a8-4c09-ad46-056c4d661c8d"/>
+    <listType typeId="b44e165b-697e-497f-b4de-cbda53abccb9" valueTypeId="abc0f4a4-9f07-4618-9be9-762ae769b37d"/>
+    <managerType typeId="5dcd2114-c1ca-4024-8a46-32f80c9144cc" valueTypeId="e82e2467-67ce-4daa-b1f8-9d25d6b4abb0"/>
+    <recordSetType typeId="e31d7f5c-3f1d-482d-86b5-c2edea82ca67" valueTypeId="7bf05b3e-81a2-4b44-bf78-75903ebc187f"/>
+    <recordKeyType typeId="b240556e-3b16-4c24-99f9-27c618149b4f" valueTypeId="127b5575-8b24-4050-b406-bd91ebc90a3e"/>
+    <recordType typeId="cdd7ed53-9234-4e35-b8af-974279e6c71b" valueTypeId="4e803293-96f2-468a-b9a8-d6c2a48c394b"/>
+    <recordManagerType typeId="6934ff66-7bbb-4853-8601-1d23313cc2cd" valueTypeId="b35e3677-7962-47b0-8bf1-1d845a1a9c3e"/>
+  </producedTypes>
+  <name>бг_РозничныеПокупатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничные покупатели</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Розничный покупатель</value>
+  </recordPresentation>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <dimensions uuid="3855545d-cf2b-4af0-b4e7-909fd30bbea4">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a63b38e1-7e7a-4896-bcd0-aed6209f8111">
+  <name>бг_ЧтениеНастроекРезервированияЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек резервирования заказов клиентов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

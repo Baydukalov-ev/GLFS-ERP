@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70a43ae6-c46a-4ce5-b56a-caed2116ddd3">
+  <producedTypes>
+    <refType typeId="1e45234c-6fab-4657-8db3-cfdfbd8915ca" valueTypeId="66cee12c-5792-4505-9cf1-5e62d8003873"/>
+    <listType typeId="70e9d860-4fd4-4fa4-b2e6-c41497ae1ad8" valueTypeId="d2280293-f42d-4f40-9fcf-b864535b5a1a"/>
+    <managerType typeId="54ad30eb-112e-4e6d-b6be-69a68588cdb2" valueTypeId="3d82b619-d1a0-44ed-976f-bc72ea7512dd"/>
+  </producedTypes>
+  <name>СтатусыОбработкиСообщенийЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="95da20d1-70d0-45a2-ac11-bec1def02ebd">
+    <name>ДокументПроведен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9a4357f2-472e-461b-a8e9-cbc753b67be8">
+    <name>ПереданоВУТМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cb160865-6572-4197-b99d-9afb24f78a0d">
+    <name>ПринятИзЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab5d0a6f-34a2-499b-ada2-727ba1bf6d5a">
+  <name>бг_ИспользованиеОтчетаСверкаСДаннымиЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета сверка с данными ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

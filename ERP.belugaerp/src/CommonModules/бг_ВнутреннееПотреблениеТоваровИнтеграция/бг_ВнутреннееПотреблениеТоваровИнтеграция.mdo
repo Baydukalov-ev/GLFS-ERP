@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caa40673-10f4-44cc-bc2d-2ec8f972fa09">
+  <name>бг_ВнутреннееПотреблениеТоваровИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутреннее потребление товаров (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

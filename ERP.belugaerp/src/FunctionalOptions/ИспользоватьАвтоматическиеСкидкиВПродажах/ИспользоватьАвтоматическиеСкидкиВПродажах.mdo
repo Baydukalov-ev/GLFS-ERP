@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87f9dcdf-6644-4430-8e59-2c08e8b904f8">
+  <name>ИспользоватьАвтоматическиеСкидкиВПродажах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+    <content>Extended</content>
+  </extension>
+  <location>Constant.ИспользоватьАвтоматическиеСкидкиВПродажах</location>
+  <content>Catalog.бг_ТипыСкидокНаценокCRM</content>
+  <content>InformationRegister.бг_МаксимальныеПроцентыСкидок</content>
+  <content>InformationRegister.бг_НастройкиОпределенияДатыДействияСкидокНаценок</content>
+  <content>Enum.бг_ИсточникиЦеновойГруппы</content>
+  <content>Enum.бг_ВариантыОпределенияДатыДействияСкидокНаценок</content>
+  <content>AccumulationRegister.бг_СуммовыеСкидкиЛокальные</content>
+</mdclass:FunctionalOption>

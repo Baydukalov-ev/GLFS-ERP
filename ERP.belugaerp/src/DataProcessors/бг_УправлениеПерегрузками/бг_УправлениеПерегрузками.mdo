@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41aa5abd-878e-46f1-85f6-9a8c545e3a94">
+  <producedTypes>
+    <objectType typeId="8baaf376-6470-4276-96a1-4f3ba06a80a2" valueTypeId="6bb2e429-bbcd-46d2-8fb9-3d92f1d3fdb4"/>
+    <managerType typeId="580aa1dd-501c-4c46-9e84-486ee6e32834" valueTypeId="acdceee9-2ad7-449b-b7b7-f6b313f6c82c"/>
+  </producedTypes>
+  <name>бг_УправлениеПерегрузками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление перегрузками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_УправлениеПерегрузками.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Служит для загрузки данных о перегрузках от Перевозчиков, создания на основании этих данных Транспортных накладных ЕГАИС</value>
+  </explanation>
+  <forms uuid="e658c8c1-45eb-4c38-a078-508df8fed0af">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

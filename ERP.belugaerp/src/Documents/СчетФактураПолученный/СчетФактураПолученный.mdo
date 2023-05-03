@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1fcd84ee-e880-4b32-9340-cbfdf08bd3e8">
+  <producedTypes>
+    <objectType typeId="48b35693-048d-4788-9ff1-1a85ba923443" valueTypeId="0b571872-5464-4d5d-a390-576e24084919"/>
+    <refType typeId="5646500d-6d1d-4ab0-8570-b92c850b7104" valueTypeId="72f1045a-bfae-4d9f-8188-530ebd8ef564"/>
+    <selectionType typeId="18a3db10-af98-4eb7-b599-02d2b7ef2825" valueTypeId="357ff4c7-b1ea-4912-b09c-dffcc51f0132"/>
+    <listType typeId="3c9c4aa2-3dfa-4c26-a8a1-a1958235901b" valueTypeId="a59aa877-9b1f-40f5-aabc-01ba9a35991d"/>
+    <managerType typeId="2f50e0df-27c8-4e09-8bf6-ab15bb858c35" valueTypeId="c1779191-b2aa-40b9-a269-33c21b84b365"/>
+  </producedTypes>
+  <name>СчетФактураПолученный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="dce92c86-5dba-47f5-a136-2b18f4ee8a09">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6f314301-1b1b-43e0-9408-65a76d290570">
+    <name>бг_ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1f3d9e0d-5398-48a2-8e5f-1daaffdd0ac7">
+    <producedTypes>
+      <objectType typeId="a9c9f80e-cdd4-4b99-baf2-0ae56091afb2" valueTypeId="d2d1baff-da00-47aa-a09e-5e1d2dfb35f3"/>
+      <rowType typeId="e70bf6a9-567b-4341-8375-8aa1fcee22c5" valueTypeId="91e1ef91-3202-4403-bc8a-85397f4d0980"/>
+    </producedTypes>
+    <name>ДокументыОснования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="6741e6ca-77e2-4ff8-9e59-29374a03146b">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ОснованиеСчетФактураПолученный</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

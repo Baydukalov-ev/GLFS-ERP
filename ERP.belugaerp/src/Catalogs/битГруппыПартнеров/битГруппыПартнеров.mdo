@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4bb0f8d2-7d4e-449c-bfff-0698921968e0">
+  <producedTypes>
+    <objectType typeId="25093abb-fa71-429b-8542-84d366f8c499" valueTypeId="d1f2ce98-e722-41a7-bb05-28ca9bb141fb"/>
+    <refType typeId="dcd19485-405f-42a0-9d68-fd34433125b6" valueTypeId="532a2269-0656-4eb2-b462-f953e8f6735c"/>
+    <selectionType typeId="29daa1de-c519-46b5-9663-8f90554842e9" valueTypeId="a60dba05-fb3b-4776-ac35-c0f328de268d"/>
+    <listType typeId="7592b6ec-ca97-42ee-8972-957296de1495" valueTypeId="56c286f0-556f-4643-bc06-53f267ad0a03"/>
+    <managerType typeId="fee1465b-85e4-4481-81b4-9a1ba2ba410f" valueTypeId="70559da8-72b5-4411-92f5-a62cef9cb6ba"/>
+  </producedTypes>
+  <name>битГруппыПартнеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <defaultListForm>Extended</defaultListForm>
+    <defaultChoiceForm>Extended</defaultChoiceForm>
+  </extension>
+</mdclass:Catalog>

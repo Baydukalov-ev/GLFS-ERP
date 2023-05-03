@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71b51b60-b47d-4bed-9054-8d19d2ac0646">
+  <producedTypes>
+    <objectType typeId="531f562a-8558-46a7-b2be-f056f8c28c22" valueTypeId="39fd885b-8be3-479a-826b-959d7642ec64"/>
+    <managerType typeId="cf623a80-9f00-446a-8c34-4ff9914ef372" valueTypeId="853dbc61-5330-47df-b8bc-582a6541c4b4"/>
+  </producedTypes>
+  <name>бг_ЗагрузкаЗаказовКлиентовСПорталаТвойДом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка заказов клиентов с портала SAP (Твой Дом)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗагрузкаЗаказовКлиентовСПорталаТвойДом.Form.Форма</defaultForm>
+  <forms uuid="446fba30-4be0-4f23-941f-f671c4195b86">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="68591c12-2e35-4c48-85da-9b9e9b880e22">
+    <name>ФормаОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ошибок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

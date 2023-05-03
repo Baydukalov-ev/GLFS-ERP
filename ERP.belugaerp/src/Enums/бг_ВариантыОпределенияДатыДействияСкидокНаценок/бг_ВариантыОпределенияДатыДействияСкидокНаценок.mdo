@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8cef5ce-2381-4ddc-9235-214d53a25fac">
+  <producedTypes>
+    <refType typeId="ec7d2c01-d137-4697-9e71-aa50d4388d95" valueTypeId="2036da4c-cabc-4cc4-876e-c09cb0e52358"/>
+    <listType typeId="06a5f435-b87b-4527-9054-62f92c0e2a2b" valueTypeId="fb2e7305-59cc-44a0-b681-bdbbf41cea3d"/>
+    <managerType typeId="14e00393-468a-4dc9-afad-c63d6dd13f7c" valueTypeId="3ea3e3b4-33b2-45d5-8ac8-cb7c1196649f"/>
+  </producedTypes>
+  <name>бг_ВариантыОпределенияДатыДействияСкидокНаценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты определения даты действия скидок (наценок)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Discounts (margins) validation date options</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d67f85fb-232a-43e8-b395-6bfb62207d46">
+    <name>ПоДатеДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате документа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5a2daaf-9022-4c38-97e4-baf921ffca6b">
+    <name>ПоДатеВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате вх. документа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3f52b8c-7aa8-4b7d-9ea6-14f732177b51">
+    <name>ПоДатеОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дате отгрузки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

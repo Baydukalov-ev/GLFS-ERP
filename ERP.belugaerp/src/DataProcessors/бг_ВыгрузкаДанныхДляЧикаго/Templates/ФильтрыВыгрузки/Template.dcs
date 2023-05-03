@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Номенклатура</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Товары</dataPath>
+			<field>Товары</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Товары</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Товары
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	НЕ Номенклатура.ЭтоГруппа
+	И НЕ Номенклатура.ПометкаУдаления
+	И Номенклатура.ТоварнаяКатегория В
+			(ВЫБРАТЬ
+				ТоварныеКатегории.Ссылка КАК Ссылка
+			ИЗ
+				Справочник.ТоварныеКатегории КАК ТоварныеКатегории
+			ГДЕ
+				НЕ ТоварныеКатегории.бг_НаЭкспорт
+				И НЕ ТоварныеКатегории.ПометкаУдаления
+				И (ТоварныеКатегории.Владелец.АлкогольнаяПродукция
+					ИЛИ ТоварныеКатегории.Владелец.Наименование = "Безалкогольная продукция"))</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Склады</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склады</dataPath>
+			<field>Склады</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склады</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Склады.Ссылка КАК Склады
+ИЗ
+	Справочник.Склады КАК Склады
+ГДЕ
+	НЕ Склады.ЭтоГруппа
+	И НЕ Склады.ПометкаУдаления</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Сотрудники</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудники</dataPath>
+			<field>Сотрудники</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудники</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ФизическиеЛица.Ссылка КАК Сотрудники
+ИЗ
+	Справочник.ФизическиеЛица КАК ФизическиеЛица
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Пользователи КАК Пользователи
+		ПО (ФизическиеЛица.Ссылка = Пользователи.ФизическоеЛицо)
+ГДЕ
+	НЕ ФизическиеЛица.ЭтоГруппа
+	И НЕ Пользователи.Ссылка ЕСТЬ NULL
+	И НЕ Пользователи.ПометкаУдаления</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Организации</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Фирмы</dataPath>
+			<field>Фирмы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фирмы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Организации.Ссылка КАК Фирмы
+ИЗ
+	Справочник.Организации КАК Организации
+ГДЕ НЕ Организации.ПометкаУдаления
+		И НЕ Организации.Ссылка = ЗНАЧЕНИЕ(Справочник.Организации.УправленческаяОрганизация)</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ВидыЦен</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидыЦен</dataPath>
+			<field>ВидыЦен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды цен</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВидыЦен.Ссылка КАК ВидЦен,
+	ВидыЦен.Наименование КАК Наименование,
+	ВидыЦен.ВалютаЦены КАК ВалютаЦены
+ПОМЕСТИТЬ ВТВидыЦен
+ИЗ
+	Справочник.ВидыЦен КАК ВидыЦен
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДоговорыКонтрагентов.бг_Соглашение.ВидЦен КАК ВидЦен
+ПОМЕСТИТЬ ВТВидыЦенИзСоглашений
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК ДоговорыКонтрагентов
+ГДЕ
+	ДоговорыКонтрагентов.Организация В(&amp;МассивОрганизаций)
+	И ДоговорыКонтрагентов.Контрагент В(&amp;МассивКонтрагентов)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТВидыЦен.ВидЦен КАК ВидыЦен
+ИЗ
+	ВТВидыЦен КАК ВТВидыЦен
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТВидыЦенИзСоглашений КАК ВТВидыЦенИзСоглашений
+		ПО ВТВидыЦен.ВидЦен = ВТВидыЦенИзСоглашений.ВидЦен
+
+СГРУППИРОВАТЬ ПО
+	ВТВидыЦен.ВидЦен</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Контрагенты</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Покупатели</dataPath>
+			<field>Покупатели</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Покупатели</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	Сегменты.Партнер КАК Партнер
+ПОМЕСТИТЬ ОтборПоСегментуПартнеров
+ИЗ
+	РегистрСведений.ПартнерыСегмента КАК Сегменты
+ГДЕ
+	Сегменты.Сегмент = &amp;СегментПартнеров
+
+ИНДЕКСИРОВАТЬ ПО
+	Партнер
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДоговорыКонтрагентов.Контрагент КАК Контрагент,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ДоговорыКонтрагентов.Ссылка) КАК КоличествоДоговоров
+ПОМЕСТИТЬ ВТДоговорыКонтрагентов
+ИЗ
+	Справочник.ДоговорыКонтрагентов КАК ДоговорыКонтрагентов
+ГДЕ
+	ДоговорыКонтрагентов.Организация В(&amp;МассивОрганизаций)
+	И НЕ ДоговорыКонтрагентов.ПометкаУдаления
+
+СГРУППИРОВАТЬ ПО
+	ДоговорыКонтрагентов.Контрагент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Контрагенты.Ссылка КАК Покупатели
+ИЗ
+	Справочник.Контрагенты КАК Контрагенты
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.битПунктыНазначения КАК битПунктыНазначения
+		ПО Контрагенты.Ссылка = битПунктыНазначения.Клиент.ГоловнойКонтрагент
+		ЛЕВОЕ СОЕДИНЕНИЕ ОтборПоСегментуПартнеров КАК ОтборПоСегментуПартнеров
+		ПО Контрагенты.Партнер = ОтборПоСегментуПартнеров.Партнер
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТДоговорыКонтрагентов КАК ВТДоговорыКонтрагентов
+		ПО Контрагенты.Ссылка = ВТДоговорыКонтрагентов.Контрагент
+ГДЕ
+	НЕ Контрагенты.ПометкаУдаления
+	И Контрагенты.бг_КодКлиентаSY &lt;&gt; ""
+	И НЕ битПунктыНазначения.Ссылка ЕСТЬ NULL
+	И НЕ битПунктыНазначения.ПометкаУдаления
+	И битПунктыНазначения.ОбменСМТ
+	И ВЫБОР
+			КОГДА &amp;СегментПартнеров = ЗНАЧЕНИЕ(Справочник.СегментыПартнеров.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ НЕ ОтборПоСегментуПартнеров.Партнер ЕСТЬ NULL
+		КОНЕЦ
+
+СГРУППИРОВАТЬ ПО
+	Контрагенты.Ссылка</query>
+	</dataSet>
+	<parameter>
+		<name>Сегмент</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сегмент</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СегментыПартнеров</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СегментПартнеров</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сегмент партнеров</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СегментыПартнеров</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>МассивОрганизаций</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Массив организаций</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>МассивВидовЦен</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Массив видов цен</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.ВидыЦен</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>МассивКонтрагентов</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Массив контрагентов</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Контрагенты</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Склады</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудники</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Товары</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Фирмы</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидыЦен</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Покупатели</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Товары</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Товары</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Фирмы</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Фирмы</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Сотрудники</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Сотрудники</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Виды цен</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВидыЦен</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Склады</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Склады</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Покупатели</dcsset:name>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Покупатели</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

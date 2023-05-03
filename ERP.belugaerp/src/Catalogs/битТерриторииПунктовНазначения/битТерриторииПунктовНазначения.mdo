@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="10abce7e-eadc-4c4a-8287-54b3576eb76d">
+  <producedTypes>
+    <objectType typeId="f3d946b8-9f56-41a5-af56-4e3dc99b7a07" valueTypeId="24dbc2bd-82f9-4de7-9471-d3674fad10e5"/>
+    <refType typeId="b31af597-ff9c-4578-bf8f-b1edc226c749" valueTypeId="827561e4-a26c-4430-8f34-a7d82ce0ed42"/>
+    <selectionType typeId="20d9bc07-2b93-4d94-b9e4-5b58fad400d2" valueTypeId="b84efee8-ff63-42ef-85c2-4ba4327484f2"/>
+    <listType typeId="192c6f0c-2d21-4cb2-aa3a-d8cdc58920d2" valueTypeId="dcbff0ae-e9d3-4522-83db-991e7e631808"/>
+    <managerType typeId="62032fe2-154b-42cb-a553-9e7f96e6d3cf" valueTypeId="1a400852-a3d9-488e-9257-2d03c3b9e7fb"/>
+  </producedTypes>
+  <name>битТерриторииПунктовНазначения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="d25b956f-55f8-497b-8f68-b16b5d31f2f6">
+    <name>ИдентификаторCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор CRM</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

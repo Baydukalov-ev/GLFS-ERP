@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76ef4da1-0fe8-4649-8be7-28cd3cf31db0">
+  <name>бг_ЧтениеУсловийОбращенияСАлкогольнойПродукциейЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение условий обращения с алкогольной продукцией ЕГАИС (Белуга)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e10027ef-75b8-4b3b-8e40-9118c6b65a8d">
+  <producedTypes>
+    <objectType typeId="a7e7cbcc-8661-47e7-802b-dcf1dff52738" valueTypeId="6709953e-c4b3-4c9a-bf6f-13e696e043c1"/>
+    <managerType typeId="51861555-f89c-470a-b573-c622914cf7d9" valueTypeId="5c7710f6-5571-4e0f-b297-6997996b3c1f"/>
+  </producedTypes>
+  <name>ПроверкаКоличестваТоваровВДокументе</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+</mdclass:DataProcessor>

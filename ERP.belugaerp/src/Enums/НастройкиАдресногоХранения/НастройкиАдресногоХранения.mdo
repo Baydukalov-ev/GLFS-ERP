@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="de63ad9f-6e7b-46b2-bede-34262828d560">
+  <producedTypes>
+    <refType typeId="ce5004bd-cb71-463a-9d43-c9f240f02acc" valueTypeId="4e17233c-d956-4a31-aa81-9f976d2004ca"/>
+    <listType typeId="650904b9-9762-4ade-b3df-9cbaf31e4f80" valueTypeId="261c8d29-c9f3-4ec1-b420-6157aee8d63c"/>
+    <managerType typeId="b9c11bf8-a874-459b-addb-50954871f3cb" valueTypeId="3ccffda7-5b6c-46c3-812b-612d4691db21"/>
+  </producedTypes>
+  <name>НастройкиАдресногоХранения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="2e5759a3-4110-4566-ae70-882a2b6f6083">
+    <name>ОпределяетсяНастройкамиПомещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d23b8788-a8ab-41cd-97bf-2e1955b20220">
+    <name>ЯчейкиОстатки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c019a18e-2be8-4b12-b0a6-45f155a3a499">
+  <producedTypes>
+    <refType typeId="d7031171-cb9f-4c9c-a634-63627a197922" valueTypeId="55e67751-0de2-4591-a115-1d4f422b513a"/>
+    <listType typeId="ea6c8b3c-4b20-48a5-967f-06d226ac432c" valueTypeId="9439db3e-4f41-4870-ab77-1ef36191598b"/>
+    <managerType typeId="7e2e4249-2eb6-443e-94a4-e0b6e32797a2" valueTypeId="c0a26b73-b26a-4705-b6ae-851f8c5767a1"/>
+  </producedTypes>
+  <name>бг_creatio_ТипыОбъектовАдреса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов адреса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="48c91cae-cced-49c2-958b-c1121790ea29">
+    <name>Владение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1e0ab34e-e9f5-4ea0-8fb5-c1b73336c19f">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2a357f51-8bd1-4a44-9520-6ee99f5c18ac">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a01afd0d-2344-4b26-a5a4-cacc1910f8d1">
+    <name>Корпус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпус</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06a58aa0-7f72-4f9a-bf42-3a4781723e06">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70eb0e67-e9de-43ff-9921-4733649018d8">
+    <name>Строение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

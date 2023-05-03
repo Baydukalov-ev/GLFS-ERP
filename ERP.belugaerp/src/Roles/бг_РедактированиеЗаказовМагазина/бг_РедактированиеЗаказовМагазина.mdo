@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6da7c95c-f32a-4675-ad4f-e812541dba75">
+  <name>бг_РедактированиеЗаказовМагазина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование заказов магазина</value>
+  </synonym>
+</mdclass:Role>

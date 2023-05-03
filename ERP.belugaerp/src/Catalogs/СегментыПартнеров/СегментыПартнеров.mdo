@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0cf065d3-21ce-4b6b-aef4-479a924c40a9">
+  <producedTypes>
+    <objectType typeId="1d4daa0b-e69a-4306-8011-0bac07f33f5c" valueTypeId="47f2afdb-0677-4eb5-935c-8283d1266d1a"/>
+    <refType typeId="cffe7546-8cd0-44ac-96af-659bb0f3e14a" valueTypeId="00b33cd8-7e82-46fd-a851-c779cf59c8d4"/>
+    <selectionType typeId="94a8b2ae-228e-4a2f-8411-e6eacccd964a" valueTypeId="111a919c-2f8d-4a8d-97c3-6cf1b6ad9d84"/>
+    <listType typeId="d737ba71-57ac-4dd4-b310-7e41f3f1417a" valueTypeId="54dc8402-3254-4da7-a200-48847d9a97da"/>
+    <managerType typeId="8b99fb55-2e20-4d50-8dc1-e149d5f6c338" valueTypeId="f2fcc565-977e-4037-8050-6ade8f8efefb"/>
+  </producedTypes>
+  <name>СегментыПартнеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="c9d532ba-ee92-4039-bd39-acb9cab5ad09">
+    <name>бг_ГУИДГруппыКонтрагентовУПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор группы контрагентов (УПП)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="18f10ede-6317-4b81-9da3-47aa00a7b8c8">
+    <name>бг_ТипПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип приемки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битТипыПриемкиWMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5976cd71-1184-4505-8bf5-0710f1facbd1">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

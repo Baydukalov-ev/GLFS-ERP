@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6583234-11c2-47d2-952a-e6506a1900f0">
+  <producedTypes>
+    <objectType typeId="777fb543-c80f-43e2-8504-784a443905c9" valueTypeId="19cc5314-91ec-4f93-817e-05255db22829"/>
+    <managerType typeId="83b4fce7-cbee-4933-87e3-95bf52961749" valueTypeId="a1199bf6-2490-427d-b69a-3adbbe1e757d"/>
+  </producedTypes>
+  <name>бг_ВедомостьПоОС_Консервация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость по ОС (Консервация)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statement of assets</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ВедомостьПоОС_Консервация.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bf26d924-c353-458c-8a57-0d7751c53c76">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

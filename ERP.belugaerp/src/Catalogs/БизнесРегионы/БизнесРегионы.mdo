@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="750dc943-6c27-458f-a1c4-126e98e71bff">
+  <producedTypes>
+    <objectType typeId="34144790-dbc8-49f6-b4fb-84a8a0374b1e" valueTypeId="218a949c-2265-4a92-9551-245234496143"/>
+    <refType typeId="079e0a6e-441e-400c-916c-be4a8bc810f1" valueTypeId="82762bb9-93ce-46e5-8402-26f9e4665dd5"/>
+    <selectionType typeId="b36fdcb7-594c-4cc1-97e6-725aaedb0f0c" valueTypeId="245e6fdd-8c62-4c6c-bbb3-eef599965445"/>
+    <listType typeId="a47cb33d-922a-4d61-9eb4-7bb5d63c77f0" valueTypeId="25f43925-1e38-449e-bf60-db61027ab03a"/>
+    <managerType typeId="d180cb85-b717-4bde-982b-934063622d76" valueTypeId="186f6352-0bd9-48ea-b908-39884208b758"/>
+  </producedTypes>
+  <name>БизнесРегионы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

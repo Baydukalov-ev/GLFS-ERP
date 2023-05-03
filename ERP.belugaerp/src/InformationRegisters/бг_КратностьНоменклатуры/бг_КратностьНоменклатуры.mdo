@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a06c41-de6b-40e5-8657-948a4480763c">
+  <producedTypes>
+    <selectionType typeId="9197a7bb-6971-4c19-a0ba-445d55fff52e" valueTypeId="582f640b-e780-4730-9f59-8b8797fb7dbb"/>
+    <listType typeId="5ac23182-0732-45d4-a891-7cb51696bfc4" valueTypeId="98033229-035a-4082-bfa2-2b16d4753f3a"/>
+    <managerType typeId="03555530-4f68-4e16-91e2-9ab627bb3e1d" valueTypeId="69ee97df-d6fe-4133-8204-c93135b12836"/>
+    <recordSetType typeId="c38e94fd-f3e8-453f-b0b7-3c6795a314b8" valueTypeId="ab3b2d21-cec3-4d01-97c7-2b3ef4f0ea2c"/>
+    <recordKeyType typeId="458cf720-d9b4-4bce-8458-cc6c76b2cc06" valueTypeId="963160d0-c0af-4fcf-be5c-114610e17a82"/>
+    <recordType typeId="618760e5-147c-43d9-b459-42fe56ee8089" valueTypeId="5eb7cce3-315b-4f9a-b2b4-bb4242e37abf"/>
+    <recordManagerType typeId="2b4d98bd-a361-48e8-8525-2cb7a1d76232" valueTypeId="2f650d3e-b8ed-46c6-9240-733545a86c62"/>
+  </producedTypes>
+  <name>бг_КратностьНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кратность номенклатуры (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3d4fea1a-2417-4b2b-b3ef-75ee98a8f4c8">
+    <name>Кратность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кратность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c56caffa-3dc5-4655-8eb9-0d5d60667af7">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

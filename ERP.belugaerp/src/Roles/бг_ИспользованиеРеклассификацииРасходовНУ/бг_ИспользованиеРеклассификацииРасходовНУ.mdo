@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b358dfb5-11a3-4cc4-b563-3e8f18c315f3">
+  <name>бг_ИспользованиеРеклассификацииРасходовНУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование реклассификации расходов НУ</value>
+  </synonym>
+</mdclass:Role>

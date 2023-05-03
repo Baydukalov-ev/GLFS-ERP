@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60273e85-5ef9-4ff8-9121-90a21b865394">
+  <producedTypes>
+    <refType typeId="71e79751-e65b-4457-9cbb-4a85809b2495" valueTypeId="5e616aba-df20-49f4-983e-7be0f6acb972"/>
+    <listType typeId="49cf9056-ca77-468b-8070-d2e64144ebb2" valueTypeId="13b6d421-1756-4327-aeb6-fc026dd1c23d"/>
+    <managerType typeId="53cf2d5d-57a7-462d-bef0-ddf9d1f71c86" valueTypeId="8718103b-04db-425d-bfe3-c610f94a12d4"/>
+  </producedTypes>
+  <name>СпособыПримененияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a3c47852-18a1-49e0-a257-c90a2bbe3eba">
+    <name>НачислитьБонусныеБаллы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4e0d67f-604f-4ec6-8d9a-a3b359c5fe81">
+    <name>ПрименитьВМоментРасчетаСкидокНаценок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

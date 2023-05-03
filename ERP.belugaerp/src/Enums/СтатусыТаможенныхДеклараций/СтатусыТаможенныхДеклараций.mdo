@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d950f4ec-cf35-492c-ad41-60bba485c8fe">
+  <producedTypes>
+    <refType typeId="19398eb0-dcf7-4eb9-bdf1-69ea4e59e905" valueTypeId="03188125-cba7-4e37-9b67-171af4dcb3b9"/>
+    <listType typeId="da144349-6336-4e87-be3f-1f22ce80e6c9" valueTypeId="1067a660-1e75-4df0-93af-976ab61d5b43"/>
+    <managerType typeId="095dd774-0846-4901-bba8-a5350ee72247" valueTypeId="70f56b4c-04ff-4f0b-8381-2a30a0a0e03b"/>
+  </producedTypes>
+  <name>СтатусыТаможенныхДеклараций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="66880b61-ced2-482f-955c-017336d37c85">
+    <name>ТаможенноеОформление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="594f1dfa-1f7b-42da-adfe-83204e3e277a">
+    <name>ВыпущеноСТаможни</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

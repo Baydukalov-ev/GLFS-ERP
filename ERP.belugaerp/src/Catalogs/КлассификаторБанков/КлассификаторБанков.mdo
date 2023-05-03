@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6fa57fcd-de0b-47ff-a8bf-470fa486d1e7">
+  <producedTypes>
+    <objectType typeId="9b890b91-608b-47c5-af41-aa3c2e585174" valueTypeId="464749bd-848b-4b54-aab9-f8b753354331"/>
+    <refType typeId="81f4662c-6d0e-44d1-b5ac-b05e8c7e186a" valueTypeId="57f16eb8-9290-484d-9875-467b49a3838a"/>
+    <selectionType typeId="42db72a0-8954-44dd-95f4-53b8f603673b" valueTypeId="d7ba41aa-eb36-4f04-b782-1f5d3041e861"/>
+    <listType typeId="598e0853-4d06-414d-83a8-9966c19a5825" valueTypeId="e9fa2235-cbde-480e-b701-49f7bb99bc81"/>
+    <managerType typeId="648d3ba4-cb0a-4fb9-be6e-0a6ac6970e9f" valueTypeId="1cdb7cba-7740-478d-800c-8d2e5ffa644a"/>
+  </producedTypes>
+  <name>КлассификаторБанков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

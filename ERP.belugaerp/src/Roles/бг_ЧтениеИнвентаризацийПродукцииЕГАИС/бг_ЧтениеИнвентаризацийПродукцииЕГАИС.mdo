@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7332f91e-f858-4258-a37d-186b6bd842dc">
+  <name>бг_ЧтениеИнвентаризацийПродукцииЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение инвентаризаций продукции ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

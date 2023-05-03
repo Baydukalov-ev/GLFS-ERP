@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c04cead-39fc-459d-b86c-1ee7784ab187">
+  <producedTypes>
+    <refType typeId="83dbe41e-de9e-4d38-8280-992319a12331" valueTypeId="b8293d2d-8d91-4269-8b9d-989494d80f5f"/>
+    <listType typeId="041c5f61-226c-4f90-9f5d-9ef7b3ad90b6" valueTypeId="80c7d9ae-1a62-44fa-9f30-32d058dc3580"/>
+    <managerType typeId="8481f1cd-5409-4712-9fe5-3633845300c0" valueTypeId="2c70b976-102c-4c51-947c-66e103a918cb"/>
+  </producedTypes>
+  <name>ТипыСобытийОповещений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <enumValues uuid="758fb943-92a4-4a19-b435-edb0388316f2">
+    <name>бг_ЗагрузкаИнформацииПоЛицензиям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка информации по лицензиям</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2332a25f-ddb8-44a6-af03-a4690a65235d">
+    <name>бг_ИзменениеАлкогольнойЛицензииПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение алкогольной лицензии поставщика</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="21d9c8e7-f021-4601-9277-b4a9255c3514">
+    <name>бг_ОтгрузкаГотовойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка готовой продукции</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <templates uuid="dba3378f-cb57-4c78-902f-49f1785fa90a">
+    <name>бг_ИзменениеАлкогольнойЛицензииПоставщика</name>
+    <synonym>
+      <key>en</key>
+      <value>Order status change</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение алкогольной лицензии поставщика</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="7e171524-f9a9-4fa9-af94-5dbe42b390c7">
+    <name>бг_ЗагрузкаИнформацииПоЛицензиям</name>
+    <synonym>
+      <key>en</key>
+      <value>Order status change</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка информации по лицензиям</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="f012de50-c2cb-47be-add3-6225ed6dc44c">
+    <name>бг_ОтгрузкаГотовойПродукции</name>
+    <synonym>
+      <key>en</key>
+      <value>Order status change</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка готовой продукции</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Enum>

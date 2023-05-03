@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2ad09984-e9fd-4784-8c7f-c1f168754aa1">
+  <producedTypes>
+    <objectType typeId="38340102-8bfe-4c4c-88e2-f22160f867ab" valueTypeId="5cd339d7-998c-4c67-a7ce-fcdd40aea79b"/>
+    <refType typeId="d02da4a8-b3e0-4481-bc90-4f4a26573128" valueTypeId="03f635f8-7e6b-4b67-9793-52b3ffa13766"/>
+    <selectionType typeId="b0451370-3854-40ff-b498-5bd8d75a3173" valueTypeId="a607fac8-979d-4bca-958e-b705e83a475e"/>
+    <listType typeId="50809024-6ce4-418a-9246-215322de3079" valueTypeId="f646e011-3827-48f9-b915-705c122fd813"/>
+    <managerType typeId="4c069769-a629-4117-9690-eb84d68b3eae" valueTypeId="0371707c-0b76-4d06-b8b5-77ab029a8cd2"/>
+  </producedTypes>
+  <name>ВводОстатковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="513dfeb5-ef83-4c76-8653-38bb69f1a681">
+    <name>ФормаТовары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

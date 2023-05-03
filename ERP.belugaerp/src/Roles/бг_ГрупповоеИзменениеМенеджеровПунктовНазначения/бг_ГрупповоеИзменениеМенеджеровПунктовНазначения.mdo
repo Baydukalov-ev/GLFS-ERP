@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="468acf00-7888-4bc4-896b-19f52618f944">
+  <name>бг_ГрупповоеИзменениеМенеджеровПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповое изменение менеджеров пунктов назначения</value>
+  </synonym>
+</mdclass:Role>

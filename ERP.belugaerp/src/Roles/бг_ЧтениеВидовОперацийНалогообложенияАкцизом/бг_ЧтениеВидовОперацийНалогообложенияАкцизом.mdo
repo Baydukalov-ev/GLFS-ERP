@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a190866-b63c-4bba-8f50-10dcf9f1dcff">
+  <name>бг_ЧтениеВидовОперацийНалогообложенияАкцизом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов операций налогообложения акцизом</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15ffd60e-9b13-4956-92c6-b3e8b3e9e09a">
+  <producedTypes>
+    <objectType typeId="41b59d0e-8ed4-4860-a157-abf372182c37" valueTypeId="041347b9-7ddc-436d-a18b-6bedfd23327a"/>
+    <managerType typeId="70202b14-df0d-4f2d-98c3-7e2f652305bf" valueTypeId="013c0d95-6d05-4347-883c-a8926dfb8509"/>
+  </producedTypes>
+  <name>бг_УровеньSLAПоЗаказамКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровень SLA по заказам клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_УровеньSLAПоЗаказамКлиента.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7a3e97d6-ea24-457c-9a60-e8c92d677b9a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

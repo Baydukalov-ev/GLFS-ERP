@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b21bef59-2b42-419f-b615-34289d2bc8be">
+  <producedTypes>
+    <objectType typeId="303da684-c29e-4af1-89c5-82ffdad7b79d" valueTypeId="f893bf37-0a2f-42e6-b45f-606a5f0846fd"/>
+    <managerType typeId="e9af9da4-46fb-4a36-bb14-4c58e8d66000" valueTypeId="dc02f05d-63ed-4e8b-b7a0-c0a0999d6dcc"/>
+  </producedTypes>
+  <name>ПодборТоваровВДокументПродажи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <tabularSections uuid="08844178-153e-4289-b275-b2a5a4067fb0">
+    <producedTypes>
+      <objectType typeId="446ba20a-244a-4657-bd20-336aa4deb159" valueTypeId="68d0bbd3-b629-48cd-9c1e-fbefe925c57f"/>
+      <rowType typeId="5e6191a8-a49d-4592-8ff8-758802b34f55" valueTypeId="6e4175ed-39fe-440b-8de6-90673df21a3f"/>
+    </producedTypes>
+    <name>Корзина</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="f5c2dcbe-8e6c-4f37-bb76-1bf882283023">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="2d17fbc8-97a5-401e-8bd5-0f4a75d3a807">
+      <name>Характеристика</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="a8230292-fd0c-4a9d-a189-8cfa78c585b5">
+      <name>бг_УпаковкаПаллета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка (паллета)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <field>DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5eb2ed58-ed55-487f-945a-42f227ad7924">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db10823b-8f61-4894-9cb1-84fa614f5cf7">
+  <producedTypes>
+    <objectType typeId="d2b66413-af0b-4144-be18-1e8188f6c5c5" valueTypeId="4d9102ac-be62-44a1-845b-4ca447843419"/>
+    <managerType typeId="effcc058-c2ed-4fa5-a02c-a3c3d5385c45" valueTypeId="1b93d784-2592-42c6-92e0-71be3e9852e2"/>
+  </producedTypes>
+  <name>бг_ДиапазоныМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диапазоны марок ФСМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ДиапазоныМарок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ffe54091-7be4-4004-ac04-40582490adee">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08a06c40-2e65-40dd-a353-b7a113796785">
+  <name>бг_адаптер_ЗаписиРегистровИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бг адаптер записи регистров интеграция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

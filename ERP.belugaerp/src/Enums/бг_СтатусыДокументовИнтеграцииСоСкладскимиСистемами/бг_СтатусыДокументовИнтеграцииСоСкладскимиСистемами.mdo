@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ef4eb8e-7c41-4d98-88cf-127639b75d7c">
+  <producedTypes>
+    <refType typeId="e0e031e4-7fb2-422c-9a17-6ce361604ff3" valueTypeId="94992687-c49a-4b11-8f28-5cdf1a1e968f"/>
+    <listType typeId="d1ea8a5a-dc31-4058-a0ab-1dc2e4f13923" valueTypeId="1ea2fa40-f347-4254-83b2-e13d574db526"/>
+    <managerType typeId="9efdaf03-819b-4757-a644-05d74e16bd00" valueTypeId="3ff04001-14e4-486f-a481-462f174623f1"/>
+  </producedTypes>
+  <name>бг_СтатусыДокументовИнтеграцииСоСкладскимиСистемами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов интеграции со складскими системами</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="475dcc09-2cfd-4045-9eb7-0a6806b1c7b1">
+    <name>ЗагруженБезОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен без обработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d029b7f9-9e60-454f-bdb2-fa4ccf8459d0">
+    <name>ЗагруженИОбработан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружен и обработан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fa6a9fe-b9a4-45b8-88b7-89ae2fb75d10">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

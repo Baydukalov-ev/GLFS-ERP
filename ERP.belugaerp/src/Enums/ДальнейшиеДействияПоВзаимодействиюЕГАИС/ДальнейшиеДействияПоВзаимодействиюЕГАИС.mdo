@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d423dc3e-a98e-4bd3-aff4-98361d31e1d7">
+  <producedTypes>
+    <refType typeId="2328f5e5-d37a-466b-8e75-1f6acb84b423" valueTypeId="9932a549-365c-4f6d-b07c-9a744b831fac"/>
+    <listType typeId="bdf49d04-43ee-4532-b853-e303f1c95a41" valueTypeId="3c75b07a-37e7-409a-aa53-d7c619654b83"/>
+    <managerType typeId="6d55f0f5-e4c1-41b9-9568-88e64dda634b" valueTypeId="81471a06-45c4-4346-86ea-75fbb589e37b"/>
+  </producedTypes>
+  <name>ДальнейшиеДействияПоВзаимодействиюЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="0d31cd4e-dcb2-45ae-8ad9-42203e99cd1a">
+    <name>бг_ЗапроситеФСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запросите федеральные специальные марки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="626df63e-3bd1-4219-bffa-9f07dd161f66">
+    <name>бг_ОтправьтеОтчетОбИмпорте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправьте отчет об импорте</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="438ecf59-9293-4909-a01e-da3652f7a198">
+    <name>бг_ОжидайтеПолучениеФСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидайте получение федеральных специальных марок</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="852d7c2f-98aa-45ba-9156-c9ad137a4735">
+    <name>НеТребуется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c6d62d8e-ed03-4502-8285-894a1df76d51">
+    <name>ПередайтеДанные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6e0c9169-6f88-46d9-9e9f-e6488326d112">
+    <name>ПодтвердитеАктОРасхождениях</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="927dfe0a-91a3-4e98-9a96-3891734e09a0">
+    <name>ОткажитесьОтАктаОРасхождениях</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="07d948b6-0bbf-4258-af3a-1021e8923609">
+    <name>ЗапроситеОстатки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f75dcc01-47c9-4ca4-843f-22b963a38633">
+    <name>ЗапроситеАкцизныеМарки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="afa7e0b0-0c6a-4a9a-b4a2-94215954def4">
+    <name>ЗапроситеОтчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1153d23c-0a35-4ad0-a602-75dd12b6d0fc">
+    <name>ОткажитесьОтНакладной</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="441e927f-9d14-4908-9c65-444e98805a9b">
+    <name>ВыполнитеПроверку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="315d6df9-850a-4e8c-867b-091754cfbbe8">
+    <name>ПодтвердитеПолучение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ea5a6322-44ea-456a-9762-47c1e92c8532">
+    <name>ПодтвердитеПолучениеАктПодтверждения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7e847cf7-1c6b-4b3c-8e03-2cc85429be04">
+    <name>ПодтвердитеПолучениеАктРасхождений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2792e922-1afa-4e52-99f9-835360db8afd">
+    <name>ЗапроситеОтменуПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d0d181ef-d15b-4917-a4be-d3e4296d9c6f">
+    <name>ПодтвердитеЗапросНаОтменуПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="adfb62fa-284a-4fdd-9754-6e8e51905a6a">
+    <name>ОткажитесьОтЗапросаНаОтменуПроведения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="32c5f4bb-cab7-4a46-b29e-558a94814f49">
+    <name>ОтменитеОперацию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1d5ea9e1-574b-442b-bd62-1b83b40fed96">
+    <name>ОтменитеПередачуДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e4732c42-ade6-4972-b45a-9f7931a54e0f">
+    <name>ВыполнитеОбмен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="db70ab33-8cf6-41e8-b18b-39c824f231ab">
+    <name>ОжидайтеПередачуДанныхРегламентнымЗаданием</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ebe4fc32-bf4e-4baf-ac9d-ad0264ffe2d5">
+    <name>ОжидайтеПолучениеКвитанцииПолученЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="57e09716-96e6-4434-8bc0-cb5a108cda78">
+    <name>ОжидайтеПолучениеКвитанцииПроведенЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="073d58bd-4511-46f8-a7d1-f2e8660d392c">
+    <name>ОжидайтеПолучениеУведомленияОРегистрацииДвижения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="97e04c9c-4b52-4deb-b9b7-3bbc7e902d2a">
+    <name>ОжидайтеПолучениеОстатков</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2c5cca6b-e124-40fe-9eb4-b8566300f2a4">
+    <name>ОжидайтеПолучениеАкцизныхМарок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6c83c7d0-c840-4737-9b14-b4b2e01aad0b">
+    <name>ОжидайтеПолучениеОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ff542c01-c398-41c7-89c2-5389bac7f31b">
+    <name>ОжидайтеПолученияПодтверждения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="814ed092-6143-456a-87b6-09c4bae1e802">
+    <name>ОтработайтеРасхождения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dc8ef887-503b-4862-9d45-d25ffd8190de">
+    <name>ОтклонитеОтработкуРасхождений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

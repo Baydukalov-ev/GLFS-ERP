@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40c7b214-d136-4456-82c7-5373466d0c55">
+  <producedTypes>
+    <objectType typeId="9d691d81-e002-4330-9d17-6d4ef235e26c" valueTypeId="8045ffa9-26eb-4cf0-bb6f-71246c867f9a"/>
+    <managerType typeId="c8b80415-e30b-4495-88a7-acf8f2b166b3" valueTypeId="0415a031-3f7d-41e6-9e8b-c0cc9070a314"/>
+  </producedTypes>
+  <name>бг_ПроизводственныеПотери</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные потери</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ПроизводственныеПотери.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0aa6eb2f-b093-4b8a-b7bc-ed0cf80d6920">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

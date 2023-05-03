@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a808b9a-5000-466a-82e3-91d215a3d3fa">
+  <producedTypes>
+    <objectType typeId="97241c4c-c617-4bc0-a00c-5f9cd96b80fd" valueTypeId="9afe5e68-1f03-42c1-998c-98b0e25fd13d"/>
+    <managerType typeId="6de9afc1-80eb-455e-ae1a-fd249239348a" valueTypeId="1cb193e2-c08a-4f38-9108-87ba95fb6702"/>
+  </producedTypes>
+  <name>бг_ПечатьОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ОС (доработки)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="b010f67c-d692-46af-8301-310984099de8">
+    <name>АктОВводеВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о вводе в эксплуатацию</value>
+    </synonym>
+  </templates>
+  <templates uuid="1d5fb7e2-c14c-4bf6-9fe3-38f897f49bfd">
+    <name>АктОСписанииОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о списании ОС</value>
+    </synonym>
+  </templates>
+  <templates uuid="e306caf0-4404-4c3b-bfce-8fdaef64fa11">
+    <name>АктНаВнутреннееПеремещениеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт на внутреннее перемещение ОС</value>
+    </synonym>
+  </templates>
+  <templates uuid="04bef150-ef66-4ea2-bf90-83e5c5df5fc0">
+    <name>АктОПередачеОборудованияВМонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о передаче оборудования в монтаж</value>
+    </synonym>
+  </templates>
+  <templates uuid="49a4b923-67cf-4e95-a816-39e549306838">
+    <name>АктОМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о модернизации</value>
+    </synonym>
+  </templates>
+  <templates uuid="e587be14-54a5-4ae4-b812-00e4b8214821">
+    <name>АктОДооборудовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о дооборудовании</value>
+    </synonym>
+  </templates>
+  <templates uuid="b42ec968-4167-44d5-b8c9-cb345de99c27">
+    <name>АктОПродажеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о продаже объекта</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

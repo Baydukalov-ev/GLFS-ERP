@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a19838a-f291-4294-8ed4-0181b2ec83c8">
+  <name>бг_КонтрагентыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

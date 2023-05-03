@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b09157da-c4ec-4742-a92c-d411c9830142">
+  <name>бг_ЧтениеТехническихРегламентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение технических регламентов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

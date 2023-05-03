@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="14a0fa08-0aa1-4bdc-9646-e2cf9f083444">
+  <producedTypes>
+    <refType typeId="7d181904-4732-4c5a-a40e-f3d759ff0bf0" valueTypeId="c93541f2-3afb-43fb-b4d9-77dccd519d46"/>
+    <listType typeId="07dcab90-2312-4def-83de-bbdcea566aba" valueTypeId="64b74c95-f9de-4f9d-a763-f0ba0ef7e350"/>
+    <managerType typeId="168d4740-55fe-4a95-8ad7-08cb651ca164" valueTypeId="978fb4f5-138f-41db-917c-736dc2f2145a"/>
+  </producedTypes>
+  <name>СтатусыЗаявокНаРасходованиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f7535417-18aa-4c2c-a66e-8567e131d55a">
+    <name>КОплате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1790e002-2a22-44ed-ab76-a490e87af55c">
+    <name>НеСогласована</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dfda34d4-cb45-498b-babf-20fcdb7de9ce">
+    <name>Отклонена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1ab97096-807d-44bd-84df-c5943a223f11">
+    <name>Согласована</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

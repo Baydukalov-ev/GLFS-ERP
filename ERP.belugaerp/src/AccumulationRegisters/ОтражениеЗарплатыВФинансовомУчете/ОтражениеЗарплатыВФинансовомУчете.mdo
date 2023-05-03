@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1497c01-bdc9-4183-b9b3-96ca7819ba79">
+  <producedTypes>
+    <selectionType typeId="51eae32a-2e57-41bf-882c-50a50bd26f84" valueTypeId="696d030b-6299-4efd-a172-e11e7d72ad4e"/>
+    <listType typeId="3b1deb6d-6bb7-4560-998e-a561a5584914" valueTypeId="03ae1529-968e-4343-bbc1-c0becde44615"/>
+    <managerType typeId="29a86aa0-28b5-492e-bfc6-03901213af90" valueTypeId="5c4f6171-ea93-435e-ab33-3f27cef7aa3b"/>
+    <recordSetType typeId="c5366b9f-837b-405f-b651-763cef8135e6" valueTypeId="0738a12c-93bd-4b97-9535-e557b839e7e5"/>
+    <recordKeyType typeId="448aa3a4-28b8-462a-babb-30c04e665da0" valueTypeId="aad96b9f-90e1-42a0-98bd-50c3393373fe"/>
+    <recordType typeId="d6e00375-ddba-46f8-864a-5a0ba1d3a580" valueTypeId="ed1229fe-a557-4600-9926-59b247dbf038"/>
+  </producedTypes>
+  <name>ОтражениеЗарплатыВФинансовомУчете</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

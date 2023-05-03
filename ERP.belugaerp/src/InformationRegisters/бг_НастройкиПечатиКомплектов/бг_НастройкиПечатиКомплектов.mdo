@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b38ac69-15c8-4aca-b006-d6cd0834a4a7">
+  <producedTypes>
+    <selectionType typeId="7dc3241b-c875-42fa-8d42-af083f3e3a83" valueTypeId="4b941cf0-1773-4f2c-8523-f240bece1ab7"/>
+    <listType typeId="b51222de-bb63-48f3-bf79-290004c56123" valueTypeId="5e4a9694-21a7-437c-834a-481bc45c3ed0"/>
+    <managerType typeId="7f52f9f6-741a-4aec-a0b1-e09c976bcba3" valueTypeId="063253e5-3ba4-427b-83ba-a29b24e38bff"/>
+    <recordSetType typeId="ea0f1974-e746-489c-9371-cab70c4343c5" valueTypeId="ec141eb5-5470-47f0-a17c-1bdf69d5b02d"/>
+    <recordKeyType typeId="266acf85-1bb6-4a81-9f32-cbac7be86495" valueTypeId="d09aa3ef-ee63-4e71-b181-df509f8061dc"/>
+    <recordType typeId="c1272d7e-348e-4008-82df-4b2d915960a6" valueTypeId="40fb9b73-7531-41ec-8642-f5127bcc5dd6"/>
+    <recordManagerType typeId="202dd3c1-646b-4c9e-9510-aaca472c1af7" valueTypeId="93b6e5a0-4220-4cd6-9157-5c9cb65098cc"/>
+  </producedTypes>
+  <name>бг_НастройкиПечатиКомплектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки печати комплектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.бг_НастройкиПечатиКомплектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e15ec9b3-8146-4e82-b002-4cc6c56e9e8b">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bf7320b4-ebf6-4f50-8752-4400213d56ea">
+    <name>УсловияОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия отбора</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_УсловияПечатиКомплектов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6e8200e8-b113-48ba-a490-e005c51f8fd3">
+    <name>ФормаЗаписиПроизвольнойНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка печати комплекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="314b73a0-3662-4473-b8db-c2c25161b7db">
+    <name>ФормаНастроекПечатиПринтера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек печати принтера</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8edce10e-51ba-4804-b2dc-3d90580d0385">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

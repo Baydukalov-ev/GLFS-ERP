@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="899689c4-5555-4fce-a0dc-1354322b4e09">
+  <name>бг_ПеремещениеТоваровИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение товаров (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

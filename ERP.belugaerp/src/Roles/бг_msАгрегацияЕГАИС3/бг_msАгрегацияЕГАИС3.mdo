@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="121b6d91-b169-42d9-af03-587506dc7d15">
+  <name>бг_msАгрегацияЕГАИС3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегация ЕГАИС3 (Mobile Smarts)</value>
+  </synonym>
+</mdclass:Role>

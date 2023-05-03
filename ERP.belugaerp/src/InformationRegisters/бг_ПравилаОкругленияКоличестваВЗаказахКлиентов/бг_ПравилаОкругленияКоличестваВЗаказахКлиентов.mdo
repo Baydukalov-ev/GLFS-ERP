@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db07c982-9e39-4591-9ae0-ff7e86e0a585">
+  <producedTypes>
+    <selectionType typeId="7fb21700-f4c1-43c2-a0e6-83676dcfee85" valueTypeId="db2b9743-9fd9-414e-abd5-4a24924d54ff"/>
+    <listType typeId="2668b14b-9d38-4f64-9e82-a87827c5ce19" valueTypeId="94663811-057f-4a79-9936-136cfa8bf9a3"/>
+    <managerType typeId="571bc021-b290-425a-aed5-a8986ec0fd96" valueTypeId="504f9144-6b6e-4c6a-a11f-fc19e4d71981"/>
+    <recordSetType typeId="b8de1d83-7e56-4322-af62-974a931d9a64" valueTypeId="ad6bb1fd-a769-4856-815a-44c12ddb07a3"/>
+    <recordKeyType typeId="2fd0480f-8f76-4614-ab38-650c40cac5d0" valueTypeId="028510a2-7435-41cf-8ba8-5c04c1f746e6"/>
+    <recordType typeId="4fd44665-52e2-4590-9ccc-98c752f3aaa8" valueTypeId="2b85750e-0882-4abc-b9e2-462114c97339"/>
+    <recordManagerType typeId="35b036d7-8f89-4179-9f3a-fa2e5659420e" valueTypeId="d75404b1-b6b6-497c-9537-c3b8d5521170"/>
+  </producedTypes>
+  <name>бг_ПравилаОкругленияКоличестваВЗаказахКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила округления количества в заказах клиентов (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ca0cd01-7fb4-4068-9703-aa038be33980">
+    <name>ПравилоОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правило округления</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ПравилаОкругленияДоКороба</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="664a6d1a-6793-4ff3-9362-d60240e4978e">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0e7797a1-0b18-4585-ab05-4f7803e329d0">
+    <name>СкюМТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKU MT</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ЕК_СКЮ_СкюМТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

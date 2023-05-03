@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ff86e26-ee3a-4038-87f3-ba346499ce00">
+  <producedTypes>
+    <listType typeId="3c212596-f45f-4439-a1af-38a072a81d12" valueTypeId="d7df7ed2-1ec0-45cf-ba03-e572b5c7c8a1"/>
+    <managerType typeId="b948632a-c1f5-4223-a68c-0ff14c8c8058" valueTypeId="a42f0c39-4eda-4740-90f8-88824c9d17dc"/>
+  </producedTypes>
+  <name>бг_СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.битОтражениеФактаПоПриходномуОрдеру</types>
+    <types>DocumentRef.битНакладнаяНаВыдачуФСМ</types>
+    <types>DocumentRef.битРаспределениеТранспортныхРасходов</types>
+    <types>DocumentRef.КорректировкаНазначенияТоваров</types>
+    <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+    <types>DocumentRef.битФакторинг</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>DocumentRef.ПоступлениеТоваровНаСклад</types>
+    <types>DocumentRef.битЗаявлениеОВыдачеФСМ</types>
+    <types>DocumentRef.ПересортицаТоваров</types>
+    <types>DocumentRef.ПриобретениеУслугПрочихАктивов</types>
+    <types>DocumentRef.битКомплектацияПродукцииЕГАИС</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+    <types>DocumentRef.битПереупаковка</types>
+    <types>DocumentRef.битЗаявкаКлиента</types>
+    <types>DocumentRef.ПрочееОприходованиеТоваров</types>
+    <types>DocumentRef.ОрдерНаОтражениеПересортицыТоваров</types>
+    <types>DocumentRef.ПриходныйОрдерНаТовары</types>
+    <types>DocumentRef.РасходныйОрдерНаТовары</types>
+    <types>DocumentRef.СборкаТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+    <types>DocumentRef.ТТНИсходящаяЕГАИС</types>
+    <types>DocumentRef.ВнутреннееПотреблениеТоваров</types>
+    <types>DocumentRef.битИнвентаризацияПродукцииЕГАИС</types>
+    <types>DocumentRef.битОтражениеФактаПоРасходномуОрдеру</types>
+    <types>DocumentRef.КорректировкаЗадолженности</types>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+    <types>DocumentRef.битМаршрутныйЛист</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.битМаршрутныйЛист.Attribute.ДокументОснование</content>
+  <content>Document.битМаршрутныйЛист.TabularSection.Заказы.Attribute.Заказ</content>
+  <content>Document.битМаршрутныйЛист.TabularSection.Заказы.Attribute.ДокументОтгрузки</content>
+  <content>Document.битНакладнаяНаВыдачуФСМ.Attribute.ЗаявлениеОВыдачеФСМ</content>
+  <content>Document.битОтражениеФактаПоПриходномуОрдеру.Attribute.ПриходныйОрдерНаТовары</content>
+  <content>Document.битОтражениеФактаПоРасходномуОрдеру.Attribute.РасходныйОрдерНаТовары</content>
+  <content>Document.битОтражениеФактаПоРасходномуОрдеру.Attribute.Переупаковка</content>
+  <content>Document.битПереупаковка.Attribute.РасходныйОрдерНаТовары</content>
+  <content>Document.битПереупаковка.Attribute.ОтражениеФактаПоРасходномуОрдеру</content>
+  <content>Document.битРаспределениеТранспортныхРасходов.Attribute.Поступление</content>
+  <content>Document.битРаспределениеТранспортныхРасходов.TabularSection.Рейсы.Attribute.Рейс</content>
+  <content>Document.ВнутреннееПотреблениеТоваров.Attribute.бг_ИнвентаризацияПродукцииЕГАИС</content>
+  <content>Document.ЗаказКлиента.Attribute.бг_ЗаявкаКлиента</content>
+  <content>Document.ЗаказКлиента.TabularSection.Товары.Attribute.бг_ЗаказКлиентаИсточникОбеспечения</content>
+  <content>Document.ЗаказПоставщику.TabularSection.Товары.Attribute.бг_ЗаказКлиента</content>
+  <content>Document.КорректировкаЗадолженности.Attribute.бг_Основание</content>
+  <content>Document.КорректировкаНазначенияТоваров.Attribute.бг_Основание</content>
+  <content>Document.ОперацияБух.Attribute.бг_Основание</content>
+  <content>Document.ОрдерНаОтражениеИзлишковТоваров.Attribute.бг_ДокументОснование</content>
+  <content>Document.ОрдерНаОтражениеПересортицыТоваров.Attribute.бг_Распоряжение</content>
+  <content>Document.ПересортицаТоваров.Attribute.бг_Основание</content>
+  <content>Document.ПриобретениеТоваровУслуг.Attribute.бг_НакладнаяНаВыдачуФСМ</content>
+  <content>Document.ПрочееОприходованиеТоваров.Attribute.бг_ИнвентаризацияПродукцииЕГАИС</content>
+  <content>Document.ПрочиеДоходыРасходы.Attribute.бг_Основание</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.бг_ДокументОснованиеПоступлениеНаСклад</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.бг_УдалитьДокументОснованиеПоступлениеОтПоставщика</content>
+  <content>Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.бг_ДокументОснованиеПоступлениеОтПоставщика</content>
+  <content>Document.битКомплектацияПродукцииЕГАИС.Attribute.Основание</content>
+</mdclass:FilterCriterion>

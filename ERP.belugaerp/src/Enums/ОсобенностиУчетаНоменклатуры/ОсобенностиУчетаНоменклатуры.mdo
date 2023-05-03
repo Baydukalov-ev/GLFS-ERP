@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7ffee84c-935a-44bd-8899-b5d328886165">
+  <producedTypes>
+    <refType typeId="f294c0f4-83e7-4786-90c4-2eb35f11b40b" valueTypeId="190ddebb-3282-4d2a-a8c5-b9473eb3c7e1"/>
+    <listType typeId="44231ba9-e1d3-40a2-a4e9-7fb6b2097c7a" valueTypeId="e5e1ffaf-bf1f-4456-b556-ae3792c5dffc"/>
+    <managerType typeId="b9807bd0-194e-43c9-9ef5-04a8fd0013d5" valueTypeId="b0d39789-4f0b-4654-8bb7-41d09a84f3d7"/>
+  </producedTypes>
+  <name>ОсобенностиУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="8c323257-27ca-41ff-b530-eb5e8ec17af3">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8c191dac-e878-4965-9569-b82a7eb9fdac">
+    <name>Пиво</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

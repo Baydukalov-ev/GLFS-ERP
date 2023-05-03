@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd5ada80-8bf7-4359-a5e4-3fd27539b539">
+  <name>бг_ЧтениеТарифовПРР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение тарифов ПРР</value>
+  </synonym>
+</mdclass:Role>

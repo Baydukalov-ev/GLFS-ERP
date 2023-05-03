@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17f018c2-90ff-49ac-9c46-44ec04fcded7">
+  <name>бг_ИзменениеЛимитовОтгрузкиИОтсрочкиПлатежаTCI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение лимитов отгрузки и отсрочки платежа TCI</value>
+  </synonym>
+</mdclass:Role>

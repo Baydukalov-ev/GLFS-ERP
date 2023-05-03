@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="02567b3c-533b-4d99-a38a-6069e59292aa">
+  <producedTypes>
+    <refType typeId="41ea952c-814f-4a4c-a6ef-d0f0299ff81a" valueTypeId="7afcd556-9aaa-4862-953d-ffdf3e515672"/>
+    <listType typeId="f85773bb-ed45-48ce-8437-dc9df96a58d8" valueTypeId="c08611f3-16b0-474a-95c1-a34abb0a5d5e"/>
+    <managerType typeId="1acf4e29-c66c-4be4-8f17-8b08d41a06ab" valueTypeId="14e71c06-c4a0-47db-a6cd-cdebb69878e0"/>
+  </producedTypes>
+  <name>ТипыОрганизацийЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e2ed95c9-3f7f-4f3d-9c6c-06397fdda3f1">
+    <name>ЮридическоеЛицоРФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5bb8a126-b026-4762-9bb0-dd8bfb61e296">
+    <name>ИндивидуальныйПредпринимательРФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a049cf6b-0518-448d-a729-f9dcc1d3c380">
+    <name>КонтрагентТаможенногоСоюза</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5009fc49-36bc-4636-ab31-ddc5cfcc9c48">
+    <name>ИностранныйКонтрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80f1b1c1-0dd1-4d49-ac9f-09a58f338a45">
+  <name>бг_ИспользованиеПодбораКодовСтрокБюджета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование подбора кодов строк бюджета в заказах клиента</value>
+  </synonym>
+  <comment>Роль, которая дает возможность, рассчитать скидки по коду строк бюджета в заказе клиента. </comment>
+</mdclass:Role>

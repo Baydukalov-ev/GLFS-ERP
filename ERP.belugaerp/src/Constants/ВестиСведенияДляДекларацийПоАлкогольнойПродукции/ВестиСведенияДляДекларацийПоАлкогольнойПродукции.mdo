@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="db85620e-961a-4366-9b35-05af26bfeb97">
+  <producedTypes>
+    <managerType typeId="8769b000-87af-4543-88f5-3b27d4ad26f1" valueTypeId="55cc55d8-1662-4421-8b78-c4f99eef6370"/>
+    <valueManagerType typeId="4c8dadbb-b7f6-4523-9413-91ff95e2c500" valueTypeId="d224bccd-1907-4666-9bc6-6211208ae4a2"/>
+    <valueKeyType typeId="907ea304-7f24-4d75-941f-e26a38f9d57b" valueTypeId="dcd007d3-050a-4152-80c5-7db316a7ccea"/>
+  </producedTypes>
+  <name>ВестиСведенияДляДекларацийПоАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

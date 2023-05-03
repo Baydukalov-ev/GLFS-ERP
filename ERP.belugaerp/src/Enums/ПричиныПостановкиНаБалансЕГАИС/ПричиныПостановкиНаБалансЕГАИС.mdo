@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="621872b1-cb88-40ce-a79d-f97410035f0c">
+  <producedTypes>
+    <refType typeId="e57d8afe-e94c-4f4c-bbb7-e031340e5e7b" valueTypeId="952923bf-b89a-4324-9605-9b5b3600b81d"/>
+    <listType typeId="9c149d85-d38b-4ccb-93d9-2d6b074da382" valueTypeId="7fa0f534-b6de-420f-967a-8eedf6725536"/>
+    <managerType typeId="2e0d36ce-c289-4320-ad26-779c78ff1437" valueTypeId="a5deb60d-accc-46a8-85f5-53cbb6030a91"/>
+  </producedTypes>
+  <name>ПричиныПостановкиНаБалансЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="cf625e5b-c383-428c-b3f8-4c03936904a9">
+    <name>Производство_Сливы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство/сливы продукции</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

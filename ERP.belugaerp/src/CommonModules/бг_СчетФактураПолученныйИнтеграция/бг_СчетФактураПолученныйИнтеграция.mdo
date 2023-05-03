@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ebf5ba3-3aea-4dff-9728-a354f5793f1d">
+  <name>бг_СчетФактураПолученныйИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-фактура полученный (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

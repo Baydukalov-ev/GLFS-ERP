@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d35500cf-c572-4c62-9718-08da551bc8c8">
+  <producedTypes>
+    <refType typeId="c68ac320-81f7-4515-bf43-0739598287d1" valueTypeId="714e6aed-c1c1-46e5-87ab-100fc7f9c9f3"/>
+    <listType typeId="5165adff-6765-4448-a404-89fecc8f435a" valueTypeId="1357ab54-b93b-4228-aa7d-a36568b06795"/>
+    <managerType typeId="09495225-c86c-4259-99ed-31262f7f457d" valueTypeId="4e7ad677-16b1-486d-91fb-b62dd245237f"/>
+  </producedTypes>
+  <name>бг_ИсточникиЦеновойГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники ценовой группы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79d56033-1fd8-4f24-ac7d-fca4e68bbf4e">
+    <name>SKU_MT</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKU MT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SKU MT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b56b18f9-6281-4e70-a1ca-191ef69ccbc2">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="219496f2-8c0d-469a-b790-ced87ceb8b4c">
+    <name>BrandMT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд MT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Brand MT</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adbc38ec-d4d0-4912-9110-330db5306d62">
+    <name>BrandTM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд TM</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Brand TM</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1f138d7-8873-4a88-9c77-a0481440b0e9">
+    <name>Вкус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вкус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Flavour</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bd6e128-3afe-4ba6-8159-8cd6b1429498">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Class</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45b25957-ad93-4a44-bdd7-27073911bd43">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Project</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39157b5d-8aa6-4928-9e77-3a037f7cd598">
+    <name>ЦеноваяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценовая группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Price group</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5864628-f293-46ca-b952-fae968f46a50">
+    <name>Смешанный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смешанный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

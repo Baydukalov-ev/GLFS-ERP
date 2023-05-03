@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2859f0c-915a-494f-aa39-a3e4b62985b4">
+  <name>бг_ЧтениеОтраженийФактаПоРасходнымОрдерам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение отражений факта по расходным ордерам</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="91279531-b121-4f9a-8041-4e7304676d27">
+  <producedTypes>
+    <objectType typeId="40aeb3a6-c4f8-46f1-afb7-3eb60333277c" valueTypeId="0949f52d-5f65-42bb-8543-aa2fb9609161"/>
+    <refType typeId="99e96cba-9fd8-4a85-a2f6-a146ebf27c53" valueTypeId="2f51653c-a069-4d0e-9962-c0b03cc83efa"/>
+    <selectionType typeId="3bf45c61-8fc3-4d18-866b-822a34f58b77" valueTypeId="89200ae6-9b5b-41ba-a067-8cb97a482a49"/>
+    <listType typeId="c0f31b21-2c58-431a-9cfe-2c729eadfd98" valueTypeId="3f8d79f6-0611-4a3f-8fa9-6de0b383b6ea"/>
+    <managerType typeId="4c60e5bc-5c73-4e4b-8ffd-12151c4c9914" valueTypeId="fe48c48e-9e8e-43eb-9a4b-b396bb4ea957"/>
+  </producedTypes>
+  <name>ВозвратТоваровПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="dfa58f6b-9e02-4814-9f5d-381a633f38d4">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1af85d0-2934-4b1c-bc51-26229db3e28a">
+  <producedTypes>
+    <refType typeId="322a6ef3-98eb-4f98-b19c-b49d93ec6113" valueTypeId="03f6a923-f5bd-4a37-afab-8ad91eb37199"/>
+    <listType typeId="ead68bec-d47b-492e-89b1-236795c83666" valueTypeId="59515864-5b90-46c5-8d34-f7592b392ccd"/>
+    <managerType typeId="f1f837b4-fbd3-4e5a-9b90-076c176deaa9" valueTypeId="5a2101e2-fc59-4104-a39b-98b52e2485e2"/>
+  </producedTypes>
+  <name>ЕдиницыИзмеренияВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="b9482039-a83f-43ab-afd3-cd6a54105a2d">
+    <name>День</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6e2f6a15-ec83-4c4a-8c84-7decae0d5abf">
+    <name>Минута</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="528ceaaa-4d62-4368-a1ad-338499a16457">
+    <name>Час</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8b80a40d-aa4c-48cf-9997-27761ecf622a">
+    <name>Сутки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f1c59d1e-4d6e-48ca-8ed9-824bc9208c7b">
+    <name>Секунда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

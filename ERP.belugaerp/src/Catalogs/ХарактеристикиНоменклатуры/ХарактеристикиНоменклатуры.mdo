@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ac2cae3-3747-441a-8a65-0123bccb7910">
+  <producedTypes>
+    <objectType typeId="d6ab59c9-ef9f-40a6-8c9b-74c97716c88a" valueTypeId="e6708691-7487-4c57-9749-3f7a2add7dfe"/>
+    <refType typeId="af460acd-1a1f-4bf0-aa27-c68a48185cc1" valueTypeId="bf5dbe2f-14a6-4d84-85b7-70c40022c18e"/>
+    <selectionType typeId="b2af2fd9-4f24-4be0-a999-ad1bfdd4be0f" valueTypeId="71b357b2-ed06-4c11-aa0a-b50f737b3feb"/>
+    <listType typeId="e21b1547-1951-470f-a40c-458ebd7b37ab" valueTypeId="e6f299ed-b4e9-4ea4-ab6c-a2efb22ba12e"/>
+    <managerType typeId="a8c65341-a50a-4292-be6a-12494a8cbdd2" valueTypeId="62db2985-5938-4d21-b4ce-99bed4ca6f08"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="241caccc-af53-444d-843d-9a7cb4c2815c">
+    <name>бг_УпаковкаПаллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка (паллета)</value>
+    </synonym>
+    <comment>BG-757</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="800d4568-ecf7-443f-94ef-48b765b81677">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

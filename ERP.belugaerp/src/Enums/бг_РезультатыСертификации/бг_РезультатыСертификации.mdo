@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61576467-7ec3-44d9-baa1-3fe04461cc2c">
+  <producedTypes>
+    <refType typeId="b899ced2-5516-410f-95c3-a84c9fe16f38" valueTypeId="ac8a6680-ce01-422b-b03d-6718ff36eccd"/>
+    <listType typeId="5c84fb20-8f01-4aa8-94aa-35cf9871d1f3" valueTypeId="8a0c35a6-4351-405c-a4a3-c99cc14a8416"/>
+    <managerType typeId="be9bc02f-8d44-47bb-9ac1-58f857a1d2e4" valueTypeId="bc3c4b65-955b-485e-9f1e-d07bd24bcdd3"/>
+  </producedTypes>
+  <name>бг_РезультатыСертификации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты сертификации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c9e3106-1b13-4d8c-b7e5-99dd1d2aae14">
+    <name>Сертификат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдан сертификат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06683cb0-20c1-4bb1-b779-71ac6bd99c69">
+    <name>ОтказаноВСертификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказано в сертификации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

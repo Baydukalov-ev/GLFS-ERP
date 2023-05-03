@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0c9570e-a731-4818-bd86-efdea2b9c8c1">
+  <producedTypes>
+    <refType typeId="7a029a2d-165b-4c08-8bb2-f70151faccf9" valueTypeId="8b4ec3d0-cee2-463e-a2f9-04dc2c1b8521"/>
+    <listType typeId="a4346483-f0d4-4ad8-8867-224b6636f48e" valueTypeId="bcccdeef-cfe4-45a6-ada8-e2d3a5ba1483"/>
+    <managerType typeId="804c3c1d-ade2-4dd9-a0e9-14fe5510f4ee" valueTypeId="c757261a-0f46-4c13-9b4e-9e2e8bb071fb"/>
+  </producedTypes>
+  <name>бг_РасширенныеСтатусыОбработкиТТНВходящейЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенные статусы обработки ТТН ЕГАИС (входящей)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="caf728b0-d941-4ac6-a0e7-c7720cadba7c">
+    <name>ОрдерКСозданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>К созданию ордера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a52bcb58-484a-4388-a522-597218b23b20">
+    <name>ОрдерОбрабатываетсяНаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принимается на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5392f2e-b2ad-4207-b3a3-6a6e9ea3dc7b">
+    <name>ОрдерОбработанНаСкладеПолноеСоответствиеПлану</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят без расхождений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0824995a-cc9e-49bd-a5bb-8c809e6bb067">
+    <name>ОрдерОбработанНаСкладеЕстьРасхожденияОтПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят с расхождениями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="85dc4fe8-2d9a-432b-880a-58963378e2f0">
+    <name>ПриемкаОтменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5efe4fae-d6a5-434c-9f3f-2df12ded4feb">
+    <name>ОшибкаРасчетаСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка расчета статуса</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

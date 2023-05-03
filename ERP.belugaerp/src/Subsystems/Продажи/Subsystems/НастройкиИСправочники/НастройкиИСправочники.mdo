@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea89bc07-e4e4-41d0-b734-3cccf1584dde">
+  <name>НастройкиИСправочники</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>InformationRegister.бг_МаксимальныеПроцентыСкидок</content>
+  <content>Catalog.бг_УсловияПоставки</content>
+  <content>InformationRegister.бг_МинимальныеЦеныАлкогольнойПродукции</content>
+  <content>InformationRegister.бг_НастройкиОпределенияДатыДействияСкидокНаценок</content>
+  <content>InformationRegister.бг_СоглашенияИДоговорыСКлиентамиПоВидамНоменклатуры</content>
+  <content>CommonCommand.бг_ОткрытьСправочникНоменклатураКонтрагентов</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

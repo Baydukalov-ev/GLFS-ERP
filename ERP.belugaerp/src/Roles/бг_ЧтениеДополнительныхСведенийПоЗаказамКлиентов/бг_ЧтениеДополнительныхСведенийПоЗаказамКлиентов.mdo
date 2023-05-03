@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17b9c5e8-2cd5-47da-9c2a-4c4f9aaa0788">
+  <name>бг_ЧтениеДополнительныхСведенийПоЗаказамКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение дополнительных сведений по заказам клиентов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b91225f5-9c66-47b2-8ffb-7d076dadc9d1">
+  <producedTypes>
+    <objectType typeId="2c07bad9-440a-4b98-9e33-9d3edbadfd65" valueTypeId="4df5fc6f-fcc4-4ffc-a661-e41bd19f4b84"/>
+    <managerType typeId="75392800-d508-4bb4-a7d2-d58bfb1dd0c7" valueTypeId="9a3b4347-d98b-4ffb-9c4b-6f15d04a3f24"/>
+  </producedTypes>
+  <name>бг_ЗаказПоставщикуЗаполнитьТоварыПоЗаказамКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить товары по заказам клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗаказПоставщикуЗаполнитьТоварыПоЗаказамКлиента.Form.Форма</defaultForm>
+  <attributes uuid="440da72e-cb8f-4277-aa62-8c5fc943ad4e">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="69e08769-88d3-4a13-8642-2317903c9ee7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

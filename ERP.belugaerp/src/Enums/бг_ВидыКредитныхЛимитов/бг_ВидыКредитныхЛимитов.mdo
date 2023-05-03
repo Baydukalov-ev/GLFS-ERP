@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11d13e75-c651-410e-a464-b478a7b64ba6">
+  <producedTypes>
+    <refType typeId="e98b38e2-c60e-4b21-a6c6-d1e4aacae7f6" valueTypeId="d04b9ffd-6fbf-4be9-8390-677f5e462df3"/>
+    <listType typeId="6a5f06e3-67a9-4cf8-86d3-5daeec3dc413" valueTypeId="af21dd90-c404-4b63-9639-4dbca3c56b6b"/>
+    <managerType typeId="24e6e6dd-0d42-481a-8381-ce0ea1039e4e" valueTypeId="a5c1bfbb-c748-4601-98ab-b869e83adea9"/>
+  </producedTypes>
+  <name>бг_ВидыКредитныхЛимитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кредитных лимитов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="234b265e-ec70-4556-a9a2-932f4fe2b509">
+    <name>Кредитный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7332846c-a6df-45c2-8549-967ff1ee183b">
+    <name>КредитныйРасчетный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитный расчетный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a4cd5ff-c0f1-42c0-9937-36e87a35f933">
+    <name>ДопустимаяСуммаДЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимая сумма ДЗ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5081f00-adae-4cdd-9e66-64f53b61a2b0">
+    <name>TCI</name>
+    <synonym>
+      <key>ru</key>
+      <value>TCI</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08924c96-356e-4cd0-9f2f-18d8cd83dceb">
+    <name>БГ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БГ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b7849f5-4827-491c-b4f4-e586663c5a2e">
+    <name>ЛичноеПоручительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное поручительство</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e131b13e-ebae-4976-ac17-e6eb15a7b6a5">
+  <producedTypes>
+    <refType typeId="b8a0285e-3e93-49b6-bc80-3cf5c875e78f" valueTypeId="72c7a369-f104-4533-93ba-2550ef52a5df"/>
+    <listType typeId="4cc2a2cc-7209-4821-a9e3-93db19eec34d" valueTypeId="801f8ff9-558a-4cf9-989f-dda4110774c8"/>
+    <managerType typeId="14ad84df-b980-432f-b32a-7c9fa6ba9d7e" valueTypeId="78bb73b0-7953-4f70-8a89-8dfc85aede15"/>
+  </producedTypes>
+  <name>бг_ГруппыКонтрагентовTCI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы контрагентов TCI</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="483b343d-48ae-4e16-857b-32916a8d8e20">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20f37ed6-a42e-4ab9-a5c5-e1d3dba36042">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23b92463-64aa-4a35-a101-0ad61edb9512">
+    <name>C</name>
+    <synonym>
+      <key>ru</key>
+      <value>C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bfb1098-d6a9-4866-9fbb-476166f08d60">
+    <name>D</name>
+    <synonym>
+      <key>ru</key>
+      <value>D</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5205e03a-d08b-438a-965b-f1e2902f3f94">
+    <name>E</name>
+    <synonym>
+      <key>ru</key>
+      <value>E</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="01fad811-2085-4457-a7d2-911c74ac3c8f">
+    <name>F</name>
+    <synonym>
+      <key>ru</key>
+      <value>F</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

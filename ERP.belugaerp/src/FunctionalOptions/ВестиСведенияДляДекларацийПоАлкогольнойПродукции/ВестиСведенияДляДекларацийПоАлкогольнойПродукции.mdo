@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe5a2b59-afe8-44ac-9926-9d1e08b242b9">
+  <name>ВестиСведенияДляДекларацийПоАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+    <content>Extended</content>
+  </extension>
+  <location>Constant.ВестиСведенияДляДекларацийПоАлкогольнойПродукции</location>
+  <content>Document.битЗаявлениеОВыдачеФСМ</content>
+  <content>Document.битНакладнаяНаВыдачуФСМ</content>
+</mdclass:FunctionalOption>

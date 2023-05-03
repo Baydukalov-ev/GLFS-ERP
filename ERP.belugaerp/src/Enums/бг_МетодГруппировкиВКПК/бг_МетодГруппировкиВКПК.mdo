@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f9734d1-7c86-42f7-b531-bd8f35323eac">
+  <producedTypes>
+    <refType typeId="269c517a-fb5e-4e6e-b519-be89366bd0fc" valueTypeId="3718ac8a-bcbf-4597-b8ae-0741988eb904"/>
+    <listType typeId="b332ba94-872b-4d82-9a56-da6943c603e9" valueTypeId="6c45458d-51f3-44f7-adb3-27b587643f77"/>
+    <managerType typeId="1966fe2d-9264-44cf-b3f8-338c8498c976" valueTypeId="45ba3b26-5a57-4a97-9604-7fbe2abe7b6e"/>
+  </producedTypes>
+  <name>бг_МетодГруппировкиВКПК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод группировки в КПК (НСИ)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfa27636-f468-4639-9b08-3c080da2d405">
+    <name>БезГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без групп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b515b081-2ede-4cf3-9787-8094a624cd2b">
+    <name>ВПорядкеСледованияБрендов</name>
+    <synonym>
+      <key>ru</key>
+      <value>В порядке следования брендов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f645f9b4-917b-4f23-bc3f-5b597e9a1bde">
+    <name>ВПорядкеСледованияБрендовТМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>В порядке следования брендов ТМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd24f2f1-a61c-4d35-b9f1-580bdd23f41b">
+    <name>КлассБренд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс/Бренд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9b412e2-9e10-4ce3-8361-3ae3f3872733">
+    <name>СтранаПоставщикВкус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна/Поставщик/Вкус</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

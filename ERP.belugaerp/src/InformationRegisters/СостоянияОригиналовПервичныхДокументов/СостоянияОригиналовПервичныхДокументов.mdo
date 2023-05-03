@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="df250d20-39c5-44de-9967-4060cf5b2871">
+  <producedTypes>
+    <selectionType typeId="d4bebc92-8426-43e3-a0fd-fb2c45cadde0" valueTypeId="a656f919-3fd1-4410-bcb2-e474872c88cd"/>
+    <listType typeId="3d985571-6f28-46a5-8708-024a1a9ab23c" valueTypeId="aa2c6ffa-44d0-4ede-a804-dbfdc7b44936"/>
+    <managerType typeId="aec5a24e-4a45-4a43-83e4-bb34ced350f6" valueTypeId="c8dc2f9c-5197-490d-b3cf-c05778d78956"/>
+    <recordSetType typeId="38ba5485-1fde-48b7-ac50-6c9cd9e0e85e" valueTypeId="5bd749fb-08e7-428a-8c93-716504eff58b"/>
+    <recordKeyType typeId="132c6c7e-ab6e-47f6-b535-d825fd73edad" valueTypeId="11c85f91-a1fa-4675-bbbf-d6fb24de03f4"/>
+    <recordType typeId="904df5c0-21b5-4127-80bc-218d61a5b738" valueTypeId="a9c57788-384b-41fd-b66f-0883f6083a74"/>
+    <recordManagerType typeId="1427c5ff-0bec-45cf-83ff-e276a4fbfbed" valueTypeId="1748769a-dc07-4410-899d-4d727e6270df"/>
+  </producedTypes>
+  <name>СостоянияОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

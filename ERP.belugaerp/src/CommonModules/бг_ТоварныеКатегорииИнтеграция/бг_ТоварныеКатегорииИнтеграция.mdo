@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77466a9e-4ebb-499f-8552-4c9fa0f9ddd0">
+  <name>бг_ТоварныеКатегорииИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товарные категории (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

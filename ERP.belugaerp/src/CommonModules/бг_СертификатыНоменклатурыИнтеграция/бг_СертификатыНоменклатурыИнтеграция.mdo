@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac0ba0d1-d43b-4b12-b02b-6409c802d70e">
+  <name>бг_СертификатыНоменклатурыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты номенклатуры (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

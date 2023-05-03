@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3fc710f6-acfd-4364-94b2-ff51bc437cb6">
+  <producedTypes>
+    <objectType typeId="0fdb649d-7acf-4967-aa89-bcc9502cfbf2" valueTypeId="b5b9354a-fd51-4d10-8f27-c7ef1ceb3566"/>
+    <refType typeId="2db42be2-1f8d-4b0b-9d3b-77000ccba83e" valueTypeId="e550a240-90b3-42d2-8401-fc2a2af34fe8"/>
+    <selectionType typeId="c543ee5d-cb83-41bc-948b-53e23ae65002" valueTypeId="fb5fc16f-4e2d-4d15-9873-fe821a31376e"/>
+    <listType typeId="2baa2e82-a5d5-416c-85b8-e04015a96581" valueTypeId="53adfae9-3240-4f16-ae68-737fd5323771"/>
+    <managerType typeId="7fccfa1f-4233-480c-bf1a-66e1056e9cb2" valueTypeId="535f8246-00bf-4ab7-8fc2-35a2896e2b5a"/>
+  </producedTypes>
+  <name>ЭтапыПроизводства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c738faf5-16b8-4516-81dc-44701043c807">
+  <producedTypes>
+    <selectionType typeId="77f64063-5539-412a-9397-ce1646973c05" valueTypeId="090dab59-9ca3-4114-ab95-80e5ee34eebd"/>
+    <listType typeId="5549003c-cf00-4a0f-9524-76b156ea2c2f" valueTypeId="323f02eb-e659-48c9-8b82-00ce692eaba9"/>
+    <managerType typeId="8969ebfb-f5c0-4715-8107-2bae96d8f04b" valueTypeId="2364279e-5faf-4f95-8ad7-c312bb1bfe73"/>
+    <recordSetType typeId="6cef5fbd-b951-49ea-b512-0120aae61ff9" valueTypeId="12adbec5-9b1a-4c43-8944-97db51f2c9e1"/>
+    <recordKeyType typeId="0e8a2066-d936-425e-8f16-1e4a424db926" valueTypeId="a2b0e251-430a-4718-8f2e-8b4b3c212286"/>
+    <recordType typeId="c41a6c05-795c-4629-8707-8664ba605d08" valueTypeId="22f6af8f-6571-487b-8fdf-dd92f58dda52"/>
+    <recordManagerType typeId="e14ac390-fce4-4d72-901a-7d7e297f1898" valueTypeId="1967b062-9127-4723-8ab8-25fb4a83d560"/>
+  </producedTypes>
+  <name>бг_РасширенныеСтатусыДокументовЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов ЕГАИС (расширенные)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="98d2633c-4456-4bb1-8fac-16333313fc89">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_РасширенныеСтатусыОбработкиТТНВходящейЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="89126178-c94a-4ec2-b941-2806accb01be">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

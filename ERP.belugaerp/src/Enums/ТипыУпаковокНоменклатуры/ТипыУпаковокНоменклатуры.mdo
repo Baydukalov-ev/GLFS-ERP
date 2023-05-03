@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="066bc7c2-aa8d-4858-b9a1-ecf5c60074ea">
+  <producedTypes>
+    <refType typeId="b55654ba-f200-4abd-b862-968ee031d720" valueTypeId="21e868e3-8e2e-48b3-9fa5-5c51452feab2"/>
+    <listType typeId="468a3aef-de68-44df-becb-09c0be2c90c5" valueTypeId="8f6f3bdb-d88c-4736-904d-ba51b207049d"/>
+    <managerType typeId="072b1f4b-f221-470b-8fb2-02c31826b7c3" valueTypeId="7679cf90-ab48-4594-9953-795a81227491"/>
+  </producedTypes>
+  <name>ТипыУпаковокНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="14b154e3-0134-48cb-afd4-8758b22b0edf">
+    <name>Составная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="581ef9a0-bc89-47dd-89d5-516de783b8ef">
+    <name>Конечная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="81489d59-c913-40fe-bc75-08b887c3db1d">
+    <name>Разупаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="aeb3dac0-dd42-4097-a599-ebde7d57d389">
+    <name>ТоварноеМесто</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

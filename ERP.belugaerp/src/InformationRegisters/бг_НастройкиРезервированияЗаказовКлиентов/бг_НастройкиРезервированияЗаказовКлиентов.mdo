@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e9421a9-4fc6-4f6a-816b-c192936939a1">
+  <producedTypes>
+    <selectionType typeId="18aa7765-9df0-4125-8615-801ab23a13ce" valueTypeId="7476b0fd-cf01-4823-abd0-5c07c89b5692"/>
+    <listType typeId="505c00df-e157-4036-9d69-fc67966d0bfb" valueTypeId="8f193d2b-1937-48ae-8650-afcd47c22c8e"/>
+    <managerType typeId="dc281fc1-9e72-42da-af4f-467519ac7e46" valueTypeId="1da68437-a3ad-4a38-ba63-d5f326cea02e"/>
+    <recordSetType typeId="41656ab8-487f-4456-845a-b2330d9349bf" valueTypeId="26a0f569-8459-4d9a-951e-cec9078cdf0e"/>
+    <recordKeyType typeId="ab74d417-b209-47cc-b111-c1e2031b92fe" valueTypeId="78b9c8c2-c89d-4dcd-8fa3-429973afbc4f"/>
+    <recordType typeId="c4546d94-b3d5-4779-b7d3-dcba721f191e" valueTypeId="261ee1aa-091a-495e-8d00-e599bd7131a5"/>
+    <recordManagerType typeId="c25c7968-8630-4945-a99e-7070cf09240b" valueTypeId="6b469734-1624-4901-9940-2ebb84a94d1f"/>
+  </producedTypes>
+  <name>бг_НастройкиРезервированияЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки резервирования заказов клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="061d5efe-3f8a-485b-9a1c-48162cf320b9">
+    <name>ДнейДоОтгрузкиДляРезервирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней до отгрузки для резервирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e7ff0df7-a63b-4f48-802a-d2ae763ef7cf">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7923a944-220e-4d82-b7e5-28ed45977ffa">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f265658-5ed2-424e-9a9a-c3dc1d7ecd9c">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

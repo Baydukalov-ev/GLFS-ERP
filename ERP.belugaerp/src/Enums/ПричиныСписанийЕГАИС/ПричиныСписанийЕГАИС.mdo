@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f1db787-ad32-4cd5-bf15-d4520f8798ee">
+  <producedTypes>
+    <refType typeId="98427aff-d4e0-4e61-bfa2-ad555971da67" valueTypeId="3e146b73-b4ce-47bc-a677-d76c532ba367"/>
+    <listType typeId="413c9335-77f6-4b85-aebc-0d407b031ab0" valueTypeId="1d934d95-aa86-4a59-94fc-fb50ce6ac44e"/>
+    <managerType typeId="37b82f4c-25d9-4c5a-9c54-62cc7cdc7d19" valueTypeId="687b5009-62d3-4343-8168-983d84f31b25"/>
+  </producedTypes>
+  <name>ПричиныСписанийЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c6858b36-4a6c-4285-b47a-080126146d17">
+    <name>ИныеЦели</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1ceb674e-0ffc-46f0-a2e1-7060c0e6e1e7">
+    <name>Порча</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="006e31be-fd87-4903-bac4-ae327213dbf2">
+    <name>Потери</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="200c378f-19b9-48d0-a068-5342958b73c5">
+    <name>Уценка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9dca408a-07c0-48a8-9cbf-7fe739d61e7b">
+    <name>Пересортица</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9a189de6-4729-4552-b4df-cd2bb7f9a8ba">
+    <name>Недостача</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3227829e-87b1-4264-9e74-1b9a30588c2e">
+    <name>Проверки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e009c688-a1f9-4f92-bc6b-41d5dbbb227e">
+    <name>Арест</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="387fabb3-79d4-491a-8d2f-a200968c2e04">
+    <name>Реализация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

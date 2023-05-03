@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dc4f15a9-ba3e-4438-b8c6-362419cb40d3">
+  <producedTypes>
+    <selectionType typeId="02c98ecc-d42e-47f1-aff1-ab0d87e2abe2" valueTypeId="0c3d097a-9ea3-4637-8278-245a9dc47603"/>
+    <listType typeId="0e9a9f87-4ada-43e3-b73f-43266909dc65" valueTypeId="3807ab10-ac31-49b0-a159-a4c025950efa"/>
+    <managerType typeId="7c6fb69a-e33f-481a-8ca7-f515be4db231" valueTypeId="088fa279-e5d6-436f-9a4b-98dfa049b3b2"/>
+    <recordSetType typeId="b59490b0-5001-4bfe-85bd-b6a0074fb54d" valueTypeId="88cb6109-3895-461b-88ea-5d235e52241b"/>
+    <recordKeyType typeId="5ab7987a-5414-416f-847c-2f424221fe6d" valueTypeId="9c62858b-e918-4388-858d-506586dd6d33"/>
+    <recordType typeId="f16a03d0-c234-48b3-932b-78e58c9ab332" valueTypeId="7349aa61-5dee-4542-b3a4-d1512e0cffc2"/>
+  </producedTypes>
+  <name>ОстаткиАлкогольнойПродукцииЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="a29d75d9-a5b7-42f9-ad6a-44d767d8cc92">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.КоличествоЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="b6de1797-8206-42ce-8e59-4e02370146b8">
+    <name>СвободныйОстаток</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.КоличествоЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="bb0703f5-e5a5-455d-bf93-b8ea8c2440fe">
+    <name>ОрганизацияЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторОрганизацийЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="55894192-e429-4afa-b841-dc7e88313170">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="35bf7120-ba86-4fd6-8ec3-ae7323bbe3a7">
+    <name>Справка2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Справки2ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

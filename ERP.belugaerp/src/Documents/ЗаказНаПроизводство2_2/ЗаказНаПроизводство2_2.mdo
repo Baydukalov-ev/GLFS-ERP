@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dbcc14c3-1528-4052-90ee-32909c8414c3">
+  <producedTypes>
+    <objectType typeId="2c1b93d5-d14c-497a-b4b8-93b5d1c023c1" valueTypeId="ed0a4189-b345-4db5-ab87-68fe0e9eaac8"/>
+    <refType typeId="b37dcf6a-87ee-41aa-9b18-cae913d6a4e4" valueTypeId="5a20de68-23cb-4763-ae42-d9f86337934d"/>
+    <selectionType typeId="6861e427-27ac-4f95-8b2c-273415758290" valueTypeId="18f7ccba-7d21-4888-9a50-aa9e876b11f1"/>
+    <listType typeId="8c24d48d-1d22-4138-a22f-409b7f99ac0b" valueTypeId="1a85ecd3-89df-41b7-858f-2dc603d8e0f9"/>
+    <managerType typeId="ed3bb2e9-98bb-407f-994f-932b5162248e" valueTypeId="12d572fe-88ce-496e-b949-7d8a07c30009"/>
+  </producedTypes>
+  <name>ЗаказНаПроизводство2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="6950ca41-0286-4447-b8dc-3f7245fbf0e0">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="fe7848cd-360a-4c0a-b5fe-2765c732a93c">
+    <producedTypes>
+      <objectType typeId="b826a434-5c5a-4221-b5e5-51d34d999f86" valueTypeId="95ce883f-2738-47b1-bbfb-23359be63404"/>
+      <rowType typeId="30d87a25-66c8-4dc4-a60f-13a184002ac0" valueTypeId="5df52cc7-90e2-41a9-8f83-ac7520771a75"/>
+    </producedTypes>
+    <name>Продукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c3b7df21-baa1-4902-bcb7-f92169548f3f">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="4d7b20e6-fc5a-4a5d-9d63-eadc2d92362d">
+      <name>бг_УпаковкаПаллета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Паллета</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <field>Document.ЗаказНаПроизводство2_2.TabularSection.Продукция.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

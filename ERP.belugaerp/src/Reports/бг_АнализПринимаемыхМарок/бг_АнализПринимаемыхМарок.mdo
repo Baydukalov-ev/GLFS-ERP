@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc87c25-b4be-4458-8892-0fc558149bee">
+  <producedTypes>
+    <objectType typeId="9e323325-fdba-444b-93a4-c4cbd22c15d6" valueTypeId="60469d15-3cc0-4707-b86d-f7d5c0ebc73b"/>
+    <managerType typeId="f504bdc4-64a4-44d8-90bd-7fc3e8442ec8" valueTypeId="a96e7fde-fd96-412b-8eb1-5dd8e135701d"/>
+  </producedTypes>
+  <name>бг_АнализПринимаемыхМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ принимаемых марок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_АнализПринимаемыхМарок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ce4e8819-3ae1-4f77-94a8-efc430143a20">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

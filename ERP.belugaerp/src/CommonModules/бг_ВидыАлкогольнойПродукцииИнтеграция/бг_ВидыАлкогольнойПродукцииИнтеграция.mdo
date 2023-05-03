@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="581433ed-658f-4d49-9762-00bf139f0f0d">
+  <name>бг_ВидыАлкогольнойПродукцииИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды алкогольной продукции (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

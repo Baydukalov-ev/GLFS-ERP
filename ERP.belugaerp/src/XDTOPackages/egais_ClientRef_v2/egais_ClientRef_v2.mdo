@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31cb9472-c184-425e-b075-27b22b3eb95c">
+  <name>egais_ClientRef_v2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:XDTOPackageExtension"/>
+  <namespace>http://fsrar.ru/WEGAIS/ClientRef_v2</namespace>
+</mdclass:XDTOPackage>

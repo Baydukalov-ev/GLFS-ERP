@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a644a6eb-5fc7-4f02-9dac-408c30fd7853">
+  <name>бг_ЧтениеТиповПриемкиWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение типов приемки</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18bc1f67-9887-4de5-8348-4a5192389bdb">
+  <producedTypes>
+    <objectType typeId="04ddfb18-775e-4d43-ab71-27b2165fbb6e" valueTypeId="5e8f55ce-61a8-4bc5-a175-2dfb7518b2f8"/>
+    <managerType typeId="5d5f829a-e216-4eb8-a01e-14ea42eaedb5" valueTypeId="4fbc824a-2703-41fc-8100-998e282357a7"/>
+  </producedTypes>
+  <name>бг_ПечатьТОРГ16_ВнутреннееПотреблениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ТОРГ-16 (Внутреннее потребление товаров)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>В типовом функционале ERP, ТОРГ16 возможно распечатать только из документов: Списание недостач товаров, списание принятых на хранение товаров, списание товаров у хранителя. Однако есть потребность в формировании ТОРГ-16 из документа Внутреннее потребление товаров.  </value>
+  </explanation>
+  <templates uuid="1e2c85c4-81af-437f-806d-939ef72c462c">
+    <name>ПФ_MXL_ТОРГ16_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт о списании товаров (ТОРГ-16)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Retirement certificate (TORG-16)</value>
+    </synonym>
+    <comment>Акт о списании товаров (унифицированная форма № ТОРГ-16)</comment>
+  </templates>
+</mdclass:DataProcessor>

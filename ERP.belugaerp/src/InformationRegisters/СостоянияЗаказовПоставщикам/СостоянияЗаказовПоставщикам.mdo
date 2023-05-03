@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b663107-6fbe-4b4a-b0d5-124dd2e2389d">
+  <producedTypes>
+    <selectionType typeId="367e07c9-a163-47c7-b92f-fa06c5079ece" valueTypeId="86d5cb6f-cbed-4454-94c1-5ae284d80fc3"/>
+    <listType typeId="a1b6df16-2ffb-4457-b1b2-4193fe5ebd60" valueTypeId="fae29b4e-6e50-460b-88d2-50df4ea5f291"/>
+    <managerType typeId="60fbebce-098c-4b6b-834b-8b13b40c1511" valueTypeId="553a7798-49f3-48fc-9cd2-6817b0b7741c"/>
+    <recordSetType typeId="a0dd28a4-9dd0-49a9-ba42-f892e03f6f2a" valueTypeId="947d8d84-50e0-48c7-8ad8-27b38350dfcd"/>
+    <recordKeyType typeId="88a43d5a-7a87-4324-a2cc-8cf91a34cfb1" valueTypeId="19ad3968-3479-4092-a39c-7a5688cdfdd8"/>
+    <recordType typeId="8eb6a529-80fc-493f-bda5-84975f0bb18a" valueTypeId="4a21ae76-00b0-4d88-9eaa-5c819add2683"/>
+    <recordManagerType typeId="327c43bb-2663-4d17-8387-18be85adb1fb" valueTypeId="3855538d-f665-4581-87d2-d5356947f0be"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПоставщикам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="3d2b732f-20a5-4a85-839d-9369e4e048a4">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияЗаказовПоставщикам</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="38a62ca0-5419-413e-9971-0cc061fc9120">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПоставщику</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b75138f8-7762-4c8f-afa5-c8a385cbebd5">
+  <name>УчетНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>CommonCommand.бг_ЗапуститьЗаданияКФормированиюДвиженийНДС</content>
+  <parentSubsystem>Subsystem.ФинансовыйРезультатИКонтроллинг</parentSubsystem>
+</mdclass:Subsystem>

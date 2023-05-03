@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efefcba-baf5-4481-8796-f29dedecdca0">
+  <name>бг_битПоступлениеДенежныхСредствОтРозничногоПокупателяИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление денежных средств от розничного покупателя (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

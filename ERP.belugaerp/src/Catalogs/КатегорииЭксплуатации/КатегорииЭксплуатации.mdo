@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1d47c16-c762-4af8-a699-7d53f2ed2f6b">
+  <producedTypes>
+    <objectType typeId="e526d8bc-afe1-4a37-b500-4e4aa2750c7d" valueTypeId="cbf3a803-9aec-4945-af17-b6ab6d2b5405"/>
+    <refType typeId="eba48a76-e2d9-4bbe-bfd9-7011c9672168" valueTypeId="ecbc1384-0ec7-46cf-bf66-e2e97627e094"/>
+    <selectionType typeId="e043480e-96cb-4c86-bba8-add2474a0680" valueTypeId="31c8c586-a02b-42cd-9b04-70476fb152b9"/>
+    <listType typeId="7c34c0a6-5275-409d-8726-ec0753df8c30" valueTypeId="41208e43-fc77-4ea0-8cdc-77c344f4b790"/>
+    <managerType typeId="4c5168ae-1893-44bb-a690-69fed4aaa9f8" valueTypeId="640582fa-c971-4f34-b32b-556ced644521"/>
+  </producedTypes>
+  <name>КатегорииЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="a20139cc-d780-4033-93a1-625976da72fd">
+    <name>ИнвентарныйУчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8bc3a609-141e-46da-b657-4bb494712855">
+    <name>СрокЭксплуатации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

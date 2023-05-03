@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="931239c8-4bec-4967-9300-4262c09c0467">
+  <producedTypes>
+    <objectType typeId="228bf71c-8e95-4633-bf68-1a1a306e88c9" valueTypeId="af4ee2f9-df75-4742-8db8-4894707a695c"/>
+    <managerType typeId="60f50dd2-1512-41a9-bb5d-ce95f59c15aa" valueTypeId="4732a5da-ad6c-4a9c-81e7-3855e7df29ce"/>
+  </producedTypes>
+  <name>ПечатьЗаказовНаТоварыУслуги</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="495e8728-c332-4ea2-b60c-aae09f2502be">
+    <name>бг_ПФ_MXL_ЗаказРозничногоПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ розничного покупателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sales order</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

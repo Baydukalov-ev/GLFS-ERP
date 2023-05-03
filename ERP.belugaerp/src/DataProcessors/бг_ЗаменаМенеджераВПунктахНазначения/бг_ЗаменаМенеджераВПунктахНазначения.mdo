@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f6ca2cc-c1e3-4073-a6f3-eb6e32137c88">
+  <producedTypes>
+    <objectType typeId="a13548b1-b552-4461-a47d-f947d5361723" valueTypeId="1a63ff43-98ee-45b1-9dd0-e12ae5c85743"/>
+    <managerType typeId="088b1f9e-d4b6-4311-b333-2466b590d8bc" valueTypeId="6db103f6-0926-4e7b-a30e-bd2f0014140e"/>
+  </producedTypes>
+  <name>бг_ЗаменаМенеджераВПунктахНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замена менеджера в пунктах назначения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗаменаМенеджераВПунктахНазначения.Form.Форма</defaultForm>
+  <attributes uuid="8f2fb59d-469a-4a5e-a0b1-4141dfd623c8">
+    <name>МенеджерПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер поиска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dda5e677-948e-4d77-815b-99cadc01a1ff">
+    <name>МенеджерЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер замены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="274ed518-e0d8-4e7c-b7fd-2ba7bbae4296">
+    <name>МаршрутТорговогоПредставителяЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут торгового представителя замены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_МаршрутыТорговыхПредставителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bd637aee-85f8-47ed-8d32-e112ed2481a8">
+    <producedTypes>
+      <objectType typeId="2ef61383-94f2-4e9f-9179-e826d53902bf" valueTypeId="ed828ee2-2cdb-4ec0-959b-0cd564bceb7c"/>
+      <rowType typeId="a7c7559b-db58-4713-87b7-291f410f2895" valueTypeId="1396a421-355e-4985-856b-2c6fb59cfabf"/>
+    </producedTypes>
+    <name>ПунктыНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункты назначения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="71d31a77-dbbf-4af5-9b91-4d9feeac891c">
+      <name>Флаг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Флаг</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="35be29aa-5c8f-40a4-9f8b-1a7a557c7d3a">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c019dbf2-4868-47af-903b-905665a43a5b">
+      <name>ПунктНазначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт назначения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.битПунктыНазначения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="674fc458-84ab-4dab-9e7d-c06fbfd2e1ab">
+      <name>Менеджер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Менеджер</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="417fea53-259c-4f4e-8855-2bedd84b9cfd">
+      <name>МаршрутТорговогоПредставителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Маршрут торгового представителя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.бг_МаршрутыТорговыхПредставителей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2fd5d67e-e388-4484-a286-0dd7ff44921d">
+      <name>ПризнакЭТК</name>
+      <synonym>
+        <key>ru</key>
+        <value>Признак ЭТК</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fedf7bbd-cf18-4aa0-85d7-aa490fe385af">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

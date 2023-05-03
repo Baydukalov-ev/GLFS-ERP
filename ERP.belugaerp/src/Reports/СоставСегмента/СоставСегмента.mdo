@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1a81eccc-3db9-4d09-ab0b-87f9fc83e53e">
+  <producedTypes>
+    <objectType typeId="bbbaaeb1-f3c6-41a2-9c77-851b32069450" valueTypeId="3da7e03b-fdeb-4ec3-ae8b-15cc65ddcb8a"/>
+    <managerType typeId="0bdea1b4-5993-4dbb-8240-541d99d5d532" valueTypeId="f945811c-7211-43ed-9022-50e9a2625938"/>
+  </producedTypes>
+  <name>СоставСегмента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+  <forms uuid="f048f5fd-1a04-4aa8-8d52-8d192d53db23">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="90f186a3-bad4-4d66-ad7d-46806102372d">
+    <name>ВыборНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d45bfe9-586e-4fba-81c0-e23c18df7c04">
+  <producedTypes>
+    <objectType typeId="28161905-a53a-4f3d-a8d0-2978694d64a6" valueTypeId="8100361d-f1d9-4f0f-9cff-907daa3c02fd"/>
+    <managerType typeId="8f690d91-7058-4069-b18b-ef506b01a0e0" valueTypeId="10c82133-daa6-4d76-a7b9-f13f47034a0f"/>
+  </producedTypes>
+  <name>КарточкаСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension"/>
+  <forms uuid="8f17b4eb-76ff-4045-8bfa-d52f8ff30ef2">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Report>

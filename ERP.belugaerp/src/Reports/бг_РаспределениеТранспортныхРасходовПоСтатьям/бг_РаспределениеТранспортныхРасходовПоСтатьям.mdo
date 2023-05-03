@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3364c7a5-8721-4e0f-94af-3297554b7a0d">
+  <producedTypes>
+    <objectType typeId="bfcb38e4-024b-4d62-be4c-23f530800bbf" valueTypeId="325a3994-997d-450b-897d-f9ff82060536"/>
+    <managerType typeId="233f147b-db89-48b9-a56b-f67ff25f63ac" valueTypeId="c09b32fd-ab31-4a0c-a5ab-aa2d2a2dc21c"/>
+  </producedTypes>
+  <name>бг_РаспределениеТранспортныхРасходовПоСтатьям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределение транспортных расходов по статьям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_РаспределениеТранспортныхРасходовПоСтатьям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f72539c2-7244-4db0-b270-f42161d9087a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4aa492af-1aaa-4919-ad54-5657f6386615">
+  <producedTypes>
+    <refType typeId="84210b1d-1dc8-4e53-adda-f3a5240de74f" valueTypeId="88281321-9cfc-4c18-8953-31f2bd083d8f"/>
+    <listType typeId="4bd9689d-2b01-4925-92c8-fd1731e8f394" valueTypeId="4ac9ec7f-e79e-44a6-b3cc-6cc615f0280b"/>
+    <managerType typeId="40180c4e-3180-4415-8a80-76070c55b847" valueTypeId="f81f2954-13c8-41f7-be03-99c23ba659bd"/>
+  </producedTypes>
+  <name>ВидыОперацийПоЗарплате</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e50fe692-7c79-44d5-bbf6-38ff8985f499">
+    <name>НачисленоДоход</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bb2a6774-7230-46fd-904c-60c4cdcc5da4">
+    <name>НДФЛ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4972f5d-faaa-42a1-9637-5518f0df600c">
+    <name>ЕжегодныйОтпускОценочныеОбязательства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ecfd0b02-f1a9-4e68-9215-c0a9c404ed1a">
+    <name>РасходыПоСтрахованиюФСС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cffd55b8-34d3-4a36-b617-818f9163e8d7">
+    <name>АлиментыПрочиеИсполнительныеЛисты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5a2741b9-d1a6-4905-a760-0cae79a0d56c">
+    <name>НДФЛСПревышения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8a3233ce-8053-42a6-b737-3c7ac09edc79">
+    <name>Профвзносы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1cf466b8-ad9a-4317-ad91-1516d10f2bb9">
+    <name>ПрочиеУдержания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4f4f9bf1-a3ce-47eb-a560-e9ff912616c7">
+    <name>УдержаниеНеизрасходованныхПодотчетныхСумм</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4a00e9bf-bfb3-41d5-802c-ee64654cbb7f">
+    <name>ЕжегодныйОтпускОценочныеОбязательстваИРезервы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="71bb35db-e8f3-48bd-88e3-523d7efdbea7">
+    <name>НДФЛДоходыКонтрагентов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c54c6f9f-3980-4d05-9da5-859230fb85c2">
+    <name>ДоходыКонтрагентов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

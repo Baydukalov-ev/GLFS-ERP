@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ea931801-c41d-4b49-9352-4aed6390f6d2">
+  <producedTypes>
+    <objectType typeId="9a1d3a11-9723-4d57-acbb-ff9ffad76da7" valueTypeId="91748bc5-b00c-4566-ba69-77c94a841c66"/>
+    <refType typeId="a7b4de6f-3635-4d93-93c3-a7d6e2e661a8" valueTypeId="0be50e3c-9553-40d0-b645-6cd3abd214c8"/>
+    <selectionType typeId="0242415a-e77d-4bdc-8f84-5caa2c412032" valueTypeId="74eb9095-a869-42e4-a536-66172f23ef87"/>
+    <listType typeId="c7ca7b2c-dd12-4a26-a5e5-d134fe820caf" valueTypeId="0ca32402-1950-4663-91c6-ae9de22dcb28"/>
+    <managerType typeId="357665a4-d65e-4821-b7f1-cfd5cd4449f1" valueTypeId="7d5a5835-166e-4146-88cc-52cf170b9d17"/>
+  </producedTypes>
+  <name>ОрдерНаОтражениеПересортицыТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="7f9addc4-0f25-4b81-8800-aadbc08cfe8a">
+    <name>бг_Распоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжение</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.ПересортицаТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b12ae606-7657-495b-8bb2-b8738af9ba71">
+    <producedTypes>
+      <objectType typeId="648547af-0057-4be1-9cde-79a3db82aa9b" valueTypeId="705a14da-6b80-437f-8168-d1d7c1c2a43c"/>
+      <rowType typeId="40339b3a-efb8-4938-a375-35508fb89df1" valueTypeId="513554c0-f380-4423-9a48-cda976f69445"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

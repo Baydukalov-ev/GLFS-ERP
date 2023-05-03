@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bca738ad-994b-497b-856e-7269c0b1eb3b">
+  <producedTypes>
+    <objectType typeId="80ae8790-6f8c-48d5-99fd-ef055b05b999" valueTypeId="e7f39332-db0a-49e2-81fd-7a58254173aa"/>
+    <refType typeId="a2111dfe-4342-4293-9d04-bf7f0f3a0c32" valueTypeId="db3d0355-3b9d-469f-a26b-f1307a75c2fe"/>
+    <selectionType typeId="549a0a47-6e78-4ad3-a4f4-fad36b31dc15" valueTypeId="c3e224c0-30df-4d57-99b0-f0c0bf4049db"/>
+    <listType typeId="899b97e1-e7f6-4f46-9d41-4266c4f5cdd0" valueTypeId="c4c333d9-917c-46e5-9312-1171686b978c"/>
+    <managerType typeId="811f4d0c-38fd-490e-a6ef-aea81f2ffc0c" valueTypeId="70efa897-4ece-4c23-947b-52ac37fca9c9"/>
+  </producedTypes>
+  <name>КорректировкаРегистров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <registerRecords>AccumulationRegister.бг_АкцизПоПриобретеннымЦенностямВыпускПродукции</registerRecords>
+  <registerRecords>InformationRegister.бг_СоставУпаковок</registerRecords>
+  <registerRecords>AccumulationRegister.бг_БанковскиеГарантии</registerRecords>
+  <registerRecords>AccumulationRegister.бг_РасчетыСРозничнымиКлиентами</registerRecords>
+  <registerRecords>AccumulationRegister.бг_СуммовыеСкидкиЛокальные</registerRecords>
+  <registerRecords>AccumulationRegister.бг_ОперацииПоФакторингу</registerRecords>
+  <registerRecords>AccumulationRegister.бг_АкцизПоПриобретеннымЦенностям</registerRecords>
+  <registerRecords>InformationRegister.бг_ДвижениеМарок</registerRecords>
+</mdclass:Document>

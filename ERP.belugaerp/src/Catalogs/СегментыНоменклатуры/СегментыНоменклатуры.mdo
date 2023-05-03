@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0232bac4-5f5c-4e75-bfcf-10947b1a9b45">
+  <producedTypes>
+    <objectType typeId="b1568a7e-6366-4439-8d6f-a81436519ad1" valueTypeId="39e18058-67a9-4818-8239-5ee509eb651e"/>
+    <refType typeId="d83d922a-95d5-43be-9ea2-3c9cd8f08de1" valueTypeId="b68877d2-7f8d-4863-a85b-33418c2e4ba9"/>
+    <selectionType typeId="ea63d086-0bce-431e-a728-32eb6776cdb5" valueTypeId="53e5a9b6-48f8-4201-8ced-02b39c860079"/>
+    <listType typeId="62db1f9e-84d7-4fa9-9e4d-41633aec7511" valueTypeId="6d860f21-2637-407b-92af-84ee8f999075"/>
+    <managerType typeId="3ec22092-1d58-44ca-8209-ee09cb1ba451" valueTypeId="e4500224-5efb-4840-8c1e-d3d20207302c"/>
+  </producedTypes>
+  <name>СегментыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <codeLength>11</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <attributes uuid="dca7dd21-55ec-48e8-8ab5-7bb7050e576e">
+    <name>бг_ВыгружатьВSolvo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать в Solvo</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9807467-1fb8-4abd-885d-ec2683e460d3">
+    <name>ДатаОчистки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="561b8689-e785-4de3-aabc-3c7df952a939">
+    <name>СпособФормирования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СпособыФормированияСегментов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b61f3cef-490c-4c3b-af1e-ef82223881af">
+    <name>ДатаСоздания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="976db4e6-68cc-4fb3-99da-7046cc1809e4">
+    <name>Описание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="4b8bce92-af56-49b8-97d6-7af060b31726">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="9e3d5493-bf59-4c75-a309-5ea70424b5e3">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

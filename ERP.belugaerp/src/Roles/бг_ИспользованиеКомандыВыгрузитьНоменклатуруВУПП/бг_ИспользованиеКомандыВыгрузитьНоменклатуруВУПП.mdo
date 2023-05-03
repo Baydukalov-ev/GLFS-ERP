@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="353cbc69-7e6f-4fc8-8f7d-26d3063991a2">
+  <name>бг_ИспользованиеКомандыВыгрузитьНоменклатуруВУПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование команды &quot;Выгрузить номенклатуру напрямую в УПП &quot;</value>
+  </synonym>
+</mdclass:Role>

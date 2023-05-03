@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7decd1dc-6b8a-46b6-954d-3f626ef31c0f">
+  <producedTypes>
+    <objectType typeId="7bac2378-9dc8-4eff-a740-e7ba61bb822d" valueTypeId="9fa6a627-2960-4352-b2ae-8f55df6943b6"/>
+    <refType typeId="25011453-ceb7-4532-9db0-067d835ac957" valueTypeId="d31ba2ec-3fd3-4c62-8e1d-fc50fd8ba66b"/>
+    <selectionType typeId="b0c7711c-4752-48f5-a21c-dbedc1204e71" valueTypeId="dd737f69-d033-487a-9ac8-808e922614ab"/>
+    <listType typeId="9e5c268f-523c-4d50-b312-fb6668586a5f" valueTypeId="df845021-4a6b-4bb4-b585-02e089f26654"/>
+    <managerType typeId="406882c6-81a4-462e-80be-bccf740e370f" valueTypeId="573db5e3-56ad-47d0-9ba1-fb53df4f5f16"/>
+  </producedTypes>
+  <name>УсловияПредоставленияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <tabularSections uuid="e4790d2a-a4dc-4be4-ad8e-0daa5accc59a">
+    <producedTypes>
+      <objectType typeId="73e0a41e-f622-4f6b-916b-0f0570e1f8eb" valueTypeId="8d90d33d-4e37-489d-b1b2-f6e04da9a14f"/>
+      <rowType typeId="84e33690-b503-47f9-a8e3-7bbf62887509" valueTypeId="8a1e8db9-64e8-4741-8637-13f545d3f304"/>
+    </producedTypes>
+    <name>бг_УсловияЗаАссортимент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия за ассортимент</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bc318f77-cc89-4f3f-b5b9-a39a47beb0ba">
+      <name>ЦеноваяГруппа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценовая группа</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.бг_ЕК_СКЮ_СкюМТ</types>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b76db67-1aac-4aa1-a5fd-9220ae398da9">
+      <name>МинимальноеКоличествоЕдиниц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное количество единиц</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="80b10947-100f-4586-be50-b725a480962c">
+      <name>МаксимальноеКоличествоЕдиниц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальное количество единиц</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f484cb4a-5c45-4d94-a25f-57ecebfefffa">
+      <name>МинимальнаяЕмкостьЕдиницы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальная емкость единицы</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="322cc613-a34a-4e4c-9574-2099918457f8">
+      <name>МаксимальнаяЕмкостьЕдиницы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Максимальная емкость единицы</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9a9028a2-3785-435f-aebe-f93ca2de8d2b">
+      <name>МинимальноеКоличествоДекалитров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимальное количество декалитров</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

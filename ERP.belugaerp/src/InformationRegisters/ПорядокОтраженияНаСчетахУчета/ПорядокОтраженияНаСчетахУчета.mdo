@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe1a1d1a-d60e-4710-908c-3c1451e7a3c5">
+  <producedTypes>
+    <selectionType typeId="8492856c-7e24-41f4-b23e-b39c62be3b48" valueTypeId="09f09780-fb45-40b1-b7eb-b4cb559b0c30"/>
+    <listType typeId="ab5cdab1-b6e7-429b-b4b1-0b8d52e47c28" valueTypeId="b169f98a-0b22-43ef-b53b-7c99ff83de3b"/>
+    <managerType typeId="76b35224-a480-40b6-a3a3-18e664cf5298" valueTypeId="43a675d2-5036-4b47-a7ba-68c6bb6ff29e"/>
+    <recordSetType typeId="cfb99277-702e-48eb-b13b-7dfcb42268c9" valueTypeId="0df499f1-0781-4dbc-a82d-7c4e1a930822"/>
+    <recordKeyType typeId="181781a9-7278-4195-925e-281c3d0ea0ce" valueTypeId="49d06eff-489a-4491-8e94-dcf024533ba1"/>
+    <recordType typeId="dd3ab31a-8118-4bca-9a6c-9103ee04601c" valueTypeId="a85d7361-8366-4a6f-980b-9ba938e51487"/>
+    <recordManagerType typeId="4ace1e60-1882-4956-9b79-14c1968fcdee" valueTypeId="56a5be45-fbb2-4463-a8fc-8e2c0078d203"/>
+  </producedTypes>
+  <name>ПорядокОтраженияНаСчетахУчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="3400dcdb-bd1e-496e-b609-7448ed034960">
+    <name>СчетУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfAccountsRef.Хозрасчетный</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="f22f3acf-232d-4e0f-a431-2ca9d19105ef">
+    <name>ВидСчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыСчетовРеглУчета</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="877f4fd1-a385-4fc1-88fa-a77a9dde1d27">
+    <name>АналитикаУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.НастройкаСчетовУчетаАналитикаУчета</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="ac3e2fc4-1865-467c-a1fb-f9ad41f1b292">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f10380b-91ec-4483-a0f5-f0d23de9e3a1">
+  <name>бг_Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.бг_ПроизводственныеЛинии</content>
+  <content>Document.битДанныеСПроизводственнойЛинии</content>
+  <content>InformationRegister.бг_КодыНоменклатурыСПУМ</content>
+  <content>Document.битОтчетОПроизводствеЕГАИС</content>
+  <content>Report.бг_СоответствиеРасходаМатериаловВПроизводствеНормативам</content>
+  <content>InformationRegister.бг_КратностьНоменклатуры</content>
+  <content>InformationRegister.бг_СоставУпаковок</content>
+  <content>Document.битСписаниеПотерь</content>
+  <content>Report.бг_ВыпускАлкогольнойПродукции</content>
+  <content>Report.бг_СверкаСДаннымиЕГАИС</content>
+  <content>Report.бг_ПриходРасходСырьяИМатериалов</content>
+  <content>Report.бг_ВыпускОтгрузкаАлкогольнойПродукции</content>
+  <content>DataProcessor.бг_ИзменитьНоменклатуруВыпуска</content>
+  <content>InformationRegister.бг_УстаревшаяНоменклатура</content>
+  <content>Report.бг_ПроизводственныеПотери</content>
+  <content>Report.бг_ПроверкаИспользованияИмпортногоСырья</content>
+  <content>Report.бг_ПроверкаИспользованияИмпортногоСырьяИзЕАЭС</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

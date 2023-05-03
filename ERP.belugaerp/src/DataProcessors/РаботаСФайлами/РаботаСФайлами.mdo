@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="57377b71-9d37-4ab4-851b-7fb8e53080c9">
+  <producedTypes>
+    <objectType typeId="414f82a6-0f41-479d-9510-29ae815e7050" valueTypeId="c556b566-c284-48cc-8e7a-43dfff16e93e"/>
+    <managerType typeId="ecb1ae53-3ff4-4567-b9cb-c251042f96fc" valueTypeId="729bf976-39aa-4988-9748-89c23029b127"/>
+  </producedTypes>
+  <name>РаботаСФайлами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="c3b216e0-9811-4ebc-96a6-7fd6b8919fef">
+    <name>ПрисоединенныйФайл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

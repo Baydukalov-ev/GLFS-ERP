@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67e7733e-c9bb-4aa6-a27f-7ed0c937efd0">
+  <name>адаптер_ИнтеграцияПроектный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адаптер интеграция проектный</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

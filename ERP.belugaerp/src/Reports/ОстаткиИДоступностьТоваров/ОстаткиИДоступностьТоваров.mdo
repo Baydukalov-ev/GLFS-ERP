@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f4f339a9-65a8-4311-81df-0a6833d04773">
+  <producedTypes>
+    <objectType typeId="b8af79d6-81a5-45f6-8a0d-d61a61739168" valueTypeId="2da536d4-1b3b-4009-a203-b6203cef55e7"/>
+    <managerType typeId="caf61ddd-dc5f-40da-b2ad-39889dd15e02" valueTypeId="483a94c8-be34-4b90-8fb3-00d63042329c"/>
+  </producedTypes>
+  <name>ОстаткиИДоступностьТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Report>

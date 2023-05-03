@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="82c29061-e6e6-4d69-a4dd-32739aaa6461">
+  <producedTypes>
+    <objectType typeId="8f268cd2-b697-4924-b1f9-c243e28e7dd9" valueTypeId="78f9ce0e-327f-45fb-8150-dfcdbd959628"/>
+    <refType typeId="20b644e9-15ee-4568-bbf4-78e351e4fc28" valueTypeId="751311b6-5664-4577-acc6-ccef4e2006fe"/>
+    <selectionType typeId="5ff493f4-a2a4-46e9-9597-49baf041cc26" valueTypeId="806ed6f8-b2e0-442e-9792-ced27393af0d"/>
+    <listType typeId="443ff79d-bed9-44a8-8954-69134d64c548" valueTypeId="12ddd246-223d-49e0-8ee9-7a9539fc9cc4"/>
+    <managerType typeId="8f1454b7-9e12-4117-8896-e5e598bb6487" valueTypeId="4faf169d-bd11-4654-b2a3-8c9b73437b73"/>
+  </producedTypes>
+  <name>ВидыНалоговВзносов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

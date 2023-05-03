@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2752ff3e-ba69-4573-9de8-0fb6f06a2909">
+  <producedTypes>
+    <refType typeId="3aa7751c-4d27-4310-994d-40679a996eb6" valueTypeId="1c060859-fb5c-49e3-99f6-7f53457e634c"/>
+    <listType typeId="d87033a0-7429-4d54-8a56-8107d85eb0aa" valueTypeId="d87d884f-71d8-4fb0-a1f9-5aaf2f850110"/>
+    <managerType typeId="c5869d80-6e6b-4845-8824-96b942bbdb7a" valueTypeId="9ee4b549-fc25-4a78-9a97-e4978cda6971"/>
+  </producedTypes>
+  <name>ТипыНазначений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3c943e0d-16bb-4ecf-be00-ac89b52c07d8">
+    <name>ПоставкаПодПринципала</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

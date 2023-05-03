@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55f7a0f4-1690-4c5d-9634-cf180248eb39">
+  <producedTypes>
+    <selectionType typeId="8adb1356-2e57-4b34-8180-465a1b2c29be" valueTypeId="f8acb11e-7ab4-4744-977e-c66a57037b23"/>
+    <listType typeId="68e319cd-fe06-46dc-b39f-a2bc79b86c2e" valueTypeId="0200736d-5185-45eb-85b9-03ccd078450c"/>
+    <managerType typeId="7409e481-a61d-4c2d-ab6a-e91305f8f864" valueTypeId="68ecc54b-f28e-4270-90d9-7e66bf069c96"/>
+    <recordSetType typeId="6c8e20f4-809a-4ff4-a201-82433c9ff95d" valueTypeId="4200a1e8-b0d3-484a-8e1d-c2cbb8422a25"/>
+    <recordKeyType typeId="e0ae5dc6-c396-4fe7-a9fe-f3eb35fafc5f" valueTypeId="a5f630b2-c1e2-4959-b5e6-1d9239996243"/>
+    <recordType typeId="c2a95ab8-ba6c-4b6f-b55a-01bb04a0cbf7" valueTypeId="af1459d2-b063-4075-b6f9-6f69f1572c92"/>
+    <recordManagerType typeId="7e67b5ac-2974-4e53-b42c-f208d57cfb82" valueTypeId="edea0985-d593-430f-8c46-faad82bc4140"/>
+  </producedTypes>
+  <name>бг_СоответствиеОбъектовУПП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие объектов УПП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр для хранение идентификаторов объектов, полученных с использованием функции ЗначениеВСтрокуВнутр() из объектов УПП</value>
+  </explanation>
+  <resources uuid="2bb2c81c-b717-42c4-94b4-8173be696d10">
+    <name>ОбъектERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ERP</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+      <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+      <types>CatalogRef.СкидкиНаценки</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Валюты</types>
+      <types>CatalogRef.ВидыЦен</types>
+      <types>CatalogRef.КлассификаторБанков</types>
+      <types>EnumRef.ЮрФизЛицо</types>
+      <types>EnumRef.ТипыДоговоров</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>EnumRef.бг_creatio_ТипыОбъектовАдреса</types>
+      <types>CatalogRef.битГруппыПартнеров</types>
+      <types>EnumRef.бг_ТипыЛицензийПоставщиковАлкогольнойПродукции</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="727033a4-55bd-47f3-a5e6-a7fdc24d3315">
+    <name>БазаУПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>База УПП</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_БазыУПП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="b5c041d6-7eda-4614-9d34-eb282e22f175">
+    <name>ОбъектУПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект УПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

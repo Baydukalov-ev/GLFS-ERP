@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8166b069-abad-4230-a594-ce6e2d34dbf3">
+  <name>бг_УчетБанковскихГарантий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет банковских гарантий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.бг_БанковскиеГарантии</content>
+  <content>Document.бг_РегистрацияБанковскихГарантий</content>
+  <content>Catalog.бг_ВидыПодакцизныхТоваров</content>
+  <content>Catalog.бг_КодыОбъектовНалогообложения</content>
+  <content>Document.битРасчетАвансовПоАкцизам</content>
+  <content>InformationRegister.бг_НалогообложениеАкцизомОрганизаций</content>
+  <content>Document.битОперацияУчетаАкциза</content>
+  <content>Report.бг_ПроверочныйОтчетПоАкцизу</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

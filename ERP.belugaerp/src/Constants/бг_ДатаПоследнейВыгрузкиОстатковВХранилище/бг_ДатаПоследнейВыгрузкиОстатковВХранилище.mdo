@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceb42113-120e-43c9-9971-9c8c87ad54b1">
+  <producedTypes>
+    <managerType typeId="dd0659e3-b74c-4aef-bff3-c0701e5a5646" valueTypeId="6968c37d-2f86-45d7-b72d-24440a3c0a59"/>
+    <valueManagerType typeId="bbdb919c-b3ae-48b5-8f45-88fc4c260bc9" valueTypeId="eaa97cc4-8c44-4f26-a925-c3b6ba5c6b7d"/>
+    <valueKeyType typeId="7615ba11-b1b0-44fd-a2c9-8f3ca842f877" valueTypeId="3fef9e63-1837-433f-a251-573d8a70e38f"/>
+  </producedTypes>
+  <name>бг_ДатаПоследнейВыгрузкиОстатковВХранилище</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата последней выгрузки остатков в хранилище</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

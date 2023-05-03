@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28ee8059-deb1-411f-bc15-22a25eae16d0">
+  <name>бг_ПроизводствоБезЗаказаИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бг производство без заказа интеграция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

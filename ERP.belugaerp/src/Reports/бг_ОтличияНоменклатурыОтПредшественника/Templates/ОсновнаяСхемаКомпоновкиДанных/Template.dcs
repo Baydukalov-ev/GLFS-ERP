@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предшественник</dataPath>
+			<field>Предшественник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеНоменклатуры</dataPath>
+			<field>ЗначениеНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗначениеПредшественника</dataPath>
+			<field>ЗначениеПредшественника</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отличается</dataPath>
+			<field>Отличается</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СинонимРеквизита</dataPath>
+			<field>СинонимРеквизита</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синоним реквизита</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяРеквизита</dataPath>
+			<field>ИмяРеквизита</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя реквизита</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Номенклатура.Код КАК НоменклатураКод,
+	Номенклатура.бг_Предшественник.Код КАК ПредшественникКод,
+	Номенклатура.Наименование КАК НоменклатураНаименование,
+	Номенклатура.бг_Предшественник.Наименование КАК ПредшественникНаименование,
+	Номенклатура.ВидНоменклатуры КАК НоменклатураВидНоменклатуры,
+	Номенклатура.бг_Предшественник.ВидНоменклатуры КАК ПредшественникВидНоменклатуры,
+	Номенклатура.Ссылка КАК Номенклатура,
+	Номенклатура.бг_Предшественник КАК Предшественник
+ПОМЕСТИТЬ ВТНоменклатура
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	Номенклатура.бг_Предшественник &lt;&gt; ЗНАЧЕНИЕ(Справочник.Номенклатура.ПустаяСсылка)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТНоменклатура.Номенклатура КАК Номенклатура,
+	ВТНоменклатура.Предшественник КАК Предшественник,
+	"Код" КАК ИмяРеквизита,
+	"Код" КАК СинонимРеквизита,
+	ВТНоменклатура.НоменклатураКод КАК ЗначениеНоменклатуры,
+	ВТНоменклатура.ПредшественникКод КАК ЗначениеПредшественника,
+	ВТНоменклатура.НоменклатураКод &lt;&gt; ВТНоменклатура.ПредшественникКод КАК Отличается
+ИЗ
+	ВТНоменклатура КАК ВТНоменклатура
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТНоменклатура.Номенклатура,
+	ВТНоменклатура.Предшественник,
+	"Наименование",
+	"Наименование",
+	ВТНоменклатура.НоменклатураНаименование,
+	ВТНоменклатура.ПредшественникНаименование,
+	ВТНоменклатура.НоменклатураНаименование &lt;&gt; ВТНоменклатура.ПредшественникНаименование
+ИЗ
+	ВТНоменклатура КАК ВТНоменклатура
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТНоменклатура.Номенклатура,
+	ВТНоменклатура.Предшественник,
+	"ВидНоменклатуры",
+	"Вид номенклатуры",
+	ВТНоменклатура.НоменклатураВидНоменклатуры,
+	ВТНоменклатура.ПредшественникВидНоменклатуры,
+	ВТНоменклатура.НоменклатураВидНоменклатуры &lt;&gt; ВТНоменклатура.ПредшественникВидНоменклатуры
+ИЗ
+	ВТНоменклатура КАК ВТНоменклатура</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Отличается</dataPath>
+		<expression>Максимум(Отличается)</expression>
+	</totalField>
+	<settingsVariant>
+		<dcsset:name>Отличия номенклатуры от предшественника</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отличия номенклатуры от предшественника</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СинонимРеквизита</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяРеквизита</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеНоменклатуры</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗначениеПредшественника</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отличается</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Отличается</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					<dcsset:userSettingID>f6fe2c07-286f-498d-a688-013853a5a4d2</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Номенклатура.ВидНоменклатуры</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Предшественник</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e53c4568-af39-4d6b-813a-925d8a20c105">
+  <producedTypes>
+    <objectType typeId="4565073a-fa7c-4c40-bddb-bc5b9a77c979" valueTypeId="2f3f084b-3faf-419e-a336-ff482e94f420"/>
+    <managerType typeId="77f76f66-7a18-4589-a9c4-9397b0a8feab" valueTypeId="5a916fb2-98bf-41a1-ade7-fbdcd330569f"/>
+  </producedTypes>
+  <name>бг_РеестрДокументовПоПеревозчику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр документов по перевозчику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_РеестрДокументовПоПеревозчику.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6d27e017-c612-4162-84be-c24f00dc4fc9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

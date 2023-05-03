@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f29553b0-438a-4de2-aa90-ab8b109b3f4a">
+  <name>бг_ПоказатьСообщенияRMQПоОбъекту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения RMQ</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.ЭтапПроизводства2_2</types>
+    <types>DocumentRef.битОтражениеФактаПоПриходномуОрдеру</types>
+    <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+    <types>DocumentRef.битНакладнаяНаВыдачуФСМ</types>
+    <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+    <types>DocumentRef.КорректировкаРеализации</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+    <types>DocumentRef.бг_ВыгрузкаМарокУпаковок</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.ПроизводствоБезЗаказа</types>
+    <types>CatalogRef.СерииНоменклатуры</types>
+    <types>DocumentRef.КорректировкаПриобретения</types>
+    <types>DocumentRef.ЗаказКлиента</types>
+    <types>DocumentRef.битПереупаковка</types>
+    <types>CatalogRef.битКаналыПродаж</types>
+    <types>DocumentRef.битЗаявкаКлиента</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.ПриходныйОрдерНаТовары</types>
+    <types>DocumentRef.РасходныйОрдерНаТовары</types>
+    <types>DocumentRef.СборкаТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+    <types>DocumentRef.ТТНИсходящаяЕГАИС</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef.битОтражениеФактаПоРасходномуОрдеру</types>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.битОтчетОПроизводствеЕГАИС</types>
+    <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+    <types>DocumentRef.битМаршрутныйЛист</types>
+    <types>CatalogRef.Контрагенты</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43c42548-9980-4b8f-afc2-e58eac2e9ffa">
+  <name>бг_СкидкиНаценкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки наценки (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

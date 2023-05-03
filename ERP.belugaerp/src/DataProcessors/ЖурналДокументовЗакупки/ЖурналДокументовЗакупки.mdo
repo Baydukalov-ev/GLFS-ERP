@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a0f77a13-9dca-49fe-b0b2-c75e0e1726c3">
+  <producedTypes>
+    <objectType typeId="2f09cb7f-b477-4734-bb27-68fe5974d94b" valueTypeId="fddb130f-00b2-4487-b022-2622f8791d42"/>
+    <managerType typeId="41a2dc6a-d5f1-43b7-98e3-2b4cef358e7a" valueTypeId="8e1d0f9a-be6b-4fdb-a3e5-1fee624b1b09"/>
+  </producedTypes>
+  <name>ЖурналДокументовЗакупки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="8bb98fd8-1784-4f36-b6fe-34ea620dae56">
+    <name>СписокДокументов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="4e1db09a-9195-449d-a697-8049a2b2d3ab">
+    <name>ФормаВыбораРаспоряжения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

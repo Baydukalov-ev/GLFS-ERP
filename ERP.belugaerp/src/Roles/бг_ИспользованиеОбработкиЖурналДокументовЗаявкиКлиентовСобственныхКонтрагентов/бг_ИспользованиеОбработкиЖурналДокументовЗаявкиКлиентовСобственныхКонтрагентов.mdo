@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e7025a-01bb-4c86-8afa-854fc592cbdf">
+  <name>бг_ИспользованиеОбработкиЖурналДокументовЗаявкиКлиентовСобственныхКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки Заявки (предзаказы) собственных контрагентов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

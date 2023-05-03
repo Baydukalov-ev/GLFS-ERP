@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1fd0fde9-347e-4c77-afee-7c7d9fcea472">
+  <name>бг_НеКонтролироватьСтатьюКалькуляции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не контролировать статью калькуляции</value>
+  </synonym>
+  <comment>Роль позволяет проводить производственные документы если в ТЧ выбрана статья калькуляции которая отличается от статьи калькуляции в карточке номенклатуры</comment>
+</mdclass:Role>

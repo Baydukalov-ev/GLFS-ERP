@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cb480a3e-bd80-4c34-9e8f-f18e78389da3">
+  <producedTypes>
+    <objectType typeId="e6a4370f-b199-4b27-a2ce-cd3a63a13899" valueTypeId="b2d59692-30ce-408f-8277-3915dba8092b"/>
+    <refType typeId="c566f684-b08a-4877-9505-ed48b13c977e" valueTypeId="b7b94624-83bc-4895-ad65-72a7f0b6e26c"/>
+    <selectionType typeId="6b48b34b-1fdd-4a29-b01d-7e7d7a8e061e" valueTypeId="e955b936-ece3-4bea-9b06-346081994592"/>
+    <listType typeId="56879d22-0b9e-4664-840b-3cb021ddeec5" valueTypeId="fab5ade3-763d-4a3b-a2fb-049fcd731253"/>
+    <managerType typeId="86e7f719-abd9-4837-a1c6-d94477af0fff" valueTypeId="f81f21ad-1ec7-4383-ad5f-f87dcaf78fcc"/>
+  </producedTypes>
+  <name>ПолитикиУчетаСерий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="d77221af-b661-4184-9df3-6e39e1313966">
+    <name>УчитыватьСебестоимостьПоСериям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="020e042e-5d44-48b2-a8cb-1ef8dc6e129a">
+    <name>УказыватьПриПланированииОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

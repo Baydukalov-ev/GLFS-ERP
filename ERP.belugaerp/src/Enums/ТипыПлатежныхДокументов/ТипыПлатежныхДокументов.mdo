@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9efc4dc4-10df-447d-9ed4-ba58371c7df7">
+  <producedTypes>
+    <refType typeId="16c6fc80-1a6a-482a-8bb5-a7bfaedf452a" valueTypeId="58e50c32-f1ad-4ce7-a4a7-53f3f4533253"/>
+    <listType typeId="8a38c966-e594-44e5-81e4-450303e90ae9" valueTypeId="e7922f1e-429f-4a05-9d01-5530e738654b"/>
+    <managerType typeId="4b6c5dac-0ef6-4fc1-b7b3-1bde740abf76" valueTypeId="a609186c-d74b-4e52-8a27-2bf8d8304666"/>
+  </producedTypes>
+  <name>ТипыПлатежныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="8d305869-1fc4-4c2e-833c-89d2341840a2">
+    <name>ПлатежноеПоручение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f9f9ccae-9593-4c8f-a99f-2a8c46be9f77">
+    <name>ИнкассовоеПоручение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dd54a702-5288-4efe-88ca-4082f19ec1c8">
+    <name>ПлатежноеТребование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dd8b7dec-72e1-49d8-ba7f-e55329f743ee">
+    <name>ПлатежныйОрдер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a2469eb5-3141-402a-ad1a-001d2b2bf026">
+    <name>БанковскийОрдер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bfe6998b-45d0-4260-987f-f5cbee51bfed">
+    <name>РаспоряжениеОбОбязательнойПродаже</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

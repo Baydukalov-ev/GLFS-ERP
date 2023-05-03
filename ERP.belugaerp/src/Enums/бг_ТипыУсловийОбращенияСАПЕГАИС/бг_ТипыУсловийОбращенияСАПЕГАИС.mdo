@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b51ef53-ab99-4962-972c-d64b4884f2b9">
+  <producedTypes>
+    <refType typeId="a2d7ca59-716b-4669-a401-0ed697726b04" valueTypeId="a20ada0a-8f69-4950-b66b-8d440b7309bd"/>
+    <listType typeId="41cdddac-95e4-4a75-9fdd-9e02566a8c5a" valueTypeId="37a443c0-3070-4214-aec3-c575e0465c57"/>
+    <managerType typeId="e10ae65e-8410-4971-9ef0-cfc2f824a4ec" valueTypeId="99918b08-36ed-4f44-9dbf-a685af23299a"/>
+  </producedTypes>
+  <name>бг_ТипыУсловийОбращенияСАПЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы условий обращения с алкогольной продукцией ЕГАИС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6556ede7-e457-401d-a5cb-71bab8ab624d">
+    <name>УсловиеХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие хранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ed8935e-8cb5-4611-9f32-303c4cc2eedd">
+    <name>УсловиеПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие перевозки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04705f0b-db20-4371-9c00-f86c35c9a939">
+    <name>УсловиеРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad202793-c0d7-4cc1-b93a-7706ec4f9b17">
+    <name>УсловиеУтилизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условие утилизации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

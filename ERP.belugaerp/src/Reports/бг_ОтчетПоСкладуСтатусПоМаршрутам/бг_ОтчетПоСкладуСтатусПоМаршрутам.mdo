@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6be3aa1a-67f3-4462-92be-012d35ecf8a5">
+  <producedTypes>
+    <objectType typeId="997c93d9-960d-4e94-9ba1-12a40d235e5f" valueTypeId="94ce25c1-79cc-482b-9399-19c5167209d9"/>
+    <managerType typeId="e5115115-77cf-450a-bccc-5bcc26f6ab20" valueTypeId="2bbd58ce-ea52-4dab-8319-119054149c38"/>
+  </producedTypes>
+  <name>бг_ОтчетПоСкладуСтатусПоМаршрутам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по складу. Статус по маршрутам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОтчетПоСкладуСтатусПоМаршрутам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="90816c83-4552-409a-b39f-6dcb557c2df3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ed6c8c-5499-448c-8437-d80c81f9a3c9">
+  <name>бг_ЧтениеДополнительныхКонстант</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение дополнительных констант (Белуга)</value>
+  </synonym>
+</mdclass:Role>

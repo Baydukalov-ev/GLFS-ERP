@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74a00f73-1c2e-4c93-bef5-c5aff0a85009">
+  <producedTypes>
+    <objectType typeId="2f5e8618-a985-4f37-916a-2b77e9ef16d5" valueTypeId="2b9eecea-8384-4db3-b5ec-f9cbde3f7516"/>
+    <managerType typeId="48a02461-bba6-428a-9f89-061c49777a3a" valueTypeId="5135c363-cc3c-4cc5-b36c-84d97af29a26"/>
+  </producedTypes>
+  <name>бг_РТУЗаполнитьТоварыПоПТУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить товары по ПТУ</value>
+  </synonym>
+  <comment>Реализация товаров и услуг: обработка заполнения тч &quot;Товары&quot; по документу Приобретение товаров и услуг</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_РТУЗаполнитьТоварыПоПТУ.Form.Форма</defaultForm>
+  <attributes uuid="06e569d1-1649-4dcf-b772-0c668bc45086">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="df0d7209-714c-42e7-8671-bf5c277d203a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef0bba76-eaf9-484a-a757-c598ce8c5f65">
+  <producedTypes>
+    <selectionType typeId="189a8cc5-5692-4f12-92cd-5f499dbeeeae" valueTypeId="ce8a548d-c4dd-423f-a10e-50e416b45fd6"/>
+    <listType typeId="afb008c2-3415-4b70-a65e-7346e6d97b91" valueTypeId="88c4f6da-b83d-4cae-b631-eb21c0a873bd"/>
+    <managerType typeId="30db9699-075e-494b-90d1-627515aec256" valueTypeId="c6a43075-b67c-481d-9947-e425d6da2728"/>
+    <recordSetType typeId="7c85855a-2bf2-4ef7-8d4f-29b6d6728f52" valueTypeId="a03eef55-6c18-4105-8e7d-5dcff2d46dc1"/>
+    <recordKeyType typeId="b8fad0d3-e2a4-4069-98da-8f3b9b2f68e1" valueTypeId="f2fba992-e502-4a79-84d5-91498ce7b68b"/>
+    <recordType typeId="32a38d6e-c9dd-4004-a4e1-ef3a1af5ecf1" valueTypeId="af9261ae-8a96-4ab0-a310-19069f9ffebb"/>
+    <recordManagerType typeId="979c8a21-60b7-46cf-9890-48edea77f1b8" valueTypeId="8b3c4173-874b-4fad-bbc6-92483a555e8e"/>
+  </producedTypes>
+  <name>бг_ИзмененияСвободныхОстатковДляИМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения свободных остатков для интернет-магазинов (Белуга)</value>
+  </synonym>
+  <comment>Служебный регистр для сбора информации об изменения свободных остатков товаров для передачи оперативных остатков сайту интернет-магазина.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8fe41634-bdc5-495f-ab4b-d4928703923e">
+    <name>Свободно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Available</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c617611b-eecf-4e33-b9fb-b047e16ec892">
+    <name>ДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="10787215-a635-4052-bae7-5a81d2998396">
+    <name>ПричинаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина изменения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ПричиныИзмененияСвободныхОстатковДляИМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac102d6b-596f-46d4-bb9a-49f7c42c04ac">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Items</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9e34be06-7da8-446c-9d34-edef065a8072">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="def7ed04-ec16-46fa-a2d4-6931e0cf9df4">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад / Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Warehouse / Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="05f3796f-30c8-4273-a995-a3102ae0ea2c">
+    <name>РазделительЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record separator</value>
+    </synonym>
+    <comment>Служебное измерение, предназначенное для укрупнения порции записи данных в регистр</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

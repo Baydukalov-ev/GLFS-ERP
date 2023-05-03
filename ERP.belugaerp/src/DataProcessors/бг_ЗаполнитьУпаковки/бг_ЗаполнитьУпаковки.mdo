@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ed071cb-c428-480c-9480-a23ff0b2fc3d">
+  <producedTypes>
+    <objectType typeId="a761570f-ac77-487b-84dd-1ae922e5ce9b" valueTypeId="b5cef0d8-50e4-449f-8822-41defe8103ff"/>
+    <managerType typeId="0192ce71-2c22-4eea-985b-074932c2e677" valueTypeId="97fd6dbb-742a-4564-962b-15a96327c1b4"/>
+  </producedTypes>
+  <name>бг_ЗаполнитьУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить упаковки в заказе клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="3c959b01-b03a-42cd-afd1-0006393665e2">
+    <name>ВызовИзФормыДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызов из формы документа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="86bca0cb-ce6f-4536-b437-705b3f966447">
+    <name>ЕдиницаКоробки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица коробки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5f6d1b00-c200-47e8-b118-b82629254f4e">
+    <name>ЕдиницаПаллеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица паллеты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ae397cb9-0539-41f6-a0a1-86b05ee08f52">
+    <name>ОтгружатьВЗаказеТолькоОднуПартию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружать в заказе только одну партию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

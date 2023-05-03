@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1bdf0c8-ac07-497b-8f89-6cd8bf3f6cbc">
+  <name>бг_ИспользованиеОтчетаРеестрДокументовПоПеревозчику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета реестр документов по перевозчику</value>
+  </synonym>
+</mdclass:Role>

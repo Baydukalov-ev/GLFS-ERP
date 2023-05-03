@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5ed2f618-7a55-4981-9d5e-37dd9124d644">
+  <producedTypes>
+    <containerType typeId="ac0348ab-c976-48bf-b738-5f583e683f57" valueTypeId="6e14ae57-2c94-49a2-a100-99ab6dcdb8e8"/>
+  </producedTypes>
+  <name>ОснованиеТТНИсходящаяЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

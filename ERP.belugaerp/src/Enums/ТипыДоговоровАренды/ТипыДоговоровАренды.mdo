@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="45750959-3665-4d27-8990-71717a391f4a">
+  <producedTypes>
+    <refType typeId="61a9a639-b51a-4e00-9231-fb1c50617694" valueTypeId="67e79161-4d66-4285-a0dd-c3e1c3bf708f"/>
+    <listType typeId="96cbb4df-c827-42fc-9b9d-804bfeeda44d" valueTypeId="3fcfac81-a5f7-4b92-8e02-db2d5a065c69"/>
+    <managerType typeId="6e613f58-4443-4f8d-8371-f79bc1b90d57" valueTypeId="c6879e26-2636-4edb-89b9-b624bc6bc6ef"/>
+  </producedTypes>
+  <name>ТипыДоговоровАренды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="25e208cb-174b-4ca1-9238-86385e16cf8d">
+    <name>Аренда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ac2cccfe-d449-4d19-b6ec-990efbd07f4f">
+    <name>Лизинг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

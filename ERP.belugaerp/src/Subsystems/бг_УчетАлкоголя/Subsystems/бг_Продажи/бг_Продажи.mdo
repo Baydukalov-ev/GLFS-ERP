@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3852250-a7d2-4eaa-872f-25f19062dc0c">
+  <name>бг_Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЛицензииПоставщиковАлкогольнойПродукции</content>
+  <content>InformationRegister.бг_МенеджерыПунктовНазначения</content>
+  <content>Catalog.бг_УдалитьКаналыПродаж</content>
+  <content>Catalog.бг_КлючевыеКлиенты</content>
+  <content>Catalog.битКаналыПродаж</content>
+  <content>Catalog.бг_МаршрутыТорговыхПредставителей</content>
+  <content>Document.битЗагрузкаПриостановленныхЛицензийКонтрагентов</content>
+  <content>Catalog.бг_УдалитьТерриторииПунктовНазначения</content>
+  <content>Catalog.битПунктыНазначения</content>
+  <content>Catalog.битТерриторииПунктовНазначения</content>
+  <content>Document.битУстановкаСуммовыхСкидок</content>
+  <content>InformationRegister.бг_СоглашенияИДоговорыСКлиентамиПоВидамНоменклатуры</content>
+  <content>Catalog.бг_ВидыСопроводительныхДокументов</content>
+  <content>Report.бг_АнализИнтернетЗаказов</content>
+  <content>Enum.бг_ВидыОшибокЗагрузкиАлкогольнойЛицензииПоставщиков</content>
+  <content>Report.бг_РасхожденияДанныхSAPиHybrisПоИнтернетЗаказам</content>
+  <content>InformationRegister.бг_КонтрагентыРозницы</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

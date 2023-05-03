@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9eff8f8-a835-45f7-8da9-86b69e776f92">
+  <producedTypes>
+    <selectionType typeId="a613f2cb-7aa2-43ea-b4de-65f8eb5a1080" valueTypeId="af672f63-c87c-4ae7-a296-547e6d86bd80"/>
+    <listType typeId="a4a2e7fe-00b5-4d97-9834-cc80782d86b1" valueTypeId="30e0c883-cd1e-4fd3-b8c6-2288ace360d6"/>
+    <managerType typeId="207fc4c9-141d-45ea-8d5b-390857ee9842" valueTypeId="77599960-6cba-46ae-94b9-f37404bad34d"/>
+    <recordSetType typeId="912183ca-8b65-470b-83fd-b0091e9e2a41" valueTypeId="bb10f2cd-7827-40e5-bfd1-e0388ea95e76"/>
+    <recordKeyType typeId="139150fb-7476-4cc0-806f-d3095bb38ead" valueTypeId="34090865-03c3-48d0-96ad-8b2d807f1d71"/>
+    <recordType typeId="03d10b48-939b-4f09-81fd-d7740c69ed27" valueTypeId="8bc6d630-9545-4d17-9fc3-b5ac32c00b52"/>
+    <recordManagerType typeId="be626391-3988-45f5-8100-555fd7e8eb35" valueTypeId="079a03fb-14e8-4ead-80ee-c16163bbb55e"/>
+  </producedTypes>
+  <name>бг_ДопустимыеОтклоненияЦенEDI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Допустимые отклонения цен EDI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0898e44a-ca0e-4546-a178-73e3dfef6ad0">
+    <name>Отклонение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="00855904-b939-407d-a234-2c6ff4efcf0d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8454617c-badc-4470-886e-188d88c441a6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

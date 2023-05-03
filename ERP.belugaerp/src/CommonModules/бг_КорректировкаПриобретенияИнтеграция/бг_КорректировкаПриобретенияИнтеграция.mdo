@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b02a8de3-c66d-4710-a5a9-a5bc5b4650a1">
+  <name>бг_КорректировкаПриобретенияИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка приобретения (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

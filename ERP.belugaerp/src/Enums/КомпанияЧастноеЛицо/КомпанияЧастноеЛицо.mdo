@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7f5bb1ca-7826-4aef-abe5-912e85c15be4">
+  <producedTypes>
+    <refType typeId="2565daab-46d0-4a2e-a229-015d2c7f9fe6" valueTypeId="7140d887-62b4-4cf1-ac34-402171d59a31"/>
+    <listType typeId="1fe05958-417c-4d93-9ae9-8af3957ae7fe" valueTypeId="d31bb645-b9fb-44e2-a079-512a7fac74cb"/>
+    <managerType typeId="ee4e91e3-983e-4d9c-bd27-0ec7f4d57b40" valueTypeId="d88d29ff-0d2e-4f7f-8042-9f2db17ff5c0"/>
+  </producedTypes>
+  <name>КомпанияЧастноеЛицо</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="0c8dbf1c-964e-48f7-a065-c9d201666cb0">
+    <name>Компания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5d28990a-0f04-4365-8705-eb10b5a8e1df">
+    <name>ЧастноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

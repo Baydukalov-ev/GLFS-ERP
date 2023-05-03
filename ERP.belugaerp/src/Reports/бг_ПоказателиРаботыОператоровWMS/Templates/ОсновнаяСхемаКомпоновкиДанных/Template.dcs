@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанныхЗапрос</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОперации</dataPath>
+			<field>ВидОперации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид операции</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПунктРазгрузки</dataPath>
+			<field>ПунктРазгрузки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Оператор</dataPath>
+			<field>Оператор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПаллетОтсканировано</dataPath>
+			<field>КоличествоПаллетОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяВыполнения</dataPath>
+			<field>ВремяВыполнения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоТоваровОтсканировано</dataPath>
+			<field>КоличествоТоваровОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛПаллетОтсканировано</dataPath>
+			<field>ОбъемДАЛПаллетОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛОтсканировано</dataPath>
+			<field>ОбъемДАЛОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛСпиртОтсканировано</dataPath>
+			<field>ОбъемДАЛСпиртОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛМарокОтсканировано</dataPath>
+			<field>ОбъемДАЛМарокОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛКоробокОтсканировано</dataPath>
+			<field>ОбъемДАЛКоробокОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПолученияОтветаОтТСД</dataPath>
+			<field>ДатаПолученияОтветаОтТСД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоМарокОтсканировано</dataPath>
+			<field>КоличествоМарокОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоКоробокОтсканировано</dataPath>
+			<field>КоличествоКоробокОтсканировано</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВыгрузкиРаспоряженияТСД</dataPath>
+			<field>ДатаВыгрузкиРаспоряженияТСД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Распоряжение</dataPath>
+			<field>Распоряжение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КаналПродаж</dataPath>
+			<field>КаналПродаж</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Территория</dataPath>
+			<field>Территория</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоТоваровРаспоряжение</dataPath>
+			<field>КоличествоТоваровРаспоряжение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаТоваровРаспоряжение</dataPath>
+			<field>СуммаТоваровРаспоряжение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПозицийОтсканировано</dataPath>
+			<field>КоличествоПозицийОтсканировано</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	бг_ПоказателиРаботыОператоровWMS.Период КАК Период,
+	бг_ПоказателиРаботыОператоровWMS.Регистратор КАК Регистратор,
+	ВЫБОР
+		КОГДА бг_ПоказателиРаботыОператоровWMS.Регистратор ССЫЛКА Документ.битОтражениеФактаПоПриходномуОрдеру
+			ТОГДА "Приемка"
+		КОГДА бг_ПоказателиРаботыОператоровWMS.Регистратор ССЫЛКА Документ.битОтражениеФактаПоРасходномуОрдеру
+			ТОГДА "Отгрузка"
+		КОГДА бг_ПоказателиРаботыОператоровWMS.Регистратор ССЫЛКА Документ.битПереупаковка
+			ТОГДА "Переупаковка"
+		ИНАЧЕ ""
+	КОНЕЦ КАК ВидОперации,
+	бг_ПоказателиРаботыОператоровWMS.Оператор КАК Оператор,
+	бг_ПоказателиРаботыОператоровWMS.Оператор.ФизическоеЛицо КАК ФизическоеЛицо,
+	бг_ПоказателиРаботыОператоровWMS.Организация КАК Организация,
+	бг_ПоказателиРаботыОператоровWMS.ПунктРазгрузки КАК ПунктРазгрузки,
+	ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1), СЕКУНДА, бг_ПоказателиРаботыОператоровWMS.ВремяВыполнения) КАК ВремяВыполнения,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоТоваровРаспоряжение КАК КоличествоТоваровРаспоряжение,
+	бг_ПоказателиРаботыОператоровWMS.СуммаТоваровРаспоряжение КАК СуммаТоваровРаспоряжение,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоПозицийОтсканировано КАК КоличествоПозицийОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоТоваровОтсканировано КАК КоличествоТоваровОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.ОбъемДАЛОтсканировано КАК ОбъемДАЛОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.ОбъемДАЛСпиртОтсканировано КАК ОбъемДАЛСпиртОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.ОбъемДАЛМарокОтсканировано КАК ОбъемДАЛМарокОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.ОбъемДАЛКоробокОтсканировано КАК ОбъемДАЛКоробокОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.ОбъемДАЛПаллетОтсканировано КАК ОбъемДАЛПаллетОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоМарокОтсканировано КАК КоличествоМарокОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоКоробокОтсканировано КАК КоличествоКоробокОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.КоличествоПаллетОтсканировано КАК КоличествоПаллетОтсканировано,
+	бг_ПоказателиРаботыОператоровWMS.Распоряжение КАК Распоряжение,
+	бг_ПоказателиРаботыОператоровWMS.КаналПродаж КАК КаналПродаж,
+	бг_ПоказателиРаботыОператоровWMS.Территория КАК Территория,
+	бг_ПоказателиРаботыОператоровWMS.ДатаПолученияОтветаОтТСД КАК ДатаПолученияОтветаОтТСД,
+	бг_ПоказателиРаботыОператоровWMS.ДатаВыгрузкиРаспоряженияТСД КАК ДатаВыгрузкиРаспоряженияТСД
+ИЗ
+	РегистрНакопления.бг_ПоказателиРаботыОператоровWMS КАК бг_ПоказателиРаботыОператоровWMS
+ГДЕ
+	бг_ПоказателиРаботыОператоровWMS.Активность
+	И бг_ПоказателиРаботыОператоровWMS.Период МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоКоробокОтсканировано</dataPath>
+		<expression>Сумма(КоличествоКоробокОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоМарокОтсканировано</dataPath>
+		<expression>Сумма(КоличествоМарокОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПаллетОтсканировано</dataPath>
+		<expression>Сумма(КоличествоПаллетОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоТоваровОтсканировано</dataPath>
+		<expression>Сумма(КоличествоТоваровОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоТоваровРаспоряжение</dataPath>
+		<expression>Сумма(КоличествоТоваровРаспоряжение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДАЛКоробокОтсканировано</dataPath>
+		<expression>Сумма(ОбъемДАЛКоробокОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДАЛМарокОтсканировано</dataPath>
+		<expression>Сумма(ОбъемДАЛМарокОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДАЛОтсканировано</dataPath>
+		<expression>Сумма(ОбъемДАЛОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДАЛПаллетОтсканировано</dataPath>
+		<expression>Сумма(ОбъемДАЛПаллетОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДАЛСпиртОтсканировано</dataPath>
+		<expression>Сумма(ОбъемДАЛСпиртОтсканировано)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаТоваровРаспоряжение</dataPath>
+		<expression>Сумма(СуммаТоваровРаспоряжение)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПозицийОтсканировано</dataPath>
+		<expression>Сумма(КоличествоПозицийОтсканировано)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ПоказателиРаботыОператоровWMS</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показатели работы операторов WMS</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПунктРазгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Оператор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизическоеЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидОперации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Период</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Распоряжение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Регистратор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаВыгрузкиРаспоряженияТСД</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПолученияОтветаОтТСД</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КаналПродаж</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Территория</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяВыполнения</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время выполнения</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распоряжение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КоличествоТоваровРаспоряжение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество товаров</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СуммаТоваровРаспоряжение</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сумма товаров</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отсканировано</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Объем ДАЛ</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъемДАЛОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Всего</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъемДАЛСпиртОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Спирта</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъемДАЛМарокОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Марок</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъемДАЛКоробокОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Коробок</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>ОбъемДАЛПаллетОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Паллет</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Количество</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоПозицийОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Позиций</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоТоваровОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Товаров</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоМарокОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Марок</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоКоробокОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Коробок</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>КоличествоПаллетОтсканировано</dcsset:field>
+							<dcsset:lwsTitle>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Паллет</v8:content>
+								</v8:item>
+							</dcsset:lwsTitle>
+						</dcsset:item>
+						<dcsset:placement>Auto</dcsset:placement>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Today</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>622254be-0612-4a21-9fce-feff3601b9cb</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Период</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ОбъемДАЛКоробокОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОбъемДАЛМарокОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОбъемДАЛОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОбъемДАЛПаллетОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ОбъемДАЛСпиртОтсканировано</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=3</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>КоличествоКоробокОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоМарокОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоПаллетОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоТоваровОтсканировано</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоТоваровРаспоряжение</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=0</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ВремяВыполнения</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДЛФ=T</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

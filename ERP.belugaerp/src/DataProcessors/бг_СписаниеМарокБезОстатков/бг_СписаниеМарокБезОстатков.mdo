@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44a69f9f-82c7-4a1a-8797-1aca348653dd">
+  <producedTypes>
+    <objectType typeId="eb527c05-ce3a-4447-b5fb-ae20946ff863" valueTypeId="14fdf6f6-c69f-4920-85d0-891b5863f030"/>
+    <managerType typeId="1b153053-7f28-4c53-a97a-bbd0f65670db" valueTypeId="a7481ccd-4393-41bb-a5f7-036d84e558f5"/>
+  </producedTypes>
+  <name>бг_СписаниеМарокБезОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списание марок без остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_СписаниеМарокБезОстатков.Form.Форма</defaultForm>
+  <tabularSections uuid="2dc7e340-2de4-49ae-b68e-fe03c5e12e27">
+    <producedTypes>
+      <objectType typeId="b45655b9-a354-4ef8-99d2-97bbc37975a1" valueTypeId="39341023-34f2-4f13-87ac-2c19f06dbcb9"/>
+      <rowType typeId="104d724e-6416-4c3a-a492-2718cf3ecf52" valueTypeId="a8d4f402-ba5e-4178-9e1a-b8bedfafeb4a"/>
+    </producedTypes>
+    <name>СтатусыМарок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статусы марок</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fdaa7d36-fdac-4f4d-aae5-20f5df735b4c">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="21e3a003-97bd-4a89-bf03-391186bbf1ba">
+      <name>СтатусМарки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус марки</value>
+      </synonym>
+      <type>
+        <types>EnumRef.бг_СтатусыАкцизныхМарок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f4004d93-9990-4956-b468-f23a24a90af0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

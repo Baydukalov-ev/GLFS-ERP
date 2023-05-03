@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ce2dc5-16fa-4228-800a-871e1f8e05d6">
+  <name>бг_КлассификаторОрганизацийЕГАИСИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор организаций ЕГАИС (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

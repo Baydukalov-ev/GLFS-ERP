@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаршрутныйЛист</dataPath>
+			<field>МаршрутныйЛист</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрутный лист</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПрибытияФакт</dataPath>
+			<field>ДатаПрибытияФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата прибытия факт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КачествоМаршрута</dataPath>
+			<field>КачествоМаршрута</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Качество маршрута</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0; ЧФ='Ч %'</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлассГрузоподъемности</dataPath>
+			<field>КлассГрузоподъемности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тоннаж а/м</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКузова</dataPath>
+			<field>ТипКузова</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип кузова</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автомобиль</dataPath>
+			<field>Автомобиль</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автомобиль</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Перевозчик</dataPath>
+			<field>Перевозчик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перевозчик</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель</dataPath>
+			<field>Водитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Водитель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вес</dataPath>
+			<field>Вес</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вес</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоляРасходов</dataPath>
+			<field>ДоляРасходов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доля расходов</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2; ЧФ='Ч %'</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	битМаршрутныйЛист.Ссылка КАК МаршрутныйЛист,
+	МАКСИМУМ(ЕСТЬNULL(Рейсы.ДатаПрибытияФакт, ДАТАВРЕМЯ(1, 1, 1))) КАК ДатаПрибытияФакт,
+	СУММА(битМаршрутныйЛистРасходы.Сумма) КАК СуммаРасходы
+ПОМЕСТИТЬ втМаршрутныеЛисты
+ИЗ
+	Документ.битМаршрутныйЛист КАК битМаршрутныйЛист
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист КАК Рейсы
+		ПО (Рейсы.ДокументОснование = битМаршрутныйЛист.Ссылка)
+			И (Рейсы.Проведен)
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Расходы КАК битМаршрутныйЛистРасходы
+		ПО (битМаршрутныйЛистРасходы.Ссылка = битМаршрутныйЛист.Ссылка)
+ГДЕ
+	битМаршрутныйЛист.Дата МЕЖДУ &amp;Дата1 И &amp;Дата2
+	И битМаршрутныйЛист.Проведен
+	И битМаршрутныйЛист.ВидДокумента = ЗНАЧЕНИЕ(Перечисление.бг_ВидыМаршрутныхЛистов.МаршрутныйЛист)
+
+СГРУППИРОВАТЬ ПО
+	битМаршрутныйЛист.Ссылка
+
+ИНДЕКСИРОВАТЬ ПО
+	МаршрутныйЛист
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МаршрутныйЛистЗаказы.Ссылка КАК МаршрутныйЛист,
+	МаршрутныйЛистЗаказы.Заказ КАК Заказ,
+	ВЫБОР
+		КОГДА МаршрутныйЛистЗаказы.Заказ ССЫЛКА Документ.ЗаказКлиента
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказКлиента).бг_ОбъемДАЛ
+		ИНАЧЕ 0
+	КОНЕЦ КАК ОбъемДал,
+	ВЫБОР
+		КОГДА МаршрутныйЛистЗаказы.Заказ ССЫЛКА Документ.ЗаказКлиента
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказКлиента).бг_ВесБрутто
+		ИНАЧЕ 0
+	КОНЕЦ КАК Вес,
+	ВЫБОР
+		КОГДА МаршрутныйЛистЗаказы.Заказ ССЫЛКА Документ.ЗаказКлиента
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказКлиента).СуммаДокумента
+		КОГДА МаршрутныйЛистЗаказы.Заказ ССЫЛКА Документ.ЗаказПоставщику
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказПоставщику).СуммаДокумента
+		ИНАЧЕ 0
+	КОНЕЦ КАК СуммаДокумента,
+	ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Ссылка.Склад КАК Справочник.Склады).бг_ПунктНазначения КАК ПунктПогрузки,
+	ВЫБОР
+		КОГДА НЕ МаршрутныйЛистЗаказы.ПунктНазначения = ЗНАЧЕНИЕ(Справочник.битПунктыНазначения.ПустаяСсылка)
+			ТОГДА МаршрутныйЛистЗаказы.ПунктНазначения
+		КОГДА ТИПЗНАЧЕНИЯ(МаршрутныйЛистЗаказы.Заказ) = ТИП(Документ.ЗаказКлиента)
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказКлиента).бг_ПунктНазначения
+		КОГДА ТИПЗНАЧЕНИЯ(МаршрутныйЛистЗаказы.Заказ) = ТИП(Документ.ЗаказНаПеремещение)
+			ТОГДА ВЫРАЗИТЬ(МаршрутныйЛистЗаказы.Заказ КАК Документ.ЗаказНаПеремещение).СкладПолучатель.бг_ПунктНазначения
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК ПунктВыгрузки
+ПОМЕСТИТЬ втДанныеЗаказов
+ИЗ
+	Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказы
+ГДЕ
+	МаршрутныйЛистЗаказы.Ссылка В
+			(ВЫБРАТЬ
+				втМаршрутныеЛисты.МаршрутныйЛист
+			ИЗ
+				втМаршрутныеЛисты)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втДанныеЗаказов.МаршрутныйЛист КАК МаршрутныйЛист,
+	МАКСИМУМ(ЕСТЬNULL(втДанныеЗаказов.МаршрутныйЛист.КлассГрузоподъемности.ВместимостьНормативнаяДАЛ, 0)) КАК ВместимостьДал,
+	СУММА(втДанныеЗаказов.ОбъемДал) КАК ОбъемДал,
+	СУММА(втДанныеЗаказов.Вес) КАК Вес,
+	СУММА(втДанныеЗаказов.СуммаДокумента) КАК СуммаДокумента,
+	СУММА(втДанныеЗаказов.ОбъемДал * ЕСТЬNULL(РасстояниеДоПунктовРазгрузки.Расстояние, 0) / 1000) КАК ДалКм,
+	МАКСИМУМ(ЕСТЬNULL(РасстояниеДоПунктовРазгрузки.Расстояние, 0) / 1000) КАК Расстояние
+ПОМЕСТИТЬ втДанныеДляРасчета
+ИЗ
+	втДанныеЗаказов КАК втДанныеЗаказов
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_РасстояниеДоПунктовРазгрузки КАК РасстояниеДоПунктовРазгрузки
+		ПО втДанныеЗаказов.ПунктПогрузки = РасстояниеДоПунктовРазгрузки.ПунктРазгрузкиОрганизации
+			И втДанныеЗаказов.ПунктВыгрузки = РасстояниеДоПунктовРазгрузки.ПунктРазгрузки
+
+СГРУППИРОВАТЬ ПО
+	втДанныеЗаказов.МаршрутныйЛист
+
+ИНДЕКСИРОВАТЬ ПО
+	МаршрутныйЛист
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втМаршрутныеЛисты.МаршрутныйЛист КАК МаршрутныйЛист,
+	втМаршрутныеЛисты.ДатаПрибытияФакт КАК ДатаПрибытияФакт,
+	ЕСТЬNULL(втДанныеДляРасчета.Вес, 0) КАК Вес,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(втДанныеДляРасчета.ВместимостьДал, 0) = 0
+				ИЛИ ЕСТЬNULL(втДанныеДляРасчета.Расстояние, 0) = 0
+			ТОГДА 0
+		ИНАЧЕ втДанныеДляРасчета.ДалКм / (втДанныеДляРасчета.ВместимостьДал * втДанныеДляРасчета.Расстояние) * 100
+	КОНЕЦ КАК КачествоМаршрута,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(втДанныеДляРасчета.СуммаДокумента, 0) = 0
+			ТОГДА 0
+		ИНАЧЕ втМаршрутныеЛисты.СуммаРасходы / втДанныеДляРасчета.СуммаДокумента * 100
+	КОНЕЦ КАК ДоляРасходов,
+	втМаршрутныеЛисты.МаршрутныйЛист.Ответственный КАК Ответственный,
+	втМаршрутныеЛисты.МаршрутныйЛист.КлассГрузоподъемности КАК КлассГрузоподъемности,
+	втМаршрутныеЛисты.МаршрутныйЛист.ТипКузова КАК ТипКузова,
+	втМаршрутныеЛисты.МаршрутныйЛист.Автомобиль КАК Автомобиль,
+	втМаршрутныеЛисты.МаршрутныйЛист.Перевозчик КАК Перевозчик,
+	втМаршрутныеЛисты.МаршрутныйЛист.Водитель КАК Водитель
+ИЗ
+	втМаршрутныеЛисты КАК втМаршрутныеЛисты
+		ЛЕВОЕ СОЕДИНЕНИЕ втДанныеДляРасчета КАК втДанныеДляРасчета
+		ПО втМаршрутныеЛисты.МаршрутныйЛист = втДанныеДляРасчета.МаршрутныйЛист</query>
+	</dataSet>
+	<parameter>
+		<name>Дата1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>Дата2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по маршрутным листам</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаршрутныйЛист</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПрибытияФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлассГрузоподъемности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипКузова</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автомобиль</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Перевозчик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Вес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КачествоМаршрута</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоляРасходов</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">МаршрутныйЛист.Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>ba71abe0-7db9-455c-bf83-954bf2c0da94</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>128efec9-556d-4d8b-8c6a-5afcc295730d</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по маршрутным листам</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

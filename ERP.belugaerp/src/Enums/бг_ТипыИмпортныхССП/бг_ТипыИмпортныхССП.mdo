@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ee6bf99-e01b-4f20-815f-4236fb63682e">
+  <producedTypes>
+    <refType typeId="ea446c70-fb98-425c-9554-64e1a9d0bc26" valueTypeId="8cc5e4f2-b356-4509-88ba-a4893d0149cc"/>
+    <listType typeId="3d194a1c-cbe4-422b-a742-285b0f309785" valueTypeId="2d11f429-ada8-4c35-a1ca-f2c184b233e2"/>
+    <managerType typeId="1687c75c-b4e7-4223-b849-b7a38d983a82" valueTypeId="8a87da77-e9b4-401b-8f49-55e2d39723bd"/>
+  </producedTypes>
+  <name>бг_ТипыИмпортныхССП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы импортных ССП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc698377-e95e-418e-8065-8252aa97b2f4">
+    <name>Дистиллят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дистиллят</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="521d8299-75c3-4661-84a5-935c07c0a156">
+    <name>Ароматизитор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ароматизитор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b5e2f74-c0b4-4216-94fc-54ed45c1a7f5">
+  <name>бг_РаботаСПриостановленнымиЛицензиями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с приостановленными лицензиями</value>
+  </synonym>
+</mdclass:Role>

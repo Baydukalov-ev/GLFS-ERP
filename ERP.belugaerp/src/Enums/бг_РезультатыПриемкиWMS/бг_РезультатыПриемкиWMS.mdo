@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c1b6ca5-0fa4-4763-99a7-95c2e5f3d2d8">
+  <producedTypes>
+    <refType typeId="c19e9330-138d-4c2c-a8de-8f66db93c1ec" valueTypeId="eac205d7-8cd1-4fd3-8b52-58fdda4c403a"/>
+    <listType typeId="e4c0cc76-93c7-464c-b8b7-98e507fe872e" valueTypeId="807f1dae-64d2-4cb4-8067-daa8087d7da7"/>
+    <managerType typeId="9f6b08df-8851-49af-803a-59c0c6af5a31" valueTypeId="22fbab10-ed10-4dfd-953e-982dbb6db9fa"/>
+  </producedTypes>
+  <name>бг_РезультатыПриемкиWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты приемки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79cbe6ea-2976-4ff5-9efe-3f934e065858">
+    <name>ПолноеСоответствиеПлану</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное соответствие плану</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3397946-3e0d-496c-90a4-8888ac7d7af5">
+    <name>ЕстьРасхожденияОтПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть расхождения от плана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57029f03-e461-425b-a142-37922803ce85">
+    <name>ПриемкаОтменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

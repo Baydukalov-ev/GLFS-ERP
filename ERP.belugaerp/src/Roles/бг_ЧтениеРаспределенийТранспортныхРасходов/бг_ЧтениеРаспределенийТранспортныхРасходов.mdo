@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fe17981-0bdb-479e-8d95-0e7fc2ab41e3">
+  <name>бг_ЧтениеРаспределенийТранспортныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение распределений транспортных расходов</value>
+  </synonym>
+</mdclass:Role>

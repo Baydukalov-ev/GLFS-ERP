@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a41cf03-fa91-4a64-aae6-64e1d32aca50">
+  <name>бг_ИспользованиеОтчетаАнализСписываемыхМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета анализ списываемых марок</value>
+  </synonym>
+</mdclass:Role>

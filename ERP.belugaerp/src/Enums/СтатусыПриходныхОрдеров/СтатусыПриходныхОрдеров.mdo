@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0e80885-6513-4c77-860d-f71d144e1b0d">
+  <producedTypes>
+    <refType typeId="95b6da05-10d3-4b60-a75e-83ff007bbb05" valueTypeId="74d13cb2-754f-47d2-9e0b-4d63b2e3bb68"/>
+    <listType typeId="5524c8f8-3d5a-4e09-a3d6-96a8cc73f0eb" valueTypeId="619b809a-188f-445f-9fd3-b023771c599c"/>
+    <managerType typeId="98ec5264-7384-405b-9cd3-1b654c0bbb96" valueTypeId="3594ea7a-6de5-4665-8dae-e40b334197a3"/>
+  </producedTypes>
+  <name>СтатусыПриходныхОрдеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="504f2f1a-658f-4602-b8b1-c55b7079b0a6">
+    <name>Принят</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ed98c02c-2b04-43e9-a0db-dea66f0543b3">
+    <name>ТребуетсяОбработка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b6094c3c-cc49-4640-b28d-22ef1b2c8c81">
+  <name>ИспользоватьХарактеристикиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+    <content>Extended</content>
+  </extension>
+  <location>Constant.ИспользоватьХарактеристикиНоменклатуры</location>
+  <content>Document.ЗаказПереработчику.TabularSection.Услуги.Attribute.Характеристика</content>
+</mdclass:FunctionalOption>

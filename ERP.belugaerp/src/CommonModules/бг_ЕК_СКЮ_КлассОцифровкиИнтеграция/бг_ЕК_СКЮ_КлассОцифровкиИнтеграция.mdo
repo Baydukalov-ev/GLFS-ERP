@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1982561f-94d6-4167-ac76-48cf2538843b">
+  <name>бг_ЕК_СКЮ_КлассОцифровкиИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класс оцифровки (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

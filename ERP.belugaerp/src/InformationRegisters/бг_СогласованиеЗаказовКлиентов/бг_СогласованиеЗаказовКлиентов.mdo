@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f7e8280-fc8f-434a-a0b8-f95d31c3ba35">
+  <producedTypes>
+    <selectionType typeId="40d474bc-fb4f-45fc-b2cc-d23e8f98cef8" valueTypeId="88fde519-5153-40ec-a232-710d4211e6ce"/>
+    <listType typeId="55996a0e-7acd-45e1-8f9b-dab2702fa828" valueTypeId="bd2add25-214c-45be-8462-532250fb38dd"/>
+    <managerType typeId="bbf66aec-20e9-4e05-be27-5013073357bb" valueTypeId="92823d58-42a8-4693-a31e-b1c85d89992e"/>
+    <recordSetType typeId="26033d66-cfdb-4668-98f7-44b488f230d2" valueTypeId="ce5be316-9996-488c-abc5-00bc245479a2"/>
+    <recordKeyType typeId="01f55667-3732-4abc-98e3-0e1ba26e5540" valueTypeId="2695e245-0550-4968-813c-81a7f71378bb"/>
+    <recordType typeId="8205c04b-6865-4e1c-b0b8-4fed32ad6c6a" valueTypeId="38dc4e48-041f-4a81-8cf1-0e6b2a4541ae"/>
+    <recordManagerType typeId="f1ea0ae8-8ebc-4693-b88f-81b2a23a4419" valueTypeId="dce168ba-f7f9-498b-83f9-53146cac7d1c"/>
+  </producedTypes>
+  <name>бг_СогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказов клиентов</value>
+  </synonym>
+  <dataHistory>Use</dataHistory>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a0a0dab8-ef59-483d-90fe-a47aa8902b63">
+    <name>ДатаПередачиВСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи в сборку</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f8b28e24-eb58-49a3-bf2b-5d4810f82c8b">
+    <name>ДатаСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3638be36-f3d9-484b-8e0d-2aaf2636d19d">
+    <name>ДатаСогласованияКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования кредитным контролером</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </resources>
+  <resources uuid="07b36df1-e27b-40e9-913a-e553eabab242">
+    <name>ДатаСогласованияСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования службой безопасности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </resources>
+  <resources uuid="9624431c-2d8b-41ed-9d63-12bf31b605b4">
+    <name>ДатаСогласованияФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата согласования финансовым контролером</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+  </resources>
+  <resources uuid="da4d3fa8-f230-427d-86e7-5de710cefc40">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="53702bea-b575-409f-8315-3429cd824af4">
+    <name>ПроцентВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент выполнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="87c1dfa4-e98f-44c3-99bd-ae0d4367aa19">
+    <name>РезультатСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат согласования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_РезультатыСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12e49311-8124-40a2-b9c8-99a4a2080f8c">
+    <name>РезультатСогласованияКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат согласования КК</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_РезультатыСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d03578c3-10c5-4d07-b815-535a5de9cf6f">
+    <name>РезультатСогласованияСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат согласования СБ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_РезультатыСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f38ec219-b947-493e-bd0d-bb36feea42e4">
+    <name>РезультатСогласованияФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат согласования финансовым контролером</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_РезультатыСогласования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2316d1d9-bfa3-4368-86e2-ffe0687e07c1">
+    <name>КомментарийФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий финансовый контролер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="99a6fe1b-ced0-4b55-90ee-7fadae308af8">
+    <name>КомментарийКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий кредитный контролер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="aa7c1851-d993-46b9-9d87-b035dd8d6199">
+    <name>КомментарийСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий служба безопасности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="163baf68-72f1-4152-b372-f5400eb15d6f">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="49e11bf4-1375-4a8b-ad30-48126c1d033b">
+    <name>СогласованиеЗаказовКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование заказов клиентов</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

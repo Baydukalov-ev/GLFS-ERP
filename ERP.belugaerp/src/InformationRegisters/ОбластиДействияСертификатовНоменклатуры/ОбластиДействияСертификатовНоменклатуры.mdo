@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60609aa5-975d-43cc-beb1-19a211201a82">
+  <producedTypes>
+    <selectionType typeId="180dab5a-f5ee-477d-831e-b5849b192088" valueTypeId="4736ab04-6b39-432b-87ac-76fe73d7c858"/>
+    <listType typeId="00c82649-5317-4693-a917-742a876ae939" valueTypeId="7765a32c-a537-489e-baf4-bb61ca98f490"/>
+    <managerType typeId="026d25a5-0314-459f-9472-2af11cd49e8d" valueTypeId="eb59e710-1d69-4cdd-8468-69211f79badd"/>
+    <recordSetType typeId="dfe76141-02a1-4533-bc21-d3504fb95cdb" valueTypeId="611a89a0-a406-4872-a583-d9005ab51c11"/>
+    <recordKeyType typeId="238ad55b-e7d8-4c98-b8b3-ef9518588446" valueTypeId="8e7aa275-9725-49c1-a22e-d3c80082dd2f"/>
+    <recordType typeId="32f81b0e-5b09-4c51-adb6-0d46966e413b" valueTypeId="aa66356e-34eb-402d-8c43-39d6a771badb"/>
+    <recordManagerType typeId="6f5c1128-4792-48d9-b7bc-7ad4289701a8" valueTypeId="8b519fd8-e028-40ad-85f4-ddc1bf715210"/>
+  </producedTypes>
+  <name>ОбластиДействияСертификатовНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="7f7e054c-8edb-4a3b-babd-ab250528d01a">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="b8be7492-27de-4b53-af28-7be530cb043c">
+    <name>СертификатНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СертификатыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="b5e02ee0-2c83-4da7-8866-0122e3f2971e">
+    <name>Серия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СерииНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

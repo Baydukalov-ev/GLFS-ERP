@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cdbc0f9-3bc9-47c6-8a42-b040ac7f1691">
+  <name>бг_ИспользованиеОтчетаКонтрольРаспределенияТранспортныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета контроль распределения транспортных расходов</value>
+  </synonym>
+</mdclass:Role>

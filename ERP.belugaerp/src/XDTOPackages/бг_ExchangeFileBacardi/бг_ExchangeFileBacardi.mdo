@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e01fe687-3314-454b-85b5-03aa4de66931">
+  <name>бг_ExchangeFileBacardi</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange file bacardi</value>
+  </synonym>
+  <namespace>DESADV</namespace>
+</mdclass:XDTOPackage>

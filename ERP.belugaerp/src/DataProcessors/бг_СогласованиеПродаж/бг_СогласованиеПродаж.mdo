@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1777f0bf-0bcd-406f-b5ba-d6e86529c9c6">
+  <producedTypes>
+    <objectType typeId="b5d7f9c8-cd93-4b99-9b4d-150749d25beb" valueTypeId="8493a8dc-ca50-403e-a7e1-72b1fc9f98af"/>
+    <managerType typeId="495334f5-e034-4234-8b0c-af52d7c660ef" valueTypeId="e6c2c55f-81e4-4cd4-a4cc-4aad000b14f0"/>
+  </producedTypes>
+  <name>бг_СогласованиеПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование продаж</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_СогласованиеПродаж.Form.Форма</defaultForm>
+  <forms uuid="b644c73d-44e0-4cfe-a385-fb3b2327a704">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66f53415-00d2-4ca4-a592-0cd8e4162850">
+    <name>ФормаОтчетСогласованияСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчет согласования СБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b069172f-bfba-44ca-be0a-3ac9bf248b99">
+    <name>МакетОтчетаДляСогласованияСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета для согласования СБ</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

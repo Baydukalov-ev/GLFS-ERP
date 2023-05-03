@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd944ca5-f486-4cd9-ac8d-9ede3f152a33">
+  <producedTypes>
+    <objectType typeId="e2775412-6bea-444b-a956-ecab36def081" valueTypeId="d98ab15d-7fb2-4c3e-bed9-f611253d5e3e"/>
+    <managerType typeId="04f00134-70b9-4dd0-a0e4-e9d0ae66aa7d" valueTypeId="e64ab10d-f8ec-4e2c-9758-f619ef97f35b"/>
+  </producedTypes>
+  <name>бг_ИсторияСтатусовСопроводительныхДокументовРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>История статусов сопроводительных документов рейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ИсторияСтатусовСопроводительныхДокументовРейсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0ed8e42a-c1ef-4d29-ae8d-d9df9ce05ba4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

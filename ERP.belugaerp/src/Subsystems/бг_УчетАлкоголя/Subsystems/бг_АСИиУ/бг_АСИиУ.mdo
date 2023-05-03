@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="263c2966-6509-46de-9339-bacbdcf68f8a">
+  <name>бг_АСИиУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АСИиУ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.бг_РежимыРаботыПрибораАСИиУ</content>
+  <content>Catalog.бг_ПриборыАСИиУ</content>
+  <content>Catalog.битДанныеПриборовАСИиУПрисоединенныеФайлы</content>
+  <content>Document.битДанныеПриборовАСИиУ</content>
+  <content>InformationRegister.бг_ПоказанияПриборовАСИиУ</content>
+  <content>CommonModule.бг_ЗагрузкаДанныхИзФайлов</content>
+  <content>Report.бг_СравнениеПоказанийАСИиУСПроизводством</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

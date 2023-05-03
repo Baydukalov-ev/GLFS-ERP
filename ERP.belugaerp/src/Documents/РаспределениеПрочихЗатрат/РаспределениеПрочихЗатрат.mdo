@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="72919ca5-b40d-4676-94c2-be9cbfb37b26">
+  <producedTypes>
+    <objectType typeId="593fb384-be56-4bdc-b9a6-87b8ada7a73b" valueTypeId="0721328f-9674-4283-bb9d-17282f2348ed"/>
+    <refType typeId="db5cb4e9-3009-429d-a7d8-e2de5108874c" valueTypeId="f3fa50ff-80df-42c8-8a77-21ae54cfa3d1"/>
+    <selectionType typeId="1170a3b3-b97e-407f-ad33-e4baefa417fa" valueTypeId="f408c388-6a9f-4382-b2ce-80956c873236"/>
+    <listType typeId="da012373-7560-42f9-8e48-c0c42c16d5c6" valueTypeId="d1c95150-8d3a-4cf8-b261-4463b65268e3"/>
+    <managerType typeId="ae77af63-e281-4596-a05e-34091b8c3633" valueTypeId="9e47cb72-4bca-420a-9819-596560001cb6"/>
+  </producedTypes>
+  <name>РаспределениеПрочихЗатрат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="7be8eb4f-d862-49e3-bd38-aed67d4c23e4">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b07c6029-58ae-4cd2-9cb1-05e7232425a7">
+    <name>СтатьяРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="18975669-62ab-4a8c-8d53-a0998ac728c8">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c95f15d6-e57a-490d-823d-4d991fea6734">
+    <name>БазаРаспределенияПоПартиям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыБазыРаспределенияРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="22fa8529-201a-443c-a0d5-dac05f71d41c">
+    <name>ФормаРабочееМесто</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

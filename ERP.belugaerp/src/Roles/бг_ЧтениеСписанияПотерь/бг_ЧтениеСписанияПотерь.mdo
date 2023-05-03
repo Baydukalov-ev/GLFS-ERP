@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6154a18-c387-4f81-a61c-50f65e9eaded">
+  <name>бг_ЧтениеСписанияПотерь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение списания потерь</value>
+  </synonym>
+</mdclass:Role>

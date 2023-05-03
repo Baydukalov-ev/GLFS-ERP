@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1dda4c9d-87aa-41cd-9e35-394d3c68e93b">
+  <producedTypes>
+    <objectType typeId="7e550f42-faff-433a-91b0-2ac1bdb5fde4" valueTypeId="7603ce41-d2cc-424a-a00b-c109c191d074"/>
+    <refType typeId="f991a4cf-d82f-44ba-bf2c-08a83cda39a7" valueTypeId="74297818-37b2-46e8-aba6-d6325963659a"/>
+    <selectionType typeId="25e96ed6-80d0-4ccf-90e0-f433ee67c14d" valueTypeId="bccdf023-9219-4e80-ac78-596499cc22ac"/>
+    <listType typeId="0802a108-0049-4017-a80b-bb6dd5329b9d" valueTypeId="bd59e36a-88c3-4ffb-b509-d35eccb976f4"/>
+    <managerType typeId="6291b931-a493-49df-8497-8cfe5b0d2309" valueTypeId="67dde007-fddd-44e7-a73d-44f7a48251be"/>
+  </producedTypes>
+  <name>ВозвратИзРегистра2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="06164ed4-b7f0-4f88-b27b-f83478910274">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

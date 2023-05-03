@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eab95b1a-8277-4083-b53e-e9096d378ac2">
+  <producedTypes>
+    <objectType typeId="64e3e4ba-b03f-4def-b741-cbbafd140965" valueTypeId="a2a435e4-eb9c-429e-9020-81e51a446330"/>
+    <refType typeId="dc2ac953-a57c-4b80-b862-9f41bbe26896" valueTypeId="7e06630b-5bd8-40b5-978e-c3d0208597c8"/>
+    <selectionType typeId="d472f65e-2d73-4388-b78f-62f253bc12b3" valueTypeId="e6e5e4ab-4991-42ac-8afa-b647392984ba"/>
+    <listType typeId="6339efc8-c3eb-468f-9c0c-29e075fcfaa2" valueTypeId="5f187f87-594f-4aea-9b14-ef7eeef5278d"/>
+    <managerType typeId="404d3ba6-c664-48a5-ba71-8181bbae2dc7" valueTypeId="5095df6b-bd6e-47b5-bd8e-ec127c4fa177"/>
+  </producedTypes>
+  <name>ВыбытиеДенежныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

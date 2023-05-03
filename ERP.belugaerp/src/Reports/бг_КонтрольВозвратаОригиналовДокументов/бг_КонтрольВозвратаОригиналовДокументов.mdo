@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5503bb40-bbc7-44ad-a8ca-35dde1d5af06">
+  <producedTypes>
+    <objectType typeId="0fef90ac-c1b5-45fe-a934-160eb2a802a3" valueTypeId="684ba4a4-5ed5-46f5-8ad4-486660c914b3"/>
+    <managerType typeId="7b2a5ba7-3741-473f-989e-53f2126d685e" valueTypeId="e1b55469-3eda-480b-99fd-265f30e255ac"/>
+  </producedTypes>
+  <name>бг_КонтрольВозвратаОригиналовДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль возврата оригиналов документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_КонтрольВозвратаОригиналовДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6e7aa99e-9e35-4e42-8511-8d93919088d7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

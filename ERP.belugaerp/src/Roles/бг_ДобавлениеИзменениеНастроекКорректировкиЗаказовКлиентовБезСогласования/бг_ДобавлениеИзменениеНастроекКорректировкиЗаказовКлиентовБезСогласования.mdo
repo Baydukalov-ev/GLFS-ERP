@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aab35edb-bc0b-4051-880f-b55e5303d6f2">
+  <name>бг_ДобавлениеИзменениеНастроекКорректировкиЗаказовКлиентовБезСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение настроек корректировки заказов клиентов без согласования(Белуга)</value>
+  </synonym>
+</mdclass:Role>

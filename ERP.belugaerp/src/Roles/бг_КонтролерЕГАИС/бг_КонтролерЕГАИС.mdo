@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f7f0cd8-98f8-4b87-a4bd-c0bdb3fe81a4">
+  <name>бг_КонтролерЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролер ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

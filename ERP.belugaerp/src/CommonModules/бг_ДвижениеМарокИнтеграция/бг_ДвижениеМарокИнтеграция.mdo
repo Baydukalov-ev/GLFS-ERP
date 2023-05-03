@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="262899f3-b4ff-4139-80d2-0b7ddf18221e">
+  <name>бг_ДвижениеМарокИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение марок (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

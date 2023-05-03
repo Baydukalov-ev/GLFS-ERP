@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b8bb212c-6ac9-420d-9e09-aa401d0a945a">
+  <producedTypes>
+    <containerType typeId="ede13c5c-a0c3-4053-b3a9-3e1aac0b6443" valueTypeId="6c3c1ec0-cedc-4b9e-b189-5763d1000525"/>
+  </producedTypes>
+  <name>МестоВСтруктуреПредприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

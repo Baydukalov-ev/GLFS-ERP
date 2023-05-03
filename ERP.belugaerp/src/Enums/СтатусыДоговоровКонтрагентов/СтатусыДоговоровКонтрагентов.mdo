@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f477354f-d00c-43a1-99cc-f157abde2662">
+  <producedTypes>
+    <refType typeId="d168fd0f-53a4-4dbf-bbfc-4fb6193298e8" valueTypeId="35acc42f-af58-4338-8f70-b48d132d7095"/>
+    <listType typeId="cab64070-f24a-4242-b353-3a233fb501e7" valueTypeId="5bb04d2f-0a7e-4669-b08d-8685e0b16efd"/>
+    <managerType typeId="2918e1ba-d1dd-4ab5-a6b7-a4be95d3a444" valueTypeId="1f7d3ba0-5cda-4535-b000-f938fd3248bc"/>
+  </producedTypes>
+  <name>СтатусыДоговоровКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d5c98eb2-6ac4-4573-9d3e-a9b773338753">
+    <name>Действует</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ddc7f63c-5727-437e-ae92-a656142e3450">
+    <name>Закрыт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

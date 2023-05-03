@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39e67cd1-d66c-4c6c-ac13-d0dfdca1acb9">
+  <producedTypes>
+    <selectionType typeId="1539e5de-d895-4a53-96d6-bdbcddc6d529" valueTypeId="fe3bd1f3-2e61-4e23-b9ef-8e2d38531ff5"/>
+    <listType typeId="c0a0f509-12c4-4d2f-8a16-87029e6f72a3" valueTypeId="2e57329f-8697-40bf-b1c5-e206831a494f"/>
+    <managerType typeId="5939c10f-41ad-42cf-ae8d-cc457f372cc4" valueTypeId="3810c9ba-68cc-48c6-90c0-4243e90612a8"/>
+    <recordSetType typeId="a01b80a3-0798-4d40-8463-61c52eebb839" valueTypeId="c18486d7-9db8-4ebb-901f-7e5b13c77e95"/>
+    <recordKeyType typeId="1d630ba8-0381-4e26-b16b-5fc16da13665" valueTypeId="6b819988-57f6-4ff0-aebc-de4acd5f3583"/>
+    <recordType typeId="0dc2c1b2-3c64-4340-a472-a2bb2372fd9d" valueTypeId="6afd65de-2fcb-4420-9572-b64f92aff383"/>
+    <recordManagerType typeId="ec7f72c4-114d-4169-a22d-38b9380c68ce" valueTypeId="6e32fcd6-5b5a-4423-906c-d093441df065"/>
+  </producedTypes>
+  <name>бг_МенеджерыПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджеры пунктов назначения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_МенеджерыПунктовНазначения.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3e96cc44-a529-40ed-a8b8-cc69976518d9">
+    <name>Менеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="de809107-8753-48da-840d-2b3314ba8c5c">
+    <name>МаршрутТорговогоПредставителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут торгового представителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_МаршрутыТорговыхПредставителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="890dbccb-503d-4088-b9f8-5f471c0d60e7">
+    <name>ПризнакЭТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак ЭТК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c601be0a-10ea-457c-8e85-ecca3f6a62a5">
+    <name>ПунктНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт назначения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="96e467fa-c365-414b-ad89-2d79d84b7cbf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="38303e4c-e044-47cd-91d8-a86e02c3670e">
+    <name>МенеджерыПунктовНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджеры пунктов назначения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

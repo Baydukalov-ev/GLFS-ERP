@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7baa859b-5e40-4071-98fe-df60a2cb1725">
+  <name>бг_РеализацияУслугПрочихАктивовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация услуг прочих активов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b30a0851-018b-45c9-91cb-646f1f806f8e">
+  <name>бг_ОбменСЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с ЕГАИС</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

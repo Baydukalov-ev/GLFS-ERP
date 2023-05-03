@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a571864-fa56-43fa-ab55-b065776aa606">
+  <producedTypes>
+    <refType typeId="90351ec4-3dd3-4a2b-9863-76f131f6f451" valueTypeId="85411f96-696c-4363-ad11-05c690f7f8db"/>
+    <listType typeId="99226999-ce94-49a2-8e8a-fd35411a6783" valueTypeId="930ab94d-d719-4a5b-9a20-bd82a4fe1222"/>
+    <managerType typeId="36c82d01-f607-4df2-8b29-9d7887863035" valueTypeId="3a903f1d-76be-4156-b162-0e2f4a639e98"/>
+  </producedTypes>
+  <name>ТипыДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e7fee0a0-5f4d-4d7b-8442-4484ebbf9f90">
+    <name>Импорт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="61249862-fdac-4bb9-9311-ec8ba75f7732">
+    <name>СКомиссионером</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="de00a266-3213-486f-ae20-208fd86714c4">
+    <name>СКомитентом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bcf0a834-6738-403f-8e72-e8686842a401">
+    <name>СПереработчиком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="23fb6dd1-01fa-4230-89e5-56169cfca7f4">
+    <name>СПокупателем</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9823ae4d-ee43-424e-b6d5-fe29f296194f">
+    <name>СПоставщиком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

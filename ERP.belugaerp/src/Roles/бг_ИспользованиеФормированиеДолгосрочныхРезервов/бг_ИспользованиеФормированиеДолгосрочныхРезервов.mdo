@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e719ecb8-b10b-490a-abb8-759d9023f861">
+  <name>бг_ИспользованиеФормированиеДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование формирование долгосрочных резервов</value>
+  </synonym>
+</mdclass:Role>

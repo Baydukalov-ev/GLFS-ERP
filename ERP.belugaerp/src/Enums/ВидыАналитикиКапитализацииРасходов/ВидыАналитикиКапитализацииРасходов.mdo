@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="16ef115e-d0f5-4cf3-a3a6-4cc8ac6e8736">
+  <producedTypes>
+    <refType typeId="e91ac4ea-1a13-475a-b2ea-13d9c6232c2d" valueTypeId="a84d2b5d-7440-4d6a-b902-6f52703bca2f"/>
+    <listType typeId="cb7dbe3b-fa89-4d22-812c-49bb531093a9" valueTypeId="e23fae6a-3859-45fd-a661-eab04c81ee9d"/>
+    <managerType typeId="44162605-c7f6-4c1a-b402-9d6dfb9ff0fd" valueTypeId="004177de-d943-429d-8522-11027d9bb034"/>
+  </producedTypes>
+  <name>ВидыАналитикиКапитализацииРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="5b9227ee-81f3-410e-b6bb-39a2572b9e5b">
+    <name>ОсновныеСредства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cbd92388-edc3-4dab-b49b-d3e8bc9856c0">
+    <name>ОбъектСтроительства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0879e0ab-833e-4e55-90f3-b64c859a29d4">
+  <producedTypes>
+    <refType typeId="bb123049-512b-4b9b-ad8e-19058391e888" valueTypeId="3cb94e37-1c35-4d74-83de-85e88148aac5"/>
+    <listType typeId="40f21c6b-c53d-4344-9718-4ba14f284a8f" valueTypeId="4f0c8bcb-d6dc-404c-a920-a4baac6c622e"/>
+    <managerType typeId="00b1f1aa-0d4b-49ee-8066-e034d8cf4bd9" valueTypeId="eb42fc66-692a-4e8f-955e-b34dcb98b5bf"/>
+  </producedTypes>
+  <name>бг_ИсточникиЗагрузкиЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники загрузки заказов клиентов (белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7364e9e5-1937-4cee-bfe1-d2d2b532dfed">
+    <name>B2B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B2B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="598986d5-e75f-4817-8998-8ac8404b4c31">
+    <name>Creatio</name>
+    <synonym>
+      <key>ru</key>
+      <value>Creatio</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12a7ffd6-988a-410d-8187-c3df8132e8af">
+    <name>EDI</name>
+    <synonym>
+      <key>ru</key>
+      <value>EDI</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abfad303-6ae2-4fc4-a26a-8f2c56929f38">
+    <name>PortalDistr</name>
+    <synonym>
+      <key>ru</key>
+      <value>Portal distr</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ea20a8e-e58d-4b3f-aff5-a19dc3de706b">
+    <name>WINELAB_SAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВинЛаб. SAP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08cd5229-e38c-44e2-84dd-8d5bab06d37d">
+    <name>WINELAB_SAP_СONSOLIDATED</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВинЛаб. SAP Сonsolidated</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eed34ef0-1fde-4d17-8cf2-e9f93dfb29d8">
+    <name>WINELAB_HYBRIS</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВинЛаб. Hybris</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b08c55f8-7c82-404c-829e-e3f4bdd0142f">
+    <name>СобственныйКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственный контрагент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b515d03-73e6-49a7-86a8-4cfa3c2ca84c">
+    <name>ТвойДом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Твой дом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a53f944c-0224-4501-a3cd-d56808e59f53">
+    <name>Чикаго</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чикаго</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

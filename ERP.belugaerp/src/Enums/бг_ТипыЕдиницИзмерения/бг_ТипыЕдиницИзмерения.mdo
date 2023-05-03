@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a631f83-e7c5-427c-bda1-f7ce6fa23aa8">
+  <producedTypes>
+    <refType typeId="90fa56ce-59e8-41e9-b2d8-8c58b07e0d13" valueTypeId="874dbda4-8102-47c3-85ba-98f03c306581"/>
+    <listType typeId="4bb63cad-3d97-42ac-a3e8-b807212dba68" valueTypeId="ae234071-c178-4607-8a31-c31f959eea27"/>
+    <managerType typeId="77720c80-8f36-4882-8965-e50848039436" valueTypeId="aa183acf-140a-425f-97c3-1deb51aa478f"/>
+  </producedTypes>
+  <name>бг_ТипыЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы единиц измерения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44ae4cc1-c2af-4470-a680-e47ca7b6c58d">
+    <name>Бутылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бутылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aac26d03-5cd3-4278-9447-d5fed102f926">
+    <name>Коробка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коробка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c5854ae-a294-43e0-89e2-7ada13582e22">
+    <name>Паллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2842a211-8c79-42c4-9c87-b2c2bf0ea208">
+    <name>Дал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

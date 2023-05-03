@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ae97fb7-d7e5-41d0-8faf-9d464d84365f">
+  <producedTypes>
+    <managerType typeId="647d93f5-97db-4670-b5bf-9ff9bf84112f" valueTypeId="6cd60a28-5c67-4374-be91-45a1f7b7a11c"/>
+    <valueManagerType typeId="10064e40-bf86-4b9f-8a47-a16c362dbd86" valueTypeId="430252ae-8203-4b0a-a766-68c5cb30b8dd"/>
+    <valueKeyType typeId="57660b85-d4bf-413b-8008-7f8552b7a7fa" valueTypeId="431de209-dca2-4ad8-80cb-c761579c5b73"/>
+  </producedTypes>
+  <name>ИспользоватьСтатусыЗаказовНаПеремещение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

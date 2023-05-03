@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e3665a7a-7585-438f-bee3-661581f97ec3">
+  <producedTypes>
+    <refType typeId="bcd0e428-7d1f-4798-a9ac-8fc3f403859d" valueTypeId="97b53a7b-1313-408f-8ce4-4e2b6681f56b"/>
+    <listType typeId="1d89a4a1-1f79-42f2-8d37-88fc5c7e1f82" valueTypeId="a925ac89-e718-4164-98c0-d84b1ce0aabf"/>
+    <managerType typeId="49b6821b-2e2f-4c55-84d2-880fb527ae32" valueTypeId="1490278a-a8be-4745-a4b0-ad3d8dd6197a"/>
+  </producedTypes>
+  <name>ТипыОбъектовРасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c8a77f38-c77a-4709-b79e-b89e36ec9c00">
+    <name>Накладная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

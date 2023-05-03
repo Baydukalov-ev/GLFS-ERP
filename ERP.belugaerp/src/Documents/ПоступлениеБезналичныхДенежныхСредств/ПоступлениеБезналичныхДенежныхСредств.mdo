@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0903f72b-6e19-4478-be93-6af6e75f39ed">
+  <producedTypes>
+    <objectType typeId="13e61242-d64a-4991-b72a-3cecbeed9cbc" valueTypeId="b0709f6a-a808-45f7-98b0-603ecb1107e4"/>
+    <refType typeId="7446c13d-ab48-457f-b703-85043ba7e0d0" valueTypeId="33b6767f-4252-4ee4-96e0-3314fc1cb904"/>
+    <selectionType typeId="ccce9d35-f8ce-4466-becf-038eb2245f78" valueTypeId="7c3b3b5a-25a4-4990-95f8-85e460e22931"/>
+    <listType typeId="8c5994b9-0536-416f-8bff-29fac31942dd" valueTypeId="66cfef94-c554-40c5-90ce-53656fed997c"/>
+    <managerType typeId="c1e77334-4293-45b4-a73e-09b05aab38e6" valueTypeId="f19d6eb4-5d8f-4c98-8f93-c99cd9131845"/>
+  </producedTypes>
+  <name>ПоступлениеБезналичныхДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="5c787f5c-004d-43a8-8716-bf4b5ee27946">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="cc47396f-b124-4cb0-a6ea-6535fbb0bd7e">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="df293f71-5518-4220-a6bd-588581ec8a34">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="151b0df0-7d7a-4b30-aaf4-481ab0dd3dcb">
+    <producedTypes>
+      <objectType typeId="85a45a79-4caf-41b0-bd5e-9040431d0390" valueTypeId="b56ec98c-5c15-4dbe-95b3-11b4f48df17f"/>
+      <rowType typeId="703b6d5e-2e3f-4282-90a0-f70025d457e4" valueTypeId="7fb67404-7380-44c1-be7c-1ea84173679f"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

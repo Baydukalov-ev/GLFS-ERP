@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f35265ad-67c2-4a2a-8ae6-79e09437e658">
+  <name>бг_ДобавлениеИзменениеНастроекЗагрузкиФайловФакторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек загрузки файлов факторинга</value>
+  </synonym>
+</mdclass:Role>

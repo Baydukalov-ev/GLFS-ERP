@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="57cf753a-d22c-407e-8cf3-4d00f5b62616">
+  <producedTypes>
+    <refType typeId="5ef604e2-2aaf-4c9f-971c-4a5eaa45d623" valueTypeId="6f64f6fc-d3c2-4f5e-b7a4-19055ec2fedc"/>
+    <listType typeId="1994c849-bf69-43cb-ba35-54a4d6ac4a65" valueTypeId="05f9668c-dafc-47e7-85d2-2a90acebaa98"/>
+    <managerType typeId="8a23cfa1-4a71-4ec1-8507-09ccf2e20a4a" valueTypeId="ecb82d4d-318e-44bc-843d-a9c6cdc64435"/>
+  </producedTypes>
+  <name>ТочностиУказанияСрокаГодности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="db623d51-da4b-4461-9d75-1dc2416168b9">
+    <name>СТочностьюДоМесяцев</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cccaba76-4e20-4a33-b533-ba6afa880b82">
+    <name>СТочностьюДоДней</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a1aaa49b-a41c-47bc-93dc-d4198a9be250">
+    <name>СТочностьюДоЧасов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

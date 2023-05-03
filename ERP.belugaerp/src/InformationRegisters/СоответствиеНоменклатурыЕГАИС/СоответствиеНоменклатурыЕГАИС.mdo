@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="462f0c0f-bb47-4126-8a0d-7b41f273d459">
+  <producedTypes>
+    <selectionType typeId="cd0474c5-291b-47b8-b392-6674deec93b0" valueTypeId="fcf849bf-6804-455a-949a-ecd8d0b9a748"/>
+    <listType typeId="82b1123d-a415-4da4-9c96-66ad671c9705" valueTypeId="fff42f6e-3ccf-493a-8520-0b59a253586c"/>
+    <managerType typeId="ee6dfd34-c14c-4cb9-9a86-760defbcecd9" valueTypeId="8f1f99ef-2c3f-4fd3-83c8-a501ec27f636"/>
+    <recordSetType typeId="c612055c-ad08-46f9-a5c5-9d308fe169ad" valueTypeId="0def6d9d-830d-418b-8667-8c2e5d96bbcc"/>
+    <recordKeyType typeId="25611eea-9883-4126-ba20-e633320c5534" valueTypeId="dbac2563-acd4-4eab-b234-af24a20a10de"/>
+    <recordType typeId="d4d313e7-4182-46c8-9c27-e6e45fed6503" valueTypeId="95eedef8-366c-47fa-b0d2-6069f5510706"/>
+    <recordManagerType typeId="5e04ed22-69ba-4d18-9529-db5c79004b72" valueTypeId="04798480-1649-49ed-b3ef-86ab265d3956"/>
+  </producedTypes>
+  <name>СоответствиеНоменклатурыЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <dimensions uuid="90b69d04-c76b-4e92-81f2-4e871b2a3808">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="67f63116-1b94-4473-bec3-048d3a2ce798">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="e329ce00-77b3-49b8-bcb2-b107c42b9ac7">
+    <name>Серия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СерияНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="acf3f962-dedc-4412-913d-fe0e84514ded">
+    <name>Справка2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Справки2ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <commands uuid="aef43766-a743-4a4b-9b5a-3ada09e8576f">
+    <name>бг_СоответствиеНоменклатурыЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие номенклатуры ЕГАИС</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterType>Checked</commandParameterType>
+    </extension>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

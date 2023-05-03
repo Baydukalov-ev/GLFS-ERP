@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="462b53f6-667f-4e31-90a5-bb1d895ea5a2">
+  <producedTypes>
+    <objectType typeId="8dcfdf37-e217-4c95-a36e-5a6e982db6fa" valueTypeId="f1544b8d-206f-4672-91f8-0f15b5d8e299"/>
+    <refType typeId="dab815e4-e856-4c8c-8c67-099383e8e6bc" valueTypeId="e4461042-9135-4075-8bd5-579f665c0bcb"/>
+    <selectionType typeId="a3b00aec-267c-46f3-83d5-16542185d3b0" valueTypeId="1d7e4fc2-ace2-4157-89c4-c07a3fad81d6"/>
+    <listType typeId="1f1f02f8-9589-4a8d-a162-fe71eb599909" valueTypeId="7016285d-d805-4793-b7a7-2f5d809dbbf3"/>
+    <managerType typeId="1c569057-1c72-493f-9f85-103d1d854c11" valueTypeId="d93d2e9a-c0e3-43d9-b88e-235f2f8a4183"/>
+  </producedTypes>
+  <name>СтруктураПредприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="723a1b15-52a6-417e-89ac-03cc8858f2de">
+    <name>ПроизводственноеПодразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6e888cf5-c115-4e8a-9017-98337575828d">
+    <name>УправлениеМаршрутнымиЛистами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.УправлениеМаршрутнымиЛистами</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f3eda9a9-a482-439a-b333-6f434d8eeb8e">
+    <name>РеквизитДопУпорядочивания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="10ded00d-86a7-4e36-8971-eca15d35cc7d">
+    <name>СпособПооперационногоУправления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СпособыУправленияОперациями</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

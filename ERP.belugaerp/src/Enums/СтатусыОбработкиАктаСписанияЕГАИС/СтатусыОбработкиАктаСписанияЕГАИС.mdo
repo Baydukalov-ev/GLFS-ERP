@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2ffb649-31e4-47cd-b08c-f6c824367d64">
+  <producedTypes>
+    <refType typeId="805c2682-275e-4c72-afa9-1271d74e5acf" valueTypeId="c3c1a7fc-586c-4e44-a3f1-c12940a27bec"/>
+    <listType typeId="c7db6659-20e4-4d56-bf96-c10d2b3124f1" valueTypeId="b5cc5986-5c7d-4d4e-b9b6-738cc91ba6e1"/>
+    <managerType typeId="1db47324-a49e-455e-98f5-ff81cf38bba5" valueTypeId="4c5cfc6b-161a-4bf9-b36f-b55e1b9cacb9"/>
+  </producedTypes>
+  <name>СтатусыОбработкиАктаСписанияЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="282a2246-277d-4245-b2d2-4e32584a2d94">
+    <name>ЗапросНаОтменуПроведенияКПередаче</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="71beb419-6c34-480c-a5cb-9a7ff4a29317">
+    <name>ЗапросНаОтменуПроведенияОбрабатываетсяЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5d7ba215-5d3d-445a-bb77-38be7072d5b7">
+    <name>ЗапросНаОтменуПроведенияОшибка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="da6def60-a789-466a-945d-219e1131d47f">
+    <name>ЗапросНаОтменуПроведенияПереданВУТМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ac9c750c-6698-46b5-bb80-6ed630962408">
+    <name>Отменен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="adbd05f6-fb0a-4a51-9505-214e7f1e1439">
+    <name>ПроведенЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

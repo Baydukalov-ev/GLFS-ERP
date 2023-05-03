@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8c378e95-85f3-4a9c-bb1c-17d2d0da08a0">
+  <producedTypes>
+    <objectType typeId="aa8e6918-aefa-4bf7-8d10-ff434d8aeeff" valueTypeId="d59fb484-7ab5-4219-8794-6245db43c96d"/>
+    <refType typeId="b0cc3e92-f20a-4e8b-9103-85c9bd273518" valueTypeId="8ca4d47b-c90d-477e-9911-42b94f3f78d2"/>
+    <selectionType typeId="820b277a-3751-4d4a-956d-dd8dbac141d4" valueTypeId="31187401-a3ed-4a80-8c37-bab9c9a864b0"/>
+    <listType typeId="6bb061bb-d168-4f6a-946d-6bfb46535a8c" valueTypeId="47a227b6-ff81-4c2e-ac38-85c42fcfbb38"/>
+    <managerType typeId="b6b48f47-fc88-475b-86d0-d22db8d6f837" valueTypeId="c18b225c-de5d-4b02-93eb-9e7cbd16a909"/>
+  </producedTypes>
+  <name>ПричиныОтменыЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="b6b245f1-47e3-4328-a1ab-9aa712fba06f">
+    <name>бг_ИсключитьИзУровняСервисаSL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключить из уровня сервиса (SL)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eefdc9b7-6ba4-4447-b441-1cfc8cd8242d">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

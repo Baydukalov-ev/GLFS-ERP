@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="636e1f57-d213-4785-bda5-e5b8906a6794">
+  <producedTypes>
+    <objectType typeId="9cf506ea-6aa6-4d1e-9679-a6f28d7c0d3f" valueTypeId="b933043c-08d8-4e39-8334-e1412ec80d49"/>
+    <refType typeId="cdf08e1a-37bd-4f56-a10b-a6be34216075" valueTypeId="166c3466-e79e-4152-8b00-aa8efd1df062"/>
+    <selectionType typeId="f2910d19-3163-433c-ad4c-c367ea2ae66d" valueTypeId="c497e68c-6801-4b8c-a32d-5eab32cf3292"/>
+    <listType typeId="607a6878-5a88-4b3e-b075-7e0c92638a97" valueTypeId="269cc3c1-09c2-49d6-bc98-ff16322807de"/>
+    <managerType typeId="336e33d2-4001-4c80-87df-5f437331881b" valueTypeId="17089307-ba14-4c3a-8391-103ea5e9ae28"/>
+  </producedTypes>
+  <name>ОбъектыЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="3b50356a-897d-4e53-be07-99760ceecdf9">
+    <name>бг_Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9c7711b5-1879-4001-b4a6-4dfeab936b91">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="62903819-df75-4ef2-af15-6a13f3d8f505">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

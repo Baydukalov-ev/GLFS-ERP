@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fca3daae-31e4-4518-a76a-66b355c633e5">
+  <producedTypes>
+    <objectType typeId="40bdfde4-2133-4f48-b42c-f78a179c984c" valueTypeId="a3d6e70e-0bcf-4934-8c17-a6b1b826c6df"/>
+    <refType typeId="0e688142-a9af-4c1d-b311-9a68740f3ea5" valueTypeId="e8e951f8-69d8-4f1f-8364-4637189f886f"/>
+    <selectionType typeId="3db853f9-3202-46ce-b4d9-dd3e0df4e579" valueTypeId="e6d1bfad-a449-4496-9d4a-debc9e8624d0"/>
+    <listType typeId="4fc1aa55-43c7-46d6-871e-5140af416805" valueTypeId="90a584e1-ef95-4af8-8215-c2150f1ead28"/>
+    <managerType typeId="73199bd6-cd48-464b-87e7-66ba8d78975e" valueTypeId="83d06e0e-9e84-4393-8600-3181e9f5aeb5"/>
+  </producedTypes>
+  <name>КлючиРеестраДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

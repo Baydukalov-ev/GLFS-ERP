@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bbeecf3-69dc-4bda-9b3d-7cc815b9a33e">
+  <producedTypes>
+    <selectionType typeId="6688da4a-d319-478d-9dd3-5877f65a2c26" valueTypeId="c90d8086-41fb-43c4-803a-6beebe3b9f36"/>
+    <listType typeId="9ab0ef08-f0ab-45db-bb69-984c76d69cfe" valueTypeId="0c22add9-0590-4fe4-873f-6edc31bbc0a0"/>
+    <managerType typeId="0b5360ec-1613-431d-9edd-bfb998182ab3" valueTypeId="d77bf489-6e48-4d25-87bb-c8cfe3db536f"/>
+    <recordSetType typeId="4f375908-b2a7-4de2-a105-03850fd396f1" valueTypeId="91974ac6-9d6c-478f-b68e-e425668da346"/>
+    <recordKeyType typeId="51a78be1-4308-42ff-a9d5-9a5eb38ccc67" valueTypeId="078b6962-c5e0-4412-b9d0-f321bf2181ee"/>
+    <recordType typeId="24f671c2-95c6-4874-9e28-5a3d3172016b" valueTypeId="66618627-8162-48a0-a969-c3d2e9d2f7a4"/>
+    <recordManagerType typeId="f7206e16-bc15-4888-bb2b-5ae0ef55d8f6" valueTypeId="f8ded1b7-dde3-4a45-9907-a9290b52628d"/>
+  </producedTypes>
+  <name>бг_СоответствиеЗон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие зон</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="042e2d62-f4d1-4233-b207-1713b95e089d">
+    <name>ЗонаГеографическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона географическая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ЗоныГеографические</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8aa5f78d-fd3d-43a9-bce5-b196f0b37069">
+    <name>ПунктПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт погрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bc4d10a8-97f4-48bf-814f-872835d7c00d">
+    <name>ЗонаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ЗоныДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="75bd1fa4-434b-438a-ad42-8e86dd65c2d7">
+    <name>СоответствиеЗон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие зон</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

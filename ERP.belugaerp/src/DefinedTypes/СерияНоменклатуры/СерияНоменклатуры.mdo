@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a4d15b9b-4f45-4f1f-bc6c-b4a28969e82e">
+  <producedTypes>
+    <containerType typeId="bf2f5115-3b5a-46e1-a56f-cbde5b8802e7" valueTypeId="65c715ae-8243-4a3d-8ea5-6616973a316a"/>
+  </producedTypes>
+  <name>СерияНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.СерииНоменклатуры</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b687984-773b-439c-970e-7a96d6173992">
+  <producedTypes>
+    <objectType typeId="7015ca0d-cad6-48b5-94f8-985f862dce9e" valueTypeId="418c0f3b-bf7d-41fa-8a89-227a159afa94"/>
+    <refType typeId="84038515-ef70-4fa7-b420-71e29c7cf751" valueTypeId="50eb1edb-fe4a-4c36-82e6-ae2d6790f135"/>
+    <selectionType typeId="386f6856-cf27-4331-a78f-00667dfb9fe2" valueTypeId="56ed3b7a-be72-48ce-8297-dbb062932339"/>
+    <listType typeId="20a0c1f2-8163-4767-86f9-61b6031e2a8d" valueTypeId="70491d9a-753c-4216-b70e-7f03f46ccab4"/>
+    <managerType typeId="14958f17-70c8-41ad-9e33-552fd83a67cc" valueTypeId="d9d27c93-2f28-4e14-8a59-653e8fd32fa5"/>
+  </producedTypes>
+  <name>РегистрацияЦенНоменклатурыПоставщика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

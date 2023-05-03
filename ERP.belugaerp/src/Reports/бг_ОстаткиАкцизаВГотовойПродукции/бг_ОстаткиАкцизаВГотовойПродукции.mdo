@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e111029d-95b9-4952-aa31-8334d574b34f">
+  <producedTypes>
+    <objectType typeId="35df640e-09a4-493b-a941-23643bec8bc3" valueTypeId="dddb125b-9b40-41d2-9a1d-fedb32ba4065"/>
+    <managerType typeId="f8477dba-81ca-4b46-85ae-b5ce170ff1e7" valueTypeId="e2c1c4c6-7815-4fb7-8ad7-76d69223f91c"/>
+  </producedTypes>
+  <name>бг_ОстаткиАкцизаВГотовойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки акциза в готовой продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОстаткиАкцизаВГотовойПродукции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="83e87644-b4df-4b60-bb82-2cfd6111fefa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

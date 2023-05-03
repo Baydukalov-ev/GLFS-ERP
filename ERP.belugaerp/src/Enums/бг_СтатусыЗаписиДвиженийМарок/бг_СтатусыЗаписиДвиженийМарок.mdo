@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d026b8d-d6bf-4a30-91f4-09e3e90bd010">
+  <producedTypes>
+    <refType typeId="e1a897a7-1153-49eb-ac26-691cc8e5c339" valueTypeId="e10975cc-38b7-4c93-801f-5f1cea6a4b9d"/>
+    <listType typeId="a02bd3b1-38e9-4679-8849-5cf2fb8474b6" valueTypeId="5541e28a-baac-405c-ab56-f74a493d557d"/>
+    <managerType typeId="a5d112f7-853a-40e4-95dd-eab19f0ea139" valueTypeId="1a303761-53b2-486b-983d-87eea6dd5946"/>
+  </producedTypes>
+  <name>бг_СтатусыЗаписиДвиженийМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы записи движений марок</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0b299de8-245e-4cd1-a025-0e2a26c1eb92">
+    <name>ДвиженияЗарегистрированыКЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения зарегистрированы к записи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47527a2a-1162-40ef-8d9f-d9ca1dd11697">
+    <name>ДвиженияЗаписываются</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения записываются</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="163e3042-e267-41a1-bac6-3ece010b62b8">
+    <name>ОшибкаЗаписиДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка записи движений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c407248d-ae42-477d-a59a-b412b5bac0ea">
+    <name>ДвиженияУспешноЗаписаны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения успешно записаны</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

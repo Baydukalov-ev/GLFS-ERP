@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e5729482-4db6-42f9-860d-7dbd268858cf">
+  <producedTypes>
+    <refType typeId="eec461c6-9f3d-4ea6-87a3-b3637982ae26" valueTypeId="144f49c5-3c50-412a-a62c-15796cabe591"/>
+    <listType typeId="783871a1-d0ef-4410-9237-8e1f21cd2ea7" valueTypeId="1a9b9cce-2d22-4ba3-9af8-b5bda34cddf2"/>
+    <managerType typeId="9f76057a-4284-415d-8241-81ad349d2b81" valueTypeId="9c535428-a45b-4167-be14-2a4098dfbc08"/>
+  </producedTypes>
+  <name>ДействияСоСтрокамиОрдеровНаОтгрузку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="41bc14be-e679-44e8-bf9f-d5555acbcba3">
+    <name>Отгрузить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

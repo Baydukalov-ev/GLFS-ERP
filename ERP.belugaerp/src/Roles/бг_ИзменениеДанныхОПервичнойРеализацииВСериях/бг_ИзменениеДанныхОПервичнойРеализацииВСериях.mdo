@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a83779bd-28be-4ed5-91b4-22c5dc8112ec">
+  <name>бг_ИзменениеДанныхОПервичнойРеализацииВСериях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение данных о первичной реализации в сериях</value>
+  </synonym>
+</mdclass:Role>

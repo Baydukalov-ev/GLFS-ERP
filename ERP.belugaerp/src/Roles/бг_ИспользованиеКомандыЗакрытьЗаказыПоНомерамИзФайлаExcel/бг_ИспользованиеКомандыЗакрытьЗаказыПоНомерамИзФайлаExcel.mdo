@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a7518d9-5ba8-4c91-a903-198b721c92dc">
+  <name>бг_ИспользованиеКомандыЗакрытьЗаказыПоНомерамИзФайлаExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование команды &quot;Закрыть заказы по номерам из файла Excel&quot;</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6813967b-82d6-40cd-b3e9-cb23286a34ac">
+  <producedTypes>
+    <refType typeId="45804bca-7324-4583-b150-89dea12ecd5c" valueTypeId="8b428015-d567-4910-9844-1520a1d54852"/>
+    <listType typeId="bf296e52-5be0-43a3-97ac-a9c7a54a63a2" valueTypeId="5766b0dd-ed62-4833-926b-144420d3a1df"/>
+    <managerType typeId="d61e3345-490f-4987-8654-994f00e723be" valueTypeId="133bf48e-be66-4acf-a3bd-5b89dca1dfde"/>
+  </producedTypes>
+  <name>бг_ВидыОтсрочкиПлатежаПокупателям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отсрочки платежа покупателям</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f43e1aa3-d53b-4f04-9cc8-dc4d7b212c35">
+    <name>ПоДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28c85f2c-1f59-4563-913b-ac4b2c9b12ba">
+    <name>Логистическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логистическая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93fca17d-cd29-4b53-94a7-4b76a8396f9a">
+    <name>Управленческая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управленческая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8c6f117-afb3-4fe5-b5c1-33979ea95c19">
+    <name>ДополнительныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. дни</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

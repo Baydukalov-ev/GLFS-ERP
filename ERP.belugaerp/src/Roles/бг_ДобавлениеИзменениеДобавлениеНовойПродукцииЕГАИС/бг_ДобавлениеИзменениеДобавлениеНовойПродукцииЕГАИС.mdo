@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="782f9306-4cb1-4bc0-ab34-5182c5b5b840">
+  <name>бг_ДобавлениеИзменениеДобавлениеНовойПродукцииЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение добавление новой продукции ЕГАИС</value>
+  </synonym>
+</mdclass:Role>

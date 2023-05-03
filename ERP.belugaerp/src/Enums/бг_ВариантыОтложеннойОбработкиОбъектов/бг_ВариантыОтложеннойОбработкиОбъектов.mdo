@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db708801-09f4-42f2-8849-2c63043e458f">
+  <producedTypes>
+    <refType typeId="bcaaa3b3-4dfa-48e8-8553-e1517124b439" valueTypeId="f6bded14-db9d-4e11-9d34-8342b5bb2ab9"/>
+    <listType typeId="486a95ac-051e-47b6-bdc3-c373c24ba951" valueTypeId="5af3d34c-e9b6-48bc-aad4-6f3627dd9ad6"/>
+    <managerType typeId="3017f6b0-5753-4c74-a859-1b55feebbbb4" valueTypeId="1155c899-1a13-4b84-a62d-209b12eb73fe"/>
+  </producedTypes>
+  <name>бг_ВариантыОтложеннойОбработкиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отложенной обработки объектов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f844ec8c-5f28-42e8-9db0-5040125dcaf6">
+    <name>АвтоСогласованиеЗаказовКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто согласование заказов клиентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e0a7562-7dff-4924-90fd-8d7db2a36688">
+    <name>АктуализироватьОбеспечениеЗаказовКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуализировать обеспечение заказов клиентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df46c3a4-e0db-40b8-bd56-db9fe33274d6">
+    <name>ИзменитьДатуСвязанныхУчетныхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить дату связанных учетных документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e23c4b0-0792-43e2-9580-901c482b5e19">
+    <name>ОбработатьАкцизныеМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать акцизные марки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a60b4d6e-1d74-4425-92f0-1b5d97a570bd">
+    <name>ОбработатьДокументыWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать документы WMS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8512f320-b408-4b23-a078-f383594e6897">
+    <name>ОбработатьНовуюОрганизациюЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать новую организацию ЕГАИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="307bf50a-6bdd-4e34-b714-6243c8267eee">
+    <name>ОбработатьПрисоединенныйФайлПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать присоединенный файл письма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57f97a39-69af-484e-994d-121b05e6e759">
+    <name>ОтправитьЗапросыСправки1ЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить запросы справки1 ЕГАИС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a892de13-839a-4e2e-9741-af14ccc55b3e">
+    <name>ОтразитьДополнительныеСведенияЗаказаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отразить дополнительные сведения заказа клиента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b21f1e6-473b-4a22-bb50-85e0f4cdf9b8">
+    <name>ПередатьЗаказыКлиентовНаСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передать заказы клиентов на сборку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="163f1365-f636-4876-acb8-8b069328d0d2">
+    <name>ПерезаполнитьЗаявкиНаРасходованиеДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перезаполнить заявки на расходование ДС</value>
+    </synonym>
+    <comment>Проект &quot;Магистраль&quot;</comment>
+  </enumValues>
+  <enumValues uuid="ebf68f14-2b4a-41d8-bb9b-feb6a8bc0451">
+    <name>РассчитатьПоказателиРаботыОператоровWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассчитать показатели работы операторов WMS</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6956060-505f-4772-be99-96219eec01a6">
+    <name>СоздатьИзменитьПодчиненнуюРеализацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать изменить подчиненную реализацию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ada6f2c-1685-482f-ba40-5eb94c4f0fe6">
+    <name>СоздатьЗаказМагазина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать заказ магазина</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fb2efcf-dcd0-4cea-987d-78c0d0291d6a">
+    <name>СоздатьНоменклатуруПартнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать номенклатуру партнера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="061e55bc-1095-4c53-9fa9-65eb4ed1118f">
+    <name>СформироватьДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать документы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e745f074-d672-4dae-bf90-0be2e5855be4">
+    <name>СформироватьЗаказыКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать заказы клиентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1caf5950-a4ac-4247-897b-0356df07df3a">
+    <name>СформироватьИнтернетЗаказыКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать интернет заказы клиентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9d6098a-d427-4578-894b-6d850aaabf53">
+    <name>СформироватьРейсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать рейсы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18cc09f6-a6bb-4a79-97cb-71eb33f771e0">
+    <name>СформироватьДвиженияМарок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать движения марок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="166e0fba-fb37-43cc-99df-6e5bd0461f2f">
+    <name>СформироватьОрдераНаОтражениеПересортицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать ордера на отражение пересортицы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0efcc604-b70a-420d-b648-5dc6ac816ae6">
+    <name>АктуализироватьРезервыПриПоступленииТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуализировать резервы при поступлении товара</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa2c6959-732b-4ca8-938c-5b265be5e9b4">
+    <name>СформироватьПриходныйОрдерНаТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать приходный ордер на товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae0e0123-3c67-4223-8b03-71eea74ba016">
+    <name>СформироватьРасходныйОрдерНаТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать расходный ордер на товары</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bf58bb0f-695c-4c17-ac00-8f425d502a23">
+  <producedTypes>
+    <objectType typeId="5a2894d1-0b5e-4588-a4c6-5314c27f5726" valueTypeId="1eb7201d-a0e0-4309-aa8a-6c4d75d10dd4"/>
+    <refType typeId="901021b5-e2d0-4b37-99f6-9c171fc79163" valueTypeId="34d36b4c-b540-4c7a-9118-85b13d2f404e"/>
+    <selectionType typeId="6f096c09-d3c7-4f2b-bb9a-a8b01fd8d234" valueTypeId="a327ac22-8688-4dbe-9f5e-b1f976da75a6"/>
+    <listType typeId="6b44b9f3-ceb0-40df-9f8b-d3526981439b" valueTypeId="b4ec1fa0-c299-4556-a237-1fdfa9b76cb9"/>
+    <managerType typeId="d279fbd5-bff9-42d4-9800-886b7c89574a" valueTypeId="e0904c4c-9ea2-4f4a-9bdf-d7413329c012"/>
+  </producedTypes>
+  <name>ГруппыРассылокИОповещений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="bed8b73d-84f2-4dc7-91cb-b2d444aba029">
+    <name>бг_АдресацияЭлектронныхПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресация электронных писем</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8609c9fd-acb0-4eab-af00-ac7a5b4321d1">
+    <name>бг_ГруппаПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа пользователей</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a9fb622f-7d07-44c3-bf50-11e5f694e9e2">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <templates uuid="960ba504-4109-4831-96f9-a9cbe6c9fa1b">
+    <name>бг_МенеджерыПунктовНазначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджеру пунктов назначений</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

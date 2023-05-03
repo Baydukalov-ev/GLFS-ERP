@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e361d57-c604-4bbd-9d0a-9211b73c77ad">
+  <producedTypes>
+    <selectionType typeId="a178aa31-9a26-48cd-9b8b-9f1166a57b21" valueTypeId="21129715-38d1-4498-ba77-d0276d194c73"/>
+    <listType typeId="acb705cb-dd12-4733-91fe-08648de875e5" valueTypeId="2e2df3c0-5117-4d82-9c9b-badcbcd280c8"/>
+    <managerType typeId="15da8872-c56c-484f-90b5-d94ba1e80b7e" valueTypeId="6f0dfd68-c762-4385-a507-8e9af9b9a42b"/>
+    <recordSetType typeId="570be318-f134-4ea8-b61b-c1ea2a330e8f" valueTypeId="e7f60768-d335-4911-9908-8a206825627c"/>
+    <recordKeyType typeId="b0e80010-87f3-4130-a77a-9220e3f11e74" valueTypeId="60da41c6-57a7-4e03-a16a-aae08b099f75"/>
+    <recordType typeId="0aac3135-e8c7-49cd-983f-ac28a907e35d" valueTypeId="5d8c3e59-0241-403a-bbb6-54d47b0a9eb9"/>
+    <recordManagerType typeId="b930e550-4f6f-4c52-ad33-3af696174dc6" valueTypeId="b7e9ba4a-c2ca-46cd-a086-58db808bb84e"/>
+  </producedTypes>
+  <name>бг_ДатыОтправкиDESADVвSAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты отправки DESADV в SAP (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b2d10d73-646f-4129-9ade-f3bca692d120">
+    <name>ДатОтправкиDESADV</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дат отправки DESADV</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c9eb6b4f-f234-42bd-bc5c-d4657a261c47">
+    <name>ТТНИсходящаяЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН Исходящая ЕГАИС</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ТТНИсходящаяЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="7a8118e6-6ff6-4111-b68a-9862c82ca939">
+    <name>ДокументРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ реализации</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

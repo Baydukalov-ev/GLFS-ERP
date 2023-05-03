@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d310fa6a-5664-4165-bc7f-56bdcce52f4e">
+  <producedTypes>
+    <refType typeId="a0e56550-8d2b-4bb4-aae2-da27abcea73b" valueTypeId="e8e09ae2-ed00-4142-94bc-4835aa3baffa"/>
+    <listType typeId="e5108424-904a-47e1-b4b4-474d8e8c3b93" valueTypeId="84600e0d-863e-4cbf-bae1-50dcf43a2c81"/>
+    <managerType typeId="243192ba-b805-4e4f-86d1-0b70b734e80c" valueTypeId="9737fc0e-4f28-496b-8472-0865dd16263a"/>
+  </producedTypes>
+  <name>СтатусыРасходныхОрдеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6a041505-494c-45fc-8ac2-9a798abedf10">
+    <name>КОтгрузке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c49c4cdf-a747-4f59-81f2-1bab36803a3c">
+    <name>Отгружен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

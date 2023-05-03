@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="670eef4e-c05c-4475-adea-20da4577277f">
+  <producedTypes>
+    <refType typeId="a10861b2-4a73-486e-b4a3-5ddce3173f6c" valueTypeId="cf36cd17-ba58-4e23-b261-640947f6e50a"/>
+    <listType typeId="d8d969ea-30f8-4ef2-a3d0-f4279432486c" valueTypeId="a4e8cc44-3534-4f7f-b757-021b71e01bf1"/>
+    <managerType typeId="7ec734ce-59bd-4573-8213-df7fa19f2f1d" valueTypeId="d767fbe8-02c7-4d77-a9b0-62b804182704"/>
+  </producedTypes>
+  <name>СпособыКомпенсацииВозвратовТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="7b7613a8-c847-4356-a1dc-679c141c2a38">
+    <name>ОставитьВКачествеАванса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7f7e83e0-b7cf-4c31-806e-48ba55f71bf1">
+    <name>ВернутьДенежныеСредства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

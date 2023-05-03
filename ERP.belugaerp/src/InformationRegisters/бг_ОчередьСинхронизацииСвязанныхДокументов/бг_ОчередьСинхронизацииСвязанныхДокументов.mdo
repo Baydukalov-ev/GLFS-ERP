@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38bd9165-b818-42e7-82c4-91e4d7a5ee96">
+  <producedTypes>
+    <selectionType typeId="2d1563ab-5519-4745-89f8-fe9ea7813176" valueTypeId="a6fc69f2-6211-4d2d-b74b-4e0aef72326a"/>
+    <listType typeId="f47d96cd-3a59-49a2-ad99-36c090ccca0b" valueTypeId="8bac1988-b181-4360-8c1f-970eeb55688a"/>
+    <managerType typeId="5a27a9e2-b41f-47f9-8c21-f773570b0d8e" valueTypeId="21ada1e8-dde0-49f5-bf3e-fb65993c698c"/>
+    <recordSetType typeId="8ea96a0b-c176-4a4c-a97a-95faeeeaa555" valueTypeId="4ac9bd5a-3475-4f1e-b8ce-98b807185d39"/>
+    <recordKeyType typeId="2f09664f-58ca-4958-86c5-e2bbf4e27fb9" valueTypeId="f531e405-3eb9-47ee-b228-2cf1a24846f5"/>
+    <recordType typeId="0a65a663-6114-4093-b54e-fdfee23e2499" valueTypeId="0b471563-2480-4f72-9b28-54041e3b0b65"/>
+    <recordManagerType typeId="07b76003-0e46-42af-8e4b-e84e3eadf157" valueTypeId="118bb6ef-98fe-4f18-a86a-56ddf189f093"/>
+  </producedTypes>
+  <name>бг_ОчередьСинхронизацииСвязанныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь синхронизации связанных документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="3e65877f-3c94-4d60-9965-771c93262456">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.битФакторинг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0c644316-ffdc-4754-bf43-af4eae8326ec">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

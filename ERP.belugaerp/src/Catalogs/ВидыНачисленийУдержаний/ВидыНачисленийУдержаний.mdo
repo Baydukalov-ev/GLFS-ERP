@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e18dee6d-c2a8-4432-8d8b-8850c1046c9f">
+  <producedTypes>
+    <objectType typeId="294437cb-0ea1-4009-848c-75311f477aba" valueTypeId="619e3df1-f341-4763-8b86-94c6900c1e44"/>
+    <refType typeId="aef3db29-8796-46e5-a781-dde2a1749d7f" valueTypeId="1d31487f-4bf3-4ffe-9508-7d869a83e465"/>
+    <selectionType typeId="a4cb43b1-efe0-4181-b95d-f6d7f6763d1e" valueTypeId="9dc3d311-e023-446a-bed6-4cbb4c1be018"/>
+    <listType typeId="09bfbb96-7bb6-4420-a860-cff165ebb9e5" valueTypeId="b825e6d4-07c8-49a5-8472-2e5026b8e7c3"/>
+    <managerType typeId="dc1dd1c2-f373-4df6-bbb8-09d4e842753d" valueTypeId="4822a7d2-553c-4b57-8bef-1b56fbf0f04f"/>
+  </producedTypes>
+  <name>ВидыНачисленийУдержаний</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

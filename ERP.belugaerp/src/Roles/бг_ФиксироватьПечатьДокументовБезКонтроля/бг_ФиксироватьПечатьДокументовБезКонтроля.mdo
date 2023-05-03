@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b255dead-9eb4-462b-982b-1dd0917f00f1">
+  <name>бг_ФиксироватьПечатьДокументовБезКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксировать печать документов без контроля</value>
+  </synonym>
+</mdclass:Role>

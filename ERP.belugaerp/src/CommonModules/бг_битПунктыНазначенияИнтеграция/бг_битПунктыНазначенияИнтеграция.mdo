@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d874d7-27cc-4e7a-bf35-17d562abc71b">
+  <name>бг_битПунктыНазначенияИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пункты назначения (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

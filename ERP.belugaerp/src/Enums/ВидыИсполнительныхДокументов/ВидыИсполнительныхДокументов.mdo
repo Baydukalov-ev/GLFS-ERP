@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="20a932b4-70d4-43a8-979d-c4b35718ba55">
+  <producedTypes>
+    <refType typeId="76efbfc8-92b7-4350-9ac1-081cb23cc72d" valueTypeId="a6f2ffa7-3573-4054-b07f-53839f4d4934"/>
+    <listType typeId="8af9c7d5-ad2b-4b91-9ffb-812c0e2a5c12" valueTypeId="f871f9a5-a9a0-4937-a41a-597a12f8bed5"/>
+    <managerType typeId="c8ff9a2e-5e8e-4a3e-87d9-a934bfa95e97" valueTypeId="61fd0e56-6579-46cb-857f-b8204e5e57da"/>
+  </producedTypes>
+  <name>ВидыИсполнительныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="96fde25d-dfc5-454e-9ffa-b59426dd2eb1">
+    <name>ИсполнительныйЛист</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

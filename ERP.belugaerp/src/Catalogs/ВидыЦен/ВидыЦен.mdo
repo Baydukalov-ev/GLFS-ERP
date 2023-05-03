@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4cd66c92-e635-499b-aa5f-89c85107a598">
+  <producedTypes>
+    <objectType typeId="36e11cd8-8074-4900-ac99-a715f2c128a5" valueTypeId="83ea09a7-bd52-4787-b55c-8f08a7539da4"/>
+    <refType typeId="7ec90942-aeb4-4306-95b3-67b5fb304a64" valueTypeId="ebb798a3-ad12-49c4-b94f-2008433ddec0"/>
+    <selectionType typeId="cab910d2-f5a7-4d9c-be55-5c6450bd598f" valueTypeId="36da74a6-0792-427a-af6e-ada8f17e06f3"/>
+    <listType typeId="b30703b7-42ea-408f-83a3-a9c4a858bc58" valueTypeId="0c66555d-ea44-4c87-9c82-88e0ff4ed497"/>
+    <managerType typeId="02052620-c65d-42dc-9fb7-f5e07b57a34e" valueTypeId="3fddd1c0-3c10-416f-9929-47d231594b44"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="532fe4b7-33ec-4b58-8863-bf114a5d0cec">
+    <name>ВалютаЦены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="86ad3239-467a-4b91-8a18-5c50ed88dfc2">
+    <name>ЦенаВключаетНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

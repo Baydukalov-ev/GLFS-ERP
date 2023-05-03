@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20a0a4e5-4b6f-49d7-a30d-863ec9594fb3">
+  <name>бг_ПустойФайлPDF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пустой файл PDF</value>
+  </synonym>
+  <comment>Используется для выгрузки XML документов в ЕГАИС, в случае если в xsd схеме свойство обязательно, но реального файла нет.</comment>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

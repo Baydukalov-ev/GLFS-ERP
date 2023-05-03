@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e230808-8bf7-447e-96d4-e72ab99322af">
+  <producedTypes>
+    <selectionType typeId="48252ead-1679-4ba8-9282-c878798dfe96" valueTypeId="8dfd0c08-4f96-409c-b411-bbe9635acb82"/>
+    <listType typeId="78cc05e5-80e7-4191-8eb2-0f62e1bf53e0" valueTypeId="3b116490-57ee-4698-bb88-d2b7edb8433e"/>
+    <managerType typeId="4abc560e-22fa-48eb-9e17-d15baad788da" valueTypeId="f46da6f3-6edc-4614-96d5-5cc71cb8d133"/>
+    <recordSetType typeId="422b717d-b61d-41d6-a231-356fdc38ed71" valueTypeId="0d0bf7ff-04a6-4e8e-9a3d-4180b14710ac"/>
+    <recordKeyType typeId="5de4ed73-9043-44da-b5cc-9b405ffe18c1" valueTypeId="04d3f928-5192-41fd-93c8-f4cdc6a0c42d"/>
+    <recordType typeId="04a6d59f-6a4d-4741-8541-cb8ec16e822e" valueTypeId="4c9dcf0c-032d-4fbb-bcfe-88c690114992"/>
+    <recordManagerType typeId="a1f93ba3-ec5b-4afc-8208-d0a51f89e7ab" valueTypeId="80633109-f670-408b-bacf-2f193b9f3c7c"/>
+  </producedTypes>
+  <name>бг_ПартнерыДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партнеры долгосрочных резервов (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1a6e232c-d2ef-48fc-9cc4-07ab220c0a00">
+    <name>ПартнерОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер отгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e9085d30-f4ca-46d6-85e9-d2b9a80fcdc2">
+    <name>ПартнерРезерва</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер резерва</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

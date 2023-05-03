@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="528aeed6-5233-40b1-a698-90133fd02705">
+  <name>бг_РегистрацияБанковскихГарантийИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация банковских гарантий (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

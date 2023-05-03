@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffe197f1-fab4-4439-836d-d7e47878a94d">
+  <name>бг_ЕК_СКЮ_ОбъемыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объемы, л. (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

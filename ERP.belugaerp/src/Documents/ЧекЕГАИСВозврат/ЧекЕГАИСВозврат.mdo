@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39b0b450-3421-4667-9bd8-078512bd1e8b">
+  <producedTypes>
+    <objectType typeId="b971119d-df12-4ef9-881b-dc0072ed5940" valueTypeId="0742959e-a56c-481e-97a9-c8d159f64f1c"/>
+    <refType typeId="b8ac8bb9-a8cb-4e84-b16f-36297479b776" valueTypeId="2312bd44-e918-4353-b576-95480b4d7df0"/>
+    <selectionType typeId="f16485f6-93ea-4784-bd6b-af84755397ed" valueTypeId="1c80abba-97dd-4acd-915b-49545e8ba60d"/>
+    <listType typeId="bf2e6661-3084-400c-95a2-362b21585ef7" valueTypeId="e2d27789-026a-443a-b81b-7836e9429114"/>
+    <managerType typeId="da6b9a11-7a8c-4a0e-814c-5e0b17a3f88e" valueTypeId="b6959ded-d9cf-4b9e-8c72-65bab6e4787c"/>
+  </producedTypes>
+  <name>ЧекЕГАИСВозврат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="7ac4b0cc-dad7-4712-8e0d-a40161c5cc03">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

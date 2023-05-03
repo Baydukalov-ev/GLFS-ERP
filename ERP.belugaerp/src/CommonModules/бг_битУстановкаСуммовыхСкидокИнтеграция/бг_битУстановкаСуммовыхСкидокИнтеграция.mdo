@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="392f1510-6f2f-4302-8f7a-5dec1ceffc0b">
+  <name>бг_битУстановкаСуммовыхСкидокИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка суммовых скидок (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

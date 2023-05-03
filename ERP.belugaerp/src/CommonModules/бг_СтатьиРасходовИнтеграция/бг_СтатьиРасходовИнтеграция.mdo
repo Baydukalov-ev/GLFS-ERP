@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="601e7558-9a6f-48be-a2b3-381ac6327d28">
+  <name>бг_СтатьиРасходовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи расходов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

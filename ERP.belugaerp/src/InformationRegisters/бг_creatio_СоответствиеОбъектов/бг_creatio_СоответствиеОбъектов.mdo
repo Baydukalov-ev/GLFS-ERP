@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a724fc6-eea7-47d4-98de-f6f52a12f6fb">
+  <producedTypes>
+    <selectionType typeId="848e2f03-6162-4a2a-a1f2-19d4f1052f05" valueTypeId="d51fc5a7-e88d-4282-a109-d99345d9d68a"/>
+    <listType typeId="107d19f8-4826-4cb0-bc7c-1b5dd567e3c1" valueTypeId="d555ae75-d70e-41ea-9202-dcf84e03c5bc"/>
+    <managerType typeId="0c033a33-5194-4120-8100-deb56dcf04e8" valueTypeId="35794972-9cfa-42c1-8828-b4b9d0b347c6"/>
+    <recordSetType typeId="f2c38d04-5c2f-45ad-b435-127d333e8487" valueTypeId="67341c36-531c-4b8e-945f-8b8ecd2b91d4"/>
+    <recordKeyType typeId="b6fc90ac-48c1-42f9-9d2b-0271e9eaaac6" valueTypeId="74675354-422a-427f-8b40-9a856dffc6d8"/>
+    <recordType typeId="ccfa7ed4-46c6-4874-92f2-49813290784b" valueTypeId="3f989a9c-d7d0-4d26-9db1-20f7d3d675cb"/>
+    <recordManagerType typeId="9b2a8f0d-1012-4e25-b38f-533028123659" valueTypeId="e0089477-70be-439c-a6b1-b6ce083ee968"/>
+  </producedTypes>
+  <name>бг_creatio_СоответствиеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сответствие объектов (Creatio)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.бг_creatio_СоответствиеОбъектов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="e3dffa36-fbfd-4057-9fd4-b49c1900dc6c">
+    <name>ОбъектERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ERP</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БизнесРегионы</types>
+      <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+      <types>CatalogRef.СкидкиНаценки</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.ВидыЦен</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+      <types>CatalogRef.КлассификаторБанков</types>
+      <types>EnumRef.ЮрФизЛицо</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b93c926c-c8a7-4684-a162-b9872c117148">
+    <name>ОбъектCreatio</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект creatio</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="84e63ec1-6e9a-4187-9897-260e0247a651">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="40d5a762-6e75-4dd6-b6f9-c307d5699648">
+    <name>бг_ИдентификаторыCreatio</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификаторы creatio</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.БизнесРегионы</types>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+      <types>CatalogRef.СоглашенияСКлиентами</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

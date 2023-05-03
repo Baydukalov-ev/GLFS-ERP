@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fadb712c-1d8c-4ed9-bc37-4c9a3776e6b4">
+  <producedTypes>
+    <refType typeId="38deedb2-0548-427a-8cd9-9a083deca635" valueTypeId="ccca3c89-6b66-4919-b21c-d3e050f9d523"/>
+    <listType typeId="48ab854f-f088-496b-9223-4db86a799f22" valueTypeId="5790791a-eacd-48a4-8906-b5e42600a6b2"/>
+    <managerType typeId="a48df077-25f7-4afc-91fd-d1903ea85c99" valueTypeId="e75f1438-1755-4ef4-a603-524ddbfaf7c6"/>
+  </producedTypes>
+  <name>бг_ТипыТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ТС (уат)</value>
+  </synonym>
+  <comment>(уат)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a115d02-8531-4ab8-8a30-fc31528b0c86">
+    <name>ГрузовойАвтотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой автотранспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae8eaef8-6157-4862-860c-a29d56422d33">
+    <name>ЛегковойАвтотранспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковой автотранспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad7d1b8c-435b-4a33-b23c-b38d522616e7">
+    <name>ТаксиПассажирское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Такси пассажирское</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b92e165-56fc-4893-a49b-f78ac61953c5">
+    <name>Автобус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автобус</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c84512b4-a901-4198-8b2f-aaf18dabc81b">
+    <name>ЖД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ж/д</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b29554a8-8138-443e-945b-9a9dba1b6822">
+    <name>Морской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Морской</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f99565a5-4cf0-49a8-8628-a2160bc6982e">
+    <name>Авиа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авиа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3aa03d60-aaec-4944-b78d-9c831c825596">
+    <name>Прочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ffe4a79-f712-480a-ad35-617841275de6">
+    <name>алкРечной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Речной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

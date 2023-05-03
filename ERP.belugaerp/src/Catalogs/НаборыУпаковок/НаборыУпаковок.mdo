@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cba525f2-e26e-49a9-b80a-1f2248220523">
+  <producedTypes>
+    <objectType typeId="72637c54-5d15-4a94-8fbb-3fd394f515a9" valueTypeId="acdb6fa5-03d5-4d36-9c64-da9580107688"/>
+    <refType typeId="b34eb64b-696f-45f2-8eee-ddd24318e78a" valueTypeId="59faedab-5ff1-4406-b4de-6f003c1a384d"/>
+    <selectionType typeId="bf46a053-7172-4cc4-a2dc-83b834da3ad9" valueTypeId="b0bc6696-b6a1-490c-945a-b0445d1c41ed"/>
+    <listType typeId="e63d5d1b-4a0a-4510-b803-64bd6778bce2" valueTypeId="991de95a-43b1-4528-8a72-ea26713ee6fb"/>
+    <managerType typeId="a9d0f6de-8a8b-4a87-b5f6-764db499df7c" valueTypeId="57b73483-c207-4312-8da3-3790e410c763"/>
+  </producedTypes>
+  <name>НаборыУпаковок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="a08088c3-8d1c-4e23-9a6e-20c0e40b2bec">
+      <name>ИндивидуальныйДляНоменклатуры</name>
+      <description>Индивидуальный набор для номенклатуры</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="88c654ff-1689-4d12-93ce-c3b92a0f33f1">
+      <name>БазовыеЕдиницыИзмерения</name>
+      <description>Базовые единицы измерения</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

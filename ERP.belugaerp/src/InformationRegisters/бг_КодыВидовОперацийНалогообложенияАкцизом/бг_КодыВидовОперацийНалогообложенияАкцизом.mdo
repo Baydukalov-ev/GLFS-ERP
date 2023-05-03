@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd50cd72-b9a3-4b28-ad7e-71cd945f9aad">
+  <producedTypes>
+    <selectionType typeId="a4c6e407-d947-4638-abcd-8dbbb380fd1e" valueTypeId="5c26cddd-56cf-4f81-a71a-bbb10d72ef42"/>
+    <listType typeId="ec3c9ed6-d549-4e2d-8dd0-dcd7b315efa9" valueTypeId="73a57162-5094-40bb-8d53-594b3345a6bd"/>
+    <managerType typeId="6183bb0f-d1ab-436e-b972-7330b18ac4d6" valueTypeId="c2689add-2352-443f-8927-d7fc820b12c0"/>
+    <recordSetType typeId="7f7f9220-c023-4fe5-a5c7-98d59b917bf3" valueTypeId="3c29ebab-3198-4f65-974e-2d360139f4a3"/>
+    <recordKeyType typeId="5765dca5-fd19-4d55-8d7e-8887012bfba2" valueTypeId="cf268e95-e29d-47b5-a8ae-4cbb1c96f84d"/>
+    <recordType typeId="a2450386-dae3-486f-bbd6-99d889c64d99" valueTypeId="1b316e06-9075-4937-917c-b94ac5b8f72a"/>
+    <recordManagerType typeId="75e0d6fb-49ab-4154-9263-3c1f4bb318a5" valueTypeId="d11b406d-d339-466a-9d8f-6f8e2f7641aa"/>
+  </producedTypes>
+  <name>бг_КодыВидовОперацийНалогообложенияАкцизом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды видов операций налогообложения акцизом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_КодыВидовОперацийНалогообложенияАкцизом.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aa4a19c0-7624-4260-b99d-5222b43d9569">
+    <name>ВидПодакцизныхТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид подакцизных товаров</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ВидыПодакцизныхТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d20b88ba-98dd-49e6-b04f-3336ceeb0c90">
+    <name>КБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>КБК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>BCC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="64679280-b571-41e5-8a35-99444c8feba9">
+    <name>ВидОперацииНалогообложенияАкцизом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции налогообложения акцизом</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ВидыОперацийНалогообложенияАкцизом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0a135dd5-13fb-4c24-b319-77519f21935c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

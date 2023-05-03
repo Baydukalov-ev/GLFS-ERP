@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипЛицензии</dataPath>
+			<field>ТипЛицензии</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАлкогольнойПродукции</dataPath>
+			<field>ВидАлкогольнойПродукции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Крепость</dataPath>
+			<field>Крепость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СкидкаНаценка</dataPath>
+			<field>СкидкаНаценка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаСоСкидкой</dataPath>
+			<field>ЦенаСоСкидкой</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена со скидкой</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаEDI</dataPath>
+			<field>ЦенаEDI</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена EDI</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РазницаСEDI</dataPath>
+			<field>РазницаСEDI</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разница СEDI</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСкидкиНаценкиCRM</dataPath>
+			<field>ТипСкидкиНаценкиCRM</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип скидки наценки CRM</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаПрайс</dataPath>
+			<field>ЦенаПрайс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена прайс</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СкидкаВРублях</dataPath>
+			<field>СкидкаВРублях</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скидка в рублях</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СкидкаВРубляхИтого</dataPath>
+			<field>СкидкаВРубляхИтого</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скидка в рублях итого</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроцентСкидкиИлиНаценкиИтого</dataPath>
+			<field>ПроцентСкидкиИлиНаценкиИтого</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Процент скидки или наценки итого</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПорогРАР</dataPath>
+			<field>ПорогРАР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порог РАР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаСоСкидкойС_НДС</dataPath>
+			<field>ЦенаСоСкидкойС_НДС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена со скидкой с НДС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЦенаСоСкидкойПоСкидкеНаценке</dataPath>
+			<field>ЦенаСоСкидкойПоСкидкеНаценке</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Цена со скидкой</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>//++син_ЛАГ
+
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗаказКлиентаТовары.НомерСтроки КАК НомерСтроки,
+	ЗаказКлиентаТовары.Номенклатура КАК Номенклатура,
+	ЗаказКлиентаТовары.Цена КАК Цена,
+	ЗаказКлиентаТовары.бг_ЦенаСоСкидкой КАК ЦенаСоСкидкой,
+	ВЫРАЗИТЬ(ВЫБОР
+			КОГДА ЗаказКлиентаТовары.Ссылка.ЦенаВключаетНДС
+				ТОГДА ЗаказКлиентаТовары.бг_ЦенаСоСкидкой
+			КОГДА ЗаказКлиентаТовары.Количество &lt;&gt; 0
+				ТОГДА ЗаказКлиентаТовары.СуммаСНДС / ЗаказКлиентаТовары.Количество
+			ИНАЧЕ ЗаказКлиентаТовары.бг_ЦенаСоСкидкой * (100 + ЗаказКлиентаТовары.СтавкаНДС.Ставка) / 100
+		КОНЕЦ КАК ЧИСЛО(15, 2)) КАК ЦенаСоСкидкойС_НДС,
+	ЗаказКлиентаТовары.бг_ЦенаEDI КАК ЦенаEDI,
+	ЗаказКлиентаТовары.бг_РазницаСEDI КАК РазницаСEDI,
+	ЗаказКлиентаТовары.бг_ПроцентПримененнойСкидки КАК ПроцентСкидки,
+	ЗаказКлиентаТовары.Цена - ЗаказКлиентаТовары.бг_ЦенаСоСкидкой КАК СуммаСкидки,
+	ЗаказКлиентаТовары.КлючСвязи КАК КлючСвязи,
+	ЗаказКлиентаТовары.Сумма + ЗаказКлиентаТовары.бг_СуммаПримененнойСкидки КАК СуммаБезСкидки,
+	ВЫБОР
+		КОГДА ВидыАлкогольнойПродукции.бг_ИспользоватьПрочуюАлкогольнуюПродукцию
+			ТОГДА бг_ЗначенияДополнительныхКонстант.Значение
+		ИНАЧЕ ВидыАлкогольнойПродукции.Ссылка
+	КОНЕЦ КАК ВидАлкогольнойПродукции,
+	ВЫБОР Товары.Крепость
+		КОГДА ВЫРАЗИТЬ(Товары.Крепость КАК ЧИСЛО(3, 0))
+			ТОГДА Товары.Крепость - 1
+		ИНАЧЕ ВЫРАЗИТЬ(Товары.Крепость КАК ЧИСЛО(3, 0))
+	КОНЕЦ КАК Крепость,
+	ВидыАлкогольнойПродукции.бг_КонтролироватьКрепость КАК КонтролироватьКрепость,
+	ЗаказКлиентаТовары.Ссылка.Организация КАК Организация,
+	ЗаказКлиентаТовары.Ссылка.Дата КАК Дата,
+	Товары.ОбъемДАЛ * 10 КАК Объем
+ПОМЕСТИТЬ ТоварыЗаказа
+ИЗ
+	Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК Товары
+		ПО ЗаказКлиентаТовары.Номенклатура = Товары.Ссылка
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ВидыАлкогольнойПродукции КАК ВидыАлкогольнойПродукции
+		ПО (Товары.ВидАлкогольнойПродукции = ВидыАлкогольнойПродукции.Ссылка)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.бг_ЗначенияДополнительныхКонстант КАК бг_ЗначенияДополнительныхКонстант
+		ПО (бг_ЗначенияДополнительныхКонстант.Константа.Идентификатор = "ВидАлкогольнойПродукцииДляКонтроляМРЦПрочихЛВИ")
+ГДЕ
+	ЗаказКлиентаТовары.Ссылка = &amp;Документ
+	И НЕ ЗаказКлиентаТовары.Отменено
+
+ИНДЕКСИРОВАТЬ ПО
+	КлючСвязи
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ ПЕРВЫЕ 1
+	ЛицензииПоставщиковАлкогольнойПродукции.бг_ТипЛицензии КАК ТипЛицензии,
+	ЛицензииПоставщиковАлкогольнойПродукции.Владелец КАК Организация
+ПОМЕСТИТЬ ДанныеЛицензии
+ИЗ
+	ТоварыЗаказа КАК ТоварыЗаказа
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ЛицензииПоставщиковАлкогольнойПродукции КАК ЛицензииПоставщиковАлкогольнойПродукции
+		ПО ТоварыЗаказа.Организация = ЛицензииПоставщиковАлкогольнойПродукции.Владелец
+ГДЕ
+	ВЫБОР
+			КОГДА ЛицензииПоставщиковАлкогольнойПродукции.ДатаНачала = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛицензииПоставщиковАлкогольнойПродукции.ДатаНачала &lt;= ТоварыЗаказа.Дата
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА ЛицензииПоставщиковАлкогольнойПродукции.ДатаОкончания = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛицензииПоставщиковАлкогольнойПродукции.ДатаОкончания &gt; ТоварыЗаказа.Дата
+		КОНЕЦ
+
+УПОРЯДОЧИТЬ ПО
+	Организация
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	бг_МинимальныеЦеныАлкогольнойПродукцииСрезПоследних.ВидАлкогольнойПродукции КАК ВидАлкогольнойПродукции,
+	бг_МинимальныеЦеныАлкогольнойПродукцииСрезПоследних.Крепость КАК Крепость,
+	бг_МинимальныеЦеныАлкогольнойПродукцииСрезПоследних.Цена КАК ЦенаМРЦ,
+	бг_МинимальныеЦеныАлкогольнойПродукцииСрезПоследних.ЕмкостьТары КАК ЕмкостьТары
+ПОМЕСТИТЬ ДанныеМРЦ
+ИЗ
+	РегистрСведений.бг_МинимальныеЦеныАлкогольнойПродукции.СрезПоследних(
+			,
+			ТипЛицензии В
+				(ВЫБРАТЬ
+					ДанныеЛицензии.ТипЛицензии
+				ИЗ
+					ДанныеЛицензии КАК ДанныеЛицензии)) КАК бг_МинимальныеЦеныАлкогольнойПродукцииСрезПоследних
+
+ИНДЕКСИРОВАТЬ ПО
+	ВидАлкогольнойПродукции,
+	Крепость
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ТоварыЗаказа.НомерСтроки КАК НомерСтроки,
+	ТоварыЗаказа.Номенклатура КАК Номенклатура,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ЕСТЬNULL(ЗаказКлиентаСкидкиНаценки.СкидкаНаценка, ЗНАЧЕНИЕ(Справочник.СкидкиНаценки.Пустаяссылка))) КАК СкидкаНаценка,
+	СУММА(ВЫБОР
+			КОГДА ТоварыЗаказа.СуммаБезСкидки = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА ЗаказКлиентаСкидкиНаценки.Сумма = 0
+						ТОГДА 0
+					ИНАЧЕ ЗаказКлиентаСкидкиНаценки.Сумма * ТоварыЗаказа.Цена / ТоварыЗаказа.СуммаБезСкидки
+				КОНЕЦ
+		КОНЕЦ) КАК СкидкаВРублях,
+	СУММА(ВЫБОР
+			КОГДА ТоварыЗаказа.СуммаБезСкидки = 0
+				ТОГДА 0
+			ИНАЧЕ ВЫБОР
+					КОГДА ЗаказКлиентаСкидкиНаценки.Сумма = 0
+						ТОГДА 0
+					ИНАЧЕ ТоварыЗаказа.Цена - ЗаказКлиентаСкидкиНаценки.Сумма * ТоварыЗаказа.Цена / ТоварыЗаказа.СуммаБезСкидки
+				КОНЕЦ
+		КОНЕЦ) КАК ЦенаСоСкидкойПоСкидкеНаценке,
+	ТоварыЗаказа.Цена КАК ЦенаПрайс,
+	ТоварыЗаказа.ЦенаСоСкидкой КАК ЦенаСоСкидкой,
+	ТоварыЗаказа.ЦенаСоСкидкойС_НДС КАК ЦенаСоСкидкойС_НДС,
+	ТоварыЗаказа.ЦенаEDI КАК ЦенаEDI,
+	ТоварыЗаказа.РазницаСEDI КАК РазницаСEDI,
+	ТоварыЗаказа.ПроцентСкидки КАК ПроцентСкидкиИлиНаценкиИтого,
+	ТоварыЗаказа.СуммаСкидки КАК СкидкаВРубляхИтого,
+	ЕСТЬNULL(ЗаказКлиентаСкидкиНаценки.СкидкаНаценка.бг_ТипСкидкиНаценкиCRM, ЗНАЧЕНИЕ(Справочник.бг_ТипыСкидокНаценокCRM.ПустаяСсылка)) КАК ТипСкидкиНаценкиCRM,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ДанныеМРЦ.ЕмкостьТары, 0) = 0
+			ТОГДА 0
+		ИНАЧЕ ДанныеМРЦ.ЦенаМРЦ * ТоварыЗаказа.Объем / ДанныеМРЦ.ЕмкостьТары
+	КОНЕЦ КАК ПорогРАР
+ИЗ
+	ТоварыЗаказа КАК ТоварыЗаказа
+		ЛЕВОЕ СОЕДИНЕНИЕ ДанныеМРЦ КАК ДанныеМРЦ
+		ПО ТоварыЗаказа.ВидАлкогольнойПродукции = ДанныеМРЦ.ВидАлкогольнойПродукции
+			И (ВЫБОР
+				КОГДА ТоварыЗаказа.КонтролироватьКрепость
+					ТОГДА ТоварыЗаказа.Крепость = ДанныеМРЦ.Крепость
+				ИНАЧЕ ИСТИНА
+			КОНЕЦ)
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента.СкидкиНаценки КАК ЗаказКлиентаСкидкиНаценки
+		ПО ТоварыЗаказа.КлючСвязи = ЗаказКлиентаСкидкиНаценки.КлючСвязи
+ГДЕ
+	ЗаказКлиентаСкидкиНаценки.Ссылка = &amp;Документ
+	И ТоварыЗаказа.СуммаСкидки &lt;&gt; 0
+
+СГРУППИРОВАТЬ ПО
+	ТоварыЗаказа.Цена,
+	ТоварыЗаказа.Номенклатура,
+	ТоварыЗаказа.НомерСтроки,
+	ТоварыЗаказа.ЦенаСоСкидкой,
+	ТоварыЗаказа.ЦенаСоСкидкойС_НДС,
+	ТоварыЗаказа.ЦенаEDI,
+	ТоварыЗаказа.РазницаСEDI,
+	ТоварыЗаказа.ПроцентСкидки,
+	ТоварыЗаказа.СуммаСкидки,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ДанныеМРЦ.ЕмкостьТары, 0) = 0
+			ТОГДА 0
+		ИНАЧЕ ДанныеМРЦ.ЦенаМРЦ * ТоварыЗаказа.Объем / ДанныеМРЦ.ЕмкостьТары
+	КОНЕЦ,
+	ЕСТЬNULL(ЗаказКлиентаСкидкиНаценки.СкидкаНаценка.бг_ТипСкидкиНаценкиCRM, ЗНАЧЕНИЕ(Справочник.бг_ТипыСкидокНаценокCRM.ПустаяСсылка))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТоварыЗаказа.НомерСтроки,
+	ТоварыЗаказа.Номенклатура,
+	ЗНАЧЕНИЕ(Справочник.СкидкиНаценки.Пустаяссылка),
+	0,
+	0,
+	ТоварыЗаказа.Цена,
+	ТоварыЗаказа.ЦенаСоСкидкой,
+	ТоварыЗаказа.ЦенаСоСкидкойС_НДС,
+	ТоварыЗаказа.ЦенаEDI,
+	ТоварыЗаказа.РазницаСEDI,
+	ТоварыЗаказа.ПроцентСкидки,
+	ТоварыЗаказа.СуммаСкидки,
+	ЗНАЧЕНИЕ(Справочник.бг_ТипыСкидокНаценокCRM.ПустаяСсылка),
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ДанныеМРЦ.ЕмкостьТары, 0) = 0
+			ТОГДА 0
+		ИНАЧЕ ДанныеМРЦ.ЦенаМРЦ * ТоварыЗаказа.Объем / ДанныеМРЦ.ЕмкостьТары
+	КОНЕЦ
+ИЗ
+	ТоварыЗаказа КАК ТоварыЗаказа
+		ЛЕВОЕ СОЕДИНЕНИЕ ДанныеМРЦ КАК ДанныеМРЦ
+		ПО ТоварыЗаказа.ВидАлкогольнойПродукции = ДанныеМРЦ.ВидАлкогольнойПродукции
+			И (ВЫБОР
+				КОГДА ТоварыЗаказа.КонтролироватьКрепость
+					ТОГДА ТоварыЗаказа.Крепость = ДанныеМРЦ.Крепость
+				ИНАЧЕ ИСТИНА
+			КОНЕЦ)
+ГДЕ
+	ТоварыЗаказа.СуммаСкидки = 0
+
+УПОРЯДОЧИТЬ ПО
+	НомерСтроки</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ОтклонениеОтМРЦ</dataPath>
+		<expression>ПорогРАР - ЦенаСоСкидкойС_НДС</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отклонение от МРЦ</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<totalField>
+		<dataPath>СкидкаВРублях</dataPath>
+		<expression>Сумма(СкидкаВРублях)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЦенаСоСкидкойПоСкидкеНаценке</dataPath>
+		<expression>Сумма(ЦенаСоСкидкойПоСкидкеНаценке)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Документ</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документ</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ЗаказКлиента</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>РасшифровкаСкидок</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расшифровка скидок</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерСтроки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаПрайс</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаСоСкидкой</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаСоСкидкойС_НДС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаEDI</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РазницаСEDI</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разница с EDI</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПорогРАР</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПроцентСкидкиИлиНаценкиИтого</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Процент скидки или наценки</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СкидкаВРубляхИтого</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Скидка в рублях</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СкидкаВРублях</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЦенаСоСкидкойПоСкидкеНаценке</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Цена с учетом скидки</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Документ</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>73df4df0-2331-4ae5-b5b4-84b7238c52db</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ПорогРАР</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ПроцентСкидкиИлиНаценкиИтого</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СкидкаВРублях</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СкидкаВРубляхИтого</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>СкидкаНаценка</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ЦенаПрайс</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ЦенаEDI</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ЦенаСоСкидкой</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ЦенаСоСкидкойПоСкидкеНаценке</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ЦенаСоСкидкойС_НДС</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧДЦ=2</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ОтклонениеОтМРЦ</dcsset:left>
+							<dcsset:comparisonType>Greater</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">style:ЦветФонаПредупреждения</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ТипСкидкиНаценкиCRM</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">СкидкаВРублях</dcsset:left>
+							<dcsset:comparisonType>Filled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto">
+								<dcsset:use>false</dcsset:use>
+							</dcsset:item>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>НомерСтроки</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Номенклатура</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЦенаПрайс</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЦенаСоСкидкой</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЦенаСоСкидкойС_НДС</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЦенаEDI</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>РазницаСEDI</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПорогРАР</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПроцентСкидкиИлиНаценкиИтого</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>СкидкаВРубляхИтого</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:use>false</dcsset:use>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

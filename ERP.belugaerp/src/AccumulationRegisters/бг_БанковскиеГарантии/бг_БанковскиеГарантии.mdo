@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80bcbc1d-a045-45b6-951a-4a3f315eaa87">
+  <producedTypes>
+    <selectionType typeId="d8ee4924-6820-4cf8-8dd4-fd238a3d4eb7" valueTypeId="9a31c205-2c5b-41ad-bcb6-b0f9c04d97a0"/>
+    <listType typeId="98132941-60db-472f-aaba-64e01a57ba20" valueTypeId="3c771a66-1075-42ef-918e-bbe3319f8042"/>
+    <managerType typeId="6fa9c9a7-43df-4e38-a603-1c29d2e23dcc" valueTypeId="04de9e4b-0bc8-4262-87fc-3c6e3b1bc70f"/>
+    <recordSetType typeId="4c58c1d4-5406-4af3-8a84-dc9122073069" valueTypeId="af76b8f4-40a3-425f-bce7-962475440596"/>
+    <recordKeyType typeId="d0f3adc0-25a8-4831-ac60-3a0d12ccef92" valueTypeId="10990a65-6367-4f42-a33c-991b0c5b78b4"/>
+    <recordType typeId="68f36fd5-386d-406d-bad5-5b5bd1d45d92" valueTypeId="778b0165-fb34-4f09-beb8-1dc40b0c24b9"/>
+  </producedTypes>
+  <name>бг_БанковскиеГарантии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банковские гарантии</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ec61e367-108c-4991-9483-020d8d35903a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сумма акциза операции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="db7f9b17-e5a8-42bc-8e2c-250934585002">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество в базовых единицах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d20102c6-461d-4e68-9f58-9c2f7b5d903f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="740b0253-561d-4152-88d8-fe740f2a599c">
+    <name>БанковскаяГарантия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковская гарантия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_БанковскиеГарантии</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ оприходования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5add630a-a2fa-40d1-a7d6-3f3f46630523">
+  <name>бг_ЧтениеВидовПеревозки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов перевозки</value>
+  </synonym>
+</mdclass:Role>

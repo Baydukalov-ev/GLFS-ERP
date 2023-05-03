@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6bb1e025-464d-4d63-b289-c8c9b067446c">
+  <producedTypes>
+    <containerType typeId="40ce5326-0684-4a32-ba4f-c5aad0380c50" valueTypeId="c31b8faa-a055-4eaf-99f1-7baac1d91e2a"/>
+  </producedTypes>
+  <name>НоменклатураБЭД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Номенклатура</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

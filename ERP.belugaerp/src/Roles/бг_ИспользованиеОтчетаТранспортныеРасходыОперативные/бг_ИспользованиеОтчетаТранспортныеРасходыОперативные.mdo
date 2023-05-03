@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a09ad3-5d05-43d8-bd45-91b0f119c864">
+  <name>бг_ИспользованиеОтчетаТранспортныеРасходыОперативные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета транспортные расходы оперативные</value>
+  </synonym>
+</mdclass:Role>

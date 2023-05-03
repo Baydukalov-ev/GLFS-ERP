@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faf38d4a-b5ea-4fe4-9256-caae6f911401">
+  <name>бг_ДобавлениеИзменениеНакладныхНаВыдачуФСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение накладных на выдачу ФСМ</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="52816b76-ab1e-40ac-80a2-a73811d0c560">
+  <name>ПодключаемыеОтчетыИОбработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Report.бг_ВедомостьПоОС_Консервация</content>
+  <content>Report.бг_НоменклатураБезСегментаSolvo</content>
+  <content>Report.бг_ФактЗакупокПоБакарди</content>
+</mdclass:Subsystem>

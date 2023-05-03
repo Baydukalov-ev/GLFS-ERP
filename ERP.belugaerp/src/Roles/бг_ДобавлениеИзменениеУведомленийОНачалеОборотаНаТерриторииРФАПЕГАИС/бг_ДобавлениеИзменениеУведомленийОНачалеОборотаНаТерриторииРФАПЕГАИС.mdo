@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a697ddb-df7f-4186-a1a3-c7723f723e9b">
+  <name>бг_ДобавлениеИзменениеУведомленийОНачалеОборотаНаТерриторииРФАПЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение уведомлений о начале оборота на территории РФ АП ЕГАИС (Белуга)</value>
+  </synonym>
+</mdclass:Role>

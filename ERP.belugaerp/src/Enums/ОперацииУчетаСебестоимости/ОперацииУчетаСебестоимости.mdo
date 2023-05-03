@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="28d69586-760c-4a5f-b112-789549b15144">
+  <producedTypes>
+    <refType typeId="cc1ba0b8-b106-4379-8c0f-47f9a3468d46" valueTypeId="7cd42fb1-036d-4aea-abfa-717656357a3f"/>
+    <listType typeId="50c5de5a-7b48-429a-ad6e-3a15842ca1fb" valueTypeId="30f351b3-4fa7-40f5-9786-8b1596fe984e"/>
+    <managerType typeId="3afed8f6-f2e8-40c4-b409-c36608958515" valueTypeId="aed9f4be-9d52-4780-9827-872575fd6fdd"/>
+  </producedTypes>
+  <name>ОперацииУчетаСебестоимости</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6dd69a1f-8712-4cdf-916b-dbb8080f62bf">
+    <name>СписаниеНаРасходыАктивы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

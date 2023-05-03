@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e451fae-51e8-4dcd-82b8-88f346431106">
+  <name>бг_ДобавлениеИзменениеКодовНоменклатурыСПУМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение кодов номенклатуры СПУМ</value>
+  </synonym>
+</mdclass:Role>

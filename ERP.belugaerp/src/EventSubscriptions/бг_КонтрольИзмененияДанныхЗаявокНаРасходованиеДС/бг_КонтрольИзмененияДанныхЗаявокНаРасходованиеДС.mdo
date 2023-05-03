@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50d3a5d1-6257-4dc2-80a2-a7b20d14326d">
+  <name>бг_КонтрольИзмененияДанныхЗаявокНаРасходованиеДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль изменения данных заявок на расходование ДС</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.СоглашенияСПоставщиками</types>
+    <types>CatalogObject.Контрагенты</types>
+    <types>CatalogObject.ДоговорыКонтрагентов</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.бг_Магистраль.КонтрольИзмененияДанныхЗаявокНаРасходованиеДС</handler>
+</mdclass:EventSubscription>

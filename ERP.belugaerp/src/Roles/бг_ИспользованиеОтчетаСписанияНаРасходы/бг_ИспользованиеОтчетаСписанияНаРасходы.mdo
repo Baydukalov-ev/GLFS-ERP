@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e04b9aa-8646-4106-b313-3e4bb5442c48">
+  <name>бг_ИспользованиеОтчетаСписанияНаРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета списания на расходы</value>
+  </synonym>
+</mdclass:Role>

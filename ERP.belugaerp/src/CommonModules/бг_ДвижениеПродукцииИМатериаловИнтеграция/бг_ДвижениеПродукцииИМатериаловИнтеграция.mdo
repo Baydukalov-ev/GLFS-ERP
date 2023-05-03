@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2adc7d4-b068-42d2-94a2-a5a3d982d7cd">
+  <name>бг_ДвижениеПродукцииИМатериаловИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение продукции и материалов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

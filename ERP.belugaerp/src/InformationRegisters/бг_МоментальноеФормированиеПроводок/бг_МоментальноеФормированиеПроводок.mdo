@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce32ddff-3559-4e2d-9166-3ff6ab22a458">
+  <producedTypes>
+    <selectionType typeId="e267dddb-0f93-4f17-b042-7822b8e46f1d" valueTypeId="2c499682-9b04-4727-a6a9-4b5ffafc7372"/>
+    <listType typeId="ff56862a-6cc1-4671-ba58-944493a16d04" valueTypeId="47baf70b-a504-411e-bc99-e288ee50f95b"/>
+    <managerType typeId="4adee970-9a8a-40fb-9349-89b432b18c53" valueTypeId="1b4d60d4-163c-4292-ad25-12b5ba3282f7"/>
+    <recordSetType typeId="6d7947bd-42e4-44d5-89b3-a07105fde94b" valueTypeId="d4e58506-a87e-46c1-9400-25730bd4ef36"/>
+    <recordKeyType typeId="9b6037bd-4c79-4bdd-a9df-06c22e262abe" valueTypeId="6d26a6c1-d08b-45ab-9e95-f592fcc3d83c"/>
+    <recordType typeId="67ad893c-19c2-4cf9-92f7-96393d3542ac" valueTypeId="5daeb48b-15ac-4061-bac9-92cf689b0bc4"/>
+    <recordManagerType typeId="58162c55-30d7-4da3-87fa-2c6b0566d16c" valueTypeId="6fbc9622-640e-4b5e-b6fa-14c9da46a7fb"/>
+  </producedTypes>
+  <name>бг_МоментальноеФормированиеПроводок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Моментальное формирование проводок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6e2e5f02-52cb-4739-9c3e-81747dc55b68">
+    <name>ФормироватьПроводкиСразу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать проводки сразу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ed96ed1f-80bc-4fcb-b501-0b9454aed819">
+    <name>ИмяДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72b98d5a-d706-44cd-b7b1-d504923d2156">
+  <producedTypes>
+    <refType typeId="b61e7415-649a-44cd-a71f-595db43f69bc" valueTypeId="c8174f51-b0c5-4dc1-8a78-53fa9fcb3b39"/>
+    <listType typeId="17af3c7e-90e7-42f9-b728-4b5fcfa87154" valueTypeId="4746cd2b-1008-48be-b2a2-629146778d29"/>
+    <managerType typeId="576d8029-6036-4554-881b-fecc7a9f8e4c" valueTypeId="4f4653ef-7715-4320-8950-46181095dc32"/>
+  </producedTypes>
+  <name>бг_СтатусыАкцизныхМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы акцизных марок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e3f0f5ba-2f9e-4f42-994e-bc65d239f2d1">
+    <name>ВключенаВАктПостановкиНаБаланс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в акт постановки на баланс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec14f6b1-2440-4978-b9f5-738cd32ad452">
+    <name>ВключенаВАктСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в акт списания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83016075-22e7-489c-8594-7453243f8faf">
+    <name>ВключенаВДокументВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в документ возврата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b2c96f5-0598-4a9b-8256-2496185961d7">
+    <name>ВключенаВОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в отгрузку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cd34409-d206-460a-80b8-2f5fe08376e7">
+    <name>ВключенаВОтчетОбУничтожении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в отчет об уничтожении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17df708b-6353-473d-8a8e-d34b28cb31b8">
+    <name>ВключенаВЭтапПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в этап производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d47c3911-1c79-420c-a529-556f2f72885d">
+    <name>ВНаличии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В наличии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="023468db-f4c1-490e-bc99-3a347ab19df2">
+    <name>Возвращена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвращена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ab0f424-36ca-42fa-985a-eb2a2f161142">
+    <name>Выбыла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбыла</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e987763e-cdb4-4447-bd38-2f72b19fdbc2">
+    <name>КОприходованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>К оприходованию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac7e9f90-ba5a-4f3b-9bdc-6d27bc559c63">
+    <name>НаБалансе</name>
+    <synonym>
+      <key>ru</key>
+      <value>На балансе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e451f33d-efbd-4a99-83cd-5e5f12ef2c6a">
+    <name>Оклеена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклеена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="231d4873-428f-452e-a902-71e2ca0cd96b">
+    <name>ПодготовленаКУничтожению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлена к уничтожению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d9971e5-2eac-43d9-a83c-3753872f98e0">
+    <name>ПодтвержденаНаСкладе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждена на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec9d7b96-d670-4965-9003-db158f8ca4ab">
+    <name>Пропущена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропущена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06f8bbc8-e239-49dc-9f23-10bde482cd17">
+    <name>Уничтожена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уничтожена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b801bca4-6d91-457e-a9b8-49427694af66">
+    <name>ВключенаВОтгрузкуОбработаноЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включена в отгрузку (обработано ЕГАИС)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

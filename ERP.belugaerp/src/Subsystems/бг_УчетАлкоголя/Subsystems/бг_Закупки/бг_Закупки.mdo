@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1796e44-1489-4e4c-ae5c-997ccb9354f9">
+  <name>бг_Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.битОтчетОбИмпортеПродукцииЕГАИС</content>
+  <content>Catalog.бг_ВидыОперацийНалогообложенияАкцизом</content>
+  <content>InformationRegister.бг_КодыВидовОперацийНалогообложенияАкцизом</content>
+  <content>Document.битДобавлениеНовойПродукцииЕГАИС</content>
+  <content>InformationRegister.СоответствиеНоменклатурыЕГАИС</content>
+  <content>Catalog.бг_ВидыЛицензируемойДеятельности</content>
+  <content>Document.битПланируемыйВвозЕГАИС</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

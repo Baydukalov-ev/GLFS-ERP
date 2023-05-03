@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37cdefe8-d89e-495b-ad9c-22def7eb227b">
+  <producedTypes>
+    <refType typeId="03825279-28d9-4a4d-a7dc-87952f4c3b38" valueTypeId="5e736e4a-4623-4180-9cbc-99b1d8c2aa1a"/>
+    <listType typeId="211ad05b-6ced-4ce4-898b-accb89934a8e" valueTypeId="b8ade9d8-c683-4953-81b8-9355d129896e"/>
+    <managerType typeId="b3ae1475-8355-4a73-b736-d69d107b837a" valueTypeId="6243f297-ebb6-44de-b6b1-1b41bf1dfddf"/>
+  </producedTypes>
+  <name>ИсточникиИнформацииОЦенахДляПечати</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="f75a344a-61bc-47e7-8f59-dd081b4bcea8">
+    <name>ПоСебестоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1ed593ac-54c7-437b-87e0-06302acd0ea2">
+    <name>ПоВидуЦен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

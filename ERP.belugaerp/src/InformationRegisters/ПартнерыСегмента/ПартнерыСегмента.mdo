@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6e611c4b-b7a7-4ce1-9af5-7c95ce03a0ea">
+  <producedTypes>
+    <selectionType typeId="4e34dfa2-f694-4055-8c20-4526b4140c11" valueTypeId="2804787b-a29d-4e10-9fe9-82899a37710d"/>
+    <listType typeId="91d22947-ef8b-43bd-b7a1-4e4057b3b7ab" valueTypeId="06157c03-0a0e-4803-be67-47bf9a108a9a"/>
+    <managerType typeId="29344e7d-c6d8-4c72-8c81-5e9d77d579aa" valueTypeId="d30415ff-649f-4427-9af7-e78394a67095"/>
+    <recordSetType typeId="999e74ac-f2a3-4aeb-af46-d246c5fcbfe3" valueTypeId="27f435b7-07cb-4a00-8b1b-0bd8d51e49df"/>
+    <recordKeyType typeId="a0ac3ae3-6c94-44f3-87f9-7dc8d5938997" valueTypeId="ec4e0d35-2bf0-452c-a086-879cd23452e5"/>
+    <recordType typeId="55113a65-49b1-4a3c-9d7f-c736f169668e" valueTypeId="5331e557-cb8d-4620-9396-7c1b866c9fc4"/>
+    <recordManagerType typeId="660abfd3-ada2-4e5c-b747-70ba24eb69cb" valueTypeId="12e083aa-2b68-4d3e-a0b0-fdcf93739a00"/>
+  </producedTypes>
+  <name>ПартнерыСегмента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="7f494d1e-0f0f-479d-938a-b3ecb843c3da">
+    <name>Сегмент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СегментыПартнеров</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="7fa9c0ca-c354-49d7-8cef-58198c07bd1e">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

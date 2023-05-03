@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e9a6427-1393-4a3e-9f47-966c3fb38c7c">
+  <name>ОсновныеСредства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Report.бг_ВедомостьПоОС_Консервация</content>
+  <parentSubsystem>Subsystem.ВнеоборотныеАктивы</parentSubsystem>
+</mdclass:Subsystem>

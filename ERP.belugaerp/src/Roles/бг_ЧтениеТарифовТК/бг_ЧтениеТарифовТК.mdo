@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d3d919a-43b3-4e57-b970-4354aa70ba62">
+  <name>бг_ЧтениеТарифовТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение тарифов ТК</value>
+  </synonym>
+</mdclass:Role>

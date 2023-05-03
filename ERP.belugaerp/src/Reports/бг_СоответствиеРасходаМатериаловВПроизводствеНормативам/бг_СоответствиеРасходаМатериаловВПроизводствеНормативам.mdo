@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ece961e-22cb-4f53-b30b-d3078e04f9de">
+  <producedTypes>
+    <objectType typeId="07dcdac6-dc8f-4585-8a60-6153b673f397" valueTypeId="8dd00c5b-d141-478a-abc6-b6ff3c5effb5"/>
+    <managerType typeId="72a48f77-108a-447c-a6b5-ddad5f806f6c" valueTypeId="d77b758e-891c-46d3-a9fe-3522950c1abc"/>
+  </producedTypes>
+  <name>бг_СоответствиеРасходаМатериаловВПроизводствеНормативам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие расхода материалов в производстве нормативам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_СоответствиеРасходаМатериаловВПроизводствеНормативам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="44319f5b-1c3a-42cb-a077-29dc7461db16">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

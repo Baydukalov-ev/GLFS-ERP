@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e741faf-401c-4c17-b1f6-4d121d7e9d01">
+  <producedTypes>
+    <objectType typeId="4261af21-157b-48da-90be-91343c00980f" valueTypeId="0124a95c-6660-4d09-b907-f43eddc4df7f"/>
+    <refType typeId="6a438dc8-8b83-4034-8455-baeff4ac51fc" valueTypeId="99eb267a-f818-4c4a-8254-9cef2175d9d1"/>
+    <selectionType typeId="022af1b3-227a-4fd7-897e-67e2e5f6482b" valueTypeId="87fc2ea6-9912-442d-b012-8bc67900f6c5"/>
+    <listType typeId="c8be670e-d34c-47e8-8bae-fd44854695eb" valueTypeId="87162a2b-828a-4bb8-9e0d-43e3248677e5"/>
+    <managerType typeId="8f13c985-1a05-4058-b052-d1a0a4945dc8" valueTypeId="b4d3d047-ffa1-4fa0-8c74-7597986781e5"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="474f4e23-bbed-42a1-a915-fcf898c13ee1">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="04415786-6598-4782-b289-0bd81dd79ac2">
+    <name>бг_ВариантСинхронизацииWMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант синхронизации WMS</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ВариантыСинхронизацииНоменклатурыWMS</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7399ab27-527b-47cf-b918-b4c0678da608">
+    <name>бг_ВедетсяВERP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведется в ERP</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43b548aa-c168-4c23-aedd-4e3528da5404">
+    <name>бг_ВидКлассификатораНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид классификатора НСИ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ВидКлассификатораНСИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eafca18d-f8d5-4951-8c27-4d57596e7cd4">
+    <name>бг_ВидОперацииНалогообложенияАкцизом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид налогообложения акцизом</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ВидыОперацийНалогообложенияАкцизом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93a42794-81ae-4a5d-81a5-4f322f0dad9b">
+    <name>бг_ЕдиницаИзмеренияМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения мест</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ТипИзмеряемойВеличины</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыИзмеряемыхВеличин.EnumValue.КоличествоШтук</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3eaab88-3790-4351-8d57-3e1571ba6112">
+    <name>бг_ИспользоватьЗаявлениеОВыдачеФСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать заявление о выдаче ФСМ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9be24ce2-c178-4f64-b291-2700f0a10f2e">
+    <name>бг_ИспользоватьКонечныйНомерДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать конечный номер диапазона</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09d5c50c-851a-45f0-ab90-9f3247e5b07c">
+    <name>бг_ИспользоватьНакладнаяНаВыдачуФСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать накладную на выдачу ФСМ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e02e34e6-40dc-497e-bc21-bae4f876e991">
+    <name>бг_ИспользоватьНачальныйНомерДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать начальный номер диапазона</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3f9b120-d267-4a33-b7b2-67c93487e2e1">
+    <name>бг_ИспользоватьНомерДиапазонаВРулоне</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать номер диапазона в рулоне</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd501624-fc9c-4085-9f94-6bb7d30ebace">
+    <name>бг_ИспользоватьНомерРулона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать номер рулона</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="737f8c45-364b-41c9-8b29-5bc2364165c1">
+    <name>бг_ИспользоватьСериюМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать серию марки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b8a84fc-939b-4645-9275-e06dfc6133ad">
+    <name>бг_НеФормироватьНаименованиеПоШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не формировать наименование по шаблону</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b722606-0f45-465b-b587-b525c6a50352">
+    <name>бг_ОграничиватьДобавлениеИзменениеНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничивать добавление изменение номенклатуры</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9dbeb949-88ca-4860-b9f9-29488c464504">
+    <name>бг_УстановитьДействиеОтгрузитьВЗаказеПриЗагрузкеРТиУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить действие &quot;Отгрузить&quot; в Заказе клиента при загрузке РТиУ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59e12206-cdbe-4e0f-addc-af9deb7ea614">
+    <name>бг_УчетОстатковИРезервовВРазрезеУпаковокПаллет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет остатков и резервов в разрезе упаковок паллет</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2915b70-a7d2-4e2c-a0f2-4a1f5c591451">
+    <name>ИспользованиеХарактеристик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыИспользованияХарактеристикНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="105bca64-c4df-4c43-87af-0d317ac408f1">
+    <name>ИспользоватьДатуПроизводстваСерии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="aa52a66c-691f-4888-b9bf-b76b2b73a16b">
+    <name>ИспользоватьСерии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9dad281d-af81-476a-93ab-3a22d302ecf2">
+    <name>ИспользоватьСрокГодностиСерии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="996fa87d-0715-4be8-8d90-627e5bfa3aa9">
+    <name>ОсобенностьУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ОсобенностиУчетаНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="0d0b1622-5025-4da3-b8fa-d62f7335c4ac">
+    <producedTypes>
+      <objectType typeId="eb77b266-3d99-442e-9306-588354ed7dee" valueTypeId="0b7727c1-4335-4ca5-bb3d-019284a3c9de"/>
+      <rowType typeId="86f51eb6-da9b-4b65-8d5c-25885b5fdb26" valueTypeId="82380321-c7fb-4b93-822e-933958a26f37"/>
+    </producedTypes>
+    <name>ПолитикиУчетаСерий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="26c58ba8-f2bf-4ae6-b420-57624c5b0035">
+      <name>Склад</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="93b1d45e-4f71-4419-bbc8-a42581f6772f">
+      <name>ПолитикаУчетаСерий</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ПолитикиУчетаСерий</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7706a391-9bb6-44a7-b137-544ee76671fd">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

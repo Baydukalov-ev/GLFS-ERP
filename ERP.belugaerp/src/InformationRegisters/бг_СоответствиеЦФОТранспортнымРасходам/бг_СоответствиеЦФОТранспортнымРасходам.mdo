@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67849287-146b-4522-85c6-59e9923dcd23">
+  <producedTypes>
+    <selectionType typeId="089460c2-33ef-487b-b78e-fdad1185f8b4" valueTypeId="0def04e9-72e9-4b7d-885c-8e18d25363dd"/>
+    <listType typeId="1045ac3a-401a-4d79-ac98-8c2d92f242af" valueTypeId="e1c40b3d-74bd-459f-862c-a4f14769ea48"/>
+    <managerType typeId="047dd4a5-9e26-4e13-8279-91382ce047cf" valueTypeId="d38d6505-ee6b-43c0-b451-3cb9bac03cdb"/>
+    <recordSetType typeId="ec77b71a-02d6-494e-8b52-50f5b4e66590" valueTypeId="a5ce73c1-2105-4712-85c1-97bbc947f723"/>
+    <recordKeyType typeId="8f538388-6db2-4f9a-90cf-7b487d54892e" valueTypeId="25d7c4df-2491-40a5-83cb-a99f0cfd9183"/>
+    <recordType typeId="6bd7c1ce-2e35-4b19-b56c-8048f029ef31" valueTypeId="83498e29-865b-4aab-a87a-f989b7955e5b"/>
+    <recordManagerType typeId="0fa47cdf-a8f9-46a5-9ad7-d046c1225b28" valueTypeId="4ecb9617-b047-4d4e-b31a-96e34e18a8e1"/>
+  </producedTypes>
+  <name>бг_СоответствиеЦФОТранспортнымРасходам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие ЦФО транспортным расходам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="31b2e2d7-8d12-4e37-8eb2-28239ee09255">
+    <name>ЦФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЦФО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f92dccc3-da06-4a74-b97b-a369a6f8faee">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

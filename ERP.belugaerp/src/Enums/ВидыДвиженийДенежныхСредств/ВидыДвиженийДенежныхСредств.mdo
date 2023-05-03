@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9019a9bf-383b-4928-b544-e1c4ee268296">
+  <producedTypes>
+    <refType typeId="986fda57-b492-4a67-b391-b7482e9f2b75" valueTypeId="28c4c966-e8d2-4d52-8fe6-1cb35d527203"/>
+    <listType typeId="5032af8e-1763-462f-877b-17511477207f" valueTypeId="49d091e3-730b-49e5-8888-588ebcff7ab8"/>
+    <managerType typeId="aaa1e103-1ffd-4765-80e6-7fb8874367a1" valueTypeId="3884b223-1025-4f95-8117-e4f08c1108a7"/>
+  </producedTypes>
+  <name>ВидыДвиженийДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="fe784b9a-52d6-455e-960a-d2f777515605">
+    <name>ВыплатаПроцентовВСвязиСоСтроительством</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="52d0bdd1-6a47-4ac2-9043-acd1992b14b2">
+    <name>ВыплатаПроцентовПоДолговымОбязательствам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e370babc-2f71-45d9-85a5-b6f9bdcf6a93">
+    <name>ОплатаТруда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1f859999-ceb9-42c6-a032-9a47cd2f510d">
+    <name>АрендныеПлатежиРоялтиЛицензионныеПлатежиГонорарыКомиссионные</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9a299e80-b0ce-4ae2-9624-fc78ccab1da4">
+    <name>ВыпускДолговыхИнструментов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c5c03265-7368-479f-8a90-d872edaec9b2">
+    <name>ПоступлениеОтДивидендовПроцентовПоДолговымФинансовымВложениям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a53e0741-baf3-436c-b832-1850e2aea203">
+    <name>ВыплатаДивидендов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ea61aba5-acff-43c5-b243-0b995f720da3">
+    <name>ОплатаОборотныхАктивов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5e4ca9a5-e29d-45d3-aff2-2778dd361b9d">
+    <name>НалогНаПрибыль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b0e654ac-1a45-413d-ad2a-66c619fff71b">
+    <name>ВыручкаОтПродажиВнеоборотныхАктивовКромеФинансовых</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="abb58cc7-8f42-400b-aa9e-7a3fcfb0d0ef">
+    <name>ПлатежиСобственникамВСвязиСВыкупомАкцийИлиПриВыходеИзСоставаУчастников</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0626a0c4-ae18-4977-b34a-9bcf77b38860">
+    <name>ПогашениеДолговыйЦенныхБумагВозвратКредитовИЗаймов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e04751c3-d45e-4144-828c-9cc1c7b87f12">
+    <name>ПоступлениеДенежныхВкладовСобственников</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d93e88ae-f655-4794-89d5-d59a4eab9447">
+    <name>ПоступленияОтЗаймовИКредитовПредоставленныхДругимиОрганизациями</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5a5c29bd-1f63-4ed2-930c-4436f1845cc3">
+    <name>ПоступленияОтПерепродажиФинансовыхВложений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6b796bbd-7bcf-4fce-9f16-86d5e2377fb2">
+    <name>ПоступленияОтПогашенияЗаймовПродажиДолговыхЦенныхБумаг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1005d46c-f27e-4454-bb27-12ae67310c27">
+    <name>СредстваПолученныеОтПокупателейИЗаказчиков</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e93d875b-bb47-407a-8d13-dbdad7966fd5">
+    <name>ПоступленияОтПродажиАкцийДругихОрганизаций</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="030d8edd-b3fa-4ede-adbb-ad8cd14dd264">
+    <name>ПоступленияОтЭмиссииАкций</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1ccbf75a-34ea-4ce0-a0dd-84b5d5f4f965">
+    <name>ПриобретениеАкцийДругихОрганизаций</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3be037bd-4b58-47dd-9c26-6c2a3a803ef2">
+    <name>ПриобретениеДолговыхЦенныхБумагПредоставлениеЗаймов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="40b3e0f4-4de9-49e4-8a31-d6f686cef807">
+    <name>ПриобретениеСозданиеМодернизацияРеконструкцияВнеоборотныхАктивов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c5ea7ac0-60e6-41d9-8681-691de304c9a4">
+    <name>ПрочиеПоступленияПоИнвестиционнойДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="53970076-be2b-4fe4-b946-37711aa9c51c">
+    <name>ПрочиеПоступленияПоТекущейДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5ea3735f-9d25-450b-8e6d-6e29c8e639e7">
+    <name>ПрочиеПоступленияПоФинансовойДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="81d3fb2f-89c2-42f1-a5f7-8357dcbe7f3b">
+    <name>ПрочиеРасходыПоИнвестиционнойДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0274858c-1d8c-4edc-93e3-e7dbf7bfb85c">
+    <name>ПрочиеРасходыПоТекущейДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="88053374-8ece-4020-8e5b-ea72610bb806">
+    <name>ПрочиеРасходыПоФинансовойДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

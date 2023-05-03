@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f00b5d03-d023-48f5-945e-c943ee7e7d36">
+  <producedTypes>
+    <objectType typeId="c1169f55-144b-414a-817f-22ef104b9468" valueTypeId="4b1ba5be-53b4-4ae4-b013-0248bf7ffef2"/>
+    <refType typeId="9b9e4775-cc9e-448e-a10b-ffaca8a28ac9" valueTypeId="ca329ec6-dbe3-46e6-b2b9-71c08af32743"/>
+    <selectionType typeId="3c3e73a7-5270-456b-87a9-a14bdc2c083d" valueTypeId="4ab7a89e-e577-4342-874f-21e01e3b1fb8"/>
+    <listType typeId="eaef062c-adc8-4a7a-bda9-f036ae5abacb" valueTypeId="14109469-f18e-46d9-80dd-e77675393861"/>
+    <managerType typeId="a3a8e096-2eca-486e-9211-6e1a4a9a16df" valueTypeId="db8719c6-399d-4484-b8bb-0e53bf1d7c22"/>
+  </producedTypes>
+  <name>ОстаткиЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="ec7cb1cf-89aa-496f-975c-0901374d0a81">
+    <name>ОрганизацияЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторОрганизацийЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="d5ab1cc8-a6e2-40fc-8ed2-9ccdaf1aa515">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="5debb2f3-204a-472a-8129-685c2100d5b1">
+    <producedTypes>
+      <objectType typeId="f38f045a-75bd-4a0e-924e-997104d935cc" valueTypeId="71c0ef69-2c65-4e96-a9dc-808eab586406"/>
+      <rowType typeId="38a75751-21bd-4733-9c9d-2a2721c27589" valueTypeId="9388df5a-67a0-450d-95d7-4ae983f403c1"/>
+    </producedTypes>
+    <name>ОстаткиПоДаннымЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="0782d2a6-b836-4727-bf74-299691264645">
+      <name>АлкогольнаяПродукция</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="f0f4bd22-d729-4bb0-a1c8-469bf90f3f36">
+      <name>Количество</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.КоличествоЕГАИС</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="37571c45-7dd4-41d4-afd3-88cd5c107bd1">
+      <name>Справка2</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Справки2ЕГАИС</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

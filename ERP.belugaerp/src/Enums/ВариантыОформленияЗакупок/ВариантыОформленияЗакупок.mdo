@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f34abc81-8d5b-4aa8-9bfb-17ad2dff8053">
+  <producedTypes>
+    <refType typeId="e995880b-bffb-4080-b149-0b942750aa5b" valueTypeId="346a8c4c-41c7-424f-a286-de9ca813ec7f"/>
+    <listType typeId="e051a9f4-6690-4160-861b-b786bea9a12d" valueTypeId="589ab78e-b719-4bc7-8823-bd1898b69e79"/>
+    <managerType typeId="ea092901-bf9f-4a18-b55d-a98175564593" valueTypeId="edb1e203-5a50-4d9f-a64b-0261821d07e9"/>
+  </producedTypes>
+  <name>ВариантыОформленияЗакупок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="b6c0b089-78ef-4648-b8b9-802cab79b038">
+    <name>НеРазделять</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c6f510dc-65ef-4343-b715-c7bf799b5225">
+    <name>НеотфактурованныеПоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

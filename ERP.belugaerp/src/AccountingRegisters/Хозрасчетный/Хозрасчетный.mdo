@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87e8f714-9a27-4c01-90d7-53a43292a760">
+  <producedTypes>
+    <selectionType typeId="67584ef2-9ca2-4d1c-8271-952304da08af" valueTypeId="95f2d1e0-9217-4ba2-965d-b25d4119bc23"/>
+    <listType typeId="27206a20-140f-4d84-a1b7-4742a87aec1d" valueTypeId="09e877ce-ad7a-4cf0-8892-f6d01c6945ee"/>
+    <managerType typeId="31823d48-ce26-42aa-88e8-3176a642331b" valueTypeId="2fd19c48-7589-4e4f-9f97-0bc2b31f2c4f"/>
+    <recordSetType typeId="b446b5b6-87a1-409c-abac-7c95ae2d2483" valueTypeId="4498dc55-04d8-4285-a5b6-3223625814b5"/>
+    <recordKeyType typeId="b1fcc9a4-2e96-4b16-80dc-5fac7d3d5a7d" valueTypeId="972ed441-b565-43a5-9223-6c8d6041c40c"/>
+    <recordType typeId="fc7295e9-795f-42aa-9b10-118f458468c2" valueTypeId="fddab203-c774-46be-a841-0f083950cc6d"/>
+    <extDimensionsType typeId="214592cb-3456-4b9f-9fdf-c802964e05ff" valueTypeId="c55cf41c-8235-4924-8092-74dc136006f6"/>
+  </producedTypes>
+  <name>Хозрасчетный</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccountingRegisterExtension">
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+</mdclass:AccountingRegister>

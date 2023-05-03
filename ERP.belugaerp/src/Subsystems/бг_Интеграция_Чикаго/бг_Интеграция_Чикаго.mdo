@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63d48d60-93ba-4d20-8db5-e54e8a3dbf6f">
+  <name>бг_Интеграция_Чикаго</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция (Чикаго)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.бг_ВыгрузкаДанныхДляЧикаго</content>
+  <content>Role.бг_ИспользованиеОбработкиВыгрузкаДанныхДляЧикаго</content>
+  <content>DataProcessor.бг_ЗагрузкаДанныхИзЧикаго</content>
+  <content>CommonTemplate.бг_ИнтеграцияСЧикаго_Логирование</content>
+  <content>Role.бг_ИспользованиеОбработкиЗагрузкиДанныхДляЧикаго</content>
+  <content>InformationRegister.бг_СоответствиеОбъектовУПП</content>
+  <content>Enum.бг_БазыУПП</content>
+  <content>InformationRegister.бг_НастройкиКорректировкиЗаказовБезСнятияСогласования</content>
+</mdclass:Subsystem>

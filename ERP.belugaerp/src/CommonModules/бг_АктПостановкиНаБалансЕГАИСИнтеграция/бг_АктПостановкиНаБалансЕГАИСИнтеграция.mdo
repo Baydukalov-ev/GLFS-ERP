@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51c2e89-922f-438c-b124-211640c1f8d0">
+  <name>бг_АктПостановкиНаБалансЕГАИСИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт постановки на баланс ЕГАИС (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a5ac3a1-c8ef-460b-bcd2-3d7333d739ba">
+  <producedTypes>
+    <containerType typeId="c42c9f52-2345-4887-9162-032fc54e0755" valueTypeId="6fdd089e-9aa6-4625-a30c-029bae0dad5b"/>
+  </producedTypes>
+  <name>КоличествоЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

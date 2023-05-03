@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ec3e152-b9df-4297-b9de-fdd42e960cfc">
+  <producedTypes>
+    <containerType typeId="31fc1747-7f74-4b92-bae8-ed5ab16ebaab" valueTypeId="79d787c4-995f-48a7-85d8-1271bbd3de89"/>
+  </producedTypes>
+  <name>СчетФактура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

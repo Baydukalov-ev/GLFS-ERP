@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3fedec3f-9351-46b2-99b5-8d9448342382">
+  <producedTypes>
+    <refType typeId="dea7b2ce-186e-4150-b5a2-c146dd23589e" valueTypeId="afa2ad0d-61b3-4653-b4fe-f632c0abdbb3"/>
+    <listType typeId="3e524dab-f4af-4296-89c5-4255024b9a03" valueTypeId="3c435fbc-3003-43ae-b72c-502676d90409"/>
+    <managerType typeId="b6058392-e70f-4200-b694-056cf00cd6ba" valueTypeId="001614a1-247d-4603-9725-4676b5dcffcf"/>
+  </producedTypes>
+  <name>СпособыНачисленияАмортизацииОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="10ce35fc-e63a-440a-a34a-703f8445dd62">
+    <name>Линейный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e272af66-3563-4840-91d4-d4213bcafedb">
+    <name>ПропорциональноОбъемуПродукции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bddf3e56-575a-4bda-b2f6-344b297d496f">
+    <name>ПоЕНАОФНа1000кмПробега</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2400d2a8-ffef-4b8b-9353-1c6c05e76904">
+    <name>УменьшаемогоОстатка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4788b00f-1258-41fb-b112-1aee3fbe421d">
+    <name>ПоСуммеЧиселЛетИспользования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="41c48f56-d97e-4361-aa8e-829c992c8549">
+    <name>ПоЕНАОФ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПоЗаказуМагазина</dataPath>
+			<field>КоличествоПоЗаказуМагазина</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество по заказу магазина</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПоЗаказуРозничногоПокупателя</dataPath>
+			<field>КоличествоПоЗаказуРозничногоПокупателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество по заказу розничного покупателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗаказКлиентаТовары.Ссылка КАК Ссылка,
+	ЗаказКлиентаТовары.Номенклатура КАК Номенклатура,
+	ЗаказКлиентаТовары.Характеристика КАК Характеристика,
+	СУММА(ЗаказКлиентаТовары.Количество) КАК Количество,
+	ЗаказКлиентаТовары.Отменено КАК Отменено
+ПОМЕСТИТЬ втЗаказРозничногоПокупателя
+ИЗ
+	Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+ГДЕ
+	ЗаказКлиентаТовары.Ссылка = &amp;Документ
+	И НЕ ЗаказКлиентаТовары.Отменено
+
+СГРУППИРОВАТЬ ПО
+	ЗаказКлиентаТовары.Номенклатура,
+	ЗаказКлиентаТовары.Характеристика,
+	ЗаказКлиентаТовары.Ссылка,
+	ЗаказКлиентаТовары.Отменено
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	Характеристика
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(втЗаказРозничногоПокупателя.Номенклатура, ЗаказыМагазина.Номенклатура) КАК Номенклатура,
+	ЕСТЬNULL(втЗаказРозничногоПокупателя.Характеристика, ЗаказыМагазина.Характеристика) КАК Характеристика,
+	ЕСТЬNULL(втЗаказРозничногоПокупателя.Количество, 0) КАК КоличествоПоЗаказуРозничногоПокупателя,
+	ЕСТЬNULL(ЗаказыМагазина.Количество, 0) КАК КоличествоПоЗаказуМагазина
+ИЗ
+	втЗаказРозничногоПокупателя КАК втЗаказРозничногоПокупателя
+		ПОЛНОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ЗаказКлиентаТовары.Номенклатура КАК Номенклатура,
+			ЗаказКлиентаТовары.Характеристика КАК Характеристика,
+			СУММА(ЗаказКлиентаТовары.Количество) КАК Количество
+		ИЗ
+			Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ГДЕ
+			ЗаказКлиентаТовары.Ссылка.бг_ЗаказРозничногоПокупателя В
+					(ВЫБРАТЬ
+						втЗаказРозничногоПокупателя.Ссылка
+					ИЗ
+						втЗаказРозничногоПокупателя КАК втЗаказРозничногоПокупателя)
+			И НЕ ЗаказКлиентаТовары.Отменено
+		
+		СГРУППИРОВАТЬ ПО
+			ЗаказКлиентаТовары.Номенклатура,
+			ЗаказКлиентаТовары.Характеристика) КАК ЗаказыМагазина
+		ПО втЗаказРозничногоПокупателя.Номенклатура = ЗаказыМагазина.Номенклатура
+			И втЗаказРозничногоПокупателя.Характеристика = ЗаказыМагазина.Характеристика</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Расхождение</dataPath>
+		<expression>ВЫБОР КОГДА (КоличествоПоЗаказуРозничногоПокупателя - КоличествоПоЗаказуМагазина) &lt; 0 ТОГДА - (КоличествоПоЗаказуРозничногоПокупателя - КоличествоПоЗаказуМагазина)  ИНАЧЕ (КоличествоПоЗаказуРозничногоПокупателя - КоличествоПоЗаказуМагазина)  КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расхождение</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<parameter>
+		<name>Документ</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документ</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ЗаказКлиента</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>СверкаЗаказаРозничногоПокупателя</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сверка заказа розничного покупателя</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПоЗаказуРозничногоПокупателя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПоЗаказуМагазина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Расхождение</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Расхождение</dcsset:left>
+					<dcsset:comparisonType>Greater</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть расхождение</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+					<dcsset:userSettingID>63d27fe9-e107-43f3-b7de-47ea5f861292</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

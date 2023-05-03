@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4db20387-4e0d-41d9-a601-81d425fb16b8">
+  <producedTypes>
+    <managerType typeId="d034eb61-f577-40fd-891c-6d6f3b96fba5" valueTypeId="986a90d3-b0a4-43df-a22f-14a400803b6d"/>
+    <valueManagerType typeId="bb859484-aa61-4ba9-927c-baeae7b5c83a" valueTypeId="c56094c8-5a3b-4299-a9b5-2694283b0ba8"/>
+    <valueKeyType typeId="f46493af-e736-4bc9-b066-24969419389c" valueTypeId="a43f7589-796d-4e22-9df8-bc61512cd965"/>
+  </producedTypes>
+  <name>ВалютаРегламентированногоУчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Валюты</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

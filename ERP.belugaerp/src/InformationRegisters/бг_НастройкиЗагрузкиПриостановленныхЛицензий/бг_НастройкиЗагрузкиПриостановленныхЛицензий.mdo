@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="107a1f5a-6fc7-4107-86bc-75e895cbe368">
+  <producedTypes>
+    <selectionType typeId="5482a7c2-d634-42cb-8221-d09432ac67e9" valueTypeId="ff2bdc8a-b6de-4ed6-a7b4-fd692bd3c698"/>
+    <listType typeId="ac6650a3-66ac-42fe-8186-052208aca9ba" valueTypeId="19bfda33-187b-49cf-ad20-824f94f04de5"/>
+    <managerType typeId="4dd9b46a-5a0b-4449-9560-1efa69574eb7" valueTypeId="10dabe1f-6caf-4ecc-9de4-cd99ebc80dd2"/>
+    <recordSetType typeId="4e96ed8a-f2c6-4fc2-ab01-2af464dc0636" valueTypeId="11bc7db2-cec1-4fa4-aa72-70f1c69f2bd9"/>
+    <recordKeyType typeId="659c9804-5cab-4410-ac7f-aa034b0a706b" valueTypeId="ff06cf72-21e7-4e93-afeb-3ef78048879d"/>
+    <recordType typeId="0c072e5c-6ed4-4360-b88d-304986254ae4" valueTypeId="1bdd68ea-8f55-4f2d-97ac-c073111778d7"/>
+    <recordManagerType typeId="bd931d60-9959-433f-b927-a24bf885bca7" valueTypeId="95c02642-5304-440b-a99a-81a4165fd0ef"/>
+  </producedTypes>
+  <name>бг_НастройкиЗагрузкиПриостановленныхЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки загрузки приостановленных лицензий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_НастройкиЗагрузкиПриостановленныхЛицензий.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a14196b1-0b63-4a60-b6a3-29ae766da4c1">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="80b5caea-8984-4f5a-a97f-afe48d69e5ad">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b9fdd1f2-42f1-412a-9018-faa828a76552">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла с расширением</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="3e2ebddc-6a77-431a-bd35-73e0f7f97bdd">
+    <name>ЗагружатьТолькоИзмененные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загружать только измененные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="e967aa8a-6e67-45f4-823d-0903187d4c2e">
+    <name>ТипЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип лицензии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ТипыЛицензийПоставщиковАлкогольнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4980ed07-a705-4281-9854-cbd71d4b9bad">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

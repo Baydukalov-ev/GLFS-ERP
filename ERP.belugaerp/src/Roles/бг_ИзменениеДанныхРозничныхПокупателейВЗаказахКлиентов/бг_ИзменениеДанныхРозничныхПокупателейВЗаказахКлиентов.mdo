@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51c5ce76-6374-48d4-8d0f-e90b6470631f">
+  <name>бг_ИзменениеДанныхРозничныхПокупателейВЗаказахКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение данных розничных покупателей в заказах клиентов</value>
+  </synonym>
+</mdclass:Role>

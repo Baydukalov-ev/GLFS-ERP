@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4b970977-86f3-499f-bba8-a83a3b6b76b8">
+  <producedTypes>
+    <refType typeId="004d0e30-437a-40d8-80e5-bca3544c2757" valueTypeId="90afab5d-1819-4cbf-bdae-f1b13436f37e"/>
+    <listType typeId="32254995-ccb0-4ff2-b6ef-520ed3b50ab3" valueTypeId="1a6d6b6b-42dd-4ee6-bd33-3106ab6717fe"/>
+    <managerType typeId="f0674846-a97f-41be-b149-7063af3980d0" valueTypeId="5da34df1-8b17-4305-8774-5d62d36de3bc"/>
+  </producedTypes>
+  <name>ТипыУпаковок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="15050ecf-f373-4b3c-8dbe-ff3874c61056">
+    <name>МаркированныйТовар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="775db783-09da-419e-80d7-b08432560e87">
+    <name>МонотоварнаяУпаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="162f5305-13a4-440b-9325-578da610f6e1">
+    <name>МультитоварнаяУпаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

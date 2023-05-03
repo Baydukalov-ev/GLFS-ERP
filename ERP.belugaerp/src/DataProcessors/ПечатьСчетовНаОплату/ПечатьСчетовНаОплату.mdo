@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfa45501-a7ac-48aa-a11f-fbf598a45103">
+  <producedTypes>
+    <objectType typeId="a54d402a-a854-4411-8d6c-a72b724c75f2" valueTypeId="dbbc3a04-37cc-4ee6-8a0b-d86a8cff2249"/>
+    <managerType typeId="e00da660-9f2c-40ee-9a22-0fc8f5d8ab38" valueTypeId="b0b11206-8467-4006-8af0-06c36b8542f3"/>
+  </producedTypes>
+  <name>ПечатьСчетовНаОплату</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="734f8a92-bf44-469c-abfb-8f5f2a46d4af">
+    <name>бг_ПФ_MXL_Invoice_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Invoice</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice</value>
+    </synonym>
+  </templates>
+  <templates uuid="fd571bdb-ccc3-433a-94af-f2ed8c53fa8f">
+    <name>бг_ПФ_MXL_УпаковочныйЛист_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковочный лист</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Invoice</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

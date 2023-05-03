@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b0d37f3-cf98-46fa-b685-bc18f678c170">
+  <name>бг_ВыгрузкаДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка документов (Белуга)</value>
+  </synonym>
+  <namespace>http://www.sygroup.ru/DocExchange/</namespace>
+</mdclass:XDTOPackage>

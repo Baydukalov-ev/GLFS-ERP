@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a893812-d9c4-4255-ae30-ebbc5ad1f77e">
+  <name>бг_ИнтеграцияB2B</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бг интеграция b2 B</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d745764-03db-42e3-9a1a-48e239529c13">
+  <producedTypes>
+    <selectionType typeId="2ac02847-4aae-470f-a5cd-1d936c6113c0" valueTypeId="c19df772-47ca-4709-b2b9-70ca493c4c6a"/>
+    <listType typeId="10ceaddb-f23a-4880-948f-4610d53287b9" valueTypeId="f463f66e-c8da-41b6-a96f-9ad6f9ebcfa3"/>
+    <managerType typeId="e0470696-d953-4eb1-9c1d-e9899c64606f" valueTypeId="8b15186e-1fda-4869-b8ff-faf93f28f8ba"/>
+    <recordSetType typeId="6758e977-9ecd-4292-9b5d-a9814225c4a4" valueTypeId="9d83dd80-a23e-4b19-bada-18a8244512a0"/>
+    <recordKeyType typeId="09abbb83-ec65-47d2-aa98-7e02e51ce932" valueTypeId="50cdba8d-8706-4839-b70e-7955898fef1e"/>
+    <recordType typeId="a52c34a7-649f-4dfe-b147-b2e6df8be4af" valueTypeId="ad3a514b-36dc-4415-91e7-0b0a2af455ca"/>
+  </producedTypes>
+  <name>УдалитьТМЦВЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

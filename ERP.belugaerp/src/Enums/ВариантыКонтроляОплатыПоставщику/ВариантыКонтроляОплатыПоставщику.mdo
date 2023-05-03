@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc8f4249-57e8-4a54-b730-d9f85706af4f">
+  <producedTypes>
+    <refType typeId="fa8ac4bc-2ff7-4309-8c83-920cca786ab6" valueTypeId="0819e82c-d88d-4d26-8ad7-ee1588f95e7e"/>
+    <listType typeId="9deb0763-ea7d-4d56-8c37-b53ba0ab547d" valueTypeId="6590984e-9e77-46ca-8fb2-b7292e563c22"/>
+    <managerType typeId="10397768-5024-47ff-ac1a-37cf68c08f98" valueTypeId="4f06b459-13ac-4069-b799-9ed2aa3975a2"/>
+  </producedTypes>
+  <name>ВариантыКонтроляОплатыПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e9985bb7-73f5-4681-a567-9891636a4437">
+    <name>КредитПослеПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="65c24a52-a67e-4e0a-aaa5-bb870c9d0c28">
+    <name>КредитСдвиг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="698f4a94-34b1-44f4-adfd-d675dea00b4b">
+    <name>ПредоплатаДоПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

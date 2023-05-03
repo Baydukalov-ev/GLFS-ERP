@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e062954-18bc-4e0d-b23d-33ad864de0a3">
+  <producedTypes>
+    <refType typeId="c8401c58-a594-4282-8594-e79107bb1f23" valueTypeId="a6a96f3c-0d23-43c8-b6c3-1009c570b660"/>
+    <listType typeId="458031ee-cf34-4d18-81cb-ec8670565e49" valueTypeId="c0b43b4d-55da-4079-a774-aba2e15ce5fe"/>
+    <managerType typeId="e3cb52bd-eb15-40cf-bee0-515c2020a060" valueTypeId="a754edeb-fa37-43ec-8b45-a2bb075dfed7"/>
+  </producedTypes>
+  <name>бг_РежимАвансовогоПлатежаЗаАкцизВБюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим авансового платежа за акциз в бюджет</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="59ee759a-37e4-40f5-9d92-fd2ca0d48e01">
+    <name>НеОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не оплачен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64c57a64-a8b1-4d22-8d22-15c11cec888b">
+    <name>ОплаченПлатежнымПоручением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачен платежным поручением</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="acefd6fd-7364-4f1c-8694-e0f02dec5583">
+    <name>ВСчетБанковскойГарантии</name>
+    <synonym>
+      <key>ru</key>
+      <value>В счет банковской гарантии</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

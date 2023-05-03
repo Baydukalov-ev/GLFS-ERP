@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6a7039ec-f7ce-48c8-8513-fa21768dd2dc">
+  <producedTypes>
+    <refType typeId="1454431c-dc41-4698-af45-b5dbfe3c483b" valueTypeId="3aba228d-3acc-44c3-ae30-65c852024d8f"/>
+    <listType typeId="cb2175c2-2dfa-48c1-b3a1-3443c5778141" valueTypeId="51fc24b8-9d29-41d4-8c9b-68e25adde5d6"/>
+    <managerType typeId="a61237da-aa65-4491-9486-059c2af62acb" valueTypeId="841c6061-3ac0-46e7-9b0a-10f39c0cb464"/>
+  </producedTypes>
+  <name>ПорядокВключенияСтоимостиОСВСоставРасходовНУ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="7e8adee1-7ea4-4721-8c26-f0d11a560420">
+    <name>ВключениеВРасходыПриПринятииКУчету</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d22baf29-18ed-4bd3-9ea6-3b3be9556dce">
+    <name>СтоимостьНеВключаетсяВРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ffa86604-3a13-42e2-979e-2a4891f5405c">
+    <name>НачислениеАмортизации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="da5fab5a-e8d0-4c23-90fb-e8b83f5af9c3">
+    <name>НачислениеАмортизацииИлиСписаниеНаРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7dfa2b90-712a-4137-a5de-0d2b3a511b8e">
+    <name>НеПриниматьКУчетуВключитьВРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

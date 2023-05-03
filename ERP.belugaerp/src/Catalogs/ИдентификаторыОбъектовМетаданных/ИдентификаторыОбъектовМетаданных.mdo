@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae042189-32aa-4f01-9189-7d7149f295d0">
+  <producedTypes>
+    <objectType typeId="a3665e42-327d-4a47-a47f-2fb621103fbc" valueTypeId="1d850948-bb14-4aff-9d34-bfc38405beb9"/>
+    <refType typeId="ad83fe16-dacd-4d0b-b535-fcae734955a4" valueTypeId="569c58e8-073b-4614-944d-1e22897b9ad6"/>
+    <selectionType typeId="01388622-237f-4997-82df-6addff03a3bd" valueTypeId="44e7319a-5b37-475e-ade8-8f1ad7fd3ce2"/>
+    <listType typeId="cd92aa2b-ad17-4d62-8675-bed2f02cc45d" valueTypeId="0e5b1a90-d616-4989-ab2c-06e77c23bbbd"/>
+    <managerType typeId="d4475551-8c51-4c42-b5c9-5a303a72a9c7" valueTypeId="cdb1497a-c456-412a-8859-0216269c316b"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовМетаданных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="e44cdee0-984d-43ee-92c8-d8012719e650">
+    <name>Имя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9f69f5fe-6581-4d83-8296-10fe5c4ce279">
+    <name>ПолноеИмя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>430</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

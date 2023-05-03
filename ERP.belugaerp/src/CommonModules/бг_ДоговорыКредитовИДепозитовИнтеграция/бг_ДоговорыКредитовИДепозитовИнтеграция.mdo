@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8b4452a-55f8-4650-93ad-253974bb726a">
+  <name>бг_ДоговорыКредитовИДепозитовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры кредитов и депозитов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

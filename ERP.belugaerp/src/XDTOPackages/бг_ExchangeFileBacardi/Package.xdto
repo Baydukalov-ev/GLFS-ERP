@@ -1,0 +1,63 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="DESADV">
+	<import namespace="http://www.w3.org/2001/XMLSchema"/>
+	<valueType name="ТипСтрока25" base="xs:string" variety="Atomic" maxLength="25"/>
+	<valueType name="ТипДата" base="xs:date" variety="Atomic"/>
+	<valueType name="ТипСтрока10" base="xs:string" variety="Atomic" maxLength="10"/>
+	<valueType name="ТипЧисло" base="xs:float" variety="Atomic"/>
+	<valueType name="ТипСтрока2" base="xs:string" variety="Atomic" maxLength="2"/>
+	<valueType name="ТипСтрока20" base="xs:string" variety="Atomic" maxLength="26"/>
+	<valueType name="ТипСтрока40" base="xs:string" variety="Atomic" maxLength="40"/>
+	<valueType name="ТипСтрока3" base="xs:string" variety="Atomic" maxLength="3"/>
+	<valueType name="ТипСтрока19" base="xs:string" variety="Atomic" maxLength="19"/>
+	<valueType name="ТипСтрока3Фикс" base="xs:string" variety="Atomic" minLength="3" maxLength="3"/>
+	<valueType name="ТипУпаковки" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">PL</enumeration>
+		<enumeration xsi:type="xs:string">CS</enumeration>
+		<enumeration xsi:type="xs:string">EP</enumeration>
+	</valueType>
+	<valueType name="ТипСтрока5" base="xs:string" variety="Atomic" maxLength="5"/>
+	<objectType name="Document-DespatchAdvice">
+		<property xmlns:d3p1="DESADV" name="Шапка" type="d3p1:Шапка" localName="DespatchAdvice-Header"/>
+		<property xmlns:d3p1="DESADV" name="Комплектация" type="d3p1:Комплектация" localName="DespatchAdvice-Consignment"/>
+		<property xmlns:d3p1="DESADV" name="ПозицииПоставки" type="d3p1:ПозицииПоставки" localName="DespatchAdvice-Items"/>
+	</objectType>
+	<objectType name="Шапка" open="true" ordered="false" sequenced="true">
+		<property xmlns:d3p1="DESADV" name="НомерТТН" type="d3p1:ТипСтрока25" localName="DespatchAdviceNumber"/>
+		<property xmlns:d3p1="DESADV" name="ДатаТТН" type="d3p1:ТипДата" localName="DespatchAdviceDate"/>
+		<property xmlns:d3p1="DESADV" name="ДатаПоставки" type="d3p1:ТипДата" localName="EstimatedDeliveryDate"/>
+		<property xmlns:d3p1="DESADV" name="НомерЗаказаПоставки" type="d3p1:ТипСтрока10" localName="BuyerOrderNumber"/>
+		<property xmlns:d3p1="DESADV" name="НомерФиксацииВЕГАИС" type="d3p1:ТипСтрока40"/>
+	</objectType>
+	<objectType name="Комплектация">
+		<property xmlns:d3p1="DESADV" name="КомплектацияЭлементы" type="d3p1:КомплектацияЭлемент" upperBound="-1" localName="Packing-Sequence"/>
+	</objectType>
+	<objectType name="КомплектацияЭлемент" open="true" ordered="false" sequenced="true">
+		<property xmlns:d3p1="DESADV" name="УникальныйИдентификаторУпаковки" type="d3p1:ТипЧисло" localName="PackageId"/>
+		<property xmlns:d3p1="DESADV" name="ИдентификаторВерхнегоУровня" type="d3p1:ТипЧисло" localName="ParentId"/>
+		<property xmlns:d3p1="DESADV" name="ТипУпаковки" type="d3p1:ТипУпаковки" localName="PackageType"/>
+		<property xmlns:d3p1="DESADV" name="КодSSCC" type="d3p1:ТипСтрока20" nillable="false" localName="SerialNumber"/>
+	</objectType>
+	<objectType name="ПозицииПоставки">
+		<property xmlns:d3p1="DESADV" name="ПозицияЭлементы" type="d3p1:ПозицияЭлемент" upperBound="-1" localName="Item"/>
+	</objectType>
+	<objectType name="ПозицияЭлемент">
+		<property xmlns:d3p1="DESADV" name="НомерПозиции" type="d3p1:ТипЧисло" localName="ItemId"/>
+		<property xmlns:d3p1="DESADV" name="КодПродуктаЗаказчика" type="d3p1:ТипСтрока10" localName="BuyerItemCode"/>
+		<property xmlns:d3p1="DESADV" name="КодМатериалаПоставщика" type="d3p1:ТипСтрока40" nillable="true" localName="SupplierItemCode"/>
+		<property xmlns:d3p1="DESADV" name="Количество" type="d3p1:ТипЧисло" localName="DespatchedQuantity"/>
+		<property xmlns:d3p1="DESADV" name="КоличествоЕИМест" type="d3p1:ТипЧисло" localName="OrderedUnitPacksize"/>
+		<property xmlns:d3p1="DESADV" name="ЕдиницаИзмерения" type="d3p1:ТипСтрока3" localName="UnitOfMeasure"/>
+		<property xmlns:d3p1="DESADV" name="КодВидаАП" type="d3p1:ТипСтрока5" localName="AlcoholTypeCode"/>
+		<property xmlns:d3p1="DESADV" name="КодАП" type="d3p1:ТипСтрока25" localName="AlcoholProductCode"/>
+		<property xmlns:d3p1="DESADV" name="ДатаРозлива" type="d3p1:ТипДата" localName="ProductionDate"/>
+		<property xmlns:d3p1="DESADV" name="КодыМарок" type="d3p1:КодыМарокЭлемент" upperBound="-1" localName="StripStampInfo"/>
+	</objectType>
+	<objectType name="КодыМарокЭлемент">
+		<property xmlns:d3p1="DESADV" name="СерияФСМ" type="d3p1:ТипСтрока3Фикс" localName="FSMSerialNumber"/>
+		<property xmlns:d3p1="DESADV" name="ДиапазоныМарок" type="d3p1:ДиапазонМарок" upperBound="-1" localName="FSMNumberRange"/>
+	</objectType>
+	<objectType name="ДиапазонМарок">
+		<property xmlns:d3p1="DESADV" name="НачалоДиапазона" type="d3p1:ТипЧисло" localName="FSMNumberRangeFrom"/>
+		<property xmlns:d3p1="DESADV" name="КонецДиапазона" type="d3p1:ТипЧисло" localName="FSMNumberRangeTo"/>
+	</objectType>
+</package>

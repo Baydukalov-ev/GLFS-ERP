@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="372ae5fa-f1bd-44ac-8042-2a19c17b94f9">
+  <producedTypes>
+    <selectionType typeId="66aa50bc-c355-47da-88b2-f397418c0855" valueTypeId="d2027c30-de38-4085-8d66-d847a2700fbb"/>
+    <listType typeId="cc9c9070-2c49-4438-9230-810668ebd54e" valueTypeId="b7685af6-1fa5-4470-92f1-dd70918d4bf2"/>
+    <managerType typeId="9a760734-876e-4ce1-8ff6-741ee54978f2" valueTypeId="bed2af8c-728a-4e4e-a334-6b5417e3d369"/>
+    <recordSetType typeId="b58c3218-0bc6-4751-a38e-17bca2a0baa3" valueTypeId="7c51cfdd-5122-4e27-914f-981c2efe0b8e"/>
+    <recordKeyType typeId="1b62d275-d179-43e8-8117-fe22033a9237" valueTypeId="45e34c9c-6c5a-4a9b-9e52-742001f1301c"/>
+    <recordType typeId="69587600-8be5-4579-8ab9-b5723e38d20a" valueTypeId="a8aab4a7-f4e9-4d58-95e1-aed5cf01673e"/>
+    <recordManagerType typeId="bf2c5992-c3c8-45d2-bcdc-ffae5ff03629" valueTypeId="a8c9f331-487e-4bf8-a2d2-79dcebf6d755"/>
+  </producedTypes>
+  <name>бг_СоответствиеНоменклатурыОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие номенклатуры организациям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="18bef643-78dc-4bfc-b1d6-ef19f16c2302">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="156ccf2e-0bb8-4b8f-93c4-83789406b13a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

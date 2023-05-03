@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c6945f1-66f9-48d7-befd-9e726fc34e3b">
+  <producedTypes>
+    <objectType typeId="8f53dca1-df27-4808-a986-97999ff2df56" valueTypeId="f1068fa0-4b3f-403c-a0d6-3e2832f01dc6"/>
+    <refType typeId="42e88eb0-9054-48c7-9401-e7e09fe4729f" valueTypeId="258d88d8-bc20-404b-a1aa-f1f310066278"/>
+    <selectionType typeId="ce299800-3256-414d-a52b-1ff611f89445" valueTypeId="a259f024-ed09-410b-ad7b-d149386e5d1c"/>
+    <listType typeId="341ae2f3-af56-4496-a00f-19ef78e497f9" valueTypeId="e2cb242b-9e57-42b5-ba93-128899f4ba9c"/>
+    <managerType typeId="4d8d9509-1b23-4906-9623-a8f312e3d2c2" valueTypeId="8bf7b086-81c3-4a5e-8078-d647c326ea23"/>
+  </producedTypes>
+  <name>ВидыАлкогольнойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="efef39d2-415f-4854-aa6c-e8ac8e5117b9">
+    <name>ВидЛицензии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыЛицензийАлкогольнойПродукции</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="0922ea74-869a-4164-8807-a1d40af99018">
+    <name>Маркируемый</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="a3af8205-87f0-4326-8da0-59c207cf2f34">
+    <name>бг_КонтролироватьУстановкуМРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать установку МРЦ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверять установку МРЦ для алкоголя с крепостью ниже (!) минимальной. Для крепкого алкоголя проверка выполняется независимо от установки этого флага.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a31b22b-7cd7-4cc9-9a22-9ba32033f49c">
+    <name>бг_КонтролироватьКрепость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать крепость</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учитывать крепость при проверке МРЦ. Если не установлен, при проверке МРЦ крепость не учитывается.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="051d290f-2b91-4fc3-8355-47feb71b3171">
+    <name>бг_ИспользоватьПрочуюАлкогольнуюПродукцию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать прочую алкогольную продукцию</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для проверки МРЦ использовать вид алкогольной продукции из константы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4d0c4f2b-9063-47c3-bb29-2abcbf08ff97">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5c31d8cc-43c6-4429-a42b-f179f14081fb">
+  <producedTypes>
+    <containerType typeId="ca941560-46a3-46c2-a78d-f17337c3ecb3" valueTypeId="7d724944-a7be-40f1-b200-431345bafc0c"/>
+  </producedTypes>
+  <name>УникальныйИдентификаторИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

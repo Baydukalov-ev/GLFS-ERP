@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edaa0908-c128-4057-a18e-22e64852abb6">
+  <name>бг_ЧтениеНастроекОтправкиПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек отправки печатных форм</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1923eafb-7f43-44bf-b3f7-16bd228c28d1">
+  <producedTypes>
+    <refType typeId="3a60d6e7-5f30-4f84-b8d7-2f577eb819c2" valueTypeId="028e97f1-81e2-43c5-8b3c-7408ecc4a169"/>
+    <listType typeId="38a76c5e-ea1e-4714-b572-5bc48301e462" valueTypeId="26d30da1-206a-46bc-a439-4deb100b6edc"/>
+    <managerType typeId="8b5d051e-047e-4e55-8af8-f50fceb650e6" valueTypeId="28050f64-b03c-4ade-aa69-9de8604ee4ca"/>
+  </producedTypes>
+  <name>бг_ОперацииИнвентаризацииПродукцииЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции инвентаризации продукции ЕГАИС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ade8fee-16b2-444c-bca6-484f233f145e">
+    <name>СписаниеНаРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="069c6299-6230-4772-9e88-154a4e64b849">
+    <name>ОприходованиеИзлишков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование излишков</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

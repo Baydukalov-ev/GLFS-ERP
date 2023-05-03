@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9cae0d5f-23e8-44fc-be95-ad8b83db41d1">
+  <producedTypes>
+    <refType typeId="f43fc275-c209-4f5a-b005-16c8e855bd08" valueTypeId="3e4512bf-1a95-40e8-b767-56e595999791"/>
+    <listType typeId="b4e481d3-292e-4c75-a927-5e5bfd83b8cb" valueTypeId="f1f9fbb7-13b0-4e58-b36e-f331bf54084d"/>
+    <managerType typeId="cdb637cb-2cf1-41e0-ae55-d9112b02ae40" valueTypeId="32694c49-daa0-4513-8b63-f55f658371ff"/>
+  </producedTypes>
+  <name>СпособыРасчетаУдержанияПоИсполнительномуДокументу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="32572ed4-7571-42bc-bea1-7ebf6b93d318">
+    <name>ФиксированнойСуммой</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="537cfe42-233b-41f6-bc00-9b8cb358fa9d">
+    <name>Процентом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9a23f513-65cc-4ce3-b9b1-350ded08c4c9">
+    <name>Долей</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

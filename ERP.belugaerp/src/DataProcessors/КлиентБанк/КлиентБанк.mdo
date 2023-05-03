@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2944a2ac-0511-4334-8eff-89d1d4c558cc">
+  <producedTypes>
+    <objectType typeId="3d3d15b0-bc45-4802-b442-a94c85741b48" valueTypeId="2c2dfac1-7628-43bf-a9cc-84b11a6af361"/>
+    <managerType typeId="93e659af-15a4-4681-bf6b-3b0fa54451fa" valueTypeId="59836f88-e3bd-4659-a3b3-2634759932a7"/>
+  </producedTypes>
+  <name>КлиентБанк</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="a8dc11f7-80bb-425a-ad13-762e49c62975">
+    <name>бг_ВыборДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="757e39d2-1415-4ff7-84fa-2c3173ef7ba3">
+    <name>ЗагрузкаВыписки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

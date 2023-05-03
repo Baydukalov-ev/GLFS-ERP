@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДокумента</dataPath>
+			<field>ТипДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип документа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Возвращен</dataPath>
+			<field>Возвращен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Рейс</dataPath>
+			<field>Рейс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейс</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДокумента</dataPath>
+			<field>СуммаДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Менеджер</dataPath>
+			<field>Менеджер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПунктНазначения</dataPath>
+			<field>ПунктНазначения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт назначения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Перевозчик</dataPath>
+			<field>Перевозчик</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перевозчик</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель</dataPath>
+			<field>Водитель</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Водитель</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерРейса</dataPath>
+			<field>НомерРейса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер рейса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	РеализацияТоваровУслуг.Ссылка КАК Ссылка,
+	ТИПЗНАЧЕНИЯ(РеализацияТоваровУслуг.Ссылка) КАК ТипДокумента,
+	РеализацияТоваровУслуг.Номер КАК Номер,
+	РеализацияТоваровУслуг.Дата КАК Дата,
+	РеализацияТоваровУслуг.Контрагент КАК Контрагент,
+	РеализацияТоваровУслуг.СуммаДокумента КАК СуммаДокумента,
+	РеализацияТоваровУслуг.Организация КАК Организация,
+	РеализацияТоваровУслуг.Склад КАК Склад,
+	РеализацияТоваровУслуг.Автор КАК Ответственный,
+	РеализацияТоваровУслуг.Менеджер КАК Менеджер,
+	РеализацияТоваровУслуг.Комментарий КАК Комментарий,
+	ДокументЗаказКлиента.бг_ПунктНазначения КАК ПунктНазначения
+ПОМЕСТИТЬ Документы
+ИЗ
+	Документ.РеализацияТоваровУслуг КАК РеализацияТоваровУслуг
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ДокументЗаказКлиента
+		ПО РеализацияТоваровУслуг.ЗаказКлиента = ДокументЗаказКлиента.Ссылка
+ГДЕ
+	РеализацияТоваровУслуг.Дата &gt;= &amp;НачалоПериода
+	И (РеализацияТоваровУслуг.Дата &lt;= &amp;КонецПериода
+			ИЛИ &amp;КонецПериода = ДАТАВРЕМЯ(1, 1, 1))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПриобретениеТоваровУслуг.Ссылка,
+	ТИПЗНАЧЕНИЯ(ПриобретениеТоваровУслуг.Ссылка),
+	ПриобретениеТоваровУслуг.Номер,
+	ПриобретениеТоваровУслуг.Дата,
+	ПриобретениеТоваровУслуг.Контрагент,
+	ПриобретениеТоваровУслуг.СуммаДокумента,
+	ПриобретениеТоваровУслуг.Организация,
+	ПриобретениеТоваровУслуг.Склад,
+	ПриобретениеТоваровУслуг.Автор,
+	ПриобретениеТоваровУслуг.Менеджер,
+	ПриобретениеТоваровУслуг.Комментарий,
+	ПриобретениеТоваровУслуг.Склад.бг_ПунктНазначения
+ИЗ
+	Документ.ПриобретениеТоваровУслуг КАК ПриобретениеТоваровУслуг
+ГДЕ
+	ПриобретениеТоваровУслуг.Дата &gt;= &amp;НачалоПериода
+	И (ПриобретениеТоваровУслуг.Дата &lt;= &amp;КонецПериода
+			ИЛИ &amp;КонецПериода = ДАТАВРЕМЯ(1, 1, 1))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ПеремещениеТоваров.Ссылка,
+	ТИПЗНАЧЕНИЯ(ПеремещениеТоваров.Ссылка),
+	ПеремещениеТоваров.Номер,
+	ПеремещениеТоваров.Дата,
+	НЕОПРЕДЕЛЕНО,
+	0,
+	ПеремещениеТоваров.Организация,
+	ПеремещениеТоваров.СкладОтправитель,
+	ПеремещениеТоваров.Автор,
+	НЕОПРЕДЕЛЕНО,
+	ПеремещениеТоваров.Комментарий,
+	ПеремещениеТоваров.СкладПолучатель.бг_ПунктНазначения
+ИЗ
+	Документ.ПеремещениеТоваров КАК ПеремещениеТоваров
+ГДЕ
+	ПеремещениеТоваров.Дата &gt;= &amp;НачалоПериода
+	И (ПеремещениеТоваров.Дата &lt;= &amp;КонецПериода
+			ИЛИ &amp;КонецПериода = ДАТАВРЕМЯ(1, 1, 1))
+
+ИНДЕКСИРОВАТЬ ПО
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Документы.Ссылка КАК Ссылка,
+	МИНИМУМ(ЕСТЬNULL(ВозвратДокументов.Возвращен, ЛОЖЬ)) КАК ДокументыВозвращены
+ПОМЕСТИТЬ ИтоговыеДанные
+ИЗ
+	Документы КАК Документы
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.бг_ВидыВозвращаемыхДокументов КАК ВидыВозвращаемыхДокументов
+		ПО (НЕ ВидыВозвращаемыхДокументов.ПометкаУдаления)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_ВозвратДокументов КАК ВозвратДокументов
+		ПО Документы.Ссылка = ВозвратДокументов.Документ
+			И (ВидыВозвращаемыхДокументов.Ссылка = ВозвратДокументов.ВидДокумента)
+
+СГРУППИРОВАТЬ ПО
+	Документы.Ссылка
+
+ИНДЕКСИРОВАТЬ ПО
+	Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Документы.Ссылка КАК Ссылка,
+	Документы.ТипДокумента КАК ТипДокумента,
+	Документы.Номер КАК Номер,
+	Документы.Дата КАК Дата,
+	Документы.Контрагент КАК Контрагент,
+	ВозвратДокументов.ВидДокумента КАК ВидДокумента,
+	ВозвратДокументов.Возвращен КАК Возвращен,
+	МаршрутныйЛистЗаказы.Ссылка КАК Рейс,
+	Документы.СуммаДокумента КАК СуммаДокумента,
+	Документы.Организация КАК Организация,
+	Документы.Склад КАК Склад,
+	Документы.Ответственный КАК Ответственный,
+	Документы.Менеджер КАК Менеджер,
+	Документы.Комментарий КАК Комментарий,
+	ЕСТЬNULL(ТранспортнаяИнформация.Перевозчик, НЕОПРЕДЕЛЕНО) КАК Перевозчик,
+	ЕСТЬNULL(ТранспортнаяИнформация.Водитель, НЕОПРЕДЕЛЕНО) КАК Водитель,
+	ЕСТЬNULL(Документы.ПунктНазначения, НЕОПРЕДЕЛЕНО) КАК ПунктНазначения,
+	ЕСТЬNULL(МаршрутныйЛистЗаказы.Ссылка.Номер, "") КАК НомерРейса
+ИЗ
+	Документы КАК Документы
+		ЛЕВОЕ СОЕДИНЕНИЕ ИтоговыеДанные КАК ИтоговыеДанные
+		ПО Документы.Ссылка = ИтоговыеДанные.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_ВозвратДокументов КАК ВозвратДокументов
+		ПО Документы.Ссылка = ВозвратДокументов.Документ
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказы
+		ПО Документы.Ссылка = МаршрутныйЛистЗаказы.ДокументОтгрузки
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_ТранспортнаяИнформация КАК ТранспортнаяИнформация
+		ПО Документы.Ссылка = ТранспортнаяИнформация.Объект
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;Переключатель = 1
+				ТОГДА НЕ ЕСТЬNULL(ИтоговыеДанные.ДокументыВозвращены, ЛОЖЬ)
+			КОГДА &amp;Переключатель = 2
+				ТОГДА ЕСТЬNULL(ИтоговыеДанные.ДокументыВозвращены, ЛОЖЬ)
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ</query>
+	</dataSet>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Переключатель</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Переключатель</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Возвращен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Склад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Менеджер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Перевозчик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерРейса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПунктНазначения</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ТипДокумента</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xmlns:d6p1="http://v8.1c.ru/8.2/data/types" xsi:type="v8:Type">d6p1:Undefined</dcsset:right>
+					<dcsset:userSettingID>7ca8c9dc-44f7-412c-a5a7-12252ebde820</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Рейс</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>82f834da-26a1-44a4-b3c9-5232895a613c</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

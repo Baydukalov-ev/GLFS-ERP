@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58f1e3d1-d6bd-4b7b-8e9d-86c62d2e5b87">
+  <name>бг_ФиксацияПечатиДокументовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксация печати документов интеграция</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

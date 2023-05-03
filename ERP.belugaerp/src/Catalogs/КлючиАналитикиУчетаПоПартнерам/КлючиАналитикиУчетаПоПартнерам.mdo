@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad607c37-b96b-42a2-82bb-795ff35d3754">
+  <producedTypes>
+    <objectType typeId="044ea8ae-d2e3-4e6f-a737-e104dfe3a8b1" valueTypeId="6bbd6c4e-7bbd-4265-bce2-d238ddb19c5c"/>
+    <refType typeId="1dca025a-521b-42af-b192-df9ecb490a65" valueTypeId="4e18d06c-e561-4481-9217-e1fb938fcb7d"/>
+    <selectionType typeId="80f905f7-f603-4500-8834-bccabb4a3700" valueTypeId="7ecd5041-45b2-4513-9668-2a6badbd6988"/>
+    <listType typeId="c7004d5b-156f-4048-a1d8-e0fd0d261b98" valueTypeId="2412db7a-f719-457c-85c4-c6d1674da5a1"/>
+    <managerType typeId="de86dc00-884b-4dad-bbf2-9de70c8d5547" valueTypeId="c593ff1c-63e0-4a27-b1f0-7dbe379f8e2a"/>
+  </producedTypes>
+  <name>КлючиАналитикиУчетаПоПартнерам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="3529bb21-0526-4c77-8782-bcf3b6c45933">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3e4435ac-c579-469b-9ea3-1e548b7b4207">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="bb9212e0-5626-418e-8f4f-d7689c09fd3d">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ede5d7c2-2326-4b1c-bccc-3444b34795d2">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e6ea8565-85ef-4eae-8979-a4752ed60280">
+    <name>НаправлениеДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.НаправленияДеятельности</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

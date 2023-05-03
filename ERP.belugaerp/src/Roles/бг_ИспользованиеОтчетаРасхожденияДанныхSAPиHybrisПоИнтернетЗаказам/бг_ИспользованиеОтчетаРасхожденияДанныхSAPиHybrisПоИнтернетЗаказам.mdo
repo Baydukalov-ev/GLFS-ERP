@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43520387-dbb4-4eb1-9ed6-cf59a13fe3c9">
+  <name>бг_ИспользованиеОтчетаРасхожденияДанныхSAPиHybrisПоИнтернетЗаказам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета Расхождения данных SAP и Hybris по интернет-заказам (Белуга)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db590850-d118-447f-baee-d492e4d8d398">
+  <name>бг_ТранспортнаяЛогистикаРасширенныеПрава</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортная логистика расширенные права</value>
+  </synonym>
+</mdclass:Role>

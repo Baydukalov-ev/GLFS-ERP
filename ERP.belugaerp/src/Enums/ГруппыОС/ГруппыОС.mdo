@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f0568e3-054a-41f4-9bfa-e35cf7f75075">
+  <producedTypes>
+    <refType typeId="3a311034-77e0-4684-b096-886676d28b46" valueTypeId="a8967d38-3c46-4236-a8c1-346bf686ece9"/>
+    <listType typeId="ab970438-fee3-4c02-b119-54dceb19f7c9" valueTypeId="956e743d-4600-4a1e-85d9-5b1c7ac57d4c"/>
+    <managerType typeId="8e4faaf3-143b-41dc-90ff-4bafd389cb44" valueTypeId="46f00235-ecd0-4955-8260-f38083e5cedb"/>
+  </producedTypes>
+  <name>ГруппыОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="df4673e7-d157-4d46-9e04-a55b6380c819">
+    <name>Здания</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5606869b-5576-48a1-a277-066319365e25">
+    <name>Сооружения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="98ba2d7f-7cf9-421f-848d-e4227e9b3d71">
+    <name>МашиныИОборудование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b971fd7e-510e-4a7c-a4f8-0d25aa0b9806">
+    <name>ОфисноеОборудование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cb960040-09c6-4c54-9581-88bfb726ad57">
+    <name>ТранспортныеСредства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ae04c3c2-e15b-408f-8384-69b39cdb339c">
+    <name>ПроизводственныйИХозяйственныйИнвентарь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e32a2bd8-014a-4726-9677-0f38980b8574">
+    <name>РабочийСкот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="82233959-5bd2-4cd9-8cd6-77a3f73de58c">
+    <name>ПродуктивныйСкот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a8c7445b-8d4c-4b2c-85ff-bb1a4bfaebee">
+    <name>МноголетниеНасаждения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="abf022ba-40fa-4b7d-a11d-8bb89f3925b2">
+    <name>ЗемельныеУчастки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="32e83cc4-bba0-4c1f-961e-d99c54860f44">
+    <name>ОбъектыПриродопользования</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="83674c7f-f7cd-45bf-a212-8024bb79e693">
+    <name>ПрочееИмуществоТребующееГосударственнойРегистрации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3b0f1435-6d58-4257-b19b-8b42216b876d">
+    <name>ДругиеВидыОсновныхСредств</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

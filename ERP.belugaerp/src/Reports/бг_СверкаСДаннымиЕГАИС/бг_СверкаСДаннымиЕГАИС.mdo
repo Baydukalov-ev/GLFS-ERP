@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="210371ee-2938-4279-99cc-35635223973b">
+  <producedTypes>
+    <objectType typeId="bc5b116c-0aa4-4b76-bc0c-ae770b0d3b18" valueTypeId="9241a923-b09e-4e29-8406-f5b2c3eaab05"/>
+    <managerType typeId="6af402b1-6375-446c-97ff-3ff3e1a87480" valueTypeId="8a2edf5d-0252-4ba3-ae21-e5ec60974d64"/>
+  </producedTypes>
+  <name>бг_СверкаСДаннымиЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка с данными ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_СверкаСДаннымиЕГАИС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="af0f4695-5dca-4dbd-8151-4136e09f33b4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

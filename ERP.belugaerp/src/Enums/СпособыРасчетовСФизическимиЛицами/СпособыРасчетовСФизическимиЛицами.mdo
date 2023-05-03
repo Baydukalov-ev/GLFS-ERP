@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="12e00f1e-ee6c-4aaf-a082-cc171dfe55a2">
+  <producedTypes>
+    <refType typeId="528b7759-40e9-4160-a4a6-646cafc6ff46" valueTypeId="e6eed21f-3304-418b-9b6b-84599707375d"/>
+    <listType typeId="f3e976d1-cd09-4a91-9a93-ef1537b88a5f" valueTypeId="e3a84c29-fef1-467e-85a3-e50f60b9ff39"/>
+    <managerType typeId="e6c9dab5-aeee-43aa-a4b0-214b6c3a2381" valueTypeId="81c4e3db-786c-4e10-943d-5277b3045477"/>
+  </producedTypes>
+  <name>СпособыРасчетовСФизическимиЛицами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d957b117-c42e-49c3-a2be-5833a923b3a6">
+    <name>ОплатаТруда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d67c9534-8bdc-4a90-8535-4b19e933eed7">
+    <name>РасчетыСКонтрагентами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6d0c0709-eb37-4283-ba8e-5b745e19e0c6">
+    <name>ПрочиеРасчетыСПерсоналом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="fed91d20-d824-4582-9f5a-fa7e2deede40">
+    <name>Дивиденды</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

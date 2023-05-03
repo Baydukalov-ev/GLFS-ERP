@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cec0ab7-35cb-4965-8ce7-5863d74a920c">
+  <name>бг_АвансовыйОтчетИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авансовый отчет (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

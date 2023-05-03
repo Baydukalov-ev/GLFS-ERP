@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2a0ceebd-d470-45bf-8488-e7791dc1cc20">
+  <producedTypes>
+    <refType typeId="adfd82ef-7c4c-4ca5-92e8-e396b0f735b2" valueTypeId="f6688c6f-5a7a-4fad-bb5a-78e26ded6ada"/>
+    <listType typeId="dc5d2a0c-3d32-45bc-94e3-a9c7b5b12cb1" valueTypeId="506caa2a-224b-4094-8190-6da74b6fa231"/>
+    <managerType typeId="27f59290-90f9-4c09-8f8e-26a0c3edcef4" valueTypeId="b91d19cd-8dd4-45a6-a2de-700b6df72124"/>
+  </producedTypes>
+  <name>НастройкиИспользованияСерийНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="42693cb0-2612-47d1-b337-9af34ee1d98e">
+    <name>ПартияТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d4c736a1-b038-4c1e-a751-ea1363d5721f">
+    <name>ЭкземплярТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

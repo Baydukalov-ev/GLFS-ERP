@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="699d0f0b-343f-4fb4-b554-a18a47cf69c5">
+  <name>бг_ЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕГАИС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.бг_НастройкиПоОперациямЕГАИС</content>
+  <content>Catalog.битСырьеЕГАИС</content>
+  <content>Catalog.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

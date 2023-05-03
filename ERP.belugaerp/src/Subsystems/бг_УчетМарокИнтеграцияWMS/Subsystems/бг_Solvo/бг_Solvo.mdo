@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbe93402-5928-4a47-aa6f-e7388658213e">
+  <name>бг_Solvo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Solvo</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.бг_СтатусыПриемкиSolvo</content>
+  <content>InformationRegister.бг_ЗапрещенныеВидыНоменклатурыДляИнтеграцииWMS</content>
+  <content>InformationRegister.бг_ПриоритетыКаналовПродажСнятияРезервов</content>
+  <parentSubsystem>Subsystem.бг_УчетМарокИнтеграцияWMS</parentSubsystem>
+</mdclass:Subsystem>

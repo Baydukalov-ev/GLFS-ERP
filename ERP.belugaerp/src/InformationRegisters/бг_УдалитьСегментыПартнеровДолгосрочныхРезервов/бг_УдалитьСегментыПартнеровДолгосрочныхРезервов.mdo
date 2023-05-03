@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="094cb0bf-34d4-4b56-a536-08fd1448dbb4">
+  <producedTypes>
+    <selectionType typeId="fec02411-ecf3-44e4-8183-9fbafe3ae82c" valueTypeId="908bce04-e8cb-4cf7-8ec1-939b6aff91ec"/>
+    <listType typeId="5cf66fb9-3782-4523-bdc1-327f76a55b55" valueTypeId="3539aafd-75dc-420e-808c-998e57c037d0"/>
+    <managerType typeId="b80c466c-6478-4df9-a0e3-6ecb19734822" valueTypeId="2e70834e-dba1-48af-a3e9-cdfc85924049"/>
+    <recordSetType typeId="bc789a87-5393-4591-a0f5-a0e156a01aa8" valueTypeId="d2b5fe1c-9dbd-429e-a11b-4d49bcb704fb"/>
+    <recordKeyType typeId="7fe6c80d-43a8-4467-b06f-d14a29122af5" valueTypeId="45fc39f3-31ce-4df1-9d47-98a2899b2f18"/>
+    <recordType typeId="8bdd086f-3711-4f67-9254-6a670c5feca0" valueTypeId="4bff786b-f7f9-465a-8ad0-302c30739e51"/>
+    <recordManagerType typeId="f47e25d1-c70e-4ee2-b8f0-820bb0cdbd38" valueTypeId="27cf64e1-8501-4485-ac1b-eaf9e7e33c35"/>
+  </producedTypes>
+  <name>бг_УдалитьСегментыПартнеровДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сегменты партнеров долгосрочных резервов (белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сегмент партнеров долгосрочных резервов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Сегмент партнеров долгосрочных резервов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Сегменты партнеров долгосрочных резервов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Сегменты партнеров долгосрочных резервов</value>
+  </extendedListPresentation>
+  <resources uuid="8dc12dc3-f4df-4f9e-b9db-b1614c5477ef">
+    <name>СегментПартнеровДолгосрочныхРезервов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент клиентов долгосрочных резервов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СегментыПартнеров</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Долгосрочные резервы клиентов предприятия, относящиеся к данному сегменту, могут быть использованы для обеспечения заказов текущего клиента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.СпособФормирования</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.2d6ce8b0-5b77-4b73-93e5-829242f25c0d</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>46d31d4f-5fe3-4cb7-9e5f-34a99dbb7637.e14b9750-5d04-4861-9a6b-3da72b48a5b5</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретОтгрузки</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>41aed0b9-4492-44a2-be9b-3ea55e15a8da.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="31b89ef7-af28-44be-8f25-940cece76634">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Customer</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Клиент</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Customer for whom the order is placed</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Клиент</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>8f8a65b4-94c4-4794-b3e2-800d18d503ca.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57575137-e6d1-45ed-8173-4877911301fd">
+  <name>бг_msНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки (Mobile Smarts)</value>
+  </synonym>
+</mdclass:Role>

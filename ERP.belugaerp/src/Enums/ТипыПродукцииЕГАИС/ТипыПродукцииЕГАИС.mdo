@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fba0fe50-b516-4862-a99f-8870025e3f1e">
+  <producedTypes>
+    <refType typeId="ef068d13-9aaf-4eeb-aafe-5e5723132c30" valueTypeId="54ce6f60-1755-4efa-b83b-7781cfe266df"/>
+    <listType typeId="090fdb0f-ab52-48b9-a138-a80e3d5a66da" valueTypeId="a1e7aa3c-be12-4a5d-9997-022ab09aff42"/>
+    <managerType typeId="1649f60a-f762-41b7-b2ec-379d7f57f19d" valueTypeId="b975eaeb-94ba-4fcf-9fbf-9aa099b7ce65"/>
+  </producedTypes>
+  <name>ТипыПродукцииЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="8bdeb30c-961b-4532-8742-ce1b79b113a9">
+    <name>Упакованная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bfd3c7ac-3700-4989-bfbf-628644085c10">
+    <name>Неупакованная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

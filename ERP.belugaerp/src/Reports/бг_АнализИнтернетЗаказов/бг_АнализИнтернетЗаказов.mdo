@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5198da6c-580c-470a-8946-397eb4aa5796">
+  <producedTypes>
+    <objectType typeId="e3879dae-09fd-4cc3-8bbb-15d4c5a3a598" valueTypeId="0730a7ff-44db-4fc9-8839-ad72442254fc"/>
+    <managerType typeId="21b3df20-feba-4e77-ae5b-b3055600bb50" valueTypeId="63a2807f-3f28-47d4-a2ca-9019ddaabf76"/>
+  </producedTypes>
+  <name>бг_АнализИнтернетЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ интернет заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_АнализИнтернетЗаказов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Анализ интернет заказов</value>
+  </extendedPresentation>
+  <templates uuid="d7895782-786c-4b78-b30a-326d3c616b1a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="25361aa0-774f-4a54-9fa2-4cb1ba525e53">
+  <producedTypes>
+    <objectType typeId="77c0d2f8-7fcf-4327-af0b-fc999959b9c0" valueTypeId="86213730-a60d-48bb-ba12-a0f0d715d176"/>
+    <refType typeId="70d5b68f-7c18-459b-9e44-ce8de7054443" valueTypeId="74c54420-aa95-4354-9bc0-8ca098e1ea27"/>
+    <selectionType typeId="de91337c-9839-43be-9eb3-88585267e6f7" valueTypeId="289cbfc5-3bab-46cd-a2ce-2daa3264f2ab"/>
+    <listType typeId="092d8c5f-32b4-4538-9c11-fd470bb5335c" valueTypeId="15430997-d22c-4961-98f1-fec0e2fd231e"/>
+    <managerType typeId="5e84555e-760d-413e-a5ce-8ca15b74bac7" valueTypeId="5c386f86-71e4-4c1b-b221-5bfd5cad1094"/>
+  </producedTypes>
+  <name>ОтчетЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="e21c44b7-6880-47ba-a0e4-f551802f5f7e">
+    <name>Справка2</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Справки2ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b349c839-a9e3-41fe-873c-1af46fd3c0ed">
+    <name>ОрганизацияЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторОрганизацийЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="dbf08b52-1567-4b65-af8b-5669d3d75a6a">
+    <name>ВидДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВидыДокументовЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f8059fc6-2413-4706-b982-8e206ed8adc8">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="d3e06deb-5fe5-4275-862a-c2189b210c0a">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="e7a4eb4d-4917-4c93-8203-10a36180bb80">
+    <name>ФормаСпискаДокументов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="bfaac1ff-681b-4909-85fb-8abcb7545e92">
+    <producedTypes>
+      <objectType typeId="2b5949b3-2c89-4771-a26a-883c5d047ce2" valueTypeId="bad6ad4b-810c-4de4-9280-63a90e724354"/>
+      <rowType typeId="1252f00f-8459-4201-bfda-a3ee542ff663" valueTypeId="b355f72f-894d-40b9-9e09-810a1884cf1e"/>
+    </producedTypes>
+    <name>АкцизныеМарки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="c1426949-e024-49a6-9995-6fda720e8b41">
+      <name>КодАкцизнойМарки</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.КодАкцизнойМарки</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

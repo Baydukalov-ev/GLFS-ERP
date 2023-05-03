@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae4ea3dc-055a-4e8e-947a-c9e487242bb4">
+  <name>бг_ВестиУчетРезервовАлкогольнойПродукцииВРазрезеУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет резервов алкогольной продукции в разрезе упаковок</value>
+  </synonym>
+  <location>Constant.ИспользоватьСерииНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.РаспределениеЗапасов.Dimension.Характеристика</content>
+  <content>Catalog.ХарактеристикиНоменклатуры</content>
+  <content>InformationRegister.НоменклатураСегмента.Dimension.Характеристика</content>
+  <content>InformationRegister.бг_ИзмененияСвободныхОстатковДляИМ.Dimension.Характеристика</content>
+  <content>DataProcessor.ПодборТоваровВДокументПродажи.TabularSection.Корзина.Attribute.Характеристика</content>
+</mdclass:FunctionalOption>

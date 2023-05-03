@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89dadcba-ccf6-4157-a2a1-4685cf7db388">
+  <producedTypes>
+    <objectType typeId="ae8c4627-b90b-4d50-938f-ed89c022e160" valueTypeId="3633c86a-921f-4434-98ec-1a99e86815c1"/>
+    <refType typeId="d381a340-2aea-4957-9310-0a3b6353d53e" valueTypeId="d5346b90-1af5-40cc-8c0b-47f9cf7f2981"/>
+    <selectionType typeId="4fd2acaa-2791-436e-8aae-4fd6f0b527b5" valueTypeId="3f141e4e-2a87-468e-a38e-a5118d77178a"/>
+    <listType typeId="cc3d9004-c246-44e0-ba08-059288ac9aab" valueTypeId="0e43c20f-78a1-4c14-b0e1-05eb1d262622"/>
+    <managerType typeId="d8b6268b-8ae5-44e9-b08f-80e73f642919" valueTypeId="4b2a8793-9b72-42a7-915d-ab20c57bbb40"/>
+  </producedTypes>
+  <name>КорректировкаЗадолженности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="1c449935-b41f-4e7c-a018-4f768d91c4e2">
+    <name>бг_Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.битФакторинг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e34b36e1-36e7-4616-b303-6b5df6a1aa43">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="01580d09-ae32-4ecd-8174-e4268aa510eb">
+    <name>ХозяйственнаяОперация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ХозяйственныеОперации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="539d2405-bbef-4986-bc20-2658887ab52a">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

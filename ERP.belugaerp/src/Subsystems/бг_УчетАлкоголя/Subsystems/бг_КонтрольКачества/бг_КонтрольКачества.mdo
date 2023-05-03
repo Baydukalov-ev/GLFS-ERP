@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce09f912-f5a6-4e6e-9180-4f2f752457dc">
+  <name>бг_КонтрольКачества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль качества</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.бг_ПоказателиАнализовНоменклатуры</content>
+  <content>Catalog.бг_ТиповыеАнализыНоменклатуры</content>
+  <content>Catalog.бг_НормативныеДокументыСертификацииНоменклатуры</content>
+  <content>Document.битСертификацияНоменклатуры</content>
+  <content>Catalog.бг_ЗначенияПоказателейАнализовНоменклатуры</content>
+  <content>Catalog.битТехническиеРегламенты</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36d87086-f006-4765-83c8-ab9e6dd812b4">
+  <producedTypes>
+    <objectType typeId="697fa943-9b1c-4262-8e98-3039218b59c3" valueTypeId="37589a81-2438-4b0a-953b-736464747007"/>
+    <managerType typeId="680445d9-4ec1-47dc-b9d2-be811cc2ffb7" valueTypeId="e03b16c5-fbf1-4cdb-b38a-2a8509230879"/>
+  </producedTypes>
+  <name>бг_КонтрольРаспределенияРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль распределения рейсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_КонтрольРаспределенияРейсов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="eb6a8805-0899-40b3-8bd0-7aeef2cb4e11">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

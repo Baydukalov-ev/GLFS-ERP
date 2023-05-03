@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c7e52b40-57f3-4e78-8908-b7a123d5cc70">
+  <producedTypes>
+    <refType typeId="4da04298-867f-4a70-8d88-936bb14342d2" valueTypeId="77417fb9-71e8-4a62-8ff4-63d96c41fecd"/>
+    <listType typeId="90ecceb3-f3eb-42d9-9547-941d149b5782" valueTypeId="21b5d135-076f-4dab-b735-a801a9ea596b"/>
+    <managerType typeId="1028d624-52ca-42bf-bb6f-e40c5cee97ec" valueTypeId="b988cb11-df8b-481a-a1dd-36645f26e406"/>
+  </producedTypes>
+  <name>ТипыРасчетовСПартнерами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a5e7b864-9a9f-4f98-9a29-9144bd645fc3">
+    <name>РасчетыСКлиентом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="74adc152-5b3a-4e29-b861-a6c08ea79475">
+    <name>РасчетыСПоставщиком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

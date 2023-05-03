@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6bfb0f4-b46d-4ae2-90f6-1be9e46742aa">
+  <name>бг_ИспользованиеОбработкиЗагрузкаПроводокИзБК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки загрузка проводок из БК</value>
+  </synonym>
+</mdclass:Role>

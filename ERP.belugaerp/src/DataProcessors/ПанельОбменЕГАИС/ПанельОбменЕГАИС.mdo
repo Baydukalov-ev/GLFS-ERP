@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ed74cab6-1280-484c-a8e9-ada4bbf0e7fa">
+  <producedTypes>
+    <objectType typeId="f3c63d90-50d8-4503-a705-aafcf5c5a4ec" valueTypeId="1c14e96c-d045-4ab7-bc8d-a0d959b41be4"/>
+    <managerType typeId="cd770b7f-ff5f-468b-87c6-5753269f6d4a" valueTypeId="b701ed06-51b6-468e-b171-3c74429b5ac4"/>
+  </producedTypes>
+  <name>ПанельОбменЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <forms uuid="8b46b993-4c94-429d-9741-2dc1b6499bc6">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

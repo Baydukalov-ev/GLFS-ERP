@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3a1b0c0-ca32-4e39-9ad2-cc8d4d8b05e6">
+  <name>бг_ЗакрытиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие заказов клиентов</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

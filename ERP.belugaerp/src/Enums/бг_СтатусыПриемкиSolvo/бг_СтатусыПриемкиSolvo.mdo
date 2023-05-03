@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4bd7fb3-f3ed-4d39-b32a-417d033b791f">
+  <producedTypes>
+    <refType typeId="03572721-4d14-4bf7-8899-2ccb5af97788" valueTypeId="34f86293-4a1d-4289-9deb-2247192d0ccf"/>
+    <listType typeId="485376c4-fc78-4ec5-b7e2-38cdb0fc1e89" valueTypeId="d183d1c0-607a-4a39-960a-5ab077b2a252"/>
+    <managerType typeId="763c4229-9a9c-4f62-aa4b-8cf2c9a0b2c0" valueTypeId="33a1dcc2-9670-416e-918a-cdd6b199301c"/>
+  </producedTypes>
+  <name>бг_СтатусыПриемкиSolvo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы приемки Solvo</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f60721d5-14f7-40e0-bff1-70505d91a246">
+    <name>КПоступлению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К поступлению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d97ee10-a25b-4d38-a44c-7f198516522d">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c40a258-713d-4329-a2dc-e229c635e9ba">
+    <name>Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят на складе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ca224a8-ee81-4093-b4b2-877c0fda4fa7">
+    <name>Принят</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден на складе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

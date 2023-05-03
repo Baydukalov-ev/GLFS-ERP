@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9ee2bba-f6a0-4da0-a252-04e8571aff64">
+  <producedTypes>
+    <selectionType typeId="07dc22d1-01f4-4d83-9d78-39ac2976d3b6" valueTypeId="b3a59e11-6e7c-4ab0-8abc-628fa91bee02"/>
+    <listType typeId="1c34a14d-1959-4440-88ad-9b17641a9581" valueTypeId="ba402d60-d30e-4756-b166-47e20bd44e9f"/>
+    <managerType typeId="78f2f20e-b326-46ca-9763-89ed18c1fc20" valueTypeId="9e547bff-79e1-4278-b751-fe04b0510cbd"/>
+    <recordSetType typeId="bb822ded-119e-449f-897a-48a1f72c4797" valueTypeId="6cba6416-8e5d-4d75-a019-75b683079976"/>
+    <recordKeyType typeId="eb0a793f-b03b-46d3-af2b-7214a2148daa" valueTypeId="85ada446-1e73-4fdf-bff7-137952c5991b"/>
+    <recordType typeId="7652498f-df02-4828-b3f3-edf12bde5328" valueTypeId="80dc5efb-af6b-4a05-9205-286f85ac9030"/>
+    <recordManagerType typeId="cbdf19a5-fc7a-4740-afc3-3f6197818665" valueTypeId="b5a91dba-ce95-4868-99ab-debd15f58d79"/>
+  </producedTypes>
+  <name>бг_ИсторияЗагрузкиАлкогольныхЛицензийПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>История загрузки алкогольных лицензий поставщиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fe42bf75-71cc-4a65-a21d-afb8cbd319fd">
+    <name>ХешСуммаФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш сумма файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="be946bb5-1881-46b0-bb56-f8b3fc7dcb0e">
+    <name>ТипЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип лицензии</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ТипыЛицензийПоставщиковАлкогольнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0090235-5efd-4c55-9808-60e47c8c5aba">
+  <name>бг_ИспользованиеОбработкиСогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки Согласование заказов клиентов</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="426b4aa4-514b-4dd5-9a90-ff59663f568f">
+  <name>бг_ЗаказыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы клиента</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

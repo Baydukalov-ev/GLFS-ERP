@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5477239c-011c-4316-b4b4-b652dc829747">
+  <name>бг_ДобавлениеИзменениеВидовВозвращаемыхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение видов возвращаемых документов</value>
+  </synonym>
+</mdclass:Role>

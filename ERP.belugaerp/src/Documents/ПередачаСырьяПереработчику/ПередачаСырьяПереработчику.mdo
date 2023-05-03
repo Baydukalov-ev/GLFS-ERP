@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="580148f2-8ab1-46bb-b1f6-be3bd5f9bdc7">
+  <producedTypes>
+    <objectType typeId="139e985c-abee-4951-b38a-dac3538f2cb3" valueTypeId="91c15576-e853-41b4-a646-f3679e65d1fd"/>
+    <refType typeId="f0b52379-cf33-4148-a0bf-a9b4ace48e76" valueTypeId="00467b9a-845a-4301-b70b-506ecd8940d0"/>
+    <selectionType typeId="9641bbf1-518e-4da0-9bcd-a556c9dee8a7" valueTypeId="63a27a3f-3fa8-4f3e-91b6-351fc836b463"/>
+    <listType typeId="8cf46351-8f51-436e-9efb-3bb63436fbd7" valueTypeId="4f33e079-3195-4d04-b984-2021ab8a9e22"/>
+    <managerType typeId="06369278-74dd-4b8e-8a13-6360093c6a55" valueTypeId="ebdf5fcf-9573-4a3c-84a9-adacc5f59827"/>
+  </producedTypes>
+  <name>ПередачаСырьяПереработчику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Document>

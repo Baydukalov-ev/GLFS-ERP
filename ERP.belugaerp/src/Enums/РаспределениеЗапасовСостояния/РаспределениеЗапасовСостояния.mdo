@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3243414b-1595-4d3c-8460-cebfa719ce7d">
+  <producedTypes>
+    <refType typeId="2ac67cef-46a1-4aeb-8c26-e2089e878a90" valueTypeId="96100e17-7b60-4b6b-93ac-1e22d41861ce"/>
+    <listType typeId="ae3a8acc-4bd5-4b3f-ae14-f7d7b859b8b2" valueTypeId="240d2c99-8dc8-4294-b5b5-018297214d19"/>
+    <managerType typeId="2d8a9566-69c2-40ce-86a7-dce72a575f3b" valueTypeId="568b6181-67ed-46d0-9001-1f4e1e55a7dd"/>
+  </producedTypes>
+  <name>РаспределениеЗапасовСостояния</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="62538f8f-fd44-4aa4-a1d7-d8502ea7043a">
+    <name>ВРезерве</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6286999d-d2d5-495b-b833-19f6adc60248">
+    <name>ОстатокНаСкладе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="976cefde-fa26-49dd-bf9f-c5ac96c22b17">
+    <name>ОбеспеченКДате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="9ad5ad6e-60be-4297-b48f-503874381734">
+    <name>ОжидаемоеПоступление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

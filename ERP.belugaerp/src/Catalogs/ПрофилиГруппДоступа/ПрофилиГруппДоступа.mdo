@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80a00e05-2e0c-4b27-9776-863eec1a802e">
+  <producedTypes>
+    <objectType typeId="a9c33bb8-1d5f-421a-a1eb-f55ca4940266" valueTypeId="47afd5d1-dfa3-4cfd-b2b2-3a5e2dbffde5"/>
+    <refType typeId="7662852f-8e68-4d86-a609-22697dc00396" valueTypeId="20600943-bc73-419d-bb42-35c9327ecdf7"/>
+    <selectionType typeId="be302a1e-884b-41e0-a9bc-784443a16085" valueTypeId="0b57d6ce-f8a6-47cf-8742-8a3e8440428e"/>
+    <listType typeId="cc86c667-e61e-4eca-b5df-f8519722650a" valueTypeId="fe389fa2-9126-4c16-beb8-dc2230b6eae1"/>
+    <managerType typeId="b2acf5c2-6808-4737-87fe-d4d74b42c69b" valueTypeId="56162f84-b50b-4e45-9113-c64deb36c3a5"/>
+  </producedTypes>
+  <name>ПрофилиГруппДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="5fefcb96-f7e3-40a0-b4fb-21545835b29c">
+    <producedTypes>
+      <objectType typeId="3f9e521e-7464-4167-8cd2-36bb8cd68ab9" valueTypeId="5f709976-a11d-4d55-b35c-356b4afbe919"/>
+      <rowType typeId="568f1932-f41a-4d9a-a89c-435e4ded8029" valueTypeId="7098fe01-92ed-4501-945c-d79925972c49"/>
+    </producedTypes>
+    <name>Роли</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="7273891f-911a-4ef7-a053-fadd942c1b04">
+      <name>Роль</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3e20d237-b1c5-4fc2-8e0a-11aff0ab7952">
+    <producedTypes>
+      <objectType typeId="edf97b72-fc98-487b-b01a-00dd1d669e81" valueTypeId="e5de2331-eac3-4555-b3dc-79002ea60030"/>
+      <rowType typeId="942c24eb-ad21-4d09-962a-72fc6167cf0e" valueTypeId="642c1e1d-3ee4-4587-bd86-fcf6f0999a3c"/>
+    </producedTypes>
+    <name>ЗначенияДоступа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="9864fc60-611d-4814-99a1-34a0b58b13ed">
+      <name>ВидДоступа</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ЗначениеДоступа</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="db807385-0682-4bb8-8016-a0571e3e1d31">
+      <name>ЗначениеДоступа</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ЗначениеДоступа</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

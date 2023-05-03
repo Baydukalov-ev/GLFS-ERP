@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ДетальныеЗаписи</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Рейс</dataPath>
+			<field>Рейс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейс</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Водитель</dataPath>
+			<field>Водитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Телефон</dataPath>
+			<field>Телефон</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Перевозчик</dataPath>
+			<field>Перевозчик</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автомобиль</dataPath>
+			<field>Автомобиль</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Экспедитор</dataPath>
+			<field>Экспедитор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтраховаяСтавка</dataPath>
+			<field>СтраховаяСтавка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипРейса</dataPath>
+			<field>ТипРейса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКузова</dataPath>
+			<field>ТипКузова</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлассГрузоподъемности</dataPath>
+			<field>КлассГрузоподъемности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаршрутДоставки</dataPath>
+			<field>МаршрутДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РаспределениеТранспортныхРасходов</dataPath>
+			<field>РаспределениеТранспортныхРасходов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Распределение транспортных расходов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДАЛ</dataPath>
+			<field>ОбъемДАЛ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем ДАЛ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РасходыНеВозмещаемые</dataPath>
+			<field>РасходыНеВозмещаемые</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расходы не возмещаемые</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РасходыВозмещаемые</dataPath>
+			<field>РасходыВозмещаемые</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расходы возмещаемые</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизаторПеревозки</dataPath>
+			<field>ОрганизаторПеревозки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организатор перевозки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПеревозки</dataPath>
+			<field>ВидПеревозки</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МаршрутныйЛист.Ссылка КАК Рейс,
+	МаршрутныйЛист.Организация КАК Организация,
+	МаршрутныйЛист.Дата КАК Дата,
+	МаршрутныйЛист.Номер КАК Номер,
+	МаршрутныйЛист.Перевозчик КАК ОрганизаторПеревозки,
+	ВЫБОР
+		КОГДА МаршрутныйЛист.Субподрядчик = ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+			ТОГДА МаршрутныйЛист.Перевозчик
+		ИНАЧЕ МаршрутныйЛист.Субподрядчик
+	КОНЕЦ КАК Перевозчик,
+	МаршрутныйЛист.Автомобиль КАК Автомобиль,
+	МаршрутныйЛист.Водитель КАК Водитель,
+	МаршрутныйЛист.Экспедитор КАК Экспедитор,
+	МаршрутныйЛист.ДокументОснование КАК ДокументОснование,
+	МаршрутныйЛист.Телефон КАК Телефон,
+	МаршрутныйЛист.СтраховаяСтавка КАК СтраховаяСтавка,
+	МаршрутныйЛист.ТипРейса КАК ТипРейса,
+	МаршрутныйЛист.ТипКузова КАК ТипКузова,
+	МаршрутныйЛист.КлассГрузоподъемности КАК КлассГрузоподъемности,
+	МаршрутныйЛист.Комментарий КАК Комментарий,
+	МаршрутныйЛист.МаршрутДоставки КАК МаршрутДоставки,
+	МаршрутныйЛист.ВидПеревозки КАК ВидПеревозки
+ПОМЕСТИТЬ ДанныеРейсов
+ИЗ
+	Документ.битМаршрутныйЛист КАК МаршрутныйЛист
+ГДЕ
+	МаршрутныйЛист.Проведен
+	И МаршрутныйЛист.ВидДокумента = ЗНАЧЕНИЕ(Перечисление.бг_ВидыМаршрутныхЛистов.Рейс)
+{ГДЕ
+	(МаршрутныйЛист.Дата &gt;= &amp;НачалоПериода
+			И МаршрутныйЛист.Дата &lt;= &amp;КонецПериода)}
+
+ИНДЕКСИРОВАТЬ ПО
+	Рейс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	МаршрутныйЛистРасходы.Ссылка КАК Рейс,
+	СУММА(ВЫБОР
+			КОГДА МаршрутныйЛистРасходы.ВидТранспортныхРасходов В (&amp;СтатьиНевозмещаемые)
+				ТОГДА МаршрутныйЛистРасходы.Сумма
+			ИНАЧЕ 0
+		КОНЕЦ) КАК РасходыНеВозмещаемые,
+	СУММА(ВЫБОР
+			КОГДА МаршрутныйЛистРасходы.ВидТранспортныхРасходов В (&amp;СтатьиВозмещаемые)
+				ТОГДА МаршрутныйЛистРасходы.Сумма
+			ИНАЧЕ 0
+		КОНЕЦ) КАК РасходыВозмещаемые
+ПОМЕСТИТЬ втРасходы
+ИЗ
+	Документ.битМаршрутныйЛист.Расходы КАК МаршрутныйЛистРасходы
+ГДЕ
+	МаршрутныйЛистРасходы.Ссылка В
+			(ВЫБРАТЬ
+				ДанныеРейсов.Рейс
+			ИЗ
+				ДанныеРейсов)
+
+СГРУППИРОВАТЬ ПО
+	МаршрутныйЛистРасходы.Ссылка
+
+ИНДЕКСИРОВАТЬ ПО
+	Рейс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ДанныеРейсов.Рейс КАК Рейс,
+	МаршрутныйЛистЗаказы.ДокументОтгрузки КАК ДокументОтгрузки
+ПОМЕСТИТЬ ДокументыОтгрузки
+ИЗ
+	ДанныеРейсов КАК ДанныеРейсов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказы
+		ПО ДанныеРейсов.Рейс = МаршрутныйЛистЗаказы.Ссылка
+
+ИНДЕКСИРОВАТЬ ПО
+	ДокументОтгрузки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДокументыОтгрузки.Рейс КАК Рейс,
+	РеализацияТоваровУслугТовары.Количество * ЕСТЬNULL(РеализацияТоваровУслугТовары.Номенклатура.ОбъемДАЛ, 0) КАК ОбъемДАЛ
+ПОМЕСТИТЬ ОбъемОтгрузкиПредварительно
+ИЗ
+	ДокументыОтгрузки КАК ДокументыОтгрузки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.РеализацияТоваровУслуг.Товары КАК РеализацияТоваровУслугТовары
+		ПО ДокументыОтгрузки.ДокументОтгрузки = РеализацияТоваровУслугТовары.Ссылка
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДокументыОтгрузки.Рейс,
+	ПриобретениеТоваровУслуг.Количество * ЕСТЬNULL(ПриобретениеТоваровУслуг.Номенклатура.ОбъемДАЛ, 0)
+ИЗ
+	ДокументыОтгрузки КАК ДокументыОтгрузки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПриобретениеТоваровУслуг.Товары КАК ПриобретениеТоваровУслуг
+		ПО ДокументыОтгрузки.ДокументОтгрузки = ПриобретениеТоваровУслуг.Ссылка
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДокументыОтгрузки.Рейс,
+	ПеремещениеТоваров.Количество * ЕСТЬNULL(ПеремещениеТоваров.Номенклатура.ОбъемДАЛ, 0)
+ИЗ
+	ДокументыОтгрузки КАК ДокументыОтгрузки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПеремещениеТоваров.Товары КАК ПеремещениеТоваров
+		ПО ДокументыОтгрузки.ДокументОтгрузки = ПеремещениеТоваров.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОбъемОтгрузкиПредварительно.Рейс КАК Рейс,
+	СУММА(ОбъемОтгрузкиПредварительно.ОбъемДАЛ) КАК ОбъемДАЛ
+ПОМЕСТИТЬ ОбъемОтгрузки
+ИЗ
+	ОбъемОтгрузкиПредварительно КАК ОбъемОтгрузкиПредварительно
+
+СГРУППИРОВАТЬ ПО
+	ОбъемОтгрузкиПредварительно.Рейс
+
+ИНДЕКСИРОВАТЬ ПО
+	Рейс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеРейсов.Рейс КАК Рейс,
+	МАКСИМУМ(Затраты.Ссылка) КАК РаспределениеТранспортныхРасходов
+ПОМЕСТИТЬ РспределенияТранспортныхРасходов
+ИЗ
+	ДанныеРейсов КАК ДанныеРейсов
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битРаспределениеТранспортныхРасходов.РаспределениеЗатрат КАК Затраты
+		ПО ДанныеРейсов.Рейс = Затраты.Рейс
+			И (Затраты.Ссылка.Проведен)
+
+СГРУППИРОВАТЬ ПО
+	ДанныеРейсов.Рейс
+
+ИНДЕКСИРОВАТЬ ПО
+	Рейс
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеРейсов.Рейс КАК Рейс,
+	ДанныеРейсов.Организация КАК Организация,
+	ДанныеРейсов.Дата КАК Дата,
+	ДанныеРейсов.Номер КАК Номер,
+	ДанныеРейсов.ВидПеревозки КАК ВидПеревозки,
+	ДанныеРейсов.Перевозчик КАК Перевозчик,
+	ДанныеРейсов.ОрганизаторПеревозки КАК ОрганизаторПеревозки,
+	ДанныеРейсов.Автомобиль КАК Автомобиль,
+	ДанныеРейсов.Водитель КАК Водитель,
+	ДанныеРейсов.Экспедитор КАК Экспедитор,
+	ДанныеРейсов.ДокументОснование КАК ДокументОснование,
+	ДанныеРейсов.Телефон КАК Телефон,
+	ДанныеРейсов.СтраховаяСтавка КАК СтраховаяСтавка,
+	ДанныеРейсов.ТипРейса КАК ТипРейса,
+	ДанныеРейсов.ТипКузова КАК ТипКузова,
+	ДанныеРейсов.КлассГрузоподъемности КАК КлассГрузоподъемности,
+	ДанныеРейсов.Комментарий КАК Комментарий,
+	ДанныеРейсов.МаршрутДоставки КАК МаршрутДоставки,
+	РспределенияТранспортныхРасходов.РаспределениеТранспортныхРасходов КАК РаспределениеТранспортныхРасходов,
+	ЕСТЬNULL(втРасходы.РасходыНеВозмещаемые, 0) КАК РасходыНеВозмещаемые,
+	ЕСТЬNULL(втРасходы.РасходыВозмещаемые, 0) КАК РасходыВозмещаемые,
+	ЕСТЬNULL(ОбъемОтгрузки.ОбъемДАЛ, 0) КАК ОбъемДАЛ
+ИЗ
+	ДанныеРейсов КАК ДанныеРейсов
+		ЛЕВОЕ СОЕДИНЕНИЕ втРасходы КАК втРасходы
+		ПО ДанныеРейсов.Рейс = втРасходы.Рейс
+		ЛЕВОЕ СОЕДИНЕНИЕ РспределенияТранспортныхРасходов КАК РспределенияТранспортныхРасходов
+		ПО ДанныеРейсов.Рейс = РспределенияТранспортныхРасходов.Рейс
+		ЛЕВОЕ СОЕДИНЕНИЕ ОбъемОтгрузки КАК ОбъемОтгрузки
+		ПО ДанныеРейсов.Рейс = ОбъемОтгрузки.Рейс</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ОбъемДАЛ</dataPath>
+		<expression>Сумма(ОбъемДАЛ)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РасходыВозмещаемые</dataPath>
+		<expression>Сумма(РасходыВозмещаемые)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РасходыНеВозмещаемые</dataPath>
+		<expression>Сумма(РасходыНеВозмещаемые)</expression>
+	</totalField>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СтатьиВозмещаемые</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статьи возмещаемые</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.бг_ВидыТранспортныхРасходов</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПРРВозмещаемые</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойВозмещаемыйЧасы</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойВозмещаемый</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеВозмещаемый</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеВозмещаемыйЧасы</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ТранспортныеРасходыВозмещаемые</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ХранениеПодключениеВозмещаемые</value>
+		<useRestriction>true</useRestriction>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПРРВозмещаемые</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойВозмещаемыйЧасы</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойВозмещаемый</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеВозмещаемый</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеВозмещаемыйЧасы</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ТранспортныеРасходыВозмещаемые</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ХранениеПодключениеВозмещаемые</value>
+		</availableValue>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>СтатьиНевозмещаемые</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статьи невозмещаемые</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.бг_ВидыТранспортныхРасходов</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ТранспортныеРасходыНевозмещаемые</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ХранениеПодключениеНевозмещаемые</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеНевозмещаемый</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеНевозмещаемыйЧасы</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойНевозмещаемый</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойНевозмещаемыйЧасы</value>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПРРНевозмещаемые</value>
+		<useRestriction>true</useRestriction>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ТранспортныеРасходыНевозмещаемые</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ХранениеПодключениеНевозмещаемые</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеНевозмещаемый</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойПриПогрузкеНевозмещаемыйЧасы</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойНевозмещаемый</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПростойНевозмещаемыйЧасы</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="dcscor:DesignTimeValue">Перечисление.бг_ВидыТранспортныхРасходов.ПРРНевозмещаемые</value>
+		</availableValue>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль распределения рейсов</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Рейс</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Перевозчик</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОрганизаторПеревозки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидПеревозки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автомобиль</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Водитель</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Экспедитор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДокументОснование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Телефон</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтраховаяСтавка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипРейса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипКузова</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлассГрузоподъемности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаршрутДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РаспределениеТранспортныхРасходов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъемДАЛ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасходыВозмещаемые</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасходыНеВозмещаемые</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>28e0ddbe-fd96-4bba-8c97-a07420602ecc</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>a5b95592-7408-4b29-87e7-a8104d469006</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Рейс</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

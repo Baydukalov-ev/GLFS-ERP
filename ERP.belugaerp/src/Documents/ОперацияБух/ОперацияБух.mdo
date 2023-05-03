@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06b67982-6f7b-48cd-80e9-f822563c0879">
+  <producedTypes>
+    <objectType typeId="bd391e4c-da82-4cea-a832-9d1f1ec18f69" valueTypeId="98859c35-f00d-4a71-ae2f-06540570bb15"/>
+    <refType typeId="3248922c-b71f-485b-9cc6-c7ab1eed14e8" valueTypeId="2b3d2d40-3b4d-4dd8-8ecc-b2684955788a"/>
+    <selectionType typeId="85cbd39c-fc7f-4b29-89ba-fec5a1a9a10b" valueTypeId="f57a6802-322e-4dbf-8090-f5d6a87de340"/>
+    <listType typeId="518fefa6-37fe-4484-bc2b-b0721d3865d0" valueTypeId="849a5c7a-28fe-4d76-bf59-c1216c4b5e6c"/>
+    <managerType typeId="1770268c-dd06-4dc4-b170-096a08067abb" valueTypeId="d2da9ecb-140e-43a0-a88e-16cf06da7dea"/>
+  </producedTypes>
+  <name>ОперацияБух</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="970e49b3-5950-4858-9590-95b7c9b8e1b4">
+    <name>бг_Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.битФакторинг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c227cd5-87ab-4b34-80e8-9f0587ea94eb">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="10aff4a1-6413-40d7-8bbd-bccc93eb1cb7">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

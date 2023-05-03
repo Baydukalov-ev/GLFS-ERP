@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4814ea82-5ee3-421e-b38e-68c0c82248fb">
+  <producedTypes>
+    <containerType typeId="5341e609-55dd-420a-92ae-71c7290950fa" valueTypeId="23a386ca-7a12-4efa-9df7-892c952c650d"/>
+  </producedTypes>
+  <name>НастройкаСчетовУчетаАналитикаУчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

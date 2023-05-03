@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f826a72a-2cbc-45d9-b952-27ec777b69d9">
+  <name>бг_ЧтениеАктОбУничтоженииФСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение акт об уничтожении ФСМ</value>
+  </synonym>
+</mdclass:Role>

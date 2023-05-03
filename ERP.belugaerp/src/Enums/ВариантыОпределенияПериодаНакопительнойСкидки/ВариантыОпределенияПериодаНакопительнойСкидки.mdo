@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f729a73e-b2f5-4180-bdbe-13758fbd3b32" extendedConfigurationObject="3508ca3f-1e5f-4e23-b80b-670f6d8d6d19">
+  <producedTypes>
+    <refType typeId="340fd456-1436-48b3-8969-6e9f4485c13b" valueTypeId="e9f48f49-91f7-4030-914b-0f68118a70e6"/>
+    <listType typeId="11a8e09e-e681-47ea-8ec2-a837735c4e18" valueTypeId="7cd5d395-e3d0-4ffc-8524-19a75ccf4570"/>
+    <managerType typeId="30d2180b-907c-4510-80e6-3d778a740419" valueTypeId="18fc8e04-23c6-4c2d-a190-7714aac1288f"/>
+  </producedTypes>
+  <name>ВариантыОпределенияПериодаНакопительнойСкидки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

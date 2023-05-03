@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88ae0f2e-e78f-4d62-8817-16a90e4e0ec0">
+  <producedTypes>
+    <refType typeId="f4456646-ee2a-4f3a-9305-6795156ef848" valueTypeId="2d30c1a1-a69d-4fef-a11c-b384675d0049"/>
+    <listType typeId="09255a96-4b84-4487-973c-d72e3ed4730a" valueTypeId="b70f8c17-687b-41cc-a4fe-a03c048d1bbc"/>
+    <managerType typeId="abd9032a-6725-43ab-bf3e-d415bfcfb276" valueTypeId="6614d818-61dd-42eb-96c2-be6d83acd747"/>
+  </producedTypes>
+  <name>СкладскиеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="04ba142b-a207-4e2e-a101-b133412fa456">
+    <name>ОтгрузкаКлиенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b915c639-0b34-4b4f-8635-36640bb14983">
+    <name>ОтгрузкаКомплектующихДляСборки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f386b8f8-50a1-4933-b057-a03270a0fdba">
+    <name>ОтгрузкаНаВнутренниеНужды</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c2679a6f-7ff5-4625-9b52-dad202c26765">
+    <name>ОтгрузкаПоПеремещению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c1b07182-63f2-44c4-a227-f55d76dc8685">
+    <name>ПриемкаОтПоставщика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7d959f0a-ce6d-4eae-845f-e9e26f3c221c">
+    <name>ПриемкаПоВозвратуОтКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5626660c-7d04-4205-b61e-f2d22e02c52f">
+  <producedTypes>
+    <selectionType typeId="9b190c73-f0a3-44cf-a9e3-c09ce0376781" valueTypeId="251e01df-a341-4ce6-ad9e-1ab3312abd57"/>
+    <listType typeId="8cc8f183-3164-439b-9558-be6e045d8a82" valueTypeId="6ac00a51-1cbc-46d8-8995-7b8ca85c6fa8"/>
+    <managerType typeId="633fae31-abe5-484c-b3b7-5aa011a9b5ee" valueTypeId="873a458a-f3df-41a6-a888-0a99dd357150"/>
+    <recordSetType typeId="47073291-bfc2-4087-a689-4e7a40bc6104" valueTypeId="ee2d7322-3008-4c4b-9338-fa59bbc84aa7"/>
+    <recordKeyType typeId="8f189ae5-15bd-4219-896c-8ccb671f0994" valueTypeId="335c8b62-640c-49c5-a2a3-86f2ee59eb1f"/>
+    <recordType typeId="2b9fc35a-c3d0-4d6e-9fbf-f2c2089c53c4" valueTypeId="80aa884d-9db0-4067-b5ca-457367232bb4"/>
+  </producedTypes>
+  <name>бг_ПоказателиРаботыОператоровWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели работы операторов WMS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c2f88237-2775-44f0-83c7-9ab821d3fd19">
+    <name>ВремяВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время выполнения (сек)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="24e4fe98-b159-42d9-8733-07abdc324dff">
+    <name>КоличествоТоваровРаспоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество товаров (в распоряжении)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="75829f71-605e-44c9-81d6-feff1146e438">
+    <name>СуммаТоваровРаспоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма (в распоряжении)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="6a357977-923e-4e4a-b7af-e360fa550b01">
+    <name>КоличествоПозицийОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество позиций (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="0339eefd-8e67-45ab-8457-d9a3a9a8786e">
+    <name>КоличествоТоваровОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество товаров (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9ecd63e7-81d7-42a5-8080-5a8e2d09d506">
+    <name>ОбъемДАЛОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем ДАЛ (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8417bb98-1c04-480d-a1b5-00fe510990d9">
+    <name>ОбъемДАЛСпиртОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем ДАЛ спирт (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="56a0a1a4-646e-4735-a14b-055ad6965221">
+    <name>ОбъемДАЛМарокОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем ДАЛ по маркам (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9ece27aa-b277-4e5f-aa8b-e4877e0b41eb">
+    <name>ОбъемДАЛКоробокОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем ДАЛ по коробкам (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="527becbf-a551-4d73-9e30-3ca54eefe6e0">
+    <name>ОбъемДАЛПаллетОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем ДАЛ по паллетам (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c0a71560-471b-47d4-bbfb-c31e90a73dfb">
+    <name>КоличествоМарокОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество марок (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="c4150251-147b-469f-84c9-1166d3c37b9d">
+    <name>КоличествоКоробокОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество коробок (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="cc6b40f4-bcff-4575-bc5b-5cbfcec87439">
+    <name>КоличествоПаллетОтсканировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество паллет (отсканировано)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="c8bddde5-dca7-4c06-a382-9508fb2eff23">
+    <name>Распоряжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распоряжение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПеремещениеТоваров</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+      <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="937fd8fc-faf6-4bca-9ae0-a4da9fb21226">
+    <name>ДатаПолученияОтветаОтТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата получения ответа от ТСД</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="659eaa13-8358-44e7-99e8-aabfe9e09498">
+    <name>ДатаВыгрузкиРаспоряженияТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выгрузки распоряжения ТСД</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="91afa82b-ae01-480c-9db9-a71bcf0c6b9a">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="eedaf8b6-6863-456d-899c-59d91d6caefb">
+    <name>Территория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битТерриторииПунктовНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="62f900a9-c64a-4818-9c70-7f7532db4cc2">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d85b17d-10f1-4637-8da2-4e447194fe04">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6fb335b1-d615-47c4-a57a-8290ce60f762">
+    <name>ПунктРазгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт разгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

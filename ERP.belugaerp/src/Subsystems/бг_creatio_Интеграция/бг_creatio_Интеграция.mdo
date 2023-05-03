@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4279fac6-b33d-4880-a8b3-28a35e44cfd1">
+  <name>бг_creatio_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с creatio</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.бг_сreatio</picture>
+  </picture>
+  <content>Catalog.бг_creatio_НастройкиОбмена</content>
+  <content>InformationRegister.бг_creatio_ВыгруженныеПакеты</content>
+  <content>CommonModule.бг_creatio_Интеграция</content>
+  <content>InformationRegister.бг_creatio_СоответствиеОбъектов</content>
+  <content>XDTOPackage.бг_creatio_Request</content>
+  <content>InformationRegister.бг_creatio_РегистрацияИзменений</content>
+  <content>InformationRegister.бг_СоответствиеОбъектовУПП</content>
+  <content>WebService.бг_creatio_WebСервис</content>
+  <content>CommonPicture.бг_сreatio</content>
+  <content>EventSubscription.бг_creatio_ЗарегистрироватьОбъектДляОбменаСCreatioПриЗаписи</content>
+  <content>XDTOPackage.бг_creatio_Response</content>
+  <content>Role.бг_creatio_ИзменениеДанных</content>
+  <content>Role.бг_creatio_ЧтениеДанных</content>
+  <content>Enum.бг_БазыУПП</content>
+  <content>Enum.бг_creatio_ТипыОбъектовАдреса</content>
+  <content>Enum.бг_creatio_ТипыОбъектовОбмена</content>
+  <content>InformationRegister.бг_creatio_ПолученныеПакеты</content>
+</mdclass:Subsystem>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c36f68a6-892a-42ee-8c7a-d84d9b77cfd6">
+  <producedTypes>
+    <objectType typeId="b1946da6-f6da-44b0-858e-b3c3c5164300" valueTypeId="58303e4c-c271-4dbe-93ed-d8921b31e705"/>
+    <refType typeId="723e83ef-52f6-475e-bccb-301499146a41" valueTypeId="6274b510-397e-4ca7-bb10-6ec36433af9f"/>
+    <selectionType typeId="99ebb67a-c72f-4801-99ef-7a09e21706a9" valueTypeId="70cab1f2-b3b3-44e4-84d8-1a1ee4673102"/>
+    <listType typeId="d900ed69-6be4-47a6-ba09-fbc409ddd36d" valueTypeId="e28d14c1-903b-46b2-b960-9bcf258df776"/>
+    <managerType typeId="e97a80da-f4eb-4fad-b964-38454704c32b" valueTypeId="68e9bedc-e260-4f48-a355-f909de11cd7c"/>
+  </producedTypes>
+  <name>ГруппыПользователей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="a450be18-23fa-4b1c-8d53-a7570a45fdae">
+    <producedTypes>
+      <objectType typeId="4454b49d-f73e-4839-b355-72c3aed420f2" valueTypeId="e592ec98-a4fb-462b-a09e-9a1eaa2c01bb"/>
+      <rowType typeId="e3d86767-4a42-4dab-9105-dae26f933f5e" valueTypeId="8276996b-28d4-452c-988f-0d0353c32446"/>
+    </producedTypes>
+    <name>Состав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="54a3c92a-9d64-4b18-bcf4-d0c3b6e4b3fe">
+      <name>Пользователь</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Пользователи</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

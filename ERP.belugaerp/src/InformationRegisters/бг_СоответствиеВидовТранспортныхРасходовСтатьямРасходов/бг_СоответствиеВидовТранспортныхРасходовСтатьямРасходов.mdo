@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f06d0a4-fcf9-455c-be6c-d18ef587f40a">
+  <producedTypes>
+    <selectionType typeId="05c5a2df-2ff3-433e-b453-5262a5fcdb69" valueTypeId="d18baee1-0851-4d39-b92d-0e9469c0d8a3"/>
+    <listType typeId="c64408da-b072-46d6-85ac-4f7991a29416" valueTypeId="aacaf9be-6089-493f-9c65-be88ab6e1105"/>
+    <managerType typeId="7301608c-5c7c-4974-b8f8-18e714cbed83" valueTypeId="5f5ceb16-b8db-4b47-a4f8-e53d622aaf83"/>
+    <recordSetType typeId="5cd56357-f89c-4431-ad58-94d1299001b2" valueTypeId="8f61fe3d-5f48-49c9-9bbd-6da1d9a53a37"/>
+    <recordKeyType typeId="4535ac4a-7aa6-4daa-8526-58fc16f4c976" valueTypeId="ada5d5e6-4c8b-4637-a4f0-d7dd25d20971"/>
+    <recordType typeId="ceac2aa4-b0cb-40e3-a553-d72082507633" valueTypeId="c1f2df90-3215-45f8-9fc8-b9e7cba715ab"/>
+    <recordManagerType typeId="a9aa9b7d-b379-4b72-a4f5-8fc11650f2be" valueTypeId="b13936dc-0f12-4ca0-a982-c2242a6ad48e"/>
+  </producedTypes>
+  <name>бг_СоответствиеВидовТранспортныхРасходовСтатьямРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие видов транспортных расходов статьям расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.бг_СоответствиеВидовТранспортныхРасходовСтатьямРасходов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Соответствие вида транспортных расходов статье расходов</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Соответствие видов транспортных расходов статьям расходов</value>
+  </listPresentation>
+  <resources uuid="2bb4f028-66bc-49b2-8e80-d951df392a65">
+    <name>СтатьяРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья расходов</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.СтатьиРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5f6ccdb8-b51a-4e82-9f55-13653641aa8f">
+    <name>ВидТранспортныхРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид транспортных расходов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ВидыТранспортныхРасходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6ac73c8f-8839-4881-8824-f0afd7f82c6d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

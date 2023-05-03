@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b3f5f39-ab3a-47df-aaf7-0339eca7db27">
+  <producedTypes>
+    <refType typeId="4c2d172a-0ddf-4df6-9bea-6da698d6f6c0" valueTypeId="17be1023-85d7-47df-9185-e6acc4924dfd"/>
+    <listType typeId="0def69c7-b09f-4cd3-9ed7-e2f3048ae5da" valueTypeId="c6a881f9-155d-4ef0-8d64-eb4742e1c369"/>
+    <managerType typeId="3023cc7b-618f-42c6-9c22-7139fd98bac2" valueTypeId="08ef060b-5f3c-431e-99af-5cf6b29a0de3"/>
+  </producedTypes>
+  <name>бг_ВидРасчетовПоФакторингу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид расчетов по факторингу (Белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Вид расчетов по факторингу</value>
+  </listPresentation>
+  <enumValues uuid="391a396f-2bfc-49d3-97c6-ef3a80f51895">
+    <name>СДебитором</name>
+    <synonym>
+      <key>ru</key>
+      <value>С дебитором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7b6b0f8-df5d-483d-b4cd-084676d8fbdc">
+    <name>СФактором</name>
+    <synonym>
+      <key>ru</key>
+      <value>С фактором</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30d9f8ea-f8e0-4f11-a374-e2459c04876f">
+    <name>ПоСуммеУступленногоДолга</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме уступленного долга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bee2c28-6c32-41d3-aff3-48bcdbac41c4">
+    <name>ПоСуммеКомиссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме комиссии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31b5185d-268f-4d68-b383-20857cc88da2">
+    <name>ПоСуммеФинансирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме финансирования</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fa49255b-ab3a-4b9c-b667-9d9709b42513">
+  <producedTypes>
+    <objectType typeId="05d773b8-5bc2-4bb8-8ea4-1ee8eeab80a5" valueTypeId="d7c011d1-a2e0-4e32-9dea-a14c3c57da9b"/>
+    <refType typeId="82680c31-8736-41c6-a141-8051f2d35579" valueTypeId="40ec5db4-c939-4bf4-b7d7-ed9525f7c898"/>
+    <selectionType typeId="db5257af-0d9a-46a6-aba0-759b6a4ab3ef" valueTypeId="9392072a-fb59-4e32-be85-123ef0d20d1e"/>
+    <listType typeId="88e35145-344a-4678-9512-ccfc450217d6" valueTypeId="cba5692c-d451-484f-925e-6883951cc51d"/>
+    <managerType typeId="adf8e4cf-a7ee-427e-97b1-227986dc84a0" valueTypeId="335e1252-4e87-45d5-a85a-301de9829a05"/>
+  </producedTypes>
+  <name>битЗагрузкаПриостановленныхЛицензийКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <defaultObjectForm>Document.битЗагрузкаПриостановленныхЛицензийКонтрагентов.Form.ФормаДокумента</defaultObjectForm>
+  <attributes uuid="f876a4cc-a097-4497-aa6a-691463dbe3c8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="835ee897-7210-4beb-9700-9788caafd3c8">
+    <name>ТипЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип лицензии</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ТипыЛицензийПоставщиковАлкогольнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c432f53e-0b33-4411-89e8-711418f0d94e">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e213747-b93c-4f5a-bc4e-0243314f584e">
+    <name>РезультатЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат загрузки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ad0e0d3-f3c3-4b19-bd47-294e62bbf0e1">
+    <name>ВидОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ошибки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ВидыОшибокЗагрузкиАлкогольнойЛицензииПоставщиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d088aa16-d9ee-4e9c-b7d3-61a7ed184ec8">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e4dec9ca-4e1a-4df8-b181-d4ecf1bde223">
+    <producedTypes>
+      <objectType typeId="b07aa677-9fae-456e-91a6-128ea701d870" valueTypeId="d2e0606d-7d3d-47ea-8588-cb6db635a38e"/>
+      <rowType typeId="a970c5cd-4c47-4446-89a0-9f9cb8d4387a" valueTypeId="3543c808-08ee-4e7a-be36-345034ee772c"/>
+    </producedTypes>
+    <name>ЗагруженныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загруженные данные</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="15b0566c-967b-4119-a8fd-689af5d2e293">
+      <name>ДатаПриостановки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата приостановки</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1572d4f1-84c3-4b96-a78f-d1c130ff0e01">
+      <name>ИНН</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИНН</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9105a594-a99f-4323-9c48-3cdb504f82f6">
+      <name>КПП</name>
+      <synonym>
+        <key>ru</key>
+        <value>КПП</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8f8252a2-6ee1-45a3-accb-d8e1649e886b">
+      <name>НомерЛицензии</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер лицензии</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4173a9d1-788a-4c6d-9eaf-765fa1e022bb">
+      <name>Лицензия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лицензия</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

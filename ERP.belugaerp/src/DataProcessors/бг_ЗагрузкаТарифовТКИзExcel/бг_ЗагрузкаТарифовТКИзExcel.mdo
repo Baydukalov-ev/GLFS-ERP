@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62d89813-6ab8-466c-ac18-e01d54464a7d">
+  <producedTypes>
+    <objectType typeId="8e590666-3e9b-4fef-b73f-48f88e351a97" valueTypeId="8713485f-7bba-46c2-a185-89e349840f04"/>
+    <managerType typeId="769380c1-ff46-4168-98bb-e5786d8f373c" valueTypeId="410792d2-c505-4261-be6b-057b9e223d0f"/>
+  </producedTypes>
+  <name>бг_ЗагрузкаТарифовТКИзExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка тарифов ТК из excel</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗагрузкаТарифовТКИзExcel.Form.Форма</defaultForm>
+  <forms uuid="79395bbc-21b0-462a-8a9d-da3ebb761101">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

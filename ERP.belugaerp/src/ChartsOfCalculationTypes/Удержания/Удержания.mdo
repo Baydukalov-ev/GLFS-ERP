@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5af6caf-691e-44bf-a69e-e60758e63c66">
+  <producedTypes>
+    <objectType typeId="d3c46ff9-c66f-4dda-9543-2ba26a3e9217" valueTypeId="368cbb80-69aa-48ff-9bae-16c31c9f2075"/>
+    <refType typeId="06320803-765a-4c0e-8e7b-02f1a8479f71" valueTypeId="1bb1e9a3-0662-4a3b-8ec3-0d05c29f6038"/>
+    <selectionType typeId="6c567205-f918-429b-917a-056fac984eb2" valueTypeId="427e6016-a15a-437f-9de0-7e1d68ed0d04"/>
+    <listType typeId="9962bc8f-1d5a-4231-bbe7-d8217317ffd8" valueTypeId="6c87b4b4-e807-4c0a-8b2c-375a996ddcb1"/>
+    <managerType typeId="03371a61-5f85-4086-b0b6-d601063cb3eb" valueTypeId="6844079d-3cef-4faa-805b-cef4c7056702"/>
+    <displacingCalculationTypesType typeId="72815f3c-d4d7-4918-9e48-c1c30cf3a3e7" valueTypeId="58e9c227-9885-461e-956a-172a2edce8f7"/>
+    <displacingCalculationTypesRowType typeId="c7bf334e-48f5-4314-b0ed-7804b164dbd2" valueTypeId="a6d346ac-ca3e-4a7a-9bad-146dee7ceee9"/>
+    <baseCalculationTypesType typeId="31400628-3a49-47d5-9b06-07d867ca1ecd" valueTypeId="01d7863a-5cf3-4326-81c4-b6eaf99a99d7"/>
+    <baseCalculationTypesRowType typeId="b34f9e85-b87b-43cc-825e-1340d5d46f99" valueTypeId="f574c3d2-caaa-4c75-832c-679d5506d2c3"/>
+    <leadingCalculationTypesType typeId="77262a75-39d1-47cc-b088-a123c7a1c829" valueTypeId="c7015868-2c79-4123-b6f8-2fa3400ba33c"/>
+    <leadingCalculationTypesRowType typeId="1d50b1b7-c9f8-439e-aa14-1067ed67640e" valueTypeId="28f8b9f7-dbe4-48d0-9348-157abdf4cb6f"/>
+  </producedTypes>
+  <name>Удержания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCalculationTypesExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:ChartOfCalculationTypes>

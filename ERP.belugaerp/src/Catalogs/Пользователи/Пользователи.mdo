@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f583dc6f-79f2-4f0f-9f4f-346f9a45df57">
+  <producedTypes>
+    <objectType typeId="2dac31fc-3781-4a72-ba17-27cdd5ec535e" valueTypeId="da450b02-a3f2-4fde-ae23-8ff2b23699ca"/>
+    <refType typeId="3d39df42-4559-4969-8d09-3ab13c7888b5" valueTypeId="c1cfdcd6-86cb-4df7-bc0b-e05276adb063"/>
+    <selectionType typeId="0a0afe6e-ca29-4711-9153-e1d4831f5fc6" valueTypeId="90d2f20c-548c-416e-8493-2cffaa360bc0"/>
+    <listType typeId="2198a330-35f5-4113-b729-ad69e798e03a" valueTypeId="eef77825-fda8-4a30-af4a-04af2f38a09b"/>
+    <managerType typeId="676b17a7-9a47-416f-9518-e2980bcc300a" valueTypeId="7fd24831-3cc4-418e-b01f-63a48e940230"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="012e72de-5af1-411f-bcf5-be8a110f2da7">
+    <name>бг_ИдентификаторПользователяMS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя (Mobile Smarts)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0692231-6a0b-4e6a-a53b-fdb2088cf036">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ФизическоеЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="48151ec9-c797-4e98-87d3-4aa7528f54a3">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

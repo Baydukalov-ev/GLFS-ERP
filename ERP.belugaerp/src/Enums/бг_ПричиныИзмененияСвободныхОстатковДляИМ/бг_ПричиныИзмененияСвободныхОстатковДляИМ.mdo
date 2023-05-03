@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="961ba64f-2b09-48df-bde7-6c47db7b08b1">
+  <producedTypes>
+    <refType typeId="83a95e36-e787-4f28-9588-a10b35b7804f" valueTypeId="2ad522e7-6bb8-4973-a89b-6e0fa68cab28"/>
+    <listType typeId="c16eb9dc-c7dd-402b-8a5a-ce74a0ccd0f7" valueTypeId="f129fdf0-c249-4a42-ba2d-ad57edc67e88"/>
+    <managerType typeId="987ff265-c79a-4bb3-860a-40a661a963c7" valueTypeId="6f391cf9-52af-4c11-baa6-d95934bd77c6"/>
+  </producedTypes>
+  <name>бг_ПричиныИзмененияСвободныхОстатковДляИМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины изменений свободных остатков товаров для интернет-магазинов (белуга)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="345c400f-acf6-41d8-99b1-48700789556e">
+    <name>ИнтернетЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет-заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18278de8-fca9-4b52-a2e4-622543e4a939">
+    <name>ПрочиеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие операции</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

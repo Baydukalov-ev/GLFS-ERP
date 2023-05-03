@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="faad0488-34c8-458c-bebf-f03dcc87ad16">
+  <producedTypes>
+    <objectType typeId="96cd3e44-2bf9-4234-9f03-90f1ed05839e" valueTypeId="ec790ef5-6270-4324-a8cf-2c4b5faaf39b"/>
+    <refType typeId="df9252cc-2257-4b08-8d87-5eef01d34efc" valueTypeId="d42862e7-672b-4b44-adc3-5bbafa29593a"/>
+    <selectionType typeId="b772a943-121d-46e1-82a7-06c2470dd100" valueTypeId="ce412d7c-3d99-4dcd-a08a-7d5cf41b1609"/>
+    <listType typeId="bcb4d0ed-8617-4678-86d2-a254726733a2" valueTypeId="213de079-03c2-443c-9a2a-bc83ba3ae0d6"/>
+    <managerType typeId="15357c59-ff3e-4285-b0e6-e42d966adb9a" valueTypeId="80de45c5-3156-4304-b939-8ec68250411a"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>15</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="ca7a7ddf-c5a2-4295-9670-05eca9b24e28">
+      <name>БезНДС</name>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <attributes uuid="3836461d-4b85-4ee1-9798-0a0a056f52d0">
+    <name>ПеречислениеСтавкаНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтавкиНДС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6c029299-832b-4321-970a-722f9131ccfa">
+    <name>Ставка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

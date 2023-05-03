@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfc1e8c5-8ad2-49bb-a413-18fc6e919e7f">
+  <name>бг_ВалютыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

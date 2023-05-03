@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1d2052-c486-46d5-ba85-881948aa3b6e">
+  <producedTypes>
+    <objectType typeId="1dda0d78-1c2b-425b-b1c4-568a6a30a214" valueTypeId="9d62263b-4816-44b2-b324-1d2b394c6a90"/>
+    <managerType typeId="fcc36c60-6ed8-46f2-9d58-5457fee9386f" valueTypeId="64369258-130c-48dc-947d-0eb3b93fd1dd"/>
+  </producedTypes>
+  <name>бг_РегистрКонтроляИспользованияБанковскихГарантий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр контроля использования банковских гарантий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_РегистрКонтроляИспользованияБанковскихГарантий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="9cac0078-ea50-4ebd-b61f-0b37c8ade9bd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b9263cec-129a-49f0-83a6-e6602d302c36">
+    <name>РегистрКонтроляИспользованияБанковскихГарантий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистр контроля использования банковских гарантий</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

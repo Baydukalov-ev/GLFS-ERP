@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d435e6b3-0b1e-466a-a81b-50768bfa94dd">
+  <producedTypes>
+    <objectType typeId="5a9a570a-9708-4fc3-ab6f-f694a0a84584" valueTypeId="67960a34-2907-4abf-86ba-a6455ddea26a"/>
+    <refType typeId="e15d4ad7-961e-4f84-8eba-06a88193d81e" valueTypeId="1ded5357-e07a-41c4-abfd-8b5276e43f4a"/>
+    <selectionType typeId="321145c8-3cb8-4254-9b91-2f7f7a3909a5" valueTypeId="5ab562f7-d60c-4d6a-9019-4f47120f811b"/>
+    <listType typeId="57e4d4db-ab97-4e97-bb58-7d86fd0a081b" valueTypeId="eb7b8e90-c296-443d-9767-c8ee72938b11"/>
+    <managerType typeId="252a24b3-64cb-481a-bca9-94aa9effa669" valueTypeId="2e828fb5-b735-426b-ae5f-631c14d24726"/>
+  </producedTypes>
+  <name>Марки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="b4210636-7ca9-4f25-b399-19d5ca7c171f">
+    <name>бг_БрендКУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд КУ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_СКЮ_БрендыКУ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fce34b56-9a75-4949-a351-5d85c37e3127">
+    <name>бг_БрендМТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд МТ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_Бренды_БрендыМТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1268610e-b1bd-486e-8b16-f08bc6268439">
+    <name>бг_БрендТМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд ТМ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_Бренды_БрендыТМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02bb3317-9fc7-4322-8754-e843d5b2999c">
+    <name>бг_КатегорияБренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория бренда</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_Бренды_КатегорииБренда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c82a6c02-4007-430b-b434-ffcb43107da7">
+    <name>бг_КатегорияВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория владельца</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_СКЮ_КатегорияВладельца</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02cf82d5-bfa8-49d9-9df0-ce632fc6af45">
+    <name>бг_КатегорияМотивации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория мотивации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_СКЮ_КатегорияМотивации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3acccf47-17ba-4a9c-be10-650b03e2cd38">
+    <name>бг_КодНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код НСИ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2db230ef-4552-492e-b8c3-853500c7b6d8">
+    <name>бг_Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c48d0474-b518-449c-a7a2-077371bfd680">
+    <name>бг_ПроектПЭО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект ПЭО</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ЕК_Бренды_ПроектыПЭО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ca0e8bb9-4ff1-403d-a0dd-a51777af2a83">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

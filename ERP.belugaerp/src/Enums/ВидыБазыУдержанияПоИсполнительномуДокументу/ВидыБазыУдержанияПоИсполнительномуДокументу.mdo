@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d71be075-15e5-4edd-bda5-f5ef503ddd0a">
+  <producedTypes>
+    <refType typeId="faef602a-ad07-48c9-ba58-a24bda02ac23" valueTypeId="db529922-764e-4d86-a279-12bfe698911d"/>
+    <listType typeId="6f1e3fad-cfa7-4419-a57b-f68ef793f7f8" valueTypeId="0aed962a-9e2c-46af-9c5c-13edc456b47d"/>
+    <managerType typeId="5c620aeb-9b65-4e0b-af67-f979cdc00cac" valueTypeId="c0108ab1-cd03-4c7a-81bc-0e5d3e626d0f"/>
+  </producedTypes>
+  <name>ВидыБазыУдержанияПоИсполнительномуДокументу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="c497894d-eef6-49e9-a8be-f0b3156b5d9f">
+    <name>Заработок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="42516699-b679-4250-902f-489e7151f313">
+    <name>ПрожиточныйМинимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

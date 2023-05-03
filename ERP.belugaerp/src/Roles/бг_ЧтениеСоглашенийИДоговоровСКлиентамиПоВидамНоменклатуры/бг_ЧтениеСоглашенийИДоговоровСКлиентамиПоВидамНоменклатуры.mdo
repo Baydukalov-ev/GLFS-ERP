@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5601d43b-28f8-46f6-9093-1f5707525539">
+  <name>бг_ЧтениеСоглашенийИДоговоровСКлиентамиПоВидамНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение соглашений и договоров с клиентами по видам номенклатуры (Белуга)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e6bec3-aafd-4369-85bc-9a4f66cefd2b">
+  <name>бг_ДобавлениеИзменениеТерриторийПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение территорий пунктов назначения</value>
+  </synonym>
+</mdclass:Role>

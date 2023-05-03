@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f97c671d-8844-412e-a53a-21a9ac6cd092">
+  <producedTypes>
+    <objectType typeId="048a6e71-d412-400d-9ba1-d91248052b93" valueTypeId="f1ab3b76-1ba5-4b12-9053-a55a1765dab2"/>
+    <refType typeId="1d02046e-0e12-479e-b408-de2d79cc1602" valueTypeId="832c3d9d-8a0b-4deb-bf03-d629202d2b94"/>
+    <selectionType typeId="791e7216-79e8-4178-8099-a6dd217d5423" valueTypeId="db0260b4-3154-4fde-b36e-27539b9e270d"/>
+    <listType typeId="bade9c7e-8749-421c-8a8e-5555c4cca297" valueTypeId="02a71271-2755-4bfb-bac9-b31facf76a87"/>
+    <managerType typeId="70af6795-2f7c-4bab-88a6-8c764f8f2562" valueTypeId="01cadb1a-449f-408f-981d-0010421796dc"/>
+  </producedTypes>
+  <name>КорректировкаНазначенияТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="6633cd78-9878-4f27-bd21-b29da4968795">
+    <name>бг_Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.ПриходныйОрдерНаТовары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="84f5de94-1e53-4349-83aa-6bfd86d0c5ba">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

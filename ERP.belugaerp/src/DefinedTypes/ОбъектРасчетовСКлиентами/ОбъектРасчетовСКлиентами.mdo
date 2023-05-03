@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e0dda1a-2826-478b-ace2-53e92675267c">
+  <producedTypes>
+    <containerType typeId="91df5045-28d6-46d4-9e1f-62a871034679" valueTypeId="16d49829-f0dd-4ed6-a250-b75679f8b96f"/>
+  </producedTypes>
+  <name>ОбъектРасчетовСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

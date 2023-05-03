@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab0c9877-c113-4e62-b33b-4c714a6e8fe7">
+  <producedTypes>
+    <selectionType typeId="2f78fae9-2fdc-40db-8ad9-0d7b2afdeb32" valueTypeId="5a8c275d-b273-4737-be50-fa71733ac92c"/>
+    <listType typeId="a8339ee7-9f2b-4bb2-9271-8157f8aad09f" valueTypeId="38d2bc12-6964-48fc-893a-4e0b60118390"/>
+    <managerType typeId="df2facfc-c795-487f-ace4-024eae1b24ef" valueTypeId="ee85a3db-7fa6-4fe7-bb3b-22a3c6882b0c"/>
+    <recordSetType typeId="0beba599-f37a-411a-a096-27afe5777243" valueTypeId="2e43f488-5cfd-46eb-9f05-e7833d677a24"/>
+    <recordKeyType typeId="d0ce6d44-1912-4e0a-b202-7f00f3e20a81" valueTypeId="7d111a27-c065-4d70-9034-a8405ead531c"/>
+    <recordType typeId="6f17bfe2-2ffc-4787-97da-298737304dab" valueTypeId="0811056a-5ef8-40a6-91be-a4dbe025688d"/>
+    <recordManagerType typeId="9b874217-c2d4-4a26-abda-462eee4dbf42" valueTypeId="8f6a3abe-e136-41ea-abf2-56930ec517cb"/>
+  </producedTypes>
+  <name>бг_НастройкиСогласованияЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки согласования заказов клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c69c0a6-db8a-474c-a4e6-8c6c9104a159">
+    <name>ТребуетсяКредитныйЛимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется кредитный лимит</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9fabcc93-7fa7-42e9-b2dc-541e2e4fbc28">
+    <name>ТребуетсяВизаФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется виза ФК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cf1ed2d5-850b-4408-b98b-3254b20d9a52">
+    <name>ТребуетсяВизаКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется виза КК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b8529191-a45a-4c4a-a6f8-840f7d13ab91">
+    <name>ТребуетсяВизаСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется виза СБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="de66633b-f538-4721-ba95-97650194cb0f">
+    <name>АвтосогласованиеФК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автосогласование ФК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4bbd3b97-13b0-47b0-9830-19ca54b7f4c2">
+    <name>АвтосогласованиеКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автосогласование КК</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7abd80fd-9bc6-4c20-a6d3-dc32e48cd0ae">
+    <name>АвтосогласованиеСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автосогласование СБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8642de36-3f0d-4aec-ac95-d4e3920bb6a3">
+    <name>ДопСогласованиеСБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп. согласование СБ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="65a305d3-c9b3-410f-80c0-9b4ad322c876">
+    <name>КонтролироватьПодтверждениеВ_ЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать подтверждение в ЕГАИС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e3ca4bc-eba3-4256-aeb7-09f992642239">
+    <name>ДопустимыеДниПДЗ_ДляАвтосогласованияПрямаяОтгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимые дни ПДЗ для автосогласования прямая отгрузка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ac593449-6157-455a-b8c8-52f4ee977fd5">
+    <name>ДопустимыеДниПДЗ_ДляАвтосогласованияЧерезМагазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимые дни ПДЗ для автосогласования через магазин</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fef27ed6-ce4e-4d06-8d28-7b22ab3c2c96">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38173d01-3193-422a-b298-88263ee26f85">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7eeb7535-9730-4225-b23e-dd407fc810ed">
+    <name>Территория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Территория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битТерриторииПунктовНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bb13a1b4-e219-4217-a6ce-bb9f35fd624e">
+    <name>ДопАналитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп.аналитика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

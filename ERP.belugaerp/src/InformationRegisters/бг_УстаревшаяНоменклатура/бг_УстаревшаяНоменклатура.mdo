@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6edbc4f-e1ef-48e6-83b2-68a1c155fa17">
+  <producedTypes>
+    <selectionType typeId="4cac0814-adc6-4a80-b474-5ac71f713f32" valueTypeId="4774671a-ca2f-4512-acd1-2d33f315f91f"/>
+    <listType typeId="2cf95d4e-d786-4a10-96ac-a3ccf9e13718" valueTypeId="951d0e6a-3aef-4ba2-9414-94379d564738"/>
+    <managerType typeId="05dcbc78-acf7-454b-8a35-8302e3edfd9a" valueTypeId="5c115212-afd6-4a67-b287-01472e64c92b"/>
+    <recordSetType typeId="ee3a7974-fb7e-4bf5-bf57-e0d8056aaa50" valueTypeId="af94648e-249e-404c-bb5c-c0045a0a583f"/>
+    <recordKeyType typeId="a0e9d206-7433-4b52-b0d8-eb25e4ef855b" valueTypeId="780a6a4f-10a1-4e7f-807a-d319cf63281a"/>
+    <recordType typeId="89b78584-8d19-4f19-a258-4d06797fc100" valueTypeId="2ab22739-cea9-40b1-b762-734ed8d58eb6"/>
+    <recordManagerType typeId="3dc059ef-5290-42bd-8e64-4aed7cd6a40d" valueTypeId="f2f1b99f-f62d-4c9c-85b3-35fc518dfaf4"/>
+  </producedTypes>
+  <name>бг_УстаревшаяНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Устаревшая номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6ea3f9c1-2ad4-464b-bc51-75420c512218">
+    <name>ДатаЗапретаИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запрета использования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="850959df-852f-44a0-a73b-1a4964aad623">
+    <name>НоваяНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4222071b-d118-4bbe-a8d2-b8354d6ae63a">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

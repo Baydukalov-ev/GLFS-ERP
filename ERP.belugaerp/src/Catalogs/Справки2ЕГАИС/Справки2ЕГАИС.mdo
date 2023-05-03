@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="281f68af-8fd7-49a2-b296-025306ceaa84">
+  <producedTypes>
+    <objectType typeId="e2ddffb6-f1fb-4e1b-9705-08ecf19935fc" valueTypeId="e000db4b-0899-4249-8f67-4f86ae4efec1"/>
+    <refType typeId="b43e113c-84a5-45b2-a06a-c48663f7ef78" valueTypeId="4ef15db8-adb7-4808-9b15-5bdf0ff979e0"/>
+    <selectionType typeId="5571acd5-9361-4ccf-9390-507bf61de527" valueTypeId="6b237653-7423-4895-8a0b-a31cce802b2b"/>
+    <listType typeId="129ff62f-5a77-4c60-9eb6-fc3638b24908" valueTypeId="ebe3ee16-2e31-4fa1-a26e-07a216039775"/>
+    <managerType typeId="fd972d2d-3e16-4706-8dd7-ab96e6d309dc" valueTypeId="addc3f62-3c15-468c-882a-3a098d21b0db"/>
+  </producedTypes>
+  <name>Справки2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="ecbad174-505e-4e1c-a38c-c67146817d69">
+    <name>АлкогольнаяПродукция</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6e62a12b-3763-499d-b48e-8dd6de67d0d7">
+    <name>бг_ДатаНачисленияАкциза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начисления акциза</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f885048-9cd7-4c3f-a457-689b3be811d6">
+    <name>бг_ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.битОтчетОбИмпортеПродукцииЕГАИС</types>
+      <types>DocumentRef.битОтчетОПроизводствеЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f36d197-34aa-46c2-b051-557a907f19b0">
+    <name>ДатаПодтвержденияЕГАИС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="88157b50-c4b9-4a6b-b4bd-b056c8b99b0c">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="f7e526ac-0606-48dd-95c9-5dfc4f92a951">
+    <name>НомерСправки1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e8503e09-571f-4312-b115-b7495d9d5c00">
+    <name>РегистрационныйНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СтрокаЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8bf7fca8-f029-4008-9268-b48f345a3ef4">
+    <name>Справка1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Справки1ЕГАИС</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="3a1944d8-b57e-4e97-93f1-96cfbf256167">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="b8f2a0ee-7ff7-4ef4-b83c-2af17741e2eb">
+    <name>бг_ФормаУказанияДатыНачисленияАкциза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма указания даты начисления акциза</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

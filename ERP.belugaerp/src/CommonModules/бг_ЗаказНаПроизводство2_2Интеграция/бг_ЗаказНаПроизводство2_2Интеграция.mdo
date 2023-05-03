@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe1370a8-c613-470d-ac24-327db4872e11">
+  <name>бг_ЗаказНаПроизводство2_2Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на производство (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

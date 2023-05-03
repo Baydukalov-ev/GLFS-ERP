@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12a06b2a-9c81-4b59-86ec-cdd911e84951">
+  <name>бг_битТоварныеКатегорииПрисоединенныеФайлыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы (Товарные категории) (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

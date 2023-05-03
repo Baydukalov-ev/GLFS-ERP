@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75d34988-466b-4e91-8f15-73bdab2eb17f">
+  <name>бг_msРазагрегация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разагрегация (Mobile Smarts)</value>
+  </synonym>
+</mdclass:Role>

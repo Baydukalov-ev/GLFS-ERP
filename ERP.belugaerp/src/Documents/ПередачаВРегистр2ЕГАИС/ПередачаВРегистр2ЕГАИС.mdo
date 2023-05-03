@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="06de33f4-7b24-4d8d-a812-d1b420b2031d">
+  <producedTypes>
+    <objectType typeId="4b7604eb-db3a-4b54-a1b9-af24d913a1e5" valueTypeId="7f547373-aa28-4a00-873d-fc26ce5a6062"/>
+    <refType typeId="7c96b7ec-8121-470c-82fa-cb0c83e9759f" valueTypeId="c95aad73-d67d-4693-9d8e-9ba92c493ee7"/>
+    <selectionType typeId="c185b9b6-bb93-4c40-903a-d84d89c79313" valueTypeId="7fbd5926-144a-4718-b6f1-86812a9ef134"/>
+    <listType typeId="5fd61be7-77f4-438a-a54e-9d93536bd4b5" valueTypeId="81e65803-aea7-4202-9a20-e25b599f2ace"/>
+    <managerType typeId="9313bbb8-6b04-4adb-bd17-6f5c6251a7e7" valueTypeId="62df97b7-1c93-4f1b-8da0-da3266b8c16a"/>
+  </producedTypes>
+  <name>ПередачаВРегистр2ЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="8eb61730-a9a7-460f-8146-2edabdbb92a9">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

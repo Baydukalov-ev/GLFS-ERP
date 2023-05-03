@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a13b24-addf-49a0-81bd-0d557e1b7156">
+  <name>бг_ИспользованиеОтчетаВыпускОтгрузкаАлкогольнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета выпуск/отгрузка алкогольной продукции</value>
+  </synonym>
+</mdclass:Role>

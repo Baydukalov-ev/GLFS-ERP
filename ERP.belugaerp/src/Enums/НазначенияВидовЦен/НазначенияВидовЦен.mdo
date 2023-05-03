@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8a2d73b8-c442-4724-a0ff-697644168f01">
+  <producedTypes>
+    <refType typeId="98891bd2-2a0b-4302-befb-16cf7141ba71" valueTypeId="347e150c-5b4b-41be-9143-ebddfe17dea2"/>
+    <listType typeId="7a1bd6d3-2338-4695-940d-1ed0d70b0eab" valueTypeId="4f986bf0-be76-4433-a39d-8d7222a77885"/>
+    <managerType typeId="e17fba91-1d28-4e4b-8f35-1948e102b259" valueTypeId="8bd07a0b-993e-4c48-9af1-5fea66e87eeb"/>
+  </producedTypes>
+  <name>НазначенияВидовЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="0ffb886b-737a-4240-a956-67f67f321ec5">
+    <name>Общий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

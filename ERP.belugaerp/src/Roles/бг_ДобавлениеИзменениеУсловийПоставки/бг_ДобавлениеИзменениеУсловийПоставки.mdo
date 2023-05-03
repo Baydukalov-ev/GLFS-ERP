@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b90ccec7-8454-4e5f-bba3-242dcde0bb4d">
+  <name>бг_ДобавлениеИзменениеУсловийПоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение условий поставки</value>
+  </synonym>
+</mdclass:Role>

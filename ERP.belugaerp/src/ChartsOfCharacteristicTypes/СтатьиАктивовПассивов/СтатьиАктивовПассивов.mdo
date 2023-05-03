@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3c00498-dcc3-47c2-9f2b-8bbed9dc2bdf">
+  <producedTypes>
+    <objectType typeId="705b7a54-984b-4e63-b3cd-a1df538b79c4" valueTypeId="6d1f7a24-0bb2-4157-bf22-7ed19f22ecba"/>
+    <refType typeId="be368cc7-e63e-46e4-8588-7a1e638ed9a8" valueTypeId="f8242164-46e1-4388-a6f5-507e0d1e258d"/>
+    <selectionType typeId="6a3f15f8-b6e9-4149-856c-c8540fec3c98" valueTypeId="7d0605f2-d948-4874-89f6-91bdc252f4d5"/>
+    <listType typeId="b9fba089-a7af-47a3-b966-3b2d42de3410" valueTypeId="d2da8c2c-cb53-4876-bbcc-13624235ab15"/>
+    <managerType typeId="758272f1-49ce-42a8-975a-1e495825514e" valueTypeId="e3544e97-5d28-4588-9cdc-20dcb804fe05"/>
+    <containerType typeId="49f0bd74-a32a-4279-98ec-f985526896e2" valueTypeId="e7f8679b-2654-4851-9a4e-fab9221fd601"/>
+  </producedTypes>
+  <name>СтатьиАктивовПассивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:ChartOfCharacteristicTypes>

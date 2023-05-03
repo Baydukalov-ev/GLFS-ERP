@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c61c394b-e47e-4f0f-b625-c42c4aa80b40">
+  <name>бг_ДобавлениеИзменениеСоответствияЗон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение соответствия зон</value>
+  </synonym>
+</mdclass:Role>

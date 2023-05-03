@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ebedcdf-1710-430d-be33-1971fbf49035">
+  <producedTypes>
+    <refType typeId="ef1634d7-61b2-4470-b549-cf708527f41b" valueTypeId="e33b98b8-bec7-4889-a1e3-78f868df849f"/>
+    <listType typeId="0d239999-f21c-4a5e-9a12-6704c0c595c8" valueTypeId="56ee70da-4b9c-4965-8a4c-961dd0279f8b"/>
+    <managerType typeId="25fe1f29-320e-4fd9-8b99-09f67d3bf60f" valueTypeId="14deee58-7c5b-4521-8360-7d45b2c9dd90"/>
+  </producedTypes>
+  <name>бг_ВариантыСинхронизацииНоменклатурыWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты синхронизации номенклатуры WMS</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b0e4552-de68-45c0-bb1a-e3c416969c99">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92f58172-e21d-4d54-9247-09b971da17e1">
+    <name>КодЕК_Номенклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЕК номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10d39831-218e-4ce6-9d44-f63dd94ff456">
+    <name>КодЕК_ПОСМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ЕК ПОСМ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

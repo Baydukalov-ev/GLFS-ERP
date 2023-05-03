@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8beeb92c-ec68-4eb8-9046-bf199fb9976a">
+  <producedTypes>
+    <refType typeId="54f21e54-2207-4a0d-8898-97ae31ea31c1" valueTypeId="d1f6b516-0f89-4f64-80cd-1f80d8378fed"/>
+    <listType typeId="13b9c53a-6a48-449d-b074-7e0c195868b2" valueTypeId="77c91ac2-ea19-44e6-97da-4fce57a0e903"/>
+    <managerType typeId="6949b1cd-0964-434a-86f1-08843c73039e" valueTypeId="cf70bce7-9bb4-4d5e-a96b-bcd04086c735"/>
+  </producedTypes>
+  <name>бг_ВидыМаршрутныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды маршрутных листов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87b637cf-dae9-4def-8eed-bb2244c2511a">
+    <name>МаршрутныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрутный лист</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8827b64d-c05d-4ac3-9a1c-75a1fb3a5e65">
+    <name>Рейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

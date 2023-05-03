@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0024b1c1-f347-43a4-af93-677bfb7d6e06">
+  <producedTypes>
+    <objectType typeId="ed1b05aa-2dcb-4c1e-b107-418b1561b547" valueTypeId="e0d933cc-bbab-4c9e-8b1b-c14fb10ce8af"/>
+    <managerType typeId="b58511d6-52d8-4952-9692-d31780c2640b" valueTypeId="5e5db617-fe80-49d4-b8be-9e5d2b4aa8a2"/>
+  </producedTypes>
+  <name>бг_ЗагрузкаПлановогоПробегаПоРейсу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка планового пробега по рейсу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗагрузкаПлановогоПробегаПоРейсу.Form.Форма</defaultForm>
+  <forms uuid="335d2dda-4c0f-4dad-a520-d25a223cd654">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

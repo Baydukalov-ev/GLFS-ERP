@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1582cd1-4477-4427-904e-a72f60fc6ea3">
+  <name>бг_ДобавлениеИзменениеУстановокСуммовыхСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение установок суммовых скидок</value>
+  </synonym>
+</mdclass:Role>

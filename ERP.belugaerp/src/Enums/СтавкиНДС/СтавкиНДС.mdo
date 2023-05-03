@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f3cc847e-447e-4cdd-9489-66bdd9a29245">
+  <producedTypes>
+    <refType typeId="0ec053e4-ea92-419f-9a9a-f82b34fc3c28" valueTypeId="49183b80-d7c0-45cb-b8d0-990d2d17cd27"/>
+    <listType typeId="f6d6629a-22e7-4003-97c6-557ed99ddcbb" valueTypeId="fb9e3874-5602-4ebe-9e29-60afd12c0f2d"/>
+    <managerType typeId="b4bdd629-297f-49a0-b7f5-ddd41446b1e7" valueTypeId="5d70cbae-c2b4-47ec-ae72-561ba0c089b4"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="156b0704-4156-485f-8952-de9030956791">
+    <name>НДС10</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7c3bd917-a80d-4c03-b72f-83770caea9b5">
+    <name>НДС18</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4d1ecaa2-bf0f-47c6-b2f7-05568eac8299">
+    <name>НДС20</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

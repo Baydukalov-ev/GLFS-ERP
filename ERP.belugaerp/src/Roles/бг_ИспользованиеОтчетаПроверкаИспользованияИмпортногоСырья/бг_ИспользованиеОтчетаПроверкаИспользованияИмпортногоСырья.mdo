@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b14c3c-14a7-46fa-9bf7-8bf3038458a1">
+  <name>бг_ИспользованиеОтчетаПроверкаИспользованияИмпортногоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета &quot;Проверка использования импортного сырья&quot;</value>
+  </synonym>
+</mdclass:Role>

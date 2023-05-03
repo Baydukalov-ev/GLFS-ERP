@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a50c7b4a-7fd2-4f83-b085-316aec72d94e">
+  <name>бг_ЧтениеЗонГеографических</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение зон геграфических</value>
+  </synonym>
+</mdclass:Role>

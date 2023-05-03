@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c7f92e4d-a547-4579-96d2-0be5bb7962c2">
+  <producedTypes>
+    <selectionType typeId="96ec5bca-1ce3-4b37-b749-cbffc4325b64" valueTypeId="3dd1d8fe-5b3f-4900-856a-bfe5cbb40f88"/>
+    <listType typeId="cdfbfdc9-d49c-4089-a597-f3c03a4062db" valueTypeId="f4932359-cf52-48a0-9acf-f63467e5d495"/>
+    <managerType typeId="c3b9f0b1-5f5c-4c3c-960d-2cf734084c8a" valueTypeId="83ee7c19-ed5e-417c-a0ea-f9f76a820a02"/>
+    <recordSetType typeId="513c4f09-ba3e-49d8-9f0e-d034de61d905" valueTypeId="78647db1-0f50-46bf-9309-ef81d9710e94"/>
+    <recordKeyType typeId="09c1108c-307b-44fb-8414-7bef0060020e" valueTypeId="96ba923b-96ea-40de-8ef4-c7f519052cbc"/>
+    <recordType typeId="fef6e550-022c-4a9b-bb32-0a6ca2bd75a8" valueTypeId="50759207-dafa-4b57-a741-8b40ba19ee0f"/>
+    <recordManagerType typeId="6cbed998-b0e4-4530-a0fa-a97a1c52d118" valueTypeId="68cb851f-1657-43a3-a90d-48b31a718c90"/>
+  </producedTypes>
+  <name>ДействиеСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="f706a62d-b804-4476-a924-90aa9df6ca1e">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтатусыДействияСкидок</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="491f8cab-c5d2-4626-b6c9-b551bfe33dd3">
+    <name>Источник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="2721e91c-b396-4f60-9e7e-2a42976c5409">
+    <name>СкидкаНаценка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СкидкиНаценки</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <forms uuid="60d8942c-ee4a-4212-84c1-ae95253ef68d">
+    <name>ДействиеСкидокНаценокПоИсточнику</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="7099b1fe-d4c1-46e1-bc80-1531c361a921">
+    <name>бг_ДействиеСкидокНаценок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие скидок (наценок)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Discount (markup) action</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterType>Checked</commandParameterType>
+    </extension>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

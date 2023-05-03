@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ИнтернетЗаказы</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказКлиента</dataPath>
+			<field>ЗаказКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партнер</dataPath>
+			<field>Партнер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОтгрузки</dataPath>
+			<field>ДатаОтгрузки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>бг_ДатаСоздания</dataPath>
+			<field>бг_ДатаСоздания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата и время создания заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Грузополучательбг_КодSAP</dataPath>
+			<field>Грузополучательбг_КодSAP</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код SAP торговой точки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>бг_ПунктНазначения</dataPath>
+			<field>бг_ПунктНазначения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество товаров в заказе</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДал</dataPath>
+			<field>ОбъемДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем заказа в декалитрах</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоБутылок</dataPath>
+			<field>КоличествоБутылок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество бутылок в заказе</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗаказаКлиента</dataPath>
+			<field>НомерЗаказаКлиента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер заказа клиента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗаказаКлиента</dataPath>
+			<field>ДатаЗаказаКлиента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата заказа клиента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПредзаказов</dataPath>
+			<field>КоличествоПредзаказов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Кол-во Е-комм заказов в консолидированном ВМК</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">12</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаршрутныйЛист</dataPath>
+			<field>МаршрутныйЛист</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрутный лист</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерМаршрутногоЛиста</dataPath>
+			<field>НомерМаршрутногоЛиста</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер маршрутного листа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаМаршрутногоЛиста</dataPath>
+			<field>ДатаМаршрутногоЛиста</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата маршрутного листа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПрибытия</dataPath>
+			<field>ДатаПрибытия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Плановая подача ТС на отгрузку</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	СписокИнтернетЗаказов.Ссылка КАК ЗаказКлиента,
+	СписокИнтернетЗаказов.Номер КАК Номер,
+	СписокИнтернетЗаказов.Дата КАК Дата,
+	СписокИнтернетЗаказов.Партнер КАК Партнер,
+	СписокИнтернетЗаказов.Организация КАК Организация,
+	СписокИнтернетЗаказов.ДатаОтгрузки КАК ДатаОтгрузки,
+	СписокИнтернетЗаказов.бг_ДатаСоздания КАК бг_ДатаСоздания,
+	ЕСТЬNULL(СписокИнтернетЗаказов.Грузополучатель.бг_КодSAP, "") КАК Грузополучательбг_КодSAP,
+	СписокИнтернетЗаказов.бг_ПунктНазначения КАК бг_ПунктНазначения,
+	СписокИнтернетЗаказов.Проведен КАК Проведен
+ПОМЕСТИТЬ СписокИнтернетЗаказов
+ИЗ
+	Документ.ЗаказКлиента КАК СписокИнтернетЗаказов
+ГДЕ
+	СписокИнтернетЗаказов.ДатаОтгрузки МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И СписокИнтернетЗаказов.бг_ИсточникЗаказа = ЗНАЧЕНИЕ(Перечисление.бг_ИсточникиЗагрузкиЗаказовКлиентов.WINELAB_SAP_СONSOLIDATED)
+	И НЕ СписокИнтернетЗаказов.ПометкаУдаления
+
+ИНДЕКСИРОВАТЬ ПО
+	ЗаказКлиента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗаказКлиентаТовары.Ссылка КАК ЗаказКлиента,
+	СУММА(ВЫБОР
+			КОГДА ЗаказКлиентаТовары.Номенклатура.ЕдиницаИзмерения.бг_ТипЕдиницыИзмерения = ЗНАЧЕНИЕ(Перечисление.бг_ТипыЕдиницИзмерения.Бутылка)
+				ТОГДА ЗаказКлиентаТовары.Количество
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоБутылок,
+	СУММА(ВЫБОР
+			КОГДА ЗаказКлиентаТовары.Номенклатура.АлкогольнаяПродукция
+				ТОГДА ВЫРАЗИТЬ(ЗаказКлиентаТовары.Количество * ЗаказКлиентаТовары.Номенклатура.ОбъемДАЛ КАК ЧИСЛО(18, 3))
+			КОГДА ЗаказКлиентаТовары.Номенклатура.ОбъемИспользовать
+					И ЗаказКлиентаТовары.Номенклатура.ОбъемЗнаменатель &gt; 0
+					И ЗаказКлиентаТовары.Номенклатура.ОбъемЕдиницаИзмерения.бг_ТипЕдиницыИзмерения = ЗНАЧЕНИЕ(Перечисление.бг_ТипыЕдиницИзмерения.Дал)
+				ТОГДА ВЫРАЗИТЬ(ЗаказКлиентаТовары.Количество * ЗаказКлиентаТовары.Номенклатура.ОбъемЧислитель / ЗаказКлиентаТовары.Номенклатура.ОбъемЗнаменатель КАК ЧИСЛО(18, 3))
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ОбъемДал,
+	СУММА(ЗаказКлиентаТовары.Количество) КАК Количество,
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ ЗаказКлиентаТовары.бг_ЗаказКлиентаИсточникОбеспечения) КАК КоличествоПредзаказов
+ПОМЕСТИТЬ ТоварыСводно
+ИЗ
+	Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СписокИнтернетЗаказов КАК СписокИнтернетЗаказов
+		ПО ЗаказКлиентаТовары.Ссылка = СписокИнтернетЗаказов.ЗаказКлиента
+ГДЕ
+	НЕ ЗаказКлиентаТовары.Отменено
+
+СГРУППИРОВАТЬ ПО
+	ЗаказКлиентаТовары.Ссылка
+
+ИНДЕКСИРОВАТЬ ПО
+	ЗаказКлиента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВЫРАЗИТЬ(МаршрутныеЛистыЗаказы.Заказ КАК Документ.ЗаказКлиента) КАК ЗаказКлиента,
+	МАКСИМУМ(МаршрутныеЛистыЗаказы.Ссылка) КАК МаршрутныйЛист
+ПОМЕСТИТЬ МаршрутныеЛистыЗаказов
+ИЗ
+	Документ.битМаршрутныйЛист.Заказы КАК МаршрутныеЛистыЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ СписокИнтернетЗаказов КАК СписокИнтернетЗаказов
+		ПО МаршрутныеЛистыЗаказы.Заказ = СписокИнтернетЗаказов.ЗаказКлиента
+ГДЕ
+	МаршрутныеЛистыЗаказы.Ссылка.Проведен
+
+СГРУППИРОВАТЬ ПО
+	ВЫРАЗИТЬ(МаршрутныеЛистыЗаказы.Заказ КАК Документ.ЗаказКлиента)
+
+ИНДЕКСИРОВАТЬ ПО
+	ЗаказКлиента
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	СписокИнтернетЗаказов.ЗаказКлиента КАК ЗаказКлиента,
+	СписокИнтернетЗаказов.Номер КАК НомерЗаказаКлиента,
+	СписокИнтернетЗаказов.Дата КАК ДатаЗаказаКлиента,
+	СписокИнтернетЗаказов.Партнер КАК Партнер,
+	СписокИнтернетЗаказов.Организация КАК Организация,
+	СписокИнтернетЗаказов.ДатаОтгрузки КАК ДатаОтгрузки,
+	СписокИнтернетЗаказов.бг_ДатаСоздания КАК бг_ДатаСоздания,
+	СписокИнтернетЗаказов.Грузополучательбг_КодSAP КАК Грузополучательбг_КодSAP,
+	СписокИнтернетЗаказов.бг_ПунктНазначения КАК бг_ПунктНазначения,
+	СписокИнтернетЗаказов.Проведен КАК Проведен,
+	ЕСТЬNULL(МаршрутныеЛистыЗаказов.МаршрутныйЛист, ЗНАЧЕНИЕ(Документ.битМаршрутныйЛист.ПустаяСсылка)) КАК МаршрутныйЛист,
+	ЕСТЬNULL(ВЫРАЗИТЬ(МаршрутныеЛистыЗаказов.МаршрутныйЛист КАК Документ.битМаршрутныйЛист).Номер, "") КАК НомерМаршрутногоЛиста,
+	ЕСТЬNULL(ВЫРАЗИТЬ(МаршрутныеЛистыЗаказов.МаршрутныйЛист КАК Документ.битМаршрутныйЛист).Дата, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаМаршрутногоЛиста,
+	ЕСТЬNULL(ВЫРАЗИТЬ(МаршрутныеЛистыЗаказов.МаршрутныйЛист КАК Документ.битМаршрутныйЛист).ДатаПрибытия, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаПрибытия,
+	ЕСТЬNULL(ТоварыСводно.Количество, 0) КАК Количество,
+	ЕСТЬNULL(ТоварыСводно.КоличествоБутылок, 0) КАК КоличествоБутылок,
+	ЕСТЬNULL(ТоварыСводно.ОбъемДал, 0) КАК ОбъемДал,
+	ЕСТЬNULL(ТоварыСводно.КоличествоПредзаказов, 0) КАК КоличествоПредзаказов
+ИЗ
+	СписокИнтернетЗаказов КАК СписокИнтернетЗаказов
+		ЛЕВОЕ СОЕДИНЕНИЕ ТоварыСводно КАК ТоварыСводно
+		ПО СписокИнтернетЗаказов.ЗаказКлиента = ТоварыСводно.ЗаказКлиента
+		ЛЕВОЕ СОЕДИНЕНИЕ МаршрутныеЛистыЗаказов КАК МаршрутныеЛистыЗаказов
+		ПО СписокИнтернетЗаказов.ЗаказКлиента = МаршрутныеЛистыЗаказов.ЗаказКлиента</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ДатаПогрузкиПлан</dataPath>
+		<expression>ДатаПрибытия</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата погрузки план</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ДФ=dd.MM.yyyy</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">14</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ВремяПогрузкиПлан</dataPath>
+		<expression>ДатаПрибытия</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Время погрузки план</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Л=ru; ДФ=hh:mm:ss</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+				<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+			</dcscor:item>
+		</appearance>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Time</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоБутылок</dataPath>
+		<expression>Сумма(КоличествоБутылок)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОбъемДал</dataPath>
+		<expression>Сумма(ОбъемДал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПредзаказов</dataPath>
+		<expression>Сумма(КоличествоПредзаказов)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Next7Days</v8:variant>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>АнализИнтернетЗаказов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Анализ интернет заказов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПогрузкиПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяПогрузкиПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерМаршрутногоЛиста</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОтгрузки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗаказаКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДатаЗаказаКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>бг_ДатаСоздания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Грузополучательбг_КодSAP</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>бг_ПунктНазначения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Проведен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Партнер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоБутылок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПредзаказов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъемДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаПрибытия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ЗаказКлиента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>МаршрутныйЛист</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>ec3061e4-0d4e-4d31-ab3b-4fd376e2337c</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Next7Days</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>27336c2d-6ae3-4a9f-aec9-a7a8cad6e502</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата отгрузки</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаОтгрузки</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>бг_ДатаСоздания</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерЗаказаКлиента</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ЗаказКлиента</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Анализ интернет заказов</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>АвтоПозицияРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="147732ab-b3c7-4ad3-b676-368365c6a407">
+  <producedTypes>
+    <refType typeId="6d7ab8ce-4922-46e7-b4f3-c4e0513066c6" valueTypeId="0ead86e7-a980-45e3-9704-be793e52c55f"/>
+    <listType typeId="b6fa2386-18e6-4711-a677-20319072a42c" valueTypeId="ff27d429-251f-4c00-84f2-2b916d75352a"/>
+    <managerType typeId="5f3b9675-c637-49b3-99cf-1487ab4ea52a" valueTypeId="b40d8961-ebf3-4b8b-b53e-ba0425a7377e"/>
+  </producedTypes>
+  <name>бг_ТипыЗаявленийОВыдачеФСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы заявлений о выдаче ФСМ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ed816019-7aa2-4127-97b4-a7e5d707892f">
+    <name>АППроизведеннаяНаТерриторииРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АП, произведенная на территории РФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="019451c2-9542-4117-afca-24e910ea292a">
+    <name>АПВвозимаяВРФИзГосударствНеЯвляющихсяЧленамиЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АП, ввозимая в РФ из государств, не являющихся членами ЕАЭС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02808deb-793c-4e5e-90ff-534c801c55ed">
+    <name>АПВвозимаяВРФИзГосударствЧленовЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>АП, ввозимая в РФ из государств - членов ЕАЭС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

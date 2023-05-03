@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d3ad9f2-b7a7-4fae-966d-ccc68c1d6cc2">
+  <name>бг_ЧтениеКодовНоменклатурыСПУМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение кодов номенклатуры СПУМ</value>
+  </synonym>
+</mdclass:Role>

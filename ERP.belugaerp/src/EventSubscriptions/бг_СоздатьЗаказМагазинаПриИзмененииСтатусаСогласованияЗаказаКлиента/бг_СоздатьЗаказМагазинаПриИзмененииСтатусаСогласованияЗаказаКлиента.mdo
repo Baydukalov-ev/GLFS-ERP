@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deea4ed9-fa5a-4f3d-ae8b-93326118d7e5">
+  <name>бг_СоздатьЗаказМагазинаПриИзмененииСтатусаСогласованияЗаказаКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать заказ магазина при изменении статуса согласования заказа клиента</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.бг_СогласованиеЗаказовКлиентов</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.бг_ЗаказыКлиентов.ИзменитьСтатусЗаказаМагазинаПриЗаписиРегистра</handler>
+</mdclass:EventSubscription>

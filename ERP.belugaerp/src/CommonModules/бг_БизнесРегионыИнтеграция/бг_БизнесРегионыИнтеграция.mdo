@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f251e9a9-fe99-45ae-94bd-5e1598231227">
+  <name>бг_БизнесРегионыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-регионы (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

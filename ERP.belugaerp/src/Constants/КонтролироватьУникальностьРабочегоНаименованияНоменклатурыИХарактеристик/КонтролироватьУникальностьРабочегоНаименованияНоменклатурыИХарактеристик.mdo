@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae9766b2-afb0-4f00-a309-a6359ea51d9c">
+  <producedTypes>
+    <managerType typeId="481f6694-2034-4dc6-81ba-aab6a3452b23" valueTypeId="05e87d0e-06ed-45dc-b837-e226a40cc513"/>
+    <valueManagerType typeId="e90baad7-b842-44ca-a2d6-c79a24f2e9f9" valueTypeId="6660bd38-82b9-4b5c-a5f6-3ffe308f77cf"/>
+    <valueKeyType typeId="437885a1-6091-4147-b7ed-82c3b67ae84e" valueTypeId="f8ac727b-4c69-4774-8e0d-8eb913abfb6d"/>
+  </producedTypes>
+  <name>КонтролироватьУникальностьРабочегоНаименованияНоменклатурыИХарактеристик</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

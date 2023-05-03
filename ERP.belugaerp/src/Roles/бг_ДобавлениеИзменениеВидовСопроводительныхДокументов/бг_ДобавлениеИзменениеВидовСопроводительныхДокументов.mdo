@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e0b688f-6c87-4b94-94a4-ba479ae21368">
+  <name>бг_ДобавлениеИзменениеВидовСопроводительныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение видов сопроводительных документов</value>
+  </synonym>
+</mdclass:Role>

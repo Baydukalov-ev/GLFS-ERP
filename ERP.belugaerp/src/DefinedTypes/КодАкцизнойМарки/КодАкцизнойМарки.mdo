@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dbc62cc2-822e-49c6-adaf-f89b5ce9c0a9">
+  <producedTypes>
+    <containerType typeId="25da97b0-d564-44ee-bc64-dde61db8d086" valueTypeId="3b1f4e4b-5f2c-47a9-9216-dfb77fd5917e"/>
+  </producedTypes>
+  <name>КодАкцизнойМарки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

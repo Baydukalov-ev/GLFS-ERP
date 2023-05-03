@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6fdd2adf-225e-4913-a2b3-0598daa63937">
+  <producedTypes>
+    <refType typeId="460b70c2-5666-4d6b-8aaa-e1b4ad8f502d" valueTypeId="042bb5f1-b6e1-4d31-9949-81545269c823"/>
+    <listType typeId="adc4bb9c-71c5-4324-a684-65a1bae81feb" valueTypeId="e93ff268-702f-4e96-8c43-e23f875ceaa2"/>
+    <managerType typeId="dda3aabd-403e-438e-83a7-c81ba4a64391" valueTypeId="94e86acd-117a-4883-a7a3-03e1172e2447"/>
+  </producedTypes>
+  <name>ГруппировкиЗатратВЗаказеПереработчику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e92d875f-6996-4ce1-819d-e565716062a9">
+    <name>ПоЭтапамПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c56217a1-e427-4e2c-9030-5bc76ccf0595">
+    <name>БезГруппировки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="19d58709-949e-489c-a775-c747be7ea5b8">
+    <name>ПоПродукцииИНазначениям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5769c387-6ed1-43b5-8518-abdc6a686973">
+    <name>ПоЗаказамНаПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cd7a2da8-a1ef-4c61-b8ce-3ec4794b9d3b">
+    <name>ПоСпецификациямИНазначениям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4ae07b4c-606d-4319-aa5f-baad04506f68">
+    <name>ПоПродукции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1b7c577b-f494-41f0-9ccb-8404a9e582a1">
+    <name>ПоСпецификациям</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

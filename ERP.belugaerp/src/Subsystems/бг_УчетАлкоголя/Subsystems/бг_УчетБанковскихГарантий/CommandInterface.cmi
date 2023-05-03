@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:e4da2b9d-cfb8-4636-9d10-94559fc79560</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>0:e4da2b9d-cfb8-4636-9d10-94559fc79560</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:5aef835e-3c85-49bd-887d-ed8cafa70715</commands>
+      <commands>Catalog.бг_БанковскиеГарантии.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelSeeAlso</group>
+      <commands>0:e4da2b9d-cfb8-4636-9d10-94559fc79560</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

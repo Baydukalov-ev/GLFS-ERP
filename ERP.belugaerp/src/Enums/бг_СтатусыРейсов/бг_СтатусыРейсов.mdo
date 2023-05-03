@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d19c3b3f-db8a-4b28-b734-64990ff03e1d">
+  <producedTypes>
+    <refType typeId="967d3790-16d0-4a12-911b-8ba7d9b7aef7" valueTypeId="6b5971ed-ac4d-4207-979f-dc998bdd5c81"/>
+    <listType typeId="5ba7b573-263d-4139-a41c-1e9bca71d520" valueTypeId="7364c2eb-16ee-49b5-be68-2649c024d94f"/>
+    <managerType typeId="fc10872c-00fd-4c22-a8d8-efb6e3e05007" valueTypeId="1ce2a88e-08a5-42e3-a075-9b3dd350bae0"/>
+  </producedTypes>
+  <name>бг_СтатусыРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы рейсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cfdc4870-7492-43fc-bad9-72ed7e81975d">
+    <name>НаПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>1. СД на проверке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1ef7af8-8844-487e-a864-539801d428d6">
+    <name>ВозвращеныТЭК</name>
+    <synonym>
+      <key>ru</key>
+      <value>2. СД возвращены ТЭК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9cc41fd8-61c6-4c19-b0f0-a76b14727cbc">
+    <name>НаПовторнойПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>3. СД на повторной проверке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f97bc0d-5a4a-4962-b871-a72d4374f86e">
+    <name>ВОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>4. СД в оплате</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12bd7f5a-3bdd-4e9c-9f58-1ae57ff6c01e">
+    <name>РейсОплачен</name>
+    <synonym>
+      <key>ru</key>
+      <value>5. Рейс оплачен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

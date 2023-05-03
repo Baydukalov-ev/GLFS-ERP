@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="734ed5dd-9f17-46d1-92c8-57886198b50e">
+  <name>бг_УчетФСМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ФСМ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.бг_ТипыЗаявленийОВыдачеФСМ</content>
+  <content>Role.бг_ДобавлениеИзменениеЗаявленийОВыдачеФСМ</content>
+  <content>Role.бг_ЧтениеЗаявленийОВыдачеФСМ</content>
+  <content>Document.битЗаявлениеОВыдачеФСМ</content>
+  <content>Document.битНакладнаяНаВыдачуФСМ</content>
+  <content>Document.битАктОбУничтоженииФСМ</content>
+  <content>Report.бг_ДиапазоныМарок</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="377ed7b3-37dd-44b4-887f-b6f45e7ef283">
+  <producedTypes>
+    <refType typeId="ed4240a4-e65e-482d-817e-4cc7964d2f51" valueTypeId="0954ef0b-fa89-4b0f-9288-4489741948dc"/>
+    <listType typeId="210ac2cb-3e72-4a5e-9aa6-486273f3a746" valueTypeId="867b7061-64ff-4d8b-9850-6b29f53268dd"/>
+    <managerType typeId="37055e88-400a-4c80-9fca-ba6b724682a6" valueTypeId="38bebd84-e3d9-4106-be00-bfdfae9301ea"/>
+  </producedTypes>
+  <name>ТипыНалогов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="96b132c0-66e9-4079-8752-e57bd543c849">
+    <name>НДФЛ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f4d6dbdd-47bd-4d19-8d2a-1bcfc9ec8d9f">
+    <name>НДФЛСПревышения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

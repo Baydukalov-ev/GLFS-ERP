@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f672c7f1-9495-414f-b141-7b94ce4c4852">
+  <name>бг_ВыбытиеДенежныхДокументовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбытие денежных документов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

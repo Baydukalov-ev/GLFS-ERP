@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ce50cee-0e40-4af5-8860-a3429941dc38">
+  <name>бг_ЗаписатьВерсиюДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записать версию документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.битОтражениеФактаПоПриходномуОрдеру</types>
+    <types>DocumentObject.битОтражениеФактаПоРасходномуОрдеру</types>
+    <types>DocumentObject.битДобавлениеНовойПродукцииЕГАИС</types>
+    <types>DocumentObject.битПереупаковка</types>
+    <types>DocumentObject.битНакладнаяНаВыдачуФСМ</types>
+    <types>DocumentObject.битМаршрутныйЛист</types>
+    <types>DocumentObject.битОтчетОбИмпортеПродукцииЕГАИС</types>
+    <types>DocumentObject.битЗаявкаКлиента</types>
+    <types>DocumentObject.битРаспределениеТранспортныхРасходов</types>
+    <types>DocumentObject.битСертификацияНоменклатуры</types>
+    <types>DocumentObject.битИнвентаризацияПродукцииЕГАИС</types>
+    <types>DocumentObject.битЗаявлениеОВыдачеФСМ</types>
+    <types>DocumentObject.битДанныеСПроизводственнойЛинии</types>
+    <types>DocumentObject.битКомплектацияПродукцииЕГАИС</types>
+    <types>DocumentObject.битАктОбУничтоженииФСМ</types>
+    <types>DocumentObject.битОтчетОПроизводствеЕГАИС</types>
+    <types>DocumentObject.бг_РегистрацияБанковскихГарантий</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВерсионированиеОбъектовСобытия.ЗаписатьВерсиюДокумента</handler>
+</mdclass:EventSubscription>

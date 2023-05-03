@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d15e8c4-7f12-4de6-aa6f-f747b899d5be">
+  <producedTypes>
+    <selectionType typeId="39715351-aaa5-4d72-9c11-706c1172eac1" valueTypeId="66ac6ffb-6ee2-4309-975d-40024d4add23"/>
+    <listType typeId="a684663c-706f-4850-a5ae-8e403eb28f70" valueTypeId="75fd6214-0520-480d-8acf-b5ca7083c94d"/>
+    <managerType typeId="524d2f81-ff6c-4bc2-b911-16c2b442a7f4" valueTypeId="8f7c1e5f-780e-48f4-bb66-f7c052da0688"/>
+    <recordSetType typeId="b374b124-2e86-4fbc-b1a2-a8f1a4719417" valueTypeId="e4f0566b-3a7d-4679-bfa5-6ddd2d6480bb"/>
+    <recordKeyType typeId="bd441f32-db17-42ba-9ea5-299d88c0b120" valueTypeId="897f0c52-6496-4b52-b458-02bb05a90b12"/>
+    <recordType typeId="c3bd2b80-cafa-4b13-8995-e93b4614ec3a" valueTypeId="5da3a4eb-ef15-4a5e-b2c2-a01feeaed8f9"/>
+    <recordManagerType typeId="307250ce-fb08-4643-9a22-48323c6ee801" valueTypeId="3b232d26-2b67-44fc-9613-518f76552844"/>
+  </producedTypes>
+  <name>бг_НастройкиАвтоматическойПередачиЗаказовКлиентовНаСборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки автоматической передачи заказов клиентов на сборку (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка автоматической передачи заказов клиентов на сборку</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Настройка автоматической передачи заказов клиентов на сборку</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки автоматической передачи заказов клиентов на сборку</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Настройки автоматической передачи заказов клиентов на сборку</value>
+  </extendedListPresentation>
+  <resources uuid="48425e4e-1dba-4c80-adce-16a966b735f4">
+    <name>КоличествоЧасовДоОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов до отгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1ca3f12b-2a05-4607-b8de-24d30074526d">
+    <name>АктуализироватьОбеспечение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуализировать обеспечение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5e28c5ff-d3bf-493d-ad99-a1fa1e2b54a7">
+    <name>ОтменятьНеОбеспеченныеПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменять необеспеченные позиции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3e538b47-f778-4fdf-b3a6-1d7603fb6f39">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a604517f-39d6-4866-8870-0a16491ea61f">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="444e73b2-73f3-4575-b6bb-bf711de5ac50">
+    <name>ИсточникЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ИсточникиЗагрузкиЗаказовКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d96539a6-4d29-40c5-9dba-8f681a2615b1">
+    <name>Партнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

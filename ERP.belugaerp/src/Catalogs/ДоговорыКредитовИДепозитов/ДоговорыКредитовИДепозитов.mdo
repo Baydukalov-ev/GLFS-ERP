@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c84494d9-6ff1-411c-89ec-60bae24941a8">
+  <producedTypes>
+    <objectType typeId="ec0102e9-4b24-4209-89aa-6c8054e8056a" valueTypeId="960a6bc5-70ba-4556-8628-2de4cdde0295"/>
+    <refType typeId="0b4e8aa1-1ee8-4826-ac20-78f912eb202d" valueTypeId="521f0903-69bd-48d2-bbae-5c4e9665a784"/>
+    <selectionType typeId="3058f485-7406-41ad-9156-11c063ebdad7" valueTypeId="1b3ec35f-4974-4ab6-bc56-2e0c805e1f4a"/>
+    <listType typeId="a4e70e3e-7bec-4c4a-9bab-3314a0cab5ff" valueTypeId="64170f50-8a9d-4295-9e70-629623801381"/>
+    <managerType typeId="95cffc07-795d-4a94-aebc-d6e888c27eec" valueTypeId="5336da6c-2885-499c-8cbc-29e51ed2831b"/>
+  </producedTypes>
+  <name>ДоговорыКредитовИДепозитов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="7d39adca-9189-41a9-82cf-243eca7815cb">
+    <name>бг_ВидВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид взаиморасчетов</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_ВидыВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0d488d40-0216-4a0b-a91d-be2c46c01412">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

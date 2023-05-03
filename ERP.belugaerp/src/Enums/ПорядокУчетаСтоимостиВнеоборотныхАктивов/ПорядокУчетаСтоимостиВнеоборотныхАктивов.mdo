@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="923950b6-8a6e-4020-b041-d74e8a4696ae">
+  <producedTypes>
+    <refType typeId="dbedd33e-48e5-41fc-8317-7d2f265a6ec3" valueTypeId="80ae0b93-5e02-485c-afdc-4f88b81ab1c3"/>
+    <listType typeId="668c3aa4-d607-451f-ac98-28e0034bef93" valueTypeId="25120ff9-1bc2-4449-9181-1708bd3fb7d2"/>
+    <managerType typeId="3863fee7-25ac-4017-bcf4-d72720c24065" valueTypeId="d6dbacb2-e9df-44c4-b35d-9b6b1690e15b"/>
+  </producedTypes>
+  <name>ПорядокУчетаСтоимостиВнеоборотныхАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="2d492c04-eb70-4ea3-8baa-b7768f2dcab8">
+    <name>НачислятьАмортизацию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ed0d47da-88e0-40b8-ba49-e026429c9050">
+    <name>НеПриниматьКУчетуВключитьВРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f869770a-10ed-43e8-b11e-32a62d6dc65d">
+    <name>НеНачислятьАмортизацию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="922b4f2c-090e-40c8-b7b9-74cecad3d74f">
+    <name>АмортизацияНачислена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

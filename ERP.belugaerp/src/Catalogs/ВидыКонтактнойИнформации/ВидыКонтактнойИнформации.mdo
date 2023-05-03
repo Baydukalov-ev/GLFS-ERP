@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc4762f6-121a-4597-b157-4fb0a7f7f107">
+  <producedTypes>
+    <objectType typeId="b9da65c9-d05e-4e2a-967a-99d43adcd60a" valueTypeId="94f7e585-a868-412b-beed-50d464ae3c14"/>
+    <refType typeId="bd8aa50a-c726-42de-ab5c-f54fe56da926" valueTypeId="aedd5900-5a65-4276-97ff-dfa7f691f2fa"/>
+    <selectionType typeId="bdafa03a-5abf-4d67-961e-ce36812d1781" valueTypeId="6ca7254d-3858-4018-802b-c31854fb1991"/>
+    <listType typeId="1b3b235e-bf49-403f-8856-c0c9e0a802de" valueTypeId="29cbebd8-8732-4f62-a6f6-afbf5331b7b4"/>
+    <managerType typeId="84e8546a-50e5-44e7-997f-6056759db12d" valueTypeId="840bacdb-22de-49ba-a72c-f26024e45358"/>
+  </producedTypes>
+  <name>ВидыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="d1891d62-7ea4-4f0a-9480-453bd19f2a4c">
+      <name>СправочникКонтрагенты</name>
+      <description>Контактная информация справочника &quot;Контрагенты&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="59b48b6d-8cae-4c81-ae57-66900d915105">
+        <name>МеждународныйАдресКонтрагента</name>
+        <description>Международный адрес для платежей (англ.)</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="4d4d7bcd-8fe0-4a3c-9d93-1c02ce87688f">
+        <name>ФактАдресКонтрагента</name>
+        <description>Фактический адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="dbbcfbf6-d8e5-4b87-8335-131da167d3af">
+        <name>ЮрАдресКонтрагента</name>
+        <description>Юридический адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="7fbf3564-8d90-4eb3-aaf9-43e7994983ba">
+      <name>СправочникОрганизации</name>
+      <description>Контактная информация справочника &quot;Организации&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="5281a9f8-6432-4239-8c1b-5b2d3f7417ff">
+        <name>МеждународныйАдресОрганизации</name>
+        <description>Международный адрес для платежей (англ.)</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="ebc9a33a-fb31-4d93-a4ad-80098385871d">
+        <name>ТелефонОрганизации</name>
+        <description>Телефон</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="48682520-b26d-46f0-a982-7f783fc4f94e">
+      <name>СправочникПартнеры</name>
+      <description>Контактная информация справочника &quot;Партнеры&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="fa897028-50e3-421d-8327-a02dd02bfdd2">
+        <name>АдресПартнера</name>
+        <description>Адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="1a0357bb-3b2b-4043-8471-aee4bfc91da6">
+      <name>СправочникФизическиеЛица</name>
+      <description>Контактная информация справочника &quot;Физические лица&quot;</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3e17607e-a22f-4eae-a8da-47f40a017255">
+        <name>АдресЗаПределамиРФФизическиеЛица</name>
+        <description>Иностранный адрес</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="599e8e6e-de68-42c6-8369-e28f8c513af5">
+        <name>ТелефонРабочийФизическиеЛица</name>
+        <description>Рабочий телефон</description>
+        <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+          <state>AdoptedCheck</state>
+        </extension>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+</mdclass:Catalog>

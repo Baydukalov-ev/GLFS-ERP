@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcf5d706-a3ee-4d5e-b8cc-4b5f4c33fd34">
+  <name>бг_битВыгрузкаДолгосрочныхРезервовКонтрагентовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка долгосрочных резервов контрагентов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

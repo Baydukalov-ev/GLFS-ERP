@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f353e07c-0301-4f68-a903-90c48d27c743">
+  <producedTypes>
+    <objectType typeId="39ecb334-b4a1-49f9-af51-2b74e2275c57" valueTypeId="b300caec-1280-4467-8d37-1d5f91afa38f"/>
+    <managerType typeId="8d36e96c-025c-4514-a771-374ca18f5a0d" valueTypeId="c04af8cb-a85d-4cb0-8b2d-dd93b68537ec"/>
+  </producedTypes>
+  <name>бг_ПечатьТранспортнаяНакладная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать транспортная накладная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="71237005-d83e-4e47-9c8d-615feef955dd">
+    <name>бг_ПФ_MXL_ТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН (1-Т) (Белуга)</value>
+    </synonym>
+  </templates>
+  <templates uuid="10246c61-8ac3-4d8d-ac2d-8705d42f884f">
+    <name>бг_ПФ_MXL_ТТН_Экспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТТН (1-Т) Экспорт (Белуга)</value>
+    </synonym>
+  </templates>
+  <templates uuid="8f47b8b4-07c0-4ae3-9a94-b79802ed76fe">
+    <name>бг_ПФ_MXL_ТранспортнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная накладная (Белуга)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

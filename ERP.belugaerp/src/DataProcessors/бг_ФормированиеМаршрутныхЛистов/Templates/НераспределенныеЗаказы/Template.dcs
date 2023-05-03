@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказМагазина</dataPath>
+			<field>ЗаказМагазина</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ магазина</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПеревозки</dataPath>
+			<field>ВидПеревозки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид перевозки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИнтернетЗаказ</dataPath>
+			<field>ИнтернетЗаказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интернет заказ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ночь</dataPath>
+			<field>Ночь</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ночь</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоставкаНаСледующийДень</dataPath>
+			<field>ДоставкаНаСледующийДень</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Доставка на следующий день</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КаналПродаж</dataPath>
+			<field>КаналПродаж</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Канал продаж</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МаршрутНаименование</dataPath>
+			<field>МаршрутНаименование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут наименование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИВремяДоставкиПланС</dataPath>
+			<field>ДатаИВремяДоставкиПланС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата и время доставки план С</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗонаДоставки</dataPath>
+			<field>ЗонаДоставки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаЗаказа</dataPath>
+			<field>ДатаЗаказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗонаГеографическая</dataPath>
+			<field>ЗонаГеографическая</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПунктНазначения</dataPath>
+			<field>ПунктНазначения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пункт назначения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаИВремяДоставкиПланПо</dataPath>
+			<field>ДатаИВремяДоставкиПланПо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата и время доставки план по</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЗаказа</dataPath>
+			<field>НомерЗаказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер заказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Маршрут</dataPath>
+			<field>Маршрут</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказРозничногоПокупателя</dataPath>
+			<field>ЗаказРозничногоПокупателя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказ розничного покупателя</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вес</dataPath>
+			<field>Вес</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вес</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объем</dataPath>
+			<field>Объем</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъемДал</dataPath>
+			<field>ОбъемДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем дал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьДубли</dataPath>
+			<field>ЕстьДубли</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Есть дубли</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресДоставки</dataPath>
+			<field>АдресДоставки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес доставки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Транзит</dataPath>
+			<field>Транзит</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Транзит</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОформленаНакладная</dataPath>
+			<field>ОформленаНакладная</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оформлена накладная</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаличиеРезерва</dataPath>
+			<field>НаличиеРезерва</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Наличие резерва</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ДокументЗаказКлиента.Ссылка КАК Заказ,
+	ДокументЗаказКлиента.Номер КАК НомерЗаказа,
+	ДокументЗаказКлиента.Дата КАК ДатаЗаказа,
+	ДокументЗаказКлиента.Комментарий КАК Комментарий,
+	ДокументЗаказКлиента.Организация КАК Организация,
+	ДокументЗаказКлиента.Контрагент КАК Контрагент,
+	ДокументЗаказКлиента.Склад КАК Склад,
+	ДокументЗаказКлиента.Менеджер КАК Ответственный,
+	ЕСТЬNULL(ДокументЗаказКлиента.бг_ЗаявкаКлиента.ДоставкаСледующийДень, ЛОЖЬ) КАК ДоставкаНаСледующийДень,
+	ДокументЗаказКлиента.бг_ИсточникЗаказа = ЗНАЧЕНИЕ(Перечисление.бг_ИсточникиЗагрузкиЗаказовКлиентов.WINELAB_SAP_СONSOLIDATED) КАК ИнтернетЗаказ,
+	ЕСТЬNULL(ДокументЗаказКлиента.Склад.бг_ПунктНазначения, НЕОПРЕДЕЛЕНО) КАК ПунктПогрузки,
+	ВЫБОР
+		КОГДА ДокументЗаказКлиента.бг_АльтернативныйПунктНазначения &lt;&gt; ЗНАЧЕНИЕ(Справочник.битПунктыНазначения.ПустаяСсылка)
+			ТОГДА ДокументЗаказКлиента.бг_АльтернативныйПунктНазначения
+		ИНАЧЕ ЕСТЬNULL(ЗаказРозничногоПокупателя.бг_ПунктНазначения, ДокументЗаказКлиента.бг_ПунктНазначения)
+	КОНЕЦ КАК ПунктНазначения,
+	ВЫБОР
+		КОГДА ДокументЗаказКлиента.бг_АльтернативныйПунктНазначения &lt;&gt; ЗНАЧЕНИЕ(Справочник.битПунктыНазначения.ПустаяСсылка)
+			ТОГДА ДокументЗаказКлиента.бг_АльтернативныйПунктНазначения.Маршрут
+		ИНАЧЕ ДокументЗаказКлиента.бг_ПунктНазначения.Маршрут
+	КОНЕЦ КАК Маршрут,
+	ДокументЗаказКлиента.бг_ПунктНазначения.КаналПродаж КАК КаналПродаж,
+	ДокументЗаказКлиента.бг_Магазин &lt;&gt; ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+		И ДокументЗаказКлиента.бг_ЗаказРозничногоПокупателя = ЗНАЧЕНИЕ(Документ.ЗаказКлиента.ПустаяСсылка) КАК ЗаказРозничногоПокупателя,
+	ДокументЗаказКлиента.бг_Магазин &lt;&gt; ЗНАЧЕНИЕ(Справочник.Контрагенты.ПустаяСсылка)
+		И ДокументЗаказКлиента.бг_ЗаказРозничногоПокупателя &lt;&gt; ЗНАЧЕНИЕ(Документ.ЗаказКлиента.ПустаяСсылка) КАК ЗаказМагазина
+ПОМЕСТИТЬ втВсеЗаказы
+ИЗ
+	Документ.ЗаказКлиента КАК ДокументЗаказКлиента
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_СогласованиеЗаказовКлиентов КАК СогласованиеЗаказовКлиентов
+		ПО ДокументЗаказКлиента.Ссылка = СогласованиеЗаказовКлиентов.ЗаказКлиента
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияЗаказовКлиентов КАК ЗакрытыеЗаказы
+		ПО ДокументЗаказКлиента.Ссылка = ЗакрытыеЗаказы.Заказ
+			И (ЗакрытыеЗаказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовКлиентов.Закрыт))
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ЗаказРозничногоПокупателя
+		ПО ДокументЗаказКлиента.бг_ЗаказРозничногоПокупателя = ЗаказРозничногоПокупателя.Ссылка
+ГДЕ
+	ДокументЗаказКлиента.ДатаОтгрузки МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ДокументЗаказКлиента.Проведен
+	И НЕ ДокументЗаказКлиента.бг_ДолгосрочныйРезерв
+	И НЕ ДокументЗаказКлиента.бг_ИсточникЗаказа = ЗНАЧЕНИЕ(Перечисление.бг_ИсточникиЗагрузкиЗаказовКлиентов.WINELAB_HYBRIS)
+	И ВЫБОР
+			КОГДА НЕ &amp;ТолькоЗакрытые
+				ТОГДА ЗакрытыеЗаказы.Заказ ЕСТЬ NULL
+			ИНАЧЕ НЕ ЗакрытыеЗаказы.Заказ ЕСТЬ NULL
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА НЕ &amp;ДоставкаНаСледующийДень
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЕСТЬNULL(ДокументЗаказКлиента.бг_ЗаявкаКлиента.ДоставкаСледующийДень, ЛОЖЬ)
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;Фильтр = "ЗаказКлиента"
+				ТОГДА ИСТИНА
+			КОГДА &amp;Фильтр = ""
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛОЖЬ
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;ИспользоватьОтборПоСтатусу
+				ТОГДА ДокументЗаказКлиента.Статус = &amp;Статус
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+	И ДокументЗаказКлиента.Организация = &amp;Организация
+	И ВЫБОР
+			КОГДА НЕ &amp;ТолькоСогласованные
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЕСТЬNULL(СогласованиеЗаказовКлиентов.РезультатСогласования, НЕОПРЕДЕЛЕНО) В (&amp;СтатусыСогласовано)
+		КОНЕЦ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаказПоставщику.Ссылка,
+	ЗаказПоставщику.Номер,
+	ЗаказПоставщику.Дата,
+	ЗаказПоставщику.Комментарий,
+	ЗаказПоставщику.Организация,
+	ЗаказПоставщику.Контрагент,
+	ЗаказПоставщику.Склад,
+	ЗаказПоставщику.Автор,
+	ЛОЖЬ,
+	ЛОЖЬ,
+	ЗаказПоставщику.бг_ПунктПогрузки,
+	ЕСТЬNULL(ЗаказПоставщику.Склад.бг_ПунктНазначения, НЕОПРЕДЕЛЕНО),
+	НЕОПРЕДЕЛЕНО,
+	НЕОПРЕДЕЛЕНО,
+	ЛОЖЬ,
+	ЛОЖЬ
+ИЗ
+	Документ.ЗаказПоставщику КАК ЗаказПоставщику
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияЗаказовПоставщикам КАК ЗакрытыеЗаказы
+		ПО ЗаказПоставщику.Ссылка = ЗакрытыеЗаказы.Заказ
+			И (ЗакрытыеЗаказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПоставщикам.Закрыт))
+ГДЕ
+	ЗаказПоставщику.ДатаПоступления МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ЗаказПоставщику.Проведен
+	И ЗакрытыеЗаказы.Заказ ЕСТЬ NULL
+	И ВЫБОР
+			КОГДА &amp;Фильтр = "ЗаказПоставщику"
+				ТОГДА ИСТИНА
+			КОГДА &amp;Фильтр = ""
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛОЖЬ
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;ИспользоватьОтборПоСтатусу
+				ТОГДА ЗаказПоставщику.Статус = &amp;Статус
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+	И ЗаказПоставщику.Организация = &amp;Организация
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаказНаПеремещение.Ссылка,
+	ЗаказНаПеремещение.Номер,
+	ЗаказНаПеремещение.Дата,
+	ЗаказНаПеремещение.Комментарий,
+	ЗаказНаПеремещение.Организация,
+	ЗаказНаПеремещение.СкладПолучатель,
+	ЗаказНаПеремещение.СкладОтправитель,
+	ЗаказНаПеремещение.Автор,
+	ЛОЖЬ,
+	ЛОЖЬ,
+	ЕСТЬNULL(ЗаказНаПеремещение.СкладОтправитель.бг_ПунктНазначения, НЕОПРЕДЕЛЕНО),
+	ЕСТЬNULL(ЗаказНаПеремещение.СкладПолучатель.бг_ПунктНазначения, НЕОПРЕДЕЛЕНО),
+	НЕОПРЕДЕЛЕНО,
+	НЕОПРЕДЕЛЕНО,
+	ЛОЖЬ,
+	ЛОЖЬ
+ИЗ
+	Документ.ЗаказНаПеремещение КАК ЗаказНаПеремещение
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияВнутреннихЗаказов КАК ЗакрытыеЗаказы
+		ПО ЗаказНаПеремещение.Ссылка = ЗакрытыеЗаказы.Заказ
+			И (ЗакрытыеЗаказы.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияВнутреннихЗаказов.Закрыт))
+ГДЕ
+	ЗаказНаПеремещение.ЖелаемаяДатаПоступления МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ЗаказНаПеремещение.Проведен
+	И ЗакрытыеЗаказы.Заказ ЕСТЬ NULL
+	И ВЫБОР
+			КОГДА &amp;Фильтр = "ЗаказНаПеремещение"
+				ТОГДА ИСТИНА
+			КОГДА &amp;Фильтр = ""
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛОЖЬ
+		КОНЕЦ
+	И ВЫБОР
+			КОГДА &amp;ИспользоватьОтборПоСтатусу
+				ТОГДА ЗаказНаПеремещение.Статус = &amp;Статус
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+	И ЗаказНаПеремещение.Организация = &amp;Организация
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втВсеЗаказы.Заказ КАК Заказ,
+	втВсеЗаказы.НомерЗаказа КАК НомерЗаказа,
+	втВсеЗаказы.ДатаЗаказа КАК ДатаЗаказа,
+	втВсеЗаказы.Комментарий КАК Комментарий,
+	втВсеЗаказы.Организация КАК Организация,
+	втВсеЗаказы.Контрагент КАК Контрагент,
+	втВсеЗаказы.Склад КАК Склад,
+	втВсеЗаказы.Ответственный КАК Ответственный,
+	НЕ МаршрутныйЛистЗаказыТранзит.Ссылка ЕСТЬ NULL КАК Транзит,
+	втВсеЗаказы.ДоставкаНаСледующийДень КАК ДоставкаНаСледующийДень,
+	втВсеЗаказы.ИнтернетЗаказ КАК ИнтернетЗаказ,
+	втВсеЗаказы.ПунктПогрузки КАК ПунктПогрузки,
+	втВсеЗаказы.ПунктНазначения КАК ПунктНазначения,
+	втВсеЗаказы.Маршрут КАК Маршрут,
+	втВсеЗаказы.КаналПродаж КАК КаналПродаж,
+	втВсеЗаказы.ЗаказРозничногоПокупателя КАК ЗаказРозничногоПокупателя,
+	втВсеЗаказы.ЗаказМагазина КАК ЗаказМагазина
+ПОМЕСТИТЬ втЗаказы
+ИЗ
+	втВсеЗаказы КАК втВсеЗаказы
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказыКонечныйПункт
+		ПО втВсеЗаказы.Заказ = МаршрутныйЛистЗаказыКонечныйПункт.Заказ
+			И (НЕ МаршрутныйЛистЗаказыКонечныйПункт.Ссылка.ПометкаУдаления)
+			И (МаршрутныйЛистЗаказыКонечныйПункт.Ссылка.ВидДокумента = ЗНАЧЕНИЕ(Перечисление.бг_ВидыМаршрутныхЛистов.МаршрутныйЛист))
+			И (НЕ МаршрутныйЛистЗаказыКонечныйПункт.Ссылка.ТипРейса = ЗНАЧЕНИЕ(Перечисление.бг_ТипыРейсов.ПоРегионамТранзит))
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказыТранзит
+		ПО втВсеЗаказы.Заказ = МаршрутныйЛистЗаказыТранзит.Заказ
+			И (НЕ МаршрутныйЛистЗаказыТранзит.Ссылка.ПометкаУдаления)
+			И (МаршрутныйЛистЗаказыТранзит.Ссылка.ВидДокумента = ЗНАЧЕНИЕ(Перечисление.бг_ВидыМаршрутныхЛистов.МаршрутныйЛист))
+			И (МаршрутныйЛистЗаказыТранзит.Ссылка.ТипРейса = ЗНАЧЕНИЕ(Перечисление.бг_ТипыРейсов.ПоРегионамТранзит))
+ГДЕ
+	МаршрутныйЛистЗаказыКонечныйПункт.Ссылка ЕСТЬ NULL
+	И ВЫБОР
+			КОГДА НЕ &amp;Транзит
+				ТОГДА МаршрутныйЛистЗаказыТранзит.Ссылка ЕСТЬ NULL
+			ИНАЧЕ НЕ МаршрутныйЛистЗаказыТранзит.Ссылка ЕСТЬ NULL
+		КОНЕЦ
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	втЗаказы.Заказ КАК Заказ
+ПОМЕСТИТЬ ЗаказОформленыНакладные
+ИЗ
+	втЗаказы КАК втЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.РеализацияТоваровУслуг.Товары КАК РеализацияТоваровУслугТовары
+		ПО (ТИПЗНАЧЕНИЯ(втЗаказы.Заказ) = ТИП(Документ.ЗаказКлиента))
+			И втЗаказы.Заказ = РеализацияТоваровУслугТовары.ЗаказКлиента
+			И (РеализацияТоваровУслугТовары.Ссылка.Проведен)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	втЗаказы.Заказ
+ИЗ
+	втЗаказы КАК втЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПриобретениеТоваровУслуг.Товары КАК ПриобретениеТоваровУслугТовары
+		ПО (ТИПЗНАЧЕНИЯ(втЗаказы.Заказ) = ТИП(Документ.ЗаказПоставщику))
+			И втЗаказы.Заказ = ПриобретениеТоваровУслугТовары.ЗаказПоставщику
+			И (ПриобретениеТоваровУслугТовары.Ссылка.Проведен)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	втЗаказы.Заказ
+ИЗ
+	втЗаказы КАК втЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПеремещениеТоваров.Товары КАК ПеремещениеТоваровТовары
+		ПО (ТИПЗНАЧЕНИЯ(втЗаказы.Заказ) = ТИП(Документ.ЗаказНаПеремещение))
+			И втЗаказы.Заказ = ПеремещениеТоваровТовары.ЗаказНаПеремещение
+			И (ПеремещениеТоваровТовары.Ссылка.Проведен)
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	втЗаказы.Заказ КАК Заказ
+ПОМЕСТИТЬ НаличиеРезервов
+ИЗ
+	втЗаказы КАК втЗаказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ПО (ТИПЗНАЧЕНИЯ(втЗаказы.Заказ) = ТИП(Документ.ЗаказКлиента))
+			И втЗаказы.Заказ = ЗаказКлиентаТовары.Ссылка
+			И (ЗаказКлиентаТовары.ВариантОбеспечения В (ЗНАЧЕНИЕ(Перечисление.ВариантыОбеспечения.СоСклада), ЗНАЧЕНИЕ(Перечисление.ВариантыОбеспечения.Отгрузить)))
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Заказы.Заказ КАК Заказ,
+	ЗаказКлиентаТовары.Номенклатура КАК Номенклатура,
+	ЕСТЬNULL(ЗаказКлиентаТовары.бг_УпаковкаПаллета, ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)) КАК Паллета,
+	ЗаказКлиентаТовары.Количество КАК Количество
+ПОМЕСТИТЬ СоставЗаказов
+ИЗ
+	втЗаказы КАК Заказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента.Товары КАК ЗаказКлиентаТовары
+		ПО Заказы.Заказ = ЗаказКлиентаТовары.Ссылка
+			И (НЕ ЗаказКлиентаТовары.Отменено)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Заказы.Заказ,
+	ЗаказНаПеремещениеТовары.Номенклатура,
+	ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка),
+	ЗаказНаПеремещениеТовары.Количество
+ИЗ
+	втЗаказы КАК Заказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказНаПеремещение.Товары КАК ЗаказНаПеремещениеТовары
+		ПО Заказы.Заказ = ЗаказНаПеремещениеТовары.Ссылка
+			И (НЕ ЗаказНаПеремещениеТовары.Отменено)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Заказы.Заказ,
+	ЗаказПоставщикуТовары.Номенклатура,
+	ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка),
+	ЗаказПоставщикуТовары.Количество
+ИЗ
+	втЗаказы КАК Заказы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказПоставщику.Товары КАК ЗаказПоставщикуТовары
+		ПО Заказы.Заказ = ЗаказПоставщикуТовары.Ссылка
+			И (НЕ ЗаказПоставщикуТовары.Отменено)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СоставЗаказов.Номенклатура КАК Номенклатура,
+	МАКСИМУМ(УпаковкиЕдиницыИзмерения.Ссылка) КАК Паллета
+ПОМЕСТИТЬ УпаковкиПаллеты
+ИЗ
+	СоставЗаказов КАК СоставЗаказов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.УпаковкиЕдиницыИзмерения КАК УпаковкиЕдиницыИзмерения
+		ПО СоставЗаказов.Номенклатура = УпаковкиЕдиницыИзмерения.Владелец
+			И (УпаковкиЕдиницыИзмерения.ЕдиницаИзмерения = &amp;ЕдиницаИзмеренияПаллета)
+			И (НЕ УпаковкиЕдиницыИзмерения.ПометкаУдаления)
+
+СГРУППИРОВАТЬ ПО
+	СоставЗаказов.Номенклатура
+
+ИМЕЮЩИЕ
+	КОЛИЧЕСТВО(РАЗЛИЧНЫЕ УпаковкиЕдиницыИзмерения.Ссылка) = 1
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СоставЗаказов.Заказ КАК Заказ,
+	СУММА(ВЫБОР
+			КОГДА СоставЗаказов.Паллета &lt;&gt; ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)
+					И СоставЗаказов.Паллета.Числитель &lt;&gt; 0
+					И СоставЗаказов.Паллета.Вес &lt;&gt; 0
+				ТОГДА СоставЗаказов.Количество / СоставЗаказов.Паллета.Числитель * СоставЗаказов.Паллета.Знаменатель * СоставЗаказов.Паллета.Вес
+			КОГДА ЕСТЬNULL(УпаковкиПаллеты.Паллета, ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)) &lt;&gt; ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)
+					И ЕСТЬNULL(УпаковкиПаллеты.Паллета.Числитель, 0) &lt;&gt; 0
+					И ЕСТЬNULL(УпаковкиПаллеты.Паллета.Вес, 0) &lt;&gt; 0
+				ТОГДА СоставЗаказов.Количество / ЕСТЬNULL(УпаковкиПаллеты.Паллета.Числитель, 0) * ЕСТЬNULL(УпаковкиПаллеты.Паллета.Знаменатель, 0) * ЕСТЬNULL(УпаковкиПаллеты.Паллета.Вес, 0)
+			КОГДА ЕСТЬNULL(СоставЗаказов.Номенклатура.ВесЗнаменатель, 0) &lt;&gt; 0
+				ТОГДА СоставЗаказов.Количество * СоставЗаказов.Номенклатура.ВесЧислитель / СоставЗаказов.Номенклатура.ВесЗнаменатель
+			ИНАЧЕ 0
+		КОНЕЦ) КАК Вес,
+	СУММА(ВЫРАЗИТЬ(ВЫБОР
+				КОГДА СоставЗаказов.Паллета &lt;&gt; ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)
+						И СоставЗаказов.Паллета.Числитель &lt;&gt; 0
+						И СоставЗаказов.Паллета.Объем &lt;&gt; 0
+					ТОГДА СоставЗаказов.Количество / СоставЗаказов.Паллета.Числитель * СоставЗаказов.Паллета.Знаменатель * СоставЗаказов.Паллета.Объем
+				КОГДА ЕСТЬNULL(УпаковкиПаллеты.Паллета, ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)) &lt;&gt; ЗНАЧЕНИЕ(Справочник.УпаковкиЕдиницыИзмерения.ПустаяСсылка)
+						И ЕСТЬNULL(УпаковкиПаллеты.Паллета.Числитель, 0) &lt;&gt; 0
+						И ЕСТЬNULL(УпаковкиПаллеты.Паллета.Объем, 0) &lt;&gt; 0
+					ТОГДА СоставЗаказов.Количество / ЕСТЬNULL(УпаковкиПаллеты.Паллета.Числитель, 0) * ЕСТЬNULL(УпаковкиПаллеты.Паллета.Знаменатель, 0) * ЕСТЬNULL(УпаковкиПаллеты.Паллета.Объем, 0)
+				ИНАЧЕ 0
+			КОНЕЦ КАК ЧИСЛО(15, 3))) КАК Объем,
+	СУММА(СоставЗаказов.Количество * ЕСТЬNULL(СоставЗаказов.Номенклатура.ОбъемДАЛ, 0)) КАК КоличествоДАЛ
+ПОМЕСТИТЬ ВГХЗаказов
+ИЗ
+	СоставЗаказов КАК СоставЗаказов
+		ЛЕВОЕ СОЕДИНЕНИЕ УпаковкиПаллеты КАК УпаковкиПаллеты
+		ПО СоставЗаказов.Номенклатура = УпаковкиПаллеты.Номенклатура
+
+СГРУППИРОВАТЬ ПО
+	СоставЗаказов.Заказ
+
+ИНДЕКСИРОВАТЬ ПО
+	Заказ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втЗаказы.ПунктНазначения КАК ПунктНазначения
+ПОМЕСТИТЬ ЗаказыЗаПериод
+ИЗ
+	втЗаказы КАК втЗаказы
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	МаршрутныйЛистЗаказы.ПунктНазначения
+ИЗ
+	Документ.битМаршрутныйЛист КАК МаршрутныйЛист
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.битМаршрутныйЛист.Заказы КАК МаршрутныйЛистЗаказы
+		ПО (МаршрутныйЛист.ВидДокумента = ЗНАЧЕНИЕ(Перечисление.бг_ВидыМаршрутныхЛистов.МаршрутныйЛист))
+			И (МаршрутныйЛист.Организация = &amp;Организация)
+			И (МаршрутныйЛист.Дата &gt;= &amp;ДатаНачала)
+			И (МаршрутныйЛист.Дата &lt;= &amp;ДатаОкончания)
+			И (НЕ МаршрутныйЛист.ТипРейса = ЗНАЧЕНИЕ(Перечисление.бг_ТипыРейсов.ПоРегионамТранзит))
+			И (НЕ МаршрутныйЛист.ПометкаУдаления)
+			И МаршрутныйЛист.Ссылка = МаршрутныйЛистЗаказы.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЗаказыЗаПериод.ПунктНазначения КАК ПунктНазначения
+ПОМЕСТИТЬ втПовторяющиесяПункты
+ИЗ
+	ЗаказыЗаПериод КАК ЗаказыЗаПериод
+ГДЕ
+	НЕ ЗаказыЗаПериод.ПунктНазначения = НЕОПРЕДЕЛЕНО
+	И НЕ ЗаказыЗаПериод.ПунктНазначения = ЗНАЧЕНИЕ(Справочник.битПунктыНазначения.ПустаяСсылка)
+
+СГРУППИРОВАТЬ ПО
+	ЗаказыЗаПериод.ПунктНазначения
+
+ИМЕЮЩИЕ
+	СУММА(1) &gt; 1
+
+ИНДЕКСИРОВАТЬ ПО
+	ПунктНазначения
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втЗаказы.Заказ КАК Заказ,
+	втЗаказы.НомерЗаказа КАК НомерЗаказа,
+	втЗаказы.ДатаЗаказа КАК ДатаЗаказа,
+	втЗаказы.Организация КАК Организация,
+	втЗаказы.Склад КАК Склад,
+	втЗаказы.Контрагент КАК Контрагент,
+	втЗаказы.ПунктНазначения КАК ПунктНазначения,
+	втЗаказы.Маршрут КАК Маршрут,
+	ЕСТЬNULL(втЗаказы.Маршрут.Наименование, "") КАК МаршрутНаименование,
+	ЕСТЬNULL(ВГХЗаказов.Вес, 0) КАК Вес,
+	ЕСТЬNULL(ВГХЗаказов.КоличествоДАЛ, 0) КАК ОбъемДал,
+	ЕСТЬNULL(ВГХЗаказов.Объем, 0) КАК Объем,
+	ВЫБОР
+		КОГДА втЗаказы.Заказ ССЫЛКА Документ.ЗаказКлиента
+			ТОГДА ВЫРАЗИТЬ(втЗаказы.Заказ КАК Документ.ЗаказКлиента).АдресДоставки
+		ИНАЧЕ ""
+	КОНЕЦ КАК АдресДоставки,
+	НЕ втПовторяющиесяПункты.ПунктНазначения ЕСТЬ NULL КАК ЕстьДубли,
+	втЗаказы.Комментарий КАК Комментарий,
+	втЗаказы.Транзит КАК Транзит,
+	бг_ЗоныДоставкиПунктовВыгрузки.ЗонаДоставки КАК ЗонаДоставки,
+	бг_СоответствиеЗон.ЗонаГеографическая КАК ЗонаГеографическая,
+	втЗаказы.КаналПродаж КАК КаналПродаж,
+	ЕСТЬNULL(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиС, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаИВремяДоставкиПланС,
+	ЕСТЬNULL(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиПо, ДАТАВРЕМЯ(1, 1, 1)) КАК ДатаИВремяДоставкиПланПо,
+	ВЫБОР
+		КОГДА втЗаказы.ДоставкаНаСледующийДень
+			ТОГДА ЛОЖЬ
+		КОГДА бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиС ЕСТЬ NULL
+			ТОГДА ЛОЖЬ
+		КОГДА ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиС) &gt;= 22
+				И ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиПо) &lt;= 7
+			ТОГДА ИСТИНА
+		КОГДА ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиС) &gt;= 22
+				И ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиПо) &gt;= 22
+			ТОГДА ИСТИНА
+		КОГДА ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиС) &lt;= 7
+				И ЧАС(бг_ТранспортнаяИнформация.ПлановаяДатаДоставкиПо) &lt;= 7
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК Ночь,
+	втЗаказы.ДоставкаНаСледующийДень КАК ДоставкаНаСледующийДень,
+	втЗаказы.ИнтернетЗаказ КАК ИнтернетЗаказ,
+	втЗаказы.Ответственный КАК Ответственный,
+	ЕСТЬNULL(бг_ТранспортнаяИнформация.ВидПеревозки, НЕОПРЕДЕЛЕНО) КАК ВидПеревозки,
+	втЗаказы.ЗаказРозничногоПокупателя КАК ЗаказРозничногоПокупателя,
+	втЗаказы.ЗаказМагазина КАК ЗаказМагазина,
+	НЕ ЗаказОформленыНакладные.Заказ ЕСТЬ NULL КАК ОформленаНакладная,
+	НЕ НаличиеРезервов.Заказ ЕСТЬ NULL КАК НаличиеРезерва
+ИЗ
+	втЗаказы КАК втЗаказы
+		ЛЕВОЕ СОЕДИНЕНИЕ ВГХЗаказов КАК ВГХЗаказов
+		ПО втЗаказы.Заказ = ВГХЗаказов.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ втПовторяющиесяПункты КАК втПовторяющиесяПункты
+		ПО втЗаказы.ПунктНазначения = втПовторяющиесяПункты.ПунктНазначения
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_ТранспортнаяИнформация КАК бг_ТранспортнаяИнформация
+		ПО втЗаказы.Заказ = бг_ТранспортнаяИнформация.Объект
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_ЗоныДоставкиПунктовВыгрузки КАК бг_ЗоныДоставкиПунктовВыгрузки
+		ПО втЗаказы.ПунктПогрузки = бг_ЗоныДоставкиПунктовВыгрузки.ПунктПогрузки
+			И втЗаказы.ПунктНазначения = бг_ЗоныДоставкиПунктовВыгрузки.ПунктВыгрузки
+			И (бг_ЗоныДоставкиПунктовВыгрузки.ТипЗоныДоставки = ЗНАЧЕНИЕ(Справочник.бг_ТипыЗонДоставки.ПустаяСсылка))
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_СоответствиеЗон КАК бг_СоответствиеЗон
+		ПО (бг_ЗоныДоставкиПунктовВыгрузки.ПунктПогрузки = бг_СоответствиеЗон.ПунктПогрузки)
+			И (бг_ЗоныДоставкиПунктовВыгрузки.ЗонаДоставки = бг_СоответствиеЗон.ЗонаДоставки)
+		ЛЕВОЕ СОЕДИНЕНИЕ ЗаказОформленыНакладные КАК ЗаказОформленыНакладные
+		ПО втЗаказы.Заказ = ЗаказОформленыНакладные.Заказ
+		ЛЕВОЕ СОЕДИНЕНИЕ НаличиеРезервов КАК НаличиеРезервов
+		ПО втЗаказы.Заказ = НаличиеРезервов.Заказ
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ЕстьФильтрПоВидуПеревозки
+				ТОГДА НЕ бг_ТранспортнаяИнформация.ВидПеревозки В (&amp;ВидыПеревозкиСамовывоз)
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+
+УПОРЯДОЧИТЬ ПО
+	МаршрутНаименование,
+	ПунктНазначения</query>
+	</dataSet>
+	<parameter>
+		<name>ВидыПеревозкиСамовывоз</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Виды перевозки самовывоз</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.бг_ВидыПеревозки</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДоставкаНаСледующийДень</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Доставка на следующий день</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЕдиницаИзмеренияПаллета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Единица измерения паллета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЕстьФильтрПоВидуПеревозки</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Есть фильтр по виду перевозки</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИспользоватьОтборПоСтатусу</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Использовать отбор по статусу</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Статус</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статус</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СтатусыЗаказовКлиентов</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СтатусыВнутреннихЗаказов</v8:Type>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СтатусыЗаказовПоставщикам</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СтатусыСогласовано</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статусы согласовано</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.бг_РезультатыСогласования</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ТолькоЗакрытые</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Только закрытые</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТолькоСогласованные</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Только согласованные</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Транзит</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Транзит</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Фильтр</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Фильтр</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АдресДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Вес</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидПеревозки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаЗаказа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИВремяДоставкиПланПо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаИВремяДоставкиПланС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДоставкаНаСледующийДень</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕстьДубли</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Заказ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказМагазина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказРозничногоПокупателя</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗонаГеографическая</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗонаДоставки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИнтернетЗаказ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КаналПродаж</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Маршрут</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаршрутНаименование</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерЗаказа</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ночь</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Объем</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъемДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПунктНазначения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Склад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Транзит</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НаличиеРезерва</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидПеревозки</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">КаналПродаж</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПунктНазначения</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Склад</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОформленаНакладная</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">НаличиеРезерва</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

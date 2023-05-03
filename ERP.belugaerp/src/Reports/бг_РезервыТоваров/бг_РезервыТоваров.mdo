@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c0d7a6c-0c10-4a11-b8b6-40434792d15a">
+  <producedTypes>
+    <objectType typeId="87522af6-68c3-43cb-8965-f2664a55e544" valueTypeId="c15518d7-8cb6-43f8-b7b7-b50cc4086dec"/>
+    <managerType typeId="530de0d5-153e-462c-9e1b-c35a8aa14254" valueTypeId="3e59cd58-2df7-4df7-9cbe-c8109a7708f3"/>
+  </producedTypes>
+  <name>бг_РезервыТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервы товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_РезервыТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="c560391c-eeb4-41a9-9d34-867cf6f83bae">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

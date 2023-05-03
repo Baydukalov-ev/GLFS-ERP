@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8103afcd-79e8-425f-b5c4-29a3a90d5978">
+  <name>бг_УчетМарокИнтеграцияWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет марок и интеграция с WMS</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МаркируемаяПродукцияШапка</picture>
+  </picture>
+  <content>Document.битОтражениеФактаПоРасходномуОрдеру</content>
+  <content>Document.битПереупаковка</content>
+  <content>CommonModule.бг_МаркируемаяПродукция</content>
+  <content>InformationRegister.бг_ДокументыИнтеграцииСоСкладскимиСистемами</content>
+  <content>Enum.бг_СтатусыДокументовИнтеграцииСоСкладскимиСистемами</content>
+  <content>Document.битИнвентаризацияПродукцииЕГАИС</content>
+  <content>Document.битОтражениеФактаПоПриходномуОрдеру</content>
+  <content>Report.бг_СостояниеМарок</content>
+  <content>Report.бг_ДвижениеМарок</content>
+  <content>Enum.бг_ТипыВнешнихСкладскихСистем</content>
+  <content>50947ae6-2cab-4c4d-9695-091036ea8a07</content>
+  <content>InformationRegister.бг_ДвижениеМарок</content>
+  <content>InformationRegister.бг_СоставУпаковок</content>
+  <content>Catalog.битТипыПриемкиWMS</content>
+  <content>Enum.бг_РезультатыПриемкиWMS</content>
+  <content>InformationRegister.бг_ИдентификаторыМарок</content>
+  <content>InformationRegister.бг_ОбъектыДляОтложеннойОбработки</content>
+  <content>Enum.бг_ВариантыСинхронизацииНоменклатурыWMS</content>
+  <content>Document.бг_ВыгрузкаМарокУпаковок</content>
+  <content>DataProcessor.бг_ВыгрузкаМарокУпаковок</content>
+  <content>DataProcessor.бг_СписаниеМарокБезОстатков</content>
+  <content>Report.бг_ПоказателиРаботыОператоровWMS</content>
+  <content>AccumulationRegister.бг_ПоказателиРаботыОператоровWMS</content>
+  <content>InformationRegister.бг_ЗапрещенныеВидыНоменклатурыДляИнтеграцииWMS</content>
+  <content>Enum.бг_ТипыОтгрузкиWMS</content>
+  <content>InformationRegister.бг_ПриоритетыКаналовПродажСнятияРезервов</content>
+  <content>Document.битКомплектацияПродукцииЕГАИС</content>
+  <subsystems>бг_MobileSmarts</subsystems>
+  <subsystems>бг_Solvo</subsystems>
+</mdclass:Subsystem>

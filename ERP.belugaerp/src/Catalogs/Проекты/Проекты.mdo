@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5961d451-8e65-4f99-9371-eb6bc923c5b9">
+  <producedTypes>
+    <objectType typeId="7f86144d-42ac-40d4-8086-c9d8637936f2" valueTypeId="74f9ab38-0f95-4cad-8d33-3d6b26120154"/>
+    <refType typeId="d66df082-6091-44fc-8e0a-6f9c80b55622" valueTypeId="9fabc011-8ed0-465a-bd76-a5d812f0f6e5"/>
+    <selectionType typeId="879de2e5-58c4-4594-b233-c57c0b2d8c38" valueTypeId="5c22d8a7-5794-4322-872d-be184f10625e"/>
+    <listType typeId="5a3297c6-05f8-451a-b7ac-505986e0b73a" valueTypeId="c699b802-706a-4b93-b6a4-9d6f22347475"/>
+    <managerType typeId="209208a2-86e9-42be-992f-037071fdb76d" valueTypeId="2392c305-6b65-4a4e-a700-46eaefd63963"/>
+  </producedTypes>
+  <name>Проекты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="9cb59ee9-23c1-4236-9fab-4266adc6d98c">
+    <name>бг_КодНСИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код НСИ</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="084fff92-48d5-48de-bbfc-f8268743c0c8">
+    <name>бг_МетодГруппировкиВКПК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод группировки в КПК</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_МетодГруппировкиВКПК</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b4f8e8b-8d76-41e1-89d4-d34a7f12cf7c">
+    <name>бг_ПорядокВывода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок вывода</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="676e7927-4e65-4312-946b-0d44763f2da0">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

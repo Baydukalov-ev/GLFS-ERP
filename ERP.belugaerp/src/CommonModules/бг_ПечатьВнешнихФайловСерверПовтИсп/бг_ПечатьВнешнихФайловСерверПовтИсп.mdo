@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5e8d6b2-bdc4-4df4-8866-dd103e146725">
+  <name>бг_ПечатьВнешнихФайловСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать внешних файлов сервер повт. исп.</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

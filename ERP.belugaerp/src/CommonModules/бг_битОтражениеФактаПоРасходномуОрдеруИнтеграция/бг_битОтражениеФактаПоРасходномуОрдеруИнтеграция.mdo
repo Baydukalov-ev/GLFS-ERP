@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4576e768-d24f-4b12-85f3-c9ed2543c14e">
+  <name>бг_битОтражениеФактаПоРасходномуОрдеруИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отражение факта по расходному ордеру (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

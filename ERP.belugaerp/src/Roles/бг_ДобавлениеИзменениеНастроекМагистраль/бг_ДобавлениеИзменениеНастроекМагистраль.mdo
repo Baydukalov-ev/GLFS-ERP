@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb5ad4e8-22e6-454f-a358-3499050dd9dd">
+  <name>бг_ДобавлениеИзменениеНастроекМагистраль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек магистраль</value>
+  </synonym>
+</mdclass:Role>

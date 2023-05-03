@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2a35cd5-7079-45dc-b66b-a69e38dec258">
+  <producedTypes>
+    <refType typeId="cdf90ce4-ad28-4a03-8ca5-953e7ecbe255" valueTypeId="5cc4f483-1189-4944-9351-afeca1c13a6a"/>
+    <listType typeId="df52d243-979c-460c-821c-763f5c09918e" valueTypeId="1931f709-7704-4eca-a4c0-54157df79d02"/>
+    <managerType typeId="6b299b8b-647f-4fd4-a704-d7e6a416d95d" valueTypeId="95dad2c4-e931-4688-905e-e8e612fdd039"/>
+  </producedTypes>
+  <name>бг_ОперацииРасчетаАвансовПоАкцизам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции расчета авансов по акцизам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8b11812-6a05-4815-bbf0-82e367d1601b">
+    <name>РасчетАвансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет авансов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8341f642-6279-4269-b856-1dfefa93372a">
+    <name>РасчетВозмещенияАвансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет возмещения авансов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

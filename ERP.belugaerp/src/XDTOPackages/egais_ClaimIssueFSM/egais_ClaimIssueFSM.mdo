@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1ac72a68-57af-41fc-9751-8a59c73ea1dd">
+  <name>egais_ClaimIssueFSM</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:XDTOPackageExtension"/>
+  <namespace>http://fsrar.ru/WEGAIS/ClaimIssueFSM</namespace>
+</mdclass:XDTOPackage>

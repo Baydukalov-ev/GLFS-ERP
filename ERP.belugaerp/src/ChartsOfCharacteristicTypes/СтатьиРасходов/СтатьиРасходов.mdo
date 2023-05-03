@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89d1f595-2eea-491a-92b9-7d18da35b5c7">
+  <producedTypes>
+    <objectType typeId="60aeb2a8-c92a-45db-9f0c-a4113838b76a" valueTypeId="1fac10e5-7499-46ba-9d17-f293d67b9044"/>
+    <refType typeId="bd48cd21-b962-47a7-8da6-2847b04fe45d" valueTypeId="14b1fafe-ec19-475b-87b2-1443e64bb709"/>
+    <selectionType typeId="d1a67201-76f7-402c-be08-ebd1621c95ba" valueTypeId="dd551abd-9bf3-453b-b04f-6ce9a2c8be56"/>
+    <listType typeId="4f3fd110-6f79-47f6-92c2-92afb4d85cc0" valueTypeId="18ec2c9a-51e9-4b3c-adb3-736bf2a86896"/>
+    <managerType typeId="00d462ea-a15f-49b4-b5f6-b251cc2f85e7" valueTypeId="5325ada1-48fe-4c52-b5b2-24bcba1d1ef3"/>
+    <containerType typeId="6b98415e-dc51-4e4e-935e-bf50aa9d4905" valueTypeId="a9a535fd-3adf-4139-a980-0c0ab7829196"/>
+  </producedTypes>
+  <name>СтатьиРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+  <attributes uuid="e4703c8d-3eb5-4077-83eb-3636d22a09ad">
+    <name>ВариантРаспределенияРасходовРегл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыРаспределенияРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="648f8b7f-9a0a-4dce-9669-89025a4a839c">
+    <name>ТипРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

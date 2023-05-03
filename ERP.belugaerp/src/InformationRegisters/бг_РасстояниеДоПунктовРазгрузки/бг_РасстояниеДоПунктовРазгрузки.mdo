@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddbbc104-e222-40e4-9d1b-79bab96159f8">
+  <producedTypes>
+    <selectionType typeId="9acd5019-30df-4e33-8c81-46453d5e419c" valueTypeId="0e0f33ec-c92e-4507-aab9-f2b7f4dd0816"/>
+    <listType typeId="91346d9f-c888-44d3-9e63-3f88d712a25b" valueTypeId="dd8702ac-88ef-4aa0-bdc3-1e5a69fc8c79"/>
+    <managerType typeId="b67bce41-c2b5-4fc3-929c-2d84c84edd66" valueTypeId="b051e5bc-8d74-47f2-9dd7-e6f9d9035da9"/>
+    <recordSetType typeId="590d91e4-df77-47fb-836a-dfd0b112f1c9" valueTypeId="294a09c0-2d6e-47be-aec3-21c9d47e9ce1"/>
+    <recordKeyType typeId="6f86f1c8-40bf-4357-b0ad-ef929d5a20c6" valueTypeId="f07eb9ab-0365-444c-843c-7be7741f477f"/>
+    <recordType typeId="0c7ba2c8-3745-4754-9645-95d8c3534b5b" valueTypeId="42ccde35-6e22-4b4c-943f-d1deb7573522"/>
+    <recordManagerType typeId="587e3f8f-c37d-4477-b7b7-f944083f24cd" valueTypeId="8822fa46-62b6-45e7-9f99-5da1ee6b0660"/>
+  </producedTypes>
+  <name>бг_РасстояниеДоПунктовРазгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расстояние до пунктов разгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7736cddf-76a8-4128-91c5-04834799a656">
+    <name>Расстояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расстояние</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5ef22272-e423-4242-abff-c4b2df0540d7">
+    <name>СрокДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок доставки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5c0019a1-dd02-4fb0-b369-c4ca5b23d6a5">
+    <name>ПунктРазгрузкиОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт разгрузки организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ffba4c7-6ef7-4f25-b4aa-9e2bbb2b4114">
+    <name>ПунктРазгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт разгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

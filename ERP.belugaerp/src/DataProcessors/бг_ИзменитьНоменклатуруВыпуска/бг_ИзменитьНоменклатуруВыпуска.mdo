@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="649adf95-6b12-4321-a5f9-334221c91598">
+  <producedTypes>
+    <objectType typeId="109a3b20-5008-4019-8d04-98d98d86daee" valueTypeId="170fc348-7067-457c-a5f4-73b6b4b06ee7"/>
+    <managerType typeId="0b45033a-fdd5-48a5-958c-ecfa6b103e5d" valueTypeId="846a83e9-b702-4b10-9aa8-671ac4e2e83f"/>
+  </producedTypes>
+  <name>бг_ИзменитьНоменклатуруВыпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить номенклатуру выпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ИзменитьНоменклатуруВыпуска.Form.Форма</defaultForm>
+  <forms uuid="8ab620fb-b7a6-4187-aa95-e0ab878dafec">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

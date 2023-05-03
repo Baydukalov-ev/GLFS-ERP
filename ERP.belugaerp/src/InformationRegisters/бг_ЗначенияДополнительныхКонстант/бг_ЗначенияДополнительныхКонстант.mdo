@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3ced160-b3bd-4246-9732-bf0771042f7e">
+  <producedTypes>
+    <selectionType typeId="c1a2505b-583e-45c3-b22b-beaa24985840" valueTypeId="8949041b-da0b-4361-b533-eb34b759a225"/>
+    <listType typeId="97deaf57-5e84-4af9-a270-f730577b0807" valueTypeId="edbca471-1f9c-48cf-95dd-13b84460c4d0"/>
+    <managerType typeId="8186c579-5800-4c6d-9290-d0699d69806e" valueTypeId="d1132daf-d44e-4892-be95-19b5f1a5995c"/>
+    <recordSetType typeId="1a0a5281-c76d-45b4-a9d5-f96780ac5679" valueTypeId="8034c076-0eba-4d0f-afa2-f3c363eeee9f"/>
+    <recordKeyType typeId="0da61a76-7b5c-4a0f-adba-ea3deb2013fb" valueTypeId="27367d63-fa77-4756-bdfc-bc5ccbe029c0"/>
+    <recordType typeId="d8cbd82c-e95f-4898-8ec2-d63b44a58c2b" valueTypeId="a94bc9ca-2fb7-4cde-8b8f-48a560c99a6e"/>
+    <recordManagerType typeId="855f247c-e3d8-4ff2-bf7a-3198bd7995ed" valueTypeId="d0173bb0-7c8c-42b5-aaba-01e1970fa6d4"/>
+  </producedTypes>
+  <name>бг_ЗначенияДополнительныхКонстант</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения дополнительных констант</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.бг_ЗначенияДополнительныхКонстант.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="47f54fa9-acba-4771-94f0-3223a687a4e6">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ВидыПеревозки</types>
+      <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+      <types>CatalogRef.СкидкиНаценки</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.бг_ТипыСкидокНаценокCRM</types>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      <types>CatalogRef.ВидыАлкогольнойПродукции</types>
+      <types>CatalogRef.Склады</types>
+      <types>Boolean</types>
+      <types>CatalogRef.бг_ВидыВзаиморасчетов</types>
+      <types>CatalogRef.Организации</types>
+      <types>EnumRef.бг_ВариантыВыгрузкиАкцизныхМарок</types>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+      <types>CatalogRef.бг_КлассификаторВидовМарок</types>
+      <types>CatalogRef.бг_ВидыСопроводительныхДокументов</types>
+      <types>CatalogRef.ШаблоныСообщений</types>
+      <types>CatalogRef.битКаналыПродаж</types>
+      <types>String</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>CatalogRef.ПричиныОтменыЗаказовКлиентов</types>
+      <types>CatalogRef.ВидыКонтактнойИнформации</types>
+      <types>ChartOfCharacteristicTypesRef.СтатьиАктивовПассивов</types>
+      <types>CatalogRef.РолиИсполнителей</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.СегментыПартнеров</types>
+      <types>CatalogRef.ПричиныОтменыПроизводства</types>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.битТипыПриемкиWMS</types>
+      <types>CatalogRef.Контрагенты</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="79edc190-6d37-43db-b939-cd74e5488b63">
+    <name>Константа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ДополнительныеКонстанты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b374593d-3bba-4b13-a250-5e3351e25790">
+    <name>Разрез</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрез</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_НастройкиУзловИнтеграцииSAP</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6deb051c-1358-4e2b-bd67-e8cad3e74dfe">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="92c35d1b-6ca1-45a6-b694-0bdbd89a6657">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки Белуга</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58e7c0ac-9e27-4778-8b19-8a64e9da64e1">
+    <name>ФормаВводаЗначенийПоРазрезу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода значений по разрезу</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6364c70f-3ff3-4929-881a-078758a7fa46">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Setting</picture>
+    </picture>
+  </commands>
+</mdclass:InformationRegister>

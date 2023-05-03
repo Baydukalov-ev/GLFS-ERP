@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1d207ea-0778-4c15-b15d-1f790d508aac">
+  <name>бг_УпаковкиЕдиницыИзмеренияКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки единицы измерения клиент сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

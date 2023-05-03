@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f55ca22b-48bb-4eea-b417-8f35fcc23dfb">
+  <producedTypes>
+    <objectType typeId="f1c9d20e-b7cc-42ef-b4a0-47349d32cb16" valueTypeId="209f5a73-5ed1-4ffa-a7bd-00bed67db8ba"/>
+    <refType typeId="a414dbff-5677-49a1-a1aa-f5261cfee223" valueTypeId="5f258cfe-9d45-48b4-8abd-163efc3803b1"/>
+    <selectionType typeId="a7621069-0946-4464-be7b-394a4492fdcb" valueTypeId="9e1a26f6-b73d-4512-8f07-2537ba1f5684"/>
+    <listType typeId="252da924-048b-447e-8472-09ea2ce437b3" valueTypeId="4f606d3d-a339-4b03-9c6f-997f15b4830a"/>
+    <managerType typeId="b392e522-ec10-48a3-bb5f-f9cba2bb3a07" valueTypeId="0df1f895-54ef-406b-ad77-59e447c042fb"/>
+  </producedTypes>
+  <name>битУведомлениеОНачалеОборотаНаТерриторииРФАПЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <defaultObjectForm>Extended</defaultObjectForm>
+    <defaultListForm>Extended</defaultListForm>
+  </extension>
+  <defaultObjectForm>Document.битУведомлениеОНачалеОборотаНаТерриторииРФАПЕГАИС.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.битУведомлениеОНачалеОборотаНаТерриторииРФАПЕГАИС.Form.ФормаСпискаДокументов</defaultListForm>
+  <attributes uuid="2de18233-30fc-483a-b600-d4838654f7d7">
+    <name>ОрганизацияЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация ЕГАИС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Организация ЕГАИС</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КлассификаторОрганизацийЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, которая является производителем продукции.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Организация, на баланс которой ставится продукция</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.СоответствуетОрганизации</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db223be3-d45e-4526-94d8-b9e8c5d3daca">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КлассификаторОрганизацийЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5face178-55d8-4a39-867e-b30b100a62d5">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e822a41d-dbe6-4e62-ba9a-5cb853a8324a">
+    <name>ТипОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип организации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3577650b-1cba-463d-af24-2a9e3399f29a">
+    <name>АлкогольнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алкогольная продукция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Алкогольная продукция</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Алкогольная продукция, данные по которой требуется предоставить</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Алкогольная продукция, данные по которой требуется получить</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09d9a453-53ea-4f2a-bc92-8c4f0db21032">
+    <name>НаименованиеПолноеНаЯзыкеПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование на языке производителя</value>
+    </synonym>
+    <comment>FullNameManufacturerLanguage</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование алкогольной продукции на языке производителя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="466b6af4-e00f-42e7-97dc-c0b042517e77">
+    <name>ВидАлкогольнойПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид алкогольной продукции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Kind of alcohol-containing products</value>
+    </synonym>
+    <comment>VidAP</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.ВидыАлкогольнойПродукции</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид алкогольной продукции в соответствии с Классификатором видов и кодов вида продукции, содержащимся в НСИ ЕГАИС.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Kind of alcoholic products used in the declaration of alcoholic products</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c0b39e8-989c-45a6-ac2b-27cf64e65a61">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование продукции</value>
+    </synonym>
+    <comment>FullName</comment>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9565931d-544f-433c-af12-8cf8d55fb7f2">
+    <name>ТипПива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип пива</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c686ba9-9c1d-4da5-836e-6fc5e868c8b8">
+    <name>СпособОбработкиПива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ обработки пива</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="583e7bfe-9e89-4298-9bcc-0d68069dafca">
+    <name>КрепостьМин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крепость от, %</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальное значение содержания спирта в алкогольной продукции, в процентах (с точностью до перврго знака после запятой)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="70da7b99-4e46-408d-9bf7-47473d048cf6">
+    <name>КрепостьМакс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крепость до, %</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>1</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Максимальное значение содержания спирта в алкогольной продукции, в процентах (с точностью до перврго знака после запятой)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="851bdf02-118c-4b0b-85b5-dfa4223a0f3e">
+    <name>ИдентификаторЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор ЕГАИС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор ЕГАИС</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор документа в системе ЕГАИС (присвоенный)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Идентификатор документа в системе ЕГАИС (присвоенный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fff4b522-db15-4660-9a9a-35f3f7ae984a">
+    <name>Бренд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бренд</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается одно или более слов из наименования алкогольной продукции на языке производителя буквами русского и (или) латинского алфавита.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0304e10-3de9-463c-a8f5-badcdd064b78">
+    <name>СтранаПроисхождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна происхождения</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Страна происхождения алкогольной продукции. Принимает значения в соответствии с Общероссийским классификатором стран мира.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="454aa424-9d52-47e8-a41e-ef26c500a0e4">
+    <name>РынокПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рынок поставки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61c6ac0c-5536-4701-a697-ba1188289481">
+    <name>НациональныйСтандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Национальный стандарт</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.бг_НормативныеДокументыСертификацииНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Межгосударственный (национальный) стандарт</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c8248f8-5dea-4d3b-92ca-5370ed015372">
+    <name>ДекларацияОСоответствии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декларация о соответствии</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.СертификатыНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Декларация о соответствии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3569c9f-9f88-4def-b0f4-c4c97feea9e3">
+    <name>СертификатСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат соответствия</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.СертификатыНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сертификат соответствия</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad79b2e3-145a-4547-9ef4-a26875f2a999">
+    <name>ОтличительныеХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отличительные характеристики</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Другие отличительные характеристики (в том числе органолептические) алкогольной продукциию. В случае отсутствия отличительных характеристик указывается слово &quot;отсутствуют&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a027d7ca-54cb-4d3f-9869-1eb024263c2f">
+    <name>ТемператураМин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Температура хранения от, градусов</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f678dc48-d81f-44fb-86b6-b58ea437d40a">
+    <name>ТемператураМакс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Температура хранения до</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2cc42b6a-f4bc-41b8-92ae-742014fe2ea1">
+    <name>ВлажностьМин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влажность хранения от, %</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a409f60-f6b0-42e0-8b1e-f5d48c5f3532">
+    <name>ВлажностьМакс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влажность хранения до</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c56f1ed8-d0c3-40d8-bd0a-ffd0c67656ab">
+    <name>ОтличительныеХарактеристикиХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия хранения</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Другие характеристики хранения. Принимает значения в соответствии со справочником ЕГАИС &quot;Другие характеристики хранения&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипУсловия</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.бг_ТипыУсловийОбращенияСАПЕГАИС.EnumValue.УсловиеХранения</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dac128c-25d3-4a6f-b9c5-188413026906">
+    <name>КодОКПД2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ОКПД2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RNCTEAPS2 code</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КлассификаторОКПД2</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник, приказ Росстандарта от 31.01.2014 № 14-ст</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44920e4c-8b7f-448c-beda-3ab42acd817f">
+    <name>КодТНВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ТН ВЭД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FEACN code</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.КлассификаторТНВЭД</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код по товарной номенклатуре внешнеэкономической деятельности Евразийского экономического союза</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Code in Foreign Economic Activity Commodity Nomenclature classification of the Customs Union</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a299771-6cda-4d15-bfcb-bffebcac50b9">
+    <name>ДатаПервойПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата первой поставки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e57ba4c-2ae0-4853-80e5-a038877541b4">
+    <name>НаименованиеТоварногоЗнака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование тов. знака</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование товарного знака</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5470dec3-02d0-4a02-912c-f50848a217ae">
+    <name>НомерГосударственнойРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер гос. регистрации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер государственной регистрации товарного знака</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>      </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ba4f4ab-ef01-4b32-ad39-9ec67bd81e80">
+    <name>ДатаГосударственнойРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата гос. регистрации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата государственной регистрации товарного знака</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0259d53-2f93-4376-9819-37ef7a346367">
+    <name>НаименованиеПравообладателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правообладатель</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование правообладателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd66e158-a8e5-4a94-ae73-31578bb2f707">
+    <name>УсловияПеревозки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия перевозки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Условия перевозки алкогольной продукции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипУсловия</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.бг_ТипыУсловийОбращенияСАПЕГАИС.EnumValue.УсловиеПеревозки</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3db91af8-fdc5-4c8b-8cfc-5e6b297259a5">
+    <name>УсловияРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия реализации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Условия реализации алкогольной продукции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипУсловия</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.бг_ТипыУсловийОбращенияСАПЕГАИС.EnumValue.УсловиеРеализации</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1db3fdc0-1258-4f9d-b56b-bcac6aed17f0">
+    <name>УсловияУтилизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия утилизации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Условия утилизации алкогольной продукции</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипУсловия</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.бг_ТипыУсловийОбращенияСАПЕГАИС.EnumValue.УсловиеУтилизации</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8a206dce-c43f-40ff-8e2d-c021fb0cc670">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ответственный</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f3823efb-6210-4a91-814c-87f6a8e0d08c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c60e57a8-16be-453a-965f-de41f3e36a19">
+    <name>ФормаСпискаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка документов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d3a2bc45-e25a-46f7-9304-34cefbbaf8bd">
+    <producedTypes>
+      <objectType typeId="bdb9f347-f1e9-4328-8e05-24ae066cb0c1" valueTypeId="b9235922-ed52-4688-bbbf-df28fad0bdc0"/>
+      <rowType typeId="050cd739-7949-492c-bff7-ba7fb3d5d407" valueTypeId="dd803c7b-6ee6-4f1b-8177-4e3a9dee7b83"/>
+    </producedTypes>
+    <name>Емкости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Емкости</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8d4bdf9d-00a8-461b-a205-4b8779fee5cf">
+      <name>Объем</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объем л.</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Принимает значения в соответствии со справочником &quot;Емкости АП&quot;, содержащимся в НСИ ЕГАИС. Указывается объем алкогольной продукции в потребительской (транспортной) таре в литрах (с точностью до третьего знака после запятой).</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5430c798-77aa-4d60-9269-1f0a7139037a">
+      <name>ВидТары</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид тары  (упаковки)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид тары в соответствии со справочником &quot;Справочник описания и вида тары&quot;, содержащимся в НСИ ЕГАИС.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c827462a-3444-4f8f-adf1-f7ce83a63176">
+      <name>ОписаниеТары</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание тары (упаковки)</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Описание тары из Справочника описания и вида тары.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ef274638-618d-4428-b931-f9acbd3d9118">
+      <name>Этикетка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этикетка PDF</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битУведомлениеОНачалеОборотаНаТерриторииРФАПЕГАИСПрисоединенныеФайлы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Обязательно требуется прикрепление файла (в формате pdf), состоящего из фотографий алкогольной продукции в потребительской (транспортной) таре во всю величину.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82f92ea3-75c5-47cb-acd6-20db7fd37fa9">
+      <name>НазначениеТары</name>
+      <synonym>
+        <key>ru</key>
+        <value>Назначение тары (упаковки)</value>
+      </synonym>
+      <comment>CapacityDescrVal</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Принимает значения, в соответствии с пунктом 30 Приложения № 1 к Правилам ведения ЕГАИС.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81e30a00-d29b-444d-aafb-c1786e918d02">
+      <name>СрокГодности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок годности в днях</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Указывается установленный производителем алкогольной продукции срок годности на данный вид алкогольной продукции при соблюдении условий хранения, в днях. Если производителем срок годности не установлен, указываются 0.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2a3101ff-ed79-4f57-b368-25f86f8eee92">
+    <producedTypes>
+      <objectType typeId="33fae5d5-589c-4804-9627-daa6cfd8477e" valueTypeId="d3d77a19-e7ab-4894-9002-969718563eab"/>
+      <rowType typeId="bbd5b3af-1f36-46dd-8dd0-7a4e9a93fbf5" valueTypeId="48e13e2d-28d2-4c01-9801-bdade6063158"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d81887cd-a332-42ff-bb0a-77eb9a116ee8">
+      <name>Сырье</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сырье</value>
+      </synonym>
+      <comment>CompulsoryRawMaterials</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битСырьеЕГАИС</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Принимает значения в соответствии со справочником сырья, содержащимся в НСИ ЕГАИС. ФЛК: при описании состава АП: - для алкогольной продукции, производимой из одного (нескольких) видов сырья, указывается вид сырья; - в случае указания винограда - указывает</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bbf2be9a-95e4-4a48-a1cd-50e8f4b96bf7">
+      <name>Компонент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Компонент</value>
+      </synonym>
+      <comment>CompulsoryRawMaterialsDescr</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Для винных напитков, пива и пивных напитков указываются также доли (проценты) используемых при производстве алкогольной продукции компонентов. На официальном сайте Федеральной службы по регулированию алкогольного рынка доли (проценты) не размещаются. В сл</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e0e0f2ee-b90b-47ac-9ba1-ba84311432fe">
+      <name>ДругаяАлкогольнаяПродукция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Другая алкогольная продукция</value>
+      </synonym>
+      <comment>OtherAP</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.ВидыАлкогольнойПродукции</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Из Классификатора видов и кодов вида продукции, содержащимся в НСИ ЕГАИС</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7621349b-1e7b-4ac3-95b6-be1addadaf51">
+      <name>ИноеСырье</name>
+      <synonym>
+        <key>ru</key>
+        <value>Иное сырье</value>
+      </synonym>
+      <comment>OtherRawMaterials</comment>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Указываются иное сырье (компоненты) используемое при производстве алкогольной продукции, отсутствующее в справочнике сырья, содержащимся в НСИ ЕГАИС.В случае использования более одного вида сырья, каждый компонент заполняется в отдельном пополе (строке).</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f995fca5-bca3-4f8a-afb4-79275f1b292c">
+    <producedTypes>
+      <objectType typeId="eaf43bc6-da43-46c9-8449-e5d26b95cbcf" valueTypeId="bead187f-62a0-4a6c-ae8e-3ac2bc5e5483"/>
+      <rowType typeId="05065402-1a57-495a-bb68-9747960315c0" valueTypeId="c300215d-44b9-4a8b-a45a-46dc146a3326"/>
+    </producedTypes>
+    <name>ТехническиеРегламенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технические регламенты</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <toolTip>
+      <key>ru</key>
+      <value>Технические регламенты</value>
+    </toolTip>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ec271e74-c9c6-4fd0-a54b-851ffdd6928d">
+      <name>Регламент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Регламент</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битТехническиеРегламенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="87f51bb4-89c5-4f16-b1bd-96eeb02fe75a">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер решения</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер Решения Совета Евразийской экономической комиссии</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e8994a9-7e33-4ee1-937f-1ddbe1b34e5d">
+      <name>НаименованиеПолное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное наименование технической документации</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полное наименование технической документации</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cd1bd261-58f1-4546-8e46-6c14f90b3179">
+    <producedTypes>
+      <objectType typeId="e4940471-cb97-4a57-b76a-67cb3eae65e5" valueTypeId="e996cd3c-cbfb-4307-b4a4-8fa1864a19b3"/>
+      <rowType typeId="03d24820-e9eb-4c67-aa84-3cb574586d90" valueTypeId="a250b22c-1a02-4ca9-8ad4-604b6350a08a"/>
+    </producedTypes>
+    <name>ТехнологическиеИнструкции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологические инструкции</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <toolTip>
+      <key>ru</key>
+      <value> Обязательно требуется прикрепление файла (в формате pdf), содержащего технологическую инструкцию, описывающую технологические процессы, применяемые для изготовления алкогольной продукции на территории РФ.
+</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="21d542d0-b26a-4e79-af2f-7c9301644122">
+      <name>НаименованиеПолное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное наименование</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полное наименование технической документации.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e15f6359-7352-4be1-a236-073b81fd37bc">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер технической инструкции.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c86a9df-adbf-498f-800d-b842d81ed278">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата технической инструкции.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82ef8236-af6a-49d9-91c7-15cc76b02f3b">
+      <name>Файл</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл PDF</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битУведомлениеОНачалеОборотаНаТерриторииРФАПЕГАИСПрисоединенныеФайлы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Файла (в формате pdf), содержащий технологическую инструкцию.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="306ac1ac-c716-4def-bb61-0a55970b968c">
+  <producedTypes>
+    <selectionType typeId="b0ddac8f-e5c0-491f-8611-007aff48e064" valueTypeId="fcaf263c-92db-4118-9bf1-6cbcecbd13e7"/>
+    <listType typeId="b055aecc-1769-4974-bbab-7b0702443f52" valueTypeId="e9e396e0-4d3c-4b4c-ada0-5880564cd6ad"/>
+    <managerType typeId="6d898d0f-899a-4918-a856-e1928f41a12f" valueTypeId="3493535a-ec1c-4e85-80ba-2631b41be17b"/>
+    <recordSetType typeId="1fce499d-e078-4c10-84c1-dd95d1e39d95" valueTypeId="998572e1-e553-4fe0-bafd-dc6c4d05e088"/>
+    <recordKeyType typeId="f2e2d4b9-a40b-446e-b809-fc319d776894" valueTypeId="f65b568b-8530-4143-9c94-ed786ca63966"/>
+    <recordType typeId="9ffba738-4a80-440e-aea9-a9651dbae1f8" valueTypeId="8117158c-559a-4894-b91d-8299f9387966"/>
+    <recordManagerType typeId="578cca96-a799-42f0-ac6c-9969c2d89a5c" valueTypeId="44a90500-0d5e-4128-8e98-90b35538464e"/>
+  </producedTypes>
+  <name>бг_НастройкиПоОперациямЕГАИС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки по операциям ЕГАИС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_НастройкиПоОперациямЕГАИС.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="adbcaa01-9f1c-4cf7-84d7-9fba10b48724">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлен нулевой приоритет, то происходит попытка мгновенной отправки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>99</value>
+    </fillValue>
+  </resources>
+  <resources uuid="dba7c824-1921-49bd-bf38-b300a10bd07e">
+    <name>МаксимальноеКоличествоВПорцииОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество в порции обмена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="848d7ee8-aae1-456a-8f4b-aadf6bf6da24">
+    <name>ИнтервалРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал регистрации (минуты)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d54bda74-482b-45c5-ba2a-f0b231d3fe31">
+    <name>ИнтервалОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал отправки (минуты)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="924b0a01-1e01-470d-ace9-c489f28353fa">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДокументовЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3d22fdee-3289-435b-bd08-520e17736571">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

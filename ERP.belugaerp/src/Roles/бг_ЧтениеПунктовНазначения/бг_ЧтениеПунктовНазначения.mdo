@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51bbfd1e-3d94-4664-8c09-c601e5989132">
+  <name>бг_ЧтениеПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение пунктов назначения</value>
+  </synonym>
+</mdclass:Role>

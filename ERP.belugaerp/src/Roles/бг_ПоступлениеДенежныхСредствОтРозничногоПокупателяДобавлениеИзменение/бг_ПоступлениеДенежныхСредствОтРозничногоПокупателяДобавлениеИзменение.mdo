@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6ec16eb-bc1a-4f55-be64-d30b0982dd2a">
+  <name>бг_ПоступлениеДенежныхСредствОтРозничногоПокупателяДобавлениеИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение поступление денежных средств от розничного покупателя</value>
+  </synonym>
+</mdclass:Role>

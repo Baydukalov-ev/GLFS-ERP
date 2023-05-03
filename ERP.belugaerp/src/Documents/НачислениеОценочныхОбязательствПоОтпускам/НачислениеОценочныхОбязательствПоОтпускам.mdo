@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c9a6086d-065d-4dd3-95aa-6bcf50fa01bf">
+  <producedTypes>
+    <objectType typeId="402f282f-e3e7-4c3e-a92f-1f25361725dc" valueTypeId="3afeeb50-7464-463f-8025-543c0cdd272e"/>
+    <refType typeId="03aa4100-8249-425d-8f4c-76a691488783" valueTypeId="448e0aa8-777f-4072-8e52-53ca947b5203"/>
+    <selectionType typeId="31d47836-e967-4680-9296-7e1ace52f87d" valueTypeId="4c300b84-413c-4514-bebe-e1381c6f39a2"/>
+    <listType typeId="36b3790d-9536-4559-835e-a87679c788f4" valueTypeId="e998588d-7f1d-4f55-9d78-a9c00160bf0d"/>
+    <managerType typeId="192f19a6-20a5-437a-8d70-b51cac0cdb90" valueTypeId="605cd332-3d4f-495e-bdc2-90cc44245c0f"/>
+  </producedTypes>
+  <name>НачислениеОценочныхОбязательствПоОтпускам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="382a6bd5-f21a-4dcb-84af-e195d4d4ebac">
+    <name>ПериодРегистрации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="aa05923c-41dc-4628-bd37-caebf65947e2">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1e9d7a94-e60e-4224-9964-0beb5b4ffbb8">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="55895fbb-bf46-4dc2-9d2d-389e35ac4a18">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="0c4e86e1-2ed6-4579-9cf8-74461821e371">
+    <producedTypes>
+      <objectType typeId="f13aea7c-37fa-4228-964a-8de5f6364e06" valueTypeId="f39fa2c5-9ab0-418c-9644-f7f2a2006c84"/>
+      <rowType typeId="0cb9de98-2086-4da2-8903-cef2e348165d" valueTypeId="a0d2147a-e4f8-42c9-9c49-c775070e4aa4"/>
+    </producedTypes>
+    <name>ОценочныеОбязательства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="a67f6a64-e4ce-4a27-ae71-db070bde55e4">
+      <name>ИдентификаторСтроки</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>36</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="4d82a725-62f8-4d80-b2b4-e2efd7488926">
+      <name>МестоВСтруктуреПредприятия</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.МестоВСтруктуреПредприятия</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="ee39816f-761f-4aec-946c-c8c751b337e5">
+      <name>СпособОтраженияЗарплатыВБухучете</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СпособыОтраженияЗарплатыВБухУчете</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="56f1c526-29fa-4c4c-9302-4675a76983b2">
+      <name>СуммаРезерва</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="37b8990d-feb8-4cee-b236-ce81e78cb4bc">
+      <name>СуммаРезерваНУ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="408e21ea-97e9-4b80-a256-c6e652a0c2e0">
+      <name>СуммаРезерваСтраховыхВзносов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="f03a66f5-2b2f-4d62-904d-37bf0e0c0073">
+      <name>СуммаРезерваСтраховыхВзносовНУ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="9a7c5d24-a96d-4c09-82a8-165fc3e98f42">
+      <name>СуммаРезерваФССНесчастныеСлучаи</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="8f0a5c2b-0b4d-496b-843c-7c0e4878312a">
+      <name>СуммаРезерваФССНесчастныеСлучаиНУ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

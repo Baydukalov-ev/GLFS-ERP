@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb8ff173-0740-41c1-a247-26a4f9617927">
+  <name>бг_МинимальныеЦеныАлкогольнойПродукцииИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальные цены алкогольной продукции интеграция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

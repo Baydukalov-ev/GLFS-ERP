@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e4a06a2-983c-4f8d-adae-024c7c74b98b">
+  <producedTypes>
+    <objectType typeId="30d59f07-60e0-47b2-93f6-59c86c9dfafa" valueTypeId="e5911e11-5846-44b1-b1db-04c613cd3de0"/>
+    <managerType typeId="c8c20652-0268-4ce0-8eb0-079f1413fd7f" valueTypeId="c8aa701e-a124-4b13-8d73-023744f114d3"/>
+  </producedTypes>
+  <name>бг_ПланРаботПоСкладам</name>
+  <synonym>
+    <key>ru</key>
+    <value>План работ по складам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ПланРаботПоСкладам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ab41ba91-b658-4e3a-ad2c-4b2bba4d498b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d79f4cbc-3108-4330-96dc-670fad0c842a">
+  <producedTypes>
+    <objectType typeId="9d654e13-1395-4b5f-a9e3-e724029bc60f" valueTypeId="b1dd1f74-5b65-4786-b073-d543d4c1e4b4"/>
+    <managerType typeId="c5cf8a1a-0b39-448e-8fa5-03e471e75f93" valueTypeId="fa666588-1b9e-4025-a5b0-137b7a573f3d"/>
+  </producedTypes>
+  <name>бг_СостояниеМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние марок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_СостояниеМарок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="155131f1-f96b-4bab-92f1-e11fae5f51ae">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

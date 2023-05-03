@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba5247ee-558d-498f-9aca-3ce2a387013b">
+  <name>бг_ДобавлениеИзменениеЗонДоставкиПунктовВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение зон доставки пунктов выгрузки</value>
+  </synonym>
+</mdclass:Role>

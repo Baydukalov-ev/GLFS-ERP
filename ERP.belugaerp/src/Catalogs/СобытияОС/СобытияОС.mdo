@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="00f643de-58e4-4a73-b08d-4afb21f0be2d">
+  <producedTypes>
+    <objectType typeId="e128ae17-e873-4f2b-9fcb-cfc332486252" valueTypeId="267d593f-8ba3-45cd-a42f-d65f01ce801c"/>
+    <refType typeId="24a22564-4855-4e11-bd9b-eff479ad0b25" valueTypeId="992d6b2c-a7ee-401d-8471-8583649eff16"/>
+    <selectionType typeId="d8fa91b5-8040-48aa-a7a1-78ca54d52eaf" valueTypeId="ef894b66-0d20-4914-bec0-d24ef8bb9e0c"/>
+    <listType typeId="1c9b1602-4407-48bb-88b2-8aeb093e6c0b" valueTypeId="fc08ae72-de04-42b1-9182-f31b53c972d5"/>
+    <managerType typeId="ea545045-8c52-4783-82f3-c9d9b8506deb" valueTypeId="7bf7ee87-a1ee-416b-85a1-d9a55af10fdf"/>
+  </producedTypes>
+  <name>СобытияОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

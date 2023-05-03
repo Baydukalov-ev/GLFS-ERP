@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c26b5ae1-0821-4146-a0f4-39dfa8ca1cd1">
+  <name>бг_DWHИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>DWH интеграция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

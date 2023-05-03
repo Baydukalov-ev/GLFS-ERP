@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаНоменклатуры</dataPath>
+			<field>АналитикаУчетаНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Распоряжение</dataPath>
+			<field>Распоряжение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗапасов</dataPath>
+			<field>ВидЗапасов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодГод</dataPath>
+			<field>ПериодГод</field>
+			<role>
+				<dcscom:periodNumber>8</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ='yyyy "г."'</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодНеделя</dataPath>
+			<field>ПериодНеделя</field>
+			<role>
+				<dcscom:periodNumber>3</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Серия</dataPath>
+			<field>Серия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДень</dataPath>
+			<field>ПериодДень</field>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодМесяц</dataPath>
+			<field>ПериодМесяц</field>
+			<role>
+				<dcscom:periodNumber>5</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодДекада</dataPath>
+			<field>ПериодДекада</field>
+			<role>
+				<dcscom:periodNumber>4</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодПолугодие</dataPath>
+			<field>ПериодПолугодие</field>
+			<role>
+				<dcscom:periodNumber>7</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодКвартал</dataPath>
+			<field>ПериодКвартал</field>
+			<role>
+				<dcscom:periodNumber>6</dcscom:periodNumber>
+				<dcscom:periodType>Additional</dcscom:periodType>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ='кк "квартал" гггг "г."'; ДЛФ=</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выпущено</dataPath>
+			<field>Выпущено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпущено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отгружено</dataPath>
+			<field>Отгружено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгружено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сделка</dataPath>
+			<field>Сделка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусАкциза</dataPath>
+			<field>СтатусАкциза</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеСырья</dataPath>
+			<field>СостояниеСырья</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Продукция</dataPath>
+			<field>Продукция</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияПродукции</dataPath>
+			<field>СерияПродукции</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаАкциза</dataPath>
+			<field>СуммаАкциза</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма акциза</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыпущеноДал</dataPath>
+			<field>ВыпущеноДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпущено дал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыпущеноДалБС</dataPath>
+			<field>ВыпущеноДалБС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпущено дал БС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгруженоДал</dataPath>
+			<field>ОтгруженоДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгружено дал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтгруженоДалБС</dataPath>
+			<field>ОтгруженоДалБС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгружено дал БС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидАлкогольнойПродукции</dataPath>
+			<field>ВидАлкогольнойПродукции</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид алкогольной продукции</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеОплатыАванса</dataPath>
+			<field>СостояниеОплатыАванса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРеализации</dataPath>
+			<field>ДатаРеализации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаПоПартнерам</dataPath>
+			<field>АналитикаУчетаПоПартнерам</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказКлиента</dataPath>
+			<field>ЗаказКлиента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	АкцизПоПриобретеннымЦенностям.Регистратор КАК Регистратор,
+	АкцизПоПриобретеннымЦенностям.Организация КАК Организация,
+	АкцизПоПриобретеннымЦенностям.Продукция КАК Продукция,
+	АкцизПоПриобретеннымЦенностям.СерияПродукции КАК СерияПродукции,
+	АкцизПоПриобретеннымЦенностям.ПериодДень КАК ПериодДень,
+	АкцизПоПриобретеннымЦенностям.ПериодНеделя КАК ПериодНеделя,
+	АкцизПоПриобретеннымЦенностям.ПериодДекада КАК ПериодДекада,
+	АкцизПоПриобретеннымЦенностям.ПериодМесяц КАК ПериодМесяц,
+	АкцизПоПриобретеннымЦенностям.ПериодКвартал КАК ПериодКвартал,
+	АкцизПоПриобретеннымЦенностям.ПериодПолугодие КАК ПериодПолугодие,
+	АкцизПоПриобретеннымЦенностям.ПериодГод КАК ПериодГод,
+	АкцизПоПриобретеннымЦенностям.Номенклатура КАК Сырье,
+	АкцизПоПриобретеннымЦенностям.КоличествоПриход КАК КоличествоСырья,
+	АкцизПоПриобретеннымЦенностям.ПериодМесяц КАК ПериодСтавки
+ПОМЕСТИТЬ АкцизыПредварительно
+ИЗ
+	РегистрНакопления.бг_АкцизПоПриобретеннымЦенностям.Обороты(, , Авто, СостояниеСырья = ЗНАЧЕНИЕ(Перечисление.бг_СостоянияПодакцизногоСырья.ВРеализованнойПродукции) {(Организация = &amp;Организация)}) КАК АкцизПоПриобретеннымЦенностям
+ГДЕ
+	НЕ ТИПЗНАЧЕНИЯ(АкцизПоПриобретеннымЦенностям.Регистратор) В (ТИП(Документ.битРасчетАвансовПоАкцизам), ТИП(Документ.бг_РегистрацияБанковскихГарантий), ТИП(Документ.ВозвратТоваровОтКлиента))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	АкцизПоПриобретеннымЦенностям.Регистратор КАК Регистратор,
+	АкцизПоПриобретеннымЦенностям.Организация КАК Организация,
+	АкцизПоПриобретеннымЦенностям.Продукция КАК Продукция,
+	АкцизПоПриобретеннымЦенностям.СерияПродукции КАК СерияПродукции,
+	АкцизПоПриобретеннымЦенностям.ПериодДень КАК ПериодДень,
+	АкцизПоПриобретеннымЦенностям.ПериодНеделя КАК ПериодНеделя,
+	АкцизПоПриобретеннымЦенностям.ПериодДекада КАК ПериодДекада,
+	АкцизПоПриобретеннымЦенностям.ПериодМесяц КАК ПериодМесяц,
+	АкцизПоПриобретеннымЦенностям.ПериодКвартал КАК ПериодКвартал,
+	АкцизПоПриобретеннымЦенностям.ПериодПолугодие КАК ПериодПолугодие,
+	АкцизПоПриобретеннымЦенностям.ПериодГод КАК ПериодГод,
+	АкцизПоПриобретеннымЦенностям.Номенклатура КАК Сырье,
+	-АкцизПоПриобретеннымЦенностям.КоличествоПриход КАК КоличествоСырья,
+	ВЫБОР
+		КОГДА АкцизПоПриобретеннымЦенностям.СерияПродукции.бг_ДатаРеализации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)	
+			ТОГДА НАЧАЛОПЕРИОДА(АкцизПоПриобретеннымЦенностям.СерияПродукции.бг_ДатаРеализации, МЕСЯЦ)
+		ИНАЧЕ ЕСТЬNULL(НАЧАЛОПЕРИОДА(ВЫРАЗИТЬ(ВЫРАЗИТЬ(АкцизПоПриобретеннымЦенностям.Регистратор КАК Документ.ВозвратТоваровОтКлиента).ДокументРеализации КАК Документ.РеализацияТоваровУслуг).Дата, МЕСЯЦ), АкцизПоПриобретеннымЦенностям.ПериодМесяц)
+	КОНЕЦ КАК ПериодСтавки
+ИЗ
+	РегистрНакопления.бг_АкцизПоПриобретеннымЦенностям.Обороты(, , Авто, СостояниеСырья = ЗНАЧЕНИЕ(Перечисление.бг_СостоянияПодакцизногоСырья.ВГотовойПродукции) {(Организация = &amp;Организация)}) КАК АкцизПоПриобретеннымЦенностям
+ГДЕ
+	АкцизПоПриобретеннымЦенностям.Регистратор ССЫЛКА Документ.ВозвратТоваровОтКлиента
+
+ИНДЕКСИРОВАТЬ ПО
+	Сырье,
+	ПериодМесяц
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Акцизы.ПериодСтавки,
+	Акцизы.Сырье КАК Номенклатура,
+	Акцизы.Сырье.ВидНоменклатуры.бг_ВидОперацииНалогообложенияАкцизом КАК ВидОперацииНалогообложения
+ПОМЕСТИТЬ Сырье
+ИЗ
+	АкцизыПредварительно КАК Акцизы
+
+ИНДЕКСИРОВАТЬ ПО
+	ВидОперацииНалогообложения,
+	ПериодСтавки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Сырье.Номенклатура КАК Номенклатура,
+	Сырье.ПериодСтавки КАК ПериодСтавки,
+	Сырье.ВидОперацииНалогообложения КАК ВидОперацииНалогообложения,
+	МАКСИМУМ(КодыВидовОперацийНалогообложения.Период) КАК Период
+ПОМЕСТИТЬ ПериодыСтавкиНалогообложения
+ИЗ
+	Сырье КАК Сырье
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.бг_КодыВидовОперацийНалогообложенияАкцизом КАК КодыВидовОперацийНалогообложения
+		ПО Сырье.ВидОперацииНалогообложения = КодыВидовОперацийНалогообложения.ВидОперацииНалогообложенияАкцизом
+			И Сырье.ПериодСтавки &gt;= КодыВидовОперацийНалогообложения.Период
+
+СГРУППИРОВАТЬ ПО
+	Сырье.Номенклатура,
+	Сырье.ПериодСтавки,
+	Сырье.ВидОперацииНалогообложения
+
+ИНДЕКСИРОВАТЬ ПО
+	ВидОперацииНалогообложения,
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПериодыСтавкиНалогообложения.Номенклатура КАК Номенклатура,
+	ПериодыСтавкиНалогообложения.ПериодСтавки КАК ПериодСтавки,
+	ЕСТЬNULL(КодыВидовОперацийНалогообложения.ВидПодакцизныхТоваров.НалоговаяСтавка, 0) КАК НалоговаяСтавка
+ПОМЕСТИТЬ НалоговыеСтавки
+ИЗ
+	ПериодыСтавкиНалогообложения КАК ПериодыСтавкиНалогообложения
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.бг_КодыВидовОперацийНалогообложенияАкцизом КАК КодыВидовОперацийНалогообложения
+		ПО ПериодыСтавкиНалогообложения.ВидОперацииНалогообложения = КодыВидовОперацийНалогообложения.ВидОперацииНалогообложенияАкцизом
+			И ПериодыСтавкиНалогообложения.Период = КодыВидовОперацийНалогообложения.Период
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	ПериодСтавки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Акцизы.Регистратор КАК Регистратор,
+	Акцизы.Организация КАК Организация,
+	Акцизы.Продукция КАК Продукция,
+	Акцизы.СерияПродукции КАК СерияПродукции,
+	Акцизы.ПериодДень КАК ПериодДень,
+	Акцизы.ПериодНеделя КАК ПериодНеделя,
+	Акцизы.ПериодДекада КАК ПериодДекада,
+	Акцизы.ПериодМесяц КАК ПериодМесяц,
+	Акцизы.ПериодКвартал КАК ПериодКвартал,
+	Акцизы.ПериодПолугодие КАК ПериодПолугодие,
+	Акцизы.ПериодГод КАК ПериодГод,
+	СУММА(Акцизы.КоличествоСырья) КАК КоличествоСырья,
+	МАКСИМУМ(НалоговыеСтавки.НалоговаяСтавка) КАК НалоговаяСтавка
+ПОМЕСТИТЬ Акцизы
+ИЗ
+	АкцизыПредварительно КАК Акцизы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ НалоговыеСтавки КАК НалоговыеСтавки
+		ПО Акцизы.Сырье = НалоговыеСтавки.Номенклатура
+			И Акцизы.ПериодСтавки = НалоговыеСтавки.ПериодСтавки
+
+СГРУППИРОВАТЬ ПО
+	Акцизы.Регистратор,
+	Акцизы.Организация,
+	Акцизы.Продукция,
+	Акцизы.СерияПродукции,
+	Акцизы.ПериодДень,
+	Акцизы.ПериодНеделя,
+	Акцизы.ПериодДекада,
+	Акцизы.ПериодМесяц,
+	Акцизы.ПериодКвартал,
+	Акцизы.ПериодПолугодие,
+	Акцизы.ПериодГод
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВыпускПродукцииОбороты.Регистратор КАК Регистратор,
+	ВыпускПродукцииОбороты.Организация КАК Организация,
+	ВыпускПродукцииОбороты.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+	ВыпускПродукцииОбороты.АналитикаУчетаНоменклатуры.Серия КАК Серия,
+	ВыпускПродукцииОбороты.ПериодДень КАК ПериодДень,
+	ВыпускПродукцииОбороты.ПериодНеделя КАК ПериодНеделя,
+	ВыпускПродукцииОбороты.ПериодДекада КАК ПериодДекада,
+	ВыпускПродукцииОбороты.ПериодМесяц КАК ПериодМесяц,
+	ВыпускПродукцииОбороты.ПериодКвартал КАК ПериодКвартал,
+	ВыпускПродукцииОбороты.ПериодПолугодие КАК ПериодПолугодие,
+	ВыпускПродукцииОбороты.ПериодГод КАК ПериодГод,
+	ВыпускПродукцииОбороты.КоличествоОборот КАК Выпущено,
+	0 КАК Отгружено,
+	0 КАК СуммаАкциза
+ПОМЕСТИТЬ Данные
+ИЗ
+	РегистрНакопления.ВыпускПродукции.Обороты(, , Авто, {(Организация = &amp;Организация)}) КАК ВыпускПродукцииОбороты
+ГДЕ
+	ВЫБОР
+			КОГДА ТИПЗНАЧЕНИЯ(ВыпускПродукцииОбороты.Регистратор) = ТИП(Документ.ЭтапПроизводства2_2)
+				ТОГДА ВЫРАЗИТЬ(ВыпускПродукцииОбороты.Регистратор КАК Документ.ЭтапПроизводства2_2).Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыЭтаповПроизводства2_2.Завершен)
+			ИНАЧЕ ИСТИНА
+		КОНЕЦ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВыручкаИСебестоимостьПродажОбороты.Регистратор,
+	ВыручкаИСебестоимостьПродажОбороты.АналитикаУчетаПоПартнерам.Организация,
+	ВыручкаИСебестоимостьПродажОбороты.АналитикаУчетаНоменклатуры.Номенклатура,
+	ВыручкаИСебестоимостьПродажОбороты.АналитикаУчетаНоменклатуры.Серия,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодДень,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодНеделя,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодДекада,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодМесяц,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодКвартал,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодПолугодие,
+	ВыручкаИСебестоимостьПродажОбороты.ПериодГод,
+	0,
+	ВыручкаИСебестоимостьПродажОбороты.КоличествоОборот,
+	0
+ИЗ
+	РегистрНакопления.ВыручкаИСебестоимостьПродаж.Обороты(, , Авто, {(АналитикаУчетаПоПартнерам.Организация = &amp;Организация)}) КАК ВыручкаИСебестоимостьПродажОбороты
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Акцизы.Регистратор,
+	Акцизы.Организация,
+	Акцизы.Продукция,
+	Акцизы.СерияПродукции,
+	Акцизы.ПериодДень,
+	Акцизы.ПериодНеделя,
+	Акцизы.ПериодДекада,
+	Акцизы.ПериодМесяц,
+	Акцизы.ПериодКвартал,
+	Акцизы.ПериодПолугодие,
+	Акцизы.ПериодГод,
+	0,
+	0,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Акцизы.Продукция.Крепость, 0) = 0
+				ИЛИ ЕСТЬNULL(Акцизы.Продукция.ОбъемДАЛ, 0) = 0 = 0
+			ТОГДА Акцизы.КоличествоСырья * Акцизы.НалоговаяСтавка
+		ИНАЧЕ (ВЫРАЗИТЬ(Акцизы.КоличествоСырья * 100 / Акцизы.Продукция.Крепость / Акцизы.Продукция.ОбъемДАЛ КАК ЧИСЛО(15, 0))) * Акцизы.Продукция.ОбъемДАЛ * Акцизы.Продукция.Крепость / 100 * Акцизы.НалоговаяСтавка
+	КОНЕЦ
+ИЗ
+	Акцизы КАК Акцизы
+ГДЕ
+	НЕ ЕСТЬNULL(Акцизы.СерияПродукции.бг_Экспорт, ЛОЖЬ)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Данные.Номенклатура КАК Номенклатура,
+	ВЫБОР
+		КОГДА МАКСИМУМ(ЕСТЬNULL(СоответствиеНоменклатурыЕГАИС.АлкогольнаяПродукция, НЕОПРЕДЕЛЕНО)) = НЕОПРЕДЕЛЕНО
+			ТОГДА Данные.Номенклатура.ВидАлкогольнойПродукции
+		ИНАЧЕ МАКСИМУМ(ЕСТЬNULL(СоответствиеНоменклатурыЕГАИС.АлкогольнаяПродукция, НЕОПРЕДЕЛЕНО))
+	КОНЕЦ КАК АлкогольнаяПродукция,
+	ВЫБОР
+		КОГДА МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Объем, 0)) = 0
+			ТОГДА Данные.Номенклатура.ОбъемДАЛ
+		ИНАЧЕ МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Объем, 0))
+	КОНЕЦ КАК Объем,
+	ВЫБОР
+		КОГДА МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Крепость, 0)) = 0
+			ТОГДА Данные.Номенклатура.Крепость
+		ИНАЧЕ МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Крепость, 0))
+	КОНЕЦ КАК Крепость
+ПОМЕСТИТЬ ДанныеАП
+ИЗ
+	Данные КАК Данные
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеНоменклатурыЕГАИС КАК СоответствиеНоменклатурыЕГАИС
+		ПО Данные.Номенклатура = СоответствиеНоменклатурыЕГАИС.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КлассификаторАлкогольнойПродукцииЕГАИС КАК КлассификаторАлкогольнойПродукцииЕГАИС
+		ПО (СоответствиеНоменклатурыЕГАИС.АлкогольнаяПродукция = КлассификаторАлкогольнойПродукцииЕГАИС.Ссылка)
+
+СГРУППИРОВАТЬ ПО
+	Данные.Номенклатура,
+	Данные.Номенклатура.ВидАлкогольнойПродукции,
+	Данные.Номенклатура.ОбъемДАЛ,
+	Данные.Номенклатура.Крепость
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Данные.Регистратор КАК Регистратор,
+	Данные.Организация КАК Организация,
+	Данные.Номенклатура КАК Номенклатура,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(Данные.Серия.бг_Экспорт, ЛОЖЬ)
+			ТОГДА "Экспорт"
+		ИНАЧЕ ПРЕДСТАВЛЕНИЕ(Данные.Номенклатура.ВидАлкогольнойПродукции)
+	КОНЕЦ КАК ВидАлкогольнойПродукции,
+	Данные.Серия КАК Серия,
+	Данные.ПериодДень КАК ПериодДень,
+	Данные.ПериодНеделя КАК ПериодНеделя,
+	Данные.ПериодДекада КАК ПериодДекада,
+	Данные.ПериодМесяц КАК ПериодМесяц,
+	Данные.ПериодКвартал КАК ПериодКвартал,
+	Данные.ПериодПолугодие КАК ПериодПолугодие,
+	Данные.ПериодГод КАК ПериодГод,
+	Данные.Выпущено КАК Выпущено,
+	ВЫБОР
+		КОГДА Данные.Номенклатура.ЕдиницаИзмерения.Код = "116"
+			ТОГДА Данные.Выпущено
+		ИНАЧЕ Данные.Выпущено * ДанныеАП.Объем / 10
+	КОНЕЦ КАК ВыпущеноДал,
+	ВЫБОР
+		КОГДА Данные.Номенклатура.ЕдиницаИзмерения.Код = "116"
+			ТОГДА Данные.Выпущено
+		ИНАЧЕ Данные.Выпущено * ДанныеАП.Объем / 10
+	КОНЕЦ * ДанныеАП.Крепость / 100 КАК ВыпущеноДалБС,
+	Данные.Отгружено КАК Отгружено,
+	ВЫБОР
+		КОГДА Данные.Номенклатура.ЕдиницаИзмерения.Код = "116"
+			ТОГДА Данные.Отгружено
+		ИНАЧЕ Данные.Отгружено * ДанныеАП.Объем / 10
+	КОНЕЦ КАК ОтгруженоДал,
+	ВЫБОР
+		КОГДА Данные.Номенклатура.ЕдиницаИзмерения.Код = "116"
+			ТОГДА Данные.Отгружено
+		ИНАЧЕ Данные.Отгружено * ДанныеАП.Объем / 10
+	КОНЕЦ * ДанныеАП.Крепость / 100 КАК ОтгруженоДалБС,
+	Данные.СуммаАкциза * 10 КАК СуммаАкциза
+ИЗ
+	Данные КАК Данные
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ДанныеАП КАК ДанныеАП
+		ПО Данные.Номенклатура = ДанныеАП.Номенклатура</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Выпущено</dataPath>
+		<expression>Сумма(Выпущено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Отгружено</dataPath>
+		<expression>Сумма(Отгружено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаАкциза</dataPath>
+		<expression>Сумма(СуммаАкциза)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыпущеноДал</dataPath>
+		<expression>Сумма(ВыпущеноДал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыпущеноДалБС</dataPath>
+		<expression>Сумма(ВыпущеноДалБС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОтгруженоДал</dataPath>
+		<expression>Сумма(ОтгруженоДал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОтгруженоДалБС</dataPath>
+		<expression>Сумма(ОтгруженоДалБС)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выпуск, отгрузка алкогольной продукции</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыпущеноДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтгруженоДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаАкциза</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">ВидАлкогольнойПродукции</dcsset:left>
+					<dcsset:comparisonType>Filled</dcsset:comparisonType>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>6020aa21-03b5-4df5-8aaf-8a24296f608f</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Организация</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>b4014d4e-9480-4e7d-b264-bb5a23f80ad7</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПериодГод</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ВидАлкогольнойПродукции</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

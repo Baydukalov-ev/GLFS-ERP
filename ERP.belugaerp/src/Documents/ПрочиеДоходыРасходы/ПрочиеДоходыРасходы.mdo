@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="144ff2f6-9b94-491b-80be-6047c596160c">
+  <producedTypes>
+    <objectType typeId="9d2bdd67-6a85-439c-9941-fde6f0129916" valueTypeId="036893e0-1f1b-4a36-9e1a-7c7bb411aed8"/>
+    <refType typeId="b5f23888-0766-4704-91c7-9cbcf37d9c16" valueTypeId="75198fe1-15db-48b1-a2a4-13b7c6dd799c"/>
+    <selectionType typeId="73a068d6-aa5e-4abe-80a4-984935b00a68" valueTypeId="ae7aea16-7341-4b6e-9401-43cc0ff83075"/>
+    <listType typeId="ccdfcdac-e82e-4274-a96f-e5d2fdea656b" valueTypeId="055b6a1c-837c-4081-abc9-6f6f7f9b6d6f"/>
+    <managerType typeId="c8453131-0190-416b-a426-d3c21209d94f" valueTypeId="c757810f-909b-4299-bd47-79fcbe6a5496"/>
+  </producedTypes>
+  <name>ПрочиеДоходыРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="aa1cf55c-3167-4af0-b6ad-020accbeab9f">
+    <name>бг_Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>DocumentRef.битФакторинг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4ffd5d61-d205-41cf-bfc7-c43742116e25">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae2ffd3d-6bab-4bb4-9e64-4dedb081df07">
+  <producedTypes>
+    <refType typeId="8913b2f9-d2ff-407f-bdf1-4a01177617be" valueTypeId="4f4e9cef-ff7f-4145-952b-f3b201aa155b"/>
+    <listType typeId="c2d8b92c-bc30-434c-890c-655a7cab3f77" valueTypeId="3356be68-289f-4874-9ed7-5cf5d55a8251"/>
+    <managerType typeId="28b21529-6057-4cf7-802c-1c221c5ea3e7" valueTypeId="3b297bae-ec84-4603-8d55-f3670af2f3c1"/>
+  </producedTypes>
+  <name>ТипыБазыРаспределенияРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

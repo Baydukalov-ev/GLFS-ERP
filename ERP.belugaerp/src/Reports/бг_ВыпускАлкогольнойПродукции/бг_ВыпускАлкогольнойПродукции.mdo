@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cffd19b-d2e5-4d83-aafb-026ac472d4fc">
+  <producedTypes>
+    <objectType typeId="3d031b9e-1652-4170-bb8d-e3219607fa81" valueTypeId="ebb9db45-3972-4e23-9657-679a50d131f2"/>
+    <managerType typeId="0857cf3f-ca5e-4be5-973e-4f97939877a8" valueTypeId="a916f3f0-0b7f-41c0-a49e-5b1f443ac948"/>
+  </producedTypes>
+  <name>бг_ВыпускАлкогольнойПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск алкогольной продукции</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Product release</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ВыпускАлкогольнойПродукции.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="1f808a81-38ff-49fc-82ba-d25a01227251">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

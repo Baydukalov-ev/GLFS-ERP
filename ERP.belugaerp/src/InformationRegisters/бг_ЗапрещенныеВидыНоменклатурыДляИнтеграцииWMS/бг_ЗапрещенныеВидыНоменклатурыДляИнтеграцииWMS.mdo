@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70fbfd12-0429-464a-8cb4-15fa0826c950">
+  <producedTypes>
+    <selectionType typeId="75a6a095-fe50-42ea-88c0-bec05b7a3bce" valueTypeId="995ab7a3-47f1-4be5-9ea2-066b9baf89d9"/>
+    <listType typeId="56c97332-4183-42e2-bdc2-85eeafbea5e8" valueTypeId="ccea6e03-7f38-41a6-b5d5-1522d0a38731"/>
+    <managerType typeId="bc29dba0-a1b7-4adc-9e6f-43b9a2e0f63d" valueTypeId="9ce7f394-f805-4d48-8f13-da3d2e189f46"/>
+    <recordSetType typeId="cf8bed75-3699-43b4-ab22-fc665340277f" valueTypeId="84ea64d8-bd6b-480c-b781-980c3e4bc009"/>
+    <recordKeyType typeId="36436702-c7f5-4119-a874-32546778d370" valueTypeId="d3006aad-dba6-490e-bf7f-a4fcce55bdcc"/>
+    <recordType typeId="946b079d-7c7a-4a9e-ba6a-13a88d82d995" valueTypeId="86a1083f-c4ae-4d8b-abeb-acfa5a6e3f3f"/>
+    <recordManagerType typeId="d640ae26-7a6c-4e5a-9d6e-341645d35dd6" valueTypeId="b93c928b-369d-441a-b8bf-fbb6064d3beb"/>
+  </producedTypes>
+  <name>бг_ЗапрещенныеВидыНоменклатурыДляИнтеграцииWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрещенные виды номенклатуры для интеграции WMS</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_ЗапрещенныеВидыНоменклатурыДляИнтеграцииWMS.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="df892f4f-85da-4b5c-b696-3925f70a979b">
+    <name>ИмяМетаданныхДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя метаданных документа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2adeb058-9dc6-47b9-96b3-092675c2d45d">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="28f697c2-587b-4d2a-88c6-0e0591bafc34">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="246f28f4-03da-4a75-91ed-f74ccf9b6b83">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8c2e928-5e62-4a07-bb57-34cbff45e8dc">
+  <producedTypes>
+    <objectType typeId="ffc5b064-d655-4fe3-bb61-762ce7bed7c3" valueTypeId="8fe5dfab-20cf-4bc4-b35a-d17a8870e296"/>
+    <managerType typeId="167bad49-c87d-457d-a9c6-9244c7db7b09" valueTypeId="65c2dc88-adf8-4e46-b2a1-8695b8ef27bb"/>
+  </producedTypes>
+  <name>бг_ОбработкаЗаказовEDI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заказов EDI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ОбработкаЗаказовEDI.Form.Форма</defaultForm>
+  <tabularSections uuid="826322e8-c886-4b46-b120-f763a0935189">
+    <producedTypes>
+      <objectType typeId="68daeb70-07f7-4530-977f-9dc9b101f7e7" valueTypeId="053282c6-f8b2-483b-b11c-3b086ae67e4b"/>
+      <rowType typeId="c8a45637-a1a9-4942-8171-ffcdae5738d2" valueTypeId="5ade6c0e-a807-4925-9a97-80b2c21f0556"/>
+    </producedTypes>
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="def77855-9a28-419d-8e63-aa18c50fb58c">
+      <name>ЗаказКлиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ клиента</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fc29a150-99a5-46b8-a45a-995eb40c1c99">
+      <name>ИнформацияОбОшибке</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информация об ошибке</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f7ea84cf-863b-4d87-8e7d-d95a6f3586a9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3ac9b50-0b8d-4dbd-9837-249b36cab1a8">
+  <name>бг_РасчетСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет скидок</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

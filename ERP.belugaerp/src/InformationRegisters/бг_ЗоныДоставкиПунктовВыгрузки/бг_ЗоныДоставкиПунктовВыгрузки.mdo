@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80034319-d76f-445b-8790-23e5ce88fc94">
+  <producedTypes>
+    <selectionType typeId="1bca631e-7cff-466d-86b4-24fbb6d8e87c" valueTypeId="e27e828d-906b-4a67-a6b5-4fa31730e44f"/>
+    <listType typeId="ae263ce3-3ca2-4862-bf80-7c0d14a30a23" valueTypeId="af9a59c3-cfcc-46e1-b7f4-0cc30d6b8177"/>
+    <managerType typeId="c09aef54-f964-419f-9067-5a0dc24f1c07" valueTypeId="f46d7705-b6b9-47dd-a3a5-9c50abdb425e"/>
+    <recordSetType typeId="9e5fdefc-2aa2-41a9-94bb-c599c754ce68" valueTypeId="ff717dbd-7da1-4ab4-80b0-bdb61f051656"/>
+    <recordKeyType typeId="aabac349-03ad-432e-9a07-420415915193" valueTypeId="7bcd6ed0-0861-4200-b930-f852d73dd89e"/>
+    <recordType typeId="22e2ee2c-9472-45e8-a4c6-159524f1dae3" valueTypeId="e8d7db5d-1f80-4d47-98bb-8052874a2072"/>
+    <recordManagerType typeId="4d338b9d-ec02-4854-9f92-e4918da4d848" valueTypeId="cf2151f4-e626-4031-bae5-70ec5cb1e78a"/>
+  </producedTypes>
+  <name>бг_ЗоныДоставкиПунктовВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны доставки пунктов выгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8b89b72b-ea8e-48f2-bb36-763059745fdd">
+    <name>ЗонаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ЗоныДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="72f8fabf-d9b0-4c74-b91f-2139b7447f4b">
+    <name>ПунктПогрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт погрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bbb5bc5c-35ee-4181-a41b-5ceb9ade94ea">
+    <name>ПунктВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4748afe8-0a3d-4952-a3e2-2cb051e3e522">
+    <name>ТипЗоныДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип зоны доставки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ТипыЗонДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

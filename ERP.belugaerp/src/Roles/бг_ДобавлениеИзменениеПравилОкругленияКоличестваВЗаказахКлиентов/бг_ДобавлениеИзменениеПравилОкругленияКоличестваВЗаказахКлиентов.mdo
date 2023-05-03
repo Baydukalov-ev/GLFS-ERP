@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e666d0e0-d5d4-4a80-8c44-6680fb020dfe">
+  <name>бг_ДобавлениеИзменениеПравилОкругленияКоличестваВЗаказахКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение правил округления количества в заказах клиентов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

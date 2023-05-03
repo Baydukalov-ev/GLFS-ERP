@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebdb0c8b-761d-42e4-b283-e837537b68b3">
+  <producedTypes>
+    <selectionType typeId="97f55c01-02ee-4c63-a0ef-22b36c18d3af" valueTypeId="2958fc28-b179-444f-a16d-674cd2f265a5"/>
+    <listType typeId="a4361467-8bea-4ed4-b505-237a910c5daa" valueTypeId="2faab15e-64c0-49b4-8bb9-825bcda626d9"/>
+    <managerType typeId="5f22ccc4-ee57-434b-92b1-718568e7a778" valueTypeId="4072d509-e521-48b2-a3d3-afcf07564b5f"/>
+    <recordSetType typeId="58283e42-509e-4c75-993a-4138b42e2867" valueTypeId="45724c90-f1e9-40ba-8e0c-7f4c5f719c5d"/>
+    <recordKeyType typeId="3430fe2d-b0db-4f3d-af82-9001a82262d3" valueTypeId="c7de193b-6f9a-4f65-aa4b-ea31f6c54ba7"/>
+    <recordType typeId="af9ad856-88c7-43fd-a674-fff1e72f3bed" valueTypeId="e684cec3-654b-421d-a83b-cfb812bb15bf"/>
+    <recordManagerType typeId="fe1f0e8f-1817-4998-9419-dcaec147fc51" valueTypeId="be1941be-7d98-4256-8b03-c8dca9395f54"/>
+  </producedTypes>
+  <name>бг_ПриоритетыКаналовПродажДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж долгосрочных резервов (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Приоритет канала продаж долгосрочных резервов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Приоритет канала продаж долгосрочных резервов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж долгосрочных резервов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж долгосрочных резервов</value>
+  </extendedListPresentation>
+  <resources uuid="486be55c-364b-49be-9aab-bb17f78f25fb">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="093c7cd8-9ced-414d-b558-322f2230dc67">
+    <name>МаксимальноеОсвобождаемоеКоличествоПоОднойНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное освобождаемое количество по одной номенклатуре</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9158acb2-08ce-4601-88da-fdca4bcfd129">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e25acabf-ee03-4076-b2e7-891846e1bec5">
+    <name>ИсточникЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ИсточникиЗагрузкиЗаказовКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6ccf6a96-f44e-46b0-9175-f6558f1b0f5e">
+    <name>КаналПродажОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж отгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Канал продаж, с которого производится фактическая отгрузка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8298a3ca-6dc1-427b-b28e-4a3d70230914">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж ДР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Канал продаж, по которому создан ДР</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

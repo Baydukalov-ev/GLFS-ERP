@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="83ca9667-fbbe-4795-9a3f-5dd6a32ed56c">
+  <producedTypes>
+    <refType typeId="c3cda409-adb9-49bc-bda7-326441e1c4c6" valueTypeId="ab0531b6-3e1b-46ad-b4c9-d725d5f65ad9"/>
+    <listType typeId="a0744bcb-fce4-4815-a220-fcd8f8686f5b" valueTypeId="08445f62-5afc-4cc2-9deb-d68d0348421b"/>
+    <managerType typeId="bec5760c-7ed9-420a-b1c9-cbf3cc3555b0" valueTypeId="56d7c018-1702-479a-9aed-6736d7246c90"/>
+  </producedTypes>
+  <name>ВариантыОформленияУслугДокументовПереработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="69b54b4f-c9d8-424d-ac91-f47ce01ac298">
+    <name>УказываютсяВЗаказеОтчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8159e36b-d9af-4e68-b139-890f2f5f3021">
+    <name>ОформляютсяОтдельно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

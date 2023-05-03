@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c97dd8da-a9a6-47cd-9f33-c76768f666cd">
+  <producedTypes>
+    <selectionType typeId="d0d0c181-4b53-404b-a2d6-ca3e3c578abd" valueTypeId="dbc0e42a-6c96-4c60-a656-82bec1cc8c34"/>
+    <listType typeId="9fdd0c07-5ddf-4baf-9668-11c55bbbae9d" valueTypeId="314001fa-8b15-401e-8500-dd152a898edd"/>
+    <managerType typeId="b963b8aa-8e6b-4514-8265-33c18f0aa0f7" valueTypeId="c190ca4d-f74c-4151-bdc0-e3f81f5e20ff"/>
+    <recordSetType typeId="59833fea-c749-4232-90de-4bd2b3c3553e" valueTypeId="d119fd7d-a560-47b9-acd0-ccd1d7192b66"/>
+    <recordKeyType typeId="50529320-6050-4049-95f2-21c1d60a24b5" valueTypeId="ab823f8b-4545-4739-ab96-8cc03989b37b"/>
+    <recordType typeId="f4707d0d-4eec-4f58-845b-2d156e17f1ce" valueTypeId="cf94f5ac-5478-4946-bbf4-43afac9c57f0"/>
+    <recordManagerType typeId="87132342-d9ca-46d7-a47e-472b5f1ceac4" valueTypeId="1ed64d48-7b6f-4914-af4a-7a16291666a1"/>
+  </producedTypes>
+  <name>ИсполнителиЗадач</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="a294a15a-8559-4113-9d0b-192acd59f647">
+    <name>Исполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="1bfa6454-be58-4151-9552-3357a3651a92">
+    <name>ОсновнойОбъектАдресации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.ОбъектыАдресацииЗадач</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="2939e7d6-ba95-46ef-8629-4c78ad798c13">
+    <name>РольИсполнителя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.РолиИсполнителей</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

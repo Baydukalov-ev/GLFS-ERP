@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89f634a3-e9ca-4059-8a4d-337a486db910">
+  <producedTypes>
+    <refType typeId="4065adf8-5a98-41e5-814f-47ca2758f658" valueTypeId="8b474ada-8573-47bb-b663-b9b662e70d03"/>
+    <listType typeId="551fd3ae-f15c-4064-8047-be24cc431ef3" valueTypeId="11745afd-8f35-4623-85fa-c15d10d4625a"/>
+    <managerType typeId="23207836-165f-4ace-9b29-339ddb218fe5" valueTypeId="c826ede2-def6-4087-b1fd-7c9754d685b3"/>
+  </producedTypes>
+  <name>СтатусыСертификатовНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="ec9d5268-c3d6-4188-b90d-49340f6ca9e6">
+    <name>Действующий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7e79f974-d92c-441e-8a53-5868c1a29c04">
+    <name>Недействующий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98cbd7b7-4af6-4c37-938d-c4e349d0eaf5">
+  <producedTypes>
+    <objectType typeId="965ec945-d95d-4613-936e-eb9f088255d2" valueTypeId="18a2b27d-e473-4e8b-8b15-be62349a6100"/>
+    <managerType typeId="3aa8e4cc-5640-4f7d-bd60-9a964379ea2e" valueTypeId="698e29c9-6af5-4c6a-973b-6d85ef737b47"/>
+  </producedTypes>
+  <name>бг_ЗаполнениеМарокИзТабличногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение марок из табличного документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="a21374c2-ae47-4727-b63d-140eacc4cdaa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение марок из табличного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="423bbe9c-054f-4c99-889f-cf72c7fbd7ac">
+    <name>МакетЗагрузкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет загрузки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data import template</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

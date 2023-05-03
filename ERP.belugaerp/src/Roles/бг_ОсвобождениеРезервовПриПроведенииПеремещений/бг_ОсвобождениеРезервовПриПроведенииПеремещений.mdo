@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17e1b1ba-0721-42f3-906d-d20c35270f48">
+  <name>бг_ОсвобождениеРезервовПриПроведенииПеремещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Освобождение резервов при проведении перемещений (Белуга)</value>
+  </synonym>
+  <comment>Роль позволяет при проведении перемещений товаров освобождать резервы заказов клиентов, по алгоритму, как при проведении перемещений, созданных по заданию Solvo.</comment>
+</mdclass:Role>

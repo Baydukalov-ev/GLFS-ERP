@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f22e3788-3b62-4476-984c-bfd90f1fa96b">
+  <producedTypes>
+    <refType typeId="8bc62036-6698-4a76-a304-faa2de70419e" valueTypeId="8e21e10a-3058-4601-bb7b-3ac04a1e4165"/>
+    <listType typeId="6a71287b-a947-4a46-8d87-e411efb490d3" valueTypeId="b81a16b5-9299-4e79-a84e-a18769984a6f"/>
+    <managerType typeId="479fdefd-1641-4864-853b-2f5783e3d1ee" valueTypeId="43517f55-f237-4c71-a71e-ce542af54295"/>
+  </producedTypes>
+  <name>СтатусыЭтаповПроизводства2_2</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="5faa5159-6b93-47e9-a9a0-8061ccdeb0a9">
+    <name>Завершен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

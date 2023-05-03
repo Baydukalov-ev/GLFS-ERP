@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a253d3-ede6-4bed-b512-ed7db5ff799f">
+  <producedTypes>
+    <objectType typeId="c1df6ef6-977b-4a0a-97b7-8c8ca1c9f435" valueTypeId="4a4fe32d-af59-4304-be02-46419edd81b2"/>
+    <refType typeId="a2ea82de-ba73-4068-8835-a0f8556d4174" valueTypeId="5990d50a-355e-4a50-bb46-025b8fab43f0"/>
+    <selectionType typeId="cfc6396c-d160-49cb-98cf-387c3d6e8aba" valueTypeId="a904d641-70c8-43b4-bc62-1afd4d5820a5"/>
+    <listType typeId="54877135-615d-4cf5-8888-630991c32b50" valueTypeId="ecfc6c9f-b5ff-4a53-af99-69506759f3bf"/>
+    <managerType typeId="9b81e2bb-4333-451e-861a-96de0bbe8593" valueTypeId="1fbd6b9e-9cc1-4add-8eb8-c800a97acd0e"/>
+  </producedTypes>
+  <name>бг_Штрихкоды_ЕК_Номенклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штрихкоды ЕК номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.бг_Штрихкоды_ЕК_Номенклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.УпаковкиЕдиницыИзмерения</owners>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.бг_Штрихкоды_ЕК_Номенклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.бг_Штрихкоды_ЕК_Номенклатуры.Form.ФормаСписка</defaultListForm>
+  <updateDataHistoryImmediatelyAfterWrite>true</updateDataHistoryImmediatelyAfterWrite>
+  <executeAfterWriteDataHistoryVersionProcessing>true</executeAfterWriteDataHistoryVersionProcessing>
+  <attributes uuid="283c73a6-5714-416f-9e9f-1b18b13aab6a">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2a2c239f-fc17-4dc6-abe5-f37df491ca19">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="af8e8338-d08e-4700-842c-7d7d16b66b5f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da1154f8-9ed1-4d7d-826f-03961d22ddee">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62332455-4a9d-4750-bb6d-bd7592b60990">
+  <producedTypes>
+    <objectType typeId="d3737e63-fdd2-45ed-968a-363f6202bea5" valueTypeId="ddc07a9d-1c0f-4d0a-bdda-12892d20f8ea"/>
+    <managerType typeId="0b047f00-8d7b-45df-8a44-9fdca0388f6f" valueTypeId="8206fa93-06cc-4944-85b7-386213d97159"/>
+  </producedTypes>
+  <name>ЗапросКоличестваИСерий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="9a30abf0-abf0-4779-a5f6-8def922a33df">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

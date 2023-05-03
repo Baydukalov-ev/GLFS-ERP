@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65624911-9f45-40fc-a25b-52d4759075ee">
+  <producedTypes>
+    <selectionType typeId="3140b6e6-358a-4913-a475-042ef31cef59" valueTypeId="9a4c8f35-5c47-4cc8-a60c-9cd925496867"/>
+    <listType typeId="005a5615-d4df-4ba9-9210-6c8e1108570b" valueTypeId="6f3a03de-2331-4477-9adb-5c2b1657b71d"/>
+    <managerType typeId="61419067-2c91-4ea5-8580-829965e61ebd" valueTypeId="a0a0b414-ba32-41bd-87f3-1e10b51ca485"/>
+    <recordSetType typeId="3b07f739-ce74-41f3-b47e-c3e271fcde27" valueTypeId="13478f04-2346-4d75-8ce0-73abd5d5b98d"/>
+    <recordKeyType typeId="402c1ee7-29ec-49bc-bf48-242608502d6b" valueTypeId="c09e710f-ac84-4a7c-b670-d00c2350e3d1"/>
+    <recordType typeId="a2cf6e50-34c5-450b-a1be-ca5d70d79557" valueTypeId="f3e84e97-87d9-46b5-8e7f-a4e223bdf0b0"/>
+  </producedTypes>
+  <name>РасчетыСКлиентамиПоСрокам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="2ef81f06-24d4-4bf6-9c71-8d842ab706d5">
+    <name>Долг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="1092ee43-ccc0-4f8d-a23a-aff131a2cd7c">
+    <name>ДолгРегл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="25345f16-d08c-4b7f-82f8-2374ef1c5e3a">
+    <name>ДолгУпр</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="36fdc748-68d6-45b1-9553-a5c6d102598a">
+    <name>ПредоплатаРегл</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="99f0caa1-ced6-4cce-8dbf-0ad94830be57">
+    <name>РасчетныйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.РасчетныйДокументСКлиентом</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="feacfc2a-c9d1-4714-9fe5-e64f718d2904">
+    <name>ОбъектРасчетов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ОбъектыРасчетов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="2dda48dc-975f-4cd1-a980-3fef379862cc">
+    <name>АналитикаУчетаПоПартнерам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлючиАналитикиУчетаПоПартнерам</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="68243ada-f0cf-4f9b-996c-6faf6ebdaf61">
+    <name>УдалитьОбъектРасчетов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОбъектРасчетовСКлиентами</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="bcc4c72e-6a30-44df-8bac-5bb97d4c7a89">
+    <name>ДатаВозникновения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="7b87d511-4ca1-4f5b-bdd0-1d2c151b049f">
+    <name>ДатаПлановогоПогашения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="02f154e6-2b20-4bea-b748-ae843cf33d3e">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

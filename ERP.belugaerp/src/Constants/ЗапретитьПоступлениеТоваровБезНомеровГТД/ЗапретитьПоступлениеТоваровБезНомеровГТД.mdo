@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c4d0b261-2a20-4cd6-a2bb-6807660f9096">
+  <producedTypes>
+    <managerType typeId="b2234b4b-1de7-4052-a4e7-b3faf020bb8d" valueTypeId="77a49711-1ce9-4073-902b-e1821836046d"/>
+    <valueManagerType typeId="f6c94e4e-ffce-4c31-892d-c3761562f01d" valueTypeId="f61b1637-58c6-4b80-9bce-58c852523a1e"/>
+    <valueKeyType typeId="00b62ed8-f26c-4f2c-a635-d7a0b75bb0d7" valueTypeId="8a1d0fa5-6318-4ce8-ae6c-e8083fd4e15a"/>
+  </producedTypes>
+  <name>ЗапретитьПоступлениеТоваровБезНомеровГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

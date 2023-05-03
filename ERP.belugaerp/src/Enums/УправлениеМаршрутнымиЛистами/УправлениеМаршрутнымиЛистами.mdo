@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2113da5f-1a31-495a-857d-18042c92de9f">
+  <producedTypes>
+    <refType typeId="ba314e6e-51c8-4836-b574-a4b4628788fa" valueTypeId="f1025b64-8a69-4dd2-a1ad-f39b8683dbec"/>
+    <listType typeId="de537b39-3572-4ad8-9aa4-31d2fad253c2" valueTypeId="0eb57e3e-c92c-4773-b780-366f55cd2e68"/>
+    <managerType typeId="ea678a25-521e-4642-9de8-106c916a9dde" valueTypeId="a8ab94b3-298a-490f-af43-44f78fa447cf"/>
+  </producedTypes>
+  <name>УправлениеМаршрутнымиЛистами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="7193ce15-c65a-4e61-922e-1c3ce09b4c70">
+    <name>ПооперационноеПланирование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

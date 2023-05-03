@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="89b9fad2-d383-48e2-b3f8-130b9a1a5071">
+  <producedTypes>
+    <containerType typeId="3a230867-f8f0-4223-8ffa-6e29767805e3" valueTypeId="fea28d9d-a6d8-4be4-8ec3-9c9b2ddb38b5"/>
+  </producedTypes>
+  <name>АдресатЗапретаИзменения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

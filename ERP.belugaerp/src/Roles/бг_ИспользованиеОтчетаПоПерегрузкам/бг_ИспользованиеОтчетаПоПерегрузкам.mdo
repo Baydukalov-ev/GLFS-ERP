@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d38480a-3e59-4a67-b5c4-6c6447422e85">
+  <name>бг_ИспользованиеОтчетаПоПерегрузкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета по перегрузкам</value>
+  </synonym>
+</mdclass:Role>

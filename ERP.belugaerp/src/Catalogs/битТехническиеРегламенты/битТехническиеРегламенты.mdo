@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb782d80-ff46-4f94-a034-2f9968a3d820">
+  <producedTypes>
+    <objectType typeId="4cd00577-d3d7-4f4d-97e0-5037fbebd17d" valueTypeId="03ce74a7-e291-4389-9318-929ce121de0d"/>
+    <refType typeId="0a3f1d5e-11e6-4040-9a58-218457b017fa" valueTypeId="14025228-32e4-4b53-bcac-9bc989ebe6f6"/>
+    <selectionType typeId="9ffced8d-cf62-4d1b-96d0-d39b33a6df5b" valueTypeId="724fdf6c-f9d4-4330-ba9d-6dca665fc5bc"/>
+    <listType typeId="7bc75663-bbdf-475d-a997-78ad4d97bd5e" valueTypeId="a6911a7d-1f3e-48fd-bd2d-500f8fbc1851"/>
+    <managerType typeId="f29b5bac-1e9e-4d58-ae01-3fc2862741dc" valueTypeId="15c326f2-8e10-44ba-9955-9e79fae4c84d"/>
+  </producedTypes>
+  <name>битТехническиеРегламенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <defaultObjectForm>Catalog.битТехническиеРегламенты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="753c0302-774d-4457-8305-d49269af06d7">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер решения</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер Решения Совета Евразийской экономической комиссии.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e391988-a5a6-4abf-ba49-45a5fc19afef">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное наименование технической документации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6ca6d632-3d3d-498b-aeec-8e5d9570e12a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

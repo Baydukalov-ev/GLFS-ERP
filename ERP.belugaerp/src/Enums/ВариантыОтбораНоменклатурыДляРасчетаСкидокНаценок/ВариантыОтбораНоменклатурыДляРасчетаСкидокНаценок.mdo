@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8dbf0cdf-426c-46ac-ab39-3126afaea7f0">
+  <producedTypes>
+    <refType typeId="da8f3bdd-2aa0-4504-ad34-8a544ce25030" valueTypeId="6ae956e3-bab3-43ea-983f-b3b3e254f356"/>
+    <listType typeId="0f6f1996-3810-4db0-bada-d668206a36e5" valueTypeId="462902cb-0c58-4f77-bebe-a6ba80febca4"/>
+    <managerType typeId="8a0d4fc0-75c9-479a-9107-4c48b4bac470" valueTypeId="6ee9ca9d-041f-4bae-85aa-1956757255f1"/>
+  </producedTypes>
+  <name>ВариантыОтбораНоменклатурыДляРасчетаСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4c5b416f-67a7-4cdc-8991-cdc9f1ef9ba9">
+    <name>СписокНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dc2aac32-642e-48d6-991d-7f5e1da77302">
+    <name>БезОграничений</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ff22d3f5-f7c2-4f2a-97ff-9a7340815dd2">
+    <name>СегментНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7143423d-eb0a-4479-bae1-9ea7862b8cc9">
+    <name>НеСегментНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2a09836a-806e-478e-87a7-7c51c353aaa0">
+    <name>ОтборКомпоновкиДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a8c4ff5-f326-47cf-9723-e00c40d9a020">
+  <producedTypes>
+    <objectType typeId="3c10424f-ebb6-4074-8678-7b601ff279aa" valueTypeId="13723df1-feb1-4779-a415-bd295defe012"/>
+    <refType typeId="0f6d0533-9aa0-4747-a0ff-7c1d5c747326" valueTypeId="dc0c88d0-e24f-4c24-a078-1a45c8b37158"/>
+    <selectionType typeId="a8b76f86-4328-400c-89cf-9b6dd8a0414a" valueTypeId="26c398a9-9e3a-4466-aaf6-779a40403224"/>
+    <listType typeId="0760a7bb-3f75-4bfe-ad4a-16be8daaaa4c" valueTypeId="cea1d228-c159-4086-a20b-d2ec7fed9fb1"/>
+    <managerType typeId="7925a5ff-f247-440b-a94b-20b869264d97" valueTypeId="7847e4fd-58b9-42b5-ba2e-a91c82d8d8c2"/>
+  </producedTypes>
+  <name>ЗаявлениеОВвозеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <registerRecords>AccumulationRegister.бг_АкцизПоПриобретеннымЦенностям</registerRecords>
+  <forms uuid="a8dea77d-6215-4366-8d97-cd6bc68e119c">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="c27abe0f-76f9-4f51-aaae-fe59d2381e68">
+    <producedTypes>
+      <objectType typeId="0960e7ec-d19a-4fe2-b293-078bd07a8b50" valueTypeId="81c84ba0-1b4c-4fc5-876f-6ea2496a3bdc"/>
+      <rowType typeId="eb08ea16-597e-444a-82fa-7c70b5d83fa7" valueTypeId="452c66f2-8116-44b4-955a-2f87e412e2af"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="43ef2f5c-367a-4347-9e78-5721335d5bce">
+      <name>ДокументПоступления</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.ПриобретениеТоваровУслуг</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="94b4c376-8432-43f5-a786-41da47588610">
+      <name>СуммаАкциза</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="0c8788f4-09f0-4353-ae8f-06617afbe0bf">
+      <name>НалоговаяБазаНДС</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="002bb55e-94b7-4b29-9fe7-2ca31d017d50">
+      <name>ФактурнаяСтоимость</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="f74500b2-5c6e-4df4-80d7-90e4f4e4ce4a">
+      <name>СтавкаНДС</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СтавкиНДС</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="8cd36ccc-0aed-4055-9f52-a2d25a3cfd8e">
+      <name>СуммаНДС</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

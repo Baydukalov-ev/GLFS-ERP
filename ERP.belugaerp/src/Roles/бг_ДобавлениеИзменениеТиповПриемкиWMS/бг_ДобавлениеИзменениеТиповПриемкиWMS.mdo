@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86bd284b-1b39-41d8-821e-c4d1c08f7ab1">
+  <name>бг_ДобавлениеИзменениеТиповПриемкиWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение типов приемки</value>
+  </synonym>
+</mdclass:Role>

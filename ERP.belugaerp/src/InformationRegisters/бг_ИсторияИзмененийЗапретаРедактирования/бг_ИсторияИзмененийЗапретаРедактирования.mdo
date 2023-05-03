@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23b476a1-a420-4f17-b6a1-6fad195f256f">
+  <producedTypes>
+    <selectionType typeId="5caf5ed0-3ab5-4aca-9c2e-2aff61f72632" valueTypeId="9fe85af3-6f4e-4767-bf9e-63030ca823eb"/>
+    <listType typeId="d39a1008-a866-42bb-b4c7-e4f3f457ed87" valueTypeId="5112bbf0-a9f6-45f4-b9c0-30038a211717"/>
+    <managerType typeId="7c7455b0-269e-48ad-b77e-1f03231faff5" valueTypeId="4ed9025a-1fb2-4574-b276-f9fac1b43d93"/>
+    <recordSetType typeId="4a89ff8b-f170-4ab7-9dcd-fcbbe21d64fe" valueTypeId="eea8d294-5de1-4b0f-b97f-0c97c5b4b416"/>
+    <recordKeyType typeId="7ed7386e-2665-4b3d-8718-99f35b2f6aca" valueTypeId="1e84eb5a-08cc-45db-8e1d-f9b19d8201b9"/>
+    <recordType typeId="0001c0c9-ed7b-4b50-aa4d-820300e6e268" valueTypeId="a27dc6e7-162e-4227-a6f9-20792bf85fdb"/>
+    <recordManagerType typeId="5401647f-03ae-433d-b817-1994773384a1" valueTypeId="473c8e31-069d-42c6-95fc-35e4c7dff750"/>
+  </producedTypes>
+  <name>бг_ИсторияИзмененийЗапретаРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменений запрета редактирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="acfeb3fe-0839-487c-bd63-845ea5b0b315">
+    <name>ДатаЗапретаДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запрета до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fcbd56cb-cb10-42d4-a5b7-0fb9300781c0">
+    <name>ДатаЗапретаПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата запрета после</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="c3cd78d2-2462-42a3-abd3-4e3f6ce2c0f9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="090d0a86-3427-4a0e-9271-6a6b92fc41b3">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="44829acc-5194-4f3e-adc4-6553e794346d">
+    <name>ОписаниеДатыЗапрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание даты запрета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period-end closing date details</value>
+    </synonym>
+    <comment>Описание относительной даты запрета, используемое для вычисления даты запрета на текущую дату</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание относительной даты запрета, используемое для вычисления даты запрета на текущую дату</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Details on relative period-end closing date used to calculate period-end closing date for the current date.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="9c25135b-2c26-4fef-b550-67af904216af">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>EnumRef.ВидыНазначенияДатЗапрета</types>
+      <types>CatalogRef.ГруппыПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bca6fd2c-0310-4721-be27-3bf9ea44a3e6">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Section</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Раздел дат запрета изменения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Period-end closing date section</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c1ca9e21-d6cb-415e-8f6c-e2587e327618">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект раздела дат запрета изменения (Организация, Касса ...)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Object of period-end closing date section. For example, Company or Cash account.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="229930eb-e391-4a39-9ef9-37f3d9ec1a8e">
+    <name>ПользовательКонечный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь конечный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+      <types>EnumRef.ВидыНазначенияДатЗапрета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

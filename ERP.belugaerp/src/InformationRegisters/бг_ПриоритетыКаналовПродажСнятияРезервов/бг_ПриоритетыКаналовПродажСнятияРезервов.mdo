@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d76bba-7a26-4be0-b597-7d1ea8aa347d">
+  <producedTypes>
+    <selectionType typeId="d0a88f20-e8d6-4bbc-87ee-e51e4298ae5b" valueTypeId="515f13c8-51ef-4ef3-867b-f8a122f2430a"/>
+    <listType typeId="73394f90-1b0e-425b-be25-a0503d426c2d" valueTypeId="72edc3ef-01db-4bab-b62a-b4b028d605d5"/>
+    <managerType typeId="23c3780c-f5c0-4580-ae1c-223d2d5eccda" valueTypeId="c289ad20-ae50-4a56-9ac7-a6f0955b0762"/>
+    <recordSetType typeId="ab472c81-dd3e-4b53-92b7-8c14e5cc09f9" valueTypeId="edef342f-a6e4-4ae6-89d2-47c21402b14b"/>
+    <recordKeyType typeId="e056be51-4f0c-4bc4-ace7-3e53dd10a7d2" valueTypeId="31d6f23f-0748-48aa-bbe7-9cbd32ddc54c"/>
+    <recordType typeId="61af4768-2770-4d70-8c54-a0361df90c21" valueTypeId="d2cc1570-6dcb-4b43-be9a-38b39e4de4bb"/>
+    <recordManagerType typeId="9c0a2b6b-05d8-4cfc-9df8-3621af017c5a" valueTypeId="60805dfa-7566-434d-969d-8727b3ce3ac6"/>
+  </producedTypes>
+  <name>бг_ПриоритетыКаналовПродажСнятияРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж снятия резервов (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Приоритет канала продаж снятия резервов</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Приоритет канала продаж снятия резервов</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж снятия резервов</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Приоритеты каналов продаж снятия резервов</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Данные регистра используются для приоритезации освобождаемых резервов по заказам клиентов в случае недостатка свободных остатков для перемещений по заданию Solvo (смена категории груза).</value>
+  </explanation>
+  <resources uuid="08bd0cc2-bb01-4470-b8e2-24bcabee996a">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d00a633f-f5ae-45e2-aa91-803b05f6aa51">
+    <name>КаналПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал продаж</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битКаналыПродаж</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="54b233d7-2dd3-4917-8048-d62cdf2b35cc">
+    <name>ДолгосрочныйРезерв</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долгосрочный резерв</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d615e86b-e5ef-4b45-a043-2104bb50d4e1">
+    <name>ОткрывающийсяМагазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открывающийся магазин</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

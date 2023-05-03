@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc68176b-8392-4d30-928b-7b1c2c1402f7">
+  <producedTypes>
+    <objectType typeId="7aedccde-2c3a-41e1-b5fe-4ace572f02ee" valueTypeId="82e9940f-7573-4a7a-9142-94ee56b8aded"/>
+    <managerType typeId="a1cded34-a647-47a0-b355-34b77141945a" valueTypeId="8f7054d6-79d9-429b-b26c-f14ae286b5a6"/>
+  </producedTypes>
+  <name>бг_ФормированиеДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование долгосрочных резервов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ФормированиеДолгосрочныхРезервов.Form.Форма</defaultForm>
+  <forms uuid="647f5e98-7974-4332-be1c-6728a99e190a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e85d0886-b4bb-4c46-89ee-49832af40f70">
+    <name>ФормаВыбораПартнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор партнера и даты отгрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8715c02d-c0c1-47c7-87ba-5b1a01bc1c93">
+    <name>ФормированиеДолгосрочныхРезервов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование долгосрочных резервов</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

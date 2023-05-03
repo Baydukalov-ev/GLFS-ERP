@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34631fa1-b8dc-407f-b3cf-e5ea2cdc304b">
+  <producedTypes>
+    <refType typeId="1a8dceef-42ed-459f-9c97-066fcac6ffce" valueTypeId="95794785-c358-4a77-b0e5-d2a837ac33ff"/>
+    <listType typeId="19246ef8-b43d-44cf-a34f-204ccaf61512" valueTypeId="91b21466-d5f1-4282-b9ec-4cd739c865a9"/>
+    <managerType typeId="154e327c-a456-44f1-a367-6b01285d89df" valueTypeId="00d8888f-a667-43a4-8c29-deecd4980fe0"/>
+  </producedTypes>
+  <name>бг_ВидыОшибокЗагрузкиАлкогольнойЛицензииПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ошибок загрузки алкогольной лицензии поставщиков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85acc80c-1d86-4500-9964-96d09ab20edb">
+    <name>ФайлНеОбновился</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл не обновился</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07e1ec4a-3d2b-435c-aade-3515d8c23303">
+    <name>СкачатьФайлНеУдалось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скачать файл не удалось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32bd3763-26d8-4625-8d4a-0d95ce47397e">
+    <name>ОбработкаФайлаНеУдалась</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка файла не удалась</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b2b863f-8a9b-4488-9107-f4c7b05597e7">
+    <name>СайтФСРАРНедоступен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт ФСРАР недоступен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74eda82a-fbc3-454c-afbb-73009402324d">
+    <name>ОбновлениеЛицензииНеУдалось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление лицензии не удалось</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

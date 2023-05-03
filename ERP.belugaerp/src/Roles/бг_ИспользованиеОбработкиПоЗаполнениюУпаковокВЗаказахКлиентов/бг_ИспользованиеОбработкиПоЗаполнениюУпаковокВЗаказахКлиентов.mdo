@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5bda90d-0772-46eb-b535-3c4b17bc8a0f">
+  <name>бг_ИспользованиеОбработкиПоЗаполнениюУпаковокВЗаказахКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки по заполнению упаковок в заказах клиентов</value>
+  </synonym>
+</mdclass:Role>

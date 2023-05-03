@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44b950a5-0ed3-47e9-ac76-7a14b8081c73">
+  <name>бг_ПоступлениеДенежныхДокументовИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление денежных документов (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

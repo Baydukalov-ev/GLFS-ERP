@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff44ac91-704c-403a-85b5-c5d789a21ef7">
+  <producedTypes>
+    <refType typeId="b00568ba-b61a-4b08-8c93-b9a2bd9b52c4" valueTypeId="1e031fcd-43a5-44e1-841d-9e66aea6989f"/>
+    <listType typeId="ba3b953c-213e-489a-bfbb-6d55a10f0051" valueTypeId="a2ca17de-db5c-49bd-8540-f3aad0713fed"/>
+    <managerType typeId="d5fea4d7-8e26-4d71-aa49-93b86a736111" valueTypeId="48bee245-e93d-46a5-b89e-fdeca2a39a11"/>
+  </producedTypes>
+  <name>СтатусыОбъектовЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="58ecad98-815f-4c07-ab3c-1f003966e1ac">
+    <name>Ликвидирован</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="01314118-f545-4cdf-a8f4-6c7f41b802f8">
+    <name>Редактируется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b54043cb-8567-497b-9817-1389441eb1f4">
+    <name>ВЭксплуатации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

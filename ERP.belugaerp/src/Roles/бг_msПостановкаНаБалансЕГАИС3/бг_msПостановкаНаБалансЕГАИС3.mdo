@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="772d3ff2-25f9-49e5-a01f-605ff9e1c916">
+  <name>бг_msПостановкаНаБалансЕГАИС3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Постановка на баланс ЕГАИС3 (Mobile Smarts)</value>
+  </synonym>
+</mdclass:Role>

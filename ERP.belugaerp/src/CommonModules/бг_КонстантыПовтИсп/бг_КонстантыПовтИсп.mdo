@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="143239ae-ec47-4f03-a3ca-b0cf1a4fc54c">
+  <name>бг_КонстантыПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Константы (повт. исп.)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

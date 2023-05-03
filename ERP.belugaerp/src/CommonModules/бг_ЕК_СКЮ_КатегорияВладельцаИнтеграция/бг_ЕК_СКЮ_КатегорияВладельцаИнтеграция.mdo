@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cc27555-e002-4fe2-9b47-dfcab2b098d0">
+  <name>бг_ЕК_СКЮ_КатегорияВладельцаИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория владельца (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

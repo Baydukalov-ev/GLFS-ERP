@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="968176ca-7464-413e-9138-5bb4f30432d8">
+  <name>бг_SAP</name>
+  <synonym>
+    <key>ru</key>
+    <value>SAP</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.бг_НастройкиУзловИнтеграцииSAP</content>
+  <content>CommonModule.бг_ИнтеграцияSAP</content>
+  <content>Role.бг_ДобавлениеИзменениеЗаявокКлиентов</content>
+  <content>Role.бг_ДобавлениеИзменениеОчередиЗаявокКлиентовКОтправкеOrderSP</content>
+  <content>Role.бг_ДобавлениеИзменениеПриоритетовКаналовПродажДолгосрочныхРезервов</content>
+  <content>Role.бг_ДобавлениеИзменениеПартнеровДолгосрочныхРезервов</content>
+  <content>Role.бг_ДобавлениеИзменениеСоглашенийИДоговоровСКлиентамиПоВидамНоменклатуры</content>
+  <content>Role.бг_ЧтениеЗаявокКлиентов</content>
+  <content>Role.бг_ЧтениеОчередиЗаявокКлиентовКОтправкеOrderSP</content>
+  <content>Role.бг_ЧтениеПриоритетовКаналовПродажДолгосрочныхРезервов</content>
+  <content>Role.бг_ЧтениеПартнеровДолгосрочныхРезервов</content>
+  <content>Role.бг_ЧтениеСоглашенийИДоговоровСКлиентамиПоВидамНоменклатуры</content>
+  <content>Document.битЗаявкаКлиента</content>
+  <content>Enum.бг_ИсточникиЗагрузкиЗаказовКлиентов</content>
+  <content>InformationRegister.бг_ОчередьЗаявокКлиентовКОтправкеOrderSP</content>
+  <content>InformationRegister.бг_ПриоритетыКаналовПродажДолгосрочныхРезервов</content>
+  <content>InformationRegister.бг_УдалитьСегментыПартнеровДолгосрочныхРезервов</content>
+  <content>InformationRegister.бг_СоглашенияИДоговорыСКлиентамиПоВидамНоменклатуры</content>
+  <content>Catalog.бг_КодыОтветовНаПредзаказыРезервов</content>
+  <content>Role.бг_ДобавлениеИзменениеКодовОтветовНаПредзаказыРезервов</content>
+  <content>Role.бг_ЧтениеКодовОтветовНаПредзаказыРезервов</content>
+  <content>InformationRegister.бг_НастройкиАвтоматическойПередачиЗаказовКлиентовНаСборку</content>
+  <content>Role.бг_ДобавлениеИзменениеНастроекАвтоматическойПередачиЗаказовКлиентовНаСборку</content>
+  <content>Role.бг_ЧтениеНастроекАвтоматическойПередачиЗаказовКлиентовНаСборку</content>
+  <content>InformationRegister.бг_РасхожденияДанныхКонсолидированныхЗаказовSAPиHybris</content>
+  <content>InformationRegister.бг_ИзмененияСвободныхОстатковДляИМ</content>
+  <content>Role.бг_ДобавлениеИзменениеИзмененийСвободныхОстатковДляИМ</content>
+  <content>Role.бг_ДобавлениеИзменениеРасхожденийДанныхКонсолидированныхЗаказовSAPиHybris</content>
+  <content>Role.бг_ЧтениеИзмененийСвободныхОстатковДляИМ</content>
+  <content>Role.бг_ЧтениеРасхожденийДанныхКонсолидированныхЗаказовSAPиHybris</content>
+  <content>CommonModule.бг_битВыгрузкаИзмененийСвободныхОстатковДляИМИнтеграция</content>
+  <content>InformationRegister.бг_ПравилаОкругленияКоличестваВЗаказахКлиентов</content>
+  <content>Enum.бг_ПравилаОкругленияДоКороба</content>
+  <content>Role.бг_ДобавлениеИзменениеПравилОкругленияКоличестваВЗаказахКлиентов</content>
+  <content>Role.бг_ЧтениеПравилОкругленияКоличестваВЗаказахКлиентов</content>
+  <content>InformationRegister.бг_ПартнерыДолгосрочныхРезервов</content>
+  <content>InformationRegister.бг_ДатыОтправкиDESADVвSAP</content>
+</mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e76ca680-e2e5-409c-9da8-97931642a96d">
+  <name>бг_РегистрРасчетыСРозничнымиКлиентамиИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение расчеты с розничными клиентами</value>
+  </synonym>
+</mdclass:Role>

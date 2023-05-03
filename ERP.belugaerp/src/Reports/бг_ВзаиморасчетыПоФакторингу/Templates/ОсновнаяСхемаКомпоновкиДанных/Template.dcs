@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРасчетов</dataPath>
+			<field>ОбъектРасчетов</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаНачальныйОстаток</dataPath>
+			<field>СуммаНачальныйОстаток</field>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
+				<dcscom:balanceType>OpeningBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаКонечныйОстаток</dataPath>
+			<field>СуммаКонечныйОстаток</field>
+			<role>
+				<dcscom:balance>true</dcscom:balance>
+				<dcscom:balanceGroupName>Сумма</dcscom:balanceGroupName>
+				<dcscom:balanceType>ClosingBalance</dcscom:balanceType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаПриход</dataPath>
+			<field>СуммаПриход</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаРасход</dataPath>
+			<field>СуммаРасход</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СчетУчета</dataPath>
+			<field>СчетУчета</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Регистратор</dataPath>
+			<field>Регистратор</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+			<orderExpression>
+				<dcscom:expression>ПериодСекунда</dcscom:expression>
+				<dcscom:orderType>Asc</dcscom:orderType>
+				<dcscom:autoOrder>false</dcscom:autoOrder>
+			</orderExpression>
+			<orderExpression>
+				<dcscom:expression>Регистратор</dcscom:expression>
+				<dcscom:orderType>Asc</dcscom:orderType>
+				<dcscom:autoOrder>false</dcscom:autoOrder>
+			</orderExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПогашения</dataPath>
+			<field>ДатаПогашения</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПериодСекунда</dataPath>
+			<field>ПериодСекунда</field>
+			<useRestriction>
+				<field>true</field>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<role>
+				<dcscom:periodNumber>2</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ПорядокОтраженияНаСчетахУчета.Организация КАК ОрганизацияНастройки,
+	ПорядокОтраженияНаСчетахУчета.СчетУчета КАК СчетУчета,
+	ПорядокОтраженияНаСчетахУчета.АналитикаУчета КАК АналитикаУчета,
+	ПорядокОтраженияНаСчетахУчета.ВидСчета КАК ВидСчета
+ПОМЕСТИТЬ ВтСчетаУчета
+ИЗ
+	РегистрСведений.ПорядокОтраженияНаСчетахУчета КАК ПорядокОтраженияНаСчетахУчета
+ГДЕ
+	ПорядокОтраженияНаСчетахУчета.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.АвансыПолученные),
+		ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.РасчетыСКлиентами))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ОстаткиПоРасчетам.ОбъектРасчетов КАК ОбъектРасчетов,
+	МАКСИМУМ(ОстаткиПоРасчетам.ДатаПлановогоПогашения) КАК ДатаПогашенияВыборка
+ПОМЕСТИТЬ ДатыПогашения
+ИЗ
+	РегистрНакопления.РасчетыСКлиентамиПоСрокам.ОстаткиИОбороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,,
+		{АналитикаУчетаПоПартнерам.Организация.* КАК Организация} {АналитикаУчетаПоПартнерам.Контрагент.* КАК Контрагент}
+		{АналитикаУчетаПоПартнерам.Договор.* КАК Договор}) КАК ОстаткиПоРасчетам
+		
+СГРУППИРОВАТЬ ПО
+	ОстаткиПоРасчетам.ОбъектРасчетов
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	АналитикаУчета.Организация КАК Организация,
+	АналитикаУчета.Контрагент КАК Контрагент,
+	АналитикаУчета.Договор КАК Договор,
+	ОстаткиПоРасчетам.ОбъектРасчетов КАК ОбъектРасчетов,
+	ОстаткиПоРасчетам.ОбъектРасчетов.ГруппаФинансовогоУчета КАК ГруппаФинансовогоУчета,
+	ВЫБОР
+		КОГДА ОстаткиПоРасчетам.СуммаНачальныйОстаток &lt; 0
+			ТОГДА ОстаткиПоРасчетам.СуммаНачальныйОстаток
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПредоплатаРеглНачальныйОстаток,
+	ВЫБОР
+		КОГДА ОстаткиПоРасчетам.СуммаКонечныйОстаток &lt; 0
+			ТОГДА ОстаткиПоРасчетам.СуммаКонечныйОстаток
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПредоплатаРеглКонечныйОстаток,
+	0 КАК ПредоплатаРеглПриход,
+	0 КАК ПредоплатаРеглРасход,
+	ВЫБОР
+		КОГДА ОстаткиПоРасчетам.СуммаНачальныйОстаток &gt;= 0
+			ТОГДА ОстаткиПоРасчетам.СуммаНачальныйОстаток - ЕСТЬNULL(ОперацииПоФакторингу.СуммаРеглНачальныйОстаток, 0)
+		ИНАЧЕ 0
+	КОНЕЦ КАК ДолгНачальныйОстаток,
+	ВЫБОР
+		КОГДА ОстаткиПоРасчетам.СуммаКонечныйОстаток &gt;= 0
+			ТОГДА ОстаткиПоРасчетам.СуммаКонечныйОстаток - ЕСТЬNULL(ОперацииПоФакторингу.СуммаРеглКонечныйОстаток, 0)
+		ИНАЧЕ 0
+	КОНЕЦ КАК ДолгКонечныйОстаток,
+	0 КАК ДолгПриход,
+	0 КАК ДолгРасход,
+	ОстаткиПоРасчетам.Регистратор КАК Регистратор,
+	ОстаткиПоРасчетам.ПериодСекунда КАК ПериодСекунда,
+	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаПогашенияВыборка
+ПОМЕСТИТЬ ВтРасчетыПредварительная
+ИЗ
+	РегистрНакопления.РасчетыСКлиентами.ОстаткиИОбороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,,
+		{АналитикаУчетаПоПартнерам.Организация.* КАК Организация} {АналитикаУчетаПоПартнерам.Контрагент.* КАК Контрагент}
+		{АналитикаУчетаПоПартнерам.Договор.* КАК Договор}) КАК ОстаткиПоРасчетам
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.АналитикаУчетаПоПартнерам КАК АналитикаУчета
+		ПО ОстаткиПоРасчетам.АналитикаУчетаПоПартнерам = АналитикаУчета.КлючАналитики
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.бг_ОперацииПоФакторингу.ОстаткиИОбороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,,
+			ВидРасчетов = ЗНАЧЕНИЕ(Перечисление.бг_ВидРасчетовПоФакторингу.ПоСуммеУступленногоДолга)
+			{Организация.* КАК Организация} {Контрагент.* КАК Контрагент}
+			{ДоговорКонтрагента.* КАК Договор}) КАК ОперацииПоФакторингу
+		ПО АналитикаУчета.Организация = ОперацииПоФакторингу.Организация
+			И АналитикаУчета.Контрагент = ОперацииПоФакторингу.Контрагент
+			И АналитикаУчета.Договор = ОперацииПоФакторингу.ДоговорКонтрагента
+			И ОстаткиПоРасчетам.ОбъектРасчетов = ОперацииПоФакторингу.ОбъектРасчетов
+			
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	АналитикаУчета.Организация КАК Организация,
+	АналитикаУчета.Контрагент КАК Контрагент,
+	АналитикаУчета.Договор КАК Договор,
+	РасчетыПоСрокам.ОбъектРасчетов КАК ОбъектРасчетов,
+	РасчетыПоСрокам.ОбъектРасчетов.ГруппаФинансовогоУчета КАК ГруппаФинансовогоУчета,
+	0 КАК ПредоплатаРеглНачальныйОстаток,
+	0 КАК ПредоплатаРеглКонечныйОстаток,
+	ВЫБОР
+		КОГДА РасчетыПоСрокам.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+			ТОГДА РасчетыПоСрокам.Предоплата
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПредоплатаРеглПриход,
+	ВЫБОР
+		КОГДА РасчетыПоСрокам.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Расход)
+			ТОГДА РасчетыПоСрокам.Предоплата
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПредоплатаРеглРасход,
+	0 КАК ДолгНачальныйОстаток,
+	0 КАК ДолгКонечныйОстаток,
+	ВЫБОР
+		КОГДА РасчетыПоСрокам.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Приход)
+			ТОГДА РасчетыПоСрокам.Долг
+		ИНАЧЕ 0
+	КОНЕЦ КАК ДолгПриход,
+	ВЫБОР
+		КОГДА РасчетыПоСрокам.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Расход)
+			ТОГДА РасчетыПоСрокам.Долг
+		ИНАЧЕ 0
+	КОНЕЦ КАК ДолгРасход,
+	РасчетыПоСрокам.ДокументРегистратор КАК Регистратор,
+	РасчетыПоСрокам.Период КАК ПериодСекунда,
+	РасчетыПоСрокам.ДатаПлановогоПогашения
+ИЗ
+	РегистрНакопления.РасчетыСКлиентамиПоСрокам КАК РасчетыПоСрокам
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.АналитикаУчетаПоПартнерам КАК АналитикаУчета
+		ПО РасчетыПоСрокам.АналитикаУчетаПоПартнерам = АналитикаУчета.КлючАналитики
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.КорректировкаЗадолженности КАК РеквизитыКЗ
+		ПО РасчетыПоСрокам.ДокументРегистратор = РеквизитыКЗ.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битФакторинг КАК РеквизитыФакторинга
+		ПО РеквизитыКЗ.бг_Основание = РеквизитыФакторинга.Ссылка
+ГДЕ
+	АналитикаУчета.Партнер &lt;&gt; ЗНАЧЕНИЕ(Справочник.Партнеры.НашеПредприятие)
+	И НЕ ЕСТЬNULL(РеквизитыФакторинга.ВидОперации, ЗНАЧЕНИЕ(Перечисление.бг_ВидыОперацийФакторинга.ПустаяСсылка)) = ЗНАЧЕНИЕ(Перечисление.бг_ВидыОперацийФакторинга.ОплатаДебиторомФактору)
+{ГДЕ
+	РасчетыПоСрокам.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода,
+	АналитикаУчета.Организация.* КАК Организация,
+	АналитикаУчета.Контрагент.* КАК Контрагент,
+	АналитикаУчета.Договор.* КАК Договор}
+
+;
+
+ВЫБРАТЬ
+	Расчеты.Организация КАК Организация,
+	Расчеты.Контрагент КАК Контрагент,
+	Расчеты.Договор КАК Договор,
+	Расчеты.ОбъектРасчетов КАК ОбъектРасчетов,
+	Расчеты.ГруппаФинансовогоУчета КАК ГруппаФинансовогоУчета,
+	СУММА(Расчеты.ПредоплатаРеглНачальныйОстаток) КАК ПредоплатаРеглНачальныйОстаток,
+	СУММА(Расчеты.ПредоплатаРеглКонечныйОстаток) КАК ПредоплатаРеглКонечныйОстаток,
+	СУММА(Расчеты.ПредоплатаРеглПриход) КАК ПредоплатаРеглПриход,
+	СУММА(Расчеты.ПредоплатаРеглРасход) КАК ПредоплатаРеглРасход,
+	СУММА(Расчеты.ДолгНачальныйОстаток) КАК ДолгНачальныйОстаток,
+	СУММА(Расчеты.ДолгКонечныйОстаток) КАК ДолгКонечныйОстаток,
+	СУММА(Расчеты.ДолгПриход) КАК ДолгПриход,
+	СУММА(Расчеты.ДолгРасход) КАК ДолгРасход,
+	Расчеты.Регистратор КАК Регистратор,
+	Расчеты.ПериодСекунда КАК ПериодСекунда,
+	МАКСИМУМ(Расчеты.ДатаПогашенияВыборка) КАК ДатаПогашенияВыборка
+ПОМЕСТИТЬ ВтРасчеты
+ИЗ
+	ВтРасчетыПредварительная КАК Расчеты
+	
+СГРУППИРОВАТЬ ПО
+	Расчеты.Организация,
+	Расчеты.Контрагент,
+	Расчеты.Договор,
+	Расчеты.ОбъектРасчетов,
+	Расчеты.ГруппаФинансовогоУчета,
+	Расчеты.Регистратор,
+	Расчеты.ПериодСекунда
+;
+
+////////////////////////////////////////////////////////////////////////////////
+
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВтРасчеты.Организация КАК Организация,
+	ВтРасчеты.Контрагент КАК Контрагент,
+	ВтРасчеты.Договор КАК Договор,
+	ВтРасчеты.ОбъектРасчетов КАК ОбъектРасчетов,
+	ВтРасчеты.ПредоплатаРеглНачальныйОстаток КАК НачальныйОстаток,
+	ВтРасчеты.ПредоплатаРеглКонечныйОстаток КАК КонечныйОстаток,
+	ВтРасчеты.ПредоплатаРеглПриход КАК Приход,
+	ВтРасчеты.ПредоплатаРеглРасход КАК Расход,
+	ЕСТЬNULL(ВтСчетаУчетаПоОрганизации.СчетУчета, ЕСТЬNULL(ВтСчетаУчета.СчетУчета, НЕОПРЕДЕЛЕНО)) КАК СчетУчета,
+	ВтРасчеты.Регистратор КАК Регистратор,
+	ВтРасчеты.ПериодСекунда КАК ПериодСекунда
+ПОМЕСТИТЬ ВтРезультат
+ИЗ
+	ВтРасчеты КАК ВтРасчеты
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчетаПоОрганизации
+		ПО ВтРасчеты.ГруппаФинансовогоУчета = ВтСчетаУчетаПоОрганизации.АналитикаУчета
+		И ВтРасчеты.Организация = ВтСчетаУчетаПоОрганизации.ОрганизацияНастройки
+		И (ВтСчетаУчетаПоОрганизации.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.АвансыПолученные)))
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчета
+		ПО ВтРасчеты.ГруппаФинансовогоУчета = ВтСчетаУчета.АналитикаУчета
+		И (ВтСчетаУчета.ОрганизацияНастройки = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка))
+		И (ВтСчетаУчета.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.АвансыПолученные)))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВтРасчеты.Организация,
+	ВтРасчеты.Контрагент,
+	ВтРасчеты.Договор,
+	ВтРасчеты.ОбъектРасчетов,
+	ВтРасчеты.ДолгНачальныйОстаток,
+	ВтРасчеты.ДолгКонечныйОстаток,
+	ВтРасчеты.ДолгПриход,
+	ВтРасчеты.ДолгРасход,
+	ЕСТЬNULL(ВтСчетаУчетаПоОрганизации.СчетУчета, ЕСТЬNULL(ВтСчетаУчета.СчетУчета, НЕОПРЕДЕЛЕНО)),
+	ВтРасчеты.Регистратор КАК Регистратор,
+	ВтРасчеты.ПериодСекунда КАК ПериодСекунда
+ИЗ
+	ВтРасчеты КАК ВтРасчеты
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчетаПоОрганизации
+		ПО ВтРасчеты.ГруппаФинансовогоУчета = ВтСчетаУчетаПоОрганизации.АналитикаУчета
+		И ВтРасчеты.Организация = ВтСчетаУчетаПоОрганизации.ОрганизацияНастройки
+		И (ВтСчетаУчетаПоОрганизации.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.РасчетыСКлиентами)))
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчета
+		ПО ВтРасчеты.ГруппаФинансовогоУчета = ВтСчетаУчета.АналитикаУчета
+		И (ВтСчетаУчета.ОрганизацияНастройки = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка))
+		И (ВтСчетаУчета.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.РасчетыСКлиентами)))
+
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ОперацииПоФакторингу.Организация,
+	ОперацииПоФакторингу.Контрагент,
+	ОперацииПоФакторингу.ДоговорКонтрагента,
+	ОперацииПоФакторингу.ОбъектРасчетов,
+	0,
+	0,
+	ВЫБОР
+		КОГДА РеквизитыФакторинга.ВидОперации = ЗНАЧЕНИЕ(Перечисление.бг_ВидыОперацийФакторинга.ОплатаДебитораНам)
+			ТОГДА ОперацииПоФакторингу.СуммаРеглРасход
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ОперацииПоФакторингу.СуммаРеглПриход,
+	ЕСТЬNULL(ВтСчетаУчетаПоОрганизации.СчетУчета, ЕСТЬNULL(ВтСчетаУчета.СчетУчета, НЕОПРЕДЕЛЕНО)),
+	ОперацииПоФакторингу.Регистратор,
+	ОперацииПоФакторингу.ПериодСекунда
+ИЗ
+	РегистрНакопления.бг_ОперацииПоФакторингу.Обороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,
+		ВидРасчетов = ЗНАЧЕНИЕ(Перечисление.бг_ВидРасчетовПоФакторингу.ПоСуммеУступленногоДолга)
+		{Организация.* КАК Организация} {Контрагент.* КАК Контрагент}
+		{ДоговорКонтрагента.* КАК Договор}) КАК ОперацииПоФакторингу
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчетаПоОрганизации
+		ПО ОперацииПоФакторингу.ОбъектРасчетов.ГруппаФинансовогоУчета = ВтСчетаУчетаПоОрганизации.АналитикаУчета
+		И ОперацииПоФакторингу.Организация = ВтСчетаУчетаПоОрганизации.ОрганизацияНастройки
+		И (ВтСчетаУчетаПоОрганизации.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.РасчетыСКлиентами)))
+		ЛЕВОЕ СОЕДИНЕНИЕ ВтСчетаУчета КАК ВтСчетаУчета
+		ПО ОперацииПоФакторингу.ОбъектРасчетов.ГруппаФинансовогоУчета = ВтСчетаУчета.АналитикаУчета
+		И (ВтСчетаУчета.ОрганизацияНастройки = ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка))
+		И (ВтСчетаУчета.ВидСчета В (ЗНАЧЕНИЕ(Перечисление.ВидыСчетовРеглУчета.РасчетыСКлиентами)))
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.битФакторинг КАК РеквизитыФакторинга
+		ПО ОперацииПоФакторингу.Регистратор = РеквизитыФакторинга.Ссылка
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДД.Организация,
+	ДД.Контрагент,
+	ДД.ДоговорКонтрагента,
+	ДД.ОбъектРасчетов,
+	ДД.СуммаРеглНачальныйОстаток,
+	ДД.СуммаРеглКонечныйОстаток,
+	ДД.СуммаРеглПриход,
+	ДД.СуммаРеглРасход,
+	ЗНАЧЕНИЕ(ПланСчетов.Хозрасчетный.ОбеспеченияОбязательствВыданные),
+	ДД.Регистратор,
+	ДД.ПериодСекунда
+ИЗ
+	РегистрНакопления.бг_ОперацииПоФакторингу.ОстаткиИОбороты({&amp;НачалоПериода}, {&amp;КонецПериода}, Авто,,
+		ВидРасчетов = ЗНАЧЕНИЕ(Перечисление.бг_ВидРасчетовПоФакторингу.ПоСуммеУступленногоДолга)
+		{Организация.* КАК Организация} {Контрагент.* КАК Контрагент}
+		{ДоговорКонтрагента.* КАК Договор}) КАК ДД
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ ВЫБРАТЬ
+	ВтРезультат.Организация КАК Организация,
+	ВтРезультат.Контрагент КАК Контрагент,
+	ВтРезультат.Договор КАК Договор,
+	ВтРезультат.ОбъектРасчетов КАК ОбъектРасчетов,
+	ВтРезультат.НачальныйОстаток КАК СуммаНачальныйОстаток,
+	ВтРезультат.КонечныйОстаток КАК СуммаКонечныйОстаток,
+	ВтРезультат.Приход КАК СуммаПриход,
+	ВтРезультат.Расход КАК СуммаРасход,
+	ВтРезультат.СчетУчета КАК СчетУчета,
+	ВтРезультат.Регистратор КАК Регистратор,
+	ВтРезультат.ПериодСекунда КАК ПериодСекунда,
+	ДатыПогашения.ДатаПогашенияВыборка КАК ДатаПогашения
+{ВЫБРАТЬ
+	Организация.*,
+	Контрагент.*,
+	Договор.*,
+	ОбъектРасчетов.*,
+	СуммаНачальныйОстаток,
+	СуммаКонечныйОстаток,
+	СуммаПриход,
+	СуммаРасход,
+	СчетУчета.*,
+	Регистратор.*,
+	ПериодСекунда,
+	ДатаПогашения}
+ИЗ
+	ВтРезультат КАК ВтРезультат
+		ЛЕВОЕ СОЕДИНЕНИЕ ДатыПогашения КАК ДатыПогашения
+		ПО ВтРезультат.ОбъектРасчетов = ДатыПогашения.ОбъектРасчетов
+ГДЕ
+	(ВтРезультат.НачальныйОстаток &lt;&gt; 0
+	ИЛИ ВтРезультат.КонечныйОстаток &lt;&gt; 0
+	ИЛИ ВтРезультат.Приход &lt;&gt; 0
+	ИЛИ ВтРезультат.Расход &lt;&gt; 0)
+{ГДЕ
+	ВтРезультат.Организация.* КАК Организация,
+	ВтРезультат.Контрагент.* КАК Контрагент,
+	ВтРезультат.Договор.* КАК Договор,
+	ВтРезультат.ОбъектРасчетов.* КАК ОбъектРасчетов,
+	ВтРезультат.НачальныйОстаток КАК СуммаНачальныйОстаток,
+	ВтРезультат.КонечныйОстаток КАК СуммаКонечныйОстаток,
+	ВтРезультат.Приход КАК СуммаПриход,
+	ВтРезультат.Расход КАК СуммаРасход,
+	ВтРезультат.СчетУчета.* КАК СчетУчета,
+	ВтРезультат.Регистратор.* КАК Регистратор,
+	ДатыПогашения.ДатаПогашенияВыборка КАК ДатаПогашения}</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<totalField>
+		<dataPath>СуммаКонечныйОстаток</dataPath>
+		<expression>Сумма(СуммаКонечныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстаток</dataPath>
+		<expression>Сумма(СуммаНачальныйОстаток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаПриход</dataPath>
+		<expression>Сумма(СуммаПриход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаРасход</dataPath>
+		<expression>Сумма(СуммаРасход)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаКонечныйОстаток</dataPath>
+		<expression>0</expression>
+		<group>Регистратор</group>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаНачальныйОстаток</dataPath>
+		<expression>0</expression>
+		<group>Регистратор</group>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расчеты по факторингу</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаНачальныйОстаток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаПриход</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаРасход</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаКонечныйОстаток</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>95bd3503-d5aa-45a9-8ad4-82a5e5189e0d</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>424236c9-b0c8-44bb-bf63-2d04c2095194</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>d106ab99-f775-493d-896a-60992eaa06c2</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СчетУчета</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчеты по факторингу</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Контрагент</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Договор</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>СчетУчета</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:item xsi:type="dcsset:StructureItemGroup">
+								<dcsset:groupItems>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>ОбъектРасчетов</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+									<dcsset:item xsi:type="dcsset:GroupItemField">
+										<dcsset:field>ДатаПогашения</dcsset:field>
+										<dcsset:groupType>Items</dcsset:groupType>
+										<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+										<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+										<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+									</dcsset:item>
+								</dcsset:groupItems>
+								<dcsset:order>
+									<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+								</dcsset:order>
+								<dcsset:selection>
+									<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+								</dcsset:selection>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

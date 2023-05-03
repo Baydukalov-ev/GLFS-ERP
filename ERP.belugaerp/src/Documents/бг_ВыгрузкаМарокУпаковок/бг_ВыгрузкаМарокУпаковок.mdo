@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="143589c2-6278-4439-9d44-3f09c08d999e">
+  <producedTypes>
+    <objectType typeId="9ec0d2b3-d59c-4903-84a5-adcd7e49e0a3" valueTypeId="3a4fb5aa-a7a6-40c4-86e4-de1297c8d5aa"/>
+    <refType typeId="49f332c4-2084-4e91-84b1-1a164cae7f82" valueTypeId="4c659a2b-16ba-4f7e-b5a8-6bbd64966d37"/>
+    <selectionType typeId="5842e6af-029e-4588-8b83-5273a12f131a" valueTypeId="a6d5ecff-74e9-439b-8378-aa5169f1d45c"/>
+    <listType typeId="03f709cb-42cf-46b4-a087-7aa70141f55d" valueTypeId="88776369-20be-4d45-82f0-e8c16d14ff16"/>
+    <managerType typeId="2a26d594-6641-4235-9ee9-e08302b6dd6b" valueTypeId="55486c38-20eb-4d43-9645-081ef1d5aecb"/>
+  </producedTypes>
+  <name>бг_ВыгрузкаМарокУпаковок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка марок и упаковок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.бг_ВыгрузкаМарокУпаковок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.бг_ВыгрузкаМарокУпаковок.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.бг_ВыгрузкаМарокУпаковок.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <registerRecords>InformationRegister.бг_СоставУпаковок</registerRecords>
+  <registerRecords>InformationRegister.бг_ДвижениеМарок</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="aadc1085-b261-4e74-bf40-501c653111fb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ed5b30c3-543f-4b67-8e1e-43b80659caed">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f597d6c-11dc-47ba-ad0f-cc810c9816f7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="dec6212a-d180-432e-aabe-e4078fb8e1d8">
+    <producedTypes>
+      <objectType typeId="2599fbdf-5fed-4328-8827-a1c277a932fb" valueTypeId="70c38df4-f49c-44c7-8fbe-9925e27a5c10"/>
+      <rowType typeId="f16c91a7-298a-4e3e-9968-751540a438c3" valueTypeId="8d0f80fb-2329-491c-8259-fd36e761d756"/>
+    </producedTypes>
+    <name>Марки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="56c6f452-20e3-46be-8cbd-f64324b72427">
+      <name>ГУИДМарки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ГУИД марки</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5ce20655-e340-408d-af3b-e6b559fcde8e">
+    <producedTypes>
+      <objectType typeId="55388ef9-39ed-4fa4-b2f8-eaa3a592dd36" valueTypeId="f8a960ef-ccc9-4a86-b884-b18f18075da7"/>
+      <rowType typeId="482bb9b7-63e6-4427-b479-a668fb00742f" valueTypeId="32a9dea7-5e96-4345-81f0-659d044168ce"/>
+    </producedTypes>
+    <name>Упаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковки</value>
+    </synonym>
+    <attributes uuid="3f88aedf-5155-49e9-a968-0d810de0660e">
+      <name>КодУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код упаковки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>26</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

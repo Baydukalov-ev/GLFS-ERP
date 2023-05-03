@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Период</dataPath>
+			<field>Период</field>
+			<role>
+				<dcscom:periodNumber>1</dcscom:periodNumber>
+				<dcscom:periodType>Main</dcscom:periodType>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаНоменклатуры</dataPath>
+			<field>АналитикаУчетаНоменклатуры</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Распоряжение</dataPath>
+			<field>Распоряжение</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Объем</dataPath>
+			<field>Объем</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объем</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АлкогольнаяПродукция</dataPath>
+			<field>АлкогольнаяПродукция</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Алкогольная продукция</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АСИиУКоличествоДалБС</dataPath>
+			<field>АСИиУКоличествоДалБС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>АСИиУ количество дал БС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяФайла</dataPath>
+			<field>ИмяФайла</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя файла</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПриборУчета</dataPath>
+			<field>ПриборУчета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прибор учета</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыпускКоличество</dataPath>
+			<field>ВыпускКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпуск количество</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыпускКоличествоДал</dataPath>
+			<field>ВыпускКоличествоДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпуск количество дал</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВыпускКоличествоДалБС</dataPath>
+			<field>ВыпускКоличествоДалБС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпуск количество дал БС</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АСИиУКоличество</dataPath>
+			<field>АСИиУКоличество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>АСИиУ количество</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АСИиУКоличествоДал</dataPath>
+			<field>АСИиУКоличествоДал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>АСИиУ количество дал</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗапасов</dataPath>
+			<field>ВидЗапасов</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	НАЧАЛОПЕРИОДА(бг_ПоказанияПриборовАСИиУ.Период, ДЕНЬ) КАК Период,
+	бг_ПоказанияПриборовАСИиУ.Регистратор.ИмяФайла КАК ИмяФайла,
+	бг_ПоказанияПриборовАСИиУ.ПриборУчета КАК ПриборУчета,
+	бг_ПоказанияПриборовАСИиУ.Регистратор.Организация КАК Организация,
+	СУММА(бг_ПоказанияПриборовАСИиУ.КоличествоДалБСОкончание - бг_ПоказанияПриборовАСИиУ.КоличествоДалБСНачало) КАК КоличествоДалБС,
+	СУММА(бг_ПоказанияПриборовАСИиУ.КоличествоДалОкончание - бг_ПоказанияПриборовАСИиУ.КоличествоДалНачало) КАК КоличествоДал,
+	СУММА(бг_ПоказанияПриборовАСИиУ.КоличествоОкончание - бг_ПоказанияПриборовАСИиУ.КоличествоНачало) КАК Количество,
+	бг_ПоказанияПриборовАСИиУ.АлкогольнаяПродукция КАК АлкогольнаяПродукция
+ПОМЕСТИТЬ втДанныеАСИиУ
+ИЗ
+	РегистрСведений.бг_ПоказанияПриборовАСИиУ КАК бг_ПоказанияПриборовАСИиУ
+ГДЕ
+	бг_ПоказанияПриборовАСИиУ.СуточныеДанные
+	И бг_ПоказанияПриборовАСИиУ.Период МЕЖДУ &amp;Дата1 И &amp;Дата2
+	И бг_ПоказанияПриборовАСИиУ.Активность
+
+СГРУППИРОВАТЬ ПО
+	НАЧАЛОПЕРИОДА(бг_ПоказанияПриборовАСИиУ.Период, ДЕНЬ),
+	бг_ПоказанияПриборовАСИиУ.Регистратор.ИмяФайла,
+	бг_ПоказанияПриборовАСИиУ.ПриборУчета,
+	бг_ПоказанияПриборовАСИиУ.Регистратор.Организация,
+	бг_ПоказанияПриборовАСИиУ.АлкогольнаяПродукция
+
+ИНДЕКСИРОВАТЬ ПО
+	Период,
+	Организация,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВыпускПродукцииОбороты.Период КАК Период,
+	ВыпускПродукцииОбороты.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+	ВыпускПродукцииОбороты.Организация КАК Организация,
+	ВыпускПродукцииОбороты.КоличествоОборот КАК Количество
+ПОМЕСТИТЬ втВыпускПродукцииОборот
+ИЗ
+	РегистрНакопления.ВыпускПродукции.Обороты(&amp;Дата1, &amp;Дата2, День, ) КАК ВыпускПродукцииОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втВыпускПродукцииОборот.Номенклатура КАК Номенклатура,
+	МАКСИМУМ(ЕСТЬNULL(СоответствиеНоменклатурыЕГАИС.АлкогольнаяПродукция, НЕОПРЕДЕЛЕНО)) КАК АлкогольнаяПродукция,
+	МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Объем, 0)) КАК Объем,
+	МАКСИМУМ(ЕСТЬNULL(КлассификаторАлкогольнойПродукцииЕГАИС.Крепость, 0)) КАК Крепость
+ПОМЕСТИТЬ втДанныеАП
+ИЗ
+	втВыпускПродукцииОборот КАК втВыпускПродукцииОборот
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СоответствиеНоменклатурыЕГАИС КАК СоответствиеНоменклатурыЕГАИС
+			ЛЕВОЕ СОЕДИНЕНИЕ Справочник.КлассификаторАлкогольнойПродукцииЕГАИС КАК КлассификаторАлкогольнойПродукцииЕГАИС
+			ПО СоответствиеНоменклатурыЕГАИС.АлкогольнаяПродукция = КлассификаторАлкогольнойПродукцииЕГАИС.Ссылка
+		ПО втВыпускПродукцииОборот.Номенклатура = СоответствиеНоменклатурыЕГАИС.Номенклатура
+
+СГРУППИРОВАТЬ ПО
+	втВыпускПродукцииОборот.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втВыпускПродукцииОборот.Период КАК Период,
+	втВыпускПродукцииОборот.Номенклатура КАК Номенклатура,
+	втВыпускПродукцииОборот.Организация КАК Организация,
+	втВыпускПродукцииОборот.Количество КАК Количество,
+	втДанныеАП.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	втДанныеАП.Объем КАК Объем,
+	втДанныеАП.Крепость КАК Крепость
+ПОМЕСТИТЬ втВыпускПродукции
+ИЗ
+	втВыпускПродукцииОборот КАК втВыпускПродукцииОборот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ втДанныеАП КАК втДанныеАП
+		ПО втВыпускПродукцииОборот.Номенклатура = втДанныеАП.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втВыпускПродукции.Период КАК Период,
+	втВыпускПродукции.Организация КАК Организация,
+	втВыпускПродукции.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	СУММА(втВыпускПродукции.Количество) КАК Количество,
+	СУММА(втВыпускПродукции.Количество * втВыпускПродукции.Объем / 10) КАК КоличествоДал,
+	СУММА(втВыпускПродукции.Количество * втВыпускПродукции.Объем * втВыпускПродукции.Крепость / 1000) КАК КоличествоДалБС
+ПОМЕСТИТЬ втДанныеВыпуска
+ИЗ
+	втВыпускПродукции КАК втВыпускПродукции
+
+СГРУППИРОВАТЬ ПО
+	втВыпускПродукции.Период,
+	втВыпускПродукции.Организация,
+	втВыпускПродукции.АлкогольнаяПродукция
+
+ИНДЕКСИРОВАТЬ ПО
+	Период,
+	Организация,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(втДанныеВыпуска.Период, втДанныеАСИиУ.Период) КАК Период,
+	ЕСТЬNULL(втДанныеВыпуска.Организация, втДанныеАСИиУ.Организация) КАК Организация,
+	ЕСТЬNULL(втДанныеВыпуска.АлкогольнаяПродукция, втДанныеАСИиУ.АлкогольнаяПродукция) КАК АлкогольнаяПродукция,
+	ВЫРАЗИТЬ(ЕСТЬNULL(втДанныеВыпуска.АлкогольнаяПродукция, втДанныеАСИиУ.АлкогольнаяПродукция) КАК Справочник.КлассификаторАлкогольнойПродукцииЕГАИС).Объем КАК Объем,
+	ЕСТЬNULL(втДанныеАСИиУ.ИмяФайла, НЕОПРЕДЕЛЕНО) КАК ИмяФайла,
+	ЕСТЬNULL(втДанныеАСИиУ.ПриборУчета, НЕОПРЕДЕЛЕНО) КАК ПриборУчета,
+	ЕСТЬNULL(втДанныеВыпуска.Количество, 0) КАК ВыпускКоличество,
+	ЕСТЬNULL(втДанныеВыпуска.КоличествоДал, 0) КАК ВыпускКоличествоДал,
+	ЕСТЬNULL(втДанныеВыпуска.КоличествоДалБС, 0) КАК ВыпускКоличествоДалБС,
+	ЕСТЬNULL(втДанныеАСИиУ.Количество, 0) КАК АСИиУКоличество,
+	ЕСТЬNULL(втДанныеАСИиУ.КоличествоДал, 0) КАК АСИиУКоличествоДал,
+	ЕСТЬNULL(втДанныеАСИиУ.КоличествоДалБС, 0) КАК АСИиУКоличествоДалБС
+ИЗ
+	втДанныеВыпуска КАК втДанныеВыпуска
+		ПОЛНОЕ СОЕДИНЕНИЕ втДанныеАСИиУ КАК втДанныеАСИиУ
+		ПО втДанныеВыпуска.Период = втДанныеАСИиУ.Период
+			И втДанныеВыпуска.Организация = втДанныеАСИиУ.Организация
+			И втДанныеВыпуска.АлкогольнаяПродукция = втДанныеАСИиУ.АлкогольнаяПродукция</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ОтклонениеВБутылках</dataPath>
+		<expression>ВыпускКоличество-АСИиУКоличество</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отклонение в бутылках</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=0</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ОтклонениеВДал</dataPath>
+		<expression>ВыпускКоличествоДал-АСИиУКоличествоДал</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отклонение в дал</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=3</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ОтклонениеВДалБС</dataPath>
+		<expression>ВыпускКоличествоДалБС-АСИиУКоличествоДалБС</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отклонение в дал БС</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=3</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<totalField>
+		<dataPath>АСИиУКоличество</dataPath>
+		<expression>Сумма(АСИиУКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АСИиУКоличествоДал</dataPath>
+		<expression>Сумма(АСИиУКоличествоДал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>АСИиУКоличествоДалБС</dataPath>
+		<expression>Сумма(АСИиУКоличествоДалБС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыпускКоличество</dataPath>
+		<expression>Сумма(ВыпускКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыпускКоличествоДал</dataPath>
+		<expression>Сумма(ВыпускКоличествоДал)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВыпускКоличествоДалБС</dataPath>
+		<expression>Сумма(ВыпускКоличествоДалБС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОтклонениеВБутылках</dataPath>
+		<expression>Сумма(ОтклонениеВБутылках)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Дата1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Дата2</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата2</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сравнение АСИиУ с производством</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АлкогольнаяПродукция.ВидПродукции.Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АлкогольнаяПродукция.Код</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АлкогольнаяПродукция</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АлкогольнаяПродукция.Объем</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИмяФайла</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтклонениеВБутылках</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыпускКоличество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АСИиУКоличество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыпускКоличествоДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АСИиУКоличествоДал</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВыпускКоличествоДалБС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АСИиУКоличествоДалБС</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">АлкогольнаяПродукция</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.КлассификаторАлкогольнойПродукцииЕГАИС.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>9846f6af-dfc7-4329-9e6e-54894bbf8712</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>aee81380-72ea-4d19-a090-c7c8006f6d29</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>48678c2d-61d1-4fce-947b-ecfe3ef2abe3</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>АлкогольнаяПродукция.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПриборУчета</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Период</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

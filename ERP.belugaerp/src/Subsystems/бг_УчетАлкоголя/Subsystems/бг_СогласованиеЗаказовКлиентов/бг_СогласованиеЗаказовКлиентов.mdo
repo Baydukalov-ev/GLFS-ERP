@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="060c3e5b-bd48-4bba-923f-9fefb72d823f">
+  <name>бг_СогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование Заказов клиентов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.бг_НастройкиСогласованияЗаказовКлиентов</content>
+  <content>InformationRegister.бг_НастройкиКорректировкиЗаказовБезСнятияСогласования</content>
+  <content>DataProcessor.бг_СогласованиеЗаказовКлиентов</content>
+  <content>InformationRegister.бг_ДопустимыеОтклоненияЦенEDI</content>
+  <content>InformationRegister.бг_КредитныеЛимиты</content>
+  <content>InformationRegister.бг_ОтсрочкиПлатежаПокупателям</content>
+  <content>InformationRegister.бг_ЛимитыОтгрузкиИОтсрочкиПлатежаTCI</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

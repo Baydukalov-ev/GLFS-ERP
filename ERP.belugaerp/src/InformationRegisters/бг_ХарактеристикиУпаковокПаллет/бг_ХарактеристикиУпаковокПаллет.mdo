@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a803ab2c-5002-4f38-a9c4-64a3a7869512">
+  <producedTypes>
+    <selectionType typeId="75b483b2-cd31-4093-abf3-d761d64f7d91" valueTypeId="ec7e7ec4-50e2-47a8-860e-70c4ceee9c03"/>
+    <listType typeId="26a6f8b2-ce53-464c-b9f9-02ada31f93c6" valueTypeId="714fc125-ef8b-4c83-9947-fadc947461b0"/>
+    <managerType typeId="2b3cb4c9-e670-4992-9b9b-73083b9baf18" valueTypeId="9544c640-2e6d-485e-b84e-477d5a0a903b"/>
+    <recordSetType typeId="9d5f16f3-dab1-4b95-b3f1-c1a8091c2577" valueTypeId="2c901c26-782c-435e-9539-1cde8245bdd6"/>
+    <recordKeyType typeId="ceb9f665-074b-429d-aca4-20eab0e2e9e9" valueTypeId="0eef89a9-443b-4eee-9753-aac260acbb14"/>
+    <recordType typeId="c79e56c4-cf1a-49a1-89e8-6652c613f514" valueTypeId="0e2f166f-46c8-4122-8cd7-9f6d24daf093"/>
+    <recordManagerType typeId="6efd7957-201e-460e-b329-137a7a5c5f26" valueTypeId="069080bc-ad25-4c3c-8e8c-8c41188cfba5"/>
+  </producedTypes>
+  <name>бг_ХарактеристикиУпаковокПаллет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики упаковок паллет (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Характеристика упаковки паллеты</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Характеристика упаковки паллеты</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Характеристики упаковок паллет</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Характеристики упаковок паллет</value>
+  </extendedListPresentation>
+  <resources uuid="d747e15b-3a5d-406f-a1d2-0d5eec885a16">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variant</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Характеристика номенклатурной позиции, которая используется для учета в разрезе варианта палетизации.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Item variant.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>89c162bd-68ef-4693-a4a8-19238fa23c62.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b2d1d464-2d16-4075-a3e9-4c86efbe9964">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Items</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатурная позиция, для которой задается характеристика учета в разрезе варианта палетизации.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Product item</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>190a7469-3325-4d33-b5ec-28a63ac83b06.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e100894b-17a5-4efb-a6db-7a94459c6f11">
+    <name>УпаковкаПаллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pallette</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Упаковка номенклатурной позиции, для которой задается характеристика учета в разрезе варианта палетизации.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Package of product item.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <changeMode>DontChange</changeMode>
+      <field>InformationRegister.бг_ХарактеристикиУпаковокПаллет.Dimension.Номенклатура</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

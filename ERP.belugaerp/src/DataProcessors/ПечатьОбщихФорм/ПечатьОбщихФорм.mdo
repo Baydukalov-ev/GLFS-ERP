@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1d184ca-295d-4277-bbe8-358842f16fa0">
+  <producedTypes>
+    <objectType typeId="c422ea26-e2ce-4b65-825f-4f35d496fa18" valueTypeId="c0eaa47c-1341-48e6-88d7-8297ab3309c4"/>
+    <managerType typeId="eba8fbff-3d59-4504-b228-3b26552a9415" valueTypeId="4be3811a-c3e4-444e-9bc8-9114a1bd81aa"/>
+  </producedTypes>
+  <name>ПечатьОбщихФорм</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="1a5ac952-e510-4b46-aefe-554460da3fb6">
+    <name>ПФ_MXL_ТОРГ12_ОсновнойМакет_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>sy ТОРГ-12</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TORG-12</value>
+    </synonym>
+  </templates>
+  <templates uuid="155fd03e-f7f7-45cc-8e7f-dc86202baca5">
+    <name>ПФ_MXL_ТОРГ12_ОсновнойМакетЭкспорт_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>sy ТОРГ-12 (Экспорт)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TORG-12</value>
+    </synonym>
+  </templates>
+  <templates uuid="7c7cc9b5-aa0f-4838-bc86-9849b64e90a1">
+    <name>ПФ_MXL_УниверсальныйПередаточныйДокумент534Прослеж_ОсновнойМакет_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный передаточный документ - основной (в редакции Постановления № 534) </value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Universal transfer document (as amended by decree No. 534)</value>
+    </synonym>
+  </templates>
+  <templates uuid="a59acfa9-3b36-4141-943e-e7ad0812ab7d">
+    <name>бг_ПФ_MXL_УниверсальныйКорректировочныйДокумент534Прослеж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Универсальный корректировочный документ (в редакции Постановления № 534) (прослеж.)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Universal adjustment document (as amended by decree No. 534) (traceable)</value>
+    </synonym>
+  </templates>
+  <templates uuid="f599ba71-4f34-497f-b02b-647dbafe8fa2">
+    <name>ПФ_MXL_СчетФактура534_ОсновнойМакет_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>sy Счет-фактура</value>
+    </synonym>
+  </templates>
+  <templates uuid="0be52641-775e-4964-b777-a5178adbd6c7">
+    <name>ПФ_MXL_КорректировочныйСчетФактура534_Основной_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>sy Корректировочный счет-фактура</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

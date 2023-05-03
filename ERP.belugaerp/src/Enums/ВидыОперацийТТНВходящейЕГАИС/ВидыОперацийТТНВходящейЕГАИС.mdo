@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f4ea05f0-26a0-4dc8-9d2a-5dfc6f7d79ff">
+  <producedTypes>
+    <refType typeId="e17e1423-e004-477d-8dda-7e6aa3c62677" valueTypeId="9c8c046c-8763-4c6c-81cf-62a9a782625e"/>
+    <listType typeId="af693a74-894d-446d-babd-ee7fa2dc6f38" valueTypeId="86a290f0-3002-4ee2-b09c-df2bb6ce9aa7"/>
+    <managerType typeId="68e78896-c0dc-4618-8f52-261454d333a8" valueTypeId="293f30c2-7d2a-4f69-a8bb-16ae305dd0b2"/>
+  </producedTypes>
+  <name>ВидыОперацийТТНВходящейЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="72f6c7d0-287c-4522-be3e-6132349923d2">
+    <name>ПриходнаяНакладная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d60efcd8-a768-4185-8b11-91214cd4bdec">
+    <name>ВозвратОтПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

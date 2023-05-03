@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4f4ec46-3f28-4ae7-b7c0-28917469e395">
+  <producedTypes>
+    <refType typeId="08bb3153-3909-43d8-8356-f2832f0f1f26" valueTypeId="d6864c35-bc33-43d1-bd1f-3cd0ede4eac7"/>
+    <listType typeId="d1357f3d-06f0-4f74-a52b-41364aced77b" valueTypeId="82a50ce9-1a44-465d-b146-649ba2f677f6"/>
+    <managerType typeId="ea3f4209-e35a-4f3d-90ff-b1c420f145ee" valueTypeId="bcdec2b0-76b5-4343-8689-b71f8bd5303c"/>
+  </producedTypes>
+  <name>бг_ТипыРейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы рейсов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0dfa67db-9e0a-44aa-82d6-7a6654e35fc6">
+    <name>Внутригород</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутригород (прямой)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ab3aef5-0a60-4a7f-8b65-80b3a2624c57">
+    <name>Межгород</name>
+    <synonym>
+      <key>ru</key>
+      <value>Межгород (прямой)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="969f30ad-99f7-4d22-bd6d-18279f7286e8">
+    <name>ПоРегионамТранзит</name>
+    <synonym>
+      <key>ru</key>
+      <value>По регионам (транзит)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46430167-1ac4-4fe1-b20f-af386e4a65d6">
+    <name>ПоРегионамКомбинированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>По регионам (комбинированный)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2dacc83-6574-4e1a-92b7-0a2901f8f026">
+    <name>ПоРегионамПоследняяМиля</name>
+    <synonym>
+      <key>ru</key>
+      <value>По регионам (последняя миля)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7c831c1c-c93c-4bce-a631-d6538370f2c2">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63aef124-069d-40eb-8d63-ee9c901e1cb1">
+    <name>Кругорейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кругорейс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

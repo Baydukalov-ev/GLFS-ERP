@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="199d694f-3c48-4c62-bf0e-cda68a1abd1e">
+  <producedTypes>
+    <objectType typeId="44b787e4-1a11-4523-87e3-220cd9b06eaa" valueTypeId="59434b45-af07-4d24-8346-abd7117afd09"/>
+    <refType typeId="69e00aa6-8b40-453f-8686-195bb1a5fec6" valueTypeId="2520009a-5574-46f1-ac4b-7637349827c6"/>
+    <selectionType typeId="9e3459ff-f6a0-4b39-999d-b7b9457d462e" valueTypeId="3d2333f6-1a9c-4439-a8ce-a3bf7a0be75a"/>
+    <listType typeId="4ff31333-2621-4e5c-92a7-9f6d45363866" valueTypeId="5bcbe82f-b4aa-493b-9abd-e190a165413d"/>
+    <managerType typeId="f71999f4-b0af-4524-8930-ce34745e5f7e" valueTypeId="5e6a0669-b1b5-4fd8-aac4-75a86128d3e0"/>
+  </producedTypes>
+  <name>ЗаявкаНаРасходованиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="562263ba-fa31-49c5-8ede-bba1ec23129a">
+    <name>бг_БанковскийСчетФактора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет фактора</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.БанковскиеСчетаКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3dead48d-f816-4171-ba34-78d477177da1">
+    <name>бг_НомерЗаявкиМагистраль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер заявки (Магистраль)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54008093-29f4-4eee-95c1-5354ed5b0854">
+    <name>бг_СтатусЗаявкиМагистраль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус заявки (Магистраль)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72ee1923-ec2f-420a-9175-eb0d20f04b61">
+    <name>ДатаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="d661bfef-d92d-4e53-ade6-70bc4a9f8fea">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="9cb18841-f8e4-4655-b227-aa295688ab27">
+    <producedTypes>
+      <objectType typeId="876bae50-b764-4761-8cec-19279b1ad312" valueTypeId="52988734-7443-43ba-99d9-e7776786c207"/>
+      <rowType typeId="e4d47751-457e-4c70-959c-79d07dda4375" valueTypeId="871a3590-be2d-44bb-b368-c02d820b84a8"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="97a90fb4-fd27-4435-aaf0-855922c2a5cf">
+      <name>ВалютаВзаиморасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Валюты</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="07c40d6d-b0eb-4a8f-92ef-30c1b5e104b2">
+      <name>ОбъектРасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ОбъектыРасчетов</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="10c18585-56ff-4ba1-9d9e-0b2a31234ff4">
+      <name>СтатьяДвиженияДенежныхСредств</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СтатьиДвиженияДенежныхСредств</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="2fed4642-970f-4eac-8c16-d1cda7964678">
+      <name>Сумма</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="6d43f747-76bb-40a4-83a0-2c37d13419b0">
+      <name>СуммаВзаиморасчетов</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

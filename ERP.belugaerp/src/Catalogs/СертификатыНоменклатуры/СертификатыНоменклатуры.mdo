@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3fc3987b-d8f6-4381-868d-66da342a11d8">
+  <producedTypes>
+    <objectType typeId="d30ec36d-1174-489d-a16a-9725cdd3a712" valueTypeId="d1cd3ba1-f51d-4960-a424-df787ccb0103"/>
+    <refType typeId="51343d18-d40a-4f67-978d-dcacc313f0b9" valueTypeId="0f952a3f-c684-4b42-a1a9-2b6d1ffc3784"/>
+    <selectionType typeId="de8a5088-1cc1-4d4b-9fe1-2be216a26a4d" valueTypeId="67fa788f-b137-4a0e-867e-c67fe39dec5a"/>
+    <listType typeId="68c1854a-8f9d-42b0-a4d1-10b2b3f0e358" valueTypeId="c098aa96-3309-456e-bf00-ef978f0bdf3a"/>
+    <managerType typeId="ca4d79e3-bf3f-4af6-969c-46fc7922b986" valueTypeId="7a6baa4e-ed90-46ee-aef3-fe4f401dfc52"/>
+  </producedTypes>
+  <name>СертификатыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="788d1a76-d937-4eea-a39c-72ad8eabcb0d">
+    <name>бг_УдалитьАдресФайлаСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес файла декларации</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d20eb64-5412-48c4-b154-ef19f7166928">
+    <name>бг_ВладелецСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец сертификата</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Организации</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="66ce9544-9268-4379-b77f-e30ab3ea77b9">
+    <name>Бессрочный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d743abe8-ec24-4da5-948c-2b65850f4b31">
+    <name>ДатаНачалаСрокаДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b413311f-361a-448d-aba0-e69d024b067e">
+    <name>ДатаОкончанияСрокаДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="c2147e54-be0f-41bc-aca9-b7d57a7c030a">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтатусыСертификатовНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="637c7888-5c27-4c5a-a4c8-f44aa731f537">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension/>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="4139aa49-cc55-4455-af28-ad47126cf6ca">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="70c2a7be-9629-4e00-9df1-d13982fcc833">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

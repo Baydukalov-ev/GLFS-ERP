@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7d8ede-c13d-46cc-9604-787ca1c9b959">
+  <name>бг_ИспользованиеОбработкиИзменитьНоменклатуруВыпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки изменить номенклатуру выпуска</value>
+  </synonym>
+</mdclass:Role>

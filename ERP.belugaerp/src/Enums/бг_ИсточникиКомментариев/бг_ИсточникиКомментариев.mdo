@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7126f1c-f0c2-448d-8b34-c44d37534ce6">
+  <producedTypes>
+    <refType typeId="0babd254-d21a-4775-8f21-ec4250c03422" valueTypeId="befc68bd-c1ec-4bdf-aeb2-c6fca7cd3f1d"/>
+    <listType typeId="33172394-289b-41ec-af92-f0e133269362" valueTypeId="1c3f8bcb-5ba7-4ecf-9ccc-03c345f613d6"/>
+    <managerType typeId="18784b26-2298-4e3a-bcdb-c0998935c311" valueTypeId="dfb2ec93-a53b-461d-986b-5258c4e60a3c"/>
+  </producedTypes>
+  <name>бг_ИсточникиКомментариев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники комментариев</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="07b0bcf0-2103-428e-bc48-850acfdc6bf3">
+    <name>Координатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Координатор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abba3906-37b6-4234-ade5-1d1c36ffe255">
+    <name>ТорговыйПредставитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Торговый представитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

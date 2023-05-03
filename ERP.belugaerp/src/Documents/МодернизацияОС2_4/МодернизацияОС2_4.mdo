@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8264cf9a-5f71-4dca-964c-92bdea3f1c91">
+  <producedTypes>
+    <objectType typeId="205103c4-8b5e-4345-bd11-55145b708a5e" valueTypeId="2444daac-e6b1-412d-82ae-18758e1cfbcb"/>
+    <refType typeId="e6425025-9e0d-4d55-a10d-9881616cce3c" valueTypeId="ca94b612-1e35-4409-b39e-34a50161ec0c"/>
+    <selectionType typeId="0b18528c-0e2d-44e2-8189-04a2397899f0" valueTypeId="a9c85af4-fffd-4aa2-8291-bf8c5c41b4c1"/>
+    <listType typeId="e4d879fa-1263-4177-859b-f98058657e4e" valueTypeId="763e853a-a550-4915-ba12-2c11bbaf7609"/>
+    <managerType typeId="e5b70ff7-e0f6-4348-934f-f6f18ffa47eb" valueTypeId="248c3bfb-23ee-469a-87e3-854cf0b2deba"/>
+  </producedTypes>
+  <name>МодернизацияОС2_4</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

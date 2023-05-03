@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b15a88ea-3b9c-485a-891e-0892eb0ea088">
+  <producedTypes>
+    <selectionType typeId="19767b97-dc87-4833-97b2-57ac41e2260c" valueTypeId="b49a2b55-c500-4923-8c43-60308cc1ad24"/>
+    <listType typeId="046ade92-ab1b-46cd-8b69-b1a7c85b2de1" valueTypeId="8ce21cb2-72cd-41a8-b5bb-c0cae75a4f3a"/>
+    <managerType typeId="48d45431-b21e-4f3b-a478-72fd554bb79b" valueTypeId="09eea4e6-82ee-4c94-adc1-6128b5f45a3a"/>
+    <recordSetType typeId="a9b8a313-6cc7-4a19-ad72-5d965a66b6cb" valueTypeId="05d1d2d0-c063-445e-b9db-59e2be0a609b"/>
+    <recordKeyType typeId="75c57a8e-3f48-4693-b51c-bc3a53e73966" valueTypeId="34e0279e-afe4-4f0a-8a56-45e0e91dff10"/>
+    <recordType typeId="f649d0be-2f1f-4b72-894d-b7244e41884f" valueTypeId="68706944-fff9-4c0b-847d-0af8dde4439c"/>
+    <recordManagerType typeId="bc60c612-9113-45ae-82d1-cee8786fc8ba" valueTypeId="709e3af0-4758-4400-b79c-cc0da7bcd617"/>
+  </producedTypes>
+  <name>ДатыЗапретаИзменения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="dcf8a78d-152a-428c-b547-b6e6f6546a1f">
+    <name>ДатаЗапрета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <attributes uuid="f94a333f-11b6-4a8a-858e-3d73fbff3ddf">
+    <name>ОписаниеДатыЗапрета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9905881d-987b-4086-8387-25643b07fb60">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <dimensions uuid="20b72a55-aee2-48f4-80c5-037bd2a11454">
+    <name>Раздел</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="93eba2aa-3371-4824-b46e-5eebb77c0e55">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.РазделыДатЗапретаИзменения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="89b927fa-6e1a-405e-949a-f7659c655c7d">
+    <name>Пользователь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.АдресатЗапретаИзменения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

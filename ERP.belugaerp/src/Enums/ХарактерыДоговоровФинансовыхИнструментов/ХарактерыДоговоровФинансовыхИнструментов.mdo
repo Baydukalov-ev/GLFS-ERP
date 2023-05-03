@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="87c01ead-f854-4876-88b5-363f59696c46">
+  <producedTypes>
+    <refType typeId="c4358b73-2719-431b-a211-5d6480cd8262" valueTypeId="80b7d890-e858-43bc-9e55-d1991ccdc2f9"/>
+    <listType typeId="24b48996-d2d4-4665-84cb-8ce5400ffc76" valueTypeId="32faf0c4-b0cf-4508-98f7-f4edb194d194"/>
+    <managerType typeId="1ef3c00e-83e9-4a72-b7de-6fb1b4d4baa3" valueTypeId="29ff9114-d2de-4778-9601-2d7a853c5b9a"/>
+  </producedTypes>
+  <name>ХарактерыДоговоровФинансовыхИнструментов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="abb5014a-cf59-4807-b6a6-63d7c408ed1f">
+    <name>КредитИлиЗайм</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2398ca65-e6c8-4055-a18d-ce1f1e7a9977">
+    <name>Депозит</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="571ef671-0db6-4325-a06e-fc4425d621d0">
+    <name>ЗаймВыданный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

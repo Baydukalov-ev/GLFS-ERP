@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74abd02a-e71f-406e-aa3c-ebf7a5186fd6">
+  <name>бг_ЭтапПроизводства2_2Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этап производства 2.2 (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

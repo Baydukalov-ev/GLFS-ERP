@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3838e23-f9f4-42ce-b930-0f55cd8ef98d">
+  <producedTypes>
+    <objectType typeId="b1e39459-f1f6-4d70-bb46-98523c506fc7" valueTypeId="00fd3cf7-4687-4cd2-824f-af6a983c902d"/>
+    <managerType typeId="92106a20-4545-48e0-8cb0-bb8d6d103af9" valueTypeId="d81a5211-b5cf-4e92-898d-0d0246764e67"/>
+  </producedTypes>
+  <name>бг_ГрупповаяЗаменаНоменклатурыВЗаказахКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая замена номенклатуры в заказах клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ГрупповаяЗаменаНоменклатурыВЗаказахКлиента.Form.Форма</defaultForm>
+  <tabularSections uuid="eaa329bc-fd8e-4da1-afcc-d3da352363f5">
+    <producedTypes>
+      <objectType typeId="5cbfb99f-8769-42cf-a07d-2621b84d8674" valueTypeId="4937a6d1-c95e-448e-bac1-88bb039b59ef"/>
+      <rowType typeId="73000376-9654-4c5e-94af-e58558be7df0" valueTypeId="6c3a7752-e807-4d19-8fd9-a4e340ff4d05"/>
+    </producedTypes>
+    <name>СписокЗаказовКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список заказов клиента</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2c865509-21a6-4612-b09b-b6c8249c5849">
+      <name>ЗаказКлиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ клиента</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a7d76ec5-ff16-4f2f-8a1a-5958410ffdc3">
+    <producedTypes>
+      <objectType typeId="6e215291-b7c2-44b2-9cc1-63dbc1491ecf" valueTypeId="67c875b6-ea98-4d38-a189-d02b92938b9a"/>
+      <rowType typeId="4ed18543-d98c-4c99-a598-55f0c0d7dbfb" valueTypeId="b1181ebb-14d8-44b3-81b4-3c194f01e3b3"/>
+    </producedTypes>
+    <name>СписокЗаменыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список замены номенклатуры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="bb31083c-71bc-478b-a43f-d5bba7becd6f">
+      <name>НоменклатураИсходная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура (исходная)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="df809e0e-3dd4-4df6-a2f2-4449b948423e">
+      <name>НоменклатураЗамена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура (замена)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3e10dc99-f9df-462a-b911-48180c63b161">
+      <name>УпаковкаПаллетаИсходная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка паллета (исходная)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.бг_ГрупповаяЗаменаНоменклатурыВЗаказахКлиента.TabularSection.СписокЗаменыНоменклатуры.Attribute.НоменклатураИсходная</field>
+      </choiceParameterLinks>
+      <choiceForm>Catalog.УпаковкиЕдиницыИзмерения.Form.ФормаВыбораИзДокументов</choiceForm>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="866987df-be8d-4e5e-8b61-891796e753a7">
+      <name>УпаковкаПаллетаЗамена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Упаковка паллета (замена)</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Номенклатура</name>
+        <changeMode>DontChange</changeMode>
+        <field>DataProcessor.бг_ГрупповаяЗаменаНоменклатурыВЗаказахКлиента.TabularSection.СписокЗаменыНоменклатуры.Attribute.НоменклатураЗамена</field>
+      </choiceParameterLinks>
+      <choiceForm>Catalog.УпаковкиЕдиницыИзмерения.Form.ФормаВыбораИзДокументов</choiceForm>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c1178f82-870a-43e7-a3a9-f31ff80b3891">
+    <producedTypes>
+      <objectType typeId="4ac63262-eb1c-4811-bb65-a2399b8b5ef6" valueTypeId="13c21d0d-5374-49cf-90cc-5cc500c17181"/>
+      <rowType typeId="b2502537-5874-4559-a948-7bae909f2b17" valueTypeId="383d34ad-b5e2-4d91-93e2-8a4c7a91fda1"/>
+    </producedTypes>
+    <name>СписокЗаказовРазрешенныхДляИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список заказов разрешенных для изменения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1d42bd59-5972-430a-b389-6098ef7f3346">
+      <name>ЗаказКлиента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ клиента</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5de76934-85b4-4578-b6f8-357a80d62106">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="56550de8-4eb3-46ca-9a33-95d00fcee138">
+    <name>ГрупповаяЗаменаНоменклатурыВЗаказахКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Групповая замена номенклатуры в заказах клиента</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

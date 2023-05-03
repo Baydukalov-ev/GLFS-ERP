@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a9e30cd-8837-4102-8030-23af00bd7e85">
+  <name>бг_ИспользованиеОбработкиЗагрузкаДатДоставкиВДокументРейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки загрузка дат доставки в документ рейс</value>
+  </synonym>
+</mdclass:Role>

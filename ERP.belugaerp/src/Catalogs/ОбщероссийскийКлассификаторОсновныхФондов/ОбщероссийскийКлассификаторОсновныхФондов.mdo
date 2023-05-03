@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3bdbfad7-a426-4040-b18e-a4e1d5975530">
+  <producedTypes>
+    <objectType typeId="e8dc23e0-4712-4100-95a9-8e23f066c632" valueTypeId="70aaca1c-0713-474d-9499-592fdfdddb5d"/>
+    <refType typeId="7711394c-97fd-4f62-bc5d-396c824d43c5" valueTypeId="1ca8caeb-a65e-4924-9923-4b6d9a9ec806"/>
+    <selectionType typeId="8fe54c62-dde2-42ba-a377-100c6adddcf1" valueTypeId="935e1d4e-5e6c-4943-9503-2a9f38681018"/>
+    <listType typeId="1eed20eb-650f-4bd9-ac92-06491974e7df" valueTypeId="5e94dd36-5168-4ac9-89c5-7319eece46bf"/>
+    <managerType typeId="39baba5f-e776-42dd-80b2-93d1196475c5" valueTypeId="bdd3eb94-8e8d-4012-9359-498db646b5d6"/>
+  </producedTypes>
+  <name>ОбщероссийскийКлассификаторОсновныхФондов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b8bfb38f-7ce3-4382-9ba5-4c83f4de3e92">
+  <producedTypes>
+    <refType typeId="268f483f-9ab4-4476-bf15-c5ff80803cc8" valueTypeId="369969ac-dbee-420c-b7f9-9e52604ab714"/>
+    <listType typeId="b2723283-9684-47a3-93b8-86c0e16314a1" valueTypeId="aa023491-f729-4950-8bc0-be99f04ff106"/>
+    <managerType typeId="ca6fa84c-4219-4435-a512-bef3317063b7" valueTypeId="b4945713-2d24-4e31-8ee3-47141c1ba08c"/>
+  </producedTypes>
+  <name>БалансодержательПредметовАренды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="253720ba-2ba9-46ce-b825-b18dffec7817">
+    <name>Арендатор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="522f2bef-6a14-454b-a3e2-9160bf9141ad">
+    <name>Арендодатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

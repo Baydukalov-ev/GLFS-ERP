@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b44495a8-5bcf-4514-9470-fe0edb812bfa">
+  <producedTypes>
+    <objectType typeId="4bba1bc2-8d71-43c2-a696-0956bcbee71b" valueTypeId="eedae8b5-02e8-4362-9679-060571c0f111"/>
+    <refType typeId="644bd115-422b-4c79-b99b-cecd4303307d" valueTypeId="11e19a09-7016-49e2-a138-da9388bb853b"/>
+    <selectionType typeId="5621e800-05ca-432d-ab24-12019becec96" valueTypeId="6376c8ce-1b22-4e34-9b86-548d648e80fe"/>
+    <listType typeId="08c9b3e5-b163-439e-934a-0d0f0301fdd0" valueTypeId="1d287eca-2906-47d1-9ebe-d34f7c4a9718"/>
+    <managerType typeId="730ccaa9-f97a-42ea-887e-a72d567ca848" valueTypeId="42704305-9fde-4655-abaf-0b9c1f8eac01"/>
+  </producedTypes>
+  <name>Сторно</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <attributes uuid="ffa6e2e9-018b-45b7-b15b-526e9696f9fe">
+    <name>Автор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="262f1044-203d-4b09-b24c-bc2ffbb961c5">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="030ac711-5819-40e0-b134-c58d64b5ffc5">
+    <name>СторнируемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ИсправляемыеДокументы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="820323ac-4d50-49c0-aa02-ada8665ce0fa">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="836f64a4-e23b-4ac9-91bd-429ffffd23ad">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="29b48080-8b31-43c3-a93e-490a5298c196">
+    <producedTypes>
+      <objectType typeId="4dcaf441-e69c-4d82-b848-8ca4f42956d9" valueTypeId="8e2d782e-bb59-459b-924d-e89c4d282dad"/>
+      <rowType typeId="1a7f824b-d9ea-4084-9d10-9d1f47175687" valueTypeId="e2426faf-d7de-4185-8ea4-682cf97e5285"/>
+    </producedTypes>
+    <name>бг_РегистрыДвижений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистры движений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Registers table</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6e3db59e-54e2-4b72-8d2b-0335a7fb363f">
+      <name>ИмяРегистра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя регистра</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя регистра, которому скорректированы записи.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Name of the register which entries are adjusted</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a24fcb65-4fc5-4a0c-885a-23acefab70fb">
+      <name>ДвиженияСкорректированы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Движения скорректированы</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

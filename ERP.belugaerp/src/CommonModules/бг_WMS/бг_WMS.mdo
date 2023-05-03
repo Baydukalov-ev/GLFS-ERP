@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef87b7b5-b702-4ccd-b5e9-7f5e0a0fcb8c">
+  <name>бг_WMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMS</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

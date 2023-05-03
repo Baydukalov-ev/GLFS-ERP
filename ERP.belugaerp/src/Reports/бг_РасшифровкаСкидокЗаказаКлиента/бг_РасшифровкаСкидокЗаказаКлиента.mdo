@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="864647de-c493-4327-ae9f-bec26e7dae89">
+  <producedTypes>
+    <objectType typeId="a3fe3bf9-845a-4f34-b50c-2010516511be" valueTypeId="d7e66b9f-b5f8-4726-8a6f-d1f2097876d3"/>
+    <managerType typeId="a762b334-a55d-4c50-b4ca-a06e6f1ea805" valueTypeId="16a23b7a-9ef1-4915-9ced-2b500c4e3be5"/>
+  </producedTypes>
+  <name>бг_РасшифровкаСкидокЗаказаКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка скидок заказа клиента</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_РасшифровкаСкидокЗаказаКлиента.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="276d96ca-774b-48d1-b38c-232bbd5e56f0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

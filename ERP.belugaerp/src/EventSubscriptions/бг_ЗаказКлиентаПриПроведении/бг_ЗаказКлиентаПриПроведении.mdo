@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7438cf81-0acd-4ff4-96ac-897b49097ecd">
+  <name>бг_ЗаказКлиентаПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ клиента при проведении</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ЗаказКлиента</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.бг_ЗаказыКлиентов.ЗаказКлиентаПриПроведении</handler>
+</mdclass:EventSubscription>

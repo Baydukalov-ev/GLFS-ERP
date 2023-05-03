@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="effa555a-056a-4e0a-a4c3-66d0213a7cbb">
+  <name>бг_ДобавлениеИзменениеРасстоянийДоПунктовВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение расстояний до пунктов выгрузки</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb8a47dd-5d32-49a4-8160-b11544e75b70">
+  <producedTypes>
+    <objectType typeId="46b43a1d-11ed-45a4-a9ee-a85d6ec89cfd" valueTypeId="b138979b-872b-4851-b33e-7b9461099984"/>
+    <managerType typeId="9e8cb8d8-6802-4519-8424-ae9f358af6e3" valueTypeId="b2924497-a2c1-484d-972f-4c46bb17c45b"/>
+  </producedTypes>
+  <name>бг_АктуализацияДвиженийПоАкцизам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуализация движений по акцизам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_АктуализацияДвиженийПоАкцизам.Form.Форма</defaultForm>
+  <forms uuid="aecf66ea-ed38-4d9f-9b29-d12447aeda6e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f577a65f-22fc-4276-8e3c-544d3eb00088">
+  <producedTypes>
+    <refType typeId="4bb42727-3037-449c-9339-14076a35740b" valueTypeId="f09426cc-5ad7-4456-b5f5-4382e92df6ee"/>
+    <listType typeId="dab8eab2-17e9-42fa-97eb-e8d10054b301" valueTypeId="471df1d1-87ba-4526-9adf-ec1594832de7"/>
+    <managerType typeId="e64e7262-971f-4b80-93d7-47b4fd37b34b" valueTypeId="08785c82-7579-48c3-a364-e8e92f0e6cb7"/>
+  </producedTypes>
+  <name>ВариантыРаспределенияРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="4c8de48b-d32e-4df1-b7b7-d911b0938132">
+    <name>НаВнеоборотныеАктивы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e10d61b9-bb2b-4b9c-96b4-da5748bcb884">
+    <name>НаНаправленияДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b277c4ad-2c81-4c79-9f9c-0763c582f0f8">
+    <name>НаОбъектыВозникновенияЗатрат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3e3ada5a-0017-4775-9ed0-adff751bb7c3">
+    <name>НаПроизводственныеЗатраты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="08b5fa7f-b98b-49a1-9847-99756096639f">
+    <name>НаРасходыБудущихПериодов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="dc7aacb4-c053-432a-8080-795a0e480a94">
+    <name>НаСебестоимостьПродаж</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3c88e5f6-317a-4ce4-9309-e2eca1390370">
+    <name>НаСебестоимостьПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8fbca480-de7f-4f7a-8d3c-e15d5c30bbf7">
+    <name>НаСебестоимостьТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5d0ef942-0e3f-4e8b-91f7-d4d19e54742e">
+    <name>НеРаспределять</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

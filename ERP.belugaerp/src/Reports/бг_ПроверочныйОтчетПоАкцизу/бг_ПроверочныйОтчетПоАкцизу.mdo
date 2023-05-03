@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40ce40f0-42bc-4cec-8f0e-40dad7ce7ee9">
+  <producedTypes>
+    <objectType typeId="ecad92f1-ab5b-4e65-a455-fc8929a113f0" valueTypeId="b5bfae06-804b-4517-ae36-4c4916703062"/>
+    <managerType typeId="ac687db0-0b6c-49b6-8c22-538d487a1233" valueTypeId="7d770a4d-21c8-48e5-9b90-2467606500de"/>
+  </producedTypes>
+  <name>бг_ПроверочныйОтчетПоАкцизу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверочный отчет по акцизу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ПроверочныйОтчетПоАкцизу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f8e4d54c-97e4-4a10-916e-dd4bab5bac5a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

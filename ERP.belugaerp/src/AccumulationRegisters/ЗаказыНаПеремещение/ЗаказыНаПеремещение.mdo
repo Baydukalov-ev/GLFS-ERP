@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4b6cf672-2609-468d-b4f1-4c99d1c6dd4a">
+  <producedTypes>
+    <selectionType typeId="422bf8f2-5662-4ea4-aff7-3ec86efc840f" valueTypeId="4cafd904-b158-4e75-a16d-debbc9d54f1f"/>
+    <listType typeId="2cee4dbb-7628-404f-a5dc-d28e9f32e727" valueTypeId="dba8f399-248c-486c-82a4-6e3adf55dd35"/>
+    <managerType typeId="676edbf6-50f8-4cef-b74f-2d14f658c1fe" valueTypeId="cc007035-0935-4d53-97be-a81406d24b03"/>
+    <recordSetType typeId="5acbad39-2d56-4415-8a64-d41464bc4753" valueTypeId="ad7d10f3-361d-40c2-a265-042391e7ad4f"/>
+    <recordKeyType typeId="3ec581ee-f4f6-44e3-8941-3b22231fffb4" valueTypeId="64622d7c-2a5c-46d2-bf24-bfad7e4efd1c"/>
+    <recordType typeId="6e6cc40d-fca8-41c1-8d6e-a2b364b78d42" valueTypeId="27328478-338d-4541-9c5d-4aa42f1449c8"/>
+  </producedTypes>
+  <name>ЗаказыНаПеремещение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <resources uuid="c53c4c4d-afd4-484f-aa7b-7cd9d7bed787">
+    <name>Заказано</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="4c77658f-ae53-4af8-8133-5fd8c8b1a912">
+    <name>ЗаказНаПеремещение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказНаПеремещение</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="ae1f0d31-0159-4626-b199-5131969b86cd">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

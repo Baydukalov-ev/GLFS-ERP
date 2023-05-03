@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e18d7c90-3a05-4ddc-89cb-2a85c34832d1">
+  <producedTypes>
+    <selectionType typeId="6ccec3b3-b765-4ec5-8feb-42d06f9189c8" valueTypeId="aea5b873-b348-4a5c-bf43-9d089c7d584b"/>
+    <listType typeId="39ccf6db-82ff-4308-9083-f07dbbcb691e" valueTypeId="5defd279-e27f-41d8-92e8-81e2acfff831"/>
+    <managerType typeId="1b72d66b-58c5-4516-9164-a5838f5ebb31" valueTypeId="9e6b5bc2-0b09-4b1b-943a-2d87e8d89f27"/>
+    <recordSetType typeId="d787f8c2-5f1f-4f63-b1d2-825170f2800b" valueTypeId="f24fb818-75b5-42e1-ba20-b6602c082d37"/>
+    <recordKeyType typeId="1df79553-42c2-41e5-99f0-02d4e4af40d0" valueTypeId="1b44a434-2b63-4fce-8987-6808a4e02d5c"/>
+    <recordType typeId="123ae15c-3c7d-4cf7-b62a-a5aff4572b0a" valueTypeId="4d9673a9-b9b5-4082-8e80-56974b521e06"/>
+    <recordManagerType typeId="70f06e22-3474-4547-84c2-6dbfd5d17e56" valueTypeId="e1e70a5a-0c87-4292-a573-41455c79f6cb"/>
+  </producedTypes>
+  <name>ПорядокУчетаОСБУ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="bfa9f42e-3619-47a9-9338-b02908ac462f">
+    <name>АмортизационнаяГруппа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.АмортизационныеГруппы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+</mdclass:InformationRegister>

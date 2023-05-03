@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab16b491-1450-40f0-a6eb-549334f17150">
+  <producedTypes>
+    <selectionType typeId="b0936c74-25bb-4ba4-8f79-4d1469e72c5a" valueTypeId="9f1307c4-17f0-4ba5-ad30-10c695b18514"/>
+    <listType typeId="e3132309-0e56-41a8-8517-128ffbbc0247" valueTypeId="b169b80c-4c2e-4496-bbc6-e04518135e0b"/>
+    <managerType typeId="dcc646b2-1b88-47fe-a5e5-4728a0cb5ae2" valueTypeId="9fc3624b-8f34-453f-8392-af4f1f404acc"/>
+    <recordSetType typeId="43cd3801-d50c-4419-8400-98f79bc1392c" valueTypeId="e29b8d8e-a188-4d65-b818-1a131754c3ab"/>
+    <recordKeyType typeId="d8c900ab-18a4-4d80-a42c-9277505bf115" valueTypeId="3770e9a6-ae49-4991-8213-edc3e4971b29"/>
+    <recordType typeId="51ec704c-bb66-4973-9c75-ca0bad6ab443" valueTypeId="819d12a5-5155-4f3f-884d-26c35f825d8b"/>
+    <recordManagerType typeId="99750ac1-316d-4cf8-ba01-8ea63b2339d7" valueTypeId="295ea5da-fbda-4ed9-8fa4-2d3467515c5b"/>
+  </producedTypes>
+  <name>бг_ТарифыПРР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы ПРР</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="49260648-ed8d-4c49-a31c-126ad2b58029">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="a1e6d821-f3c6-4ae2-9225-283742453983">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="33e636bd-777a-40df-9731-b5ae4e3ac9eb">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="31f4f759-4311-4cee-b72b-967219ac1068">
+    <name>КлассГрузоподъемности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тоннаж а/м для раздела</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_КлассыГрузоподъемностиТС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80be5b1a-9f0d-48f9-abf1-23562a574097">
+    <name>ВидПРР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ПРР</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ВидыПРР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

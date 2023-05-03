@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a455435a-955e-4a35-984e-28f141fcd940">
+  <producedTypes>
+    <refType typeId="89ccd324-a01a-49e4-80b1-9010862e0ece" valueTypeId="f1cb4f5c-8548-4487-bbf3-e8a58f182633"/>
+    <listType typeId="f4fd7736-f0e0-4ae3-964e-9fde90621e04" valueTypeId="dcc44a89-a819-457e-9c32-b78f2f6dd354"/>
+    <managerType typeId="cc1f5968-512e-48eb-ab63-35a97c70c7e1" valueTypeId="c77651a9-cac7-4ad8-80f4-7cf517efb46e"/>
+  </producedTypes>
+  <name>бг_ТипыОтгрузкиWMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отгрузки WMS</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d8f6fca6-fc2b-4fda-9561-8a68bef57510">
+    <name>ОптовыйЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптовый заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eaa62307-c62c-4a13-83a5-8c948ce8c9c5">
+    <name>ИнтернетЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет-заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="feaabb1a-1b00-450a-9985-a68c342735b1">
+    <name>ПродажаЧерезМагазин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа через магазин</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

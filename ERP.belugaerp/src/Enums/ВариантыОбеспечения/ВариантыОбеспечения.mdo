@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67ca649c-547c-4572-9bc1-770484778d9a">
+  <producedTypes>
+    <refType typeId="54e45e3e-c7e5-4dbc-bc48-d34363d416c4" valueTypeId="b5480813-cdf9-4ee5-bdcc-0fcd2e6bd7a5"/>
+    <listType typeId="e1f968c2-e6d1-4654-9bf5-f5a96c9d9595" valueTypeId="6ee04c5a-281b-4cba-ac7d-51b6cf240e66"/>
+    <managerType typeId="7ce2cbde-c858-4302-86b4-3f25424e9adf" valueTypeId="5cc543f3-3e07-438a-990e-b4869299c512"/>
+  </producedTypes>
+  <name>ВариантыОбеспечения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e074f430-a1e5-4d00-b969-7965d8a9e8f9">
+    <name>КОбеспечению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5c8a53fd-5b00-4a77-abfd-100db6108734">
+    <name>НеТребуется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e101140c-1493-4f72-b7c5-482ccc9ec860">
+    <name>Отгрузить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e9009834-100a-4f33-a157-2bd509cf84a6">
+    <name>СоСклада</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d91be467-8308-4dba-8ac4-96875ff08e3d">
+    <name>РезервироватьПоМереПоступления</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

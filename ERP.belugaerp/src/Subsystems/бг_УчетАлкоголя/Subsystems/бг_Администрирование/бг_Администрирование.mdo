@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca9020dc-6bb4-4376-9556-3db80f82344e">
+  <name>бг_Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ и администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.бг_ЗначенияДополнительныхКонстант</content>
+  <content>InformationRegister.бг_НастройкаСозданияРеализацийНаОснованииПоступлений</content>
+  <content>InformationRegister.бг_ТранспортнаяИнформация</content>
+  <content>Catalog.бг_ВидыПеревозки</content>
+  <content>InformationRegister.бг_НастройкиЗагрузкиПриостановленныхЛицензий</content>
+  <content>InformationRegister.бг_ОбъектыДляОтложеннойОбработки</content>
+  <content>Catalog.бг_УсловияПечатиКомплектов</content>
+  <content>InformationRegister.бг_НастройкиПечатиКомплектов</content>
+  <content>InformationRegister.бг_НастройкиЗакрытияЗаказов</content>
+  <content>InformationRegister.бг_ИсторияЗагрузкиАлкогольныхЛицензийПоставщиков</content>
+  <content>Catalog.бг_НастройкиФиксацииПечатныхФорм</content>
+  <content>InformationRegister.бг_НастройкиЗагрузкиФайловФакторинга</content>
+  <parentSubsystem>Subsystem.бг_УчетАлкоголя</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04893ec8-8b4d-4eae-b03c-c62ff214e98c">
+  <name>бг_УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить префикс информационной базы и организации номеру документа (Белуга)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Бг установить префикс информационной базы и организации номеру документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.битЗаявкаКлиента</types>
+  </source>
+  <event>OnSetNewNumber</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.бг_УстановитьПрефиксИнформационнойБазыИОрганизации</handler>
+</mdclass:EventSubscription>

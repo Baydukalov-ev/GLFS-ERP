@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5a151a13-1708-4b42-b59d-e6672a737605">
+  <producedTypes>
+    <objectType typeId="1badb6ba-d5ca-4355-bf53-cba47bd3d4c1" valueTypeId="ec4e3376-8bf0-47c6-953b-146f52037516"/>
+    <refType typeId="5b33b6c2-7420-4654-afcf-7ae15ae12d78" valueTypeId="8ae1e024-f285-4c30-8f50-cbec09ac23c1"/>
+    <selectionType typeId="b65dff16-8f37-46b9-b690-06ac88edf10a" valueTypeId="3704f080-1835-47b4-a1d1-8e46a4b8f529"/>
+    <listType typeId="ee2cfbec-4dad-41d6-9aa5-c9ce59090d9d" valueTypeId="120587a8-68f4-4386-805f-a2b77df1391e"/>
+    <managerType typeId="027ab4e7-526a-4a52-a17d-44d4cfcae39d" valueTypeId="21f8fe01-a917-4e9f-bb7b-a7986440a40a"/>
+  </producedTypes>
+  <name>ЗаказПереработчику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="6cbc720a-d61a-453a-a9a5-cf49801c499e">
+    <producedTypes>
+      <objectType typeId="a4eafb5d-3e25-41fa-a54b-fa685a1355fb" valueTypeId="d1fd54fc-7475-45d5-a4c0-da38ba703704"/>
+      <rowType typeId="b261a4f6-111a-48a9-a8df-bd1109c6d167" valueTypeId="52e21b8b-4bf1-45db-9be3-b42993e4763f"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="14e89db2-758b-4c28-b18b-167768f54da8">
+      <name>Характеристика</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

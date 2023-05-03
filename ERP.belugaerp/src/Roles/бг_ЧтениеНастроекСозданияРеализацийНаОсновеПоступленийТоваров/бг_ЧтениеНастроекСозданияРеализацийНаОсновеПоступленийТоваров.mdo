@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90a1934e-c8e6-4807-a6b9-305126e76b1e">
+  <name>бг_ЧтениеНастроекСозданияРеализацийНаОсновеПоступленийТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение настроек создания реализаций на основе поступлений товаров</value>
+  </synonym>
+</mdclass:Role>

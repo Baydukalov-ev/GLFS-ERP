@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e9f949f7-5056-456a-a0f1-d8e6184cb04b">
+  <producedTypes>
+    <refType typeId="1c8d48d3-7fa4-4ea7-be27-6c4d1d3bd940" valueTypeId="9e1b3462-60e0-4c05-85dc-3e3633789b2a"/>
+    <listType typeId="7a211f40-a044-44fa-a6f8-cdde4b768147" valueTypeId="240725c8-804e-4e2f-8f02-270f674513dd"/>
+    <managerType typeId="0652d767-8451-4cd6-a0fc-2ef696c48553" valueTypeId="3799a86b-63c7-496c-8049-9b6852a4c8cc"/>
+  </producedTypes>
+  <name>ТипыИзмеряемыхВеличин</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="db9d61d8-6fdd-4c60-bec5-a6e855f333af">
+    <name>Упаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0cb7e93d-1404-400a-9e67-262a4e36829a">
+    <name>Энергия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ab96227d-7adf-41ed-ac32-fbb49b79219a">
+    <name>Вес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c2e9dde5-c2d9-438b-93d0-80d163580655">
+    <name>КоличествоШтук</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="10b184e5-e961-4e9c-a4b1-a77151b7b8ec">
+    <name>Площадь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0cee57e9-838b-41c3-aec6-3fe5423e6873">
+    <name>Объем</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4ea4b3b5-1a9a-4c73-b5b4-9fe22e6778f0">
+    <name>Длина</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="060912fe-1a5b-4528-b157-07e15f1a2b78">
+    <name>ЭлектрическийЗаряд</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4b13ed1-df55-4075-8b76-a4dc5c59a903">
+    <name>Мощность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="49a72ab6-a4f9-437b-bfd1-44fb136ab062">
+    <name>Время</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

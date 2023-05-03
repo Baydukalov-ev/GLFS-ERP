@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f68ec57-4881-4f92-b841-e4aee3e79e3a">
+  <producedTypes>
+    <selectionType typeId="bdca7019-1e17-4492-bffb-92c5fc0f5219" valueTypeId="3123b533-7db2-4f18-97da-58c3a98a4918"/>
+    <listType typeId="e159a612-9704-4af7-8f09-e4baa61d9559" valueTypeId="5dfa94b2-8e6a-4940-b707-09de5b690b9f"/>
+    <managerType typeId="9f6f5bd0-29d9-4743-b309-4e634d806a17" valueTypeId="17d062f8-d106-4a80-bc9b-02bdb9444d6b"/>
+    <recordSetType typeId="022f4221-50c4-4690-8941-ed7f80a77594" valueTypeId="0677e127-e1d9-4c93-9a66-115a79b44535"/>
+    <recordKeyType typeId="bc44d19d-7d26-4004-978c-c08c0ec545df" valueTypeId="87616e4e-f46e-4682-a866-11ba6f0daf39"/>
+    <recordType typeId="8f5c48f3-b269-43cf-9147-21d692189203" valueTypeId="14124f56-696a-45d7-a100-14cc868f6891"/>
+    <recordManagerType typeId="b93faceb-7fdf-4daf-a17f-879770c781fe" valueTypeId="15b659cb-85c6-46cd-be39-5b88a5889849"/>
+  </producedTypes>
+  <name>бг_НастройкиЗакрытияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки закрытия заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2084f82e-16d7-409c-b800-4d75db0b6d35">
+    <name>КоличествоДнейПросрочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней просрочки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d4b2e8aa-0a60-4c96-a31c-341b1a09eb97">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1cac7682-20e1-4d90-b4e2-71bb239c6f2c">
+    <name>ИсточникЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ИсточникиЗагрузкиЗаказовКлиентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

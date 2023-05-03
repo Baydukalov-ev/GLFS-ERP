@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1894083-a8fa-480a-8350-bf2aac9b2db0">
+  <producedTypes>
+    <objectType typeId="77c98779-e160-44a0-b521-e54d23676e70" valueTypeId="f242a24e-8183-4acb-8bac-ad45dd8a690b"/>
+    <managerType typeId="5b0c0580-6175-480c-a872-aea98cf7f96e" valueTypeId="6da3fcd8-3990-4af3-afd8-c88f77127722"/>
+  </producedTypes>
+  <name>бг_СогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование заказов клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_СогласованиеЗаказовКлиентов.Form.Форма</defaultForm>
+  <forms uuid="a10f5513-08d1-4854-85ec-7c6c20a3c233">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3c4f678-d0db-439f-a660-20a0420f9c49">
+    <name>ФормаРучноеСогласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ручное согласование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="89a60932-be2d-43de-8ba9-1a7f186adaa7">
+    <name>ПФ_MXL_СтруктураВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура взаиморасчетов</value>
+    </synonym>
+  </templates>
+  <commands uuid="ea8e9489-821a-41b0-ba24-fdf5983a8e74">
+    <name>СогласованиеЗаказовКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование заказов клиентов</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

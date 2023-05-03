@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3b724f2-77f6-4aa1-9ffd-05075202819b">
+  <producedTypes>
+    <refType typeId="90825d94-04c5-4ddd-8ef5-1831987d5460" valueTypeId="d52f3106-fa3d-4f1a-b6bf-696143d0048b"/>
+    <listType typeId="dfbd678d-96e3-4a88-bff4-587e7dae5d42" valueTypeId="57ea4f92-3bb1-45aa-8c8d-87b3e1a0820b"/>
+    <managerType typeId="bb7b2970-f2c5-428f-b8aa-802d33cf1cc9" valueTypeId="fd6c1c75-3023-4b49-b574-64c9143e0ee7"/>
+  </producedTypes>
+  <name>ВариантыИспользованияХарактеристикНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d5f0f532-a82e-41e1-ab1b-39eca6bc8eef">
+    <name>ОбщиеДляВидаНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7ed89d98-6cf2-4e5c-9351-d7ba912abb23">
+    <name>ОбщиеСДругимВидомНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8e41d72b-6d01-4c2f-b744-57b19dd0e5eb">
+    <name>ИндивидуальныеДляНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

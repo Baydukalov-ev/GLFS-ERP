@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c4ea11c2-7455-419c-847e-d228f26b5e14">
+  <producedTypes>
+    <objectType typeId="0d7263ee-9b5f-41f1-ba13-44d1ce8150a2" valueTypeId="dcec230b-10c0-4916-a557-b655f4132a2b"/>
+    <refType typeId="54766e8e-59e4-4962-9418-fe6d62cf0ba0" valueTypeId="7ad15332-821f-4f20-8852-1c2b93423e7e"/>
+    <selectionType typeId="b4e0f765-b26b-462f-a49a-209ab829f5c9" valueTypeId="00df3cb5-d864-4592-8b99-cc6d20c938b3"/>
+    <listType typeId="c207d4ad-f930-40fa-98ea-e4b444570157" valueTypeId="7721c465-ec7a-44a5-95cd-5aceff365f1f"/>
+    <managerType typeId="a567e54e-d898-45b2-9340-b4ff7ba21f95" valueTypeId="a20759dc-0171-44e4-8237-df420fed16b0"/>
+  </producedTypes>
+  <name>ГруппыДоступа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="ac1199dc-34cc-4073-a007-156faa9bb714">
+    <name>Профиль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПрофилиГруппДоступа</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="2a5b386b-d42e-40bb-a23f-6d1b50f6e6d8">
+    <producedTypes>
+      <objectType typeId="2aceff7a-e8bd-44a4-8b2b-9fe2d99a1822" valueTypeId="6e91201e-e588-45a8-b190-07832555a5d0"/>
+      <rowType typeId="558d0441-85a3-4f76-a3f1-7bd8e604ebc7" valueTypeId="7a5ad969-09e7-48ca-ba9f-f4181d9ff3b8"/>
+    </producedTypes>
+    <name>Пользователи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="8b8aea2e-aa56-448f-b6a9-defd8fe9bbc1">
+      <name>Пользователь</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

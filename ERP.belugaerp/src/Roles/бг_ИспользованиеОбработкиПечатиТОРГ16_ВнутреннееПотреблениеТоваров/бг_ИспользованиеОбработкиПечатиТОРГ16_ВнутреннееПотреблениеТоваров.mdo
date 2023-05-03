@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c9e938b-5639-4f46-b025-f7c698ec4ffa">
+  <name>бг_ИспользованиеОбработкиПечатиТОРГ16_ВнутреннееПотреблениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки печати ТОРГ-16 (внутреннее потребление товаров)</value>
+  </synonym>
+</mdclass:Role>

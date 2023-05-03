@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51b8bbd3-52f3-414e-992e-25d6ac40e30f">
+  <name>бг_ВводИнформацииПоЛицензиямПоставщиковАлкогольнойПродукцииБезКонтроля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод информации по лицензиям поставщиков алкогольной продукции без контроля</value>
+  </synonym>
+</mdclass:Role>

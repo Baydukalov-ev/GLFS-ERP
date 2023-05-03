@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69eff9bc-0db9-42a1-95ed-96950c0436ab">
+  <producedTypes>
+    <selectionType typeId="3dbd5641-ae81-45a3-9e0f-5ad76f70da09" valueTypeId="a305b0c2-5d4f-4fd8-8355-e087b8304041"/>
+    <listType typeId="13ef11c4-05c1-4d79-86aa-71e14b511103" valueTypeId="9a054352-16c0-4357-91b7-d0e6edba409f"/>
+    <managerType typeId="76e6a69a-d585-423a-b1a5-dca54694a969" valueTypeId="49f5810f-709e-4d27-abab-5e4e6998c45f"/>
+    <recordSetType typeId="c17f28c6-dde9-4ee8-a425-ffda6af9a3b1" valueTypeId="1e12ca59-7ba0-4d7c-ad7d-1ea16b42b05e"/>
+    <recordKeyType typeId="afa38fae-5e48-4b76-91d4-84f21e217ffd" valueTypeId="6e2c367b-60b8-431e-aa9c-103ea0d09570"/>
+    <recordType typeId="e98d3709-30b5-45e6-a526-28e698d442f5" valueTypeId="0b3a3704-362d-45a8-9a7f-f371167f71df"/>
+    <recordManagerType typeId="89d6853e-074a-4e83-b873-5a7a705b069d" valueTypeId="ba7be28e-717d-411b-8b74-2ee0a62fe66d"/>
+  </producedTypes>
+  <name>бг_НастройкиОпределенияДатыДействияСкидокНаценок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки определения даты действия скидок (наценок)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Discounts (markups) validity date settings</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_НастройкиОпределенияДатыДействияСкидокНаценок.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.бг_НастройкиОпределенияДатыДействияСкидокНаценок.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройка даты действия скидок (наценок)</value>
+  </recordPresentation>
+  <recordPresentation>
+    <key>en</key>
+    <value>Discounts (markups) validity date setting</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Настройка определения даты действия скидок (наценок)</value>
+  </extendedRecordPresentation>
+  <extendedRecordPresentation>
+    <key>en</key>
+    <value>Discounts (markups) validity date settings</value>
+  </extendedRecordPresentation>
+  <resources uuid="a38092e4-1651-42c4-8b70-40e050650995">
+    <name>ВариантОпределенияДатыДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант определения даты действия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_ВариантыОпределенияДатыДействияСкидокНаценок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="489cad54-309a-42a8-ab0a-65f453b07a30">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f27de6a-03d3-45c7-870b-2c00e3ff452a">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Recipient</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+      <types>CatalogRef.Партнеры</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Партнеры.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3e0b2981-3735-4311-b105-b958dca9d264">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f2fc2b8-3a8c-44db-8709-940b7a44c81d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

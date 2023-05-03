@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c83727b-8731-4511-86b1-8e025ede0403">
+  <name>РегламентированныйУчет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>DataProcessor.бг_ЗагрузкаПроводокИзБК</content>
+  <content>Document.ИсполнительныйЛист</content>
+  <content>Catalog.бг_НастройкиРеклассификацииРасходовНУ</content>
+</mdclass:Subsystem>

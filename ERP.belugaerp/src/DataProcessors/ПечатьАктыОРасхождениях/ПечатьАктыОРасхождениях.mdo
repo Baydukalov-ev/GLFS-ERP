@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88619f7d-bd93-4388-bd4c-77b943211733">
+  <producedTypes>
+    <objectType typeId="34634fc0-8f4f-4860-a18a-dd2005b0ac84" valueTypeId="9e27e6bc-5fee-4f10-8ee8-4379c2358654"/>
+    <managerType typeId="d371302d-c08e-45fd-9298-6c34dd66d067" valueTypeId="75fc2a7c-ca7f-470c-b2ba-e153d174204e"/>
+  </producedTypes>
+  <name>ПечатьАктыОРасхождениях</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <templates uuid="3b509a7e-ed1f-4246-bf92-1bfd8184a826">
+    <name>ПФ_MXL_бгТОРГ3_1_лист</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОРГ-3 (1 лист)</value>
+    </synonym>
+  </templates>
+  <templates uuid="bde07299-f160-431d-98a8-1a452aa313ae">
+    <name>ПФ_MXL_бгТОРГ3_2_лист</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОРГ-3 (2 лист)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

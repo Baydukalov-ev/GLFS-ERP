@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0177e44-e574-460a-acc3-3d294e5a2877">
+  <producedTypes>
+    <refType typeId="10343287-ff24-4c22-9865-c8ce760dc2d2" valueTypeId="4512d59d-2c04-4ac3-a4f6-675d3418947f"/>
+    <listType typeId="a6739131-e3f4-425a-8510-2de40a20ab00" valueTypeId="b26d30da-774e-4ed9-9162-d597c3aac5b3"/>
+    <managerType typeId="89e50842-afe2-42fc-97d6-486870176be5" valueTypeId="e29c9429-9254-4f3b-bb55-6d8a9531cff7"/>
+  </producedTypes>
+  <name>СтатусыПеремещенийТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="06e00788-a02a-4ce3-b09b-d01bc9a8081c">
+    <name>Принято</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

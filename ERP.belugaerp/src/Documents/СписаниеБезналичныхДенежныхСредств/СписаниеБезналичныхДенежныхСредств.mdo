@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="735488af-9e99-4aa8-84a4-d49642d847b4">
+  <producedTypes>
+    <objectType typeId="cca21f90-4d85-4c75-80c4-290d8a7b63c6" valueTypeId="d83a74a6-29fd-4497-a8dc-4a53e578c614"/>
+    <refType typeId="873cb5e0-bc94-4e37-bafe-7b7589df3fbc" valueTypeId="62a6127c-c20d-45af-82fe-56f118a6e8f5"/>
+    <selectionType typeId="4e7ff540-469b-4062-b78c-f1be75ed9658" valueTypeId="ad4d644e-a8e9-46e1-8895-cd1bb2e824fc"/>
+    <listType typeId="8fb36e34-d0f2-483b-a663-2c10cc127722" valueTypeId="16c0fdba-46ae-4f79-841c-6814f57a4fc3"/>
+    <managerType typeId="4c849980-5bcd-484c-8c26-773bfd1ac1fd" valueTypeId="344f7827-1eb7-4615-a1de-ed733dbfb307"/>
+  </producedTypes>
+  <name>СписаниеБезналичныхДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="b435af26-bbac-4847-a5d4-242e4cbfbfd3">
+    <name>ПроведеноБанком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="88724124-28ea-4122-b014-6ac029865fd0">
+    <name>ДатаПроведенияБанком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="92e12f20-d294-4d72-a766-96bfcac0538b">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="a94b4b33-4fa1-4276-93ff-f146bdbf60aa">
+    <producedTypes>
+      <objectType typeId="fdb5aeff-c399-4863-a6f6-850e3b7f456a" valueTypeId="ae2dd9c0-75e0-45d1-9d39-d8d9547db1a1"/>
+      <rowType typeId="8051618b-79b7-4065-b264-a3db035d366f" valueTypeId="a799d974-2e46-4b54-8317-3626635cb9cf"/>
+    </producedTypes>
+    <name>РасшифровкаПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

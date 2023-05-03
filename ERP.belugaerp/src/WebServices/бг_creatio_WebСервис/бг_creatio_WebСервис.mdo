@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d7002bf-1d8d-4ee2-b794-280a1406e617">
+  <name>бг_creatio_WebСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web-сервис (Creatio)</value>
+  </synonym>
+  <namespace>http://BPMonline/sin</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.бг_creatio_Request</value>
+  </xdtoPackages>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.бг_creatio_Response</value>
+  </xdtoPackages>
+  <descriptorFileName>BPMonline.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="8d685485-5ac6-4ca2-b223-ae37ebe66132">
+    <name>CreateOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create order</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateOrder</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateOrder</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="c8c6efca-43d7-43e3-bb53-f85651117865">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateOrder</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="b63bd423-6628-4492-9ef4-ac53331e79a2">
+    <name>CreatePartner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create partner</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreatePartner</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreatePartner</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ed4ce125-9e49-4c62-b8c0-9c0f24037b62">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreatePartner</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a27a2a73-06fc-455c-80fb-eeccd07c18f3">
+    <name>CreateUpdateBankAccountIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update bank account in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateBankAccountIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateBankAccountIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0eef3125-1b7c-479a-95f4-02a9e91ae809">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateBankAccountIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="2ee2b1d9-0c10-4344-84fe-e98631a4f87d">
+    <name>CreateUpdateClientGroupInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update client group in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateClientGroupInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateClientGroupInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="27175cd7-49f5-48b1-a814-e9be65e46175">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateClientGroupInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="99bce87c-1af5-446d-acf1-21d9c0417905">
+    <name>CreateUpdateCommercialTermsIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update commercial terms in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateCommercialTermsIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateCommercialTermsIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e34a67e2-ff33-496b-bcbf-f522a4be85c0">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateCommercialTermsIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="a763aed7-c102-46a6-8f79-74710952e680">
+    <name>CreateUpdateContractIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update contract in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateContractIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateContractIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="f97f22b5-200e-4463-b7b7-24fa68f565d4">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateContractIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f2e259cb-d7dc-444c-bf04-fe39e5cd7a62">
+    <name>CreateUpdateLicenseIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update license in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateLicenseIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateLicenseIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="e2712862-c96d-454d-aa0c-683798c3aef5">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateLicenseIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="958f10a8-a630-4467-91ca-ebddd3e0ac27">
+    <name>CreateUpdateOKOPFInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update OKOPF In CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateOKOPFInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateOKOPFInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="524e1415-fa43-4b37-915d-83ba052c19e9">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateOKOPFInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="2cfa7dd8-84bc-4a8c-a54c-fc408d330a8c">
+    <name>CreateUpdateOrderInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update order in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateOrderInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateOrderInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="797009cb-7eb1-4585-83ac-79ff63c36c34">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateOrderInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="d2ed8d52-329a-4070-8bb3-4b23e328c127">
+    <name>CreateUpdateStorageInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update storage in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateStorageInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateStorageInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7579d3bd-d988-42b1-bf95-14078c39ab41">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateStorageInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4596022e-6e64-4ea7-848d-65cd5fd3261a">
+    <name>CreateUpdateUnloadingPointIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Create update unloading point in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_CreateUpdateUnloadingPointIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>CreateUpdateUnloadingPointIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3e29df7b-acc7-45a7-842c-fbb90f46faf4">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_CreateUpdateUnloadingPointIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="873f32e6-691e-406c-b2af-1c105150f3fd">
+    <name>GetAllPrices</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get all prices</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_GetAllPrices</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetAllPrices</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="a15d4f45-aab9-469a-8943-62c313b48959">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_GetAllPrices</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="9b1b1139-a7a4-4a91-a3e6-1d160a420c2f">
+    <name>GetDebt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get debt</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_GetDebt</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetDebt</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="3f8924b1-60ed-406e-9e18-98a0b5cdacfd">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_GetDebt</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="d383fc61-40c6-41c5-be92-90573790828b">
+    <name>GetOrderPrices</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get order prices</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_GetOrderPrices</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetOrderPrices</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="7e6769dd-0c22-463f-8ef6-d8f90aac70d0">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_GetOrderPrices</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="f1a48d9f-ff36-4d88-a6a4-f982f0a5ef12">
+    <name>GetOrderSKUBalance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get order SKU Balance</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_GetOrderSKUBalance</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetOrderSKUBalance</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="67d3ea16-48b0-4d2f-a4f4-459331bddfdd">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_GetOrderSKUBalance</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="cd5737ec-7ff0-44b2-97a5-ae6b5136931b">
+    <name>GetTotalSKUBalance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get total SKU Balance</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_GetTotalSKUBalance</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetTotalSKUBalance</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1b532190-b50d-4870-9fee-910b93448c23">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_GetTotalSKUBalance</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="95f375ac-dd8e-4875-9dbe-1a26db41fb04">
+    <name>UpdateAddressIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update address in1C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateAddressIn1C</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateAddressIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="06a7f6de-6816-49b7-850f-7d999fbc4de5">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateAddressIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="2039600c-00c7-4f34-b124-b0cde507a0d1">
+    <name>UpdateBankAccountsInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update bank accounts in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateBankAccountsInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateBankAccountsInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="33effd53-9bd1-4cc5-a887-44fc6325a5cf">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateBankAccountsInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="08731478-9f6e-4912-8987-a49c20ca92ad">
+    <name>UpdateBanksInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update banks in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateBanksInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateBanksInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1c28e1c4-7777-404f-a2d5-9baad75425aa">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateBanksInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="0deec33c-32dc-4e8f-b0bf-86ad0a591700">
+    <name>UpdateContractsInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update contracts in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateContractsInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateContractsInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="32aaeeeb-9dfb-4a91-9a9c-75b99d35a4e2">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateContractsInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="fcc2cd8e-a373-424d-9c08-00167de5d136">
+    <name>UpdateExchangeResults</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update exchange results</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateExchangeResults</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateExchangeResults</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b9843e48-4cd1-4b55-85d5-ae0ef1eff927">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateExchangeResults</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="4a8ec116-d126-40ff-a67f-c0517dafa097">
+    <name>UpdateLicensesInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update licenses in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateLicensesInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateLicensesInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="04c6ed73-b2f1-4a7c-9b09-57c49e698880">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateLicensesInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="98acf8f8-39ff-4df5-beb3-878454d97f38">
+    <name>UpdatePartnerIn1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update partner in1 C</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdatePartnersAddressesInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdatePartnerIn1C</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="34b61607-4737-43e0-aca2-507bfcadb256">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdatePartnerIn1C</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="2fa74e44-0dd0-4a39-95c4-f99677582369">
+    <name>UpdatePartnersAddressesInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update partners addresses in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdatePartnersAddressesInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdatePartnersAddressesInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="b34f64e9-5a47-452f-ae5b-aa109da0bd07">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdatePartnersAddressesInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="d1c9a89e-ef47-4a1e-b5a5-8143175b0888">
+    <name>UpdatePartnersInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update partners in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdatePartnersInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdatePartnersInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1502d7ee-902d-4da8-ab47-4ad4ab670452">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdatePartnersInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="73939ed0-6010-4940-a1f1-004747ec56a2">
+    <name>UpdateUnloadingPointInCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update unloading point in CRM</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>_UpdateUnloadingPointInCRM</name>
+      <nsUri>http://BPMonline/sin/response</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>UpdateUnloadingPointInCRM</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="05a6c30f-71cb-49d1-9e36-1fa7dfac8963">
+      <name>Input</name>
+      <synonym>
+        <key>ru</key>
+        <value>Input</value>
+      </synonym>
+      <xdtoValueType>
+        <name>_UpdateUnloadingPointInCRM</name>
+        <nsUri>http://BPMonline/sin/request</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

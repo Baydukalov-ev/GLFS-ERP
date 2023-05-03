@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ac3f033-1353-4744-8c56-5e41fcf921a1">
+  <producedTypes>
+    <refType typeId="fe6f353f-1bce-4820-bf96-88c430f4e37d" valueTypeId="977da1b0-e530-4b09-bc32-9f8bb11d9b5e"/>
+    <listType typeId="79563a52-9a0b-4e90-85e8-76cefe6e3278" valueTypeId="64c5999f-7295-4356-8d11-cd70687d354b"/>
+    <managerType typeId="ba9fd301-86d8-4649-b765-d4a47da35dfe" valueTypeId="95d92170-41f8-4423-8ff3-1ed13fb8f104"/>
+  </producedTypes>
+  <name>СостоянияРаспределенияРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="684c7ffb-33e6-4837-aad2-e1b76c37e602">
+    <name>ТребуетсяСформироватьДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ea03fc7f-c51e-4676-9220-60a4bae27b3e">
+    <name>ТребуетсяРучнойВводДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="80343641-a9a4-4c9d-9e6f-0f33e3d1b073">
+    <name>ГотовоКРаспределениюПоБазе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="aa7bdedb-617f-4909-8bcb-ada92f3873fe">
+    <name>Распределено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5c22ebb6-8c8f-449d-9cd8-e1bba88a352f">
+    <name>ОшибкаРаспределения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0d83385c-feb0-4261-88d9-9b585c62613b">
+    <name>НеПоступилиРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7d66f183-dc6d-4d3f-b355-7718f78154e0">
+    <name>НеРаспределено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

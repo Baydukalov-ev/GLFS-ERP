@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b113c977-9a84-4ee5-80fb-0ce91237287a">
+  <producedTypes>
+    <refType typeId="e8d9b534-5efb-40c9-911f-9ccc1f832411" valueTypeId="47744124-a6d9-44d7-8e3a-18052de20285"/>
+    <listType typeId="a606a3b4-3384-462e-bf6c-f2d604a26945" valueTypeId="4733b394-2b3f-4948-a1a5-3c5e4611dc94"/>
+    <managerType typeId="13d85f81-7c89-492b-9c1c-79763c846b74" valueTypeId="3cd3c6dc-cd0d-4f02-a54d-5a17432af8d6"/>
+  </producedTypes>
+  <name>ТипыЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="01abc9cd-8794-4359-a52e-b9383caf997c">
+    <name>Товар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

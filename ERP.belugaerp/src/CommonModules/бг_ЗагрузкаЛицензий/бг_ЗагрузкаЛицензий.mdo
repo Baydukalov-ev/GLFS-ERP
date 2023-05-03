@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9c7f12b-ad82-4dd1-a3aa-514d655236e9">
+  <name>бг_ЗагрузкаЛицензий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка лицензий</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

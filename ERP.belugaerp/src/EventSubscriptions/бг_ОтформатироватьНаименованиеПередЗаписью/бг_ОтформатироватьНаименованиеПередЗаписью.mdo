@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0777bcb7-c615-4d1b-a9e9-6128143013f8">
+  <name>бг_ОтформатироватьНаименованиеПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отформатировать наименование перед записью</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.бг_ЕК_СКЮ_Вкусы</types>
+    <types>CatalogObject.Номенклатура</types>
+    <types>CatalogObject.бг_ЦветаВина</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_Классы</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_КатегорияВладельца</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_Объемы</types>
+    <types>CatalogObject.бг_ТипыВина</types>
+    <types>CatalogObject.бг_ВидыВина</types>
+    <types>CatalogObject.бг_ОсновныеНаименованияНоменклатуры</types>
+    <types>CatalogObject.бг_ЕК_СУМ</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_СкюМТ</types>
+    <types>CatalogObject.бг_ЕК_Бренды_КатегорииБренда</types>
+    <types>CatalogObject.бг_Группы_СУМ</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_Фирмы</types>
+    <types>CatalogObject.бг_ВариативностьНоменклатуры</types>
+    <types>CatalogObject.бг_ЕК_Номенклатура_СрокГодности</types>
+    <types>CatalogObject.бг_ЕК_Бренды_БрендыТМ</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_КлассОцифровки</types>
+    <types>CatalogObject.бг_ЕК_Бренды_ПроектыПЭО</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_БрендыКУ</types>
+    <types>CatalogObject.бг_ЕК_Бренды_БрендыМТ</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_НоменклатурныеГруппы</types>
+    <types>CatalogObject.бг_ЕК_СКЮ_КатегорияМотивации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.бг_НСИОбщегоНазначения.бг_ОтформатироватьНаименованиеПередЗаписьюПередЗаписью</handler>
+</mdclass:EventSubscription>

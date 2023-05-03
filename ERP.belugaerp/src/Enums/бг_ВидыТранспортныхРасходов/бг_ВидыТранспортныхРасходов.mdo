@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cd491bb-92ec-45e8-a180-91422bcd2a08">
+  <producedTypes>
+    <refType typeId="93b6019c-7fb4-4cf6-81f2-e86bf1ff391f" valueTypeId="90d74a8b-3563-4257-826c-dfb944e4458f"/>
+    <listType typeId="4f22d40c-c855-434f-b267-022134a65b52" valueTypeId="64383850-c4a9-413a-9539-09a22cc8db52"/>
+    <managerType typeId="38eb5cb9-b83a-4d5e-ba0e-272d281b149c" valueTypeId="5e4f8e86-e1e0-4aff-b9e3-66997c934179"/>
+  </producedTypes>
+  <name>бг_ВидыТранспортныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспортных расходов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77071241-3041-46b2-b7a7-439f87fb000d">
+    <name>ТранспортныеРасходыВозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные расходы возмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9778a2c5-1f2a-401c-8983-79f011aca6d1">
+    <name>ТранспортныеРасходыНевозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные расходы невозмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab4f2c13-2076-4652-bb07-41a211d1e815">
+    <name>ХранениеПодключениеВозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение подключение возмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcd224c5-af1a-4aa3-91de-6a5188a7f386">
+    <name>ХранениеПодключениеНевозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранение подключение невозмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5040451d-9979-4af9-9f98-e37c06a1ddf7">
+    <name>СтрахованиеВозмещаемое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страхование возмещаемое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfd04272-ba7b-4fe2-85f6-8c05f6221408">
+    <name>СтрахованиеНевозмещаемое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страхование невозмещаемое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c5b6d4a-06c3-49a9-8b66-21ab33dc8d4d">
+    <name>Километраж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Километраж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfa3e918-1741-4a0c-a214-516954c575c8">
+    <name>ЧекПрочиеДопРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чек и прочие доп. расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14917f2b-2b7d-42ed-b1e5-3359d46dfca5">
+    <name>ПростойПриПогрузкеВозмещаемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой при погрузке возмещаемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dc3c9ac-7533-4efb-b8a0-676285e5aec1">
+    <name>ПростойПриПогрузкеВозмещаемыйЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой при погрузке возмещаемый часы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02037eb3-b89f-4812-a5f0-00282bc8a55e">
+    <name>ПростойПриПогрузкеНевозмещаемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой при погрузке невозмещаемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55c8ab5d-c8bc-4c71-944a-47a8fb04b961">
+    <name>ПростойПриПогрузкеНевозмещаемыйЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой при погрузке невозмещаемый часы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6eb521e-a2c3-4a63-b05d-d9acb881fa4d">
+    <name>ПростойВозмещаемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой возмещаемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8561ec48-3c2e-41e1-a3d9-47618b14e78a">
+    <name>ПростойВозмещаемыйЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой возмещаемый часы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a6d004f-ee92-4e7c-aaa6-d3fa16dd94d8">
+    <name>ПростойНевозмещаемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой невозмещаемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a71d0bd-1f2d-4fb9-9524-99a78465d46e">
+    <name>ПростойНевозмещаемыйЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой невозмещаемый часы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3317e6ba-b972-4eaa-82f2-106b4a365a63">
+    <name>ПРРВозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузочно-разгрузочные работы возмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="187c6ac2-69a1-42dc-8246-38af49664090">
+    <name>ПРРНевозмещаемые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погрузочно-разгрузочные работы невозмещаемые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f12f2579-53c9-4ea2-a71d-55017b760676">
+    <name>ВозвратПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные расходы при возврате продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ae3347b-97ec-4e13-9c22-1b8ff649d5ed">
+    <name>ДоставкаТоваровОтПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные расходы по доставке товаров от поставщиков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b49d172b-dac2-4b3b-a5f1-7c1f37ef223a">
+    <name>МежскладскоеПеремещениеНаемнымТранспортом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы на межскладское перемещение товара наемным транспортом (в рамках одного склада)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c9ecc33-6027-4ccf-8ca1-c9f67effdd9a">
+    <name>ДоставкаВМестаХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортные расходы по доставке в места хранения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

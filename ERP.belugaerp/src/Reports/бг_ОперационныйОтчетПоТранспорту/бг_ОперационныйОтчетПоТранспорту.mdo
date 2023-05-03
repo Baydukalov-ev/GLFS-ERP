@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bb9ac3b-94d8-4568-b1f9-6d69c519768b">
+  <producedTypes>
+    <objectType typeId="416ad66e-15cc-4171-8b20-d5c08035620f" valueTypeId="ca88dd9a-f449-42e5-9f40-881bae83640f"/>
+    <managerType typeId="800e64f7-e882-4ba6-a8d3-5f869a16990b" valueTypeId="d7a61133-38e5-40fc-a53b-08154eb753f9"/>
+  </producedTypes>
+  <name>бг_ОперационныйОтчетПоТранспорту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операционный отчет по транспорту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ОперационныйОтчетПоТранспорту.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="7e11924d-4613-4045-9def-ff099ce2e246">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

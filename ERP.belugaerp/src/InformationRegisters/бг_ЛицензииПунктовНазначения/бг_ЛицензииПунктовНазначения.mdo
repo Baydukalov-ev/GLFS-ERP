@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f69b8dcd-4bd0-4e44-88c8-f135ecd77ef5">
+  <producedTypes>
+    <selectionType typeId="a7032277-249b-4a78-9ecc-08f47d81764e" valueTypeId="19109f07-5247-474b-8a66-407451ce2b66"/>
+    <listType typeId="7692898c-993d-4454-a1dc-138a8f36291e" valueTypeId="136f6b73-b1fb-45ec-96ba-c1607f3108e8"/>
+    <managerType typeId="918832ba-7c73-422d-a30d-278bece98cca" valueTypeId="1f2fc4ca-5ce8-4993-9a0f-465b9693df1b"/>
+    <recordSetType typeId="5f33f856-abfe-42bc-a670-eb4e242c3c49" valueTypeId="4618032f-6a26-4c8d-89a5-d54772bde5ee"/>
+    <recordKeyType typeId="59b6291c-a1f2-4aa5-bd40-d119ab3fb7b0" valueTypeId="08c85e0b-52a9-4641-a43c-150c8a0c73cc"/>
+    <recordType typeId="1bd437c2-2f5d-4a3a-952a-edb924f4e4d4" valueTypeId="cd5525be-fccb-440e-9c03-a46d45cb0afd"/>
+    <recordManagerType typeId="4b982e49-6696-408a-ab28-9b9614a79d51" valueTypeId="f1f24cec-7bf3-45a5-8da7-b976a71e9605"/>
+  </producedTypes>
+  <name>бг_ЛицензииПунктовНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии пунктов назначения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8db36bcd-2fc7-42db-b671-124fddf6d616">
+    <name>Лицензия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cfde9b00-6792-4073-a383-053f30d3c052">
+    <name>ПунктНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт назначения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <commands uuid="6054c9c0-d964-4b67-b090-e1e96506725b">
+    <name>ЛицензииПунктовНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицензии пунктов назначения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

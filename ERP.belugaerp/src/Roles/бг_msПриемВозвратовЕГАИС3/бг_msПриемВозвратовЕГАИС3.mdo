@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38f4d6b9-01aa-4f95-a5d0-8c3950bb0297">
+  <name>бг_msПриемВозвратовЕГАИС3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием возвратов ЕГАИС3 (Mobile Smarts)</value>
+  </synonym>
+</mdclass:Role>

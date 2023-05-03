@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="af3457c0-948a-4ee2-a740-9f408e5759eb">
+  <producedTypes>
+    <refType typeId="0dc1c7ce-f602-4298-8368-b8b23cb9421f" valueTypeId="7b74ac78-5296-4c3a-b796-eb6ca712e97f"/>
+    <listType typeId="f27b9092-736b-4721-819e-806d75cd9389" valueTypeId="6e259485-8753-4f0c-89fe-8e28a5757100"/>
+    <managerType typeId="3a04fb17-4957-449f-a25f-1cefed5e423a" valueTypeId="429a9f31-4a33-4c86-a97f-854a4c6a4020"/>
+  </producedTypes>
+  <name>СпособыПоступленияАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="5ba83359-0030-49db-99d3-6ed07e538c20">
+    <name>ВОбменНаДругоеИмущество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="70351982-fdeb-4279-9fb8-9cffd65db890">
+    <name>ВкладВУставныйКапитал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f4202765-d408-43b8-9a31-403f6f771c76">
+    <name>ПоступлениеВДоверительноеУправление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2819285b-0494-48c2-b027-01fc3f95781d">
+    <name>ПриобретениеЗаПлату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d0508567-662b-494b-9d25-eeb8d9dc80c0">
+    <name>Строительство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3777750b-b049-4793-b819-1a9cb987e6ab">
+    <name>БезвозмездноеПоступление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bef11b43-c4e8-4901-9157-04bad5e389b8">
+    <name>ПоДоговоруАренды</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a0bae6fc-4653-4bd4-af25-088d1d04bd69">
+    <name>ПоДоговоруЛизинга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b7bc15a5-9056-4aa2-a454-0ae2fec0a50b">
+    <name>ВкладВСовместнуюДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="2584ecdb-9665-42e5-9f44-36bf2ff1767f">
+    <name>Иное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

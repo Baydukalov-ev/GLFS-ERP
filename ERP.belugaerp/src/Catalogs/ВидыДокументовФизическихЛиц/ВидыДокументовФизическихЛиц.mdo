@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55045691-1d48-41d2-ac0b-4cc1a0bc3dc5">
+  <producedTypes>
+    <objectType typeId="b62c1f64-c23e-4041-af1b-061c53c1c668" valueTypeId="545cc4e5-09f4-4cd6-a4cc-644c947784f9"/>
+    <refType typeId="7128e36c-364c-4bbb-9795-7fbf6dea042f" valueTypeId="3dccbe88-9cc2-4fc6-aef3-4b3804e4b119"/>
+    <selectionType typeId="150d2251-cfa0-4a66-96d9-c5a622392272" valueTypeId="6bef2cd6-b4a8-4155-812e-f29c5ccfdf21"/>
+    <listType typeId="5c989dab-a094-4c77-b74f-ad0c62d94736" valueTypeId="8fea09fe-b316-4625-9444-0672493e59e5"/>
+    <managerType typeId="0312fb42-9abd-4fa6-872a-dea20d25b1d8" valueTypeId="e7355b4a-91b7-4bed-9bd8-dc2f2e3d6bc0"/>
+  </producedTypes>
+  <name>ВидыДокументовФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Checked</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="72a8ac9d-73a3-4bef-af6d-dced0b613bac">
+      <name>ВодительскоеУдостоверение</name>
+      <description>Водительское удостоверение</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

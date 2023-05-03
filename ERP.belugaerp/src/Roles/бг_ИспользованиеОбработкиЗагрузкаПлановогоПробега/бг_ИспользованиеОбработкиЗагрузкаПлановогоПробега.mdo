@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d3882a4-f55b-48db-9558-163f65428044">
+  <name>бг_ИспользованиеОбработкиЗагрузкаПлановогоПробега</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки загрузка планового пробега</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d7f82aca-e8eb-4b05-bb8a-156ca16d6342">
+  <producedTypes>
+    <objectType typeId="0a20bc31-7f5b-4313-a304-7444aab68bf1" valueTypeId="da84dbaa-9935-436d-9849-7600125b0487"/>
+    <refType typeId="924c837a-7a6f-4bec-8222-7cee5a05664d" valueTypeId="a48e775c-2d01-492f-b0fa-49e13ffbb35f"/>
+    <selectionType typeId="d5323c02-cfef-412a-acfd-05de0061ff77" valueTypeId="b8143fc5-6f1d-43d3-98d2-c5b4f06b9313"/>
+    <listType typeId="bc61bf16-b915-4d8c-956d-b816ca3ac455" valueTypeId="d3e387b2-3e35-4589-95c1-6f4681727067"/>
+    <managerType typeId="98599504-b7f3-4d71-af8e-073af2078e2f" valueTypeId="0cdd656e-9608-455c-9cce-b1168dd12d03"/>
+  </producedTypes>
+  <name>ИсполнительныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="98a9f6a1-ee76-4157-9094-805fd3a3f5b6">
+    <name>бг_КодБК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код из ИС &quot;Босс-Кадровик&quot;</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="07825941-0393-40a1-96ce-28f7c675ef33">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

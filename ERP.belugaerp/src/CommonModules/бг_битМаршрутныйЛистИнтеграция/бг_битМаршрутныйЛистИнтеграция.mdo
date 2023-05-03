@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3bbfc2e-203d-4c49-a464-2c94a99713c4">
+  <name>бг_битМаршрутныйЛистИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршрутный лист (интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

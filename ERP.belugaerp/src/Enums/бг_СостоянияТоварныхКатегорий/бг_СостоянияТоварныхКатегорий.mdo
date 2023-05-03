@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2882d99a-69fa-45b2-901b-01032dc95846">
+  <producedTypes>
+    <refType typeId="d45ee98a-eaaa-4cd4-9778-21db7074182e" valueTypeId="1559ba52-15bd-463a-9cb3-4e091738bd88"/>
+    <listType typeId="1d240cd0-9da6-46cb-9a75-86e020c0c2b4" valueTypeId="ab8275ab-09d8-44c7-9656-c748de5572eb"/>
+    <managerType typeId="00d5bf90-34ac-466c-9f62-8a1ddcff70df" valueTypeId="25a34f37-89ab-42b0-9dcb-7e1150019bbc"/>
+  </producedTypes>
+  <name>бг_СостоянияТоварныхКатегорий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния товарных категорий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f6477bee-1c74-45da-a994-f860f5471b8b">
+    <name>Служебная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служебная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7d761c8-223f-404a-a94f-a3228462592a">
+    <name>ЕК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="22422049-586f-40fd-8b1e-018fe871bdfd">
+    <name>ПроектнаяПозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная позиция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6e638a5-279c-45eb-809f-9cab25cd46be">
+    <name>Удаленная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИсточникОповещения</dataPath>
+			<field>ИсточникОповещения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Источник оповещения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Notification source</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+			</attributeUseRestriction>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подписчик</dataPath>
+			<field>Подписчик</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВЫРАЗИТЬ(Т.ИсточникОповещения КАК Документ.ТТНИсходящаяЕГАИС) КАК ИсточникОповещения,
+	Т.Подписчик КАК Подписчик
+ПОМЕСТИТЬ ДанныеОчереди
+ИЗ
+	РегистрСведений.ОчередьСобытийДляОповещенийКлиентам КАК Т
+ГДЕ
+	Т.ВидОповещения = &amp;ВидОповещения
+	И Т.Период &lt; &amp;ДатаОтработки
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеОчереди.ИсточникОповещения,
+	ДанныеОчереди.Подписчик,
+	РеквизитыТТН.Номер КАК Номер,
+	РеквизитыТТН.Дата КАК Дата,
+	РеквизитыТТН.Идентификатор КАК Идентификатор,
+	РеквизитыТТН.ИдентификаторЕГАИС КАК ИдентификаторЕГАИС,
+	РеквизитыТТН.ДатаРегистрацииДвижений КАК ДатаРегистрацииДвижений,
+	РеквизитыТТН.НомерТТН КАК НомерТТН,
+	РеквизитыТТН.ДатаТТН КАК ДатаТТН,
+	РеквизитыТТН.ДатаОтгрузки КАК ДатаОтгрузки,
+	РеквизитыТТН.Грузоотправитель КАК Грузоотправитель,
+	РеквизитыТТН.Грузополучатель КАК Грузополучатель,
+	РеквизитыТТН.Поставщик КАК Поставщик,
+	РеквизитыТТН.Основание КАК Основание,
+	РеквизитыТТН.Упакована КАК Упакована,
+	РеквизитыТТН.ТипДоставки КАК ТипДоставки,
+	РеквизитыТТН.Перевозчик КАК Перевозчик,
+	РеквизитыТТН.ТипТранспорта КАК ТипТранспорта,
+	РеквизитыТТН.НомерТранспортногоСредства КАК НомерТранспортногоСредства,
+	РеквизитыТТН.Прицеп КАК Прицеп,
+	РеквизитыТТН.Заказчик КАК Заказчик,
+	РеквизитыТТН.Водитель КАК Водитель,
+	РеквизитыТТН.ПунктПогрузки КАК ПунктПогрузки,
+	РеквизитыТТН.ПунктРазгрузки КАК ПунктРазгрузки,
+	РеквизитыТТН.Перенаправление КАК Перенаправление,
+	РеквизитыТТН.Экспедитор КАК Экспедитор,
+	РеквизитыТТН.СуммаДокумента КАК СуммаДокумента,
+	РеквизитыТТН.Комментарий КАК Комментарий,
+	РеквизитыТТН.Ответственный КАК Ответственный,
+	РеквизитыТТН.ЕстьРасхождения КАК ЕстьРасхождения,
+	РеквизитыТТН.ДокументОснование КАК ДокументОснование,
+	РеквизитыТТН.ДанныеПроверкиИПодбора КАК ДанныеПроверкиИПодбора,
+	РеквизитыТТН.СтатусПроверкиИПодбора КАК СтатусПроверкиИПодбора,
+	РеквизитыТТН.ДанныеПроверкиИПодбораАктРасхождений КАК ДанныеПроверкиИПодбораАктРасхождений,
+	РеквизитыТТН.СтатусПроверкиИПодбораАктРасхождений КАК СтатусПроверкиИПодбораАктРасхождений,
+	РеквизитыТТН.ТоварВПутиПринадлежитГрузополучателю КАК ТоварВПутиПринадлежитГрузополучателю,
+	РеквизитыТТН.бг_НомерФиксацииЕГАИС КАК НомерФиксацииЕГАИС,
+	РеквизитыТТН.бг_ДатаФиксацииЕГАИС КАК ДатаФиксацииЕГАИС	
+ИЗ
+	ДанныеОчереди КАК ДанныеОчереди
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ТТНИсходящаяЕГАИС КАК РеквизитыТТН
+		ПО ДанныеОчереди.ИсточникОповещения = РеквизитыТТН.Ссылка		</query>
+	</dataSet>
+	<parameter>
+		<name>ВидОповещения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид оповещения</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Notification kind</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаОтработки</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата отработки</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Processing date</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Main</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfb15f87-567b-4128-abbc-7cca5f6427a7">
+  <name>бг_ЧтениеНазначенийИзображений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение назначений изображений</value>
+  </synonym>
+</mdclass:Role>

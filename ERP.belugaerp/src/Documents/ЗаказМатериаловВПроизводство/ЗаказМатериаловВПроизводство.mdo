@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9348f840-9f6b-4f55-9fc3-f80544e85ef8">
+  <producedTypes>
+    <objectType typeId="710f3b62-2f32-43dd-9c2c-187d25877661" valueTypeId="020cedba-c28e-4a50-9de1-82e31dc184b8"/>
+    <refType typeId="8d616209-1b39-4a99-89e0-768e148bc37a" valueTypeId="9e78c0c1-c707-4b12-8083-c7e5dd50d9b0"/>
+    <selectionType typeId="57f49cba-7a7a-4f3c-a7ac-15e2445edaf3" valueTypeId="cbe4c8cb-8f24-4df3-a393-4fb6a577eed2"/>
+    <listType typeId="5e90fb84-3a1a-4017-849b-800409a007d6" valueTypeId="3ac3c8ca-43a1-487f-9df7-5f658d0baabe"/>
+    <managerType typeId="f51ddef9-6c3f-499c-85ee-2949cf34de4a" valueTypeId="decac1b8-bc59-4a37-99bf-86ea63c1871e"/>
+  </producedTypes>
+  <name>ЗаказМатериаловВПроизводство</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="9ea0dcd4-99c8-4013-9186-6db6d1da33ae">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="25d4c2b1-859b-4923-9755-b75d9990b3c2">
+    <producedTypes>
+      <objectType typeId="63491345-742b-42f8-be2b-446e705d9565" valueTypeId="82fe03f7-180b-4be8-9714-39e609941714"/>
+      <rowType typeId="cb556007-26d5-42d7-9fde-70586669b26e" valueTypeId="91895252-2375-4b92-82c4-671b5f5b079e"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="dbd0661c-2463-40d3-903f-43bf6a35c826">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="3ed30a0a-05c0-4a59-8f07-f25f316f651b">
+      <name>Серия</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СерииНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

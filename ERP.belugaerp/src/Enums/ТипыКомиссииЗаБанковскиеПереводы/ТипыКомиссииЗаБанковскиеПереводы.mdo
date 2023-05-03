@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd2a2108-e5dd-4de6-8ed0-07033f4e6060">
+  <producedTypes>
+    <refType typeId="6d6d5742-32dd-4ed6-a117-045c5ea89479" valueTypeId="0951051f-9c20-4764-bac0-10acd4c85844"/>
+    <listType typeId="c0686bba-21f6-4ec8-9910-9703d43e1e72" valueTypeId="cda76601-8bfe-4788-ac89-b8a1e527d7c6"/>
+    <managerType typeId="8ec89378-b08f-4c9e-beee-a1a01b8472fa" valueTypeId="4f06ea80-402b-4079-82a0-6640820f958d"/>
+  </producedTypes>
+  <name>ТипыКомиссииЗаБанковскиеПереводы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="102ac3e8-c67c-4bc5-88ea-4d00495fb63f">
+    <name>SHA</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="11c79871-ef9f-4e8b-80ef-bbd8bf9e8d71">
+    <name>OUR</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b5a06981-abad-4aff-9c89-74fbdab17e9f">
+    <name>BEN</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

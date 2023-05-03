@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2af6fa5b-2b0d-4f43-b081-f87283b04a14">
+  <producedTypes>
+    <refType typeId="6b300013-d9a5-4278-8b58-76f0adc48903" valueTypeId="c14d96f9-98ad-4ae0-b79c-a8dfc8310bc1"/>
+    <listType typeId="d1877f16-7bc1-4960-82fd-6a4c8e49b435" valueTypeId="22549d02-25f5-454b-b329-05a681365cc4"/>
+    <managerType typeId="c5ccb4fd-2ab6-4528-a14f-5eefc5cb0f09" valueTypeId="78cdd6e4-a7e4-4055-8360-1a517ab296a4"/>
+  </producedTypes>
+  <name>ТипыТранспортаЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="69281877-8c51-4f5e-8169-122708718c57">
+    <name>Автомобиль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b0f84710-40f8-4410-9058-6fb27c44fade">
+    <name>Авиарейс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b024b3e4-70a5-45cf-aed4-1621479b2510">
+    <name>МорскойКонтейнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="553a7f76-2661-4e24-a909-08833a0437f4">
+    <name>ЖелезнодорожныйВагон</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="30c88af6-be2a-4f7b-829d-c265000deb6d">
+    <name>Прочее</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11269c90-fa1a-480b-b8e0-371be20c55fb">
+  <producedTypes>
+    <objectType typeId="5093021b-e1f2-439f-a72b-0dffa61fa32f" valueTypeId="2fbc9e70-aa29-4777-8f01-27e83cb8720a"/>
+    <managerType typeId="93c16dd0-4323-4110-a75d-eecf544021ee" valueTypeId="e749f60f-1460-4703-8a44-a9632c8072c3"/>
+  </producedTypes>
+  <name>бг_ТранспортныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные расходы для ПЭО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ТранспортныеРасходы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2874b623-5828-4093-b048-eb1cf48c5861">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

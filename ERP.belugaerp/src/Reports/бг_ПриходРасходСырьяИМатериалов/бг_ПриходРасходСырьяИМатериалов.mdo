@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1388a9a9-fcaf-437c-b14f-8b86403f6ac6">
+  <producedTypes>
+    <objectType typeId="97877a6e-d105-4bc0-818c-e4f259485059" valueTypeId="258d3e51-896d-49fa-b15c-5cfdd9423a4b"/>
+    <managerType typeId="9c8c9f7f-f516-476b-94fc-44aeed728782" valueTypeId="49184a1c-96e6-4124-8dac-cf06353d5b93"/>
+  </producedTypes>
+  <name>бг_ПриходРасходСырьяИМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход расход сырья и материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ПриходРасходСырьяИМатериалов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="62cd099e-e1e7-4a4a-a8b6-fc240b55ebe0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

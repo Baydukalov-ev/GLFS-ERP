@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e10c478-f24a-4836-ad4e-01cde0ec3a2f">
+  <producedTypes>
+    <objectType typeId="5c9591a5-e70a-46d0-9420-a07fb8b5de5f" valueTypeId="1723cd57-4d39-4be5-bfd5-dd8b21c1af88"/>
+    <managerType typeId="35447bfa-7600-4160-a8f3-011cdd6dbb30" valueTypeId="b9d58d53-939b-40ab-8cc3-cde933ab2f73"/>
+  </producedTypes>
+  <name>бг_ЗагрузкаДатДоставкиВДокументРейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка дат доставки в документ рейс (TMS Atlas)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_ЗагрузкаДатДоставкиВДокументРейс.Form.Форма</defaultForm>
+  <forms uuid="3592f5b6-9f78-4c81-af96-42fb1a53de55">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

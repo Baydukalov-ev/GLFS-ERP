@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="361ae439-527a-4c4d-8559-9021e6c87803">
+  <name>НСИ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Catalog.бг_ЕК_Бренды_БрендыМТ</content>
+  <content>Catalog.бг_ЕК_Бренды_БрендыТМ</content>
+  <content>Catalog.бг_ЕК_СКЮ_БрендыКУ</content>
+  <content>Catalog.бг_ЕК_СКЮ_Вкусы</content>
+  <content>Catalog.бг_ЕК_Бренды_КатегорииБренда</content>
+  <content>Catalog.бг_ЕК_СКЮ_Классы</content>
+  <content>Catalog.бг_ЕК_СКЮ_КатегорияВладельца</content>
+  <content>Catalog.бг_ЕК_СКЮ_КатегорияМотивации</content>
+  <content>Catalog.бг_ЕК_СКЮ_КлассОцифровки</content>
+  <content>Catalog.бг_ЕК_СКЮ_СкюМТ</content>
+  <content>Catalog.бг_ЕК_Бренды_ПроектыПЭО</content>
+  <content>Catalog.бг_ЕК_СКЮ_Объемы</content>
+  <content>Catalog.бг_ЕК_СКЮ_НоменклатурныеГруппы</content>
+  <content>Catalog.бг_РегионыПроисхождения</content>
+  <content>Catalog.бг_СтатусыТоварныхКатегорий</content>
+  <content>Catalog.бг_ЕК_СУМ</content>
+  <content>Catalog.бг_ЕК_СКЮ_Фирмы</content>
+  <content>Catalog.бг_Группы_СУМ</content>
+  <content>Catalog.бг_ВидыВина</content>
+  <content>Catalog.бг_ЦветаВина</content>
+  <content>Catalog.бг_ТипыВина</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.ТоварныеКатегории</content>
+  <content>Catalog.Марки</content>
+  <content>Catalog.бг_УсловияПоставки</content>
+  <content>Catalog.бг_НазначенияИзображений</content>
+  <content>Catalog.бг_ЕК_Номенклатура_СрокГодности</content>
+  <content>Catalog.бг_ОсновныеНаименованияНоменклатуры</content>
+  <content>Catalog.бг_ВариативностьНоменклатуры</content>
+  <content>DataProcessor.бг_ЗаменаМенеджераВПунктахНазначения</content>
+  <content>Report.бг_ИсторияИзмененияДатыЗапретаРедактирования</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

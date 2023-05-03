@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffb18f57-a302-4089-b716-db87dccd3f3a">
+  <name>бг_ДобавлениеИзменениеНастроекФиксацииПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек фиксации печати</value>
+  </synonym>
+</mdclass:Role>

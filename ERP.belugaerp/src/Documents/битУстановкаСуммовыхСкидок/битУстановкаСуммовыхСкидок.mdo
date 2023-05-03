@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="50915cb8-c7d6-4982-b7ed-ebbe1aa44847">
+  <producedTypes>
+    <objectType typeId="32050383-5d61-42bd-862b-598bc271ed3f" valueTypeId="02b57723-d4f6-4d49-9c93-4420ea07a78d"/>
+    <refType typeId="a3556cfd-d65e-4bb7-b67f-76dd51634693" valueTypeId="16ac7a1d-8d46-40ef-937b-9ca48f76cbb2"/>
+    <selectionType typeId="e0922362-5e82-4e55-acb9-4e0c766a692d" valueTypeId="0183bbb7-04ed-4ff7-81f0-e8d7894548f7"/>
+    <listType typeId="9bdc1128-b759-45cb-a212-aff851fa8d8b" valueTypeId="9e1775ee-c289-4b6d-9902-0747e3be07f2"/>
+    <managerType typeId="c76407f5-07d7-4262-9c16-4d2c660c3385" valueTypeId="39d2fc9f-d9ca-4e7f-ab79-4b5f4376a9fb"/>
+  </producedTypes>
+  <name>битУстановкаСуммовыхСкидок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <defaultObjectForm>Extended</defaultObjectForm>
+    <defaultListForm>Extended</defaultListForm>
+  </extension>
+  <defaultObjectForm>Document.битУстановкаСуммовыхСкидок.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.битУстановкаСуммовыхСкидок.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.бг_СуммовыеСкидки</registerRecords>
+  <registerRecords>AccumulationRegister.бг_СуммовыеСкидкиЛокальные</registerRecords>
+  <attributes uuid="cdd5fb15-7b16-47ec-9d5b-217782ca7233">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83ba787e-70f8-44f5-835e-b87fdb1db984">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e1fbe843-ef89-47ff-b999-a4d057829416">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4f333cc-89fd-4b10-b505-beaab1a368bb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="cf9d6867-e07b-45ff-a44b-dfe548a4fb73">
+    <producedTypes>
+      <objectType typeId="5af82efd-a370-468d-820f-40d527a556d9" valueTypeId="3e4de843-30dc-4be5-b6ee-6fd635ebc0e0"/>
+      <rowType typeId="d25937b9-3621-4456-853f-bfedd9b06325" valueTypeId="22a38311-f96a-4f3b-81d2-e239374dd92d"/>
+    </producedTypes>
+    <name>СкидкиГлобальные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки глобальные</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="7bc3b38d-b289-4d47-8b34-efc3e71137c7">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Counterparty</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Участвует в хозяйственных операциях с предприятием по заказу</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Participates in business transactions with the enterprise on the order</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Партнер</name>
+        <field>0:35c21393-a40b-4e8a-95fc-5a0142566951</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>ЗаголовокПоПартнеру</name>
+        <value xsi:type="core:StringValue">
+          <value>По клиенту</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d3c13c9-ccaf-4dde-bc47-a4438b04ea3f">
+      <name>ДокументРезерва</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ резерва</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d50e0c4-82e2-4452-bfd3-c3926979960a">
+      <name>СуммаСкидки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма скидки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма для номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount for items</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a76760a9-9ac6-4124-b29c-801ee7557573">
+      <name>СуммаРезерва</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма резерва</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма для номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount for items</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d677bd77-3548-4f64-93b5-71186380fd7c">
+    <producedTypes>
+      <objectType typeId="3a67684f-d973-439a-ab39-87aa77bbf06d" valueTypeId="33598330-b3a5-4967-965d-583e96a27c71"/>
+      <rowType typeId="41b3f9b3-bb7d-4f46-bc3c-b14518c4d71e" valueTypeId="9465a524-a712-4e89-abb9-194ca5c50b7b"/>
+    </producedTypes>
+    <name>Резервы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервы</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="49efe25c-344f-47bb-97ae-644b6539eb91">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Counterparty</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Участвует в хозяйственных операциях с предприятием по заказу</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Participates in business transactions with the enterprise on the order</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Партнер</name>
+        <field>0:35c21393-a40b-4e8a-95fc-5a0142566951</field>
+      </choiceParameterLinks>
+      <choiceParameters>
+        <name>ЗаголовокПоПартнеру</name>
+        <value xsi:type="core:StringValue">
+          <value>По клиенту</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="813afc5f-d318-49ba-aad3-a68bf8163cfc">
+      <name>ДокументРезерва</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ резерва</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>DocumentRef.ЗаказКлиента</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37589581-45b3-4691-95e2-ad1c61d8e218">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Amount</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма для номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount for items</value>
+      </toolTip>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="95eb6f68-f9e7-4074-9d4e-1514e363172c">
+    <producedTypes>
+      <objectType typeId="02b0983c-6f6f-466e-b76b-6d52f556f5ca" valueTypeId="4f64e822-a9f5-4dfc-b01f-9e42e2c68aa7"/>
+      <rowType typeId="75331ae6-265d-4ec3-b209-d2319f28ea5f" valueTypeId="07c5c022-12d0-449f-bd5c-b2235b41264d"/>
+    </producedTypes>
+    <name>СкидкиЛокальные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скидки локальные</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="45372fa8-ea56-4c67-a707-a726e9757298">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="601476a5-b176-43e1-b85d-5ebda79b101a">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c7c33d37-3b99-4fbb-b678-bc8b1fca6644">
+      <name>ПунктНазначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пункт назначения</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.битПунктыНазначения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2c7ad67-c463-4f0b-a3b2-a59d721c8de0">
+      <name>АналитикаУчетаПоПартнерам</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аналитика учета по партнерам</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Partner accounting dimension</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.КлючиАналитикиУчетаПоПартнерам</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Определяет аналитику расчетов с клиентами.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Determines dimension of settlements with customers.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3432ffda-6f1f-4946-a5bb-cd95b1b28ada">
+      <name>СкидкаНаценка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Скидка наценка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Discount markup</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.СкидкиНаценки</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Скидка (наценка), которая применяется к данному заказу</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Discount (markup) which is applied to this order</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25b34eca-f07f-4ba5-bb21-d0283c2ce196">
+      <name>Начислено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начислено</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Accrued</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="de08f7f5-7153-4ebd-b8b4-816921988a77">
+      <name>КСписанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>К списанию</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>To write off</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <markNegatives>true</markNegatives>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

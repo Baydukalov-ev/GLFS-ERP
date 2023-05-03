@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b77b5aef-e4ec-4dc0-93a1-8d79a650400d">
+  <producedTypes>
+    <objectType typeId="8e5a6b7d-66d9-438b-a1ee-e1756e36dabd" valueTypeId="a030a1a1-6338-4ac6-b50d-d7728766890c"/>
+    <refType typeId="f55eaa95-50f2-42b4-9acc-c409dfda07e3" valueTypeId="19ea2385-c0c9-4422-a8b2-d836343d74e2"/>
+    <selectionType typeId="fae52aae-1261-4091-8507-23f63422c845" valueTypeId="dc61cbb6-d779-47b4-b04b-c43ce754eba6"/>
+    <listType typeId="642880eb-556e-4596-ac28-e6abf0f6ba2f" valueTypeId="19ce923e-5e28-422d-9612-19c172464259"/>
+    <managerType typeId="4dbf3b34-ea26-4b88-8d54-90744f0da567" valueTypeId="17abda22-ec40-4c91-be10-22321e225c45"/>
+  </producedTypes>
+  <name>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="7a1fcb57-dd23-4d0b-8f04-6b7fcc1589e6">
+    <name>ТекстХранилище</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

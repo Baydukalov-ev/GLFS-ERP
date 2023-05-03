@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="751a8878-515a-433f-96a2-43b9ec76aac7">
+  <producedTypes>
+    <refType typeId="0d844712-c863-4e4a-b1d2-a39be2edf2cd" valueTypeId="b9c091ff-6075-47bc-9a08-71a0e930970a"/>
+    <listType typeId="93e6dda6-fe81-4994-9cb6-31b26aa1da4e" valueTypeId="e6149ec4-7cfc-4ce4-8bb3-83eafb901366"/>
+    <managerType typeId="b09c6b2b-9365-4f73-b5ce-72b76280e0ec" valueTypeId="8f9af9f3-e83d-4e17-8978-9ca8fbfcda2a"/>
+  </producedTypes>
+  <name>СостоянияОплатыНДСВБюджет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="44b1ba3e-9a1f-4b62-af69-65ab25e6a7b0">
+    <name>ПолученоПодтверждение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

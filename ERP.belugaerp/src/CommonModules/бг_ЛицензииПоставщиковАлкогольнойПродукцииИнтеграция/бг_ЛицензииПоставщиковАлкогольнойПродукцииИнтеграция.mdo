@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad3540af-f65f-47ac-9ed6-2038ccf8862b">
+  <name>бг_ЛицензииПоставщиковАлкогольнойПродукцииИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лицензии поставщиков алкогольной продукции (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f26a8a6f-8eb8-4eac-9cb6-6eafb42fb0c4">
+  <producedTypes>
+    <selectionType typeId="bae2afdd-8aad-416e-8965-6ec3b5637e6d" valueTypeId="9c5333e8-3864-46c7-952d-158cebeb9719"/>
+    <listType typeId="dad877cf-228f-45e2-a511-d6adc271648d" valueTypeId="fc249115-0cd7-4cfe-9c8a-17362ff884e4"/>
+    <managerType typeId="85a42e25-833a-43ca-92c1-2ca169d13502" valueTypeId="83156817-d8b9-42a0-b417-32f67b0b6a1a"/>
+    <recordSetType typeId="060e590d-d4b0-4369-92c7-d6bf4744c10e" valueTypeId="f86fc48a-0f21-4e6c-854d-3520b97995d1"/>
+    <recordKeyType typeId="250b8ea3-5156-47d2-b830-0d7b4aac7611" valueTypeId="d58ca7aa-2987-4925-a8c6-75b01d0b6c32"/>
+    <recordType typeId="2c228311-7ed4-4e5d-aa47-d822f4167b19" valueTypeId="397b67f8-9df0-41ad-9f3a-cc7f312a5ba9"/>
+    <recordManagerType typeId="2e993648-c88b-4f6c-ad33-5340204e6b88" valueTypeId="5efc6b39-3562-4d98-a352-084da35505d6"/>
+  </producedTypes>
+  <name>бг_КодыНоменклатурыСПУМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды номенклатуры СПУМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5552a3fd-5521-45cf-bd8b-940ecb2b4339">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8eb09605-ebd2-4a93-ad28-e2d23538a697">
+    <name>УпаковкаПаллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>InformationRegister.бг_КодыНоменклатурыСПУМ.Resource.Номенклатура</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="505407cf-7c0f-4b9e-9e1e-d6e17d6c2d11">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

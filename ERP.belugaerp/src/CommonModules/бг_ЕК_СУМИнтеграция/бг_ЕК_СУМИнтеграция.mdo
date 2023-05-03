@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3985e44b-ae6d-4e92-b34a-09b24cf05a49">
+  <name>бг_ЕК_СУМИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЕК СУМ (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

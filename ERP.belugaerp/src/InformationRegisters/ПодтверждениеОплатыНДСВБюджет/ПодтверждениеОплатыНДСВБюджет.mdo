@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6beb438b-0583-4100-89e3-a4b2133f9858">
+  <producedTypes>
+    <selectionType typeId="1db4a1d6-b96e-4ebc-8bc0-ac50d4356318" valueTypeId="479bda11-ef3c-4a93-8ec6-f1f9bdebfe9c"/>
+    <listType typeId="c53f54d9-57de-4558-9de0-b64475c09e1f" valueTypeId="c64d02a4-8d03-45c2-ba80-2a88f14b087e"/>
+    <managerType typeId="404e8bd9-5027-4ef1-9f84-4c73bad1d3fd" valueTypeId="ab769314-698d-4b17-957f-d71d374634d0"/>
+    <recordSetType typeId="e8cffe18-8f1d-4cca-b926-21e6e1b3ab2f" valueTypeId="fb5f0f23-5fac-490e-8bf0-09a785acfb8e"/>
+    <recordKeyType typeId="e39331a7-8e40-44d9-b262-e3add5f68fbe" valueTypeId="fd4746f2-9743-427b-9a5b-345928fd17b1"/>
+    <recordType typeId="c6cfc727-eab2-47a5-af70-6b82f7ce3df0" valueTypeId="96e99fae-7349-48a8-8eb4-19b23ba4b22e"/>
+    <recordManagerType typeId="c45c8170-5bea-41a8-9a88-f46cff6634af" valueTypeId="6b007cd5-f90a-46c5-9225-4554d07bdcf9"/>
+  </producedTypes>
+  <name>ПодтверждениеОплатыНДСВБюджет</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <resources uuid="e017de21-95a5-48e1-bfa8-3e1677653866">
+    <name>ДатаПодтвержденияОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="aef778cb-3184-41a3-821f-e82b4df8dc0e">
+    <name>СчетФактура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.СчетФактура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="1d26db16-164b-4348-9d7d-a0ed48b3405b">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияОплатыНДСВБюджет</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

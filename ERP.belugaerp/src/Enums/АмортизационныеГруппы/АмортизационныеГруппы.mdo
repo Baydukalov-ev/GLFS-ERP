@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9ec90ac8-a903-4a26-884c-bf09b8398392">
+  <producedTypes>
+    <refType typeId="c36ff532-e578-43ca-a957-938146029420" valueTypeId="bae0f9e4-2692-4363-89b2-d8e4fab56a4b"/>
+    <listType typeId="392ba578-a8d8-4bf8-9c63-ba516163cd5a" valueTypeId="cc02e79a-24e4-44ef-88e0-112081648775"/>
+    <managerType typeId="f29ab2d5-dd4e-482d-8b01-a96c5633fe61" valueTypeId="8e015d48-fc0a-485d-a255-20d99f582f8f"/>
+  </producedTypes>
+  <name>АмортизационныеГруппы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

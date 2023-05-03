@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c65826b1-7658-4171-b517-2701c24fc586">
+  <producedTypes>
+    <objectType typeId="58677411-923c-42be-8bbe-7703ab11cbd9" valueTypeId="0be474c4-5d8f-4612-a569-bb16055f5e89"/>
+    <managerType typeId="9f73f3ed-17a1-43be-bba2-2060bd309a6b" valueTypeId="11499c84-0969-43bb-9012-446730672e90"/>
+  </producedTypes>
+  <name>бг_НоменклатураБезСегментаSolvo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура без сегмента (Solvo)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_НоменклатураБезСегментаSolvo.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="66caacb1-fac5-4126-a0a2-87a12c9b2707">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

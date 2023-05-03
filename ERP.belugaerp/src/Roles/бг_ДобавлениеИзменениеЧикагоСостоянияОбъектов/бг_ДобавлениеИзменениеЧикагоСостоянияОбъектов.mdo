@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e4f6fdc-f173-4c51-84d2-1f5896c5b1e5">
+  <name>бг_ДобавлениеИзменениеЧикагоСостоянияОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение состояния объектов (Чикаго)</value>
+  </synonym>
+</mdclass:Role>

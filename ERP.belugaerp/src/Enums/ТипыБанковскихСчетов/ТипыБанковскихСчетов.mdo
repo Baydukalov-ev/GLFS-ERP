@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="531a33bd-b1aa-4135-b390-66f9fcafbcaf">
+  <producedTypes>
+    <refType typeId="c72746ce-32a0-41ae-b04a-231baa0f7185" valueTypeId="17dbf61c-c016-4be2-8b6b-d53fb4effdba"/>
+    <listType typeId="cc69b2c2-701e-4015-ba57-e68a565a5486" valueTypeId="31735387-0d63-489d-9410-1cf739c9d83a"/>
+    <managerType typeId="d8e16a43-bd35-4f37-a35e-b18a304d98c0" valueTypeId="43efa259-061a-4c71-98b9-fa15605ef68e"/>
+  </producedTypes>
+  <name>ТипыБанковскихСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="33e649aa-da54-4828-8326-c814a9d90f30">
+    <name>Расчетный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a8f6c2cf-5ff0-46bd-a38e-dc27962b21fd">
+    <name>Депозитный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c011d6ef-ae8b-431a-b8ff-6b4a48e8204c">
+    <name>Прочий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

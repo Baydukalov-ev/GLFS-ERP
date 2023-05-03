@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="81c21eb1-c05f-4f43-be58-fa9645af317e">
+  <producedTypes>
+    <refType typeId="c31b11ad-e10c-4183-bc8b-ca3ec22031ca" valueTypeId="fd36aa29-5cd9-4c04-b44f-354abe179ae6"/>
+    <listType typeId="cf9b52c5-8978-4819-b077-b95562b180e5" valueTypeId="58dc95c2-faa0-4043-a6b6-89de20a6849e"/>
+    <managerType typeId="b4f7993c-3bab-4896-ac83-18ca097a3c01" valueTypeId="891b5fce-6fec-4527-a6bb-3dcaad383430"/>
+  </producedTypes>
+  <name>ВариантыВыводаМесяцаВДатеДокумента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d1a988a6-68eb-461f-9a4f-af53fd777684">
+    <name>Числом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4246af2e-00af-437e-96ba-3951cd96cb40">
+    <name>Прописью</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

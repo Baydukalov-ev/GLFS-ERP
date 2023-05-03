@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c29d725-0c87-43cc-bbb3-c9c4d9fe727d">
+  <producedTypes>
+    <objectType typeId="9fae9db5-38fa-4bbf-ae0f-f142761bf7e4" valueTypeId="5d90c3ba-984b-4bc3-9c67-fc164427f17b"/>
+    <managerType typeId="6b6e7ba0-a609-46d5-bfc6-474f85630f62" valueTypeId="c0913bea-155a-4d8c-8d12-752a294697a7"/>
+  </producedTypes>
+  <name>бг_ВзаиморасчетыПоФакторингу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты по факторингу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_ВзаиморасчетыПоФакторингу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bf0553f2-0351-455f-a070-1c66db8144a1">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

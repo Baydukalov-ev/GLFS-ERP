@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9463dbc5-5cfe-46f3-ab43-b788dd4265ce">
+  <producedTypes>
+    <objectType typeId="f1069363-6c72-4482-8bf1-98ebb0917ad1" valueTypeId="ef6377ea-1288-4f63-ac02-0d8f6e879193"/>
+    <managerType typeId="c71899bd-01f4-4e29-bddc-27116efa58ba" valueTypeId="bd8e2d20-07e6-4429-80c7-ad1e4e012f32"/>
+  </producedTypes>
+  <name>бг_СостояниеОплатыЗаявокНаРасходованиеДСМагистраль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние оплаты заявок на расходование ДС (Магистраль)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_СостояниеОплатыЗаявокНаРасходованиеДСМагистраль.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0cb70ca2-6318-49a6-8c4c-d8be2739afbf">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

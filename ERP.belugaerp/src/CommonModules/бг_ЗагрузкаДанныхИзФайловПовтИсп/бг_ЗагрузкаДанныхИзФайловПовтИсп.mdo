@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5402018-7953-4764-8afe-cf0e36dff6f2">
+  <name>бг_ЗагрузкаДанныхИзФайловПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из файлов (повторное  использование)</value>
+  </synonym>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

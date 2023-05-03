@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="145f5bc2-fab1-4ab0-b3de-1c48a0c1f07f">
+  <producedTypes>
+    <objectType typeId="9667c4a4-1974-4533-b784-97b417d578c2" valueTypeId="7358ed47-486a-4059-884a-0ac7e30667d3"/>
+    <refType typeId="6dc7e7c3-744c-447b-833d-25ac1af671f8" valueTypeId="b4230211-ad4e-4d3e-b8cd-0e26b349d779"/>
+    <selectionType typeId="42d31bf2-b6ee-4e2a-8e72-e0c9ec101a56" valueTypeId="b08a9105-738e-4e2d-b02d-267c6d7f26e2"/>
+    <listType typeId="9c316f82-3fee-419b-ba2c-c3753a8644c5" valueTypeId="80ae03bf-8d48-4a9a-a459-35165d37d7fa"/>
+    <managerType typeId="9213aea2-c200-49f4-bfda-516f2a63c38a" valueTypeId="d598e740-dd20-4ada-a6c1-2630a8863542"/>
+  </producedTypes>
+  <name>битУсловияОбращенияСАлкогольнойПродукциейЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <defaultObjectForm>Catalog.битУсловияОбращенияСАлкогольнойПродукциейЕГАИС.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="3f4f6fcd-02f1-44a0-9bc0-b10230568a8d">
+    <name>ТипУсловия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип условия</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ТипыУсловийОбращенияСАПЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a999535-5cb2-40d2-bffd-c0389f380bf0">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значения в соответствии со справочником ЕГАИС.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8e3602d4-6070-4be1-9f7c-8d117648d553">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

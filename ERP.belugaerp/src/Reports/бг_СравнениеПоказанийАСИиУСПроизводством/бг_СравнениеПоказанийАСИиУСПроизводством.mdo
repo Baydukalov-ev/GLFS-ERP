@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="330f2327-56e7-453e-baa4-d9008089cda8">
+  <producedTypes>
+    <objectType typeId="be6418cc-dc17-42cd-9dc2-9436dcff4ec8" valueTypeId="b0c2495d-51bb-4fd3-b548-e1175b4f0925"/>
+    <managerType typeId="7546111e-7c1d-4147-af67-ff78bc359094" valueTypeId="91b613d2-fc2e-46dc-9471-658c897debd0"/>
+  </producedTypes>
+  <name>бг_СравнениеПоказанийАСИиУСПроизводством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сравнение показаний АСИиУ с производством</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_СравнениеПоказанийАСИиУСПроизводством.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0e283ee3-c347-4400-a5ec-71009dff7199">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

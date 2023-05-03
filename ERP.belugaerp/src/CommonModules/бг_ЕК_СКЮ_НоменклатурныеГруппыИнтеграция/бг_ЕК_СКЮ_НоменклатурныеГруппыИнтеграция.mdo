@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70f8159c-d504-419a-94ce-c9eed7d1b860">
+  <name>бг_ЕК_СКЮ_НоменклатурныеГруппыИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатурные группы (НСИ) (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

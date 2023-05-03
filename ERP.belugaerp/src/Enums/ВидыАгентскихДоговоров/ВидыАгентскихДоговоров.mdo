@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="51d16d6f-943f-4cdf-9370-f445028585d4">
+  <producedTypes>
+    <refType typeId="f82a92de-adf0-4477-ae81-f15be7ef783b" valueTypeId="24f9513f-a705-4f15-95b6-d3316a1f5341"/>
+    <listType typeId="062fef06-6cac-4c05-9fc5-4adcacff693e" valueTypeId="64c775ef-5183-4888-8c93-b38e752b0eb3"/>
+    <managerType typeId="e3a2ea45-cf18-43f3-b991-8a319e3805ed" valueTypeId="742cef76-01f7-4084-b561-cd02e6deb858"/>
+  </producedTypes>
+  <name>ВидыАгентскихДоговоров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="223e5ef8-2845-484e-a545-8d15cfee0435">
+    <name>Аренда</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e20b2c71-7008-48c8-8891-7de3b939b022">
+    <name>РеализацияИмущества</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="aa40a835-bbbe-4f32-bcc0-949c718eb4bf">
+    <name>Нерезидент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

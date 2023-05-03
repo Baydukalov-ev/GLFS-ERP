@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e476f8cc-74d1-49d9-9910-50f35b9af024">
+  <name>бг_ЧтениеТиповКузова</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение типов кузова</value>
+  </synonym>
+</mdclass:Role>

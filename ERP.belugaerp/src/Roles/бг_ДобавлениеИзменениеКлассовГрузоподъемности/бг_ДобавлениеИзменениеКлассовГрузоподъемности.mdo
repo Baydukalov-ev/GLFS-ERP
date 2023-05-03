@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93f246ae-4c20-4e07-b3e7-adbbe3593143">
+  <name>бг_ДобавлениеИзменениеКлассовГрузоподъемности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение тоннажа а/м</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93465db3-aafb-4be6-ab85-6b2e0cbedd0a">
+  <name>бг_ЧтениеПоказателейАнализовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение показателей анализов номенклатуры</value>
+  </synonym>
+</mdclass:Role>

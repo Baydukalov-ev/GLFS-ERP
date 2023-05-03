@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4b00cb75-a4f9-43bb-8288-b819a5decde2">
+  <producedTypes>
+    <objectType typeId="54ebdd5d-9755-428c-beef-bb4369cdac1b" valueTypeId="87f5afd1-a30c-4355-819d-054974913ada"/>
+    <refType typeId="eb26a016-3c33-4507-b0ed-14e994497adb" valueTypeId="30b58518-6724-434d-a165-0375fe6e417a"/>
+    <selectionType typeId="9b8fe3dc-e8af-42f2-a967-1d4d104de163" valueTypeId="6e29184e-3268-4a5a-8629-4a02e800e259"/>
+    <listType typeId="f8e8dcaf-800c-4130-9cbb-e51ea4b9e6c1" valueTypeId="b3cca119-4309-46aa-af93-77fc1b15ed8b"/>
+    <managerType typeId="c04ffe4a-b4f8-437a-aadf-fe04f248b6e0" valueTypeId="45b90fd3-db59-45dd-bc57-ddc1a445cba8"/>
+  </producedTypes>
+  <name>СпособыОтраженияЗарплатыВБухУчете</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43aefba0-5e25-4a56-a785-a482416b6b2a">
+  <producedTypes>
+    <refType typeId="a4b8ae10-f33a-4a28-a2e6-86dbe260301b" valueTypeId="f22b8036-8ec0-4341-8454-b433014a6bb4"/>
+    <listType typeId="5ce7e18d-696d-4117-8f45-bf22d8d7542f" valueTypeId="43d80b0d-fb54-45fa-b83e-133410c2c816"/>
+    <managerType typeId="85e4453c-17ce-4a06-971c-5becf48fb787" valueTypeId="07c7db1e-9d92-4b63-b62c-706aa41177f2"/>
+  </producedTypes>
+  <name>бг_ЧленыЭкипажа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Члены экипажа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee4ebb7b-e61c-48dd-af8b-c45ee67f1ca1">
+    <name>ОсновнойВодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной водитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="facadc9d-2f18-4654-8829-59ceb1f5f520">
+    <name>ОсновноеСопроводительноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное сопроводительное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56f2e62d-2044-4064-ad49-2be9c4ef8c2e">
+    <name>ВторойВодитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второй водитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c87d126b-679f-4f22-9f15-68eead3a39e9">
+    <name>ВтороеСопроводительноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Второе сопроводительное лицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5df75d60-e9f2-41fa-be36-5a550cec36f2">
+  <producedTypes>
+    <containerType typeId="ba497fea-05e9-47b2-8853-8d60af941eeb" valueTypeId="f8c719a4-1d94-4134-92da-98f12e133a2e"/>
+  </producedTypes>
+  <name>РаспоряжениеНаПоступление</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

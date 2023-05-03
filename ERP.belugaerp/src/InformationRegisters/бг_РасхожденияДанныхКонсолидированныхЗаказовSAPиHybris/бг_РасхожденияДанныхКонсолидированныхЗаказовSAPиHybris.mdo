@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd0ae87e-9552-40bf-b8be-77cfce774799">
+  <producedTypes>
+    <selectionType typeId="a42321c0-384c-446b-98b1-836379f7b2b6" valueTypeId="8cb13778-370e-4fc7-8ada-4fce4e59b679"/>
+    <listType typeId="1c10f466-a899-4318-b3d8-dc37522ee608" valueTypeId="4c3e8662-b358-4532-9acf-4420af15abf8"/>
+    <managerType typeId="6eaf03a3-8a6d-4fac-8708-99de617f826f" valueTypeId="c4861f58-27e9-4de2-b342-8f2eb3c78833"/>
+    <recordSetType typeId="649d6a7a-8617-4771-a820-5a4e2780b3ca" valueTypeId="28c4afa4-ceec-4db3-a146-e2284f1b166b"/>
+    <recordKeyType typeId="c1e587f0-d55b-4788-b511-944244133385" valueTypeId="522bc5a5-496c-4fb1-8581-0ea28a9ff7dc"/>
+    <recordType typeId="a975fbf4-5096-4957-b33d-6c8b8225664f" valueTypeId="9ef0ceba-5ccc-494a-a0df-6f3ffe153a90"/>
+    <recordManagerType typeId="6a9fb916-86db-46b5-9fe7-acf3c1513293" valueTypeId="b42ffd63-e598-447a-adcc-166498b57cfd"/>
+  </producedTypes>
+  <name>бг_РасхожденияДанныхКонсолидированныхЗаказовSAPиHybris</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расхождения данных консолидированных заказов SAP и Hybris (Белуга)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.бг_РасхожденияДанныхКонсолидированныхЗаказовSAPиHybris.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Расхождение данных консолидированных заказов SAP и Hybris</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Расхождение данных консолидированных заказов SAP и Hybris</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Расхождения данных консолидированных заказов SAP и Hybris</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Расхождения данных консолидированных заказов SAP и Hybris</value>
+  </extendedListPresentation>
+  <resources uuid="e275afea-4fb5-4d60-9637-0422e070b856">
+    <name>КоличествоSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество SAP</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество консолидированного заказа по заявке от SAP</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="db257670-0baf-4738-95fd-a6274573dd71">
+    <name>КоличествоКОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество к отгрузке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество к отгрузке  </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b50c5187-0146-4eef-8918-155d09334e57">
+    <name>СкюМТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKU MT</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.бг_ЕК_СКЮ_СкюМТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e4bcfcd2-6817-4e50-a246-45f77910c199">
+    <name>ТекстПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст протокола</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c6507419-6592-457f-b148-2fe6eb386972">
+    <name>ЗаявкаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.битЗаявкаКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="68a2e6c4-50bd-4185-80e6-17381fbe54f7">
+    <name>КодПозицииКонсолидированногоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код позиции КЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код позиции консолидированного заказа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="797fbc5b-cdc3-4822-8e94-598480d76113">
+    <name>НомерПредзаказаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер предзаказа клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер предзаказа клиента (номер заявки клиента загруженной из интернетмагазина)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="84805bcd-7885-4fbb-b269-7bc7eef9a96e">
+    <name>КодПозицииПредзаказаКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код позиции предзаказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код позхиции интернет заказа (предзаказа)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4c22b359-bf59-4a9c-9166-c933f75dcafe">
+    <name>КодНоменклатурыSAP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код номенклатуры SAP</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>18</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="fa1257d5-10e3-41ec-9955-a98babb12cbd">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

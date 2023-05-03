@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e593ef5b-cbf6-4b32-b6ee-2ebf15e4035f">
+  <producedTypes>
+    <selectionType typeId="9cc532a7-2703-4ed7-b0a3-3783494c7e3e" valueTypeId="4cb08492-b98a-40a4-95af-b072cb21c5ce"/>
+    <listType typeId="200defdd-519b-45d5-8acd-f20f48a66643" valueTypeId="f2ea3934-4f71-45ff-bcd7-1d4f18e62c3b"/>
+    <managerType typeId="ed1acf22-a57d-499d-a494-3aaad9694782" valueTypeId="652b2712-fb2b-4254-bc1f-cfc27c8eb1bd"/>
+    <recordSetType typeId="c194de0d-76be-4246-a0a1-747a0719bc2d" valueTypeId="14b167c0-e668-480c-a449-ac185916d97e"/>
+    <recordKeyType typeId="2031318f-4d7b-4d6e-8e15-9d97bb0eb554" valueTypeId="b27b2363-62c3-4546-a458-a5c9305c476d"/>
+    <recordType typeId="46380813-669b-46f5-b7fd-a7d1081c5787" valueTypeId="b989de01-804b-42b2-a548-7b68cbbde270"/>
+    <recordManagerType typeId="f97c5508-2974-4ad6-828f-a53d4af5d45b" valueTypeId="2a6ba70e-159d-481d-b511-dc6be6bfa3df"/>
+  </producedTypes>
+  <name>СостоянияВнутреннихЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="ce2a9216-36c0-4231-82c8-c752f0e2ad69">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СостоянияВнутреннихЗаказов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="6206f588-141f-4966-b55e-fe785b6429d0">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

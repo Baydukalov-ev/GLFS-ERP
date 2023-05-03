@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9beb4a3-e102-40f2-9cce-fe33b07ee2b9">
+  <producedTypes>
+    <objectType typeId="2a053080-9922-412b-91a8-be9d268e04ff" valueTypeId="dc25c268-7c2f-4e93-88c1-da3afabde114"/>
+    <managerType typeId="6de230fd-352d-40b8-ad21-a73298c21fb9" valueTypeId="d6a1cebe-87f5-4046-89ad-62954f4aebb5"/>
+  </producedTypes>
+  <name>бг_КонтрольВыгрузкиАвтомобиля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль выгрузки автомобиля</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.бг_КонтрольВыгрузкиАвтомобиля.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0c72e1e5-3a57-45e7-9846-239f8260558e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d6f54a5-e34c-4206-aee0-b65b97d510cd">
+  <producedTypes>
+    <selectionType typeId="3d8f2c20-f641-4787-a765-157d07ec134e" valueTypeId="d547782a-698b-4dc6-9553-70e89cc68e5d"/>
+    <listType typeId="f5f73efe-7e07-4d49-8af0-ac4733638925" valueTypeId="676d03cb-25e3-457d-8768-0a27544feb8f"/>
+    <managerType typeId="d60db44a-8df7-4ad7-aaa8-f6fded7cb010" valueTypeId="4345ad3a-26db-4806-936c-3ed9531215c6"/>
+    <recordSetType typeId="378829ce-fed5-4418-b9c2-cb883e2d72a8" valueTypeId="f889736b-327d-45a8-bfc1-fa02af8dbfdb"/>
+    <recordKeyType typeId="8b69dfa6-f0e1-40da-bc6a-ddb8346e6f3d" valueTypeId="bff64542-fd4f-4f9a-91cc-20a90f65fdd2"/>
+    <recordType typeId="1d54e4d2-92e6-4d35-9f86-7a320b302dde" valueTypeId="dab6f8d5-4750-4725-897e-d7644020338a"/>
+    <recordManagerType typeId="c8b1a457-175f-4ae2-88ce-3e21c959f03c" valueTypeId="f3576f18-24d9-4cb1-ae66-99f935ccce2e"/>
+  </producedTypes>
+  <name>бг_СтатусыЗаписиДвиженийМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы записи движений марок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="82946524-e900-4e80-b75f-41959de222c8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СтатусыЗаписиДвиженийМарок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d5b1d64-7afa-4f37-9641-b3b857f16053">
+    <name>ДатаОбновленияСтатуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата обновления статуса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b060242-254c-421f-8a14-894cad67a9c9">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭтапПроизводства2_2</types>
+      <types>DocumentRef.ТТНВходящаяЕГАИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

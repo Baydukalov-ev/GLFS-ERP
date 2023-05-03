@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="725dd28c-c675-406f-ac71-b6b445851f87">
+  <name>бг_ЧтениеМаршрутныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение маршрутных листов</value>
+  </synonym>
+</mdclass:Role>

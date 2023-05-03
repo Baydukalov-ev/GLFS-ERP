@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0d75dda-058f-4fa7-b3d8-fd01a324905c">
+  <name>бг_ЧтениеПартнеровДолгосрочныхРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение партнеров долгосрочных резервов (Белуга)</value>
+  </synonym>
+</mdclass:Role>

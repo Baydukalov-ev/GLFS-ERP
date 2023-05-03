@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0e8f88a3-0147-4672-8b0e-13f999c79f40">
+  <producedTypes>
+    <refType typeId="4899306c-b6e5-43e9-a948-026a367c1270" valueTypeId="7cd7febf-a596-42d8-9aa2-d718c13c1c17"/>
+    <listType typeId="07f9fdac-cd65-499b-b509-44bd2bd42bd3" valueTypeId="15ea7b5c-02d4-47c8-b531-aef04c1f6c39"/>
+    <managerType typeId="01e65a8c-62bb-48fe-963a-f03d6837069f" valueTypeId="e03a7029-5e6a-44f7-8a0d-bf6cfdaefa39"/>
+  </producedTypes>
+  <name>СпособыОпределенияСтоимостиПредметовАренды</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a50f81ac-27c6-4280-b791-c448435539e8">
+    <name>Дисконтирование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c748a02c-052e-49a5-a38b-b46fe1272179">
+    <name>ПоФактическойСтоимости</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

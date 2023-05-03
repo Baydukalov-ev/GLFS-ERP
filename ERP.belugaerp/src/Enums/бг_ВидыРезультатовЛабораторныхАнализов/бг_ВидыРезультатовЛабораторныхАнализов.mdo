@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c417e182-345b-43a1-b5c6-d740063c090b">
+  <producedTypes>
+    <refType typeId="a0f89e90-b67c-414d-ab3c-57de4bf1ac22" valueTypeId="231b236d-d46b-419d-81aa-8c8e44581966"/>
+    <listType typeId="eec15d94-c543-4fcc-9212-1ddbd1d4bdc7" valueTypeId="4ef96e6d-597d-4e58-aa72-86770dd47982"/>
+    <managerType typeId="fde2a337-8eff-4b94-ae85-d6338cad892a" valueTypeId="a891dc19-01aa-410f-a306-d611f5476973"/>
+  </producedTypes>
+  <name>бг_ВидыРезультатовЛабораторныхАнализов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды результатов лабораторных анализов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d932e230-fd61-462a-8249-3ccdde3c3f2f">
+    <name>ЗначениеСПогрешностью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение +/- погрешность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fdd5562-87e9-47f2-a8d3-5fb62086530e">
+    <name>ЗначениеИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение из списка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23cf0b1f-efb1-463d-a38b-9aa8a9eeb5f0">
+    <name>Поддиапазон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддиапазон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8a769ac-4fcc-4431-88f7-14f668c7a9f7">
+    <name>ЧислоВИнтервале</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число в интервале</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

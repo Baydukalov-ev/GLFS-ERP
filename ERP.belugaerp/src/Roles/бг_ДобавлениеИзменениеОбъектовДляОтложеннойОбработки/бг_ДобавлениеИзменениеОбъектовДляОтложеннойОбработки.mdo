@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7abc7fef-cb1a-45eb-bd55-462974d28913">
+  <name>бг_ДобавлениеИзменениеОбъектовДляОтложеннойОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение объектов для отложенной обработки</value>
+  </synonym>
+</mdclass:Role>

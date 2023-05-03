@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="646f0e09-c4e4-4f2d-80e7-ea762bf36bc8">
+  <producedTypes>
+    <refType typeId="f052c7cc-0323-4027-9c24-da2547c8388c" valueTypeId="fecf82ca-8472-4e89-9b72-d8e3eb33d426"/>
+    <listType typeId="b2d309ca-9329-4590-97b9-3839807c629a" valueTypeId="02319031-f870-48d1-a241-cfc51b8b21af"/>
+    <managerType typeId="84a7a5de-3946-410e-9ebf-72441482b254" valueTypeId="3b80e957-2ba8-4e07-bbe8-2577ce4a9869"/>
+  </producedTypes>
+  <name>бг_КатегорииМакетовПечатныхФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории макетов печатных форм</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d62c79f6-8902-4bea-ae35-fc9cecf3a137">
+    <name>Метро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метро</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32b8a3ad-bec8-416e-a674-2dc6fe6cc9d5">
+    <name>МетроРЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метро РЦ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23faabbc-1efc-43b9-be02-9f02e1384a23">
+    <name>Перекресток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перекресток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6fa5148-ad77-4042-837b-5cb2a665cae3">
+    <name>ОбщийДляСетей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий для сетей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98fba09e-3510-4a02-a531-eab302e9a825">
+    <name>Тандер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тандер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

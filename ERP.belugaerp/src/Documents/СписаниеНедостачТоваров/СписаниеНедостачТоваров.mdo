@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d04c6c55-949e-4d58-a06a-1b086bddb4cb">
+  <producedTypes>
+    <objectType typeId="50aa0513-352c-4ce9-8dc6-8bb911b15117" valueTypeId="4ac9bbcf-128c-44af-9484-382dc237baca"/>
+    <refType typeId="a9e9f00b-ee21-4601-95ff-bef1e0df1705" valueTypeId="200791e6-0d56-47dd-aa6c-aad0a199db40"/>
+    <selectionType typeId="d2cf14b0-db87-4f49-83ce-8b370479ce27" valueTypeId="cd5940b9-03a5-4ef6-89de-b9ac8cca2cb0"/>
+    <listType typeId="2ed41402-321f-48ef-9781-bf0265326570" valueTypeId="066a37c0-7f89-4173-92b3-f9c8e255ab7a"/>
+    <managerType typeId="78ef57d1-aa3c-4c0e-baaf-2b02091eeaab" valueTypeId="b8c016d2-0507-4545-adbc-91f1976d4216"/>
+  </producedTypes>
+  <name>СписаниеНедостачТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="61914a70-da34-446b-9675-b5575e6471f6">
+    <name>СтатьяРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="169939c1-693e-438f-95db-47fbab62e322">
+    <name>АналитикаРасходов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.СтатьиРасходов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Document>

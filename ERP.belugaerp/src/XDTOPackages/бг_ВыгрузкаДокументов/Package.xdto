@@ -1,0 +1,145 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.sygroup.ru/DocExchange/">
+	<objectType name="Document">
+		<property name="PackageVersion" type="xs:string"/>
+		<property name="SenderTiker" type="xs:string"/>
+		<property name="RecipientTiker" type="xs:string"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Sender" type="d3p1:Contr" lowerBound="1"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Recepient" type="d3p1:Contr" lowerBound="1"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Vendor" type="d3p1:Contr" lowerBound="1"/>
+		<property name="DocumentType" type="xs:string"/>
+		<property name="UnloadDate" type="xs:date"/>
+		<property name="UnloadTime" type="xs:string"/>
+		<property name="EndPartner" type="xs:string"/>
+		<property name="Number" type="xs:string"/>
+		<property name="Date" type="xs:dateTime"/>
+		<property name="IdLoadPoint" type="xs:string"/>
+		<property name="IdUnloadPoint" type="xs:string"/>
+		<property name="OrderDate" type="xs:date"/>
+		<property name="OrderNumber" type="xs:string"/>
+		<property name="IdTransportPackage" type="xs:string"/>
+		<property name="IdTTN_EGAIS" type="xs:string"/>
+		<property name="OperationType" type="xs:string"/>
+		<property name="VATCorrectionOnly" type="xs:boolean"/>
+		<property name="ParentDocumentDate" type="xs:dateTime"/>
+		<property name="ParentDocumentNumber" type="xs:string"/>
+		<property name="Comment" type="xs:string"/>
+		<property name="GUID" type="xs:string"/>
+		<property name="SFDate" type="xs:date"/>
+		<property name="SFCorrection" type="xs:boolean"/>
+		<property name="SFCorrectionNumber" type="xs:string"/>
+		<property name="SFOperationTypeCode" type="xs:string"/>
+		<property name="SFSrcNumber" type="xs:string"/>
+		<property name="SFSrcDate" type="xs:date"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Products" type="d3p1:Products"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="SerialNumbers" type="d3p1:SerialNumbers"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="ConformityDeclarations" type="d3p1:ConformityDeclarations"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Content" type="d3p1:Content"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Sets" type="d3p1:Sets"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Packing" type="d3p1:Packing"/>
+	</objectType>
+	<objectType name="Product">
+		<property name="ProductID" type="xs:string"/>
+		<property name="ProductCode" type="xs:string"/>
+		<property name="ProductName" type="xs:string"/>
+		<property name="BuyerProductCode" type="xs:string"/>
+		<property name="UnitOfMeasure" type="xs:string"/>
+		<property name="UnitPackSize" type="xs:string"/>
+		<property name="UnitOfPack" type="xs:string"/>
+		<property name="CodeEK_SKU" type="xs:string"/>
+		<property name="CodeEK" type="xs:string"/>
+		<property name="BarCode" type="xs:string"/>
+	</objectType>
+	<objectType name="SerialNumber">
+		<property name="SN_ID" type="xs:string"/>
+		<property name="SN_Code" type="xs:string"/>
+		<property name="SN_Name" type="xs:string"/>
+		<property name="InformA" type="xs:string"/>
+		<property name="InformB" type="xs:string"/>
+		<property name="BuyerInformB" type="xs:string"/>
+		<property name="EGAIS_ProductCode" type="xs:string"/>
+		<property name="AlcoholTypeCode" type="xs:string"/>
+		<property name="ProductionDate" type="xs:date"/>
+		<property name="CustomsDeclaration" type="xs:string"/>
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="StripStampInfo" type="d3p1:StripStampInfo"/>
+		<property name="OriginCountry" type="xs:string"/>
+		<property name="IDProducer" type="xs:string"/>
+		<property name="IDImporter" type="xs:string"/>
+		<property name="IDPoint_P_I" type="xs:string"/>
+		<property name="ConformityDeclaration_ID" type="xs:string"/>
+		<property name="ProductComposition" type="xs:string"/>
+		<property name="DateAccrualExciseDuty" type="xs:date"/>
+	</objectType>
+	<objectType name="FSMSerialNumber">
+		<property name="FSMNumberRange" type="xs:string"/>
+		<property name="FSMSerial" type="xs:string"/>
+		<property name="FSMNumberRangeFrom" type="xs:string"/>
+		<property name="FSMNumberRangeTo" type="xs:string"/>
+	</objectType>
+	<objectType name="Line">
+		<property name="LineNumber" type="xs:int"/>
+		<property name="ProductID" type="xs:string"/>
+		<property name="SN_ID" type="xs:string"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="QuantityOfPacks" type="xs:decimal"/>
+		<property name="Price" type="xs:decimal"/>
+		<property name="VATRate" type="xs:string"/>
+		<property name="Amount" type="xs:decimal"/>
+		<property name="VATAmount" type="xs:decimal"/>
+		<property name="AmountWithoutDiscount" type="xs:decimal"/>
+		<property name="ManualDiscountAmount" type="xs:decimal"/>
+		<property name="AutomaticDiscountAmount" type="xs:decimal"/>
+		<property name="PriceWithoutDiscount" type="xs:decimal"/>
+		<property name="ManualDiscountsPercent" type="xs:decimal"/>
+		<property name="AutomaticDiscountsPercent" type="xs:decimal"/>
+	</objectType>
+	<objectType name="Set">
+		<property name="LineNumber" type="xs:int"/>
+		<property name="ProductID" type="xs:string"/>
+		<property name="SN_ID" type="xs:string"/>
+		<property name="Quantity" type="xs:decimal"/>
+		<property name="Proportion" type="xs:decimal"/>
+	</objectType>
+	<objectType name="Pack">
+		<property name="LineNumber" type="xs:int"/>
+		<property name="BarCodePL" type="xs:string"/>
+		<property name="BarCodeCS" type="xs:string"/>
+		<property name="PDF417" type="xs:string"/>
+	</objectType>
+	<objectType name="StripStampInfo">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="FSMSerialNumber" type="d3p1:FSMSerialNumber" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Content">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Line" type="d3p1:Line" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Products">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Product" type="d3p1:Product" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="SerialNumbers">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="SerialNumber" type="d3p1:SerialNumber" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Sets">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Set" type="d3p1:Set" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Packing">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="Pack" type="d3p1:Pack"/>
+	</objectType>
+	<objectType name="ConformityDeclaration">
+		<property name="CD_ID" type="xs:string"/>
+		<property name="CD_Name" type="xs:string"/>
+		<property name="CD_Owner" type="xs:string"/>
+		<property name="CD_Number" type="xs:string"/>
+		<property name="CD_IssueDate" type="xs:date"/>
+		<property name="CD_ValidityPeriod" type="xs:date"/>
+		<property name="CD_IssuingAuthority" type="xs:string"/>
+		<property name="CD_NormativeDocument" type="xs:string"/>
+		<property name="CD_NumberLaboratoryTestProtocol" type="xs:string"/>
+	</objectType>
+	<objectType name="ConformityDeclarations">
+		<property xmlns:d3p1="http://www.sygroup.ru/DocExchange/" name="ConformityDeclaration" type="d3p1:ConformityDeclaration" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Contr">
+		<property name="Name" type="xs:string"/>
+		<property name="INN" type="xs:string"/>
+		<property name="KPP" type="xs:string"/>
+	</objectType>
+</package>

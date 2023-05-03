@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39871ba7-3d06-41f2-ac2b-29c976eeed49">
+  <name>egais_QueryRejectRepImported</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:XDTOPackageExtension"/>
+  <namespace>http://fsrar.ru/WEGAIS/QueryRejectRepImported</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="30604aae-649a-44d3-b5f8-0a0feb983487">
+  <producedTypes>
+    <selectionType typeId="faddf929-54c2-462e-97a8-3b19fe131109" valueTypeId="e185a565-4816-4109-b20a-534f1b0896aa"/>
+    <listType typeId="7e077c30-52ab-40d3-8d19-f587aa4578be" valueTypeId="cb2d2456-819b-4fa2-a7c8-2d50a1a51a38"/>
+    <managerType typeId="727fae59-1b14-453a-8d3c-b9045b85e474" valueTypeId="99ba7395-0183-41f8-8fcb-25818dbfad1f"/>
+    <recordSetType typeId="16a38030-465a-4fa7-8f37-92479f10d22a" valueTypeId="8f26be28-c9f6-4eb3-918a-48deabeaa438"/>
+    <recordKeyType typeId="624d3380-649d-44b1-bb5d-ba58ceb0eaf5" valueTypeId="0726a7db-62c3-46a9-a652-e6505822c346"/>
+    <recordType typeId="8bd45e14-2e56-44a5-8303-582b3a0d4516" valueTypeId="f5564155-28ed-4655-99dc-119a026de030"/>
+    <recordManagerType typeId="82a0cca4-6371-43fd-abed-95556d1b2a1a" valueTypeId="0a07038f-ce6c-4e0d-b009-6a246c498ad9"/>
+  </producedTypes>
+  <name>ДокументыФизическихЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="9b00cd46-b1e5-49a2-be63-3007f7bdaccf">
+    <name>Серия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>14</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="d40c553e-bc9f-4adc-8823-11c0d2fa824e">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="ca8c8276-5591-4ccb-9390-cff6aec2f43e">
+    <name>ДатаВыдачи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="6557d0e9-f075-475d-98e3-cc22b734834f">
+    <name>Физлицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="99759763-f701-4832-a9b0-959a64f5109f">
+    <name>ВидДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыДокументовФизическихЛиц</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

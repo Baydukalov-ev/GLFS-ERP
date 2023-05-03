@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗапасов</dataPath>
+			<field>ВидЗапасов</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АналитикаУчетаНоменклатуры</dataPath>
+			<field>АналитикаУчетаНоменклатуры</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АлкогольнаяПродукция</dataPath>
+			<field>АлкогольнаяПродукция</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияЕГАИС</dataPath>
+			<field>ОрганизацияЕГАИС</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справка2</dataPath>
+			<field>Справка2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справка Б</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЕГАИС</dataPath>
+			<field>КоличествоЕГАИС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество ЕГАИС (по данным 1С)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Серия</dataPath>
+			<field>Серия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоСклад</dataPath>
+			<field>КоличествоСклад</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество склад (УС)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПроизводство</dataPath>
+			<field>КоличествоПроизводство</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество производство</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СодержаниеЭтиловогоСпирта</dataPath>
+			<field>СодержаниеЭтиловогоСпирта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Содержание этилового спирта, %</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Справка1</dataPath>
+			<field>Справка1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справка А</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураКод</dataPath>
+			<field>НоменклатураКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АПКод</dataPath>
+			<field>АПКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>АП код</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЕГАИСДокумент</dataPath>
+			<field>КоличествоЕГАИСДокумент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество ЕГАИС (Фиксация остатков)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=3</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВложенныйЗапрос.Номенклатура КАК Номенклатура,
+	ВложенныйЗапрос.Серия КАК Серия,
+	ВложенныйЗапрос.Серия.Справка2ЕГАИС КАК Справка2,
+	ВложенныйЗапрос.Серия.Справка2ЕГАИС.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	ВложенныйЗапрос.Организация КАК Организация,
+	СУММА(ВложенныйЗапрос.КоличествоСклад) КАК КоличествоСклад,
+	СУММА(ВложенныйЗапрос.КоличествоПроизводство) КАК КоличествоПроизводство
+ПОМЕСТИТЬ втОстаткиНаСкладах
+ИЗ
+	(ВЫБРАТЬ
+		ТоварыОрганизацийОстатки.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
+		ТоварыОрганизацийОстатки.АналитикаУчетаНоменклатуры.Серия КАК Серия,
+		ТоварыОрганизацийОстатки.Организация КАК Организация,
+		ТоварыОрганизацийОстатки.КоличествоОстаток КАК КоличествоСклад,
+		0 КАК КоличествоПроизводство
+	ИЗ
+		РегистрНакопления.ТоварыОрганизаций.Остатки(
+				&amp;Дата1,
+				АналитикаУчетаНоменклатуры.МестоХранения ССЫЛКА Справочник.Склады
+					И НЕ АналитикаУчетаНоменклатуры.Серия.Справка2ЕГАИС = ЗНАЧЕНИЕ(Справочник.Справки2ЕГАИС.ПустаяСсылка)
+					И НЕ ВЫРАЗИТЬ(АналитикаУчетаНоменклатуры.МестоХранения КАК Справочник.Склады).ЦеховаяКладовая) КАК ТоварыОрганизацийОстатки
+	
+	ОБЪЕДИНИТЬ ВСЕ
+	
+	ВЫБРАТЬ
+		ТоварыОрганизацийОстатки.АналитикаУчетаНоменклатуры.Номенклатура,
+		ТоварыОрганизацийОстатки.АналитикаУчетаНоменклатуры.Серия,
+		ТоварыОрганизацийОстатки.Организация,
+		0,
+		ТоварыОрганизацийОстатки.КоличествоОстаток
+	ИЗ
+		РегистрНакопления.ТоварыОрганизаций.Остатки(
+				&amp;Дата1,
+				АналитикаУчетаНоменклатуры.МестоХранения ССЫЛКА Справочник.Склады
+					И НЕ АналитикаУчетаНоменклатуры.Серия.Справка2ЕГАИС = ЗНАЧЕНИЕ(Справочник.Справки2ЕГАИС.ПустаяСсылка)
+					И ВЫРАЗИТЬ(АналитикаУчетаНоменклатуры.МестоХранения КАК Справочник.Склады).ЦеховаяКладовая) КАК ТоварыОрганизацийОстатки) КАК ВложенныйЗапрос
+
+СГРУППИРОВАТЬ ПО
+	ВложенныйЗапрос.Номенклатура,
+	ВложенныйЗапрос.Серия,
+	ВложенныйЗапрос.Организация,
+	ВложенныйЗапрос.Серия.Справка2ЕГАИС,
+	ВложенныйЗапрос.Серия.Справка2ЕГАИС.АлкогольнаяПродукция
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Справка2,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиАлкогольнойПродукцииЕГАИСОстатки.ОрганизацияЕГАИС КАК ОрганизацияЕГАИС,
+	ВЫРАЗИТЬ(ОстаткиАлкогольнойПродукцииЕГАИСОстатки.ОрганизацияЕГАИС.Контрагент КАК Справочник.Организации) КАК Организация,
+	ОстаткиАлкогольнойПродукцииЕГАИСОстатки.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	ОстаткиАлкогольнойПродукцииЕГАИСОстатки.СвободныйОстатокОстаток КАК Количество,
+	ОстаткиАлкогольнойПродукцииЕГАИСОстатки.Справка2 КАК Справка2
+ПОМЕСТИТЬ втОстаткиЕГАИС
+ИЗ
+	РегистрНакопления.ОстаткиАлкогольнойПродукцииЕГАИС.Остатки(&amp;Дата1, ) КАК ОстаткиАлкогольнойПродукцииЕГАИСОстатки
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Справка2,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Справка2 КАК Справка2,
+	СУММА(ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Количество) КАК Количество,
+	ВЫРАЗИТЬ(ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Ссылка.ОрганизацияЕГАИС.Контрагент КАК Справочник.Организации) КАК Организация,
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Ссылка.ОрганизацияЕГАИС КАК ОрганизацияЕГАИС
+ПОМЕСТИТЬ втОстаткиЕГАИСДокумент
+ИЗ
+	Документ.ОстаткиЕГАИС.ОстаткиПоДаннымЕГАИС КАК ОстаткиЕГАИСОстаткиПоДаннымЕГАИС
+ГДЕ
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Ссылка = &amp;ДокументОстаткиЕГАИС
+
+СГРУППИРОВАТЬ ПО
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.АлкогольнаяПродукция,
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Справка2,
+	ВЫРАЗИТЬ(ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Ссылка.ОрганизацияЕГАИС.Контрагент КАК Справочник.Организации),
+	ОстаткиЕГАИСОстаткиПоДаннымЕГАИС.Ссылка.ОрганизацияЕГАИС
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Справка2,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(втОстаткиНаСкладах.Организация, втОстаткиЕГАИС.Организация) КАК Организация,
+	ЕСТЬNULL(втОстаткиНаСкладах.АлкогольнаяПродукция, втОстаткиЕГАИС.АлкогольнаяПродукция) КАК АлкогольнаяПродукция,
+	ЕСТЬNULL(втОстаткиНаСкладах.Справка2, втОстаткиЕГАИС.Справка2) КАК Справка2,
+	ЕСТЬNULL(втОстаткиНаСкладах.Номенклатура, НЕОПРЕДЕЛЕНО) КАК Номенклатура,
+	ЕСТЬNULL(втОстаткиНаСкладах.Серия, НЕОПРЕДЕЛЕНО) КАК Серия,
+	ЕСТЬNULL(втОстаткиЕГАИС.Количество, 0) КАК КоличествоЕГАИС,
+	ЕСТЬNULL(втОстаткиНаСкладах.КоличествоСклад, 0) КАК КоличествоСклад,
+	ЕСТЬNULL(втОстаткиНаСкладах.КоличествоПроизводство, 0) КАК КоличествоПроизводство
+ПОМЕСТИТЬ втДанные1С
+ИЗ
+	втОстаткиНаСкладах КАК втОстаткиНаСкладах
+		ПОЛНОЕ СОЕДИНЕНИЕ втОстаткиЕГАИС КАК втОстаткиЕГАИС
+		ПО втОстаткиНаСкладах.Организация = втОстаткиЕГАИС.Организация
+			И втОстаткиНаСкладах.Справка2 = втОстаткиЕГАИС.Справка2
+			И втОстаткиНаСкладах.АлкогольнаяПродукция = втОстаткиЕГАИС.АлкогольнаяПродукция
+
+ИНДЕКСИРОВАТЬ ПО
+	Организация,
+	Справка2,
+	АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЕСТЬNULL(втДанные1С.Организация, втОстаткиЕГАИСДокумент.Организация) КАК Организация,
+	ЕСТЬNULL(втДанные1С.АлкогольнаяПродукция, втОстаткиЕГАИСДокумент.АлкогольнаяПродукция) КАК АлкогольнаяПродукция,
+	ЕСТЬNULL(втДанные1С.Справка2, втОстаткиЕГАИСДокумент.Справка2) КАК Справка2,
+	ЕСТЬNULL(втДанные1С.Номенклатура, НЕОПРЕДЕЛЕНО) КАК Номенклатура,
+	ЕСТЬNULL(втДанные1С.Серия, НЕОПРЕДЕЛЕНО) КАК Серия,
+	ЕСТЬNULL(втДанные1С.КоличествоЕГАИС, 0) КАК КоличествоЕГАИС,
+	ЕСТЬNULL(втДанные1С.КоличествоСклад, 0) КАК КоличествоСклад,
+	ЕСТЬNULL(втДанные1С.КоличествоПроизводство, 0) КАК КоличествоПроизводство,
+	ЕСТЬNULL(втОстаткиЕГАИСДокумент.Количество, 0) КАК КоличествоЕГАИСДокумент
+ПОМЕСТИТЬ втДанные
+ИЗ
+	втДанные1С КАК втДанные1С
+		ПОЛНОЕ СОЕДИНЕНИЕ втОстаткиЕГАИСДокумент КАК втОстаткиЕГАИСДокумент
+		ПО втДанные1С.Организация = втОстаткиЕГАИСДокумент.Организация
+			И втДанные1С.Справка2 = втОстаткиЕГАИСДокумент.Справка2
+			И втДанные1С.АлкогольнаяПродукция = втОстаткиЕГАИСДокумент.АлкогольнаяПродукция
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	втДанные.Организация КАК Организация,
+	втДанные.АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+	втДанные.АлкогольнаяПродукция.Код КАК АПКод,
+	втДанные.Справка2 КАК Справка2,
+	втДанные.Справка2.НомерСправки1 КАК Справка1,
+	втДанные.Номенклатура КАК Номенклатура,
+	втДанные.Номенклатура.Код КАК НоменклатураКод,
+	втДанные.Серия КАК Серия,
+	втДанные.Серия.бг_ФактическаяКрепость КАК СодержаниеЭтиловогоСпирта,
+	втДанные.КоличествоЕГАИС КАК КоличествоЕГАИС,
+	втДанные.КоличествоСклад КАК КоличествоСклад,
+	втДанные.КоличествоПроизводство КАК КоличествоПроизводство,
+	втДанные.КоличествоЕГАИСДокумент КАК КоличествоЕГАИСДокумент
+ИЗ
+	втДанные КАК втДанные</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ОстатокВсего</dataPath>
+		<expression>КоличествоСклад + КоличествоПроизводство</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Остаток всего</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=3</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>РасхождениеОстаткиТоваров</dataPath>
+		<expression>КоличествоСклад + КоличествоПроизводство - КоличествоЕГАИСДокумент</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расхождение остатки товаров</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=3</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>РасхождениеОстаткиЕГАИС</dataPath>
+		<expression>КоличествоЕГАИС - КоличествоЕГАИСДокумент</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расхождение остатки ЕГАИС</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>Формат</dcscor:parameter>
+				<dcscor:value xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЧДЦ=3</v8:content>
+					</v8:item>
+				</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<totalField>
+		<dataPath>ОстатокВсего</dataPath>
+		<expression>Сумма(ОстатокВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоСклад</dataPath>
+		<expression>Сумма(КоличествоСклад)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоПроизводство</dataPath>
+		<expression>Сумма(КоличествоПроизводство)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЕГАИС</dataPath>
+		<expression>Сумма(КоличествоЕГАИС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РасхождениеОстаткиЕГАИС</dataPath>
+		<expression>Сумма(РасхождениеОстаткиЕГАИС)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РасхождениеОстаткиТоваров</dataPath>
+		<expression>Сумма(РасхождениеОстаткиТоваров)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоЕГАИСДокумент</dataPath>
+		<expression>Сумма(КоличествоЕГАИСДокумент)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Дата1</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата1</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДокументОстаткиЕГАИС</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документ остатки ЕГАИС</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ОстаткиЕГАИС</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сверка остатков и данных ЕГАИС</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Серия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АПКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>АлкогольнаяПродукция</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СодержаниеЭтиловогоСпирта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Справка1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Справка2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НоменклатураКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоСклад</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоЕГАИСДокумент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоЕГАИС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПроизводство</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОстатокВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасхождениеОстаткиЕГАИС</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РасхождениеОстаткиТоваров</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>315c09a6-0c95-4287-9499-62a12cf1d1bd</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+					<dcsset:userSettingID>0d173c6f-7d5f-4dfd-9697-22013f248f29</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ДокументОстаткиЕГАИС</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Документ.ОстаткиЕГАИС.ПустаяСсылка</dcscor:value>
+					<dcsset:userSettingID>007a1560-350f-4c4e-8cde-2170a95d1f2e</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сверка остатков и данных ЕГАИС</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

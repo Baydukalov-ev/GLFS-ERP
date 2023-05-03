@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d93c528a-ac45-4263-9744-e8aa192e3dca">
+  <producedTypes>
+    <objectType typeId="f31c314e-3ea6-43b2-90eb-c9717fa5c08d" valueTypeId="c3b6c521-dad8-44b5-94a8-022a35363ab4"/>
+    <refType typeId="acfbebef-0c0a-498f-a213-b5b1a6ac537f" valueTypeId="1d54d4ad-c964-45f4-9ca1-af5a926fe7ec"/>
+    <selectionType typeId="dd8ceb32-0dc5-4725-96a4-80b764fbb3e3" valueTypeId="0233b3a6-aa66-474a-80eb-e93ccf863281"/>
+    <listType typeId="e9ddc406-28c1-4757-bdc7-40d0696ca8c4" valueTypeId="eee165d9-f3d9-4f70-9d04-304ad3930b09"/>
+    <managerType typeId="298fb128-f1cd-4563-94a7-902afab97fd0" valueTypeId="219af646-3495-417d-8d9a-5970e6df33ca"/>
+  </producedTypes>
+  <name>ПоступлениеДенежныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

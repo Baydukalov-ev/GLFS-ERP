@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45d60656-d186-4244-a239-a4914533581a">
+  <name>бг_ДобавлениеИзменениеМаршрутныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение маршрутных листов</value>
+  </synonym>
+</mdclass:Role>

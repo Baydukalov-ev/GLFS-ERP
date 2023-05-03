@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52e95536-29fe-4824-87e5-fb3013e2d5ec">
+  <producedTypes>
+    <objectType typeId="10b1066b-57a1-42a8-ba74-5a75f9ce7853" valueTypeId="531726ab-cb95-48be-867a-95dba13fa009"/>
+    <refType typeId="e9172650-7516-46c4-8251-277cab003ab8" valueTypeId="859ec3c2-f987-4097-bfdb-04edf8871cf2"/>
+    <selectionType typeId="2663ba32-0ffe-41a4-8915-4b9496cc4174" valueTypeId="16e2e0e6-7412-4115-a31b-a1ea51779966"/>
+    <listType typeId="6343e015-5565-4b96-9a44-bd12b0658fe2" valueTypeId="8e28f865-8509-4110-9915-3a3338278934"/>
+    <managerType typeId="c6df287c-7a6c-4db2-acb4-1b09460a5b45" valueTypeId="e9097c10-566a-4c12-a95d-e4c3d4f3f3b2"/>
+  </producedTypes>
+  <name>бг_МаршрутыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.бг_МаршрутыДоставки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.бг_МаршрутыДоставки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Маршрут доставки</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Маршрут доставки</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Маршруты доставки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Маршруты доставки</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

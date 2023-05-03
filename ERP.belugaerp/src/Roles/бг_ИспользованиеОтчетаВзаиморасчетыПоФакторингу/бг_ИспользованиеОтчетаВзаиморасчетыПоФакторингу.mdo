@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff820923-f3f1-4418-a8dc-d82beb50a6bd">
+  <name>бг_ИспользованиеОтчетаВзаиморасчетыПоФакторингу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета взаиморасчеты по факторингу (Белуга)</value>
+  </synonym>
+</mdclass:Role>

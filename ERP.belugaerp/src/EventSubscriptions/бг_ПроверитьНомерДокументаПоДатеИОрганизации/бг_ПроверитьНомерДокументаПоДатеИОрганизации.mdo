@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2257dde7-fcdd-4e50-abfd-713d4cf97255">
+  <name>бг_ПроверитьНомерДокументаПоДатеИОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить номер документа по дате и организации (Белуга)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Бг проверить номер документа по дате и организации</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.битЗаявкаКлиента</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.бг_ПроверитьНомерДокументаПоДатеИОрганизации</handler>
+</mdclass:EventSubscription>

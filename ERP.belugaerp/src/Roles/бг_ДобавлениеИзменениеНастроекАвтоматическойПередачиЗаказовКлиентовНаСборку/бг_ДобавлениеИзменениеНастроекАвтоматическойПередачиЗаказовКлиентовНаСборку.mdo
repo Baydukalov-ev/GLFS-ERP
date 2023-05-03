@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d86af91-9cd6-4bc5-8a4b-dac68545fcc5">
+  <name>бг_ДобавлениеИзменениеНастроекАвтоматическойПередачиЗаказовКлиентовНаСборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение настроек автоматической передачи заказов клиентов на сборку (Белуга)</value>
+  </synonym>
+</mdclass:Role>

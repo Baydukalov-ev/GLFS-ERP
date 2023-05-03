@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7a6552b-7176-4af3-8937-571a0cb8be9b">
+  <name>бг_МаркируемаяПродукция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маркируемая продукция</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="825f5704-b9c3-455c-a5df-2f891c431e80">
+  <producedTypes>
+    <objectType typeId="b6b1309b-2247-4d97-ae37-2080b9217326" valueTypeId="7b67f3ce-f13b-477f-9618-b2853297e295"/>
+    <managerType typeId="0ce1f5b0-f9d7-4d73-80d0-aead95b8a7b9" valueTypeId="2fcc4c10-c904-4b62-8cf8-0d0b2f1cd496"/>
+  </producedTypes>
+  <name>бг_СчетБордеро</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-бордеро</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.бг_СчетБордеро.Form.ЕженедельноеБордеро</defaultForm>
+  <forms uuid="3691b980-fba9-4616-8b1e-494335df3afc">
+    <name>ЕженедельноеБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельное бордеро</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="159a9c4c-27e3-4f8a-be78-690bd9b34a4c">
+    <name>СчетБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт-бордеро</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e96e09be-5d5c-4679-9761-87d2b1a14292">
+    <name>ЕженедельныйБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельный бордеро</value>
+    </synonym>
+  </templates>
+  <templates uuid="9ed3af98-85f6-4fa1-b492-75ecd7153735">
+    <name>СчетБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-бордеро</value>
+    </synonym>
+  </templates>
+  <commands uuid="cf43adb5-0c20-426e-9c5a-31dcc41c5746">
+    <name>ЕженедельноеБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельное бордеро</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="600ca056-46bb-425b-8aa4-f8aaa6a62b28">
+    <name>СчетБордеро</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет-бордеро</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

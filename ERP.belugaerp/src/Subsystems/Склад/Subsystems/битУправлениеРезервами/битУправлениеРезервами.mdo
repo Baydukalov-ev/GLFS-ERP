@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b1f9984-8fd8-47e5-93e7-84c9548de725">
+  <name>битУправлениеРезервами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>DataProcessor.бг_ФормированиеДолгосрочныхРезервов</content>
+  <content>Report.бг_ИспользованиеРезервовТоваров</content>
+  <content>Report.бг_РезервыТоваров</content>
+  <content>InformationRegister.бг_НастройкиАвтоматическойПередачиЗаказовКлиентовНаСборку</content>
+  <content>InformationRegister.бг_НастройкиРезервированияЗаказовКлиентов</content>
+  <content>InformationRegister.бг_ПартнерыДолгосрочныхРезервов</content>
+  <content>InformationRegister.бг_ПриоритетыКаналовПродажДолгосрочныхРезервов</content>
+  <parentSubsystem>Subsystem.Склад</parentSubsystem>
+</mdclass:Subsystem>

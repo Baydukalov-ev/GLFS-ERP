@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Назначение</dataPath>
+			<field>Назначение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаОтгрузку</dataPath>
+			<field>ЗаказНаОтгрузку</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Характеристика</dataPath>
+			<field>Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЖелаемаяДатаОтгрузки</dataPath>
+			<field>ЖелаемаяДатаОтгрузки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоступления</dataPath>
+			<field>ДатаПоступления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказНаПоступление</dataPath>
+			<field>ЗаказНаПоступление</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поступило</dataPath>
+			<field>Поступило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступило</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеОбеспечивать</dataPath>
+			<field>НеОбеспечивать</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не обеспечивать</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КОбеспечениюБезРезерва</dataPath>
+			<field>КОбеспечениюБезРезерва</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>К обеспечению без резерва</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отгрузить</dataPath>
+			<field>Отгрузить</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгрузить</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РезервироватьПоМереПоступления</dataPath>
+			<field>РезервироватьПоМереПоступления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резервировать по мере поступления</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПервоначальнаяПотребность</dataPath>
+			<field>ПервоначальнаяПотребность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Первоначальная потребность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Резервировать</dataPath>
+			<field>Резервировать</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Резервировать</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоступитКДате</dataPath>
+			<field>ПоступитКДате</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступит к дате</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставкаНаСогласовании</dataPath>
+			<field>ПоставкаНаСогласовании</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поставка на согласовании</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗакрытьГрафикПоступления</dataPath>
+			<field>ЗакрытьГрафикПоступления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть график поступления</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗакрытьГрафикОтгрузки</dataPath>
+			<field>ЗакрытьГрафикОтгрузки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть график отгрузки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсталосьОбеспечить</dataPath>
+			<field>ОсталосьОбеспечить</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Осталось обеспечить</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Отгружено</dataPath>
+			<field>Отгружено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отгружено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ВЫРАЗИТЬ(РаспределениеЗапасовДвиженияОбороты.ЗаказНаОтгрузку КАК Документ.ЗаказКлиента) КАК ЗаказНаОтгрузку,
+	ДокЗаказКлиента.Контрагент КАК Контрагент,
+	ДокЗаказКлиента.Договор КАК Договор,
+	РаспределениеЗапасовДвиженияОбороты.Номенклатура КАК Номенклатура,
+	бг_НачальныеТоварыЗаказовКлиентов.Количество КАК ПервоначальнаяПотребность,
+	РаспределениеЗапасовДвиженияОбороты.ОтгрузитьОборот КАК Отгрузить,
+	РаспределениеЗапасовДвиженияОбороты.РезервироватьОборот КАК Резервировать,
+	РаспределениеЗапасовДвиженияОбороты.РезервироватьПоМереПоступленияОборот КАК РезервироватьПоМереПоступления,
+	РаспределениеЗапасовДвиженияОбороты.КОбеспечениюБезРезерваОборот КАК КОбеспечениюБезРезерва,
+	РаспределениеЗапасовДвиженияОбороты.НеОбеспечиватьОборот КАК НеОбеспечивать,
+	РаспределениеЗапасовДвиженияОбороты.ПоступилоОборот КАК Поступило,
+	РаспределениеЗапасовДвиженияОбороты.ПоступитКДатеОборот КАК ПоступитКДате,
+	РаспределениеЗапасовДвиженияОбороты.ПоставкаНаСогласованииОборот КАК ПоставкаНаСогласовании,
+	РаспределениеЗапасовДвиженияОбороты.ЗакрытьГрафикПоступленияОборот КАК ЗакрытьГрафикПоступления,
+	РаспределениеЗапасовДвиженияОбороты.ЗакрытьГрафикОтгрузкиОборот КАК ЗакрытьГрафикОтгрузки,
+	бг_НачальныеТоварыЗаказовКлиентов.Количество - РаспределениеЗапасовДвиженияОбороты.РезервироватьОборот - РаспределениеЗапасовДвиженияОбороты.ОтгрузитьОборот КАК ОсталосьОбеспечить,
+	0 КАК Отгружено
+ПОМЕСТИТЬ ДанныеДляГруппировки
+ИЗ
+	РегистрНакопления.РаспределениеЗапасовДвижения.Обороты(, , Авто, ЗаказНаОтгрузку ССЫЛКА Документ.ЗаказКлиента) КАК РаспределениеЗапасовДвиженияОбороты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ДокЗаказКлиента
+		ПО ((ВЫРАЗИТЬ(РаспределениеЗапасовДвиженияОбороты.ЗаказНаОтгрузку КАК Документ.ЗаказКлиента)) = ДокЗаказКлиента.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_НачальныеТоварыЗаказовКлиентов КАК бг_НачальныеТоварыЗаказовКлиентов
+		ПО ((ВЫРАЗИТЬ(РаспределениеЗапасовДвиженияОбороты.ЗаказНаОтгрузку КАК Документ.ЗаказКлиента)) = бг_НачальныеТоварыЗаказовКлиентов.ЗаказКлиента)
+			И (РаспределениеЗапасовДвиженияОбороты.Номенклатура = бг_НачальныеТоварыЗаказовКлиентов.Номенклатура)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаказыКлиентов.ЗаказКлиента,
+	ДокЗаказКлиента.Контрагент,
+	ДокЗаказКлиента.Договор,
+	ЗаказыКлиентов.Номенклатура,
+	бг_НачальныеТоварыЗаказовКлиентов.Количество,
+	0,
+	0,
+	0,
+	-ЗаказыКлиентов.Заказано,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	бг_НачальныеТоварыЗаказовКлиентов.Количество,
+	0
+ИЗ
+	РегистрНакопления.ЗаказыКлиентов КАК ЗаказыКлиентов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ДокЗаказКлиента
+		ПО ((ВЫРАЗИТЬ(ЗаказыКлиентов.ЗаказКлиента КАК Документ.ЗаказКлиента)) = ДокЗаказКлиента.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.бг_НачальныеТоварыЗаказовКлиентов КАК бг_НачальныеТоварыЗаказовКлиентов
+		ПО ((ВЫРАЗИТЬ(ЗаказыКлиентов.ЗаказКлиента КАК Документ.ЗаказКлиента)) = бг_НачальныеТоварыЗаказовКлиентов.ЗаказКлиента)
+			И ЗаказыКлиентов.Номенклатура = бг_НачальныеТоварыЗаказовКлиентов.Номенклатура
+ГДЕ
+	ЗаказыКлиентов.Заказано &lt; 0
+	И ЗаказыКлиентов.Регистратор ССЫЛКА Документ.ЗаказКлиента
+	И ЗаказыКлиентов.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ЗаказыКлиентов.ЗаказКлиента,
+	ДокЗаказКлиента.Контрагент,
+	ДокЗаказКлиента.Договор,
+	ЗаказыКлиентов.Номенклатура,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	ЗаказыКлиентов.Заказано
+ИЗ
+	РегистрНакопления.ЗаказыКлиентов КАК ЗаказыКлиентов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ЗаказКлиента КАК ДокЗаказКлиента
+		ПО ((ВЫРАЗИТЬ(ЗаказыКлиентов.ЗаказКлиента КАК Документ.ЗаказКлиента)) = ДокЗаказКлиента.Ссылка)
+ГДЕ
+	ЗаказыКлиентов.Регистратор ССЫЛКА Документ.РеализацияТоваровУслуг
+	И ЗаказыКлиентов.Период МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+	И ЗаказыКлиентов.ВидДвижения = ЗНАЧЕНИЕ(ВидДвиженияНакопления.Расход)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДанныеДляГруппировки.ЗаказНаОтгрузку КАК ЗаказНаОтгрузку,
+	ДанныеДляГруппировки.Контрагент КАК Контрагент,
+	ДанныеДляГруппировки.Договор КАК Договор,
+	ДанныеДляГруппировки.Номенклатура КАК Номенклатура,
+	СУММА(ДанныеДляГруппировки.ПервоначальнаяПотребность) КАК ПервоначальнаяПотребность,
+	СУММА(ДанныеДляГруппировки.Отгрузить) КАК Отгрузить,
+	СУММА(ДанныеДляГруппировки.Резервировать) КАК Резервировать,
+	СУММА(ДанныеДляГруппировки.РезервироватьПоМереПоступления) КАК РезервироватьПоМереПоступления,
+	СУММА(ДанныеДляГруппировки.КОбеспечениюБезРезерва) КАК КОбеспечениюБезРезерва,
+	СУММА(ДанныеДляГруппировки.НеОбеспечивать) КАК НеОбеспечивать,
+	СУММА(ДанныеДляГруппировки.Поступило) КАК Поступило,
+	СУММА(ДанныеДляГруппировки.ПоступитКДате) КАК ПоступитКДате,
+	СУММА(ДанныеДляГруппировки.ПоставкаНаСогласовании) КАК ПоставкаНаСогласовании,
+	СУММА(ДанныеДляГруппировки.ЗакрытьГрафикПоступления) КАК ЗакрытьГрафикПоступления,
+	СУММА(ДанныеДляГруппировки.ЗакрытьГрафикОтгрузки) КАК ЗакрытьГрафикОтгрузки,
+	СУММА(ДанныеДляГруппировки.ОсталосьОбеспечить) КАК ОсталосьОбеспечить,
+	СУММА(ДанныеДляГруппировки.Отгружено) КАК Отгружено
+ИЗ
+	ДанныеДляГруппировки КАК ДанныеДляГруппировки
+
+СГРУППИРОВАТЬ ПО
+	ДанныеДляГруппировки.ЗаказНаОтгрузку,
+	ДанныеДляГруппировки.Контрагент,
+	ДанныеДляГруппировки.Договор,
+	ДанныеДляГруппировки.Номенклатура</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ЗакрытьГрафикОтгрузки</dataPath>
+		<expression>Сумма(ЗакрытьГрафикОтгрузки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЗакрытьГрафикПоступления</dataPath>
+		<expression>Сумма(ЗакрытьГрафикПоступления)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КОбеспечениюБезРезерва</dataPath>
+		<expression>Сумма(КОбеспечениюБезРезерва)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НеОбеспечивать</dataPath>
+		<expression>Сумма(НеОбеспечивать)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Отгрузить</dataPath>
+		<expression>Сумма(Отгрузить)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПервоначальнаяПотребность</dataPath>
+		<expression>Сумма(ПервоначальнаяПотребность)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПоставкаНаСогласовании</dataPath>
+		<expression>Сумма(ПоставкаНаСогласовании)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Поступило</dataPath>
+		<expression>Сумма(Поступило)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПоступитКДате</dataPath>
+		<expression>Сумма(ПоступитКДате)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Резервировать</dataPath>
+		<expression>Сумма(Резервировать)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>РезервироватьПоМереПоступления</dataPath>
+		<expression>Сумма(РезервироватьПоМереПоступления)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОсталосьОбеспечить</dataPath>
+		<expression>Сумма(ОсталосьОбеспечить)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Отгружено</dataPath>
+		<expression>Сумма(Отгружено)</expression>
+	</totalField>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>АнализЗаказовПокупателей</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Анализ заказов покупателей</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Договор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказНаОтгрузку</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПервоначальнаяПотребность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КОбеспечениюБезРезерва</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Резервировать</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отгрузить</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Отгружено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОсталосьОбеспечить</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>eb2cd6d3-36d4-4004-9828-0862a440bcdb</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Договор</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ЗаказНаОтгрузку</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Контрагент</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Договор</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ЗаказНаОтгрузку</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

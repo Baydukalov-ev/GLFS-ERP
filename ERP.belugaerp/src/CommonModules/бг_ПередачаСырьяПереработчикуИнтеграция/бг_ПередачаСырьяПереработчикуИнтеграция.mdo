@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85066744-222a-450b-b3fc-a90f163b5e2f">
+  <name>бг_ПередачаСырьяПереработчикуИнтеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача сырья переработчику (Интеграция)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

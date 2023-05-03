@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a1b734ea-8626-4099-811e-030669ef6dc2">
+  <producedTypes>
+    <refType typeId="7c4f4b9d-d9d1-4af7-9bfc-9019d2a50abf" valueTypeId="1f36c8ba-db80-497a-9543-3cd04028b61d"/>
+    <listType typeId="96c486a8-d6df-42f5-87ad-bf3d2bcf54e1" valueTypeId="fa632b52-1459-4afd-b692-731385e33ffe"/>
+    <managerType typeId="9658af53-c4b5-4b63-9a4c-b632768b5028" valueTypeId="73f16f7f-536f-4212-841a-e4f0372b8cee"/>
+  </producedTypes>
+  <name>ВариантыСовместногоПримененияСкидокНаценок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="1888a14d-6728-44b0-ad17-1803c1a5f363">
+    <name>Вытеснение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3cde7942-d171-41fa-b7ce-38ab028c85f8">
+    <name>Минимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d184606e-340e-413d-a529-148c049a6c3a">
+    <name>Умножение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="684284c7-95ce-4c0c-82cc-f8fb014c91a3">
+    <name>Максимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="19203290-cd79-4843-a3ec-9cec5f929b7d">
+    <name>Сложение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

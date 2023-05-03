@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="161269f5-d8a3-40bc-95eb-6fa6f79d733b">
+  <producedTypes>
+    <objectType typeId="9a319126-7947-4bea-a66e-7bf74048b07c" valueTypeId="becb3c89-9c75-43a1-937d-1957af88d07b"/>
+    <refType typeId="973cd60d-70bf-49e9-9ff4-c6d307f7992e" valueTypeId="d6c8bc30-b9fb-4db1-8e28-183db3be4767"/>
+    <selectionType typeId="d8dcd006-b5ed-4c96-a16d-14e46e94e570" valueTypeId="1981c246-2154-4a54-b74d-fa7f9555de7c"/>
+    <listType typeId="942ee50c-406d-4974-8c11-fc87fcc31d32" valueTypeId="9616ea5f-b3c4-4d0e-912a-eea6f7ab59e7"/>
+    <managerType typeId="c6a73ac0-dcb3-42f5-9766-8abfc141c32f" valueTypeId="77bceff4-6469-416f-8a07-211f967edb93"/>
+  </producedTypes>
+  <name>битКаналыПродаж</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="64de755b-0ac2-4329-8ee0-449e81b6262c">
+    <name>ИспользуютсяКлючевыеКлиенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используются ключевые клиенты</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="707f7028-7c7e-4723-a048-bd5a8514bd8a">
+    <name>ИдентификаторCRM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор CRM</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb9133e5-9ff7-4e43-8c7b-93400483f65f">
+    <name>КоличествоДнейДоОкончанияЛицензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней до окончания лицензии</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

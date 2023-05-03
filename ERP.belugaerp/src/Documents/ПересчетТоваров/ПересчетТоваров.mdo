@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="011c9dc4-0082-458c-830e-2151146fc5c6">
+  <producedTypes>
+    <objectType typeId="20f24f6a-faf4-42cf-bd41-a63b2ad50218" valueTypeId="334572a6-3c44-457b-afb3-2b63a9b859fc"/>
+    <refType typeId="d40f84e3-ebab-467c-ac58-ea2a333597a2" valueTypeId="866bf0c7-77f7-47d0-b992-81b36f74183f"/>
+    <selectionType typeId="61d30db8-bd76-47f2-87f8-3d200240119d" valueTypeId="b598bdd9-66b8-4bfb-a3b0-b8a9e920a724"/>
+    <listType typeId="cd0e1c4f-80fd-4115-bb1c-44ad7e8fff5c" valueTypeId="ff9dd02c-b515-4ba4-a6cd-d2ff21edfb4b"/>
+    <managerType typeId="0e7d95e0-156e-462c-b11e-1b573cc56054" valueTypeId="2188afc6-ddc6-4670-b3f0-9eb4e95dc615"/>
+  </producedTypes>
+  <name>ПересчетТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="066e8bcf-841f-48a2-b0d7-65ea7aeee062">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="74ab4c57-635e-48ba-ae58-4125319d184c">
+    <producedTypes>
+      <objectType typeId="ed7e8952-1b72-4a48-abfe-f619f4c125ac" valueTypeId="55c59acd-b4b3-4d34-bbd7-50f3cbb552be"/>
+      <rowType typeId="d5aa0a27-1a79-49ae-92ad-0fecb7270f90" valueTypeId="ffddae04-9ccc-4b47-9097-fbee5be16c5b"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="306a3a4b-7b26-4b4b-9a7d-6faa7f520529">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="33a21552-ad5a-4431-9747-29256b6283e2">
+      <name>Количество</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="25bd0e10-d12a-4cd6-8772-9ce20ae3fc8e">
+      <name>КоличествоФакт</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="3dc87a9b-3da0-458d-a5d4-90cd4b686001">
+      <name>Серия</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СерииНоменклатуры</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

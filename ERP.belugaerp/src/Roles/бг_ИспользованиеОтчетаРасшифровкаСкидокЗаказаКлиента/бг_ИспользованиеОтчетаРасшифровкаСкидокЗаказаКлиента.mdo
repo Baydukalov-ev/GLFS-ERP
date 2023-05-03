@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67c94bb0-c1cf-4239-baa0-c7fbce17b34f">
+  <name>бг_ИспользованиеОтчетаРасшифровкаСкидокЗаказаКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета расшифровка скидок заказа клиента</value>
+  </synonym>
+</mdclass:Role>

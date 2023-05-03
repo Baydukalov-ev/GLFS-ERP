@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7dfc044-a5e1-4f97-8e7e-f7bc0ed08c49">
+  <producedTypes>
+    <selectionType typeId="aad2c16f-f115-4905-9196-a817107c2834" valueTypeId="2e90ecb9-6b89-4497-bc30-9daef538a1ea"/>
+    <listType typeId="57d7a93d-1709-4a7c-ac7a-941f98cd4e3a" valueTypeId="63888e69-f62c-44a4-abee-9c57110752d4"/>
+    <managerType typeId="b09d808f-81cf-4fd4-8eb3-892bc8d096af" valueTypeId="34b21e77-0e5e-486a-8b40-5dc8dc796b97"/>
+    <recordSetType typeId="1b4b5a75-0e08-4294-9c3b-eb92e7b7877c" valueTypeId="6ef1a886-451b-4ab7-8c35-af67e1e1f8b2"/>
+    <recordKeyType typeId="564918e4-21d0-421f-b58f-ddd984dc1e96" valueTypeId="d895436b-cf70-4dc7-af01-13f5b19bbe30"/>
+    <recordType typeId="59b4abeb-d022-4f4b-97c3-88654484328b" valueTypeId="6512cecd-6bbe-460a-85e9-ac4f8d5b0f35"/>
+    <recordManagerType typeId="b3554f64-8015-4d89-b86b-94eabd7626f8" valueTypeId="8aba9391-5a94-4e33-9dfe-4917800f4201"/>
+  </producedTypes>
+  <name>бг_ДвижениеМарок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение марок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.бг_ДвижениеМарок.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="54eaabe4-3bf1-4484-99b2-fed1054f1e68">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="47ab1759-4892-46af-af9d-7da24a8c167e">
+    <name>КодУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>26</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="d04a5ea7-4375-4e38-b5c2-f4f885487509">
+    <name>СтатусМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус марки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.бг_СтатусыАкцизныхМарок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="d66c323e-93ff-4459-8094-ec3377864137">
+    <name>ГУИДМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД марки</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="02183636-9999-41dd-bb12-e4076f303cae">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

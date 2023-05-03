@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bf71137b-2bf2-45de-a3c4-806f07542958">
+  <producedTypes>
+    <objectType typeId="949ae429-2c77-4869-a3e0-34c081efeeb1" valueTypeId="48367a5c-ee35-4305-af34-67be2e5501cd"/>
+    <refType typeId="d0fbc9fd-d778-4908-9e98-18535cb4b6f7" valueTypeId="fe53267d-3c3f-4bd2-929f-1d721ea9907a"/>
+    <selectionType typeId="62c9071b-0c08-4572-8098-defe9c953ccc" valueTypeId="78e4e4f0-2cf0-495d-8e79-50bb446f22aa"/>
+    <listType typeId="34c07b19-0a94-4c7c-b211-d51143c396e1" valueTypeId="4bec7a48-0a6f-4167-92e1-527b3c9e3d97"/>
+    <managerType typeId="ae3eeadc-a4d4-4f1c-b21d-d5662e398721" valueTypeId="bd7108bc-993d-4223-8b2d-7f824479b390"/>
+  </producedTypes>
+  <name>ПредприятияВЕТИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="743e91a0-aa91-404e-88d9-c7eedb546974">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3522be7e-e07e-4e3d-aa4b-be56a79f5100">
+  <producedTypes>
+    <objectType typeId="0cfdcec0-af29-4823-8065-08b0d9ddacba" valueTypeId="c42ae467-120b-4d16-805c-ea8f1cb1c42a"/>
+    <refType typeId="4a7bd175-dd3a-4631-928b-e385bef4c328" valueTypeId="0e3ffa8b-0ab6-4b99-8aef-971c4896b22d"/>
+    <selectionType typeId="93afc94c-f706-41e9-b720-fe89fd617f1f" valueTypeId="965cce80-edba-4848-bbb8-9676d4be6066"/>
+    <listType typeId="c25168ef-76d6-4e90-8113-7bc4e2c02c45" valueTypeId="053e1ff1-b144-44d8-bed5-b6bd2d00c5cb"/>
+    <managerType typeId="dd83e856-9711-4152-957b-e4a7ccf0bb3f" valueTypeId="c1aa6c19-15a8-40be-bc98-0f0ab45df3f2"/>
+  </producedTypes>
+  <name>ВзаимозачетЗадолженности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

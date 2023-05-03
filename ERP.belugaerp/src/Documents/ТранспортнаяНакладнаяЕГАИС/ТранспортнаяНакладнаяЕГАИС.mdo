@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aea8b58e-060d-40fd-9302-ceac026e5317">
+  <producedTypes>
+    <objectType typeId="881c65d2-f7a8-4c13-b095-ff8d54025d7f" valueTypeId="b88fb693-ced4-41bf-beaa-0faaf228699f"/>
+    <refType typeId="706396de-0984-419c-8513-11c4f3385766" valueTypeId="f7afa9b1-82a6-40ac-bdd7-ca6e955fa5ed"/>
+    <selectionType typeId="512b4ccd-e585-419e-a8b1-d759b8006753" valueTypeId="60291963-7ff8-4ca0-918e-0868d840115e"/>
+    <listType typeId="e64976e9-86b4-4ecd-88f9-63606ea052cf" valueTypeId="d820dd02-8249-47f4-8b88-985bed2f999c"/>
+    <managerType typeId="720ebb37-f789-4d80-b8c4-792a2fbcf95f" valueTypeId="7ef5c3a9-5918-4dd0-8217-d866fcc06731"/>
+  </producedTypes>
+  <name>ТранспортнаяНакладнаяЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

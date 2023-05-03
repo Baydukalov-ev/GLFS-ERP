@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="252e0a5c-2499-4f7d-ada8-448bec234825">
+  <name>бг_БазовыеПраваСогласованиеЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовые права согласование заказов клиентов</value>
+  </synonym>
+</mdclass:Role>

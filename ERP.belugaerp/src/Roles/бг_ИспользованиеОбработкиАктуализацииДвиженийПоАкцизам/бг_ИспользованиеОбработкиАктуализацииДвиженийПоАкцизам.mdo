@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c655d366-b55a-4b03-906f-41353ac4458e">
+  <name>бг_ИспользованиеОбработкиАктуализацииДвиженийПоАкцизам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки актуализации движений по акцизам</value>
+  </synonym>
+</mdclass:Role>

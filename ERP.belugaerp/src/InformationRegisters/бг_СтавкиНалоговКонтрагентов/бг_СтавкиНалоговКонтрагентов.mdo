@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c55e2e99-e5cf-447f-956a-33724c7f8722">
+  <producedTypes>
+    <selectionType typeId="e61e8961-859b-4f3e-a47d-e9caf564b6d0" valueTypeId="c70dcf9d-1869-4168-9635-508641d3a746"/>
+    <listType typeId="27191052-9616-4707-b024-e3494a34f731" valueTypeId="f361a6e4-3989-4a4e-89ce-fdc81a7f94f7"/>
+    <managerType typeId="96c284a3-a59c-4ff9-8e20-bcc5414d01b6" valueTypeId="d61f1853-e873-492a-9369-37d4a79e655b"/>
+    <recordSetType typeId="0da2a55f-9d48-4243-bf96-82910075f879" valueTypeId="a11db37a-01f3-4417-b679-cdd29fee91ba"/>
+    <recordKeyType typeId="20d7964a-10f3-4674-bc1c-af7e8feec292" valueTypeId="f98658cd-03ad-443f-856b-6ce95f7ed855"/>
+    <recordType typeId="78ed9e1d-2d49-409b-a133-f544b5776430" valueTypeId="8330277b-5657-4ac4-9e4f-f38ac79283a0"/>
+    <recordManagerType typeId="9b6ecc93-2da6-400f-b995-e0febb1ea95c" valueTypeId="2584c945-8f55-4fdb-acb4-a972bc17d660"/>
+  </producedTypes>
+  <name>бг_СтавкиНалоговКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки налогов контрагентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c034c206-361c-4248-899d-b559c01578e3">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкиНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d5e408ed-3f8d-4432-ba6e-862f6d9957d0">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

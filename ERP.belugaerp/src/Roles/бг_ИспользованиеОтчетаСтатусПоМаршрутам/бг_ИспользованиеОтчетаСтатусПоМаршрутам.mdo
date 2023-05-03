@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cbda159-e946-4964-93f6-874269e9ba02">
+  <name>бг_ИспользованиеОтчетаСтатусПоМаршрутам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование отчета статус по маршрутам</value>
+  </synonym>
+</mdclass:Role>

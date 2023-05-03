@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="513c7035-3d7d-429e-b16f-1c97426777e0">
+  <producedTypes>
+    <refType typeId="b2927b08-6294-4586-9afb-fe1e08db0549" valueTypeId="35f95953-31fe-46f4-8e35-85cc0af8aa82"/>
+    <listType typeId="b67c4ab3-c957-415e-b109-6fa7a8e2b79d" valueTypeId="926629ee-f0a0-45d7-9538-0bbdf7d04817"/>
+    <managerType typeId="940b0b27-08dc-4fd8-97ab-99184b809d6a" valueTypeId="148700b4-4261-4b87-9dca-54d68cc3e19b"/>
+  </producedTypes>
+  <name>бг_ОперацииРегистрацииБанковскихГарантий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции регистрации банковских гарантий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24514cad-7743-4259-8ee1-764c31d17237">
+    <name>РегистрацияБанковскихГарантий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация банковских гарантий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b102c5fc-43ce-4fa5-b5b9-209ecde775eb">
+    <name>ЗакрытиеБанковскихГарантий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытие банковских гарантий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

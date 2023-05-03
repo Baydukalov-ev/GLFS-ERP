@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dd64cbf9-51de-41bf-a248-08a2da5a003b">
+  <producedTypes>
+    <refType typeId="6926d4bb-d131-459b-ae7a-faf7c68851e0" valueTypeId="23e0f464-a5d9-4627-9b53-96830b62c265"/>
+    <listType typeId="b2b17cb3-8976-42e9-a97c-c186c020e625" valueTypeId="39ac2624-4585-49bd-ac2f-16e5ebf48602"/>
+    <managerType typeId="9097f872-f32e-460e-928d-70bc9e1156bb" valueTypeId="8d54f984-6074-417e-926b-dca57c4bc115"/>
+  </producedTypes>
+  <name>ВариантыВыбытияМаркируемойПродукции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="78ec935c-a13e-4f0a-a253-2974c9673b87">
+    <name>ИспользованиеПокупателемДляСобственныхНужд</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

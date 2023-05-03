@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="734622eb-e6d7-4ca1-b608-b1e147d52210">
+  <producedTypes>
+    <refType typeId="fc3b2ac4-7e62-4cf9-a8ca-af4489e594c6" valueTypeId="7a9031f4-b4b1-4788-85c0-0c411a7bce7a"/>
+    <listType typeId="290ab13b-8915-40de-b947-17f58792b768" valueTypeId="6b3274a7-dded-4a27-8cbd-619a6ee3dc6e"/>
+    <managerType typeId="bdef21f9-2087-413c-9d3d-9f616a079975" valueTypeId="0c65c198-8bba-429b-a5f1-28b9e5e4e1be"/>
+  </producedTypes>
+  <name>ВариантыРасчетаРезультатаСовместногоПрименения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="690acbbf-ebbf-407c-bc31-7f55fdd9d070">
+    <name>ПоСтроке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="df314c7f-618c-42b6-a3df-520a665211f3">
+    <name>ПоДокументуВЦелом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

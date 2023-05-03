@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad835cc0-0332-4340-a5dc-8977b6f54251">
+  <producedTypes>
+    <refType typeId="06a6233c-cd40-422c-97cb-e9d48985e9c7" valueTypeId="da39ff13-2271-4409-a855-e18dd08e03b6"/>
+    <listType typeId="cc1c9f54-df2b-4c20-bfca-c76eae3765ba" valueTypeId="608a17d1-322a-4e31-aec5-eabff64a33ed"/>
+    <managerType typeId="cca7d79b-6ba5-4938-82a7-ef7afd0b0f24" valueTypeId="45513bbb-6b64-4e9f-93da-4ae444c6d6e8"/>
+  </producedTypes>
+  <name>СтатусыРеализацийТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a4d5dabc-4828-46ff-8608-6b2826f26139">
+    <name>КПредоплате</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="6a0d432f-f1cd-4ee3-8c03-261dcfe0fef9">
+    <name>ВПути</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8bfe77c0-9799-4f47-b1aa-da05250dc894">
+    <name>Отгружено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

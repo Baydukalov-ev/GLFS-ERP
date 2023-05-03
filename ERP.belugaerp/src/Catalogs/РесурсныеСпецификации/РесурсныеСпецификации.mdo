@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ccc8d258-e341-437e-bec5-c0c84449251f">
+  <producedTypes>
+    <objectType typeId="af154694-31ef-45b9-913d-d3e41a4dacdd" valueTypeId="2aa74993-23a0-4012-a782-81e1601e06e5"/>
+    <refType typeId="1916e9ba-ea0a-472a-afb1-1e238d1a9e11" valueTypeId="629311d2-716f-4e57-b931-53f3dd6a3135"/>
+    <selectionType typeId="d00b2dd8-ba61-474a-a7c9-63faa6d6394a" valueTypeId="e045a0ac-741b-4e40-90b5-38c2837db43e"/>
+    <listType typeId="078bb2fa-0c52-4450-a38e-d452032ea55a" valueTypeId="0584b074-cb84-44e2-bb12-881b6117906f"/>
+    <managerType typeId="490ccd0b-37ab-4bb0-aee3-bc673f0900dc" valueTypeId="89b7d3ec-7753-482b-a0e8-d0dd163b8e51"/>
+  </producedTypes>
+  <name>РесурсныеСпецификации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="57bdff5a-bfca-4c26-ad6f-0f90ee7f6eed">
+    <name>бг_Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79aed2ea-e1ff-4e61-8ec9-8a40f01de60c">
+    <name>бг_ОсновноеИзделиеУпаковкаПаллета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллета</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Номенклатура</name>
+      <field>Catalog.РесурсныеСпецификации.Attribute.ОсновноеИзделиеНоменклатура</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4fa2a901-8ad8-42e4-b5b7-987aec264406">
+    <name>бг_Экспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспорт</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7355dde-d608-4e0f-a7b5-9f439ebd9cd7">
+    <name>ОсновноеИзделиеНоменклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="1c2b03a4-a55d-436c-afae-324936fb490d">
+    <producedTypes>
+      <objectType typeId="3e83b2eb-9ed5-44c3-989f-dcf1c6850015" valueTypeId="a12bffec-9945-402f-a95f-94590b3187d1"/>
+      <rowType typeId="c1a85211-c5b1-4824-9510-51a0ab9bcd17" valueTypeId="d0ab03f8-3f07-4acc-8c98-990dd177cbe9"/>
+    </producedTypes>
+    <name>ВозвратныеОтходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="5cfe6fe0-9432-4485-a33c-5ee7e75e51d1">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="858b3eab-1fb5-483f-9cf8-c7db8813da5c">
+      <name>СтатьяКалькуляции</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СтатьиКалькуляции</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="38bb8aa6-5b35-4704-92c2-7ef24fb3a532">
+    <producedTypes>
+      <objectType typeId="7c3739fb-2639-48e2-8539-53562e93f7ed" valueTypeId="dfc1b497-31f2-4464-ac84-adf05456d94c"/>
+      <rowType typeId="1d485cd1-2dbb-45a7-8a45-8465c5502651" valueTypeId="eb0091af-7774-4b7b-a0be-2d7879fba524"/>
+    </producedTypes>
+    <name>МатериалыИУслуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="77bee4c6-66bd-4ab8-9fc5-8b6a8ab074e5">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="205f5f01-ebec-4ecb-a2a4-e803f763160e">
+      <name>СтатьяКалькуляции</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СтатьиКалькуляции</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="060fd0d1-ea5d-486e-95c0-d38d8c6ab97b">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced2aef0-9b4a-4604-bd8d-4a113477814c">
+  <producedTypes>
+    <objectType typeId="b794bec3-34db-4a51-b352-5a297c818e4b" valueTypeId="335d7d8c-37dc-4efb-b68d-e0ad1a7fa5ab"/>
+    <managerType typeId="27f361e9-65eb-400e-888d-95069afaaece" valueTypeId="13add5f6-1d8a-4c7b-a6a9-393806a4345b"/>
+  </producedTypes>
+  <name>бг_ПечатьКачественногоУдостоверения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать удостоверения о качестве</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="035a8c02-4e4f-46ac-9f40-ec9c521d83aa">
+    <name>ПФ_MXL_УдостоверениеВодка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение (водка)</value>
+    </synonym>
+  </templates>
+  <templates uuid="b4bcfbde-c1df-45e2-a818-42a06af7aebd">
+    <name>ПФ_MXL_УдостоверениеНастойка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение (настойка)</value>
+    </synonym>
+  </templates>
+  <templates uuid="f76b6b62-b1cc-4622-a577-8a4aad82c7cd">
+    <name>ПФ_MXL_УдостоверениеВиски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение (виски)</value>
+    </synonym>
+  </templates>
+  <templates uuid="1fd392c5-ea31-4589-87dd-adcde994f528">
+    <name>ПФ_MXL_УдостоверениеБренди</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение (бренди)</value>
+    </synonym>
+  </templates>
+  <templates uuid="89d9e14d-5735-428c-bc25-16b94d02499a">
+    <name>ПФ_MXL_УдостоверениеКоньяк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение (коньяк)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c575370-5508-4eff-8186-2a3fc3841e9b">
+  <producedTypes>
+    <refType typeId="e5dca240-56e6-4047-9b6f-0ca66cd3e9ca" valueTypeId="33760ad8-bdac-4f29-9dc3-5709f03bf1cd"/>
+    <listType typeId="bacd6f1e-2410-4c1d-a9f3-fa263e242136" valueTypeId="b373b5a7-93d6-429a-bcb0-ff9737d0c093"/>
+    <managerType typeId="a5110e5c-535b-4f1a-86a1-ea63ae92327d" valueTypeId="809a7cc2-b8e1-4bee-9b39-9adb7d960490"/>
+  </producedTypes>
+  <name>ВариантыОтраженияВУчетеВнеоборотныхАктивов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e227708d-7f35-489a-92a0-80ffe83da743">
+    <name>УправленческомИРегламентированномУчетах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="509db89c-dc6b-4c8c-b7e5-7da8eb6ddc33">
+    <name>УправленческомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="622f7027-5f01-49ac-954a-539bf8d8b5ef">
+    <name>РегламентированномУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="94386b05-27aa-4618-98f9-b3f24d11a3d9">
+    <name>БухгалтерскомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a5914a55-a548-4f06-8dda-66a091d5c46f">
+    <name>НалоговомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="44b72f3b-18a9-45e6-8dd5-f39cae7e5d05">
+    <name>УправленческомИБухгалтерскомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c620e4f6-4c18-43da-aa93-c7b92021cb22">
+    <name>УправленческомИНалоговомУчете</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

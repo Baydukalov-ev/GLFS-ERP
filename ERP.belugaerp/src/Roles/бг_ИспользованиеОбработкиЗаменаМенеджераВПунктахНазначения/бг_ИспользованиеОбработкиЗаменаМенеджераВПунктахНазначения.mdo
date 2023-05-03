@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea1f02f9-da73-4d60-a3cf-3a3e649b80e6">
+  <name>бг_ИспользованиеОбработкиЗаменаМенеджераВПунктахНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование обработки замена менеджера в пунктах назначения</value>
+  </synonym>
+</mdclass:Role>

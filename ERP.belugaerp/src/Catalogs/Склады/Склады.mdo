@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e75ef47a-b855-44da-aee4-29ebaea147cb">
+  <producedTypes>
+    <objectType typeId="946412d9-35b1-4ee5-8cf5-8574438f5e79" valueTypeId="c5419335-8397-4975-b8e9-09307f3ca4c4"/>
+    <refType typeId="4a1b2dc5-facb-45c1-824c-c371c19466db" valueTypeId="d24c8a4d-f09f-4835-b21d-8ec4d215af6b"/>
+    <selectionType typeId="424b91a6-df85-4a25-a7a5-65711201161e" valueTypeId="787ff196-1272-44ae-9922-1378fe1f0861"/>
+    <listType typeId="c6001562-d34f-4902-9be7-8e9cdbd10d44" valueTypeId="92795db8-9235-4d93-ab73-6d582ee2b0a7"/>
+    <managerType typeId="e73ca6ce-bbe1-4afe-8d4f-37f1b1184040" valueTypeId="014670f1-4519-495c-973a-d87380404b94"/>
+  </producedTypes>
+  <name>Склады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <hierarchical>Checked</hierarchical>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <attributes uuid="bbaaa30d-f188-4616-ad77-212e4306c5c0">
+    <name>бг_АвтоматичеcкиСоздаватьСкладскиеОрдераПриОформленииПеремещенийТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматически создавать складские ордера при оформлении перемещения товаров</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4857cc21-2b3d-46af-85f2-4acd3b819698">
+    <name>бг_КодКатегорииСкладаSolvo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория склада Solvo</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b57e131-de09-4ffa-85d8-97e25f8d8f82">
+    <name>бг_КонтролироватьСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контролировать серии</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="413897a3-430c-44a1-ad4b-885e6f48baac">
+    <name>бг_ОбязательнаяАгрегацияПриОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательная агрегация при отгрузке</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0fdc6654-0ca3-4c8f-b872-e773cbcd6532">
+    <name>бг_Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="656f952b-c226-4c01-bf8f-b2c608420a4e">
+    <name>бг_ПунктНазначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт назначения (транспорт)</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.битПунктыНазначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8885feb-05b8-4a97-951c-dc1491f82355">
+    <name>бг_ПунктРазгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пункт разгрузки</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5db970b7-c411-4703-8572-5298da986c70">
+    <name>бг_РазрешитьПланированиеОтгрузокБезУказанияСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить планирование отгрузок без указания серий</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="599ec81c-0438-440f-81d2-0ae860a89824">
+    <name>бг_ТипВнешнейСкладскойСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип внешней складской системы</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>EnumRef.бг_ТипыВнешнихСкладскихСистем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9aec924-ab71-4e97-8869-9ae8d08e954d">
+    <name>ИспользоватьОрдернуюСхемуПриОтгрузке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ae05bc67-5fef-416e-90c2-e48e32688bfb">
+    <name>КонтролироватьСвободныеОстатки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ba8edc13-a56d-4baf-8a4c-626e118242c9">
+    <name>ЦеховаяКладовая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="4b36d2b5-7979-4c9d-b3e1-ba5a63191b19">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

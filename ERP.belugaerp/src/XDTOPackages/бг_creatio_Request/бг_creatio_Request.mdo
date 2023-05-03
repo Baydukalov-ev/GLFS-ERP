@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd943b46-84e2-4374-9fe9-3aaee7aeb914">
+  <name>бг_creatio_Request</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос (Creatio)</value>
+  </synonym>
+  <namespace>http://BPMonline/sin/request</namespace>
+</mdclass:XDTOPackage>

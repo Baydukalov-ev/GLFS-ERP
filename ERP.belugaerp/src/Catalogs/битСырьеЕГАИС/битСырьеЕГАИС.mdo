@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="392bdcf9-ecc0-49cb-a8cc-e90dad99d73b">
+  <producedTypes>
+    <objectType typeId="5d6ac496-197b-401a-9cf3-b911bbd4391e" valueTypeId="92b20495-9a99-4770-9e7f-42b7397d950f"/>
+    <refType typeId="1abe6f49-5c90-45fe-b10c-f730528439cf" valueTypeId="f9b6bd48-bb5d-4020-8bff-29669b392313"/>
+    <selectionType typeId="76f29f39-741d-4fdb-9a32-856fb9cea311" valueTypeId="46018cb3-904e-4c8e-a238-80e61daffc18"/>
+    <listType typeId="e466142c-de9d-489a-9afa-1e01c63e4755" valueTypeId="64c4540c-1b71-40f5-9335-29c507eb5908"/>
+    <managerType typeId="8f2b950d-0719-4e8d-959f-045a7a9f2fab" valueTypeId="622b47c5-210f-40fb-acaa-8549717c5cb1"/>
+  </producedTypes>
+  <name>битСырьеЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="f996bf03-c3ff-4d92-b868-e1a3b0fa697a">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значения в соответствии со справочником ЕГАИС</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

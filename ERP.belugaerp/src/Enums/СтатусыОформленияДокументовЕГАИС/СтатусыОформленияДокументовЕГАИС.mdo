@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc7b89ee-0c73-4322-ad3e-e0d8f4474720">
+  <producedTypes>
+    <refType typeId="675956b9-5772-4b19-bc92-d962335e599a" valueTypeId="9e85e87d-42b0-4cb5-9055-253562f86ce2"/>
+    <listType typeId="b618f467-21fd-4377-8034-ae841fdd6792" valueTypeId="ca1e0b00-0d3b-4d32-afe6-7fec671f91bc"/>
+    <managerType typeId="b43c6fcd-32af-4f69-a171-8d8869886b84" valueTypeId="4c536c2b-61d4-4090-8c83-3e9960d1be17"/>
+  </producedTypes>
+  <name>СтатусыОформленияДокументовЕГАИС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="835f959a-2249-4a12-ad13-39ee71b63117">
+    <name>НеОформлено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="53d84ab1-e145-4b12-8dfa-48977e70110b">
+    <name>ОформленоЧастично</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="cba8250b-513a-46db-8143-a8cc91eef833">
+    <name>Оформлено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b869c974-dca3-4459-8bea-4c2fdc0bf706">
+    <name>ТребуетсяСопоставлениеНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bba4c59a-bf07-47ce-be83-02616c25f194">
+    <name>НеТребуется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>
